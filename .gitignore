@@ -32,7 +32,6 @@ config/atmospheric-client.toml
 config/betteradvancements-client.toml
 config/betterf3.toml
 config/bettermodsbutton-client.toml
-config/bettertitlescreen-client.toml
 config/bigbrain-client.toml
 config/blueprint-client.toml
 config/blur.json
