@@ -1,5 +1,5 @@
 # Raspberry-Flavoured
- Minecraft 1.19.2 modpack
+ A Minecraft 1.19.2 modpack
 
  RESOURCE PACK/DATAPACK CREDITS:
 
