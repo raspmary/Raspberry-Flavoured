@@ -1,5 +1,0 @@
-
-[experiments]
-	#Enabled the hud experiment, adding custom hud renderers
-	hud = false
-
