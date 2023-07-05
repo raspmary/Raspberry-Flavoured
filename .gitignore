@@ -1,0 +1,23 @@
+*
+!*/
+
+# track this file
+!.gitignore
+
+# track .gitattributes
+!.gitattributes
+
+# track README.md
+!README.md
+
+# whitelist everything in ./config/
+!config/
+
+# whitelist everything in ./defaultconfigs/
+!defaultconfigs/
+
+# whitelist everything in ./kubejs/
+!kubejs/
+
+# whitelist everything in ./addons/
+!addons/
