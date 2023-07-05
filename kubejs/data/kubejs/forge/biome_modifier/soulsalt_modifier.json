@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:soul_sand_valley",
+  "features": [
+    "kubejs:soul_salt"
+  ],
+  "step": "underground_ores"
+}

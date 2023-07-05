@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    [
+		{
+			"item": "farmersdelight:cabbage"
+		},
+		{
+			"item": "farmersdelight:cabbage_leaf"
+		}
+	],
+    {
+      "tag": "farmersdelight:cabbage_roll_ingredients"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "farmersdelight:cabbage_rolls"
+  }
+}

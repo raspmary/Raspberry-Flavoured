@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:crops/rice"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    [
+      {
+        "tag": "culturaldelights:corn_or_kernels"
+      },
+      {
+        "tag": "forge:crops/onion"
+      }
+    ]
+  ],
+  "result": {
+    "item": "farmersdelight:fried_rice"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

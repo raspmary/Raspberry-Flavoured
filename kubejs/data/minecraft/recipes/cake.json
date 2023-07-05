@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "createaddition:cake_base"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "tag": "forge:milk"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cake"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "autumnity:stripped_maple_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "results": [
+    {
+      "item": "autumnity:maple_log"
+    }
+  ]
+}

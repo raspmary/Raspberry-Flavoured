@@ -1,0 +1,53 @@
+{
+  "parent": "raspberryflavoured:pickaxe",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "minecraft:furnace"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"1": {
+      "conditions": {
+        "block": "nethersdelight:blackstone_furnace"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"2": {
+      "conditions": {
+        "block": "quark:blackstone_furnace"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"3": {
+      "conditions": {
+        "block": "quark:deepslate_furnace"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Craft and place down any type of furnace to process materials"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "nethersdelight:blackstone_furnace"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hot Topic"
+    }
+  },
+  "requirements": [
+    [
+      "0",
+	  "1",
+	  "2",
+	  "3"
+    ]
+  ]
+}

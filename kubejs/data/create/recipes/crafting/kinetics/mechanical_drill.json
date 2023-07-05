@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+	"G": {
+      "tag": "forge:plates/steel"
+    },
+	"S": {
+      "tag": "forge:ingots/steel"
+    },
+    "C": {
+      "item": "alloyed:steel_casing"
+    },
+    "I": {
+      "item": "alloyed:steel_block"
+    }
+  },
+  "pattern": [
+    " S ",
+    "GIG",
+    "ACA"
+  ],
+  "result": {
+    "item": "create:mechanical_drill"
+  }
+}

@@ -1,0 +1,102 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "down",
+			"facing": "north"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "horizontal",
+			"facing": "north"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "up",
+			"facing": "south"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "down",
+			"facing": "south"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "horizontal",
+			"facing": "south"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "up",
+			"facing": "west"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "down",
+			"facing": "west"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "horizontal",
+			"facing": "west"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "up",
+			"facing": "east"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "down",
+			"facing": "east"
+		},
+		"Name": "autumnity:snail_shell_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"orientation": "horizontal",
+			"facing": "east"
+		},
+		"Name": "autumnity:snail_shell_block"
+	}
+]

@@ -1,0 +1,14 @@
+
+#Game settings
+[settings]
+	#Are tea bushes bonemealable?
+	enableBoneMealTeaBush = true
+	#Are coffee bushes bonemealable?
+	enableBoneMealCoffeeBush = true
+	#Chance of generating clusters. Smaller value = more frequent.
+	#Range: > 0
+	teaBushChance = 1
+	#Chance of generating clusters. Smaller value = more frequent.
+	#Range: > 0
+	coffeeBushChance = 1
+

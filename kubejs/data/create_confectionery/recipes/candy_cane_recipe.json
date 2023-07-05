@@ -1,0 +1,32 @@
+{
+  "group": "create_confectionery",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "neapolitan:mint_leaves"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "create_confectionery:candy_cane",
+      "count": 4
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createaddition:cake_base"
+    },
+    {
+      "item": "neapolitan:mint_leaves"
+    },
+    {
+      "item": "neapolitan:mint_leaves"
+    }
+  ],
+  "results": [
+    {
+      "item": "neapolitan:mint_cake"
+    }
+  ]
+}

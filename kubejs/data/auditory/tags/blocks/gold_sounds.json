@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "quark:gold_bars",
+	"quark:gold_button",
+	"supplementaries:gold_door",
+	"supplementaries:gold_trapdoor",
+	"supplementaries:gold_gate",
+	"supplementaries:hourglass",
+	"architects_palette:gold_nub"
+  ]
+}

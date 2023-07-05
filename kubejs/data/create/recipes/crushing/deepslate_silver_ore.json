@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "oreganized:deepslate_silver_ore"
+    }
+  ],
+  "processingTime": 450,
+  "results": [
+    {
+	  "count": 2,
+      "item": "create:crushed_raw_silver"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_silver"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}

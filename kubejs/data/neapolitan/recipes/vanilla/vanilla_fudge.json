@@ -1,0 +1,25 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 0.3,
+  "fermentingtime": 250,
+  "fluiditem": {
+    "tag": "forge:milk"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "neapolitan:dried_vanilla_pods"
+    },
+    {
+      "item": "neapolitan:dried_vanilla_pods"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 4,
+    "item": "neapolitan:vanilla_fudge"
+  },
+  "temperature": 4
+}

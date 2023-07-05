@@ -1,0 +1,22 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "nethersdelight:propelplant_cane"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

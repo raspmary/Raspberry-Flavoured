@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:content_observer"
+    },
+    {
+    "item": "toms_storage:ts.inventory_cable"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.level_emitter"
+  }
+}

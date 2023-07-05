@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:oats"
+    },
+	{
+	  "chance": 0.1,
+      "item": "kubejs:oats"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

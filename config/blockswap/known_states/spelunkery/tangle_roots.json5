@@ -1,0 +1,422 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "0"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "1"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "1"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "2"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "2"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "3"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "3"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "4"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "4"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "5"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "5"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "6"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "6"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "7"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "7"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "8"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "8"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "9"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "9"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "10"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "10"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "11"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "11"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "12"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "12"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "13"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "13"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "14"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "14"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "15"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "15"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "16"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "16"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "17"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "17"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "18"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "18"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "19"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "19"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "20"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "20"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "21"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "21"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "22"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "22"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "23"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "23"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "24"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "24"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"age": "25"
+		},
+		"Name": "spelunkery:tangle_roots"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"age": "25"
+		},
+		"Name": "spelunkery:tangle_roots"
+	}
+]

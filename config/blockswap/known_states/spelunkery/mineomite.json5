@@ -1,0 +1,2164 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "north"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "east"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "south"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "west"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "up"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "true",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "1",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "2",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "3",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "4",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "5",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "6",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "7",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "8",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sticks": "9",
+			"primed": "false",
+			"facing": "down"
+		},
+		"Name": "spelunkery:mineomite"
+	}
+]

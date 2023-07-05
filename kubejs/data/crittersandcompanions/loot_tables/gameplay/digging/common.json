@@ -1,0 +1,51 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:group",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:leather"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:experience_bottle"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:golden_apple"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:name_tag"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "berry_good:glow_berry_pips"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:gunpowder"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "spelunkery:dust_bun"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                }
+            ]
+        }
+    ]
+}

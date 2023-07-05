@@ -1,0 +1,324 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "true",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "true",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "false",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "false",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "false",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "true",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "true",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "false",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "false",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "false",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "foot",
+			"occupied": "false",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "true",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "true",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "false",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "false",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "false",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "foot",
+			"occupied": "false",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "true",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "true",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "foot",
+			"occupied": "true",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "head",
+			"occupied": "false",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "head",
+			"occupied": "false",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"part": "foot",
+			"occupied": "false",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"part": "foot",
+			"occupied": "false",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:yellow_bedroll"
+	}
+]

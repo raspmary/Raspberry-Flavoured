@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "createaddition:cake_base"
+        },
+        {
+            "item": "neapolitan:dried_vanilla_pods"
+        },
+        {
+            "item": "neapolitan:dried_vanilla_pods"
+        }
+    ],
+    "result": {
+        "item": "neapolitan:vanilla_cake"
+    }
+}

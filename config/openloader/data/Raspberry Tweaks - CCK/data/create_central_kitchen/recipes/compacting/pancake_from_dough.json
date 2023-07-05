@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:not"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "forge:milk"
+    },
+    {
+      "amount": 250,
+      "fluid": "create_central_kitchen:syrup",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "autumnity:pancake"
+    }
+  ]
+}

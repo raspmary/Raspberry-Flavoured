@@ -1,0 +1,2524 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "1"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "2"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "3"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "4"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "5"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "6"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "1",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "1",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "2",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "2",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "3",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "3",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "4",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "4",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "5",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "5",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "6",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "6",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "7",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "7",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "8",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance_9": "8",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance_9": "9",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance_9": "9",
+			"distance": "7"
+		},
+		"Name": "ecologics:coconut_leaves"
+	},
+	{
+		"Name": "ecologics:coconut_leaves"
+	}
+]

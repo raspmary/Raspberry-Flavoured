@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spelunkery:tangle_roots"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "chance": 0.75,
+      "count": 1,
+      "item": "create:wheat_flour"
+    },
+    {
+      "chance": 0.5,
+      "count": 1,
+      "item": "farmersdelight:straw"
+    }
+  ]
+}

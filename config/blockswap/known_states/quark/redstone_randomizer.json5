@@ -1,0 +1,102 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "left",
+			"facing": "north"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "right",
+			"facing": "north"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "off",
+			"facing": "south"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "left",
+			"facing": "south"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "right",
+			"facing": "south"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "off",
+			"facing": "west"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "left",
+			"facing": "west"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "right",
+			"facing": "west"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "off",
+			"facing": "east"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "left",
+			"facing": "east"
+		},
+		"Name": "quark:redstone_randomizer"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "right",
+			"facing": "east"
+		},
+		"Name": "quark:redstone_randomizer"
+	}
+]

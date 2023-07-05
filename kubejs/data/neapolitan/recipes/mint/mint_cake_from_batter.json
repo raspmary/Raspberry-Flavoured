@@ -1,0 +1,20 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 500,
+      "fluid": "kubejs:cake_batter"
+    },
+    {
+      "item": "neapolitan:mint_leaves"
+    },
+    {
+      "item": "neapolitan:mint_leaves"
+    }
+  ],
+  "results": [
+    {
+      "item": "neapolitan:mint_cake"
+    }
+  ]
+}

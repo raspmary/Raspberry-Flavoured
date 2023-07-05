@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "oreganized:lead_ingot"
+    },
+    "N": {
+      "item": "oreganized:lead_nugget"
+    }
+  },
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:chain"
+  }
+}

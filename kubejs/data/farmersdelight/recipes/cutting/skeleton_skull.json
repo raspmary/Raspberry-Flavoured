@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:skeleton_skull"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:bone"
+    },
+	{
+	  "chance": 0.25,
+      "item": "minecraft:bone"
+    },
+	{
+	  "chance": 0.1,
+      "item": "minecraft:bone"
+    },
+	{
+      "item": "create:experience_nugget",
+	  "count": 4
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  }
+}

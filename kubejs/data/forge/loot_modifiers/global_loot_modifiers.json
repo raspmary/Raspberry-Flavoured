@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "entries": [
+    "farmersdelight:straw_from_giant_tall_grass",
+	"farmersdelight:straw_from_dead_bush",
+	"farmersdelight:straw_from_tall_dead_bush",
+	"farmersdelight:scavenging_cococrab",
+	"farmersdelight:scavenging_cococrab_cooked",
+	"farmersdelight:scavenging_skeleton_skull",
+	"farmersdelight:scavenging_skeleton_skull_baby",
+	"farmersdelight:scavenging_skeleton_skull_stray",
+	"farmersdelight:scavenging_skeleton_skull_villager",
+	"farmersdelight:scavenging_zombie_head",
+	"farmersdelight:scavenging_zombie_head_husk",
+	"farmersdelight:scavenging_zombie_head_drowned",
+	"farmersdelight:scavenging_zombie_head_villager",
+	"farmersdelight:scavenging_zombie_head_chilled",
+	"farmersdelight:scavenging_creeper_head",
+	"farmersdelight:scavenging_creeper_head_creepie",
+	"farmersdelight:scavenging_enderman_head",
+	"farmersdelight:scavenging_wither_head",
+	"create_central_kitchen:slicing_honey_cake",
+	"respiteful:slicing_green_tea_cake",
+	"respiteful:slicing_yellow_tea_cake",
+	"respiteful:slicing_black_tea_cake",
+	"evoked:remove_totem_undying_from_trickster"
+  ]
+}

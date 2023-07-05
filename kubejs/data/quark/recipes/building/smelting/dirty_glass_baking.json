@@ -1,0 +1,9 @@
+{
+  "type": "clayworks:baking",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "minecraft:soul_sand"
+  },
+  "result": "quark:dirty_glass"
+}

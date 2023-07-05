@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": [
+    {
+      "item": "architects_palette:withered_bone"
+    },
+	{
+	  "chance": 0.75,
+      "item": "architects_palette:withered_bone"
+    },
+	{
+	  "chance": 0.25,
+      "item": "architects_palette:withered_bone",
+	  "count": 2
+    },
+	{
+      "item": "create:experience_nugget",
+	  "count": 12
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  }
+}

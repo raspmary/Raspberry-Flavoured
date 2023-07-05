@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "endersdelight:enderman_loot"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "item": "endersdelight:chorus_juice"
+    }
+  ],
+  "result": {
+    "item": "endersdelight:pearl_pasta_wood"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

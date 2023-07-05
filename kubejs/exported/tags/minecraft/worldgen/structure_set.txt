@@ -1,0 +1,69 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 20, 2023, 4:55:18 PM
+
+#repurposed_structures:overworld_ancient_city_avoid
+- minecraft:ocean_monuments (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:nether_shipwreck_avoid
+- repurposed_structures:temples_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outposts_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:villages_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_cities_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:nether_complexes (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:nether_city_avoid
+- repurposed_structures:shipwrecks_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outposts_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_cities_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:nether_complexes (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:nether_monument_avoid
+- repurposed_structures:cities_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:shipwrecks_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outposts_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_cities_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:nether_complexes (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:nether_village_avoid
+- repurposed_structures:outposts_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_cities_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:overworld_outpost_avoid
+- repurposed_structures:villages_overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:villages (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:mansion_avoid
+- minecraft:woodland_mansions (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:end_outpost_avoid
+- minecraft:end_cities (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_cities_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:overworld_city_avoid
+- repurposed_structures:mansions_overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:woodland_mansions (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:overworld_monument_avoid
+- repurposed_structures:fortresses_overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansions_overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansions_mangrove (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:villages_overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:villages (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:yungs_fortresses_overworld (from Repurposed_Structures-Better_Nether_Fortress_v4)
+
+#repurposed_structures:jungle_fortress_avoid
+- repurposed_structures:yungs_fortresses_overworld (from Repurposed_Structures-Better_Nether_Fortress_v4)
+
+#betterfortresses:fortress_avoid
+- minecraft:nether_complexes (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+
+#repurposed_structures:overworld_village_avoid
+- minecraft:villages (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:pillager_outposts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:underground_bastion_avoid
+- minecraft:strongholds (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:ancient_cities (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:end_mineshaft_avoid
+- repurposed_structures:strongholds_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_cities_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)

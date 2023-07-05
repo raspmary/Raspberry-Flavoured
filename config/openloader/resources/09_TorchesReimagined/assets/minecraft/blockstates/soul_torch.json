@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/torch/soul_torch_standing"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "north"
+		},
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "northeast"
+		},
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "east"
+		},
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "southeast"
+		},
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "south"
+		},
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "southwest"
+		},
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "west"
+		},
+		"Name": "environmental:giant_lily_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"position": "northwest"
+		},
+		"Name": "environmental:giant_lily_pad"
+	}
+]

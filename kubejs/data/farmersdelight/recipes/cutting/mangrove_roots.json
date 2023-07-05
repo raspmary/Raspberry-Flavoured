@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_roots"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:stick",
+      "count": 1
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:mangrove_propagule",
+      "count": 1,
+      "chance": 0.01
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

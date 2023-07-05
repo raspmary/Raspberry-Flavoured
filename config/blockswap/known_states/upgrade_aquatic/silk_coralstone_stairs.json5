@@ -1,0 +1,1763 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "north"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "south"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "west"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "top",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "true",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_left",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer_right",
+			"powered": "false",
+			"half": "bottom",
+			"facing": "east"
+		},
+		"Name": "upgrade_aquatic:silk_coralstone_stairs"
+	}
+]

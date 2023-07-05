@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "endersdelight:shulker_loot"
+    },
+    {
+      "item": "endersdelight:mite_crust"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "item": "endersdelight:crawling_sandwich",
+    "count": 1
+  }
+}

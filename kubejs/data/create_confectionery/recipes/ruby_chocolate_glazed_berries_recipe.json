@@ -1,0 +1,19 @@
+{
+  "group": "create_confectionery",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "fluid": "create_confectionery:ruby_chocolate",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:ruby_chocolate_glazed_berries"
+    }
+  ]
+}

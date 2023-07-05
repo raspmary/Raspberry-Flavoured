@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "brewinandchewin:kippers"
+    },
+    {
+      "tag": "forge:cooked_eggs"
+    },
+    {
+      "tag": "culturaldelights:avocados"
+    }
+  ],
+  "result": {
+    "item": "kubejs:kipper_sandwich",
+    "count": 1
+  }
+}

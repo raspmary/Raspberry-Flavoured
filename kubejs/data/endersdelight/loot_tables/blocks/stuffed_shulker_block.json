@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "pool1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endersdelight:stuffed_shulker"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:stuffed_shulker_block",
+          "properties": {
+            "servings": "4"
+          }
+        }
+      ]
+    }
+  ]
+}

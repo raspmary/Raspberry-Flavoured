@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_soil"
+    },
+	{
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:warped_roots"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "kubejs:soul_salt"
+    }
+  ],
+  "result": {
+	"count": 2,
+    "item": "nethersdelight:soul_compost"
+  }
+}

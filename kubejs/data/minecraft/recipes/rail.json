@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": [
+	{
+      "tag": "forge:nuggets/iron"
+    },
+	{
+      "tag": "forge:nuggets/lead"
+    }
+	]
+  },
+  "pattern": [
+    "X X",
+    "X#X",
+    "X X"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:rail"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createaddition:cake_base"
+    },
+    {
+      "amount": 250,
+      "fluid": "create_central_kitchen:black_tea"
+    }
+  ],
+  "results": [
+    {
+      "item": "respiteful:black_tea_cake"
+    }
+  ]
+}

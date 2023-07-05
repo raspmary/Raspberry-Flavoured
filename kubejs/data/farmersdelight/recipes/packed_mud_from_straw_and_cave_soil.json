@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "abundant_atmosphere:cave_soil"
+    },
+    {
+      "item": "abundant_atmosphere:cave_soil"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:packed_mud"
+  }
+}

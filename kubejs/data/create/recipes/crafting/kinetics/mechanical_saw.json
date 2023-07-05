@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:plates/steel"
+    },
+    "C": {
+      "item": "alloyed:steel_casing"
+    },
+    "I": {
+      "item": "alloyed:steel_block"
+    },
+    "L": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AIA",
+    "LCL"
+  ],
+  "result": {
+    "item": "create:mechanical_saw"
+  }
+}

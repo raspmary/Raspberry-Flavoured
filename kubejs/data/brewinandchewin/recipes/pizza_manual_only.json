@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "f": {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    "m": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "p": {
+      "item": "farmersdelight:beef_patty"
+    },
+    "t": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "w": {
+      "item": "farmersdelight:wheat_dough"
+    }
+  },
+  "pattern": [
+    " f ",
+    "mtp",
+    " w "
+  ],
+  "result": {
+    "item": "brewinandchewin:pizza"
+  }
+}

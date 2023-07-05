@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "c": {
+      "item": "neapolitan:chocolate_bar"
+    },
+    "m": {
+      "item": "farmersdelight:wheat_dough"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " m ",
+    "ccc",
+    "xOx"
+  ],
+  "result": {
+    "item": "farmersdelight:chocolate_pie"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:crops/corn"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "culturaldelights:corn_kernels"
+    },
+    {
+      "item": "culturaldelights:corn_kernels",
+      "chance": 0.25
+    },
+    {
+      "item": "farmersdelight:straw"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:plates/brass"
+    },
+    "S": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "ASA"
+  ],
+  "result": {
+	"count": 3,
+    "item": "create:attribute_filter"
+  }
+}

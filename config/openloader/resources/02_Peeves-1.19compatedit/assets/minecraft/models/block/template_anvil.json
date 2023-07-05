@@ -1,0 +1,56 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "block/anvil",
+		"particle": "block/anvil"
+	},
+	"elements": [
+		{
+			"name": "Anvil base",
+			"from": [2, 0, 2],
+			"to": [14, 5, 14],
+			"faces": {
+				"north": {"uv": [0.5, 6.75, 3.5, 8], "texture": "#1"},
+				"east": {"uv": [0.5, 6.75, 3.5, 8], "texture": "#1"},
+				"south": {"uv": [0.5, 6.75, 3.5, 8], "texture": "#1"},
+				"west": {"uv": [0.5, 6.75, 3.5, 8], "texture": "#1"},
+				"up": {"uv": [3.5, 8, 6.5, 11], "texture": "#1"},
+				"down": {"uv": [0.5, 8, 3.5, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Wider section beneath top portion",
+			"from": [6, 5, 4],
+			"to": [10, 10, 12],
+			"faces": {
+				"north": {"uv": [3, 6.75, 4, 5.5], "texture": "#1"},
+				"east": {"uv": [1, 6.75, 3, 5.5], "texture": "#1"},
+				"south": {"uv": [3, 6.75, 4, 5.5], "texture": "#1"},
+				"west": {"uv": [1, 6.75, 3, 5.5], "texture": "#1"},
+				"up": {"uv": [3.25, 2.75, 4.25, 0.75], "texture": "#1"},
+				"down": {"uv": [3.25, 2.75, 4.25, 0.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Anvil top",
+			"from": [3, 10, 0],
+			"to": [13, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 6.5, 5.5], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 5.5], "texture": "#1"},
+				"south": {"uv": [4, 4, 6.5, 5.5], "texture": "#1"},
+				"west": {"uv": [0, 4, 4, 5.5], "texture": "#1"},
+				"up": {"uv": [0, 0, 2.5, 4], "texture": "#top"},
+				"down": {"uv": [2.5, 0, 5, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

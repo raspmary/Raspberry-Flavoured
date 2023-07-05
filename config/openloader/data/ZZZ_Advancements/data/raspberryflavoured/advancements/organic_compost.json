@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:plant_seed",
+  "criteria": {
+    "00": {
+      "conditions": {
+        "block": "farmersdelight:organic_compost"
+	  },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Make and place down some organic compost and let it sit for a while"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:organic_compost"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Decomposition"
+    }
+  },
+  "requirements": [
+    [
+      "00"
+    ]
+  ]
+}

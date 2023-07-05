@@ -1,0 +1,814 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "up",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "side",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "none",
+			"east": "up"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "up",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "side",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "none",
+			"east": "side"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "up",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "side",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "up",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "up",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "up",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "side",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "side",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "side",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "up",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "side",
+			"south": "none",
+			"north": "none",
+			"east": "none"
+		},
+		"Name": "spelunkery:salt"
+	},
+	{
+		"Name": "spelunkery:salt"
+	}
+]

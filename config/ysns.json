@@ -1,0 +1,10 @@
+{
+  "blacklisted_entities": [
+    "crittersandcompanions:dragonfly",
+    "crittersandcompanions:dumbo_octopus",
+    "crittersandcompanions:koi_fish",
+    "crittersandcompanions:leaf_insect",
+    "crittersandcompanions:sea_bunny",
+    "crittersandcompanions:shima_enaga"
+  ]
+}

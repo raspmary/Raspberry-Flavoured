@@ -1,0 +1,37 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+	[
+    {
+      "item": "minecraft:ink_sac"
+    },
+	{
+      "item": "minecraft:glow_ink_sac"
+    },
+	{
+      "item": "miners_delight:squid"
+    },
+	{
+      "item": "miners_delight:glow_squid"
+    },
+	{
+      "item": "miners_delight:tentacles"
+    }
+	]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:squid_ink_pasta"
+  }
+}

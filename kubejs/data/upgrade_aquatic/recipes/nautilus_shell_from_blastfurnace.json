@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "kubejs:raw_ammonite"
+  },
+  "result": "minecraft:nautilus_shell",
+  "experience": 1.0,
+  "cookingtime": 200
+}

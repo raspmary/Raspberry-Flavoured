@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_confectionery:cocoa_powder"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_confectionery:cocoa_butter"
+    }
+  ]
+}

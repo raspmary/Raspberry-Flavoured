@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "tag": "brewinandchewin:bacon_or_mushroom"
+    },
+    "c": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "e": {
+      "tag": "balm:eggs"
+    },
+    "f": {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    "l": {
+      "tag": "forge:crops/cabbage"
+    },
+    "m": {
+      "tag": "forge:milk"
+    }
+  },
+  "pattern": [
+    "blm",
+    "ecf"
+  ],
+  "result": {
+    "item": "brewinandchewin:quiche"
+  }
+}

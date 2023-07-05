@@ -1,0 +1,16 @@
+{
+  "group": "create_confectionery",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "create_confectionery:black_chocolate",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:bar_of_black_chocolate"
+    }
+  ]
+}

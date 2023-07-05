@@ -1,0 +1,13 @@
+
+[effects]
+	#If the Snow Top drinks' special effects should be used
+	enableSnowTopDrinkEffects = true
+	#The minimum duration requirement for an effect to be upgraded by Snow Top Green Tea / Snow Top Coffee
+	#Range: > 1
+	snowTopDrinkEffectMinDuration = 400
+	#The maximum duration of effects transformed by Snow Top Yellow Tea / Snow Top Black Tea
+	#Range: > 1
+	snowTopDrinkEffectMaxDuration = 32766
+	#If the foods made from tea in Farmer's Respite should use Respiteful's effects instead
+	replaceFarmersRespiteFoodEffects = true
+

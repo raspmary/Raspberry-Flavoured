@@ -1,0 +1,18 @@
+[shoulderPets]
+dismountFallDistance = 4.0
+dismountDamageThreshold = 0.5
+smartDismount = true
+dismountUnderWater = true
+dismountWhileFlying = false
+dismountInWater = false
+[follow]
+petForceTeleportingIfFollowFailed = true
+petWontChangeDimensionUnlessOwnerIsNearbyRadius = 3.0
+portalMaxTeleportedPets = -1
+portalTeleportingPets = true
+[injuredStatus]
+healthRatio = 0.2
+stopAttacking = true
+teleportToOwner = true
+[combat]
+betterSweepingEdgeEffect = true

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brazier",
+  "key": {
+    "C": {
+      "item": "minecraft:campfire"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "D": {
+      "item": "minecraft:polished_deepslate"
+    }
+  },
+  "pattern": [
+    "BCB",
+    "DDD"
+  ],
+  "result": {
+    "item": "abundant_atmosphere:brazier"
+  }
+}

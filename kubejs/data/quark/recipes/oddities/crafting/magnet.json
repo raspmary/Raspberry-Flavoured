@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "BFR",
+    "COC"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:cobblestone"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+	"O": {
+      "tag": "forge:ingots/copper"
+    },
+    "B": {
+      "tag": "forge:gems/lapis"
+    },
+    "R": {
+      "item": "spelunkery:cinnabar"
+    },
+    "F": {
+      "item": "spelunkery:magnetite_chunk"
+    }
+  },
+  "result": {
+    "item": "quark:magnet"
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "quark:flag",
+          "flag": "magnets"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "quark:flag",
+            "flag": "magnet_pre_end"
+          }
+        }
+      ]
+    }
+  ]
+}

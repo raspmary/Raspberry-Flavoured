@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "particle": "minecraft:block/soul_campfire_log",
+    "fire": "minecraft:block/soul_campfire_fire",
+    "log": "minecraft:block/soul_campfire_log",
+    "lit_log": "minecraft:block/soul_campfire_log_lit"
+  }
+}

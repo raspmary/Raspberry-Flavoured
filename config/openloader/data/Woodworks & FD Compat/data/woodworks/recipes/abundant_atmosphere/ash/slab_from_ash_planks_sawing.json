@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 2,
+  "ingredient": {
+    "item": "abundant_atmosphere:ash_planks"
+  },
+  "result": "abundant_atmosphere:ash_slab"
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #C",
+        "#S#",
+        "## "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:paper"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        },
+        "S": {
+            "item": "farmersdelight:canvas"
+        }
+    },
+    "result": {
+        "item": "minecraft:name_tag",
+        "count": 1
+    }
+}

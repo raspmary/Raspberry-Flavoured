@@ -1,0 +1,2688 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 20, 2023, 4:55:18 PM
+
+#upgrade_aquatic:has_feature/ammonite_ore
+- #minecraft:is_beach (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- #minecraft:is_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:stony_shore (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#spelunkery:has_swamp_noise
+- minecraft:mangrove_swamp (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:swamp (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#minecraft:has_structure/nether_fortress
+- #minecraft:is_nether (from Default)
+
+#forge:is_slope
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.11-universal.jar)
+
+#minecraft:has_structure/jungle_temple
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+
+#repurposed_structures:has_structure/wells/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#yungsbridges:collections/badlands
+- #minecraft:is_badlands (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:savanna_badlands? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- byg:atacama_desert? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #forge:is_mesa? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #c:in_mesa? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #forge:is_badlands? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #c:badlands? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+
+#repurposed_structures:has_structure/dungeons/ocean
+- #repurposed_structures:collections/oceans (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#yungsbridges:collections/savanna
+- #minecraft:is_savanna (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:arid_highlands? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:hot_shrubland? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:sakura_grove? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:sakura_valley? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- projectvibrantjourneys:baobab_fields? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #forge:is_savanna? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #c:savanna? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+
+#atmospheric:is_dunes
+- atmospheric:dunes (from atmospheric-1.19.2-5.0.0.jar)
+- atmospheric:flourishing_dunes (from atmospheric-1.19.2-5.0.0.jar)
+- atmospheric:rocky_dunes (from atmospheric-1.19.2-5.0.0.jar)
+- atmospheric:petrified_dunes (from atmospheric-1.19.2-5.0.0.jar)
+
+#yungsextras:has_structure/vanilla_desert_well
+- minecraft:desert (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- #forge:is_desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- #c:desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- terralith:lush_desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- biomesoplenty:lush_desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- projectvibrantjourneys:desert_shrubland? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- projectvibrantjourneys:verdant_sands? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+
+#yungsextras:has_structure/desert_decorations
+- minecraft:desert (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- #forge:is_desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- #c:desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- terralith:lush_desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- biomesoplenty:lush_desert? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- projectvibrantjourneys:desert_shrubland? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- projectvibrantjourneys:verdant_sands? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+
+#repurposed_structures:has_structure/mineshafts/dark_forest
+- #repurposed_structures:collections/spooky_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#spelunkery:has_nether_veins
+- #minecraft:is_nether (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#minecraft:produces_corals_from_bonemeal
+- minecraft:warm_ocean (from Default)
+
+#windswept:has_structure/chestnut_weathered_house
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+
+#windswept:has_feature/nightshades
+- #minecraft:is_forest (from windswept-1.19.2-2.2.2.jar)
+- #minecraft:is_taiga (from windswept-1.19.2-2.2.2.jar)
+- minecraft:dark_forest (from windswept-1.19.2-2.2.2.jar)
+
+#forge:is_peak
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:stony_peaks (from forge-1.19.2-43.2.11-universal.jar)
+
+#windswept:has_feature/bluebells
+- minecraft:dark_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:birch_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:old_growth_birch_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+
+#minecraft:is_hill
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+
+#upgrade_aquatic:has_animal/lionfish
+- minecraft:warm_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#repurposed_structures:has_structure/monuments/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#windswept:has_feature/rare_snowy_holly_trees
+- minecraft:frozen_peaks (from windswept-1.19.2-2.2.2.jar)
+- minecraft:jagged_peaks (from windswept-1.19.2-2.2.2.jar)
+
+#repurposed_structures:has_structure/shipwrecks/warped
+- #repurposed_structures:collections/nether_warped_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mineshafts/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mansions/taiga
+- #repurposed_structures:collections/taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/outposts/nether_brick
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#upgrade_aquatic:has_feature/pickerelweed_extra
+- minecraft:flower_forest (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#repurposed_structures:has_structure/outposts/birch
+- #repurposed_structures:collections/birch_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_oak
+- minecraft:plains (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:sunflower_plains (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:swamp (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:meadow (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:brushland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- projectvibrantjourneys:prairie? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:plains? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#windswept:has_feature/grove_holly_trees
+- minecraft:grove (from windswept-1.19.2-2.2.2.jar)
+
+#upgrade_aquatic:has_monster/thrasher
+- minecraft:cold_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:deep_cold_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:frozen_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- #upgrade_aquatic:has_monster/great_thrasher (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#betterdeserttemples:has_structure/better_desert_temple
+- minecraft:desert (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+- #forge:is_desert? (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+- #c:desert? (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+- terralith:lush_desert? (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+- biomesoplenty:lush_desert? (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+- projectvibrantjourneys:desert_shrubland? (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+- projectvibrantjourneys:verdant_sands? (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+
+#repurposed_structures:has_structure/wells/mushroom
+- #repurposed_structures:collections/mushrooms (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/witch_huts/dark_forest
+- #repurposed_structures:collections/spooky_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_rare
+- minecraft:mushroom_fields (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:sunflower_plains (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:windswept_gravelly_hills (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:flower_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:old_growth_birch_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:old_growth_spruce_taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.11-universal.jar)
+- quark:glimmering_weald (from Quark-3.4-395.jar)
+
+#repurposed_structures:has_structure/dungeons/desert
+- #repurposed_structures:collections/deserts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:is_deep_ocean
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#minecraft:is_nether
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:crimson_forest (from Default)
+- minecraft:warped_forest (from Default)
+- minecraft:basalt_deltas (from Default)
+
+#repurposed_structures:collections/beaches
+- #minecraft:is_beach (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_beach? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:beach? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_mushroom
+- minecraft:mushroom_fields (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_mushroom? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:mushroom? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:fungal_jungle? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#environmental:has_animal/slabfish
+- #forge:is_swamp (from environmental-1.19.2-3.0.0.jar)
+
+#spelunkery:has_ice_noise
+- minecraft:ice_spikes (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_slopes (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:frozen_peaks (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#repurposed_structures:collections/badlands
+- #minecraft:is_badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:savanna_badlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:atacama_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_mesa? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:in_mesa? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_badlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:badlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/savannas
+- #minecraft:is_savanna (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:arid_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:hot_shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:sakura_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:sakura_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:baobab_fields? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_savanna? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:savanna? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_dry
+- #forge:is_dry/overworld (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_dry/nether (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_dry/end (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/dungeons/swamp
+- #repurposed_structures:collections/swamps (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#savage_and_ravage:has_monster/iceologer
+- #forge:is_snowy (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#neapolitan:spawns_bamboo_variant_chimpanzees
+- minecraft:bamboo_jungle (from neapolitan-1.19.2-4.0.2.jar)
+
+#repurposed_structures:collections/hills
+- #minecraft:is_hill (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_hills? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:extreme_hills? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#environmental:has_animal/deer
+- #minecraft:is_forest (from environmental-1.19.2-3.0.0.jar)
+
+#minecraft:has_structure/village_desert
+- minecraft:desert (from Default)
+
+#minecraft:is_forest
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:grove (from Default)
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- environmental:blossom_woods (from environmental-1.19.2-3.0.0.jar)
+- environmental:blossom_valleys (from environmental-1.19.2-3.0.0.jar)
+- autumnity:maple_forest (from autumnity-1.19.2-4.0.0.jar)
+
+#betterdungeons:has_structure/zombie_dungeon
+- #minecraft:is_mountain (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_hill (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_jungle (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_forest (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:stony_shore (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:mushroom_fields (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:ice_spikes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:frozen_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #byg:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:desert (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna_plateau (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:windswept_savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:plains? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:sunflower_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_slopes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:jagged_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:swamp (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:dripstone_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:lush_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#environmental:has_animal/duck
+- #forge:is_swamp (from environmental-1.19.2-3.0.0.jar)
+
+#supplementaries:has_basalt_ash
+- minecraft:basalt_deltas (from Supplementaries Generated Pack)
+
+#minecraft:polar_bears_spawn_on_alternate_blocks
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+
+#autumnity:has_feature/spotted_maple_tree/red
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:taiga (from autumnity-1.19.2-4.0.0.jar)
+- minecraft:windswept_forest (from autumnity-1.19.2-4.0.0.jar)
+
+#repurposed_structures:has_structure/temples/nether_wasteland
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betterstrongholds:has_structure/better_stronghold
+- #minecraft:is_mountain (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #minecraft:is_badlands (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_mesa? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:in_mesa? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_badlands? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #minecraft:is_hill (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #minecraft:is_taiga (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #minecraft:is_jungle (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_jungle? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:in_jungle? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #minecraft:is_forest (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_forest? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:forest? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:stony_shore (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:mushroom_fields (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_mushroom? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:mushroom? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:ice_spikes (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #byg:is_icy? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_icy? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:icy? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:desert (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_desert? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:desert? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:savanna (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:snowy_plains (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:plains (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:plains? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:sunflower_plains (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:swamp (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:savanna (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:savanna_plateau (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #forge:is_savanna? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- #c:savanna? (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:windswept_savanna (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:dripstone_caves (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+- minecraft:lush_caves (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+
+#repurposed_structures:has_structure/mineshafts/warped
+- #repurposed_structures:collections/nether_warped_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#spelunkery:has_desert_noise
+- minecraft:desert (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#forge:is_coniferous
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:old_growth_pine_taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:collections/floral
+- minecraft:flower_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:floral? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:flower_forests? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:blooming_plateau? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:blooming_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:moonlight_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:moonlight_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:sakura_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:sakura_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #byg:is_floral? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:cherry_blossom_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:lavender_field? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:lavender_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:blossoming_fields? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_structure/swamp_hut
+- minecraft:swamp (from Default)
+- environmental:marsh (from environmental-1.19.2-3.0.0.jar)
+
+#forge:is_water
+- #minecraft:is_ocean (from forge-1.19.2-43.2.11-universal.jar)
+- #minecraft:is_river (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/witch_huts/mangrove
+- #repurposed_structures:collections/mangroves (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/cities/overworld
+- #repurposed_structures:collections/giant_trees (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:only_allows_snow_and_gold_rabbits
+- minecraft:desert (from Default)
+
+#minecraft:stronghold_biased_to
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:desert (from Default)
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:meadow (from Default)
+- minecraft:grove (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- environmental:marsh (from environmental-1.19.2-3.0.0.jar)
+- environmental:blossom_woods (from environmental-1.19.2-3.0.0.jar)
+- environmental:blossom_valleys (from environmental-1.19.2-3.0.0.jar)
+- #atmospheric:is_rainforest (from atmospheric-1.19.2-5.0.0.jar)
+- #atmospheric:is_dunes (from atmospheric-1.19.2-5.0.0.jar)
+- autumnity:maple_forest (from autumnity-1.19.2-4.0.0.jar)
+- autumnity:pumpkin_fields (from autumnity-1.19.2-4.0.0.jar)
+
+#repurposed_structures:has_structure/ruins/land_icy
+- #repurposed_structures:collections/snowy_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:is_beach
+- minecraft:beach (from Default)
+- minecraft:snowy_beach (from Default)
+
+#repurposed_structures:has_structure/mineshafts/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/deserts
+- minecraft:desert (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:lush_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:lush_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:desert_shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:verdant_sands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_swamp
+- minecraft:swamp (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.11-universal.jar)
+
+#minecraft:is_mountain
+- minecraft:meadow (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+
+#repurposed_structures:has_structure/mansions/mangrove
+- #repurposed_structures:collections/mangroves (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#upgrade_aquatic:has_animal/jellyfish
+- minecraft:warm_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- #upgrade_aquatic:has_animal/cassiopea_jellyfish (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#repurposed_structures:has_structure/villages/warped
+- #repurposed_structures:collections/nether_warped_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/pyramids/icy
+- #repurposed_structures:collections/icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_dry/end
+- minecraft:the_end (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:small_end_islands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:end_midlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:end_highlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:end_barrens (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:collections/plains
+- minecraft:plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:sunflower_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:brushland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:prairie? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:plains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/witch_huts/oak
+- #repurposed_structures:collections/regular_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/regular_forests
+- minecraft:forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:red_oak_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:temperate_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:orchard? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:autumnal_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:cherry_blossom_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:cherry_blossom_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:orchard? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:seasonal_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:woodland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:old_growth_woodland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- magicalforest:magical_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ancient_copper_beech_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ancient_emerald_beech_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ancient_golden_beech_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:autumnal_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:cool_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:flowering_pantanal? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:spring_flower_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:autumnal_flower_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:sakura_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:wistman_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/dungeons/deep
+- #repurposed_structures:collections/overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_cold/overworld
+- minecraft:taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:frozen_ocean (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:frozen_river (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_beach (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:old_growth_pine_taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:cold_ocean (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:deep_cold_ocean (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:deep_frozen_ocean (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/igloos/grassy
+- #repurposed_structures:collections/regular_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/meadows (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_structure/end_city
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+- nullscape:void_barrens (from Nullscape_1.19.3_v1.2.1.jar)
+- nullscape:shadowlands (from Nullscape_1.19.3_v1.2.1.jar)
+- nullscape:crystal_peaks (from Nullscape_1.19.3_v1.2.1.jar)
+
+#repurposed_structures:has_structure/shipwrecks/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_dense/overworld
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:dark_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:old_growth_birch_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:old_growth_spruce_taiga (from forge-1.19.2-43.2.11-universal.jar)
+
+#structory:has_structure/chapel
+- minecraft:plains (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:savanna (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:sunflower_plains (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:sparse_jungle (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:birch_forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:dark_forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_birch_forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_spruce_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_pine_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:sakura_grove? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:lavender_forest? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:moonlight_grove? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:brushland? (from Structory_1.19.3_v1.3.1a.jar)
+- #terralith:has_structure/fortified_village? (from Structory_1.19.3_v1.3.1a.jar)
+- #c:savanna? (from Structory_1.19.3_v1.3.1a.jar)
+
+#yungsbridges:has_structure/bridge
+- #minecraft:is_river (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #c:river? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+
+#minecraft:has_structure/bastion_remnant
+- minecraft:crimson_forest (from Default)
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:warped_forest (from Default)
+
+#repurposed_structures:collections/meadows
+- minecraft:meadow (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:field? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:highland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:highland_moor? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:rocky_shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:clover_patch? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:pine_meadows? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:cold_plains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:cool_plains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:autumnal_plains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:harvest_fields? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:highland_plains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/ruins/land_warm
+- #repurposed_structures:collections/plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/swamps (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mineshafts/birch
+- #repurposed_structures:collections/birch_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#autumnity:has_animal/turkey
+
+#minecraft:has_structure/ruined_portal_mountain
+- #minecraft:is_badlands (from Default)
+- #minecraft:is_hill (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:stony_shore (from Default)
+- #minecraft:is_mountain (from Default)
+
+#repurposed_structures:has_structure/pyramids/dark_forest
+- #repurposed_structures:collections/spooky_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/pyramids/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/outposts/badlands
+- #repurposed_structures:collections/badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:is_river
+- minecraft:river (from Default)
+- minecraft:frozen_river (from Default)
+
+#environmental:has_animal/yak
+- minecraft:stony_peaks (from environmental-1.19.2-3.0.0.jar)
+- #minecraft:is_hill (from environmental-1.19.2-3.0.0.jar)
+
+#repurposed_structures:has_structure/outposts/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/caves
+- minecraft:dripstone_caves (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:lush_caves (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:deep_dark (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/andesite_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/crystal_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/deep_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/desert_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/diorite_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/frostfire_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/fungal_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/granite_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/ice_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/infested_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/mantle_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/thermal_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/tuff_caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cave/underground_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_underground? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:underground? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:caves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mineshafts/stone
+- #repurposed_structures:collections/hills (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/meadows (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/stony_shores (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/rocky_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/rocky_mountains
+- terralith:amethyst_canyon? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:basalt_cliffs? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:emerald_peaks? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:granite_cliffs? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:haze_mountain? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:mountain_steppe? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:painted_mountains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:rocky_mountains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:shield_clearing? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:steppe? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:stony_spires? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:valley_clearing? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:crag? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:canadian_shield? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:overgrown_spires? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:aspen_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:andesite_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:cool_stony_peaks? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:cool_stony_peaks? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:tepui? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:tibesti_mountains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#spelunkery:has_stone_noise
+- minecraft:mushroom_fields (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:stony_shore (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:swamp (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:mangrove_swamp (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_slopes (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_plains (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_beach (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:windswept_gravelly_hills (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:grove (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:windswept_hills (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:windswept_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:plains (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:meadow (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:beach (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:old_growth_spruce_taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:flower_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:birch_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:dark_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:savanna_plateau (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:savanna (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:jungle (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:badlands (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:wooded_badlands (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:jagged_peaks (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:stony_peaks (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:frozen_river (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:river (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:ice_spikes (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:old_growth_pine_taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:sunflower_plains (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:old_growth_birch_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:sparse_jungle (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:bamboo_jungle (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:eroded_badlands (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:windswept_savanna (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:frozen_peaks (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#repurposed_structures:has_structure/mineshafts/crimson
+- #repurposed_structures:collections/nether_crimson_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach (from Default)
+
+#yungsextras:has_structure/swamp_structures
+- minecraft:swamp (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- minecraft:mangrove_swamp (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- #forge:is_swamp? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+- #c:swamp? (from YungsExtras-1.19.2-Forge-3.1.0.jar)
+
+#repurposed_structures:collections/snowy_forests
+- minecraft:snowy_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:grove (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:snowy_maple_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:snowy_coniferous_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:muskeg? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:rainbow_hills? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:frosted_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:frosted_coniferous_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:snowy_boreal_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:snowy_redwoods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:snowy_fen? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:snowy_thermal_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:deep_snowy_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:is_savanna
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+
+#repurposed_structures:has_structure/outposts/giant_tree_taiga
+- #repurposed_structures:collections/giant_taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:without_default_monster_spawns
+- minecraft:mushroom_fields (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_dark (from blueprint-1.19.2-6.1.2.jar)
+
+#atmospheric:is_rainforest
+- atmospheric:rainforest (from atmospheric-1.19.2-5.0.0.jar)
+- atmospheric:sparse_rainforest (from atmospheric-1.19.2-5.0.0.jar)
+- atmospheric:rainforest_basin (from atmospheric-1.19.2-5.0.0.jar)
+- atmospheric:sparse_rainforest_basin (from atmospheric-1.19.2-5.0.0.jar)
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_slopes (from Default)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach (from Default)
+
+#structory:has_structure/firetower
+- minecraft:old_growth_birch_forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_spruce_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_pine_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:forested_highlands? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:yellowstone? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:shield? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:lush_valley? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:siberian_taiga? (from Structory_1.19.3_v1.3.1a.jar)
+
+#upgrade_aquatic:has_animal/perch
+- minecraft:swamp (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#repurposed_structures:has_structure/mineshafts/desert
+- #repurposed_structures:collections/deserts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/jungles
+- #minecraft:is_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:in_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/spooky_forests
+- minecraft:dark_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:mirage_isles? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:ancient_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:ebony_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:ominous_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- vampirism:vampire_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_spooky? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_dead? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:dead? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ancient_moss_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:deep_dark_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:forbidden_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:phantasmal_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:phantasmal_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/villages/badlands
+- #repurposed_structures:collections/badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean (from Default)
+
+#repurposed_structures:has_structure/ancient_cities/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#spelunkery:has_nether_noise
+- #minecraft:is_nether (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#forge:is_sandy
+- minecraft:desert (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:beach (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:collections/mangroves
+- minecraft:mangrove_swamp (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:tangled_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:coastal_mangroves? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:bamboo_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:bayou? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:berry_bog? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:dripleaf_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:autumnal_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/witch_huts/taiga
+- #repurposed_structures:collections/taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/strongholds/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/fortresses/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_red_desert
+- #minecraft:is_badlands (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_badlands? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:badlands? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#minecraft:plays_underwater_music
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#repurposed_structures:collections/any_taiga
+- #repurposed_structures:collections/taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #minecraft:is_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:grove (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:redwood_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:redwood_thicket? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:redwoods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:flooded_temperate_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:temperate_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:temperate_rainforest_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ancient_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:sparse_eucalyptus_woodland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:sparse_eucalyptus_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cloud_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:forested_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:lavender_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:lavender_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:moonlight_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:moonlight_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:rocky_shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:wintry_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:jade_cliffs? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:mediterranean_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:dead_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:old_growth_dead_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:autumnal_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:canadian_shield? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:maple_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:boreal_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:crystal_lakes? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:birch_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:boreal_forest_red? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:boreal_forest_yellow? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:cold_island? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:forested_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:jade_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:larch_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:pine_barrens? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:thermal_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#autumnity:has_feature/spotted_maple_tree/orange
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:dark_forest (from autumnity-1.19.2-4.0.0.jar)
+
+#forge:is_plateau
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/pyramids/flower_forest
+- #repurposed_structures:collections/floral (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/dungeons/dark_forest
+- #repurposed_structures:collections/spooky_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_lush
+- minecraft:lush_caves (from forge-1.19.2-43.2.11-universal.jar)
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest (from Default)
+
+#repurposed_structures:has_structure/ancient_cities/ocean
+- #repurposed_structures:collections/deep_oceans (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_void
+- minecraft:the_void (from forge-1.19.2-43.2.11-universal.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_ice
+- minecraft:ice_spikes (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:frozen_peaks (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #byg:is_icy? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_icy? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:icy? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#upgrade_aquatic:has_animal/squid
+- minecraft:swamp (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#windswept:has_feature/wild_berries
+- #forge:is_snowy (from windswept-1.19.2-2.2.2.jar)
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#forge:is_icy
+- minecraft:snowy_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:ice_spikes (from blueprint-1.19.2-6.1.2.jar)
+
+#repurposed_structures:has_structure/outposts/taiga
+- #repurposed_structures:collections/taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betteroceanmonuments:has_structure/better_ocean_monument
+- #minecraft:is_deep_ocean (from YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar)
+- #c:deep_ocean? (from YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar)
+
+#atmospheric:has_feature/yucca_tree/savanna
+- minecraft:windswept_savanna (from atmospheric-1.19.2-5.0.0.jar)
+
+#repurposed_structures:has_structure/mineshafts/swamp
+- #repurposed_structures:collections/swamps (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/monuments/desert
+- #repurposed_structures:collections/deserts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/temples/nether_basalt
+- #repurposed_structures:collections/nether_basalts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#buzzier_bees:has_feature/buttercup
+- minecraft:sunflower_plains (from buzzier_bees-1.19-5.0.1.jar)
+
+#spelunkery:has_salt_noise
+- #minecraft:is_mountain (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#minecraft:without_patrol_spawns
+- minecraft:mushroom_fields (from Default)
+
+#windswept:has_feature/snowy_flowers
+- #forge:is_snowy (from windswept-1.19.2-2.2.2.jar)
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga (from Default)
+
+#repurposed_structures:has_structure/outposts/crimson
+- #repurposed_structures:collections/nether_crimson_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_closer_water_fog
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- environmental:marsh (from environmental-1.19.2-3.0.0.jar)
+
+#supplementaries:has_wild_flax
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#repurposed_structures:has_structure/dungeons/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#savage_and_ravage:has_monster/skeleton_villager/common
+- minecraft:deep_frozen_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:frozen_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:deep_cold_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:cold_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:deep_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:deep_lukewarm_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:lukewarm_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:warm_ocean (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:stony_shore (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:swamp (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:mangrove_swamp (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:snowy_slopes (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:snowy_beach (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_gravelly_hills (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:grove (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_hills (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:snowy_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:plains (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:meadow (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:beach (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:old_growth_spruce_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:flower_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:birch_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:dark_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:savanna_plateau (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:savanna (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:jungle (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:badlands (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:desert (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:wooded_badlands (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:jagged_peaks (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:stony_peaks (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:frozen_river (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:river (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:old_growth_pine_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:sunflower_plains (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:old_growth_birch_forest (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:sparse_jungle (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:bamboo_jungle (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:eroded_badlands (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:windswept_savanna (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:frozen_peaks (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:dripstone_caves (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:lush_caves (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#repurposed_structures:has_structure/temples/nether_warped
+- #repurposed_structures:collections/nether_warped_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- environmental:marsh (from environmental-1.19.2-3.0.0.jar)
+
+#incubation:has_feature/turkey_nest
+- #autumnity:has_animal/turkey? (from incubation-1.19-3.0.0.jar)
+
+#minecraft:spawns_cold_variant_frogs
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:grove (from Default)
+- minecraft:deep_dark (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_beach (from Default)
+- #minecraft:is_end (from Default)
+
+#repurposed_structures:has_structure/igloos/mushroom
+- #repurposed_structures:collections/mushrooms (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#environmental:has_animal/chicken
+- #minecraft:is_forest (from environmental-1.19.2-3.0.0.jar)
+
+#repurposed_structures:collections/icy
+- minecraft:ice_spikes (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:frozen_peaks (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #byg:is_icy? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_icy? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:glacial_cliffs? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ice_cap? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:snowy_bog? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#atmospheric:has_feature/yucca_tree/desert
+- minecraft:desert (from atmospheric-1.19.2-5.0.0.jar)
+
+#upgrade_aquatic:has_animal/cassiopea_jellyfish
+- minecraft:lukewarm_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:deep_lukewarm_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#minecraft:is_end
+- minecraft:the_end (from Default)
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+- minecraft:small_end_islands (from Default)
+- minecraft:end_barrens (from Default)
+
+#minecraft:without_zombie_sieges
+- minecraft:mushroom_fields (from Default)
+
+#repurposed_structures:has_structure/temples/nether_crimson
+- #repurposed_structures:collections/nether_crimson_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mansions/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:is_taiga
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+
+#repurposed_structures:has_structure/wells/snow
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_wasteland
+- minecraft:snowy_plains (from forge-1.19.2-43.2.11-universal.jar)
+
+#environmental:has_animal/pig
+- #minecraft:is_forest (from environmental-1.19.2-3.0.0.jar)
+
+#repurposed_structures:has_structure/outposts/oak
+- #repurposed_structures:collections/regular_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/wells/mossy_stone
+- #repurposed_structures:collections/swamps (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/spooky_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/outposts/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/deep_oceans
+- #minecraft:is_deep_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:deep_ocean? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/monuments/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#windswept:has_feature/taiga_flowers
+- #minecraft:is_taiga (from windswept-1.19.2-2.2.2.jar)
+
+#buzzier_bees:has_animal/moobloom
+- #buzzier_bees:has_feature/buttercup (from buzzier_bees-1.19-5.0.1.jar)
+
+#repurposed_structures:has_structure/villages/oak
+- #repurposed_structures:collections/regular_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mansions/desert
+- #repurposed_structures:collections/deserts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/pyramids/mushroom
+- #repurposed_structures:collections/mushrooms (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/outposts/desert
+- #repurposed_structures:collections/deserts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#buzzier_bees:has_feature/white_clover
+- minecraft:forest (from buzzier_bees-1.19-5.0.1.jar)
+- minecraft:windswept_forest (from buzzier_bees-1.19-5.0.1.jar)
+
+#neapolitan:has_feature/banana_plant/common
+- minecraft:jungle (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:bamboo_jungle (from neapolitan-1.19.2-4.0.2.jar)
+
+#repurposed_structures:has_structure/villages/mushroom
+- #repurposed_structures:collections/mushrooms (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#windswept:is_chestnut_forest
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+
+#repurposed_structures:has_structure/mineshafts/ocean
+- #repurposed_structures:collections/oceans (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/outposts/icy
+- #repurposed_structures:collections/icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mansions/oak
+- #repurposed_structures:collections/regular_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#supplementaries:has_cave_urns
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#minecraft:has_structure/mineshaft
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_beach (from Default)
+- #minecraft:is_mountain (from Default)
+- #minecraft:is_hill (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:desert (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- #atmospheric:is_rainforest (from atmospheric-1.19.2-5.0.0.jar)
+- #atmospheric:is_dunes (from atmospheric-1.19.2-5.0.0.jar)
+- autumnity:pumpkin_fields (from autumnity-1.19.2-4.0.0.jar)
+
+#neapolitan:has_feature/banana_plant/uncommon
+- minecraft:sparse_jungle (from neapolitan-1.19.2-4.0.2.jar)
+
+#repurposed_structures:has_structure/mineshafts/icy
+- #repurposed_structures:collections/icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/pyramids/badlands
+- #repurposed_structures:collections/badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#upgrade_aquatic:has_feature/driftwood_extra
+- atmospheric:rainforest_basin? (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#neapolitan:has_feature/adzuki_sprouts
+- #minecraft:is_forest (from neapolitan-1.19.2-4.0.2.jar)
+
+#repurposed_structures:has_structure/mansions/birch
+- #repurposed_structures:collections/birch_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:is_jungle
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- #atmospheric:is_rainforest (from atmospheric-1.19.2-5.0.0.jar)
+
+#oreganized:has_structure/boulder
+- #oreganized:rich_in_lead_ore (from Oreganized 1.19.2-2.0.2.jar)
+- #forge:is_plains (from Oreganized 1.19.2-2.0.2.jar)
+
+#minecraft:is_ocean
+- #minecraft:is_deep_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+
+#repurposed_structures:collections/mushrooms
+- minecraft:mushroom_fields (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:fungal_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_mushroom? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:mushroom? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mineshafts/taiga
+- #repurposed_structures:collections/taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/giant_taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/end_voids
+- minecraft:small_end_islands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:end_barrens (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:ice_starfield? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#savage_and_ravage:has_monster/skeleton_villager/rare
+- minecraft:snowy_plains (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:ice_spikes (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#environmental:has_animal/cow
+- minecraft:plains (from environmental-1.19.2-3.0.0.jar)
+- minecraft:sunflower_plains (from environmental-1.19.2-3.0.0.jar)
+
+#forge:is_cold
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- #forge:is_cold/overworld (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_cold/nether? (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_cold/end (from forge-1.19.2-43.2.11-universal.jar)
+
+#atmospheric:has_feature/yucca_tree/badlands
+- minecraft:wooded_badlands (from atmospheric-1.19.2-5.0.0.jar)
+
+#forge:is_sparse/overworld
+- minecraft:windswept_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:savanna (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:windswept_gravelly_hills (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:dripstone_caves (from forge-1.19.2-43.2.11-universal.jar)
+
+#forge:is_overworld
+- quark:glimmering_weald (from Quark-3.4-395.jar)
+
+#minecraft:has_structure/ocean_ruin_cold
+- minecraft:frozen_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+
+#betterfortresses:has_structure/better_fortress
+- #minecraft:is_nether (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+- #c:in_nether? (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+
+#forge:is_desert
+- minecraft:desert (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:desert (from forge-1.19.2-43.2.11-universal.jar)
+- #atmospheric:is_dunes (from atmospheric-1.19.2-5.0.0.jar)
+
+#environmental:has_monster/husk
+- minecraft:desert (from environmental-1.19.2-3.0.0.jar)
+
+#minecraft:has_structure/stronghold
+- #minecraft:is_overworld (from Default)
+
+#minecraft:has_structure/mineshaft_mesa
+- #minecraft:is_badlands (from Default)
+
+#minecraft:has_structure/ancient_city
+- minecraft:deep_dark (from Default)
+
+#spelunkery:has_ocean_noise
+- minecraft:deep_frozen_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:frozen_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:deep_cold_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:cold_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:deep_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:deep_lukewarm_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:lukewarm_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:warm_ocean (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#minecraft:has_structure/shipwreck
+- #minecraft:is_ocean (from Default)
+
+#repurposed_structures:has_structure/outposts/mangrove
+- #repurposed_structures:collections/mangroves (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_wet/overworld
+- minecraft:swamp (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:beach (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:lush_caves (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/mineshafts/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/outposts/warped
+- #repurposed_structures:collections/nether_warped_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_wet
+- #forge:is_wet/overworld (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_wet/nether? (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_wet/end? (from forge-1.19.2-43.2.11-universal.jar)
+
+#forge:is_cold/end
+- minecraft:the_end (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:small_end_islands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:end_midlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:end_highlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:end_barrens (from forge-1.19.2-43.2.11-universal.jar)
+
+#betterdungeons:has_structure/skeleton_dungeon
+- #minecraft:is_mountain (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_hill (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_jungle (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_forest (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:stony_shore (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:mushroom_fields (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:ice_spikes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:frozen_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #byg:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:desert (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna_plateau (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:windswept_savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:plains? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:sunflower_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_slopes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:jagged_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:swamp (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:dripstone_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:lush_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#repurposed_structures:has_structure/strongholds/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/nether_crimson_forests
+- minecraft:crimson_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:crimson_glowing_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:crimson_pinewood? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:old_swampland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_swampland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:weeping_mire? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:crimson_gardens? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- gardens_of_the_dead:whistling_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- pyromancer:flaming_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:with_default_monster_spawns
+- minecraft:deep_frozen_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:frozen_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_cold_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:cold_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:deep_lukewarm_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:lukewarm_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:warm_ocean (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:stony_shore (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:swamp (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:mangrove_swamp (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_slopes (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_beach (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_gravelly_hills (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:grove (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_hills (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:snowy_taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:meadow (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:beach (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:old_growth_spruce_taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:flower_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:birch_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:dark_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:savanna_plateau (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:savanna (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:jungle (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:badlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:desert (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:wooded_badlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:jagged_peaks (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:stony_peaks (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:frozen_river (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:river (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:ice_spikes (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:old_growth_pine_taiga (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:sunflower_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:old_growth_birch_forest (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:sparse_jungle (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:bamboo_jungle (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:eroded_badlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:windswept_savanna (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:frozen_peaks (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:dripstone_caves (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:lush_caves (from blueprint-1.19.2-6.1.2.jar)
+
+#forge:is_mountain
+- #forge:is_peak (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_slope (from forge-1.19.2-43.2.11-universal.jar)
+
+#betterdungeons:has_structure/small_nether_dungeon
+- #minecraft:is_nether (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#spelunkery:has_lush_noise
+- minecraft:lush_caves (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#repurposed_structures:collections/mountains
+- #minecraft:is_mountain (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_peak? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:mountain? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:mountain_peak? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:mountain_slope? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#atmospheric:has_structure/arid_shrine
+- #atmospheric:is_dunes (from atmospheric-1.19.2-5.0.0.jar)
+
+#spelunkery:has_end_noise
+- minecraft:end_barrens (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:end_highlands (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:end_midlands (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#minecraft:has_structure/ruined_portal_ocean
+- #minecraft:is_ocean (from Default)
+
+#repurposed_structures:has_structure/monuments/icy
+- #repurposed_structures:collections/icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_plains (from Repurposed_Structures-Better_Monuments_v5)
+- #repurposed_structures:collections/snowy_mountains (from Repurposed_Structures-Better_Monuments_v5)
+
+#repurposed_structures:has_structure/mansions/snowy
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/villages/mountains
+- minecraft:jagged_peaks (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/hills (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#autumnity:has_structure/maple_hut
+- autumnity:maple_forest (from autumnity-1.19.2-4.0.0.jar)
+- autumnity:pumpkin_fields (from autumnity-1.19.2-4.0.0.jar)
+
+#repurposed_structures:has_structure/ruins/land_hot
+- #repurposed_structures:collections/deserts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/ruined_portals/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#neapolitan:has_feature/banana_plant/sparse
+- minecraft:beach (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:stony_shore (from neapolitan-1.19.2-4.0.2.jar)
+
+#repurposed_structures:has_structure/villages/birch
+- #repurposed_structures:collections/birch_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#autumnity:has_feature/maple_tree
+- minecraft:forest (from autumnity-1.19.2-4.0.0.jar)
+- minecraft:windswept_forest (from autumnity-1.19.2-4.0.0.jar)
+- minecraft:flower_forest (from autumnity-1.19.2-4.0.0.jar)
+
+#repurposed_structures:has_structure/dungeons/mushroom
+- #repurposed_structures:collections/mushrooms (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#structory:has_structure/northern_ruin
+- minecraft:plains (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:sunflower_plains (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:alpine_highlands? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:cold_shrubland? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:shrubland? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:highlands? (from Structory_1.19.3_v1.3.1a.jar)
+- #c:plains? (from Structory_1.19.3_v1.3.1a.jar)
+- #minecraft:is_plains? (from Structory_1.19.3_v1.3.1a.jar)
+
+#neapolitan:has_feature/vanilla_vine
+- #minecraft:is_savanna (from neapolitan-1.19.2-4.0.2.jar)
+
+#structory:has_structure/ruin_taiga
+- minecraft:taiga (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:snowy_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_pine_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_spruce_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:forested_highlands? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:shield? (from Structory_1.19.3_v1.3.1a.jar)
+- #c:taiga? (from Structory_1.19.3_v1.3.1a.jar)
+- #minecraft:is_taiga? (from Structory_1.19.3_v1.3.1a.jar)
+
+#environmental:has_monster/stray
+- minecraft:snowy_plains (from environmental-1.19.2-3.0.0.jar)
+- minecraft:ice_spikes (from environmental-1.19.2-3.0.0.jar)
+
+#forge:is_cave
+- minecraft:lush_caves (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:dripstone_caves (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.11-universal.jar)
+
+#incubation:has_feature/chicken_nest
+- #minecraft:is_forest (from incubation-1.19-3.0.0.jar)
+
+#minecraft:more_frequent_drowned_spawns
+- #minecraft:is_river (from Default)
+
+#repurposed_structures:collections/any_forests
+- #minecraft:is_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#supplementaries:has_way_signs
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#repurposed_structures:has_structure/pyramids/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#structory:has_structure/jungle_well
+- minecraft:jungle (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:bamboo_jungle (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:sparse_jungle (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:rocky_jungle? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:amethyst_rainforest? (from Structory_1.19.3_v1.3.1a.jar)
+
+#repurposed_structures:has_structure/villages/crimson
+- #repurposed_structures:collections/nether_crimson_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:allows_tropical_fish_spawns_at_any_height
+- minecraft:lush_caves (from Default)
+
+#minecraft:has_structure/village_plains
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+
+#repurposed_structures:has_structure/witch_huts/birch
+- #repurposed_structures:collections/birch_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/igloos/mangrove
+- #repurposed_structures:collections/mangroves (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_snowy
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:frozen_ocean (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:frozen_river (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_beach (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.11-universal.jar)
+
+#windswept:has_feature/rare_chestnut_trees
+- minecraft:dark_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:taiga (from windswept-1.19.2-2.2.2.jar)
+- minecraft:forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:windswept_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:old_growth_birch_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:old_growth_spruce_taiga (from windswept-1.19.2-2.2.2.jar)
+- minecraft:old_growth_pine_taiga (from windswept-1.19.2-2.2.2.jar)
+- minecraft:snowy_taiga (from windswept-1.19.2-2.2.2.jar)
+- minecraft:birch_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:flower_forest (from windswept-1.19.2-2.2.2.jar)
+- minecraft:windswept_hills (from windswept-1.19.2-2.2.2.jar)
+
+#creeperoverhaul:where_creepers_spawn
+- #minecraft:is_taiga (from creeperoverhaul-2.0.9-forge.jar)
+- #forge:is_snowy (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_savanna (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_jungle (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_hill (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:has_structure/desert_pyramid (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_beach (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:is_jungle (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:has_structure/mineshaft_mesa (from creeperoverhaul-2.0.9-forge.jar)
+- #minecraft:has_structure/ruined_portal_swamp (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:mushroom_fields (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:stony_peaks (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:dripstone_caves (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:lush_caves (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:lukewarm_ocean (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:deep_lukewarm_ocean (from creeperoverhaul-2.0.9-forge.jar)
+- minecraft:warm_ocean (from creeperoverhaul-2.0.9-forge.jar)
+
+#repurposed_structures:collections/giant_taigas
+- minecraft:old_growth_pine_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:old_growth_spruce_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:redwood_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:redwood_thicket? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:redwoods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:flooded_temperate_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:temperate_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:temperate_rainforest_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ancient_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:sparse_eucalyptus_woodland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:sparse_eucalyptus_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/shipwrecks/nether_bricks
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether (from Default)
+
+#bettermineshafts:has_structure/better_mineshaft_acacia
+- minecraft:savanna (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:savanna_plateau (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_savanna? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:savanna? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:arid_highlands? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:hot_shrubland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:sakura_grove? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:sakura_valley? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- projectvibrantjourneys:baobab_fields? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#upgrade_aquatic:has_animal/nautilus
+- minecraft:ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:deep_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:warm_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:lukewarm_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:deep_lukewarm_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#spelunkery:has_sculk_noise
+- minecraft:deep_dark (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#forge:is_magical
+- quark:glimmering_weald (from Quark-3.4-395.jar)
+
+#forge:is_dry/nether
+- minecraft:nether_wastes (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:soul_sand_valley (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:crimson_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:warped_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:basalt_deltas (from forge-1.19.2-43.2.11-universal.jar)
+
+#minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- autumnity:pumpkin_fields (from autumnity-1.19.2-4.0.0.jar)
+
+#repurposed_structures:collections/giant_trees
+- minecraft:old_growth_pine_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:old_growth_spruce_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:bamboo_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:amethyst_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:jungle_mountains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:rocky_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:orchard? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:cika_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:coniferous_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:coniferous_forest_hills? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:cherry_blossom_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:tropical_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:tropical_rainforest_hills? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:redwood_thicket? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:ebony_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:ebony_hills? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:redwood_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:coniferous_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:redwoods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:baobab_fields? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:snowy_redwoods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:flooded_temperate_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:temperate_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:temperate_rainforest_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ancient_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:eucalyptus_deanei_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:eucalyptus_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:eucalyptus_jungle_canyon? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:eucalyptus_salubris_woodland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:eucalyptus_woodland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:flooded_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:flooded_rainforest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:old_growth_taiga_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/temples/taiga
+- #repurposed_structures:collections/any_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:has_structure/pillager_outpost
+- minecraft:desert (from Default)
+- minecraft:plains (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:taiga (from Default)
+- #minecraft:is_mountain (from Default)
+- minecraft:grove (from Default)
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+
+#forge:is_sparse
+- #forge:is_sparse/overworld (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_sparse/nether? (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_sparse/end? (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:collections/birch_forests
+- minecraft:birch_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:old_growth_birch_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:temperate_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:birch_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:white_cliffs? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:aspen_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:temperate_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:aspen_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:autumnal_birch_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:birch_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:birch_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:warm_birch_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/nether_warped_forests
+- minecraft:warped_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:bone_reef? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:old_warped_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:upside_down_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:upside_down_forest_cleared? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:warped_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:glowstone_gardens? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- cinderscapes:luminous_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- incendium:inverted_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:is_badlands
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+
+#minecraft:has_structure/nether_fossil
+- minecraft:soul_sand_valley (from Default)
+
+#repurposed_structures:has_structure/mansions/savanna
+- #repurposed_structures:collections/savannas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#windswept:has_feature/snowy_sprouts
+- #forge:is_snowy (from windswept-1.19.2-2.2.2.jar)
+
+#repurposed_structures:has_structure/cities/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#yungsbridges:collections/taiga
+- minecraft:taiga (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:cloud_forest? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:forested_highlands? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:lavender_forest? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:lavender_valley? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:moonlight_grove? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:moonlight_valley? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:rocky_shrubland? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:shrubland? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- terralith:wintry_forest? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- biomesoplenty:jade_cliffs? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- biomesoplenty:mediterranean_taiga? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- biomesoplenty:dead_forest? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- biomesoplenty:old_growth_dead_forest? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- byg:autumnal_taiga? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- byg:canadian_shield? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- byg:maple_taiga? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- projectvibrantjourneys:boreal_forest? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- projectvibrantjourneys:crystal_lakes? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+
+#windswept:has_structure/grove_weathered_house
+- minecraft:grove (from windswept-1.19.2-2.2.2.jar)
+- minecraft:frozen_peaks (from windswept-1.19.2-2.2.2.jar)
+- minecraft:jagged_peaks (from windswept-1.19.2-2.2.2.jar)
+
+#repurposed_structures:has_structure/ancient_cities/end
+- #repurposed_structures:collections/end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/taigas
+- minecraft:taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cloud_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:forested_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:lavender_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:lavender_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:moonlight_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:moonlight_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:rocky_shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:wintry_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:jade_cliffs? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:mediterranean_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:dead_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:old_growth_dead_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:autumnal_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:canadian_shield? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:maple_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:boreal_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- projectvibrantjourneys:crystal_lakes? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:birch_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:boreal_forest_red? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:boreal_forest_yellow? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:cold_island? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:forested_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:jade_highlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:larch_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:pine_barrens? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:thermal_taiga? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:water_on_map_outlines
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- environmental:marsh (from environmental-1.19.2-3.0.0.jar)
+- atmospheric:rainforest_basin (from atmospheric-1.19.2-5.0.0.jar)
+- atmospheric:sparse_rainforest_basin (from atmospheric-1.19.2-5.0.0.jar)
+
+#repurposed_structures:has_structure/villages/swamp
+- #repurposed_structures:collections/swamps (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#upgrade_aquatic:has_animal/pike
+- #minecraft:is_river (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#repurposed_structures:collections/overworld
+- #minecraft:is_overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_overworld? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:in_overworld? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#autumnity:has_feature/spotted_maple_tree/yellow
+- minecraft:forest (from autumnity-1.19.2-4.0.0.jar)
+
+#betterwitchhuts:has_structure/better_witch_hut
+- minecraft:swamp (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- minecraft:mangrove_swamp (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- #forge:is_swamp? (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- #c:swamp? (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+
+#repurposed_structures:has_structure/wells/forest
+- #repurposed_structures:collections/regular_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/birch_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/floral (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/pyramids/snowy
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_lush
+- minecraft:lush_caves (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#forge:is_hot/nether
+- minecraft:nether_wastes (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:soul_sand_valley (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:crimson_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:warped_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:basalt_deltas (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/wells/badlands
+- #repurposed_structures:collections/badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/oceans
+- #minecraft:is_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #minecraft:is_deep_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_ocean? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:ocean? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:shallow_ocean? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:deep_ocean? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#upgrade_aquatic:has_feature/pickerelweed
+- #minecraft:is_jungle (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- #minecraft:is_river (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:swamp (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#forge:is_hot/overworld
+- minecraft:desert (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:savanna (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:stony_peaks (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:warm_ocean (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/villages/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/dungeons/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#neapolitan:spawns_rainforest_variant_chimpanzees
+- #forge:is_rainforest? (from neapolitan-1.19.2-4.0.2.jar)
+
+#repurposed_structures:collections/snowy_plains
+- minecraft:snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:alpine_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:cold_shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:snowy_badlands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:snowy_shield? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:snowy_fir_clearing? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:snowy_plains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:snowy_bog? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:snowy_tundra? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:ice_cap? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/villages/giant_taiga
+- #repurposed_structures:collections/giant_taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/bastions/underground
+- #repurposed_structures:collections/any_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/caves (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/deserts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/giant_taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/hills (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/meadows (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/mushrooms (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/savannas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/swamps (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/pyramids/ocean
+- #repurposed_structures:collections/oceans (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_dripstone
+- minecraft:dripstone_caves (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#buzzier_bees:has_feature/pink_clover
+- minecraft:birch_forest (from buzzier_bees-1.19-5.0.1.jar)
+- minecraft:old_growth_birch_forest (from buzzier_bees-1.19-5.0.1.jar)
+
+#repurposed_structures:has_structure/dungeons/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_hot
+- #forge:is_hot/overworld (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_hot/nether (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_hot/end? (from forge-1.19.2-43.2.11-universal.jar)
+
+#environmental:has_feature/has_mud_disk
+- minecraft:swamp (from environmental-1.19.2-3.0.0.jar)
+- environmental:marsh (from environmental-1.19.2-3.0.0.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_mesa
+- #minecraft:is_badlands (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_mesa? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:in_mesa? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_badlands? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:badlands? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#repurposed_structures:has_structure/ruins/land_cold
+- #repurposed_structures:collections/hills (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/meadows (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/temples/nether_soul
+- #repurposed_structures:collections/nether_souls (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betterwitchhuts:has_structure/witch_circle
+- minecraft:swamp (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- #forge:is_swamp? (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- #c:swamp? (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+
+#savage_and_ravage:has_monster/skeleton_villager
+- #savage_and_ravage:has_monster/skeleton_villager/common (from savage_and_ravage-1.19.2-5.0.4.jar)
+- #savage_and_ravage:has_monster/skeleton_villager/rare (from savage_and_ravage-1.19.2-5.0.4.jar)
+- #savage_and_ravage:has_monster/skeleton_villager/weird (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#repurposed_structures:has_structure/dungeons/snow
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_grassland
+- minecraft:plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:sunflower_plains (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:meadow (from blueprint-1.19.2-6.1.2.jar)
+
+#minecraft:allows_surface_slime_spawns
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#upgrade_aquatic:has_monster/great_thrasher
+- minecraft:deep_frozen_ocean (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#forge:is_plains
+- minecraft:plains (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:sunflower_plains (from forge-1.19.2-43.2.11-universal.jar)
+
+#minecraft:required_ocean_monument_surrounding
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#betterdungeons:has_structure/small_dungeon
+- #minecraft:is_mountain (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_hill (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_jungle (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_forest (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:stony_shore (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:mushroom_fields (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:ice_spikes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:frozen_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #byg:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:desert (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna_plateau (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:windswept_savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:plains? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:sunflower_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_slopes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:jagged_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:swamp (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:dripstone_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:lush_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#forge:is_outer_end
+- minecraft:end_highlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:end_midlands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:small_end_islands (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:end_barrens (from blueprint-1.19.2-6.1.2.jar)
+
+#structory:has_structure/outcast_villager_desert
+- minecraft:desert (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:desert_oasis? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:lush_desert? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:sandstone_valley? (from Structory_1.19.3_v1.3.1a.jar)
+
+#incubation:has_feature/duck_nest
+- #environmental:has_animal/duck? (from incubation-1.19-3.0.0.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_spruce_snowy
+- minecraft:snowy_taiga (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:snowy_plains (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:snowy_slopes (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- minecraft:jagged_peaks (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:cold_shrubland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:rocky_shrubland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:wintry_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle (from Default)
+
+#repurposed_structures:has_structure/villages/ocean
+- #repurposed_structures:collections/deep_oceans (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#quark:stoneling_pathfinding
+- quark:glimmering_weald (from Quark-3.4-395.jar)
+
+#oreganized:rich_in_lead_ore
+- #minecraft:is_savanna (from Oreganized 1.19.2-2.0.2.jar)
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert (from Default)
+
+#repurposed_structures:has_structure/igloos/stone
+- #repurposed_structures:collections/giant_taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/rocky_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/swamps
+- minecraft:swamp (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:mangrove_swamp (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:swamp? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#neapolitan:has_feature/mint_pond
+- #minecraft:is_hill (from neapolitan-1.19.2-4.0.2.jar)
+
+#forge:is_dry/overworld
+- minecraft:desert (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.11-universal.jar)
+
+#repurposed_structures:has_structure/villages/dark_forest
+- #repurposed_structures:collections/spooky_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#neapolitan:has_feature/strawberry_bush
+- #forge:is_grassland (from neapolitan-1.19.2-4.0.2.jar)
+
+#neapolitan:has_monster/plantain_spider
+- #minecraft:is_jungle (from neapolitan-1.19.2-4.0.2.jar)
+- #forge:is_rainforest? (from neapolitan-1.19.2-4.0.2.jar)
+
+#structory:has_structure/old_manor
+- minecraft:dark_forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_pine_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_spruce_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:shield? (from Structory_1.19.3_v1.3.1a.jar)
+- terralith:forested_highlands? (from Structory_1.19.3_v1.3.1a.jar)
+
+#upgrade_aquatic:has_animal/pike_extra
+- minecraft:swamp (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#neapolitan:has_animal/chimpanzee
+- #neapolitan:has_feature/banana_plant/common (from neapolitan-1.19.2-4.0.2.jar)
+- #neapolitan:has_feature/banana_plant/uncommon (from neapolitan-1.19.2-4.0.2.jar)
+- #neapolitan:has_feature/banana_plant/rare (from neapolitan-1.19.2-4.0.2.jar)
+
+#repurposed_structures:collections/end
+- #minecraft:is_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_end? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:in_the_end? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:end_islands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:amber_land? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:blossoming_spires? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:chorus_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:crystal_mountains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:dragon_graveyards? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:dry_shrubland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:dust_wasteland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:empty_aurora_cave? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:empty_end_cave? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:empty_smaragdant_cave? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:foggy_mushroomland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:glowing_grassland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:jade_cave? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:lantern_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:lush_aurora_cave? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:lush_smaragdant_cave? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:megalake? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:megalake_grove? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:neon_oasis? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:painted_mountains? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:shadow_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:sulphur_springs? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:umbra_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterend:umbrella_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/temples/ocean
+- #repurposed_structures:collections/deep_oceans (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/mineshafts/savanna
+- #repurposed_structures:collections/savannas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#windswept:has_feature/holly_trees
+- minecraft:old_growth_pine_taiga (from windswept-1.19.2-2.2.2.jar)
+- minecraft:old_growth_spruce_taiga (from windswept-1.19.2-2.2.2.jar)
+
+#forge:is_mushroom
+- minecraft:mushroom_fields (from forge-1.19.2-43.2.11-universal.jar)
+- quark:glimmering_weald (from Quark-3.4-395.jar)
+
+#structory:has_structure/outcast_villager_grassy
+- minecraft:plains (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:savanna (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:sunflower_plains (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:sparse_jungle (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:birch_forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_birch_forest (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_spruce_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:old_growth_pine_taiga (from Structory_1.19.3_v1.3.1a.jar)
+- #terralith:has_structure/fortified_village? (from Structory_1.19.3_v1.3.1a.jar)
+
+#repurposed_structures:collections/snowy_mountains
+- minecraft:snowy_slopes (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:snowy_peaks? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:icy_crags? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- wythers:icy_volcano? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betterdungeons:has_structure/spider_dungeon
+- #minecraft:is_mountain (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_hill (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_jungle (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_jungle? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_forest (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:forest? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:stony_shore (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:mushroom_fields (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:mushroom? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:ice_spikes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:frozen_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #byg:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:icy? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:desert (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:desert? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:savanna_plateau (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:windswept_savanna (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:savanna? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #minecraft:is_badlands (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:in_mesa? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #forge:is_badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:badlands? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- #c:plains? (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:sunflower_plains (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_taiga (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:snowy_slopes (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:jagged_peaks (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:swamp (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:dripstone_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- minecraft:lush_caves (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#minecraft:is_overworld
+- minecraft:mushroom_fields (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_beach (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:grove (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:taiga (from Default)
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+- minecraft:beach (from Default)
+- minecraft:forest (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:desert (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:river (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:deep_dark (from Default)
+- environmental:marsh (from environmental-1.19.2-3.0.0.jar)
+- environmental:blossom_woods (from environmental-1.19.2-3.0.0.jar)
+- environmental:blossom_valleys (from environmental-1.19.2-3.0.0.jar)
+- #atmospheric:is_rainforest (from atmospheric-1.19.2-5.0.0.jar)
+- #atmospheric:is_dunes (from atmospheric-1.19.2-5.0.0.jar)
+- autumnity:maple_forest (from autumnity-1.19.2-4.0.0.jar)
+- autumnity:pumpkin_fields (from autumnity-1.19.2-4.0.0.jar)
+- quark:glimmering_weald (from Quark-3.4-395.jar)
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna (from Default)
+
+#repurposed_structures:has_structure/witch_huts/giant_tree_taiga
+- #repurposed_structures:collections/giant_taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#windswept:has_feature/foxgloves
+- #minecraft:is_taiga (from windswept-1.19.2-2.2.2.jar)
+
+#environmental:has_animal/sheep
+- minecraft:plains (from environmental-1.19.2-3.0.0.jar)
+- minecraft:sunflower_plains (from environmental-1.19.2-3.0.0.jar)
+- minecraft:meadow (from environmental-1.19.2-3.0.0.jar)
+
+#repurposed_structures:has_structure/ruins/nether
+- #repurposed_structures:collections/nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/outposts/snowy
+- #repurposed_structures:collections/snowy_plains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/snowy_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:has_structure/pyramids/jungle
+- #repurposed_structures:collections/jungles (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#autumnity:has_animal/snail
+
+#repurposed_structures:collections/nether_souls
+- minecraft:soul_sand_valley (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:soul_plain? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:wart_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:wart_forest_edge? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:poor_nether_grasslands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_grasslands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:wailing_garth? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- cinderscapes:blackstone_shales? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- gardens_of_the_dead:soulblight_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- incendium:weeping_valley? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#neapolitan:has_feature/banana_plant/rare
+
+#repurposed_structures:collections/nether
+- #minecraft:is_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #forge:is_nether? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:nether? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:in_nether? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:bone_reef? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:crimson_glowing_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:crimson_pinewood? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:flooded_deltas? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:gravel_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:magma_land? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_grasslands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_jungle? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_mushroom_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_mushroom_forest_edge? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_swampland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:nether_swampland_terraces? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:old_fungiwoods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:old_swampland? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:old_warped_woods? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:poor_nether_grasslands? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:soul_plain? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:sulfuric_bone_reef? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:upside_down_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:upside_down_forest_cleared? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:wart_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:wart_forest_edge? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:without_wandering_trader_spawns
+- minecraft:the_void (from Default)
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert (from Default)
+- #atmospheric:is_dunes (from atmospheric-1.19.2-5.0.0.jar)
+
+#forge:is_dense
+- windswept:chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- windswept:snowy_chestnut_forest (from windswept-1.19.2-2.2.2.jar)
+- #forge:is_dense/overworld (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_dense/nether? (from forge-1.19.2-43.2.11-universal.jar)
+- #forge:is_dense/end? (from forge-1.19.2-43.2.11-universal.jar)
+
+#savage_and_ravage:has_monster/skeleton_villager/weird
+- minecraft:old_growth_pine_taiga (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_desert
+- minecraft:desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_desert? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:desert? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:lush_desert? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:lush_desert? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- projectvibrantjourneys:desert_shrubland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- projectvibrantjourneys:verdant_sands? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#repurposed_structures:has_structure/shipwrecks/crimson
+- #repurposed_structures:collections/nether_crimson_forests (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_jungle
+- #minecraft:is_jungle (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_jungle? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:in_jungle? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#repurposed_structures:has_structure/pyramids/giant_tree_taiga
+- #repurposed_structures:collections/giant_taigas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#forge:is_underground
+- #forge:is_cave (from forge-1.19.2-43.2.11-universal.jar)
+- quark:glimmering_weald (from Quark-3.4-395.jar)
+
+#repurposed_structures:collections/nether_basalts
+- minecraft:basalt_deltas (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:flooded_deltas? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:gravel_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betternether:magma_land? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:withered_abyss? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:brimstone_caverns? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- byg:magma_wastes? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- incendium:volcanic_deltas? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- incendium:ash_barrens? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- incendium:withered_forest? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/stony_shores
+- minecraft:stony_shore (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- terralith:gravel_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- biomesoplenty:cold_desert? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #c:stony_shores? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#windswept:has_feature/common_wild_berries
+- minecraft:grove (from windswept-1.19.2-2.2.2.jar)
+
+#minecraft:spawns_warm_variant_frogs
+- minecraft:desert (from Default)
+- minecraft:warm_ocean (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_savanna (from Default)
+- #minecraft:is_nether (from Default)
+- #minecraft:is_badlands (from Default)
+- minecraft:mangrove_swamp (from Default)
+- #atmospheric:is_dunes (from atmospheric-1.19.2-5.0.0.jar)
+
+#minecraft:mineshaft_blocking
+- minecraft:deep_dark (from Default)
+
+#repurposed_structures:has_structure/dungeons/badlands
+- #repurposed_structures:collections/badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_spruce
+- #minecraft:is_taiga (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:cloud_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:forested_highlands? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:lavender_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:lavender_valley? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:moonlight_grove? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:moonlight_valley? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- terralith:shrubland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:jade_cliffs? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:mediterranean_taiga? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:dead_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:old_growth_dead_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:autumnal_taiga? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:canadian_shield? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:maple_taiga? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- projectvibrantjourneys:boreal_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- projectvibrantjourneys:crystal_lakes? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains (from Default)
+
+#repurposed_structures:has_structure/dungeons/icy
+- #repurposed_structures:collections/icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#spelunkery:has_dirt_noise
+- minecraft:plains (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:mushroom_fields (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:swamp (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:mangrove_swamp (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_slopes (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_plains (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:grove (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:snowy_taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:windswept_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:meadow (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:old_growth_spruce_taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:flower_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:birch_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:dark_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:savanna_plateau (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:savanna (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:jungle (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:ice_spikes (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:old_growth_pine_taiga (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:sunflower_plains (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:old_growth_birch_forest (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:sparse_jungle (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:bamboo_jungle (from spelunkery-1.19.2-0.2.2-forge.jar)
+- minecraft:windswept_savanna (from spelunkery-1.19.2-0.2.2-forge.jar)
+
+#environmental:has_feature/cattails
+- minecraft:river (from environmental-1.19.2-3.0.0.jar)
+- #forge:is_swamp (from environmental-1.19.2-3.0.0.jar)
+
+#structory:has_structure/boat
+- minecraft:ocean (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:cold_ocean (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:lukewarm_ocean (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:deep_ocean (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:deep_cold_ocean (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:deep_lukewarm_ocean (from Structory_1.19.3_v1.3.1a.jar)
+- minecraft:warm_ocean (from Structory_1.19.3_v1.3.1a.jar)
+
+#bettermineshafts:has_structure/better_mineshaft_overgrown
+- #minecraft:is_forest (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #forge:is_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- #c:forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:red_oak_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:temperate_rainforest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:orchard? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:autumnal_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- byg:cherry_blossom_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:cherry_blossom_grove? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:orchard? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:seasonal_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:woodland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- biomesoplenty:old_growth_woodland? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- magicalforest:magical_forest? (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#yungsbridges:collections/jungle
+- #minecraft:is_jungle (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #forge:is_jungle? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+- #c:in_jungle? (from YungsBridges-1.19.2-Forge-3.1.0.jar)
+
+#minecraft:reduce_water_ambient_spawns
+- #minecraft:is_river (from Default)
+
+#forge:is_spooky
+- minecraft:dark_forest (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.11-universal.jar)

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "environmental:stripped_cherry_wood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "results": [
+    {
+      "item": "environmental:cherry_wood"
+    }
+  ]
+}

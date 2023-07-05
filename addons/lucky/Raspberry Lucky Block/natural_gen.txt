@@ -1,0 +1,2 @@
+>minecraft:overworld
+type=block,ID=lucky:raspberry_lucky_block@chance=200

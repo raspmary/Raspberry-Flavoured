@@ -1,0 +1,241 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1124831241598939228
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Raspberry Flavoured is loading"
+	#The second line of text under the app name
+	state = "Game Starting..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[init.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is doing stuff"
+	#The second line of text under the app name
+	state = "Chilling in the menu"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[main_menu.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[server_list.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[realms_list.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[join_game.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently In %world%"
+	#The second line of text under the app name
+	state = "Playing in: %savename%"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[single_player.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Playing in: %savename%"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[multi_player.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing in: %savename%"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[realms.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[generic]
+	#The first line of text under the app name
+	description = "Doing something very cool, which is:"
+	#The second line of text under the app name
+	state = "Playing Raspberry Flavoured"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["rflogodcbig"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+	#The buttons to display on Discord 
+
+	[[generic.buttons]]
+		label = "CurseForge Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+

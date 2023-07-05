@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "babyfat:ranchu"
+    },
+	{
+      "item": "babyfat:ranchu"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+	{
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": {
+    "item": "babydelight:ranchu_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

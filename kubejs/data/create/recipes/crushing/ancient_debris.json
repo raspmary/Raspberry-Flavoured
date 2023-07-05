@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  ],
+  "processingTime": 1000,
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+	  "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+	  "chance": 0.15,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

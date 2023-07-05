@@ -1,0 +1,27 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "minecraft:honeycomb"
+  },
+  "experience": 1.6,
+  "fermentingtime": 4000,
+  "fluiditem": {
+    "tag": "forge:milk"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "brewinandchewin:unripe_scarlet_cheese_wheel"
+  },
+  "temperature": 5
+}

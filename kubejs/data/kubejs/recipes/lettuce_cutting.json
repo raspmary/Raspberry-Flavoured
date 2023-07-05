@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "babyfat:water_lettuce"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "kubejs:lettuce_leaf"
+    },
+	{
+      "count": 1,
+	  "chance": 0.25,
+      "item": "kubejs:lettuce_leaf"
+    },
+	{
+      "count": 1,
+	  "chance": 0.75,
+      "item": "minecraft:hanging_roots"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

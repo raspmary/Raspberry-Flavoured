@@ -1,0 +1,105 @@
+
+[enchantments]
+
+	[enchantments.alleviating]
+		#Armor enchantment that heals the user when collecting experience
+		"Enable Alleviating" = true
+		#How much the experience value is multiplied by into health
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Healing factor" = 0.25
+
+	[enchantments.missile]
+		#Weapon enchantment that launches enemies upwards rather than away
+		"Enable Launch" = true
+		#How much the target is affected on the vertical axis
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Vertical factor" = 0.35
+
+	[enchantments.reeling]
+		#Crossbow enchantment that pulls targets towards the user
+		"Enable Reeling" = true
+		#How much the target is affected on the horizontal axis
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Horizontal factor" = 0.5
+		#How much the target is affected on the vertical axis
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Vertical factor" = 0.25
+
+	[enchantments.reforming]
+		#Gear enchantment that very slowly repairs items over time
+		"Enable Reforming" = true
+		#How many ticks it takes a reforming item to repair
+		#Range: > 0
+		"Reforming tick rate" = 300
+
+	[enchantments.shockwave]
+		#Boots enchantment that creates a shockwave when taking fall damage
+		"Enable Shockwave" = true
+		#If Shockwave tramples farmland within the wave radius
+		"Shockwave tramples farmland" = true
+
+	[enchantments.vengeance]
+		#Armor enchantment that stores incoming damage and applies it to user's next attack
+		"Enable Vengeance" = true
+		#How much the damage taken with vengeance is multiplied for attacks
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Damage factor" = 0.025
+
+	[enchantments.spread_of_ailments]
+		#Crossbow enchantment that applies the user's active effects to their arrows
+		"Enable Spread of Ailments" = true
+
+[curses]
+
+	[curses.ascension_curse]
+		#Curse that causes the cursed item to float upwards when dropped
+		"Enable Curse of Ascension" = true
+
+	[curses.fleeting_curse]
+		#Curse that causes nearby entities to repel the cursed item
+		"Enable Curse of Fleeting" = true
+
+[tweaks]
+
+	[tweaks.horse_armor]
+		#Allow horse armor to be enchanted
+		"Enchantable horse armor" = false
+		#If horse armor can appear enchanted when found in loot tables
+		"Generates in loot tables" = false
+		#Which loot tables horse armor can't appear enchanted in
+		"Unenchanted loot tables" = ["minecraft:chests/village/village_weaponsmith", "minecraft:chests/stronghold_corridor", "minecraft:chests/nether_bridge"]
+
+	[tweaks.bane_of_arthropods]
+		#If Bane of Arthropods increases the mining speed of Cobwebs
+		"Bane of Arthropods mines cobwebs faster" = true
+
+	[tweaks.feather_falling]
+		#If having Feather Falling prevents farmland from being trampled
+		"Feather Falling prevents trampling" = true
+
+	[tweaks.infinity]
+		#If Infinity requires an arrow in the player's inventory in order to shoot
+		"Infinity requires arrows" = false
+
+	[tweaks.protection]
+		#Remove the base Protection enchantment, requiring players to choose between the other types
+		"Disable Protection" = false
+
+	[tweaks.riptide]
+		#Allow Riptide to function when in cauldrons
+		"Riptide works in cauldrons" = true
+
+	[tweaks.soul_speed]
+		#Instead of losing durability as you run, Soul Speed makes incoming damage increase when on Soul Speed blocks
+		"Soul Speed change" = true
+		#How much damage is multiplied when hurt on Soul Speed blocks
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Damage factor" = 1.5
+
+	[tweaks.level_scaling]
+		#Remove the amount of experience per level increasing (experimental)
+		"Remove level scaling" = false
+		#The amount of experience per level, if level scaling is removed (experimental)
+		#Range: > 0
+		"Experience per level" = 50
+

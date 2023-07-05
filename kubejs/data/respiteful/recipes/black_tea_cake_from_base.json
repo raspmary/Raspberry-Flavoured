@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createaddition:cake_base"
+    },
+    {
+      "item": "farmersrespite:black_tea_leaves"
+    },
+    {
+      "item": "farmersrespite:black_tea_leaves"
+    }
+  ],
+  "results": [
+    {
+      "item": "respiteful:black_tea_cake"
+    }
+  ]
+}

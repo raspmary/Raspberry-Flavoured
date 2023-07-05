@@ -1,0 +1,20 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "neapolitan:milk_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "neapolitan:dried_vanilla_pods"
+    },
+    {
+      "item": "farmersrespite:yellow_tea_leaves"
+    }
+  ],
+  "needwater": false,
+  "result": {
+    "item": "respiteful:vanilla_milk_tea"
+  }
+}

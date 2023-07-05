@@ -1,0 +1,6 @@
+{
+  "parent": "farmersdelight:item/mug",
+  "textures": {
+    "layer0": "miners_delight:item/pumpkin_soup_cup"
+  }
+}

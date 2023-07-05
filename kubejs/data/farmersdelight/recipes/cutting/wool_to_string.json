@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}

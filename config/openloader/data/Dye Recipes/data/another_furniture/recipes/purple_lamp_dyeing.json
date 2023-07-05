@@ -1,0 +1,14 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+	{
+		"item": "another_furniture:white_lamp"
+	},
+	{
+		"item": "minecraft:purple_dye"
+	}
+	],
+	"result": {
+		"item": "another_furniture:purple_lamp"
+	}
+}

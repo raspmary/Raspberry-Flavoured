@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "architects_palette:nether_brass_ingot"
+	},
+	"result": {
+		"item": "architects_palette:nether_brass_chain",
+		"count": 8
+	}
+}

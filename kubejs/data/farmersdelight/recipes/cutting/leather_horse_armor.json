@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_horse_armor"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:rabbit_hide"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}

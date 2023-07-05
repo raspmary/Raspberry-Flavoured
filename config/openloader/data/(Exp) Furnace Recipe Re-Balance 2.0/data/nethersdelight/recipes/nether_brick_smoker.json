@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "quark:blackstone_furnace"
+    },
+    "n": {
+      "item": "minecraft:nether_bricks"
+    },
+    "p": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "c": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "pattern": [
+    "npn",
+    "pbp",
+    "ncn"
+  ],
+  "result": {
+    "item": "nethersdelight:nether_brick_smoker"
+  }
+}

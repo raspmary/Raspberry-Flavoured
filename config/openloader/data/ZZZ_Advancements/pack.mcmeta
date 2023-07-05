@@ -1,0 +1,46 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": [{"text":"Recipes and balancing","color":"yellow"}]
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "farmersdelight",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "repurposed_structures",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "betterdeserttemples",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "create",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "dungeons_enhanced",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "betterdungeons",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "architects_palette",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "toms_storage",
+                "path": "advancements/.*"
+            }
+        ]
+    }
+}

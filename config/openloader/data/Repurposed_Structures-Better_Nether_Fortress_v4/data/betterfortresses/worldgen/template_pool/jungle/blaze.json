@@ -1,0 +1,183 @@
+{
+  "name": "betterfortresses:jungle/blaze",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_forced",
+        "max_count": 1,
+        "is_priority": true,
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_0_r",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_1_r",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_2_r",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_3_r",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_4_r",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_0_l",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_1_l",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_2_l",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_3_l",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/blaze/blaze_broken_4_l",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "blaze_broken",
+        "max_count": 2,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 28
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    }
+  ]
+}

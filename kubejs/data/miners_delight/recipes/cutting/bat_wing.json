@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "miners_delight:bat_wing"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.5,
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

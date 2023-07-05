@@ -1,0 +1,31 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "experience": 0.6,
+  "fermentingtime": 1500,
+  "fluiditem": {
+    "item": "brewinandchewin:strongroot_ale"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+	{
+      "tag": "forge:ingots/steel"
+    },
+	{
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+	"count": 2,
+    "item": "brewinandchewin:steel_toe_stout"
+  },
+  "temperature": 1
+}

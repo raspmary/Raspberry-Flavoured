@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "b": {
+      "item": "quark:blackstone_furnace"
+    },
+    "s": {
+      "item": "minecraft:polished_blackstone"
+    }
+  },
+  "pattern": [
+    "###",
+    "#b#",
+    "sss"
+  ],
+  "result": {
+    "item": "nethersdelight:blackstone_blast_furnace"
+  }
+}

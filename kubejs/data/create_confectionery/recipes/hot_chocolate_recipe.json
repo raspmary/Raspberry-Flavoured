@@ -1,0 +1,27 @@
+{
+  "group": "create_confectionery",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+	{
+      "item": "create_confectionery:cocoa_butter"
+    },
+    {
+      "fluid": "create:chocolate",
+      "amount": 125
+    },
+    {
+      "fluidTag": "forge:milk",
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_confectionery:hot_chocolate",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

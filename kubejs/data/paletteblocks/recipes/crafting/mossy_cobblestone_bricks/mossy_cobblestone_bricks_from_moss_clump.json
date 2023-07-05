@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mossy_cobblestone_bricks",
+  "ingredients": [
+    {
+      "item": "paletteblocks:cobblestone_bricks"
+    },
+    {
+      "item": "abundant_atmosphere:moss_clump"
+    }
+  ],
+  "result": {
+    "item": "paletteblocks:mossy_cobblestone_bricks"
+  }
+}

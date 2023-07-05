@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "buzzier_bees:honey_bread"
+  },
+  "sound": "minecraft:item.honeycomb.wax_on"
+}

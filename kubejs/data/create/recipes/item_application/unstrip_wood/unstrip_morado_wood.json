@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "atmospheric:stripped_morado_wood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "results": [
+    {
+      "item": "atmospheric:morado_wood"
+    }
+  ]
+}

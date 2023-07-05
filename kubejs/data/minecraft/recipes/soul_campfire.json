@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:campfire"
+        },
+        {
+            "tag": "minecraft:soul_fire_base_blocks"
+        }
+    ],
+    "result": {
+        "item": "minecraft:soul_campfire",
+        "count": 1
+    }
+}

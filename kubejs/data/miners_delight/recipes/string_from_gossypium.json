@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "miners_delight:gossypium"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "chance": 0.5,
+      "count": 1,
+      "item": "minecraft:gray_dye"
+    },
+	{
+      "chance": 0.15,
+	  "count": 2,
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "chance": 0.15,
+      "count": 2,
+      "item": "minecraft:gray_dye"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "farmersrespite:rose_hips"
+        }
+    ],
+    "result": {
+        "item": "minecraft:red_dye",
+        "count": 3
+    }
+}

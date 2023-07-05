@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": [
+    {
+      "item": "create_confectionery:cocoa_powder"
+    },
+	{
+	  "chance": 0.25,
+      "item": "create_confectionery:cocoa_powder"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

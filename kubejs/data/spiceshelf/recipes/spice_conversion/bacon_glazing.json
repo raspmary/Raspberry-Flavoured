@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    {
+      "item": "autumnity:syrup_bottle"
+    }
+  ],
+  "result": {
+    "item": "abnormals_delight:maple_glazed_bacon"
+  },
+  "sound": "minecraft:item.honeycomb.wax_on"
+}

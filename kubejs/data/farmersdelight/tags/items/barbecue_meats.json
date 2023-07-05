@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#forge:cooked_beef",
+    "#forge:cooked_pork",
+	"#forge:cooked_chicken",
+	"#forge:cooked_mutton",
+	"#forge:cooked_fishes",
+	"minecraft:cooked_rabbit",
+	"#forge:cooked_goat",
+	"#forge:cooked_venison",
+	"#forge:cooked_duck"
+  ]
+}

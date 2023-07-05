@@ -1,0 +1,63 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 20, 2023, 4:55:18 PM
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#create:bottomless/deny
+
+#forge:experience
+- cofh_core:experience (from cofh_core-1.19.2-10.2.1.40.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- create_confectionery:black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- spelunkery:portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)
+- spelunkery:flowing_portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)
+- create_central_kitchen:flowing_sap? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:sap? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:flowing_syrup? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:syrup? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:flowing_tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+- create_central_kitchen:tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar)
+
+#forge:molten_lead
+- oreganized:molten_lead (from Oreganized 1.19.2-2.0.2.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.i.jar)
+- create:chocolate (from create-1.19.2-0.5.0.i.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.11-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.11-universal.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.i.jar)
+- create:tea (from create-1.19.2-0.5.0.i.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.i.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.i.jar)
+
+#forge:honey
+- cofh_core:honey (from cofh_core-1.19.2-10.2.1.40.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.i.jar)
+- create:honey (from create-1.19.2-0.5.0.i.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.2.1.40.jar)
+
+#spelunkery:portal_fluid
+- spelunkery:portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)
+- spelunkery:flowing_portal_fluid (from spelunkery-1.19.2-0.2.2-forge.jar)

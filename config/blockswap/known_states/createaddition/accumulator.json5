@@ -1,0 +1,326 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_90",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_180",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_counterclockwise_90",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_90",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_180",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_counterclockwise_90",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_90",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_180",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_counterclockwise_90",
+			"facing": "north"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "none",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_90",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_180",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_counterclockwise_90",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_90",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_180",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_counterclockwise_90",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_90",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_180",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_counterclockwise_90",
+			"facing": "south"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "none",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_90",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_180",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_counterclockwise_90",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_90",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_180",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_counterclockwise_90",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_90",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_180",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_counterclockwise_90",
+			"facing": "west"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "none",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_90",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_clockwise_180",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "y_counterclockwise_90",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_90",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_clockwise_180",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "x_counterclockwise_90",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_90",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_clockwise_180",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "z_counterclockwise_90",
+			"facing": "east"
+		},
+		"Name": "createaddition:accumulator"
+	}
+]

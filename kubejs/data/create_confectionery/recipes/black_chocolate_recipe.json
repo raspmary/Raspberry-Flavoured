@@ -1,0 +1,26 @@
+{
+  "group": "create_confectionery",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_confectionery:cocoa_butter"
+    },
+    {
+      "tag": "minecraft:cocoa_beans_or_powder"
+    },
+    {
+      "tag": "minecraft:cocoa_beans_or_powder"
+    },
+    {
+      "fluidTag": "forge:milk",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_confectionery:black_chocolate",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

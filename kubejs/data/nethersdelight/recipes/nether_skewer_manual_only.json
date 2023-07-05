@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:blaze_rod"
+    },
+    "p": {
+      "item": "minecraft:crimson_fungus"
+    },
+    "s": {
+      "tag": "nethersdelight:raw_strider"
+    }
+  },
+  "pattern": [
+    "ps",
+    "bp"
+  ],
+  "result": {
+    "item": "nethersdelight:nether_skewer"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "alloyed:steel_ingot"
+	},
+	"result": {
+		"item": "minecraft:chain",
+		"count": 16
+	}
+}

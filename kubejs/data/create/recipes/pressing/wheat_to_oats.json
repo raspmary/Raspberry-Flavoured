@@ -1,0 +1,18 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:oats"
+    },
+	{
+	  "count": 2,
+	  "chance": 0.35,
+      "item": "kubejs:oats"
+    }
+  ]
+}

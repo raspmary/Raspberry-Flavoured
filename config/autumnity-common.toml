@@ -1,0 +1,5 @@
+
+[generation]
+	#If colored Maple Trees should generate sparsely in Forests, Dark Forests, and Taigas respectively
+	"Generate Spotted Forests" = true
+

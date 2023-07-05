@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "000",
+    "111"
+  ],
+  "key": {
+    "0": {
+      "item": "supplementaries:feather_block"
+    },
+    "B": {
+      "tag": "upgrade_aquatic:bedrolls"
+    },
+    "1": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_bed",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "feather_block"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "abundant_atmosphere:poreshroom_block",
+	"spelunkery:inkcap_mushroom_block",
+	"spelunkery:white_inkcap_mushroom_block",
+	"quark:glow_shroom_block",
+	"spelunkery:portabella_block",
+	"spelunkery:milly_bubcap_block",
+	"overweight_farming:overweight_nether_wart_block"
+  ]
+}

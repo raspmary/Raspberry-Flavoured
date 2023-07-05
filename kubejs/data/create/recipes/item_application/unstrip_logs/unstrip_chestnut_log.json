@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "windswept:stripped_chestnut_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "results": [
+    {
+      "item": "windswept:chestnut_log"
+    }
+  ]
+}

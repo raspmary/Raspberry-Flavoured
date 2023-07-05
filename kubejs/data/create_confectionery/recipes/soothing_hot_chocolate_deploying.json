@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create_confectionery:hot_chocolate_bottle"
+    },
+    {
+      "item": "create_confectionery:marshmallow"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_confectionery:soothing_hot_chocolate"
+    }
+  ]
+}

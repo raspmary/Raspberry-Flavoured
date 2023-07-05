@@ -1,0 +1,25 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 0.3,
+  "fermentingtime": 500,
+  "fluiditem": {
+    "tag": "forge:milk"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "minecraft:cocoa_beans_or_powder"
+    },
+    {
+      "tag": "minecraft:cocoa_beans_or_powder"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 2,
+    "item": "brewinandchewin:cocoa_fudge"
+  },
+  "temperature": 5
+}

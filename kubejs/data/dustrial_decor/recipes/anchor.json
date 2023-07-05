@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " $ ",
+    " # ",
+    "###"
+  ],
+  "key": {
+    "$": {
+      "item": "dustrial_decor:large_chain"
+    },
+    "#": {
+      "tag": "brewinandchewin:iron_or_lead"
+    }
+  },
+  "result": {
+    "item": "dustrial_decor:anchor"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "type": "repurposed_structures:advanced_random_spread",
+    "salt": 1694767080,
+    "spacing": 50,
+    "separation": 25
+  }
+}

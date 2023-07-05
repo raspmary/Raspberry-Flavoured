@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "quark:polished_dripstone"
+  },
+  "result": "abundant_atmosphere:dripstone_tile_wall"
+}

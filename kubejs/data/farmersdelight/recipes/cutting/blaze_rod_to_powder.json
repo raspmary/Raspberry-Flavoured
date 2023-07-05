@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "result": [
+    {
+	  "count": 1,
+      "item": "minecraft:blaze_powder"
+    },
+	{
+	  "count": 1,
+	  "chance": 0.25,
+      "item": "minecraft:blaze_powder"
+    },
+	{
+	  "count": 1,
+	  "chance": 0.25,
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

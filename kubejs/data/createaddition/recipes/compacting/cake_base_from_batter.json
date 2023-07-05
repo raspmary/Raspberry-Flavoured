@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 500,
+      "fluid": "kubejs:cake_batter"
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:cake_base"
+    }
+  ]
+}

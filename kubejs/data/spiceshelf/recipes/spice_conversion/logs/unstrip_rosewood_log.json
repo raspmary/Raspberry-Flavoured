@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "atmospheric:stripped_rosewood_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "atmospheric:rosewood_log"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

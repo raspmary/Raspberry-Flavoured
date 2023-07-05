@@ -1,0 +1,22 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spelunkery:rock_salt_block"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "item": "spelunkery:rock_salt"
+    },
+    {
+      "chance": 0.5,
+      "item": "spelunkery:rock_salt"
+    },
+    {
+      "chance": 0.1,
+      "item": "spelunkery:rock_salt"
+    }
+  ]
+}

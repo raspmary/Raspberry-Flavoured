@@ -1,0 +1,7 @@
+#quad x/y offset. simply put moves the quad toward the center of the item. Use to hide gaps
+#Range: -0.1 ~ 0.1
+quad_recess = 0.007
+#quad expansion increment. enlarges each quad. Use to hide gaps. Keep both as close to 0 as possible
+#Range: -0.1 ~ 0.1
+quad_expansion = 0.008
+

@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spelunkery:magnetite"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "item": "spelunkery:magnetite_chunk"
+    },
+    {
+      "chance": 0.1,
+      "item": "spelunkery:magnetite_chunk"
+    },
+    {
+	  "count": 3,
+      "chance": 0.5,
+      "item": "spelunkery:raw_iron_nugget"
+    },
+    {
+	  "count": 3,
+      "chance": 0.1,
+      "item": "spelunkery:raw_iron_nugget"
+    }
+  ]
+}

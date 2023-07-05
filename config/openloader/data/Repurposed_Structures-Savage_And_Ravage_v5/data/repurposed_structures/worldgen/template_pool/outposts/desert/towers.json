@@ -1,0 +1,24 @@
+{
+  "name": "repurposed_structures:outposts/desert/towers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/desert/watchtower",
+        "processors": "repurposed_structures:outposts/savageandravagefloor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/desert/watchtower_aged",
+        "processors": "repurposed_structures:outposts/savageandravagefloor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

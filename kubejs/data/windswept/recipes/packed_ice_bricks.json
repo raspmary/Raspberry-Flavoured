@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ZX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:packed_ice"
+        },
+        "Z": {
+            "item": "paletteblocks:cobblestone_bricks"
+        }
+    },
+    "result": {
+        "count": 4,
+        "item": "windswept:packed_ice_bricks"
+    }
+}

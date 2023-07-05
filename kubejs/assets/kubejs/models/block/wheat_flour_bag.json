@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "kubejs:block/wheat_flour_bag_bottom",
+    "east": "kubejs:block/wheat_flour_bag_side",
+    "north": "kubejs:block/wheat_flour_bag_side_tied",
+    "particle": "kubejs:block/wheat_flour_bag_top",
+    "south": "kubejs:block/wheat_flour_bag_side_tied",
+    "up": "kubejs:block/wheat_flour_bag_top",
+    "west": "kubejs:block/wheat_flour_bag_side"
+  }
+}

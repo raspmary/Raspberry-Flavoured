@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+	"ecologics:ice_bricks",
+	"ecologics:ice_brick_stairs",
+	"ecologics:ice_brick_slab",
+	"ecologics:ice_brick_wall",
+	"architects_palette:polished_packed_ice",
+	"architects_palette:polished_packed_ice_stairs",
+	"architects_palette:polished_packed_ice_slab",
+	"architects_palette:polished_packed_ice_wall",
+	"architects_palette:chiseled_packed_ice",
+	"architects_palette:packed_ice_pillar",
+	"windswept:packed_ice_bricks",
+	"windswept:chiseled_packed_ice_bricks",
+	"windswept:packed_ice_brick_stairs",
+	"windswept:packed_ice_brick_slab",
+	"windswept:packed_ice_brick_wall",
+	"windswept:blue_ice_bricks",
+	"windswept:chiseled_blue_ice_bricks",
+	"windswept:blue_ice_brick_stairs",
+	"windswept:blue_ice_brick_slab",
+	"windswept:blue_ice_brick_wall",
+	"windswept:ice_sheet"
+  ]
+}

@@ -1,0 +1,293 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "single",
+			"facing": "north",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "north",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "north",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "north",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "single",
+			"facing": "south",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "south",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "south",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "south",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "single",
+			"facing": "west",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "west",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "west",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "west",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "single",
+			"facing": "east",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "east",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "east",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "east",
+			"attached": "true"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "north",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "north",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "north",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "single",
+			"facing": "south",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "south",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "south",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "south",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "single",
+			"facing": "west",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "west",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "west",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "west",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "single",
+			"facing": "east",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "left",
+			"facing": "east",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "middle",
+			"facing": "east",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "right",
+			"facing": "east",
+			"attached": "false"
+		},
+		"Name": "everycomp:af/atmospheric/aspen_planter_box"
+	}
+]

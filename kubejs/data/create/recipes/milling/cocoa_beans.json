@@ -1,0 +1,27 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "processingTime": 70,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:brown_dye"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:brown_dye"
+    },
+    {
+      "item": "create_confectionery:cocoa_powder"
+    },
+    {
+      "count": 2,
+      "chance": 0.35,
+      "item": "create_confectionery:cocoa_powder"
+    }
+  ]
+}

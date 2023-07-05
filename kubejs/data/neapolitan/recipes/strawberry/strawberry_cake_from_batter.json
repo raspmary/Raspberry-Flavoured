@@ -1,0 +1,20 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 500,
+      "fluid": "kubejs:cake_batter"
+    },
+    {
+      "item": "neapolitan:strawberries"
+    },
+    {
+      "item": "neapolitan:strawberries"
+    }
+  ],
+  "results": [
+    {
+      "item": "neapolitan:strawberry_cake"
+    }
+  ]
+}

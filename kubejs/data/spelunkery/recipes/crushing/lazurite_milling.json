@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spelunkery:rough_lazurite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 1
+    },
+	{
+      "item": "spelunkery:lapis_lazuli_shard",
+      "chance": 0.25,
+	  "count": 3
+    },
+	{
+      "item": "spelunkery:lapis_lazuli_shard",
+      "chance": 0.1,
+	  "count": 1
+    },
+    {
+      "item": "spelunkery:raw_gold_nugget",
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 300
+}

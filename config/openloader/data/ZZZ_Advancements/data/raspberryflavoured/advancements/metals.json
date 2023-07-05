@@ -1,0 +1,43 @@
+{
+  "parent": "raspberryflavoured:furnace",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+			  "minecraft:gold_ingot",
+			  "minecraft:copper_ingot",
+			  "oreganized:lead_ingot",
+			  "oreganized:silver_ingot",
+			  "create:zinc_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Smelt any raw metal to refine it and obtain it in ingot form"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:copper_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Metallurgy"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

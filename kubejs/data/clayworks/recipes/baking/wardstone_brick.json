@@ -1,0 +1,11 @@
+{
+    "type": "clayworks:baking",
+    "ingredient": [
+        {
+            "item": "architects_palette:wardstone_blend"
+        }
+    ],
+    "result": "architects_palette:wardstone_brick",
+    "experience": 0.1,
+    "cookingtime": 100
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+    "item": "toms_storage:ts.inventory_connector"
+    },
+    {
+      "item": "create:smart_chute"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.inventory_proxy"
+  }
+}

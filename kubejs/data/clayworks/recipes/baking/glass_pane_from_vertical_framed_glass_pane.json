@@ -1,0 +1,9 @@
+{
+  "type": "clayworks:baking",
+  "cookingtime": 25,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "create:vertical_framed_glass_pane"
+  },
+  "result": "minecraft:glass_pane"
+}

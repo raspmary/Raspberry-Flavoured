@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "brewinandchewin:jerky"
+        },
+        {
+            "item": "brewinandchewin:jerky"
+        },
+        {
+            "item": "brewinandchewin:jerky"
+        }
+    ],
+    "result": {
+        "item": "minecraft:leather",
+        "count": 2
+    }
+}

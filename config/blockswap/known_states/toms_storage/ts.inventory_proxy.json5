@@ -1,0 +1,342 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "notset",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "down",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "up",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "north",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "south",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "west",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "east",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "notset",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "down",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "up",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "north",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "south",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "west",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "east",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "notset",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "down",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "up",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "north",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "south",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "west",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "east",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "notset",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "down",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "up",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "north",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "south",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "west",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "east",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "notset",
+			"facing": "up"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "down",
+			"facing": "up"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "up",
+			"facing": "up"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "north",
+			"facing": "up"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "south",
+			"facing": "up"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "west",
+			"facing": "up"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "east",
+			"facing": "up"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "down",
+			"facing": "down"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "up",
+			"facing": "down"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "north",
+			"facing": "down"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "south",
+			"facing": "down"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "west",
+			"facing": "down"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"filter_facing": "east",
+			"facing": "down"
+		},
+		"Name": "toms_storage:ts.inventory_proxy"
+	}
+]

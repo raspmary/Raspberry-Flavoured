@@ -1,0 +1,8 @@
+
+["Obtaining Netherite Horse Armor"]
+	#Should the game use builtin loot generation(in the bastion treasure loot table) for the horse armor? (this mod doesn't use data pack due to compatibility problems)
+	builtinLootGeneration = true
+	#If use the builtin loot generation, how much the weight should be? (default: 8)
+	#Range: > 1
+	weight = 4
+

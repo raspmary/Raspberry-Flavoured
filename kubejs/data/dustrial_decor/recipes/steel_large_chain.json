@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "$",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "alloyed:steel_ingot"
+    },
+    "$": {
+      "item": "alloyed:steel_block"
+    }
+  },
+  "result": {
+    "item": "dustrial_decor:large_chain",
+    "count": 24
+  }
+}

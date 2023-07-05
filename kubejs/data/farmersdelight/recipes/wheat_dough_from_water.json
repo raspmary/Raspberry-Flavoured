@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    },
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    },
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "farmersdelight:wheat_dough"
+  }
+}

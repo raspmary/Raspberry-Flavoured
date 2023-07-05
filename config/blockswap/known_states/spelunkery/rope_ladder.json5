@@ -1,0 +1,324 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "north",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "north",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "north",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"facing": "north",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "south",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "south",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "south",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"facing": "south",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "west",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "west",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "west",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"facing": "west",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "east",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "east",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "east",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"facing": "east",
+			"end": "true"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "north",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "north",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "north",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "south",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "south",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "south",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"facing": "south",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "west",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "west",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "west",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"facing": "west",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "true",
+			"facing": "east",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "true",
+			"facing": "east",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"top": "false",
+			"facing": "east",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"top": "false",
+			"facing": "east",
+			"end": "false"
+		},
+		"Name": "spelunkery:rope_ladder"
+	}
+]

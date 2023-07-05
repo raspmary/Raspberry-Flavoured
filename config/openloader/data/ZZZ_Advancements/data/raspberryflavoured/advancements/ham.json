@@ -1,0 +1,51 @@
+{
+  "parent": "raspberryflavoured:knife",
+  "criteria": {
+    "ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:ham"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "smoked_ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:smoked_ham"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Get the killing blow on a pig or a hoglin with a knife to obtain ham"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:ham"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Ham It Up"
+    }
+  },
+  "requirements": [
+    [
+      "ham",
+      "smoked_ham"
+    ]
+  ]
+}

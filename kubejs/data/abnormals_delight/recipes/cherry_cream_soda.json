@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "neapolitan:milk_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "cherry_cream_soda",
+  "ingredients": [
+    {
+      "item": "environmental:cherries"
+    },
+    {
+      "item": "neapolitan:dried_vanilla_pods"
+    }
+  ],
+  "needwater": true,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "abnormals_delight:cherry_cream_soda"
+  }
+}

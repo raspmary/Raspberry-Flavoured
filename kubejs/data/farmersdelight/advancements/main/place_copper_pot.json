@@ -1,0 +1,31 @@
+{
+  "parent": "farmersdelight:main/place_campfire",
+  "criteria": {
+    "copper_pot": {
+      "conditions": {
+        "block": "miners_delight:copper_pot"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "farmersdelight.advancement.place_copper_pot.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "miners_delight:copper_pot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "farmersdelight.advancement.place_copper_pot"
+    }
+  },
+  "requirements": [
+    [
+      "copper_pot"
+    ]
+  ]
+}

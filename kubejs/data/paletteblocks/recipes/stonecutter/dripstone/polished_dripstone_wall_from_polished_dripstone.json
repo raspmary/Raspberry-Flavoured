@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quark:polished_dripstone"
+  },
+  "result": "paletteblocks:polished_dripstone_wall",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+	"item.createaddition.diamond_grit_sandpaper": "Diamond Grit Sand Paper",
+	"item.createaddition.diamond_grit_sandpaper.tooltip": "DIAMOND GRIT SAND PAPER",
+	"createaddition.ponder.rolling_mill.header": "Rolling Materials",
+	"createaddition.ponder.rolling_mill.text_1": "The Rolling Mill uses rotational force to roll materials into various items",
+	"createaddition.ponder.rolling_mill.text_2": "To manually input items, drop materials on the top of the Rolling Mill",
+	"createaddition.ponder.rolling_mill.text_3": "Right-click the Mill to manually retrieve the output items"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	" C ",
+    "cGg",
+    "PPP"
+  ],
+  "key": {
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "c": {
+      "item": "create:content_observer"
+    },
+    "P": {
+      "tag": "minecraft:buttons"
+    },
+    "G": {
+      "item": "create:display_link"
+    },
+    "g": {
+      "item": "create:display_board"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.storage_terminal"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "interval": 10,
+  "entries": [
+    {
+      "block": [
+        "minecraft:soul_sand",
+        "minecraft:soul_soil"
+      ],
+      "particle": "visuality:soul"
+    }
+  ]
+}

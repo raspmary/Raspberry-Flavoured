@@ -1,0 +1,1204 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "north"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "east"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "south"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "west"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "up"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "true",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "north",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "south",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "west",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "east",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "double",
+			"charged": "false",
+			"charge_source": "down"
+		},
+		"Name": "architects_palette:hadaline_tile_vertical_slab"
+	}
+]

@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:honey_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "passion_aloe_nectar",
+  "ingredients": [
+    {
+      "item": "atmospheric:aloe_leaves"
+    },
+    {
+      "item": "atmospheric:passionfruit"
+    }
+  ],
+  "needwater": true,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "abnormals_delight:passion_aloe_nectar"
+  }
+}

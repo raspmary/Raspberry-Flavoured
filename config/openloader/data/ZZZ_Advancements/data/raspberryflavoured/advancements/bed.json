@@ -1,0 +1,36 @@
+{
+  "parent": "raspberryflavoured:sleep",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:beds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Make a bed to set your spawn point"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "No Place Like Home"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

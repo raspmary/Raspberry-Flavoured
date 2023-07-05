@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "spelunkery:magnetite_chunk"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "S#S",
+    "#S#",
+    "S#S"
+  ],
+  "result": {
+	"count": 10,
+    "item": "minecraft:lodestone"
+  }
+}

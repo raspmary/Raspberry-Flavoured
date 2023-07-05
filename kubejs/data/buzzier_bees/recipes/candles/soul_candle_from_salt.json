@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "H",
+    "B"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "H": {
+      "item": "minecraft:honeycomb"
+    },
+    "B": {
+      "item": "kubejs:soul_salt"
+    }
+  },
+  "result": {
+	"count": 3,
+    "item": "buzzier_bees:soul_candle"
+  }
+}

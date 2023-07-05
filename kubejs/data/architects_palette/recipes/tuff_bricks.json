@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ZX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:tuff"
+        },
+        "Z": {
+            "item": "paletteblocks:cobblestone_bricks"
+        }
+    },
+    "result": {
+        "count": 4,
+        "item": "architects_palette:tuff_bricks"
+    }
+}

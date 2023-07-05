@@ -1,0 +1,221 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "center",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "up",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "up",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "down",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "down",
+			"facing": "north"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "center",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "center",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "up",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "up",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "down",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "down",
+			"facing": "south"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "center",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "center",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "up",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "up",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "down",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "down",
+			"facing": "west"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "center",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "center",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "up",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "up",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "down",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "down",
+			"facing": "east"
+		},
+		"Name": "toms_storage:ts.storage_terminal"
+	}
+]

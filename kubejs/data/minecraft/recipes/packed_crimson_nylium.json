@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FR",
+    "RF"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:crimson_fungus"
+    },
+    "R": {
+      "item": "minecraft:crimson_roots"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_wart_block"
+  }
+}

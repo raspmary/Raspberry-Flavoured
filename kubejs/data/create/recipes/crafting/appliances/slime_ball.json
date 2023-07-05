@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:wheat_flour"
+    },
+	{
+      "tag": "forge:dyes/lime"
+    },
+	{
+      "fluid": "create:honey",
+	  "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ]
+}

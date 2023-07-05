@@ -1,0 +1,47 @@
+Vanilla Tweaks Resource Pack
+Version: 1.19
+Packs:
+	JappaRecipeButton
+	JappaToasts
+	JappaSpecIcons
+	DripleafFixBig
+	DripleafFixSmall
+	CactusBottomFix
+	BlazeFix
+	CloudFogFix
+	SoulSoilSoulCampfire
+	CatFix
+	BedrockTitle
+	LegacyEmerald
+	LakesideSunset
+	MangrovePlanksBG
+	NumberedHotbar
+	PingColorIndicator
+	RainbowExperience
+	MoreCrosshairs-PlusDot
+	UnobtrusiveScaffolding
+	AlternateEnchantGlint
+	LowerFire
+	TransparentPumpkin
+	TransparentSpyglassOverlay
+	DirectionalDispensersDroppers
+	GroovyLevers
+	VisualHoney
+	VisualCauldronStages
+	VisualComposterStages
+	VariatedDirt
+	LowerGrass
+	ShorterTallGrass
+	BetterBedrock
+	DifferentStems
+	BetterParticles
+	HDShieldBanners
+	UniqueDyes
+	HopperBottomFix
+	DirectionalHoppers
+	JappaObserver
+	BetterObservers
+
+Combined packs:
+	BetterObservers+JappaObserver
+	DirectionalHoppers+HopperBottomFix

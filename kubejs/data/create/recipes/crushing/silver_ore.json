@@ -1,0 +1,30 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "oreganized:silver_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "create:crushed_raw_silver"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_silver"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

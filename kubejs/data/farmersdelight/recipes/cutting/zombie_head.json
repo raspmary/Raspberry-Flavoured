@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:zombie_head"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:rotten_flesh",
+	  "count": 2
+    },
+	{
+	  "chance": 0.4,
+      "item": "minecraft:rotten_flesh",
+	  "count": 2
+    },
+	{
+      "item": "create:experience_nugget",
+	  "count": 3
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  },
+  "sound": "auditory:block.gourd.break"
+}

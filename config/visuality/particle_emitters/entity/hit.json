@@ -1,0 +1,49 @@
+{
+  "enabled": true,
+  "min_amount": 1,
+  "max_amount": 20,
+  "entries": [
+    {
+      "entity": "minecraft:wither_skeleton",
+      "particle": "visuality:wither_bone"
+    },
+    {
+      "entity": [
+        "minecraft:chicken",
+        "environmental:duck",
+        "autumnity:turkey"
+      ],
+      "particle": "visuality:feather"
+    },
+    {
+      "entity": [
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+      ],
+      "particle": "visuality:emerald"
+    },
+    {
+      "entity": [
+        "minecraft:magma_cube",
+        "minecraft:blaze",
+        "quark:foxhound"
+      ],
+      "particle": "minecraft:lava"
+    },
+    {
+      "entity": [
+        "minecraft:bee",
+        "buzzier_bees:moobloom"
+      ],
+      "particle": "buzzier_bees:buttercup_bloom"
+    },
+    {
+      "entity": [
+        "minecraft:polar_bear",
+        "windswept:chilled",
+        "savage_and_ravage:iceologer"
+      ],
+      "particle": "savage_and_ravage:snowflake"
+    }
+  ]
+}

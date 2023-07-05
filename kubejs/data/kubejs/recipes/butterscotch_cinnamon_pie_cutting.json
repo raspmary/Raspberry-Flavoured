@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "kubejs:butterscotch_cinnamon_pie"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "kubejs:butterscotch_cinnamon_pie_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

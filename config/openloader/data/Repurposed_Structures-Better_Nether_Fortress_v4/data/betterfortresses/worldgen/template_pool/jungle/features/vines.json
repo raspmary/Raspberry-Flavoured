@@ -1,0 +1,17 @@
+{
+  "name": "betterfortresses:jungle/features/vines",
+  "fallback": "betterfortresses:jungle/features/vines",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "feature": "repurposed_structures:decor/jungle_fortress_structure_vines",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_feature_element"
+      }
+    }
+  ]
+}

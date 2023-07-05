@@ -1,0 +1,13 @@
+{
+  "type": "evoked:remove_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "savage_and_ravage:trickster"
+      }
+    }
+  ],
+  "item": "minecraft:totem_of_undying"
+}

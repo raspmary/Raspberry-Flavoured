@@ -1,0 +1,19 @@
+
+#Vanilla Gameplay Tweaks
+[tweaks]
+	#Tall Birch Trees will generate branches growing out the side of the tree
+	"Birch Branches" = true
+	#All skeletons that spawn in snowy biomes are replaced with strays
+	"Strays Only" = true
+	#Nerfs Boats ability to go extremely fast when on ice and other slippery blocks; default: false
+	"Ice Boat Nerf" = false
+	#If the Hitbox for Flowers should be Larger
+	"Larger Flower Hitbox" = true
+	#If Rabbits should have litters of 1-3
+	"Rabbit Litters" = true
+
+#Tweaks to Windswept Worldgen
+[worldgen]
+	#Roots will grow under the dirt block below a tree, chestnut trees overhanging logs will grow roots
+	"Tree Roots" = true
+

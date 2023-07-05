@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+	{
+      "item": "autumnity:turkey_piece"
+    },
+	{
+      "item": "autumnity:turkey_piece"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+	{
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "kubejs:pasta_with_turkey"
+  }
+}

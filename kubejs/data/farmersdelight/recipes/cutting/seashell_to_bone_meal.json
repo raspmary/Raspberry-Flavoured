@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ecologics:seashell"
+    }
+  ],
+  "result": [
+    {
+	  "count": 1,
+      "item": "minecraft:bone_meal"
+    },
+	{
+	  "count": 2,
+	  "chance": 0.1,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:sweet_roll"
+    },
+    {
+      "item": "kubejs:cinnamon"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:cinnamon_roll"
+    }
+  ]
+}

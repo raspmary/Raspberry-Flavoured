@@ -1,0 +1,2819 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "north",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "south",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "west",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "east",
+			"back": "true"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "north",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "south",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "west",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "single",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "left",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "middle",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "single",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "left",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "middle",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type_2": "right",
+			"type_1": "right",
+			"facing": "east",
+			"back": "false"
+		},
+		"Name": "everycomp:af/atmospheric/rosewood_bench"
+	}
+]

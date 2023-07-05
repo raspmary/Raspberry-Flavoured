@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "villagersellanimals:crate_zombie_foal"
+    }
+  ],
+  "results": [
+    {
+      "item": "villagersellanimals:crate_skeleton_foal"
+    }
+  ]
+}

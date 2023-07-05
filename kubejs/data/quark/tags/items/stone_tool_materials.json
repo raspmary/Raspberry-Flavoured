@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:stone",
+	"minecraft:deepslate",
+    "minecraft:blackstone"
+  ]
+}

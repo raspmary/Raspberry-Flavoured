@@ -1,0 +1,31 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "experience": 0.6,
+  "fermentingtime": 1500,
+  "fluiditem": {
+    "item": "brewinandchewin:egg_grog"
+  },
+  "ingredients": [
+    {
+      "tag": "balm:eggs"
+    },
+    {
+      "tag": "balm:eggs"
+    },
+    {
+      "item": "minecraft:turtle_egg"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+	"count": 2,
+    "item": "brewinandchewin:dread_nog"
+  },
+  "temperature": 1
+}

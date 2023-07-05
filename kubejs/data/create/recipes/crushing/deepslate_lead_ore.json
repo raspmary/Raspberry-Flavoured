@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "oreganized:deepslate_lead_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+	  "count": 2,
+      "item": "create:crushed_raw_lead"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:crushed_raw_lead"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.1,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ]
+}

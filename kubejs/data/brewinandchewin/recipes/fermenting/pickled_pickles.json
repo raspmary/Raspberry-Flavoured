@@ -1,0 +1,25 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 0.4,
+  "fermentingtime": 500,
+  "fluiditem": {
+    "item": "minecraft:honey_bottle"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sea_pickle"
+    },
+    {
+      "item": "minecraft:sea_pickle"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 2,
+    "item": "brewinandchewin:pickled_pickles"
+  },
+  "temperature": 2
+}

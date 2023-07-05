@@ -1,0 +1,484 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"elder": "true",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"elder": "false",
+			"drawn": "true"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"elder": "true",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"elder": "false",
+			"drawn": "false"
+		},
+		"Name": "upgrade_aquatic:elder_guardian_spine"
+	}
+]

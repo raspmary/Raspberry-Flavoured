@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "abundant_atmosphere:rock"
+    }
+  },
+  "pattern": [
+    "CR",
+    "RC"
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:cobblestone"
+  }
+}

@@ -1,0 +1,328 @@
+{
+	"entries": [
+		{
+			"item": "minecraft:campfire",
+			"text": "Unlit kindling for a pleasantly hot bonfire. You can light it with any kind of fire striker, easiest one to obtain being a Crude Fire Striker."
+		},
+		{
+			"item": "minecraft:soul_campfire",
+			"text": "Unlit kindling for a fire so cold*, that it burns. You can light it with any kind of fire striker, easiest one to obtain being a Crude Fire Striker. *Soul fire isn't actually cold."
+		},
+		{
+			"item": "#minecraft:beds",
+			"text": "A warm, cozy bed to sleep your troubles away. Sets your spawn point when right-clicked. If destroyed, it will drop a Bedroll, not itself - so make sure you know where you want to place it."
+		},
+		{
+			"item": "#upgrade_aquatic:bedrolls",
+			"text": "A makeshift bed for much needed rest during long expeditions or in the earlier days of a world. Does not set your spawn point."
+		},
+		{
+			"item": "oreganized:electrum_knife",
+			"text": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals."
+		},
+		{
+			"item": "kubejs:rose_gold_knife",
+			"text": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals."
+		},
+		{
+			"item": "kubejs:copper_knife",
+			"text": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals."
+		},
+		{
+			"item": "#forge:tools/gold",
+			"text": "Golden tools have a special property - they're naturally imbued with a Fortune I/Looting I effect, meaning they'll yield slightly more drops from certain blocks and almost all mobs. This effect does not stack with the Fortune/Looting enchantments."
+		},
+		{
+			"item": "ceramicshears:ceramic_shears",
+			"text": "Rudimentary shears made out of ceramic bricks. Can be upgraded with iron. Shears will allow you to gather wool from sheep, as they won't yield any when killed."
+		},
+		{
+			"item": "minecraft:shears",
+			"text": "Moderately sturdy iron shears. Can be upgraded further with steel. Shears will allow you to gather wool from sheep, as they won't yield any when killed."
+		},
+		{
+			"item": "alloyed:steel_shears",
+			"text": "A durable pair of steel shears. Shears will allow you to gather wool from sheep, as they won't yield any when killed."
+		},
+		{
+			"item": "ecologics:crab_claw",
+			"text": "Believe it or not, this claw is basically an edible pair of shears. Shears will allow you to gather wool from sheep, as they won't yield any when killed."
+		},
+		{
+			"item": ["#farmersrespite:tea_leaves","farmersrespite:wild_tea_bush","farmersrespite:tea_seeds"],
+			"text": "Tea is rarely found in swamps through Wild Tea Bushes. Harvest the bushes and you'll get tea seeds. Wandering Traders will also rarely sell tea seeds."
+		},
+		{
+			"item": ["farmersrespite:coffee_beans","farmersrespite:coffee_berries","farmersrespite:wild_coffee_bush"],
+			"text": "Coffee is found in basalt deltas in the Nether. When planted in the overworld, coffee needs regular crops around it to grow and will cause those crops to wither away. It will grow normally if planted in the Nether. Since you can't sleep in the Nether, at least the caffeine will keep you awake."
+		},
+		{
+			"item": ["minecraft:wheat_seeds","minecraft:wheat"],
+			"text": "Wheat is grown with wheat seeds, which are most commonly found by mowing through any kind of grass."
+		},
+		{
+			"item": ["minecraft:pumpkin_seeds","minecraft:pumpkin","minecraft:carved_pumpkin","farmersdelight:pumpkin_slice","autumnity:large_pumpkin_slice","autumnity:carved_large_pumpkin_slice"],
+			"text": "Pumpkins can be found in most grassy biomes, typically in grouped patches. You'll need a Knife to cut them up into slices. You can also carve them with any type of shears."
+		},
+		{
+			"item": ["minecraft:melon_seeds","minecraft:melon","minecraft:melon_slice","overweight_farming:seedless_peeled_melon","overweight_farming:half_seeded_peeled_melon","overweight_farming:seeded_peeled_melon"],
+			"text": "Melons can be found in jungles. You'll need a Knife to cut them up into slices. You can also peel them with an axe, take out their seeds and then get raw melon juice from the peeled melon with a bottle."
+		},
+		{
+			"item": "overweight_farming:melon_juice",
+			"text": "Raw, chunky melon juice straight from a peeled melon. You can brew it into proper melon juice to have yourself a mini health potion."
+		},
+		{
+			"item": ["minecraft:beetroot_seeds","minecraft:beetroot","farmersdelight:sandy_shrub","farmersdelight:wild_beetroots","upgrade_aquatic:beachgrass","upgrade_aquatic:tall_beachgrass"],
+			"text": "Beetroots are most commonly found on beaches. You'll be able to get them or their seeds from wild sea beets, sandy shrubs or beachgrass."
+		},
+		{
+			"item": ["minecraft:carrot","farmersdelight:wild_carrots"],
+			"text": "Carrots can be found in temperate biomes like plains, meadows or forests. You'll find wild carrots growing from the ground, ready to be plucked. Just like onions."
+		},
+		{
+			"item": ["farmersdelight:onion","farmersdelight:wild_onions"],
+			"text": "Onions can be found in temperate biomes like plains, meadows or forests. You'll find wild onions growing from the ground, ready to be plucked. Just like carrots."
+		},
+		{
+			"item": ["minecraft:potato","farmersdelight:wild_potatoes"],
+			"text": "Potatoes can be found in cold biomes like snowy plains or tundras. You'll find wild potatoes growing from the ground, ready to be plucked. Kind of like carrots and onions."
+		},
+		{
+			"item": ["farmersdelight:tomato","farmersdelight:wild_tomatoes","farmersdelight:tomato_seeds"],
+			"text": "Tomatoes are most commonly found in arid biomes like deserts or savannas. You can harvest the wild tomato shrubs scattered around those biomes to get them and their seeds."
+		},
+		{
+			"item": ["farmersdelight:cabbage","farmersdelight:cabbage_seeds","farmersdelight:wild_cabbages"],
+			"text": "Cabbages are most commonly found on beaches. You'll be able to get them and their seeds from the wild cabbages growing out of the sand. You can also cut cabbages to use up less of them when cooking."
+		},
+		{
+			"item": ["farmersdelight:rice","farmersdelight:wild_rice","farmersdelight:rice_panicle"],
+			"text": "Rice can be found in swamps with its roots buried inside the dirt and half-submerged in water. When grown, harvesting it normally will drop a rice panicle which you'll have to cut up - but if you use a knife to harvest it, it'll give you the rice directly!"
+		},
+		{
+			"item": "windswept:wild_berry_pips",
+			"text": "Wild Berries can be found growing in snowy biomes but are more commonly found in Groves."
+		},
+		{
+			"item": ["minecraft:sweet_berries","berry_good:sweet_berry_pips"],
+			"text": "Sweet berries are most commonly found growing in taigas. Foxes love them."
+		},
+		{
+			"item": ["minecraft:glow_berries","berry_good:glow_berry_pips"],
+			"text": "Glow berries are found underground in lush caves. They quell your hunger §oand§r the darkness!"
+		},
+		{
+			"item": ["autumnity:foul_berries","autumnity:foul_berry_pips"],
+			"text": "Foul berries can be found growing in maple forests. They'll give you the Foul Taste effect, which will make the next food you eat more saturating while the effect is active. Turkeys love them... for some reason."
+		},
+		{
+			"item": ["neapolitan:strawberries","neapolitan:white_strawberries","neapolitan:strawberry_pips"],
+			"text": "Strawberries are found in patches around plains biomes. Strawberries, along with any foods that have strawberries in them, slightly restore your health when eaten."
+		},
+		{
+			"item": ["neapolitan:mint_leaves","neapolitan:mint_sprout"],
+			"text": "Mint is typically found on mountains or windswept hills. Mint, along with most foods that have mint in them, give you the Berserking effect."
+		},
+		{
+			"item": ["neapolitan:banana","neapolitan:banana_bunch","neapolitan:banana_bundle","neapolitan:banana_stalk","neapolitan:small_banana_frond","neapolitan:banana_frond","neapolitan:large_banana_frond"],
+			"text": "Bananas are found on beaches hanging off of thick banana stalks with fronds on them. Bananas, along with any foods that have bananas in them, give you the Agility effect. I hear someone named after a certain kind of bread roll really likes them."
+		},
+		{
+			"item": "neapolitan:vanilla_pods",
+			"text": "Vanilla is found in savanna biomes. You might wanna use some shears when harvesting them. Vanilla pods, along with any foods that have vanilla in them, give you the Vanilla Scent effect."
+		},
+		{
+			"item": "neapolitan:adzuki_beans",
+			"text": "Adzuki beans are found fairly commonly in forests. Adzuki beans, along with any foods that have adzuki beans in them, give you the Harmony effect."
+		},
+		{
+			"item": ["supplementaries:flax","supplementaries:flax_seeds"],
+			"text": "Flax can be found in the wild in most biomes, and is used to make things like sacks, doormats and rope - it can also be cut, milled or crushed into string."
+		},
+		{
+			"item": ["miners_delight:cave_carrot","miners_delight:wild_cave_carrots"],
+			"text": "Cave carrots are somewhat rarely found in caves and are a good food source if you've gotten yourself stuck in the mines. Despite being found underground, they'll still grow on the surface just fine."
+		},
+		{
+			"item": ["culturaldelights:cucumber_seeds","culturaldelights:cucumber","culturaldelights:wild_cucumbers"],
+			"text": "Cucumbers can be found in the wild in jungles and swamps. They're not used for much, but you can make something funny out of them."
+		},
+		{
+			"item": ["culturaldelights:eggplant_seeds","culturaldelights:eggplant","culturaldelights:white_eggplant","culturaldelights:wild_eggplants"],
+			"text": "Eggplants are found somewhat sparsely in jungles. They're by far the beefiest out of all the regular crops."
+		},
+		{
+			"item": ["culturaldelights:corn_kernels","culturaldelights:corn_cob","culturaldelights:wild_corn"],
+			"text": "Corn can be found scattered around in all plains-like biomes. Wild corn may not always yield a lot of, if any kernels, so you might wanna pick it up with shears and then cut it on a board to get the most out of your findings."
+		},
+		{
+			"item": ["culturaldelights:avocado","culturaldelights:avocado_pit","culturaldelights:avocado_sapling"],
+			"text": "Avocados can be found growing on avocado trees in jungles. You can also grow avocado trees yourself by obtaining avocado saplings or avocado pits. Avocado avocado avocado. Doesn't sound like a word anymore, does it? That's called §ojamais vu."
+		},
+		{
+			"item": "villagersellanimals:crate_piglet",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Piglet crates are sold by butcher villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_calf",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Calf crates are sold by farmer villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_chick",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Chick crates are sold by fletcher villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_lamb",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Lamb crates are sold by shepherd villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_wolf_pup",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Wolf pup crates are sold by weaponsmith villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_fox_pup",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Fox pup crates are sold by fisherman villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_foal",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Foal crates are sold by leatherworker villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_kitten",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Kitten crates are sold by cleric villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_goatlet",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Baby goat crates are sold by mason villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_rabbit_cub",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Rabbit kit crates are sold by librarian villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_llama_baby",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Baby llama crates are sold by toolsmith villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_parrot_baby",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Parrot crates are sold by armorer villagers."
+		},
+		{
+			"item": "villagersellanimals:crate_red_mooshroom",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Red mooshroom calf crates are obtained by haunting a regular calf crate with soul fire."
+		},
+		{
+			"item": "villagersellanimals:crate_brown_mooshroom",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Brown mooshroom calf crates are obtained by further haunting a red mooshroom calf crate with soul fire."
+		},
+		{
+			"item": "villagersellanimals:crate_zombie_foal",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Zombie foal crates are obtained by haunting a regular foal crate with soul fire."
+		},
+		{
+			"item": "villagersellanimals:crate_skeleton_foal",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Skeleton foal crates are obtained by further haunting a zombie foal crate with soul fire."
+		},
+		{
+			"item": "villagersellanimals:crate_hoglet",
+			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Hoglet crates are obtained by haunting a regular piglet crate with soul fire."
+		},
+		{
+			"item": "buzzier_bees:honey_apple",
+			"text": "An apple glazed with some sweet, tasty honey. When eaten, it will remove the Levitation effect if you happen to have it."
+		},
+		{
+			"item": "buzzier_bees:honey_bread",
+			"text": "A loaf of bread filled with some sweet, scrumptious honey. When eaten, it will remove the Bad Omen effect if you happen to have it."
+		},
+		{
+			"item": "buzzier_bees:glazed_porkchop",
+			"text": "A cooked porkchop glazed with some sweet, flavourful honey. When eaten, it will remove the Fatigue effect if you happen to have it."
+		},
+		{
+			"item": ["environmental:truffle","environmental:buried_truffle"],
+			"text": "After feeding a pig a golden carrot, it will lead you to some buried truffle, which you can dig to obtain... well, truffles. Truffles, along with foods made with them, will grant you the Health Boost effect, temporarily increasing your maximum health."
+		},
+		{
+			"item": ["#minecraft:coal_ores","minecraft:coal","minecraft:coal_block","spelunkery:coal_lump"],
+			"text": "Coal can be found commonly on high altitudes and is a cheap yet efficient fuel source. It's even more efficient if you pack it into a block! Somehow..."
+		},
+		{
+			"item": ["#minecraft:iron_ores","minecraft:raw_iron","minecraft:raw_iron_block","minecraft:iron_ingot","minecraft:iron_block","spelunkery:raw_iron_nugget","minecraft:iron_nugget"],
+			"text": "Iron can be found near - but not directly at - deepslate level and is an extremely versatile material most commonly used to make reliably powerful tools, armour and various other helpful items."
+		},
+		{
+			"item": ["#minecraft:copper_ores","minecraft:raw_copper","minecraft:raw_copper_block","minecraft:copper_ingot","minecraft:copper_block","spelunkery:raw_copper_nugget","create:copper_nugget"],
+			"text": "Copper can be found very commonly both over and underground, though it's less common in lower altitudes. It's used to make copper tools early on and other unique gadgets later in the game. It can also be used to make decorative blocks that oxidise over time, which can be prevented by waxing them with honeycombs. Together with gold, copper makes rose gold alloy."
+		},
+		{
+			"item": ["#minecraft:gold_ores","minecraft:raw_gold","minecraft:raw_gold_block","minecraft:gold_ingot","minecraft:gold_block","spelunkery:raw_gold_nugget","minecraft:gold_nugget"],
+			"text": "Gold is most commonly found near the top of the deepslate layer and is also found in the Nether. It has some magical properties and is used in making rose gold, electrum and netherite. You can also use gold ingots to barter for various items with Piglins."
+		},
+		{
+			"item": ["#minecraft:redstone_ores","spelunkery:rough_cinnabar","spelunkery:cinnabar","spelunkery:rough_cinnabar_block","spelunkery:cinnabar_block","spelunkery:rough_cinnabar_shard","spelunkery:cinnabar_shard","minecraft:redstone","minecraft:redstone_block"],
+			"text": "Cinnabar is found near the lower half of the world and can be seen more frequently in lower altitudes. Rough cinnabar can be polished and then crushed to obtain redstone dust, a conductive powder that can be placed to form lines and make all sorts of machines and contraptions."
+		},
+		{
+			"item": ["#minecraft:lapis_ores","spelunkery:rough_lazurite","minecraft:lapis_lazuli","spelunkery:rough_lazurite_block","minecraft:lapis_block","spelunkery:rough_lazurite_shard","spelunkery:lapis_lazuli_shard"],
+			"text": "Lazurite is found most commonly near the bottom of the world, but is rather rare due to pretty much never being exposed to air. Rough lazurite can be polished into lapis lazuli, a gemstone used to make dye and decorative blocks, but is most importantly used as a sort of fuel for enchanting tables."
+		},
+		{
+			"item": ["#minecraft:diamond_ores","spelunkery:rough_diamond","spelunkery:rough_diamond_block","minecraft:diamond","minecraft:diamond_block","spelunkery:rough_diamond_shard","spelunkery:diamond_shard"],
+			"text": "Diamonds are most common near the very bottom of the world. They're precious gemstones used to forge some of the toughest tools and armour in the game and some other important items like enchanting tables."
+		},
+		{
+			"item": ["#minecraft:emerald_ores","spelunkery:rough_emerald","spelunkery:rough_emerald_block","minecraft:emerald","minecraft:emerald_block","spelunkery:rough_emerald_shard","spelunkery:emerald_shard"],
+			"text": "Emeralds are unique gemstones found very rarely around the world and underground, however you can trade for a large amount of them from villagers. You can also use emeralds to buy various goodies from said villagers or wandering traders."
+		},
+		{
+			"item": "minecraft:ancient_debris",
+			"text": "Ancient debris is found in small chunks near the bottom of the Nether. It's said that the Piglins have long since mined up all of whatever ore it was left from, but it could potentially still be forged into something powerful..."
+		},
+		{
+			"item": ["minecraft:netherite_scrap","minecraft:netherite_ingot","oreganized:netherite_nugget","minecraft:netherite_block"],
+			"text": "Netherite is an extraordinarily powerful metal made from alloying netherite scraps together with gold. It's used to make the strongest, most durable tools and armour in the game. Netherite and tools/armour made with it are impervious to fire and lava."
+		},
+		{
+			"item": ["#forge:ores/zinc","create:raw_zinc","create:raw_zinc_block","create:zinc_ingot","create:zinc_block","spelunkery:raw_zinc_nugget","create:zinc_nugget"],
+			"text": "Zinc is found scattered around at pretty much any altitude underground and is used to make various alloys such as andesite alloys, bronze ingots and brass ingots. You can also use it to make Copycat Steps and Panels to add extra depth to your builds."
+		},
+		{
+			"item": ["#forge:ores/lead","oreganized:raw_lead","oreganized:raw_lead_block","oreganized:lead_ingot","oreganized:lead_block","spelunkery:raw_lead_nugget","oreganized:lead_nugget"],
+			"text": "Lead is found fairly frequently deep underground - higher up in savanna biomes - or sometimes in boulders scattered around the world. It's used for crystal glass, bombs, and as a cheaper iron alternative in certain recipes."
+		},
+		{
+			"item": ["#forge:ores/silver","oreganized:raw_silver","oreganized:raw_silver_block","oreganized:silver_ingot","oreganized:silver_block","spelunkery:raw_silver_nugget","oreganized:silver_nugget"],
+			"text": "Silver is found very rarely right between the stone and deepslate layers underground. It's used to make silver mirrors, exposers, and alloyed with gold to make electrum, a metal used in forging the second most durable tools/armour."
+		},
+		{
+			"item": ["oreganized:electrum_ingot","oreganized:electrum_nugget","oreganized:electrum_block"],
+			"text": "Electrum is a very powerful metal made from silver and gold. It's used to make some of the most durable tools/armour and can even be preferable over netherite in that the tools are slightly quicker and the armour will increase your movement speed."
+		},
+		{
+			"item": "additionaladditions:rose_gold_alloy",
+			"text": "Rose gold alloy is made from copper and gold, and is used to upgrade iron equipment to rose gold. Tools upgraded with it retain gold's quick nature (albeit slightly dulled by the copper) and are a little quicker than diamond tools as a result."
+		},
+		{
+			"item": ["alloyed:steel_ingot","alloyed:steel_nugget","alloyed:steel_block"],
+			"text": "Steel is a tough metal made by alloying iron with fire charges. It's used to upgrade iron tools or chainmail armour and in making some important components for certain contraptions. Steel equipment is heavy and slow, but still respectably durable."
+		},
+		{
+			"item": ["alloyed:bronze_ingot","alloyed:bronze_nugget","alloyed:bronze_block"],
+			"text": "Bronze is made by alloying copper with zinc and cinder flour. It has some musical properties and can be used to make some oxidizing building blocks similar to copper."
+		},
+		{
+			"item": ["create:brass_ingot","create:brass_nugget","create:brass_block"],
+			"text": "Brass is made by alloying copper with zinc. It's used in making various mechanical components such as smart chutes and fluid pipes, pulse repeaters and extenders, mechanical arms, inventory cables, bigger funnels and tunnels, etc."
+		},
+		{
+			"item": ["upgrade_aquatic:blue_pickerelweed","upgrade_aquatic:purple_pickerelweed","upgrade_aquatic:boiled_blue_pickerelweed","upgrade_aquatic:boiled_purple_pickerelweed","upgrade_aquatic:blue_pickerelweed_block","upgrade_aquatic:purple_pickerelweed_block","upgrade_aquatic:boiled_blue_pickerelweed_block","upgrade_aquatic:boiled_purple_pickerelweed_block"],
+			"text": "Both types of pickerelweed are found near rivers. When cooked and then eaten underwater, they'll restore your air supply."
+		},
+		{
+			"item": ["crittersandcompanions:clam","crittersandcompanions:pearl"],
+			"text": "Clams can be found by fishing or dropped by a Drowned. Otters will crack open the clams for you, with a small chance of finding a pearl inside. Pearls can be used to craft a pearl necklace that grants various aquatic buffs when in your inventory."
+		}
+	]
+}

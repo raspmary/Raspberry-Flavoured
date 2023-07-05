@@ -1,0 +1,30 @@
+{
+  "parent": "raspberryflavoured:cutting_board",
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Make a bedroll out of wool and leather, then sleep your troubles away... or find a bed somewhere"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "upgrade_aquatic:bedroll"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Nighty Night"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

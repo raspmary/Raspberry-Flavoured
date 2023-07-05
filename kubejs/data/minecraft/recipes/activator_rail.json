@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:redstone_torch"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": [
+	{
+      "tag": "forge:nuggets/iron"
+    },
+	{
+      "tag": "forge:nuggets/lead"
+    }
+	]
+  },
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:activator_rail"
+  }
+}

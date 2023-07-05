@@ -1,0 +1,14 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+	{
+		"item": "another_furniture:white_sofa"
+	},
+	{
+		"item": "minecraft:blue_dye"
+	}
+	],
+	"result": {
+		"item": "another_furniture:blue_sofa"
+	}
+}

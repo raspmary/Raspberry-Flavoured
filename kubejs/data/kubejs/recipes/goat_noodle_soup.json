@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.2,
+  "ingredients": [
+    {
+      "tag": "forge:raw_goat"
+    },
+	{
+      "tag": "forge:pasta"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+	{
+      "item": "minecraft:bamboo"
+    },
+	{
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "kubejs:goat_noodle_soup"
+  }
+}

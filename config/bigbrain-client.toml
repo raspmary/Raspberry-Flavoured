@@ -1,0 +1,10 @@
+
+["after image"]
+	"Render an after image while an entity is charging with a buckler?" = true
+	#Keep in mind this won't affect their opacity due to technical reasons.
+	"Render entity layers while rendering the after image?" = false
+
+["bedrock animations"]
+	"Allow bees to have a idle animation akin to bedrock" = true
+	"Allow drowned to render glowing spots, like in bedrock" = true
+

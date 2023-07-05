@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "abundant_atmosphere:stripped_gourdrot_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "abundant_atmosphere:gourdrot_log"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "clayworks:config",
+          "value": "kiln"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "#": {
+            "item": "minecraft:cobblestone"
+          },
+		  "S": {
+            "item": "quark:sturdy_stone"
+          },
+          "B": {
+            "item": "minecraft:mud_bricks"
+          },
+          "X": {
+            "item": "minecraft:furnace"
+          }
+        },
+        "pattern": [
+          "###",
+          "SXS",
+          "BBB"
+        ],
+        "result": {
+          "item": "clayworks:kiln"
+        }
+      }
+    }
+  ]
+}

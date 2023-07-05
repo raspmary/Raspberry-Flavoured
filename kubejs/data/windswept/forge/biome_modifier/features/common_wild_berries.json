@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#windswept:has_feature/common_wild_berries",
+  "features": "windswept:wild_berry_bush_common",
+  "step": "vegetal_decoration"
+}

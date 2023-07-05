@@ -1,0 +1,2564 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "north"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "0",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "south"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "0",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "west"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "0",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "true",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "0",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "0",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "1",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "2",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "3",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "4",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "5",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "6",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "7",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "8",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "9",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "10",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "11",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "12",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "13",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "14",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"light_level": "15",
+			"floor": "false",
+			"facing": "east"
+		},
+		"Name": "supplementaries:flower_box"
+	}
+]

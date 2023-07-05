@@ -1,0 +1,31 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "experience": 1,
+  "fermentingtime": 4000,
+  "fluiditem": {
+    "item": "minecraft:water_bucket"
+  },
+  "ingredients": [
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    },
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    },
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    },
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+	"count": 4,
+    "item": "brewinandchewin:beer"
+  },
+  "temperature": 3
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:jerky",
+	  "count": 2
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:leather"
+    }
+  ]
+}

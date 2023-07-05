@@ -1,0 +1,25 @@
+#Chance of the smoke particle to spawn. 1.0 - full. 0.0 - no smoke.
+#Range: 0.0 ~ 1.0
+SmokeChance = 0.35
+#Chimneys get dirty when a random tick occurs. (Chimney must be working (LIT) and not 'BLOCKED'.)
+#and when random tick occurs - this value controls the chance of a chimney becoming dirty.
+#1.0 - dirty on first random tick.
+#0.0 - chimney will never get dirty.
+#Range: 0.0 ~ 1.0
+DirtyChance = 0.025
+#Enable/disable wind effect on smoke particles:
+Wind = true
+#How much effect wind has on the smoke. Default: 0.05
+#Range: 0.0 ~ 1.0
+WindStrengthMultiplier = 0.05
+
+[JEI]
+	#Soot Covering category will be added to JEI.
+	#If 'DirtyChance' is set to 0 - it will not be added regardless of this setting
+	JEISootCovering = false
+	#Soot Scraping category will be added to JEI.
+	JEISootScraping = false
+	#Enables/disables 'May produce a byproduct' info in JEI Soot Scraping recipes.
+	#Useful when scraping loot is removed.
+	DisplayJEIScrapingByproductInfo = false
+

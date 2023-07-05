@@ -1,0 +1,518 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "0"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "0"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "0"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "1"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "1"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "1"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "1"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "2"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "2"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "2"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "2"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "3"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "3"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "3"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "3"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "4"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "4"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "4"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "4"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "5"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "5"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "5"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "5"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "6"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "6"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "6"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "6"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "7"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "7"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "7"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "7"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "8"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "8"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "8"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "8"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "9"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "9"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "9"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "9"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "10"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "10"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "10"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "10"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "11"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "11"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "11"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "11"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "12"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "12"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "12"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "12"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "13"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "13"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "13"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "13"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "14"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "14"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "14"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "14"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "0",
+			"power": "15"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "1",
+			"power": "15"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "2",
+			"power": "15"
+		},
+		"Name": "sereneseasons:season_sensor"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"season": "3",
+			"power": "15"
+		},
+		"Name": "sereneseasons:season_sensor"
+	}
+]

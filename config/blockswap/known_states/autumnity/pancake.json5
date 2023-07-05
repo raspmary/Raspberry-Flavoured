@@ -1,0 +1,231 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "1"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "3"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "4"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "5"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "6"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "7"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "8"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "9"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "10"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "11"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "12"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "13"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "14"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "15"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "16"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "17"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "18"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "19"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "20"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "21"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "22"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "23"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "24"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "25"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "26"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "27"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "28"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "29"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "30"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "31"
+		},
+		"Name": "autumnity:pancake"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"pancakes": "32"
+		},
+		"Name": "autumnity:pancake"
+	}
+]

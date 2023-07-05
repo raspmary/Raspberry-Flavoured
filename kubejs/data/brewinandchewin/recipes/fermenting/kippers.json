@@ -1,0 +1,22 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 0.3,
+  "fermentingtime": 500,
+  "ingredients": [
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 3,
+    "item": "brewinandchewin:kippers"
+  },
+  "temperature": 3
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "$": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "dustrial_decor:rusty_iron_ingot",
+    "count": 8
+  }
+}

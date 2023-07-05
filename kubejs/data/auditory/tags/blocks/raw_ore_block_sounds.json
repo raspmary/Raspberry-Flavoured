@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "oreganized:raw_lead_block",
+	"oreganized:raw_silver_block",
+	"create:raw_zinc_block"
+  ]
+}

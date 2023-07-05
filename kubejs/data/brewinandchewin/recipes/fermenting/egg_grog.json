@@ -1,0 +1,31 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "experience": 1,
+  "fermentingtime": 4000,
+  "fluiditem": {
+    "item": "minecraft:milk_bucket"
+  },
+  "ingredients": [
+    {
+      "tag": "balm:eggs"
+    },
+    {
+      "tag": "balm:eggs"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+	"count": 2,
+    "item": "brewinandchewin:egg_grog"
+  },
+  "temperature": 3
+}

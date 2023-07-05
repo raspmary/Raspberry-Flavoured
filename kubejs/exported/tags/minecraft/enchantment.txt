@@ -1,0 +1,6 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 20, 2023, 4:55:18 PM
+
+#allurement:unusable_on_horse_armor
+- minecraft:aqua_affinity (from allurement-1.19.2-3.1.0.jar)
+- allurement:alleviating (from allurement-1.19.2-3.1.0.jar)
+- allurement:vengeance (from allurement-1.19.2-3.1.0.jar)

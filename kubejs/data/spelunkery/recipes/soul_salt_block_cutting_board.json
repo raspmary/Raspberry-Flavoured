@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "spelunkery:rock_salt_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "spelunkery:rock_salt"
+    },
+	{
+      "chance": 0.25,
+      "item": "spelunkery:rock_salt"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

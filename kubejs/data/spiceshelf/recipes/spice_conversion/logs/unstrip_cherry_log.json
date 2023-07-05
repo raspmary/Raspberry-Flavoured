@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "environmental:stripped_cherry_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "environmental:cherry_log"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+	{
+      "tag": "forge:ingots/iron"
+    },
+	{
+      "tag": "forge:ingots/lead"
+    }
+	]
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:cauldron"
+  }
+}

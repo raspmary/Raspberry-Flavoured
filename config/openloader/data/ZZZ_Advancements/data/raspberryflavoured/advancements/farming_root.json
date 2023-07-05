@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "clayworks:textures/block/orange_terracotta_bricks.png",
+    "description": {
+      "color": "#C44E00",
+      "text": "Time to farm!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "show_toast": false,
+    "title": {
+      "color": "#C44E00",
+      "text": "Farming"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

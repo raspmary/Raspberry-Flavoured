@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "---",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "farmersdelight:rope"
+    },
+    "-": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "spelunkery:rope_ladder",
+    "count": 6
+  }
+}

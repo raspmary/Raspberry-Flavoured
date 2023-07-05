@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " x ",
+        "xyx",
+        " x "
+    ],
+    "key": {
+        "x": [
+	{
+      "tag": "forge:nuggets/iron"
+    },
+	{
+      "tag": "forge:nuggets/lead"
+    }
+	],
+        "y": [
+	{
+      "tag": "forge:ingots/iron"
+    },
+	{
+      "tag": "forge:ingots/lead"
+    }
+	]
+    },
+    "result": {
+        "count": 8,
+        "item": "architects_palette:plating_block"
+    }
+}

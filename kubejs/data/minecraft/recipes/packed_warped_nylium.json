@@ -1,0 +1,19 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "item": "minecraft:warped_fungus"
+    },
+    "R": {
+      "item": "minecraft:warped_roots"
+    }
+  },
+  "pattern": [
+    "FR",
+    "RF"
+  ],
+  "result": {
+    "item": "minecraft:warped_wart_block"
+  }
+}

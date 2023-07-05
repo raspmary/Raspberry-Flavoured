@@ -1,0 +1,35 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/silver"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "#": {
+            "tag": "brewinandchewin:iron_or_lead"
+          },
+          "L": {
+            "tag": "minecraft:leather_cuts"
+          }
+        },
+        "pattern": [
+          "L L",
+          "L L",
+          "# #"
+        ],
+        "result": {
+          "item": "windswept:snow_boots"
+        }
+      }
+    }
+  ]
+}

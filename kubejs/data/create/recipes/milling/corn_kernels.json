@@ -1,0 +1,27 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:crops/corn"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 1,
+      "item": "culturaldelights:corn_kernels"
+    },
+    {
+      "chance": 0.5,
+      "item": "culturaldelights:corn_kernels"
+    },
+    {
+      "chance": 0.25,
+      "item": "culturaldelights:corn_kernels"
+    },
+    {
+      "chance": 0.1,
+      "item": "culturaldelights:corn_kernels"
+    }
+  ]
+}

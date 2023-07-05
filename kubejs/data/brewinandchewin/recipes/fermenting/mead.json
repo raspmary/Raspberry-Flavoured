@@ -1,0 +1,28 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "experience": 1,
+  "fermentingtime": 4000,
+  "fluiditem": {
+    "item": "minecraft:water_bucket"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "forge:berries"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+	"count": 4,
+    "item": "brewinandchewin:mead"
+  },
+  "temperature": 3
+}

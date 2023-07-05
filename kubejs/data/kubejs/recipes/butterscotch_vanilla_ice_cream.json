@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "neapolitan:vanilla_ice_cream"
+    },
+    {
+      "amount": 250,
+      "fluid": "kubejs:butterscotch"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:butterscotch_vanilla_ice_cream"
+    }
+  ]
+}

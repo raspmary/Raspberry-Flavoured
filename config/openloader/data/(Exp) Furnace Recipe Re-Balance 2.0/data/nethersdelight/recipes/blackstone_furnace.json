@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+	{
+      "item": "minecraft:bricks"
+    },
+	{
+      "item": "minecraft:nether_bricks"
+    },
+	{
+      "item": "supplementaries:ash_bricks"
+    }
+	],
+	"C": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "item": "nethersdelight:blackstone_furnace"
+  }
+}

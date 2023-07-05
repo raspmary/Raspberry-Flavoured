@@ -1,0 +1,31 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.6,
+  "fermentingtime": 1000,
+  "fluiditem": {
+    "tag": "forge:milk"
+  },
+  "ingredients": [
+    {
+      "item": "neapolitan:chocolate_bar"
+    },
+    {
+      "item": "neapolitan:dried_vanilla_pods"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "item": "create_confectionery:cocoa_butter"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "neapolitan:neapolitan_ice_cream",
+    "count": 2
+  },
+  "temperature": 1
+}

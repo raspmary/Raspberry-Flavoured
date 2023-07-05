@@ -1,0 +1,15 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 20, 2023, 4:55:18 PM
+
+#neapolitan:unaffected_by_vanilla_scent
+- minecraft:darkness (from neapolitan-1.19.2-4.0.2.jar)
+- neapolitan:vanilla_scent (from neapolitan-1.19.2-4.0.2.jar)
+- autumnity:foul_taste? (from neapolitan-1.19.2-4.0.2.jar)
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.2.64.jar)
+
+#allurement:spread_of_ailments_cannot_inflict
+- minecraft:bad_omen (from allurement-1.19.2-3.1.0.jar)
+- minecraft:hero_of_the_village (from allurement-1.19.2-3.1.0.jar)
+- environmental:serenity? (from allurement-1.19.2-3.1.0.jar)
+
+#supplementaries:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.2.64.jar)

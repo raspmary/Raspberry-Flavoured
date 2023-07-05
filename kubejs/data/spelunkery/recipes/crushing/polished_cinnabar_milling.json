@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spelunkery:cinnabar"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 1
+    },
+    {
+      "item": "minecraft:redstone",
+	  "count": 2,
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 300
+}

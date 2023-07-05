@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "villagersellanimals:crate_calf"
+    }
+  ],
+  "results": [
+    {
+      "item": "villagersellanimals:crate_red_mooshroom"
+    }
+  ]
+}

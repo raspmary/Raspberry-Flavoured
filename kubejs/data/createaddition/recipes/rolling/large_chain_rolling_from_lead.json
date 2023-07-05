@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "oreganized:lead_block"
+	},
+	"result": {
+		"item": "dustrial_decor:large_chain",
+		"count": 8
+	}
+}

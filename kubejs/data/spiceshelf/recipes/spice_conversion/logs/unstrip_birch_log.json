@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:birch_log"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

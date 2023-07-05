@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "sootychimneys:terracotta_chimney"
+    },
+    {
+      "item": "supplementaries:ash"
+    }
+  ],
+  "results": [
+    {
+      "item": "sootychimneys:dirty_terracotta_chimney"
+    }
+  ]
+}

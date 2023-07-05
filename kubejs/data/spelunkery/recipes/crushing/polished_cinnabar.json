@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spelunkery:cinnabar"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 1
+    },
+    {
+      "item": "minecraft:redstone",
+	  "count": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:redstone",
+	  "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:redstone",
+	  "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 350
+}

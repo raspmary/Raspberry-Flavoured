@@ -1,0 +1,459 @@
+{
+  "name": "betterfortresses:jungle/halls_terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/hall_deadend_prop",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "is_priority": true,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/hall_deadend_decor",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "is_priority": true,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/hall_deadend",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "is_priority": true,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/hall_terminator",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    // Small rooms
+    {
+      "weight": 4,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/quarters_sm",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "quarters",
+        "max_count": 2,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/officer_sm",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "officer",
+        "max_count": 2,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/storeroom_sm_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "storeroom",
+        "max_count": 2,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/storeroom_sm_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "storeroom",
+        "max_count": 2,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/study_sm",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "study_sm",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/a_very_ethical_room",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "a_very_ethical_room",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    // Medium rooms (left/right)
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/mess_md_l_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "mess",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/mess_md_r_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "mess",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/study_md_l_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "study_md",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/study_md_r_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "study_md",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/jail_md_l_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "jail",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/jail_md_r_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "jail",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/quarters_md_l_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "quarters",
+        "max_count": 2,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/quarters_md_r_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "quarters",
+        "max_count": 2,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/worship_md_l_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "worship",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/worship_md_r_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "worship",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/nether_reactor_md_l_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "nether_reactor",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/nether_reactor_md_r_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "nether_reactor",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    // Medium rooms (side)
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/puzzle_md_side_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "puzzle_md_side_0",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/obsidan_md_side_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "obsidian_room",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterfortresses:jungle/halls/room/armory_md_side_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "armory",
+        "max_count": 1,
+        "is_priority": true,
+        "condition": {
+          "type": "yungsapi:depth",
+          "min_required_depth": 16
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    }
+  ]
+}

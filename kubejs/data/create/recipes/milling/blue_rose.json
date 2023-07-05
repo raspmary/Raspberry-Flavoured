@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "windswept:blue_rose"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:blue_dye"
+    }
+  ]
+}

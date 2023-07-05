@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X L",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "spelunkery:magnetite_chunk"
+    },
+    "X": {
+      "item": "spelunkery:cinnabar"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "spelunkery:item_magnet"
+  }
+}

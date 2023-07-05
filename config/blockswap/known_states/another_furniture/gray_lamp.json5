@@ -1,0 +1,2882 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "true"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "up",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "north",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "south",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "west",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "1",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "2",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "true",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"lit": "false",
+			"level": "3",
+			"facing": "east",
+			"base": "false"
+		},
+		"Name": "another_furniture:gray_lamp"
+	}
+]

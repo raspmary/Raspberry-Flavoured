@@ -1,0 +1,11 @@
+{
+    "type": "clayworks:baking",
+    "ingredient": [
+        {
+            "item": "architects_palette:algal_bricks"
+        }
+    ],
+    "result": "architects_palette:cracked_algal_bricks",
+    "experience": 0.1,
+    "cookingtime": 100
+}

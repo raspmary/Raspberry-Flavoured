@@ -1,0 +1,329 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "0",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "0",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "0",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "1",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "1",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "1",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "1",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "2",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "2",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "2",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "2",
+			"age": "0"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "0",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "0",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "0",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "0",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "1",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "1",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "1",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "1",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "2",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "2",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "2",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "2",
+			"age": "1"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "0",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "0",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "0",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "0",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "1",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "1",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "1",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "1",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"age1": "2",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"age1": "2",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"age1": "2",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"age1": "2",
+			"age": "2"
+		},
+		"Name": "farmersrespite:coffee_stem_double"
+	}
+]

@@ -1,0 +1,358 @@
+{
+  "name": "betterfortresses:jungle/hall_prop_any",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_armory_4wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_armory",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_armory_5wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_armory",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_broken_statue_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_broken_statue_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_broken_statue_2",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_fireplace_3wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_fireplace_3wide_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_fireplace_3wide_2",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_fireplace_4wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_fireplace_loot",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_fireplace_4wide_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_fireplace_loot",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_fireplace_crumbled_3wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_glowstone_3wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_glowstone_3wide_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_glowstone_3wide_2",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_glowstone_3wide_3",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_glowstone_4wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_glowstone_4wide_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_hearth_5wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_hearth_5wide_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_shelf_4wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_shelf",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_shelf_4wide_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_shelf",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_shelf_5wide_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_shelf",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_shelf_5wide_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "name": "hall_prop_shelf",
+        "max_count": 2,
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_wart_3wide",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/hall_prop_wart_5wide",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/obsidian_deposit_0",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/obsidian_deposit_1",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterfortresses:jungle/halls/prop/obsidian_deposit_2",
+        "processors": "betterfortresses:jungle/main",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "element_type": "yungsapi:yung_single_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "supplementaries:enderman_head"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+	{
+	  "chance": 0.25,
+      "item": "endersdelight:ender_shard"
+    },
+	{
+	  "chance": 0.25,
+      "item": "endersdelight:enderman_sight"
+    },
+	{
+      "item": "create:experience_nugget",
+	  "count": 8
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  },
+  "sound": "auditory:block.gourd.break"
+}

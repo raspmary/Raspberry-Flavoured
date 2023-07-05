@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "windswept:nightshade"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:green_dye"
+    },
+    {
+      "chance": 0.01,
+      "item": "minecraft:glowstone_dust"
+    }
+  ]
+}

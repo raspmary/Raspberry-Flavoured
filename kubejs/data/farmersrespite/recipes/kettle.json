@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "l": {
+      "tag": "minecraft:leather_cuts"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "sls",
+    "b b",
+    "bbb"
+  ],
+  "result": {
+    "item": "farmersrespite:kettle"
+  }
+}

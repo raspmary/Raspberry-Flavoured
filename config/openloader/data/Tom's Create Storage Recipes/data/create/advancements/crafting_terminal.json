@@ -1,0 +1,35 @@
+{
+  "parent": "create:storage_terminal",
+  "display": {
+    "icon": {
+      "item": "toms_storage:ts.crafting_terminal"
+    },
+    "title": {
+      "translate": "All-In-One"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "Upgrade to a Crafting Terminal"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "toms_storage:ts.crafting_terminal",
+        "item": {
+          "item": "toms_storage:ts.crafting_terminal"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

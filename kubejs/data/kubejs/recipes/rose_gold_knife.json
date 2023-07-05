@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:smithing",
+  "base": {"item": "farmersdelight:iron_knife"},
+  "addition": {"item": "additionaladditions:rose_gold_alloy"},
+  "result": {"item": "kubejs:rose_gold_knife"}
+}

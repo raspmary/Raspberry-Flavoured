@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "miners_delight:cave_carrot"
+    },
+	[
+    {
+      "item": "minecraft:hanging_roots"
+    },
+	{
+      "item": "minecraft:glow_lichen"
+    }
+	]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "miners_delight:cave_soup"
+  }
+}

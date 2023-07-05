@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "strawberry_banana_smoothie",
+  "ingredients": [
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/banana"
+    }
+  ],
+  "needwater": false,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "neapolitan:strawberry_banana_smoothie"
+  }
+}

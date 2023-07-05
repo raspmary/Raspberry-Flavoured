@@ -1,0 +1,28 @@
+{
+	"minecraft:shulker": "squeakywood",
+	"minecraft:snow_golem": "snow",
+	"minecraft:iron_golem": "hardmetal",
+
+	"caverns_and_chasms:copper_golem": "copper",
+	"caverns_and_chasms:oxidized_copper_golem": "copper",
+
+	"minecraft:armor_stand@carpet": "marble",
+
+	"minecraft:boat": "wood",
+	"minecraft:chest_boat": "wood",
+	"minecraft:minecart": "metalbar",
+	"minecraft:chest_minecart": "squeakywood",
+	"minecraft:furnace_minecart": "stonemachine",
+	"minecraft:tnt_minecart": "metalbar",
+	"minecraft:hopper_minecart": "metalbar",
+	"minecraft:command_block_minecart": "woodutility",
+	"minecraft:spawner_minecart": "metalbar",
+	"etched:jukebox_minecart": "metalbar",
+	"supplementaries:dispenser_minecart": "metalbar",
+
+	"boatload:furnace_boat": "wood",
+	"boatload:large_boat": "wood",
+
+	"blueprint:boat": "wood",
+	"blueprint:chest_boat": "wood"
+}

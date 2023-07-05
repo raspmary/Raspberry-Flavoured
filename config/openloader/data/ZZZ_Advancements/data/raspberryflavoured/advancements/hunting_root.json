@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "clayworks:textures/block/red_terracotta_bricks.png",
+    "description": {
+      "color": "#CE3131",
+      "text": "Give in to your primal instincts!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "show_toast": false,
+    "title": {
+      "color": "#CE3131",
+      "text": "Hunting and Gathering"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

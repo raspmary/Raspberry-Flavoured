@@ -1,0 +1,1284 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "white",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "white",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "white",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "orange",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "orange",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "orange",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "orange",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "magenta",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "magenta",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "magenta",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "magenta",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "light_blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "light_blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "light_blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "light_blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "yellow",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "yellow",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "yellow",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "yellow",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "lime",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "lime",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "lime",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "lime",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "pink",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "pink",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "pink",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "pink",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "light_gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "light_gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "light_gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "light_gray",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "cyan",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "cyan",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "cyan",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "cyan",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "purple",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "purple",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "purple",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "purple",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "blue",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "brown",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "brown",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "brown",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "brown",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "green",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "green",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "green",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "green",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "red",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "red",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "red",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "red",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "black",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "black",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "black",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "black",
+			"base": "true"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "white",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "white",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "white",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "white",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "orange",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "orange",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "orange",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "orange",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "magenta",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "magenta",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "magenta",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "magenta",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "light_blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "light_blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "light_blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "light_blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "yellow",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "yellow",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "yellow",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "yellow",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "lime",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "lime",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "lime",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "lime",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "pink",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "pink",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "pink",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "pink",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "light_gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "light_gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "light_gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "light_gray",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "cyan",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "cyan",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "cyan",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "cyan",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "purple",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "purple",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "purple",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "purple",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "blue",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "brown",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "brown",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "brown",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "brown",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "green",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "green",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "green",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "green",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "red",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "red",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "red",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "red",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"color": "black",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "true",
+			"color": "black",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "false",
+			"color": "black",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"powered": "false",
+			"color": "black",
+			"base": "false"
+		},
+		"Name": "another_furniture:lamp_connector"
+	}
+]

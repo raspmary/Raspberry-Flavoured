@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "create:chute"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.inventory_connector"
+  }
+}

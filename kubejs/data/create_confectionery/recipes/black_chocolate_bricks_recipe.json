@@ -1,0 +1,17 @@
+{
+  "group": "create_confectionery",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00",
+    "00"
+  ],
+  "key": {
+    "0": {
+      "item": "kubejs:bar_of_black_chocolate"
+    }
+  },
+  "result": {
+    "item": "create_confectionery:black_chocolate_bricks",
+    "count": 1
+  }
+}

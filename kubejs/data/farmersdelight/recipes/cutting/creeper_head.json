@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:creeper_head"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+	{
+	  "chance": 0.5,
+      "item": "minecraft:gunpowder",
+	  "count": 2
+    },
+	{
+	  "chance": 0.2,
+      "item": "savage_and_ravage:creeper_spores"
+    },
+	{
+      "item": "create:experience_nugget",
+	  "count": 4
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  },
+  "sound": "auditory:block.gourd.break"
+}

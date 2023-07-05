@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:wheat_flour_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "create:wheat_flour"
+  }
+}

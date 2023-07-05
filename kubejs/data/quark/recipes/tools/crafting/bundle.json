@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SHS",
+    "H H",
+    "HHH"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "H": {
+      "tag": "minecraft:leather_cuts"
+    }
+  },
+  "result": {
+    "item": "minecraft:bundle"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "bundle_recipe"
+    }
+  ]
+}

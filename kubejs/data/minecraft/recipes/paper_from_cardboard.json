@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dustrial_decor:cardboard"
+    }
+  ],
+  "result": {
+    "item": "minecraft:paper"
+  }
+}

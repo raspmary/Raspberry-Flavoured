@@ -1,0 +1,1538 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "true"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "true",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "true",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "0",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "0",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "1",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "2",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "true",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"waterlogged": "false",
+			"type": "3",
+			"south": "false",
+			"north": "false",
+			"east": "false"
+		},
+		"Name": "oreganized:black_crystal_glass_pane"
+	}
+]

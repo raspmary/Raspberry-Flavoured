@@ -1,0 +1,406 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "0"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "1"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "1"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "2"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "2"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "3"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "3"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "4"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "4"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "5"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "5"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "6"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "6"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "7"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "7"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "8"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "8"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "9"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "9"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "10"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "10"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "11"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "11"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "12"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "12"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "13"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "13"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "14"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "14"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "15"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "15"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "16"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "16"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "17"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "17"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "18"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "18"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "19"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "19"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "20"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "20"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "21"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "21"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "22"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "22"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "23"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "23"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "24"
+		},
+		"Name": "alloyed:bronze_bell"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "24"
+		},
+		"Name": "alloyed:bronze_bell"
+	}
+]

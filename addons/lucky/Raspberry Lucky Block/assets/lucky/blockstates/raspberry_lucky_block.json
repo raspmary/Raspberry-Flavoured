@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "lucky:block/raspberry_lucky_block" }
+    }
+}

@@ -1,0 +1,9 @@
+
+[resources_and_cooldowns]
+	hud_offset_x = 0
+	hud_offset_y = 0
+
+[tooltips]
+	show_usability_hints = true
+	compact_usability_hints = false
+

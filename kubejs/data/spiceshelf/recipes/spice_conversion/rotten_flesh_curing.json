@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "kubejs:soul_salt"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_hide"
+  },
+  "sound": "minecraft:item.bone_meal.use"
+}

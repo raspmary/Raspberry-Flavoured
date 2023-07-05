@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "create:sand_paper"
+    },
+    "addition": {
+        "item": "spelunkery:rough_diamond"
+    },
+    "result": {
+        "item": "createaddition:diamond_grit_sandpaper"
+    }
+}

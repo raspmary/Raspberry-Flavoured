@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "spelunkery:rock_salt"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.25,
+      "item": "kubejs:soul_salt"
+    },
+	{
+      "chance": 0.025,
+      "item": "kubejs:soul_salt"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

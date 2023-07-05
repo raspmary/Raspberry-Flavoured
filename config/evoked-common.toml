@@ -1,0 +1,7 @@
+
+[items]
+
+	[items.totems]
+		#If Totems can save you in the void.
+		"Void Totems" = true
+

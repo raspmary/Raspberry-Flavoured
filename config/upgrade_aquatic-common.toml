@@ -1,0 +1,20 @@
+
+[items]
+
+	[items.trades]
+		"Clerics buy thrasher teeth" = true
+		"Leatherworkers sell bedrolls" = true
+
+[generation]
+
+	[generation.structures]
+		#If Mossy Cobblestone and Stone Bricks are replaced with Kelpy Cobblestone and Stone Bricks in Ocean Ruins
+		"Kelpy Ocean Ruins" = true
+
+[mobs]
+	#Give Drowneds a swimming animation, like in bedrock edition
+	"Drowned swimming animation" = true
+	#The max height that deep ocean mobs can spawn at
+	#Range: 0 ~ 255
+	"Deep ocean mob max height" = 30
+

@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "kubejs:fragrant_tree_bark"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.5,
+      "item": "kubejs:cinnamon"
+    },
+    {
+      "chance": 0.5,
+      "item": "kubejs:cinnamon"
+    }
+  ]
+}

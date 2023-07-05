@@ -1,0 +1,329 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "north",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "north",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "east",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "east",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "south",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "south",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "west",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "west",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "up",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "up",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "down",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "down",
+			"axis": "x"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "north",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "east",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "east",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "south",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "south",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "west",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "west",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "up",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "up",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "down",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "down",
+			"axis": "y"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "north",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "north",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "east",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "east",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "south",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "south",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "west",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "west",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "up",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "up",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "true",
+			"charge_source": "down",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"charged": "false",
+			"charge_source": "down",
+			"axis": "z"
+		},
+		"Name": "architects_palette:hadaline_pillar"
+	}
+]

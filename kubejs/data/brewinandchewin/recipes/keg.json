@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "h": {
+      "item": "minecraft:honeycomb"
+    },
+    "i": {
+      "item": "minecraft:copper_ingot"
+    },
+    "p": {
+      "item": "minecraft:barrel"
+    },
+    "c": {
+      "item": "farmersdelight:canvas"
+    }
+  },
+  "pattern": [
+    "ici",
+    "ipi",
+    "ihi"
+  ],
+  "result": {
+    "item": "brewinandchewin:keg"
+  }
+}

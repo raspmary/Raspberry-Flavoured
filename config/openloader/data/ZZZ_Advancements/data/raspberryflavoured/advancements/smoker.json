@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:campfire",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "minecraft:smoker"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"1": {
+      "conditions": {
+        "block": "nethersdelight:nether_brick_smoker"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Craft and place down any type of smoker to cook food faster"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:smoker"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Smoke Machine"
+    }
+  },
+  "requirements": [
+    [
+      "0",
+	  "1"
+    ]
+  ]
+}

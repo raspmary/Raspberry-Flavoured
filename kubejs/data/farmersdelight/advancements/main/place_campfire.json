@@ -1,0 +1,71 @@
+{
+  "parent": "farmersdelight:main/root",
+  "criteria": {
+    "campfire": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge",
+			"firesticks:fire_stick"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+	"soul_campfire": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge",
+			"firesticks:fire_stick"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:soul_campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "farmersdelight.advancement.place_campfire.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "farmersdelight.advancement.place_campfire"
+    }
+  },
+  "requirements": [
+    [
+      "campfire",
+      "soul_campfire"
+    ]
+  ]
+}
+    

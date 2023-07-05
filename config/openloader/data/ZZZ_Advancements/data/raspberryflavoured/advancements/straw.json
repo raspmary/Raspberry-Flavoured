@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:knife",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:straw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Use a knife to harvest some straw from grass or certain crops"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:straw"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Grasping at Straws"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

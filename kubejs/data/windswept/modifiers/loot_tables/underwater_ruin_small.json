@@ -1,0 +1,26 @@
+{
+  "modifiers": [
+    {
+      "type": "pools",
+      "config": {
+        "pools": [
+          {
+            "bonus_rolls": 0.0,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "miners_delight:copper_cup",
+                "weight": 2
+              }
+            ],
+            "name": "windswept:underwater_ruin_small",
+            "rolls": 1.0
+          }
+        ],
+        "replace": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:chests/underwater_ruin_small"
+}

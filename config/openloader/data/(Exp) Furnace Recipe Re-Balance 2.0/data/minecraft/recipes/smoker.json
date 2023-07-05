@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    },
+    "S": {
+      "item": "quark:sturdy_stone"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "SXS",
+    "#C#"
+  ],
+  "result": {
+    "item": "minecraft:smoker"
+  }
+}

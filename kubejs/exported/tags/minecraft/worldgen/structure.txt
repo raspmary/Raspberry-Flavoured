@@ -1,0 +1,435 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 20, 2023, 4:55:18 PM
+
+#environmental:has_healer_pouch
+- #minecraft:mineshaft (from environmental-1.19.2-3.0.0.jar)
+- minecraft:stronghold (from environmental-1.19.2-3.0.0.jar)
+
+#repurposed_structures:collections/villages
+- repurposed_structures:village_badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_birch (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_crimson (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_dark_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_giant_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_mountains (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_mushroom (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_oak (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_swamp (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_warped (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/temples
+- repurposed_structures:temple_nether_basalt (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_nether_crimson (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_nether_soul (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_nether_warped (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_nether_wasteland (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/stronghold_end
+- repurposed_structures:stronghold_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/mineshafts
+- repurposed_structures:mineshaft_birch (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_crimson (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_dark_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_desert (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_savanna (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_stone (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_swamp (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_warped (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+- betterwitchhuts:witch_hut (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- betterwitchhuts:witch_circle (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- #repurposed_structures:collections/witch_huts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- autumnity:maple_hut? (from autumnity-1.19.2-4.0.0.jar)
+
+#quark:soul_bead_target
+- minecraft:fortress (from Quark-3.4-395.jar)
+- betterfortresses:fortress? (from Quark-3.4-395.jar)
+
+#repurposed_structures:explorer_maps/pyramid_end
+- repurposed_structures:pyramid_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/shipwrecks
+- repurposed_structures:shipwreck_crimson (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:shipwreck_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:shipwreck_nether_bricks (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:shipwreck_warped (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#bettermineshafts:better_mineshafts
+- bettermineshafts:mineshaft_acacia (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_dripstone (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_ice (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_jungle (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_lush (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mesa (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mushroom (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_oak (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_overgrown (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_red_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce_snowy (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#repurposed_structures:explorer_maps/end_city
+- minecraft:end_city (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betterfortresses:better_fortresses
+- betterfortresses:fortress (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+
+#repurposed_structures:collections/cities
+- repurposed_structures:city_overworld (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:city_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#morevillagers:on_mineshaft_explorer_maps
+- #bettermineshafts:better_mineshafts (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#morevillagers:on_swamp_hut_explorer_maps
+- betterwitchhuts:witch_hut (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+
+#repurposed_structures:explorer_maps/ancient_city_nether
+- repurposed_structures:ancient_city_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/ruins_nether
+- repurposed_structures:ruins_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betterdeserttemples:better_desert_temples
+- betterdeserttemples:desert_temple (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+
+#repurposed_structures:collections/strongholds
+- repurposed_structures:stronghold_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:stronghold_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/bastions
+- repurposed_structures:bastion_underground (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/pyramids
+- repurposed_structures:pyramid_badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_dark_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_flower_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_giant_tree_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_mushroom (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_snowy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/ancient_cities
+- repurposed_structures:ancient_city_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_city_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_city_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/igloos
+- repurposed_structures:igloo_grassy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:igloo_mangrove (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:igloo_mushroom (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:igloo_stone (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/city_nether
+- repurposed_structures:city_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/bastion_remnant
+- minecraft:bastion_remnant (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:spawn_black_cats
+- #repurposed_structures:collections/witch_huts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:no_lavafalls
+- repurposed_structures:bastion_underground (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/pyramids (from Repurposed_Structures-Better_Desert_Temples_v6)
+
+#repurposed_structures:no_waterfalls
+- repurposed_structures:mansion_snowy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_snowy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_snowy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/outposts
+- repurposed_structures:outpost_badlands (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_birch (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_crimson (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_desert (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_giant_tree_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_mangrove (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_nether_brick (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_oak (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_snowy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_warped (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)
+- repurposed_structures:pyramid_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:less_jungle_bushes
+- repurposed_structures:outpost_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betterdeserttemples:applies_mining_fatigue
+- betterdeserttemples:desert_temple (from YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar)
+- repurposed_structures:pyramid_badlands (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_dark_forest (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_end (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_flower_forest (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_giant_tree_taiga (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_icy (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_jungle (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_mushroom (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_nether (from Repurposed_Structures-Better_Desert_Temples_v6)
+- repurposed_structures:pyramid_snowy (from Repurposed_Structures-Better_Desert_Temples_v6)
+
+#pneumaticcraft:no_oil_lakes
+- repurposed_structures:bastion_underground (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/villages (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/mansions (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/witch_huts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:collections/fortresses
+- repurposed_structures:fortress_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:fortress_jungle_yungs (from Repurposed_Structures-Better_Nether_Fortress_v4)
+
+#betterdungeons:better_dungeons
+- betterdungeons:small_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:spider_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:skeleton_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:zombie_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+- betterdungeons:small_nether_dungeon (from YungsBetterDungeons-1.19.2-Forge-3.2.2.jar)
+
+#repurposed_structures:explorer_maps/mansion
+- #repurposed_structures:collections/mansions (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#repurposed_structures:explorer_maps/bastion_underground
+- repurposed_structures:bastion_underground (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betteroceanmonuments:better_ocean_monuments
+- betteroceanmonuments:ocean_monument (from YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+- betteroceanmonuments:ocean_monument (from YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar)
+
+#repurposed_structures:collections/mansions
+- repurposed_structures:mansion_birch (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansion_desert (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansion_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansion_mangrove (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansion_oak (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansion_savanna (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansion_snowy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mansion_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#supplementaries:way_sign_destinations
+- #minecraft:village (from supplementaries-1.19.2-2.2.64.jar)
+- hauntedharvest:abandoned_farm? (from supplementaries-1.19.2-2.2.64.jar)
+- harvestseason:abandoned_farm? (from supplementaries-1.19.2-2.2.64.jar)
+- pokecube_legends:village? (from supplementaries-1.19.2-2.2.64.jar)
+- pokecube_legends:village/ocean? (from supplementaries-1.19.2-2.2.64.jar)
+- valhelsia_structures:castle? (from supplementaries-1.19.2-2.2.64.jar)
+- valhelsia_structures:castle_ruin? (from supplementaries-1.19.2-2.2.64.jar)
+- valhelsia_structures:small_castle? (from supplementaries-1.19.2-2.2.64.jar)
+- valhelsia_structures:tower_ruin? (from supplementaries-1.19.2-2.2.64.jar)
+- stoneholm:underground_village? (from supplementaries-1.19.2-2.2.64.jar)
+- blue_skies:gatekeeper_house? (from supplementaries-1.19.2-2.2.64.jar)
+- feywild:library? (from supplementaries-1.19.2-2.2.64.jar)
+- feywild:blacksmith? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:bazaar? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:castle? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:farmhouse? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:bearclaw_inn? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:treetop_tavern? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:wizardtower? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:farmhouse? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:fishermans_lodge? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:beekeepers_house? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:desert_market/desert_market? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:desert_market/desert_market_red? (from supplementaries-1.19.2-2.2.64.jar)
+- idas:desert_market/desert_market_orange? (from supplementaries-1.19.2-2.2.64.jar)
+
+#morevillagers:on_fortress_explorer_maps
+- #betterfortresses:better_fortresses (from YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar)
+
+#repurposed_structures:collections/witch_huts
+- repurposed_structures:witch_hut_birch (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:witch_hut_dark_forest (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:witch_hut_giant_tree_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:witch_hut_oak (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:witch_hut_taiga (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:witch_hut_mangrove (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#betterstrongholds:better_strongholds
+- betterstrongholds:stronghold (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+
+#repurposed_structures:collections/ruined_portals
+- repurposed_structures:ruined_portal_end (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+- #repurposed_structures:collections/ruined_portals (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/stronghold_nether
+- repurposed_structures:stronghold_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+- #repurposed_structures:collections/villages (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:no_basalt
+- repurposed_structures:mineshaft_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_crimson (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:mineshaft_warped (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:temple_nether_basalt (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:shipwreck_nether_bricks (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:outpost_nether_brick (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_crimson (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:village_warped (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ruins_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ancient_city_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:pyramid_nether (from Repurposed_Structures-Better_Desert_Temples_v6)
+
+#supplementaries:adventure_map_destinations
+- #minecraft:village (from supplementaries-1.19.2-2.2.64.jar)
+- #minecraft:shipwreck (from supplementaries-1.19.2-2.2.64.jar)
+- #minecraft:mineshaft (from supplementaries-1.19.2-2.2.64.jar)
+- #minecraft:ocean_ruin (from supplementaries-1.19.2-2.2.64.jar)
+- #minecraft:ruined_portal (from supplementaries-1.19.2-2.2.64.jar)
+- minecraft:swamp_hut (from supplementaries-1.19.2-2.2.64.jar)
+- minecraft:bastion_remnant (from supplementaries-1.19.2-2.2.64.jar)
+- minecraft:jungle_pyramid (from supplementaries-1.19.2-2.2.64.jar)
+- minecraft:desert_pyramid (from supplementaries-1.19.2-2.2.64.jar)
+- minecraft:pillager_outpost (from supplementaries-1.19.2-2.2.64.jar)
+- minecraft:igloo (from supplementaries-1.19.2-2.2.64.jar)
+- minecraft:end_city (from supplementaries-1.19.2-2.2.64.jar)
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#repurposed_structures:collections/ruins
+- repurposed_structures:ruins_land_icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ruins_land_cold (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ruins_land_warm (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ruins_land_hot (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:ruins_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+- #repurposed_structures:collections/mineshafts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- bettermineshafts:mineshaft_acacia (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_ice (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_jungle (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_lush (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mesa (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_mushroom (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_oak (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_red_desert (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_spruce_snowy (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_overgrown (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+- bettermineshafts:mineshaft_dripstone (from YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar)
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+
+#repurposed_structures:collections/monuments
+- repurposed_structures:monument_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:monument_icy (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:monument_nether (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:monument_desert (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/nether_fortress
+- minecraft:fortress (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterfortresses:fortress? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- hexfortress:nether_fortress? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+- betterwitchhuts:witch_hut (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- betterwitchhuts:witch_circle (from YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar)
+- #repurposed_structures:collections/witch_huts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- autumnity:maple_hut? (from autumnity-1.19.2-4.0.0.jar)
+
+#repurposed_structures:larger_locate_search
+- #repurposed_structures:collections/mineshafts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/monument
+- #repurposed_structures:collections/monuments (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:no_jungle_vines
+- repurposed_structures:fortress_jungle (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- repurposed_structures:fortress_jungle_yungs (from Repurposed_Structures-Better_Nether_Fortress_v4)
+
+#repurposed_structures:explorer_maps/unknown_ocean_structure_4
+- minecraft:ruined_portal_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/unknown_ocean_structure_5
+- repurposed_structures:pyramid_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/fortress
+- #repurposed_structures:collections/fortresses (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold (from Default)
+- #repurposed_structures:collections/strongholds (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betterstrongholds:stronghold (from YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar)
+
+#repurposed_structures:explorer_maps/unknown_ocean_structure_6
+- repurposed_structures:ancient_city_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/unknown_ocean_structure_7
+- repurposed_structures:temple_ocean (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/unknown_ocean_structure_1
+- minecraft:monument (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- betteroceanmonuments:ocean_monument? (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:no_lakes
+- repurposed_structures:bastion_underground (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/villages (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/mansions (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/witch_huts (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- #repurposed_structures:collections/pyramids (from Repurposed_Structures-Better_Desert_Temples_v6)
+
+#repurposed_structures:explorer_maps/unknown_ocean_structure_2
+- minecraft:shipwreck (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:shipwreck_beached (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+
+#repurposed_structures:explorer_maps/unknown_ocean_structure_3
+- minecraft:ocean_ruin_cold (from repurposed_structures_forge-6.3.20+1.19.2.jar)
+- minecraft:ocean_ruin_warm (from repurposed_structures_forge-6.3.20+1.19.2.jar)

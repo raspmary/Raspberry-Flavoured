@@ -1,0 +1,31 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "experience": 0.6,
+  "fermentingtime": 1500,
+  "fluiditem": {
+    "item": "brewinandchewin:vodka"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sea_pickle"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "kubejs:soul_salt"
+    },
+    {
+      "item": "minecraft:seagrass"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+	"count": 2,
+    "item": "brewinandchewin:salty_folly"
+  },
+  "temperature": 2
+}

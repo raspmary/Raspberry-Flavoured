@@ -1,0 +1,15 @@
+
+[mobs]
+	#Make biome variants of mobs like Husks always spawn in place of their original in their biomes
+	"Biome variants always spawn" = true
+
+	[mobs.koi]
+		#Make Koi only block natural spawns
+		"Block only natural spawns" = true
+		#Horizontal radius of Serenity effect in blocks
+		"Horizontal serenity range (radius)" = 32
+		#Vertical radius of Serenity effect in blocks
+		"Vertical serenity range (radius)" = 8
+		#If Koi exude Serenity as a potion effect
+		"Serenity potion effect" = true
+

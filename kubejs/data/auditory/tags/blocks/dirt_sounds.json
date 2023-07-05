@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:podzol",
+	"minecraft:farmland",
+	"environmental:buried_truffle",
+	"neapolitan:adzuki_soil",
+	"quark:dirt_bricks",
+	"quark:dirt_bricks_slab",
+	"quark:dirt_bricks_stairs",
+	"quark:dirt_bricks_wall",
+	"supplementaries:raked_gravel",
+	"farmersdelight:rich_soil",
+	"farmersdelight:rich_soil_farmland"
+  ]
+}

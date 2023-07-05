@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:organic_compost",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:rich_soil"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Obtain rich soil by letting organic compost decompose near sunlight, water, mushrooms or other compost blocks... or just find some in a village"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:rich_soil"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Quality Assurance"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

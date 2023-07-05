@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "STS",
+        " C "
+    ],
+    "key": {
+        "#": {
+            "item": "create:linked_controller"
+        },
+        "S": {
+            "item": "create:redstone_link"
+        },
+        "T": {
+            "item": "toms_storage:ts.inventory_connector"
+        },
+        "C": {
+            "item": "create:display_link"
+        }
+    },
+    "result": {
+        "item": "toms_storage:ts.wireless_terminal"
+    }
+}

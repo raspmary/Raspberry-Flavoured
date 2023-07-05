@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_fungus"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:crimson_roots",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:crimson_roots",
+      "count": 1,
+      "chance": 0.05
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

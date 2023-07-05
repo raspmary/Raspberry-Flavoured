@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "neapolitan:milk_bottle"
+  },
+  "cookingtime": 3600,
+  "experience": 0.35,
+  "group": "wild_berry_juice",
+  "ingredients": [
+    {
+      "item": "upgrade_aquatic:mulberry"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "needwater": false,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "windswept:wild_berry_juice"
+  }
+}

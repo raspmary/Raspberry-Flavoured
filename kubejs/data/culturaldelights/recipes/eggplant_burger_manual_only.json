@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "tag": "culturaldelights:smoked_regular_eggplants"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+	{
+      "tag": "culturaldelights:cucumbers"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    }
+  ],
+  "result": {
+    "item": "culturaldelights:eggplant_burger",
+    "count": 1
+  }
+}

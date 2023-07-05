@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "createaddition:cake_base"
+        },
+        {
+            "item": "neapolitan:chocolate_bar"
+        },
+        {
+            "item": "neapolitan:chocolate_bar"
+        }
+    ],
+    "result": {
+        "item": "neapolitan:chocolate_cake"
+    }
+}

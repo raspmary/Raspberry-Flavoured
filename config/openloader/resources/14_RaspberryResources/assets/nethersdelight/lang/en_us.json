@@ -1,0 +1,12 @@
+{
+  "block.nethersdelight.blackstone_stove": "Blackstove",
+  "block.nethersdelight.blackstone_furnace": "Brick Furnace",
+  "item.nethersdelight.hoglin_loin": "Raw Hoglin Meat",
+  "item.nethersdelight.hoglin_sirloin": "Cooked Hoglin Meat",
+  "nethersdelight.container.blackstone_blast_furnace": "Blast Furnace",
+  "nethersdelight.container.blackstone_furnace": "Furnace",
+  "nethersdelight.container.nether_brick_smoker": "Smoker",
+  "nethersdelight.block.feast.use_knife": "You need a Knife to cut this.",
+  "advancements.nether.propelcane.title": "No Pain, No Cane",
+  "advancements.nether.propelcane.description": "Harvest Propelplant Canes without getting blown up by using a Knife"
+}

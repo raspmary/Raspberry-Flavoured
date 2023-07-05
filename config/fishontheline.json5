@@ -1,0 +1,4 @@
+{
+	// If enabled, the fish on the line sound will only go off if a bell is held in the offhand while fishing.
+	"mustHoldBellInOffhand": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "alloyed:steel_casing"
+    },
+    "I": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "AIA",
+    "AIA",
+    " C "
+  ],
+  "result": {
+    "item": "create:mechanical_harvester"
+  }
+}

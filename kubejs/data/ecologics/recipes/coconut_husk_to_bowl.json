@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "ecologics:coconut_husk"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bowl",
+        "count": 1
+    }
+}

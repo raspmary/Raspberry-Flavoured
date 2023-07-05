@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "result": "quark:iron_ladder"
+}

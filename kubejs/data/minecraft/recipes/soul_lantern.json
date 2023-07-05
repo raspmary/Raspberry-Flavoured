@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:chain"
+        },
+        {
+            "item": "minecraft:soul_torch"
+        }
+    ],
+    "result": {
+        "item": "minecraft:soul_lantern"
+    }
+}

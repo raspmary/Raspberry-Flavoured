@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "result": "quark:jungle_ladder"
+}

@@ -1,0 +1,23 @@
+
+[vanilla_changes]
+	#If dispensers can interact with cauldrons using buckets
+	"Cauldron Dispensers" = true
+	#If dispensers can dye sheep
+	"Dye-ing Dispensers" = true
+	#If slime chunks should be smited into ten thousand pieces.
+	"Disable slime chunks" = false
+	#If dolphins shouldn't need air to survive.
+	"Dolphins don't need air" = false
+	#If horses wearing leather horse armor can walk on top of powdered snow.
+	"Warm Horse Armor" = true
+	#If killing an arthropod with a Bane of Arthropod sword will clear any poison effects the player has.
+	"BOA cure" = true
+	#If monsters & being too far away from a bed shouldn't prevent you from sleeping
+	"Reliable Sleep" = true
+
+["Environmental changes"]
+	#If Good Ending's Muddy Oak should instead use Environmental's Willow blocks.
+	"Based Trees" = true
+	#If all of Good Ending's patches should instead generate Environmental's duckweeds blocks.
+	"Based Duckweed" = true
+

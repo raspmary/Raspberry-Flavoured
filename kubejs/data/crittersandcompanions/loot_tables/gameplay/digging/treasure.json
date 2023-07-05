@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:group",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "spelunkery:rough_diamond"
+                        },
+						{
+                            "type": "minecraft:item",
+                            "name": "spelunkery:magnetite_chunk"
+                        },
+						{
+                            "type": "minecraft:item",
+                            "name": "spelunkery:rough_quartz_block"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

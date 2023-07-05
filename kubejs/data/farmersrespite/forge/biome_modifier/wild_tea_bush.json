@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_swamp",
+  "features": "farmersrespite:patch_wild_tea_bush",
+  "step": "vegetal_decoration"
+}

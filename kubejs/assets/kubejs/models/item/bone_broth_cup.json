@@ -1,0 +1,6 @@
+{
+  "parent": "farmersdelight:item/mug",
+  "textures": {
+    "layer0": "kubejs:item/bone_broth_cup"
+  }
+}

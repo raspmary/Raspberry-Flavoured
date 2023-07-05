@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "alloyed:steel_casing"
+    },
+    "I": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "III",
+    "AAA",
+    " C "
+  ],
+  "result": {
+    "item": "create:mechanical_plough"
+  }
+}

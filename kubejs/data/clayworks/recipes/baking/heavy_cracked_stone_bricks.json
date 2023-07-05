@@ -1,0 +1,11 @@
+{
+    "type": "clayworks:baking",
+    "ingredient": [
+        {
+            "item": "architects_palette:heavy_stone_bricks"
+        }
+    ],
+    "result": "architects_palette:heavy_cracked_stone_bricks",
+    "experience": 0.1,
+    "cookingtime": 100
+}

@@ -1,0 +1,9 @@
+
+[particles]
+	#If Powder Snow should drop snow Particles if there is no block below
+	"Powder Snow Particles" = true
+
+[entity-renderers]
+	#Rabbits will be 25% larger
+	"Larger Rabbits" = true
+

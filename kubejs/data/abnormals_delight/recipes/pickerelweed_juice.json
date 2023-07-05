@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "pickerelweed_juice",
+  "ingredients": [
+    {
+      "item": "upgrade_aquatic:blue_pickerelweed"
+    },
+    {
+      "item": "upgrade_aquatic:purple_pickerelweed"
+    }
+  ],
+  "needwater": true,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "abnormals_delight:pickerelweed_juice"
+  }
+}

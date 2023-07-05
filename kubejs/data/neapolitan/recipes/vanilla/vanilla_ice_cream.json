@@ -1,0 +1,25 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.6,
+  "fermentingtime": 1000,
+  "fluiditem": {
+    "tag": "forge:milk"
+  },
+  "ingredients": [
+    {
+      "item": "neapolitan:dried_vanilla_pods"
+    },
+    {
+      "item": "create_confectionery:cocoa_butter"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "neapolitan:vanilla_ice_cream",
+    "count": 2
+  },
+  "temperature": 1
+}

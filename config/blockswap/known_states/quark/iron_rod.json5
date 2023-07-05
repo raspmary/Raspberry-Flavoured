@@ -1,0 +1,102 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connected": "true"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connected": "true"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"connected": "true"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"connected": "true"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "down",
+			"connected": "true"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connected": "false"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connected": "false"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"connected": "false"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"connected": "false"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "up",
+			"connected": "false"
+		},
+		"Name": "quark:iron_rod"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "down",
+			"connected": "false"
+		},
+		"Name": "quark:iron_rod"
+	}
+]

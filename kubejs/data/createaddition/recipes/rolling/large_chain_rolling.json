@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "minecraft:iron_block"
+	},
+	"result": {
+		"item": "dustrial_decor:large_chain",
+		"count": 12
+	}
+}

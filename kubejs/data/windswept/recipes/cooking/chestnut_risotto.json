@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+      {
+        "item": "windswept:roasted_chestnuts"
+      },
+      {
+        "item": "windswept:roasted_chestnuts"
+      },
+      {
+        "item": "windswept:roasted_chestnuts"
+      },
+      {
+        "tag": "forge:raw_chicken"
+      },
+      {
+        "item": "farmersdelight:onion"
+      },
+      {
+        "item": "farmersdelight:rice"
+      }
+  ],
+  "result": {
+    "item": "windswept:chestnut_risotto"
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

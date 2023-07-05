@@ -1,0 +1,19 @@
+{
+  "group": "create_confectionery",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_confectionery:marshmallow"
+    },
+    {
+      "fluid": "create_confectionery:white_chocolate",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:white_chocolate_glazed_marshmallow"
+    }
+  ]
+}

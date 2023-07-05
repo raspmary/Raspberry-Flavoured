@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_goat"
+    },
+	{
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+	{
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "kubejs:chevon_and_potatoes"
+  }
+}

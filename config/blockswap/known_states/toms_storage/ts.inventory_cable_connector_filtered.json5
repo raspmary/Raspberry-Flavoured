@@ -1,0 +1,4993 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "true"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "true",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "north",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "east",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "south",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "west",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "up",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "false",
+			"north": "true",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "false",
+			"south": "true",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"up": "true",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"up": "false",
+			"south": "false",
+			"north": "false",
+			"facing": "down",
+			"east": "false",
+			"down": "false"
+		},
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	},
+	{
+		"Name": "toms_storage:ts.inventory_cable_connector_filtered"
+	}
+]

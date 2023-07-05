@@ -1,0 +1,63 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:group",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:bone"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:rotten_flesh"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:string"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "berry_good:sweet_berry_pips"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "spelunkery:raw_gold_nugget"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:flint"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:feather"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:beetroot_seeds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:poisonous_potato"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "farmersdelight:rotten_tomato"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

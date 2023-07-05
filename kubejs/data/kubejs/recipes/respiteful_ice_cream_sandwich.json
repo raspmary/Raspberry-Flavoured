@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "kubejs:cinnamon_cracker"
+        },
+        {
+            "item": "kubejs:cinnamon_cracker"
+        },
+        {
+            "item": "respiteful:respiteful_ice_cream"
+        }
+    ],
+    "result": {
+        "item": "kubejs:respiteful_ice_cream_sandwich"
+    }
+}

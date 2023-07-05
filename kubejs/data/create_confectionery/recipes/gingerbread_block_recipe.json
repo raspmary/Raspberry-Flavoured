@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "create_confectionery:gingerdough"
+    },
+    "1": {
+      "item": "create_confectionery:gingerdough"
+    },
+    "2": {
+      "item": "create_confectionery:gingerdough"
+    },
+    "3": {
+      "item": "create_confectionery:gingerdough"
+    }
+  },
+  "result": {
+    "item": "create_confectionery:gingerbread_block",
+    "count": 4
+  }
+}

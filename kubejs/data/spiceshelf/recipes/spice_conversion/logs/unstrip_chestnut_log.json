@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "windswept:stripped_chestnut_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "windswept:chestnut_log"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

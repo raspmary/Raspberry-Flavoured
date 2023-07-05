@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  },
+  "result": [
+    {
+      "item": "endersdelight:ender_shard",
+      "count": 2
+    }
+  ]
+}

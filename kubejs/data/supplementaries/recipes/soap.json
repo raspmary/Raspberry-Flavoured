@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+        "#S",
+        "AH"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:honeycomb"
+        },
+        "A": {
+            "item": "supplementaries:ash"
+        },
+		"S": {
+            "item": "kubejs:soul_salt"
+        },
+        "H": {
+            "tag": "minecraft:small_flowers"
+        }
+    },
+  "result": {
+    "item": "supplementaries:soap",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "soap"
+    }
+  ]
+}

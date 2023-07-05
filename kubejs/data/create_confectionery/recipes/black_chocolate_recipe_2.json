@@ -1,0 +1,16 @@
+{
+  "group": "create_confectionery",
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:bar_of_black_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_confectionery:black_chocolate",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

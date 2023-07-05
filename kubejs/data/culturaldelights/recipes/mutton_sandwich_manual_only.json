@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:cooked_mutton"
+    },
+    {
+      "item": "incubation:fried_egg"
+    },
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": {
+    "item": "culturaldelights:mutton_sandwich",
+    "count": 1
+  }
+}

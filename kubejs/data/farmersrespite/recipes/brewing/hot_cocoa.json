@@ -1,0 +1,22 @@
+{
+  "type": "farmersrespite:brewing",
+  "container": {
+    "item": "neapolitan:milk_bottle"
+  },
+  "cookingtime": 2400,
+  "experience": 0.35,
+  "group": "hot_cocoa",
+  "ingredients": [
+    {
+      "tag": "minecraft:cocoa_beans_or_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "needwater": false,
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "farmersdelight:hot_cocoa"
+  }
+}

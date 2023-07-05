@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "createaddition:cake_base"
+        },
+        {
+            "item": "farmersrespite:yellow_tea_leaves"
+        },
+        {
+            "item": "farmersrespite:yellow_tea_leaves"
+        }
+    ],
+    "result": {
+        "item": "respiteful:yellow_tea_cake"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "musicTypesToggles": {
+    "caveMusic": true,
+    "coldMusic": true,
+    "hotMusic": true,
+    "niceMusic": true,
+    "downMusic": true,
+    "endMusic": true,
+    "endBossMusic": true
+  },
+  "dynamicPitch": {
+    "activated": true,
+    "anchor": 18000,
+    "faster": false
+  },
+  "caveDetection": {
+    "searchRange": 6,
+    "stonePercent": 0.6
+  },
+  "mineshaftDetection": {
+    "searchRange": 2,
+    "percent": 0.2
+  }
+}

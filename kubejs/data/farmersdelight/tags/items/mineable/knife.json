@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "endersdelight:chorus_pie",
+	"brewinandchewin:quiche",
+	"brewinandchewin:pizza",
+	"windswept:wild_berry_sack",
+	"environmental:cattail_seed_sack",
+	"savage_and_ravage:creeper_spore_sack",
+	"farmersrespite:green_tea_leaves_sack",
+	"farmersrespite:yellow_tea_leaves_sack",
+	"farmersrespite:black_tea_leaves_sack",
+	"farmersrespite:coffee_beans_sack",
+	"autumnity:foul_berry_sack",
+	"quark:cocoa_beans_sack",
+	"quark:nether_wart_sack",
+	"quark:gunpowder_sack",
+	"quark:berry_sack",
+	"quark:glowberry_sack",
+	"supplementaries:sack"
+  ]
+}

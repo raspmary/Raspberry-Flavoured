@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createaddition:cake_base"
+    },
+    {
+      "item": "neapolitan:banana"
+    },
+    {
+      "item": "neapolitan:banana"
+    }
+  ],
+  "results": [
+    {
+      "item": "neapolitan:banana_cake"
+    }
+  ]
+}

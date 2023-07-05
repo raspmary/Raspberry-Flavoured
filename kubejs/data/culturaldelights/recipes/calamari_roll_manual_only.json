@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "miners_delight:tentacles"
+    },
+    {
+      "item": "miners_delight:tentacles"
+    }
+  ],
+  "result": {
+    "item": "culturaldelights:calamari_roll",
+    "count": 2
+  }
+}

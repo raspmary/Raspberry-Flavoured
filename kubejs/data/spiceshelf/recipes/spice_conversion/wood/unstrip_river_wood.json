@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "upgrade_aquatic:stripped_river_wood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "upgrade_aquatic:river_wood"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

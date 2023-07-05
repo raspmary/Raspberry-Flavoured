@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "forge:raw_goat"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "farmersdelight:rice"
+    }
+  ],
+  "result": {
+    "item": "windswept:goat_stew"
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "item": "farmersdelight:tomato_sauce"
+  }
+}

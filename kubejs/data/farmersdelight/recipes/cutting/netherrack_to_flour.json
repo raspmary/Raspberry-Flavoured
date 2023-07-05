@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.25,
+      "item": "minecraft:netherrack"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:cinder_flour"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

@@ -1,0 +1,1337 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "ceiling",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "ceiling",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_block",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_beam",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_wall",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_palisade",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_post",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_stick",
+			"axis": "x"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "ceiling",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "ceiling",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_block",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_beam",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_wall",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_palisade",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_post",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "stick_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "stick_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "block_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "block_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "beam_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "beam_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "wall_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "wall_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "palisade_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "palisade_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"sign_attachment": "post_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"sign_attachment": "post_stick",
+			"axis": "z"
+		},
+		"Name": "supplementaries:atmospheric/hanging_sign_yucca"
+	}
+]

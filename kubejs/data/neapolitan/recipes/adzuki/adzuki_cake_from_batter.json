@@ -1,0 +1,20 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 500,
+      "fluid": "kubejs:cake_batter"
+    },
+    {
+      "item": "neapolitan:roasted_adzuki_beans"
+    },
+    {
+      "item": "neapolitan:roasted_adzuki_beans"
+    }
+  ],
+  "results": [
+    {
+      "item": "neapolitan:adzuki_cake"
+    }
+  ]
+}

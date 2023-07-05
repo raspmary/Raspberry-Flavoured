@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "tag": "culturaldelights:avocados"
+    },
+	{
+      "tag": "culturaldelights:avocados"
+    },
+    {
+      "tag": "culturaldelights:corn_or_kernels"
+    },
+    {
+      "tag": "culturaldelights:corn_or_kernels"
+    },
+    [
+	{
+      "item": "culturaldelights:pickle"
+    },
+    {
+      "item": "culturaldelights:cut_pickle"
+    }
+    ],
+	[
+	{
+      "item": "culturaldelights:pickle"
+    },
+    {
+      "item": "culturaldelights:cut_pickle"
+    }
+    ],
+	{
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "culturaldelights:hearty_salad"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+	{
+      "item": "minecraft:soul_sand"
+    },
+	{
+      "item": "minecraft:soul_soil"
+    }
+	],
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:scoria"
+  }
+}

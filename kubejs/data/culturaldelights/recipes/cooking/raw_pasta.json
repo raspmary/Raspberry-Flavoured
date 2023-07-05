@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    },
+    {
+      "tag": "farmersdelight:wheat_or_flour"
+    },
+    {
+      "tag": "balm:eggs"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:raw_pasta",
+    "count": 4
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

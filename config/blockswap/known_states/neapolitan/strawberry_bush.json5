@@ -1,0 +1,174 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "red",
+			"age": "0"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "white",
+			"age": "0"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"age": "1"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "red",
+			"age": "1"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "white",
+			"age": "1"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"age": "2"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "red",
+			"age": "2"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "white",
+			"age": "2"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"age": "3"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "red",
+			"age": "3"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "white",
+			"age": "3"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"age": "4"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "red",
+			"age": "4"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "white",
+			"age": "4"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"age": "5"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "red",
+			"age": "5"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "white",
+			"age": "5"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "none",
+			"age": "6"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "red",
+			"age": "6"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "white",
+			"age": "6"
+		},
+		"Name": "neapolitan:strawberry_bush"
+	}
+]

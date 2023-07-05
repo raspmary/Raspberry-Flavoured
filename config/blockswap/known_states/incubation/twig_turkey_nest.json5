@@ -1,0 +1,49 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "incubation:twig_turkey_nest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"eggs": "2"
+		},
+		"Name": "incubation:twig_turkey_nest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"eggs": "3"
+		},
+		"Name": "incubation:twig_turkey_nest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"eggs": "4"
+		},
+		"Name": "incubation:twig_turkey_nest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"eggs": "5"
+		},
+		"Name": "incubation:twig_turkey_nest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"eggs": "6"
+		},
+		"Name": "incubation:twig_turkey_nest"
+	}
+]

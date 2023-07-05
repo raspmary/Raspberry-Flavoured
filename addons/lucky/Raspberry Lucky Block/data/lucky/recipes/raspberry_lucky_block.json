@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "L": {
+            "item": "minecraft:dropper"
+        }
+    },
+    "pattern": [
+        "###",
+        "#L#",
+        "###"
+    ],
+    "result": {
+        "item": "lucky:raspberry_lucky_block"
+    }
+}

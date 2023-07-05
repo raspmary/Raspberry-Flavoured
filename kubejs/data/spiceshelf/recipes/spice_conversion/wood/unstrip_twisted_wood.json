@@ -1,0 +1,15 @@
+{
+  "type": "spiceshelf:spice_conversion",
+  "ingredients": [
+    {
+      "item": "architects_palette:stripped_twisted_wood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "architects_palette:twisted_wood"
+  },
+  "sound": "minecraft:item.axe.strip"
+}

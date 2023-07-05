@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "culturaldelights:corn_or_kernels"
+    },
+    {
+      "tag": "culturaldelights:corn_or_kernels"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "culturaldelights:corn_dough"
+    }
+  ]
+}

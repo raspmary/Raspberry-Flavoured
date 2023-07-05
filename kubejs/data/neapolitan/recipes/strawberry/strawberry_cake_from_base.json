@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createaddition:cake_base"
+    },
+    {
+      "item": "neapolitan:strawberries"
+    },
+    {
+      "item": "neapolitan:strawberries"
+    }
+  ],
+  "results": [
+    {
+      "item": "neapolitan:strawberry_cake"
+    }
+  ]
+}

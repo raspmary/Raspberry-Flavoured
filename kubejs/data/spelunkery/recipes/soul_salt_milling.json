@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spelunkery:rock_salt"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.5,
+      "item": "kubejs:soul_salt"
+    },
+    {
+      "chance": 0.05,
+      "item": "kubejs:soul_salt"
+    }
+  ]
+}
