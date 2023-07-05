@@ -33,7 +33,7 @@ RF TEAM CREDITS:
 
 QinomeD - helping me figure out what the hell I'm doing with KubeJS, making the KubeJS Delight addon upon my request, helping me create this very Github repo and helping out with other technicalities
 
-Chad - brainstorming tons of ideas, managing the Discord server and being emotional support
+Chad - brainstorming tons of ideas, managing the Discord server and being emotional support (and once having played the pack for 11 HOURS STRAIGHT, therefore holding the record)
 
 Nive - being our main texture artist and making loads of textures for both new and existing items and/or blocks
 
