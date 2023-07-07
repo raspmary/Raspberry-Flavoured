@@ -245,18 +245,18 @@ customization {
   shadow = true
   delayappearanceseconds = 1.0
   rotation = 0.0
-  scale = 0.75
+  scale = 1.0
   refresh = true
   bouncing = true
   fadein = true
   vanilla-like = true
   fadeinspeed = 1.0
-  x = -19
+  x = -27
   actionid = 7896132c-c0c1-42ca-a830-b8dbca27754f1688230352925
   action = addsplash
   y = 226
   delayappearance = true
-  text = More addictive than most things!
+  text = Beware of the man who speaks in hands!
   delayappearanceeverytime = false
 }
 
@@ -277,7 +277,7 @@ customization {
   shadow = true
   delayappearanceseconds = 1.0
   scale = 1.0
-  source = v2.0.0 Beta 2
+  source = v2.0.0 PUBLIC BETA
   text_border = 0
   case_mode = upper
   fadein = true

@@ -11,7 +11,7 @@ ItemEvents.toolTierRegistry (event => {
     tier.speed = 6.0
     tier.level = 2
     tier.enchantmentValue = 14
-    tier.repairIngredient = 'minecraft:air'
+    tier.repairIngredient = 'minecraft:copper_ingot'
   })
 })
 ItemEvents.toolTierRegistry (event => {
@@ -208,6 +208,7 @@ StartupEvents.registry('item', event => {
 		food
     		.hunger(6)
     		.saturation(0.7)
+			.effect('farmersdelight:comfort', 1800, 0, 100)
         	})
 	event.create('neapolitan_ice_cream_sandwich').displayName("Neapolitan Ice Cream Sandwich").maxStackSize(16).food(food => {
 		food
@@ -1374,6 +1375,41 @@ ItemEvents.modification(event => {
 	event.modify('nethersdelight:ground_strider', item => {
         item.foodProperties = food => {
             food.removeEffect('fire_resistance')
+        }
+    })
+	event.modify('minecraft:pumpkin_pie', item => {
+        item.foodProperties = food => {
+            food.hunger(7).saturation(0.5).effect('farmersdelight:comfort', 3000, 0, 100)
+        }
+    })
+	event.modify('windswept:mutton_pie', item => {
+        item.foodProperties = food => {
+            food.hunger(7).saturation(0.55).effect('farmersdelight:comfort', 3000, 0, 100)
+        }
+    })
+	event.modify('environmental:cherry_pie', item => {
+        item.foodProperties = food => {
+            food.saturation(0.55).effect('farmersdelight:comfort', 3000, 0, 100)
+        }
+    })
+	event.modify('environmental:apple_pie', item => {
+        item.foodProperties = food => {
+            food.hunger(8).saturation(0.4).effect('farmersdelight:comfort', 3000, 0, 100)
+        }
+    })
+	event.modify('environmental:truffle_pie', item => {
+        item.foodProperties = food => {
+            food.effect('farmersdelight:comfort', 6000, 0, 100)
+        }
+    })
+	event.modify('upgrade_aquatic:mulberry_pie', item => {
+        item.foodProperties = food => {
+            food.hunger(8).saturation(0.5).effect('farmersdelight:comfort', 3000, 0, 100)
+        }
+    })
+	event.modify('atmospheric:passionfruit_tart', item => {
+        item.foodProperties = food => {
+            food.hunger(5).saturation(0.5).effect('farmersdelight:comfort', 3000, 0, 100)
         }
     })
 })

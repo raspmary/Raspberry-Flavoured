@@ -11,7 +11,7 @@
 	#Check out the Minecraft Wiki for all available formatting codes and their usage: https://minecraft.fandom.com/wiki/Formatting_codes#Usage
 	renaming_supports_formatting = true
 	#Allow using iron blocks to repair an anvil by one damage stage. Can be automated using dispensers.
-	anvil_repairing = true
+	anvil_repairing = false
 
 #Most default value represents vanilla behavior.
 [costs]
@@ -20,7 +20,7 @@
 	rare_enchantment_multiplier = 4
 	#The additional cost in levels for combining an item with another item of the same kind when the first item is not fully repaired.
 	#Range: > -2147483648
-	repair_with_other_item_cost = 2
+	repair_with_other_item_cost = 0
 	#Multiplier for each level of a common enchantment being applied.
 	#Range: > -2147483648
 	common_enchantment_multiplier = 1
@@ -34,7 +34,7 @@
 	halved_book_costs = true
 	#The additional cost in levels for each valid repair material an item is repaired with in an anvil.
 	#Range: > -2147483648
-	repair_with_material_unit_cost = 1
+	repair_with_material_unit_cost = 0
 	#Max cost of enchantment level allowed to be spent in an anvil. Every operation exceeding the limit will show as 'Too Expensive!' and will be disallowed.
 	#If set to '-1' the limit is disabled.
 	#Set to '40' enchantment levels in vanilla.
@@ -55,7 +55,7 @@
 	#VANILLA: Penalty doubles every time an item is worked.
 	#DISABLED: Penalty stays at 0 and does not increase.
 	#Allowed Values: DISABLED, VANILLA, FIXED
-	prior_work_penalty = "FIXED"
+	prior_work_penalty = "DISABLED"
 	#Prevents the prior work penalty from increasing when the item has only been renamed or repaired.
 	penalty_free_renames_and_repairs = true
 	#Constant to use when "prior_work_penalty" is set to "FIXED". Every subsequent operation will increase by this value in levels.

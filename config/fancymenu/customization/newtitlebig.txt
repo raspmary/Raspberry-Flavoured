@@ -245,19 +245,19 @@ customization {
   shadow = true
   delayappearanceseconds = 1.0
   rotation = 0.0
-  scale = 0.75
+  scale = 1.5
   refresh = true
   bouncing = true
   fadein = true
   vanilla-like = true
   fadeinspeed = 1.0
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 80
+  x = 59
   actionid = 7896132c-c0c1-42ca-a830-b8dbca27754f1688230352925
   action = addsplash
-  y = 73
+  y = 75
   delayappearance = true
-  text = More addictive than most things!
+  text = Beware of the man who speaks in hands!
   delayappearanceeverytime = false
 }
 
@@ -278,7 +278,7 @@ customization {
   shadow = true
   delayappearanceseconds = 1.0
   scale = 1.0
-  source = v2.0.0 Beta 2
+  source = v2.0.0 PUBLIC BETA
   text_border = 0
   case_mode = upper
   fadein = true
@@ -289,11 +289,11 @@ customization {
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = d3d1deba-77e1-4526-83cb-c399c8021bfd1688233519106
-  y = 162
+  y = 164
   delayappearance = true
   alignment = centered
   base_color = #ffc1f6
   delayappearanceeverytime = false
-  height = 14
+  height = 12
 }
 

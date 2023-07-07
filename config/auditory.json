@@ -1,8 +1,8 @@
 {
   "block_sounds": {
     "blockSoundsConfig": {
-      "overworldStoneVariantSounds": false,
-      "clayBrickSounds": false,
+      "overworldStoneVariantSounds": true,
+      "clayBrickSounds": true,
       "dirtSounds": true,
       "goldSounds": true,
       "leafSounds": true,
@@ -16,7 +16,7 @@
       "shulkerBoxSounds": true,
       "smallObjectSounds": true,
       "spawnerSounds": true,
-      "stoneBrickSounds": false,
+      "stoneBrickSounds": true,
       "stoneOreSounds": true,
       "stringSounds": true,
       "terracottaSounds": false,
