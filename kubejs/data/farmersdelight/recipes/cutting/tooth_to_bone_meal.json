@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "upgrade_aquatic:thrasher_tooth"
+    }
+  ],
+  "result": [
+    {
+	  "count": 4,
+      "item": "minecraft:bone_meal"
+    },
+	{
+	  "count": 4,
+	  "chance": 0.25,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

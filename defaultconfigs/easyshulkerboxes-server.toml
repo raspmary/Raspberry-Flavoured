@@ -1,0 +1,12 @@
+#Allow dragging the mouse while holding a container item to insert hovered items, or to extract container contents to empty hovered slots.
+allow_mouse_dragging = true
+#Allow inventory interactions and contents tooltip to work on shulker boxes.
+allow_shulker_box = true
+#Allow inventory interactions and contents tooltip to work on ender chests.
+#The item stack must have just a single ender chest item.
+allow_ender_chest = false
+#Allow inventory interactions and contents tooltip from this mod to work on bundles, vanilla behavior is replaced.
+allow_bundle = true
+#Allow using the mouse wheel to scroll between slots in an item tooltip to choose the next item to extract.
+allow_slot_cycling = true
+

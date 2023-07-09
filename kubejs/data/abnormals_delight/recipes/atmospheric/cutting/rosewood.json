@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "atmospheric:rosewood"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  },
+  "result": [
+    {
+      "item": "atmospheric:stripped_rosewood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+	  "chance": 0.7,
+      "item": "kubejs:fragrant_tree_bark"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ]
+}

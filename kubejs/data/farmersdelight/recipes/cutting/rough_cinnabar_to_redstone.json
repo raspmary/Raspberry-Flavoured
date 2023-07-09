@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "spelunkery:rough_cinnabar"
+    }
+  ],
+  "result": [
+    {
+	  "chance": 0.75,
+      "item": "minecraft:redstone"
+    },
+	{
+	  "chance": 0.1,
+      "item": "minecraft:redstone"
+    },
+	{
+	  "chance": 0.1,
+      "item": "minecraft:calcite"
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}
