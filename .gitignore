@@ -21,3 +21,31 @@
 
 # whitelist everything in ./addons/
 !addons/**
+
+# blacklist client configs
+config/additionalstructures-client.toml
+config/aileron-client-config.toml
+config/allurement-client.toml
+config/ambientsounds-client.json
+config/appleskin-client.toml
+config/atmospheric-client.toml
+config/betteradvancements-client.toml
+config/betterf3.toml
+config/bettermodsbutton-client.toml
+config/bigbrain-client.toml
+config/blueprint-client.toml
+config/blur.json
+config/cofh_core-client.toml
+config/configured-client.toml
+config/create-client.toml
+config/easyanvils-client.toml
+config/easymagic-client.toml
+config/easyshulkerboxes-client.toml
+config/effective_fg-client.toml
+config/fallingleaves-client.toml
+config/farmersdelight-client.toml
+config/savage_and_ravage-client.toml
+config/visualworkbench-client.toml
+config/xaerominimap.txt
+config/xaeropatreon.txt
+config/xaeroworldmap.txt

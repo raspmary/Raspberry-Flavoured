@@ -10,9 +10,6 @@
       "item": "autumnity:turkey_piece"
     },
 	{
-      "item": "autumnity:turkey_piece"
-    },
-	{
       "tag": "culturaldelights:corn_or_kernels"
     },
     {
@@ -20,6 +17,9 @@
     },
     {
       "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:milk"
     }
   ],
   "recipe_book_tab": "meals",
