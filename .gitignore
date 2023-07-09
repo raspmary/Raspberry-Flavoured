@@ -11,13 +11,13 @@
 !README.md
 
 # whitelist everything in ./config/
-!config/
+!config/**
 
 # whitelist everything in ./defaultconfigs/
-!defaultconfigs/
+!defaultconfigs/**
 
 # whitelist everything in ./kubejs/
-!kubejs/
+!kubejs/**
 
 # whitelist everything in ./addons/
-!addons/
+!addons/**
