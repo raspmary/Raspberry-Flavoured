@@ -27,6 +27,12 @@ Farcr - Farcr's Re-Crafted resource pack
 
 Paradiscal - Up to Scratch resource pack
 
+Feranogame - Quark Vanilla Resource Overrides resource pack
+
+joosh_7889 - Better Mob Models resource pack
+
+MythrilBagels - Bagels' Animal Tweaks resource pack
+
 telepathicgrunt - all of the Repurposed Structures Compatibility datapacks
 
 RF TEAM CREDITS:
@@ -46,5 +52,7 @@ culling - making a compatibility datapack for all the wood types in the pack to 
 WaterOre - creating an audit of sorts of all the food items in the pack to help with and give feedback for balancing, and also making datapacks for more convenient dye recipes and adding dyeing recipes for some of the Another Furniture blocks
 
 MythrilBagels - making the chocolate bar, wild corn and flax seed sprites (and being the first to do a stream of the pack!)
+
+Jamiscus - making the campfire kindling textures
 
 Pouffy - making the strawberry banana smoothie texture
