@@ -1,0 +1,30 @@
+{
+  "parent": "raspberryflavoured:obsidian",
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:enchanted_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Make an enchanting table and then use your experience levels and some lapis lazuli to enchant any tool - try surrounding the table with bookshelves, because knowledge is power!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Enchanted"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

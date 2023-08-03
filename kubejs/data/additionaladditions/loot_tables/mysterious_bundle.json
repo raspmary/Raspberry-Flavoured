@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 5
+        "min": 3,
+        "max": 6
       },
       "entries": [
         {
@@ -20,42 +20,57 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "minecraft:saddle"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:name_tag"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:cake"
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:lead"
+          "weight": 2,
+          "name": "farmersdelight:apple_pie"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:iron_leggings"
+          "name": "minecraft:pumpkin_seeds"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:iron_helmet"
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "autumnity:pumpkin_bread"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "supplementaries:flax_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ender_pearl"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:iron_chestplate"
+          "name": "minecraft:chainmail_leggings"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:iron_boots"
+          "name": "minecraft:chainmail_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:chainmail_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:chainmail_boots"
         },
         {
           "type": "minecraft:item",
@@ -65,17 +80,32 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "minecraft:rotten_flesh"
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "supplementaries:flax"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "kubejs:oatmeal"
         },
 		{
           "type": "minecraft:item",
-          "weight": 6,
-          "name": "create:andesite_alloy"
+          "weight": 3,
+          "name": "kubejs:cinnamon_roll"
         },
 		{
           "type": "minecraft:item",
-          "weight": 6,
-          "name": "create:wheat_flour"
+          "weight": 3,
+          "name": "incubation:chicken_egg_crate"
         },
         {
           "type": "minecraft:item",
@@ -99,13 +129,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:heart_of_the_sea"
+          "weight": 4,
+          "name": "farmersdelight:iron_knife"
         },
         {
           "type": "minecraft:item",
           "weight": 4,
           "name": "farmersdelight:egg_sandwich"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "culturaldelights:mutton_sandwich"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "kubejs:kipper_sandwich"
         },
 		{
           "type": "minecraft:item",
@@ -129,17 +169,22 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
+          "name": "spelunkery:raw_silver_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
           "name": "minecraft:spyglass"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 5,
           "name": "minecraft:compass"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 5,
           "name": "minecraft:clock"
         },
         {
@@ -151,6 +196,11 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "autumnity:snail_goo"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:experience_bottle"
         },
         {
           "type": "minecraft:item",

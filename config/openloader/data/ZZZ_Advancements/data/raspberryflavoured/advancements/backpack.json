@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:bundle",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:backpack"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Craft a backpack to get an additional twenty-seven slots in your inventory - but be warned, you can't take it off when there's items inside it!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "quark:backpack"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cheeseburger Backpack"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

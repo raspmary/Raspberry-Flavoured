@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 2,
+  "ingredient": {
+    "tag": "quark:blossom_logs"
+  },
+  "result": "supplementaries:quark/hanging_sign_blossom"
+}

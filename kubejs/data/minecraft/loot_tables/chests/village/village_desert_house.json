@@ -6,7 +6,33 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:clay_ball"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:terracotta"
         },
         {
           "type": "minecraft:item",
@@ -19,14 +45,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cactus",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -46,19 +72,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bread",
-          "weight": 10
+          "name": "minecraft:bread"
         },
         {
           "type": "minecraft:item",
@@ -66,19 +80,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:dead_bush",
-          "weight": 2
+          "name": "quark:cactus_block"
         },
         {
           "type": "minecraft:item",
@@ -88,18 +90,38 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 6.0,
-                "min": 1.0
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
+          "name": "minecraft:dead_bush",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
           "name": "spelunkery:rough_emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spelunkery:rough_emerald_shard"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "max": 7.0,
+        "min": 4.0
       }
     }
   ]

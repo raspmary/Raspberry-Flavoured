@@ -37,22 +37,6 @@
           ],
           "name": "farmersdelight:straw"
         },
-		{
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "miners_delight:cave_carrot"
-        },
         {
           "type": "minecraft:item",
           "weight": 10,

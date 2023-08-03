@@ -11,14 +11,46 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:map",
-          "weight": 10
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper",
+          "weight": 28
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glass_pane",
+          "weight": 24
         },
         {
           "type": "minecraft:item",
@@ -28,34 +60,28 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 5.0,
-                "min": 1.0
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:paper",
-          "weight": 15
+          "name": "farmersdelight:tree_bark",
+          "weight": 32
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:compass",
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
+          "name": "farmersdelight:melon_juice",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 15
+          "weight": 14
         },
         {
           "type": "minecraft:item",
@@ -64,20 +90,20 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 24.0,
+                "min": 6.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:stick",
-          "weight": 5
+          "weight": 6
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 5.0,
-        "min": 1.0
+        "min": 3.0
       }
     }
   ]

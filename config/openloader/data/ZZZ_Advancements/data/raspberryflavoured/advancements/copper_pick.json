@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:metals",
+  "parent": "raspberryflavoured:pickaxe",
   "criteria": {
     "0": {
       "conditions": {

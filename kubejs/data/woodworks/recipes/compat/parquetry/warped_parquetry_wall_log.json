@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 4,
+  "ingredient": {
+    "tag": "minecraft:warped_stems"
+  },
+  "result": "architects_palette:warped_board_wall"
+}

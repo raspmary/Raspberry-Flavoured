@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "spelunkery:rough_emerald"
         },
         {
           "type": "minecraft:item",
@@ -15,14 +15,76 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cod",
-          "weight": 2
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:salmon",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersdelight:cod_slice",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersdelight:salmon_slice",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "upgrade_aquatic:pike",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "abnormals_delight:pike_slice",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket"
         },
         {
           "type": "minecraft:item",
@@ -37,22 +99,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:salmon"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "miners_delight:water_cup"
+          "name": "minecraft:string"
         },
         {
           "type": "minecraft:item",
@@ -82,22 +129,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:wheat_seeds",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:coal",
           "weight": 2
         },
@@ -108,20 +139,20 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 6.0
+                "max": 10.0,
+                "min": 5.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "spelunkery:coal_lump",
-          "weight": 2
+          "weight": 3
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
+        "max": 6.0,
+        "min": 4.0
       }
     }
   ]

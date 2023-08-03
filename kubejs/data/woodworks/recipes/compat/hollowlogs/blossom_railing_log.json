@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "quark:blossom_log"
+  },
+  "result": "quark:hollow_blossom_log"
+}

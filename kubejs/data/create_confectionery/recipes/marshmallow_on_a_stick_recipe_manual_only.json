@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_confectionery:marshmallow"
+    },
+    {
+      "item": "create_confectionery:marshmallow"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "create_confectionery:marshmallow_on_a_stick",
+    "count": 1
+  }
+}

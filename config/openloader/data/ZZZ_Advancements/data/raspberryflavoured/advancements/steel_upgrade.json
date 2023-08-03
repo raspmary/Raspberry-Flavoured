@@ -1,0 +1,49 @@
+{
+  "parent": "raspberryflavoured:smithing_table",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_helmet",
+			  "alloyed:steel_chestplate",
+			  "alloyed:steel_leggings",
+			  "alloyed:steel_boots",
+			  "alloyed:steel_pickaxe",
+			  "alloyed:steel_shovel",
+			  "alloyed:steel_axe",
+			  "alloyed:steel_hoe",
+			  "alloyed:steel_sword",
+			  "alloyed:steel_knife",
+			  "alloyed:steel_shears",
+			  "alloyed:steel_fishing_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Use steel in a smithing table to upgrade your chainmail armour, your iron tools, or even your fishing rod - you'll need to have visited another dimension to have access to steel..."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "alloyed:steel_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Man of Steel"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

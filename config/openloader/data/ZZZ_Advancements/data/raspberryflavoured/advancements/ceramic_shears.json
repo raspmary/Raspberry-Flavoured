@@ -19,7 +19,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#CE3131",
+      "color": "#C44E00",
       "text": "Craft a pair of shears to pick up plants or foliage and shear wool off of sheep"
     },
     "frame": "task",

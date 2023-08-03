@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:cooked_chicken"
+          },
+          {
+            "item": "windswept:roasted_chestnuts"
+          },
+          {
+            "item": "windswept:roasted_chestnuts"
+          },
+          {
+            "tag": "forge:cooked_bacon"
+          },
+          {
+            "tag": "forge:cooked_bacon"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "windswept:chestnut_chicken_platter"
+        }
+      }
+    }
+  ]
+}

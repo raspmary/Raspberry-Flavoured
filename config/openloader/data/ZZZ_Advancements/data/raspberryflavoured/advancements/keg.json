@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:harvest_honey",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "brewinandchewin:keg"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Craft and place down a keg to make alcoholic beverages with unique effects and some other fun foods - keep in mind that some recipes require the keg to be surrounded by hot blocks like magma or cold blocks like ice!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "brewinandchewin:keg"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Ninety-Nine Bottles"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

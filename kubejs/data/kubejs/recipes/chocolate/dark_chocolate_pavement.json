@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_confectionery:black_chocolate_bricks"
+  },
+  "result": "kubejs:dark_chocolate_pavement",
+  "count": 1
+}

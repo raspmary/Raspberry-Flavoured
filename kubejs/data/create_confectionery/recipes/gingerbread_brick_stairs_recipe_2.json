@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "kubejs:gingerbread_bricks"
+  },
+  "result": "create_confectionery:gingerbread_brick_stairs"
+}

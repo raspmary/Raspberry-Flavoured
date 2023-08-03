@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "kubejs:dark_chocolate_pavement"
+  },
+  "result": "kubejs:dark_chocolate_tiles",
+  "count": 1
+}

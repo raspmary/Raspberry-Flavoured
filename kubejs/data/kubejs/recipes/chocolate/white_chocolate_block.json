@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "kubejs:bar_of_white_chocolate"
+        }
+    },
+    "result": {
+        "item": "kubejs:white_chocolate_block",
+        "count": 1
+    }
+}

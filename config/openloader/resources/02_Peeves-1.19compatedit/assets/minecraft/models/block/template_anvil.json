@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "block/anvil",
-		"particle": "block/anvil"
+		"particle": "block/anvil_particle"
 	},
 	"elements": [
 		{

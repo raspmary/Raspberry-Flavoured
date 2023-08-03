@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:item_frame"
+    },
+    "X": {
+      "item": "minecraft:glow_ink_sac"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+	"count": 8,
+    "item": "minecraft:glow_item_frame"
+  }
+}

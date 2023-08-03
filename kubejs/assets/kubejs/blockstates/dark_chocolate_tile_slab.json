@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "kubejs:block/dark_chocolate_tile_slab" },
+        "type=top": { "model": "kubejs:block/dark_chocolate_tile_slab_top" },
+        "type=double": { "model": "kubejs:block/dark_chocolate_tiles" }
+    }
+}

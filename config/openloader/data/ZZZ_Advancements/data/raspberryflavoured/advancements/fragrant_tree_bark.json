@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:tree_bark",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:fragrant_tree_bark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Strip one of a few special kinds of wood logs on a cutting board to obtain fragrant tree bark, the purest source of cinnamon"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:fragrant_tree_bark"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Smells Nice"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

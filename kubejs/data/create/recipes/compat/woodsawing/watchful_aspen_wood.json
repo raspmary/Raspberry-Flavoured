@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "atmospheric:watchful_aspen_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "atmospheric:stripped_aspen_wood"
+    }
+  ]
+}

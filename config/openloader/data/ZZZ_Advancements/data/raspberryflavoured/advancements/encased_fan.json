@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:mech_mixer",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:encased_fan"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down an encased fan to pull and push entities or process materials by blowing fire or water"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:encased_fan"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "I'm A True Fan"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

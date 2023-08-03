@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:tech_root",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Crush cinnabar with a hammer on a cutting board or through the use of a millstone to obtain redstone dust"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Red Power"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

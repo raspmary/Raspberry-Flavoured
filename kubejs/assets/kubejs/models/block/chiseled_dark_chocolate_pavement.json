@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "kubejs:block/chiseled_dark_chocolate_pavement"
+    }
+}

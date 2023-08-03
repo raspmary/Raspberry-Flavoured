@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:brass",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:deployer"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down a deployer to do your otherwise manual work automatically - it can cut stuff on a cutting board, polish stuff with sand paper, shear wool off of sheep... and it'll do it much faster, provided it has enough power!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:deployer"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Deploy This!"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "kubejs:block/white_chocolate_tiles",
+        "top": "kubejs:block/white_chocolate_tiles",
+        "side": "kubejs:block/white_chocolate_tiles"
+    }
+}

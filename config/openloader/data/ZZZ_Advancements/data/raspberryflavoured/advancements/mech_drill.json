@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:mech_saw",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_drill"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down a mechanical drill to start mining blocks automatically - time to invest in a giant tunnel bore!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:mechanical_drill"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "This IS a Drill"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:white_chocolate_block"
+    }
+  ],
+  "result": {
+    "item": "kubejs:bar_of_white_chocolate",
+    "count": 9
+  }
+}

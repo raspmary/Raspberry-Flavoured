@@ -23,7 +23,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Smelt any raw metal to refine it and obtain it in ingot form"
+      "text": "Smelt any raw metal to refine it into its ingot form"
     },
     "frame": "task",
     "hidden": false,

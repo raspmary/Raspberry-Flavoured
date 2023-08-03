@@ -9,7 +9,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#CE3131",
+      "color": "#C44E00",
       "text": "Use a cutting board to cut ingredients for efficient resource usage and/or salvage materials from unwanted items using various tools"
     },
     "frame": "task",

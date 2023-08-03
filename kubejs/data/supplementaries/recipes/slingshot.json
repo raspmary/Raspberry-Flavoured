@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "323",
+    "1 1",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:rods/wooden"
+    },
+    "2": {
+      "tag": "minecraft:leather_cuts"
+    },
+    "3": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "supplementaries:slingshot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "slingshot"
+    }
+  ]
+}

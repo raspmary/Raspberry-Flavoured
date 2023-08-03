@@ -2,7 +2,6 @@
   "replace": true,
   "values": [
     "minecraft:milk_bucket",
-	"neapolitan:milk_bottle",
-	"miners_delight:milk_cup"
+	"neapolitan:milk_bottle"
   ]
 }

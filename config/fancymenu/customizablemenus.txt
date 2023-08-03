@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
 }
 
@@ -13,5 +10,8 @@ net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
 net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 

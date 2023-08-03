@@ -1,31 +1,171 @@
 {
   "criteria": {
     "0": {
-      "conditions": {},
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass",
+			  "minecraft:clock",
+			  "minecraft:spyglass",
+			  "minecraft:stone_pickaxe",
+			  "minecraft:wooden_pickaxe"
+            ]
+          }
+        ]
+      },
       "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"2": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_desert"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"3": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_jungle"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"4": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_mountain"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"5": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_nether"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"6": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_ocean"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"7": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_swamp"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"8": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "repurposed_structures:ruined_portal_end"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   },
   "display": {
     "announce_to_chat": false,
-    "background": "clayworks:textures/block/red_terracotta_bricks.png",
+    "background": "supplementaries:textures/blocks/stone_tiles.png",
     "description": {
       "color": "#CE3131",
-      "text": "Give in to your primal instincts!"
+      "text": "Explore, sightsee and gather resources!"
     },
     "frame": "task",
-    "hidden": false,
+    "hidden": true,
     "icon": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:spyglass"
     },
     "show_toast": false,
     "title": {
       "color": "#CE3131",
-      "text": "Hunting and Gathering"
+      "text": "Exploration & Discovery"
     }
   },
   "requirements": [
     [
-      "0"
+      "0", "1", "2", "3", "4", "5", "6", "7", "8"
     ]
   ]
 }

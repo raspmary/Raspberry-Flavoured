@@ -1,0 +1,58 @@
+{
+  "parent": "raspberryflavoured:blaze_rod",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:stronghold"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"1": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "betterstrongholds:stronghold"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Make, throw and follow some Eyes of Ender to find a stronghold"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Eye Spy"
+    }
+  },
+  "requirements": [
+    [
+      "0", "1"
+    ]
+  ]
+}

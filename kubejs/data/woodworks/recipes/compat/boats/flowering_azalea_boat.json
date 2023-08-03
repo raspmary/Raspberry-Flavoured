@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "tag": "ecologics:flowering_azalea_logs"
+  },
+  "result": "ecologics:flowering_azalea_boat"
+}

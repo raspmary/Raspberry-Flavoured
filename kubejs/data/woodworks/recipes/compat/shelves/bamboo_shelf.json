@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "quark:bamboo_planks"
+  },
+  "result": "everycomp:af/quark/bamboo_shelf"
+}

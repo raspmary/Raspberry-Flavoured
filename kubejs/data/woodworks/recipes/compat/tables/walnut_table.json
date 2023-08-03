@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "ecologics:walnut_planks"
+  },
+  "result": "everycomp:af/ecologics/walnut_table"
+}

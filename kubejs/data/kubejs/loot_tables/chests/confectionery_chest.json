@@ -139,22 +139,6 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "kubejs:ruby_chocolate_glazed_marshmallow",
-          "weight": 3
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 3.0,
                 "min": 2.0
               },
@@ -210,22 +194,6 @@
             }
           ],
           "name": "kubejs:bar_of_black_chocolate",
-          "weight": 6
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "kubejs:bar_of_ruby_chocolate",
           "weight": 6
         },
 		{

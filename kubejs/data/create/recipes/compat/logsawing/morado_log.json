@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "atmospheric:morado_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "atmospheric:stripped_morado_log"
+    }
+  ]
+}

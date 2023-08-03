@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:redstone",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "supplementaries:cog_block"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down some cog blocks for a much more compact way of conducting redstone power vertically"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:cog_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cog Blocked"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

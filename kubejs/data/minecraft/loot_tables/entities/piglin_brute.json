@@ -9,13 +9,6 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap"
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.75,
-          "looting_multiplier": 0.25
-        }
       ]
     }
   ]

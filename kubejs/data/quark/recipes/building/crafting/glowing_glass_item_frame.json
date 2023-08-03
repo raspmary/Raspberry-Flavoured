@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "quark:glass_item_frame"
+    },
+    "X": {
+      "item": "minecraft:glow_ink_sac"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+	"count": 8,
+    "item": "quark:glowing_glass_item_frame"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "glass_item_frame"
+    }
+  ]
+}

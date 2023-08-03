@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:water_wheel",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:windmill_bearing"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down a windmill bearing to start preparing a windmill as a powerful and even more aesthetically pleasing rotational power source"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:windmill_bearing"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Aerodynamics"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

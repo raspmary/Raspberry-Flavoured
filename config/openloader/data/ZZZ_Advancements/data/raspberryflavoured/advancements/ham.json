@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:knife",
+  "parent": "raspberryflavoured:straw",
   "criteria": {
     "ham": {
       "conditions": {
@@ -29,7 +29,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#CE3131",
+      "color": "#C44E00",
       "text": "Get the killing blow on a pig or a hoglin with a knife to obtain ham"
     },
     "frame": "task",

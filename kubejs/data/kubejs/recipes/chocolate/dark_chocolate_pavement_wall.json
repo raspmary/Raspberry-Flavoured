@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kubejs:dark_chocolate_pavement"
+    }
+  },
+  "result": {
+    "item": "kubejs:dark_chocolate_pavement_wall",
+    "count": 6
+  }
+}

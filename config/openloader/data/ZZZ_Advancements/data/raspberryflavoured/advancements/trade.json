@@ -1,0 +1,30 @@
+{
+  "parent": "raspberryflavoured:village",
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Make a trade with a villager or wandering trader"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A Steal of a Deal"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

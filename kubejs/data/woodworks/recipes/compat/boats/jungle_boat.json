@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "tag": "minecraft:jungle_logs"
+  },
+  "result": "minecraft:jungle_boat"
+}

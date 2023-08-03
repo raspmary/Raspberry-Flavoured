@@ -142,9 +142,9 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on %servername% with %players% players"
+	description = "Playing on a server"
 	#The second line of text under the app name
-	state = "Playing in: %savename%"
+	state = "With some friends, probably"
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["rflogodcbig"]
 	#The text that gets displayed when the large image is hovered
@@ -163,9 +163,9 @@
 	#Enable/Disable the Realms Game Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on %realmname%"
+	description = "Playing on a Realm"
 	#The second line of text under the app name
-	state = "Playing in: %savename%"
+	state = "With some friends, probably"
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["rflogodcbig"]
 	#The text that gets displayed when the large image is hovered

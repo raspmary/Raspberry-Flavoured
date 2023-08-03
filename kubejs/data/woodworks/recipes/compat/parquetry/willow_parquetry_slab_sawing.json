@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 2,
+  "ingredient": {
+    "item": "everycomp:ap/environmental/willow_boards"
+  },
+  "result": "everycomp:ap/environmental/willow_board_slab"
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BB",
+        "BB"
+    ],
+    "key": {
+        "B": {
+            "item": "kubejs:white_chocolate_pavement"
+        }
+    },
+    "result": {
+        "item": "kubejs:white_chocolate_tiles",
+        "count": 4
+    }
+}

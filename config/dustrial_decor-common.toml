@@ -3,7 +3,7 @@
 	#Should mobs spawn with cardboard armor?
 	cardboard_armor_spawns = false
 	#Should a few houses using this mod's blocks be added to the village pools?
-	village_houses = true
+	village_houses = false
 	#Add this mod's items to loot tables? (such as dungeon chests)
-	loot_table_modification = true
+	loot_table_modification = false
 

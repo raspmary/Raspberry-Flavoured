@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:bed",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bedspreads:decorated_bed"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Decorate your bed using a banner to look cool and to prevent the bed from only dropping a bedroll when destroyed"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "bedspreads:decorated_bed",
+      "nbt": "{BlockEntityTag: {BannerStack: {id: \"minecraft:lime_banner\", Count: 1b, tag: {BlockEntityTag: {Patterns: [{Pattern: \"cre\", Color: 15}], id: \"minecraft:banner\"}}}, BedStack: {id: \"minecraft:white_bed\", Count:1b}}}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Sleeping With Style"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "raspberryflavoured:smithing_table",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "additionaladditions:rose_gold_helmet",
+			  "additionaladditions:rose_gold_chestplate",
+			  "additionaladditions:rose_gold_leggings",
+			  "additionaladditions:rose_gold_boots",
+			  "additionaladditions:rose_gold_pickaxe",
+			  "additionaladditions:rose_gold_shovel",
+			  "additionaladditions:rose_gold_axe",
+			  "additionaladditions:rose_gold_hoe",
+			  "additionaladditions:rose_gold_sword",
+			  "kubejs:rose_gold_knife"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Make rose gold alloy out of copper & gold and use it in a smithing table to upgrade any of your iron equipment"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "additionaladditions:rose_gold_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A Rose Full of Gold"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

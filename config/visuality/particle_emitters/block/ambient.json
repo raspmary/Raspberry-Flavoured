@@ -4,22 +4,6 @@
   "entries": [
     {
       "block": [
-        "minecraft:gold_ore",
-        "minecraft:deepslate_gold_ore",
-        "minecraft:nether_gold_ore",
-		"lucky:raspberry_lucky_block"
-      ],
-      "particle": {
-        "type": "visuality:sparkle",
-        "value": [
-          0.99607843,
-          1.0,
-          0.7411765
-        ]
-      }
-    },
-    {
-      "block": [
         "minecraft:diamond_block",
         "minecraft:deepslate_diamond_ore"
       ],
@@ -68,21 +52,17 @@
     {
       "block": [
         "spelunkery:rock_salt_block",
-		"spelunkery:rock_salt",
+        "spelunkery:rock_salt",
         "supplementaries:soap_block"
       ],
       "particle": "buzzier_bees:small_soul_fire_flame"
     },
     {
-      "block": [
-        "minecraft:fire"
-      ],
+      "block": "minecraft:fire",
       "particle": "minecraft:flame"
     },
     {
-      "block": [
-        "minecraft:soul_fire"
-      ],
+      "block": "minecraft:soul_fire",
       "particle": "minecraft:soul_fire_flame"
     }
   ]

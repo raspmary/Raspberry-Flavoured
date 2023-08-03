@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:silver",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Obtain electrum ingots - you may need a heated mixer for this one..."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "oreganized:electrum_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Electromagnetic"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

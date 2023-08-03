@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "environmental:stripped_willow_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "environmental:willow_planks",
+	  "count": 6
+    }
+  ]
+}

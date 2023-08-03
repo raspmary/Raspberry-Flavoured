@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+		{
+            "item": "kubejs:oats"
+        },
+		{
+            "item": "neapolitan:banana"
+        },
+		{
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "item": "kubejs:oat_bar"
+    }
+}

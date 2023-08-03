@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:copper_ingot"
+    },
+    "addition": {
+        "item": "minecraft:amethyst_shard"
+    },
+    "result": {
+        "item": "minecraft:spyglass"
+    }
+}

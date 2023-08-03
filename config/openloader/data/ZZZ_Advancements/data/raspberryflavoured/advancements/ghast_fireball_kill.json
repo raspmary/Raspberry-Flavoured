@@ -1,0 +1,49 @@
+{
+  "parent": "raspberryflavoured:nether",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:fireball"
+          },
+          "is_projectile": true
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Kill a Ghast by sending its fireball back at it"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Return to Sender"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

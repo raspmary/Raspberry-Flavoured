@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:cinnabar",
+              "spelunkery:rough_cinnabar",
+              "minecraft:redstone",
+              "minecraft:andesite",
+              "create:zinc_ingot",
+              "create:zinc_nugget",
+              "minecraft:raw_iron",
+              "minecraft:cobblestone",
+              "minecraft:cobbled_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "create:textures/block/palettes/stone_types/brick/granite_cut_brick.png",
+    "description": {
+      "color": "#DBA213",
+      "text": "The age of machinery is upon us!"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "supplementaries:wrench"
+    },
+    "show_toast": false,
+    "title": {
+      "color": "#DBA213",
+      "text": "Machines & Contraptions"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

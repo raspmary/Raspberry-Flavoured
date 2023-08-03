@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:cutting_board",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:tree_bark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Strip any wood log on a cutting board to obtain tree bark"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:tree_bark"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "All Bark and No Bite"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

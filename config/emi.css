@@ -9,12 +9,12 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: true;
+	cheat-mode: false;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
-	help-level: normal;
+	help-level: none;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -36,7 +36,7 @@
 	/**
 	 * Which action should be performed when clicking the recipe book.
 	 */
-	recipe-book-action: toggle-craftables;
+	recipe-book-action: default;
 
 	/**
 	 * Where to display status effects in the inventory.
@@ -110,7 +110,7 @@
 	/**
 	 * Display cost per batch when hovering a recipe output
 	 */
-	show-cost-per-batch: true;
+	show-cost-per-batch: false;
 
 	/**
 	 * Whether recipes should have a button to set as default.
@@ -432,7 +432,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: true;
+	show-recipe-ids: false;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

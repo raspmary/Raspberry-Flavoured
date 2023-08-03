@@ -34,7 +34,7 @@
 		},
 		{
 			"item": "ceramicshears:ceramic_shears",
-			"text": "Rudimentary shears made out of ceramic bricks. Can be upgraded with iron. Shears will allow you to gather wool from sheep, as they won't yield any when killed."
+			"text": "Rudimentary shears made out of copper. Can be upgraded with iron. Shears will allow you to gather wool from sheep, as they won't yield any when killed."
 		},
 		{
 			"item": "minecraft:shears",
@@ -229,18 +229,6 @@
 			"text": "Animal crates are sold by various villagers and can be placed down to get a baby animal. Hoglet crates are obtained by haunting a regular piglet crate with soul fire."
 		},
 		{
-			"item": "buzzier_bees:honey_apple",
-			"text": "An apple glazed with some sweet, tasty honey. When eaten, it will remove the Levitation effect if you happen to have it."
-		},
-		{
-			"item": "buzzier_bees:honey_bread",
-			"text": "A loaf of bread filled with some sweet, scrumptious honey. When eaten, it will remove the Bad Omen effect if you happen to have it."
-		},
-		{
-			"item": "buzzier_bees:glazed_porkchop",
-			"text": "A cooked porkchop glazed with some sweet, flavourful honey. When eaten, it will remove the Fatigue effect if you happen to have it."
-		},
-		{
 			"item": ["environmental:truffle","environmental:buried_truffle"],
 			"text": "After feeding a pig a golden carrot, it will lead you to some buried truffle, which you can dig to obtain... well, truffles. Truffles, along with foods made with them, will grant you the Health Boost effect, temporarily increasing your maximum health."
 		},
@@ -282,7 +270,7 @@
 		},
 		{
 			"item": ["minecraft:netherite_scrap","minecraft:netherite_ingot","oreganized:netherite_nugget","minecraft:netherite_block"],
-			"text": "Netherite is an extraordinarily powerful metal made from alloying netherite scraps together with gold. It's used to make the strongest, most durable tools and armour in the game. Netherite and tools/armour made with it are impervious to fire and lava."
+			"text": "Netherite is an extraordinarily powerful metal made from alloying netherite scraps together with gold. It's used to make the strongest, most durable tools and armour in the game. Netherite and tools/armour made with it are impervious to fire and lava. Piglin brutes also often drop netherite scrap."
 		},
 		{
 			"item": ["#forge:ores/zinc","create:raw_zinc","create:raw_zinc_block","create:zinc_ingot","create:zinc_block","spelunkery:raw_zinc_nugget","create:zinc_nugget"],
@@ -323,6 +311,14 @@
 		{
 			"item": ["crittersandcompanions:clam","crittersandcompanions:pearl"],
 			"text": "Clams can be found by fishing or dropped by a Drowned. Otters will crack open the clams for you, with a small chance of finding a pearl inside. Pearls can be used to craft a pearl necklace that grants various aquatic buffs when in your inventory."
+		},
+		{
+			"item": "bigbrain:buckler",
+			"text": "Bucklers can be rarely found in Nether bastions, either in chests or dropped by piglin brutes. Holding R-Click with a buckler in hand will cause you to charge forward for a short while. During the charge, you won't be able to turn or jump, but colliding with an entity during the charge will knock it back and deal some damage. Additionally, after a collision, you're granted a critical melee strike that only lasts for one swing - make sure you don't miss!"
+		},
+		{
+			"item": ["farmersdelight:roast_chicken_block","farmersdelight:stuffed_pumpkin_block","farmersdelight:honey_glazed_ham_block","farmersdelight:shepherds_pie_block","farmersdelight:rice_roll_medley_block","culturaldelights:exotic_roll_medley","nethersdelight:stuffed_hoglin","brewinandchewin:fiery_fondue_pot","kubejs:eggplant_parmesan_block","endersdelight:stuffed_shulker"],
+			"text": "These foods are all feasts - you can place them down and then take portions out of them, typically with bowls."
 		}
 	]
 }

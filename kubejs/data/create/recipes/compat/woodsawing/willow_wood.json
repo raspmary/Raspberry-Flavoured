@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "environmental:willow_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "environmental:stripped_willow_wood"
+    }
+  ]
+}

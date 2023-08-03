@@ -1,0 +1,16 @@
+{
+  "item.bigbrain.buckler.desc.charge": "",
+  "item.bigbrain.buckler.desc.while": "",
+  "item.bigbrain.buckler.desc.forward": "",
+  "item.bigbrain.buckler.desc.speed": "",
+  "item.bigbrain.buckler.desc.bash": "",
+  "item.bigbrain.buckler.desc.explosion": "",
+  "item.bigbrain.buckler.desc.knockback": "",
+  "item.bigbrain.buckler.desc.critical": "",
+  "item.bigbrain.buckler.desc.critSwing": "",
+  "item.bigbrain.buckler.desc.turnSpeed": "",
+  "item.bigbrain.buckler.desc.noJumping": "",
+  "item.bigbrain.buckler.desc.water": "",
+  "enchantment.bigbrain.bang": "Crash Dash",
+  "enchantment.bigbrain.turning.desc": "Allows full turn control while charging, at the cost of the buckler losing its shield bash ability."
+}

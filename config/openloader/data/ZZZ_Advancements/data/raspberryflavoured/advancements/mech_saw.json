@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:steel",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_saw"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down a mechanical saw to cut blocks up or use it to chop down trees in one fell swoop - sawing andesite alloys is the most resource efficient way to make shafts!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:mechanical_saw"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "I Came, I Saw"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

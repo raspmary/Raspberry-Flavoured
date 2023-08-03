@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:compass"
+    },
+    "addition": {
+        "item": "minecraft:echo_shard"
+    },
+    "result": {
+        "item": "minecraft:recovery_compass"
+    }
+}

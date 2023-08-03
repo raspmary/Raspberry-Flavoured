@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:precision_mechanism",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_arm"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down mechanical arms to more precisely move items between containers and workstations"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:mechanical_arm"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Need A Hand?"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

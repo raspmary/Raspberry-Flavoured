@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 4,
+  "ingredient": {
+    "tag": "quark:ancient_logs"
+  },
+  "result": "everycomp:af/quark/ancient_table"
+}

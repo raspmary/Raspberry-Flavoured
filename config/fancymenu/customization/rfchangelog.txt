@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = rfchangelog
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = RF 2.0.0 PUBLIC BETA HOTFIX%n%%n%- updated every compat so loot tables for certain blocks wouldn't not work%n%- added e4mc, so you can host a LAN world and anyone from around the globe can join your world!%n%- removed nephrite%n%- new campfire kindling sprites (by jamiscus) and new prickly pear sprites (by nive)%n%- a couple new advancements and some minor advancement changes%n%- other very small fixes%n%%n%RF 2.0.0 PUBLIC BETA CHANGELOG%n%%n%added/removed mods:%n%- added toast control, GUI compass, GUI clock, jumpy boats, dynamic crosshair, raised, create enchantment %n%industry, naturalist, panorama screens, spyglass improvements, useful spyglass, bedspreads, beds don't explode%n%- removed structory, yung's bridges, rubidium extra, serene seasons, armour statues, straw statues, %n%xaero's minimap, xaero's world map, jade, miner's delight, boatload, respawning shulkers, baby fat :(%n%%n%added resource packs:%n%- added farcr's re-crafted, up to scratch, quark vanilla resource overrides, %n%better mob models, bagels animal tweaks %n%%n%changes:%n%- added a bunch of new advancements, completing the main basic progression advancement tree%n%- zinc & related blocks can now be mined with copper pickaxes%n%- ceramic shears have been replaced with copper shears%n%- replaced regular fire strikers in ruined portal loot with crude fire strikers%n%- bucklers have been re-enabled%n%- rose gold knives are now repaired with copper ingots as intended%n%- netherite ingots now require a super-heated mixer to make%n%- ravagers will now drop raw silver%n%- piglin brutes will now ALWAYS drop 1 netherite scrap%n%- quark's additional chests (nether brick, purpur, prismarine, and its own wood types) are now available to craft%n%- new foods/drinks have been added: preserved skewer, trail mix, clam chowder, oat bar, prickly pear tart, %n%cactus juice, buzzing bourbon, prickly gin, draconic whisky%n%- new building blocks for white & dark chocolate have been added%n%- fluid/bucket forms for flaxen cheese and scarlet cheese have been added%n%- ruby chocolate has been removed%n%- glistering melons can now be consumed%n%- golden carrots can now always be consumed regardless of hunger bar being full%n%- marshmellow sandwiches now grant the comfort effect%n%- all of the tarts' hunger/saturation values have been tweaked and all of them will now grant the comfort effect%n%- passionfruit tarts are now consistent with the other tarts%n%- all ice cream now gives the chilled effect instead of the slowness effect%n%- changed the mixing recipes for hot cocoa and hot chocolate%n%- various other foods have been tweaked%n%- gingerbread men (the mob) have been removed%n%- suspicious stews can no longer be crafted, requiring the use of brown mooshrooms%n%- wooden rail recipe now outputs 16 rails%n%- TNT recipe now outputs 8 TNT%n%- rough cinnabar can now be crushed into redstone dust%n%- painting, item frame, compass, clock and spyglass recipes have been tweaked%n%- boats, parquetry, railings, chairs, shelves, tables, shutters, benches and hollow logs can all be made in a sawmill for all wood types%n%- lapis & redstone ores have been renamed to lazurite & cinnabar ores respectively%n%- create's striated ores now only spawn at/under deepslate level%n%- made auditory compat for brick & stone brick type blocks%n%- a bunch of dustrial decor's items/blocks have been disabled%n%- various tom's simple storage items/blocks have been disabled, however the ones remaining have received %n%small tweaks to make them feel more create-styled%n%- some of the structures from repurposed structures have been disabled%n%- shibas have been disabled%n%- slightly modified the grass block texture%n%- new flax seeds texture by bagels
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 31
+  width = 583
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0753e5b4-7a02-4d4e-8877-037b5dfb73041690066138901
+  y = 30
+  alignment = left
+  height = 237
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = 218
+  width = 204
+  action = addbutton
+  actionid = 6d5a4aa0-6dcc-4ede-a838-09c3de7a27731690067224501
+  y = 290
+  label = Done
+  height = 20
+}
+

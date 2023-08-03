@@ -1,0 +1,31 @@
+{
+  "parent": "raspberryflavoured:obsidian",
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:brewed_potion"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Using a brewing stand, brew any kind of potion"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:potion",
+	  "nbt": "{Potion: \"minecraft:healing\"}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Bewitchment"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "x": {
-      "item": "dustrial_decor:sheet_metal"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "xx",
-    "xx"
+    "x x",
+    "x x",
+    "x x"
   ],
   "result": {
     "count": 12,

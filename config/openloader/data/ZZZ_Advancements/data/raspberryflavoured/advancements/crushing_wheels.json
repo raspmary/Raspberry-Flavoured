@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:mech_crafter",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:crushing_wheel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Using mechanical crafters, craft a pair of crushing wheels - they're much stronger than millstones, but harder to set up and power sufficiently!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "create:crushing_wheel"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A Pair of Giants"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

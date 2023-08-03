@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:iron_pick",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:raw_silver"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Obtain raw silver"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "oreganized:raw_silver"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Silver Lining"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

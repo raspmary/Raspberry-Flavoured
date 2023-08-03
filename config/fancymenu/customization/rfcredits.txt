@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = rfcredits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = RASPBERRY FLAVOURED TEAM CREDITS:%n%%n%QinomeD - helping me figure out what the hell I'm doing with KubeJS, making the KubeJS Delight addon upon my %n%request and helping out with other technicalities%n%Chad - brainstorming tons of ideas, managing the Discord server and being emotional support (and holding the%n%record for most amount of hours played straight for the pack at 11 hours non-stop)%n%Nive - being our main texture artist and making loads of textures for both new and existing items %n%and/or blocks%n%%n%CONTRIBUTOR CREDITS:%n%%n%DoltHHaven/Shyguymack - lending his Upgrade Aquatic Coralstone datapack and Presence Footsteps config %n%file, and updating Dolt Compat to not require Good Ending upon request%n%culling - making a compatibility datapack for all the wood types in the pack to work with Woodworks' sawmill %n%and Farmer's Delight's cutting board%n%WaterOre - creating an audit of sorts of all the food items in the pack to help with and give feedback for %n%balancing, and also making datapacks for more convenient dye recipes and adding dyeing recipes for %n%some of the Another Furniture blocks%n%MythrilBagels - making the chocolate bar, wild corn, flax seeds and smithing table hammer sprites (and being %n%the first person ever to livestream the pack on Twitch!)%n%Jamiscus - making the campfire kindling textures%n%Pouffy - making the strawberry banana smoothie texture%n%%n%RESOURCE PACK/DATAPACK CREDITS:%n%%n%The following resource packs/datapacks have been modified to fit the modpack, however neither I nor any %n%of the RF team members claim them as our own work. Please support the original authors.%n%%n%Team VanillaTweaks - VanillaTweaks resource pack%n%hatsondogs - Peeves resource pack%n%vectorwing - Detail Brush, Refined Armor and Soft Weather resource packs%n%EndRage - Tom's Create Storage resource pack and datapack%n%spydnel - Created & Updated resource pack%n%redmatazz - 3D Tankards resource pack%n%Reijvi - Torches Reimagined resource pack%n%Kayladillo - Better Create Palettes resource pack%n%Wooferscoots - Vex Backport resource pack%n%Farcr - Farcr's Re-Crafted resource pack%n%Paradiscal - Up to Scratch resource pack%n%Feranogame - Quark Vanilla Resource Overrides resource pack%n%joosh_7889 - Better Mob Models resource pack%n%MythrilBagels - Bagels' Animal Tweaks resource pack%n%telepathicgrunt - all of the Repurposed Structures Compatibility datapacks%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 31
+  width = 597
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 561e0002-8488-49b8-942e-67ee2e818b221690065456718
+  y = 30
+  alignment = left
+  height = 246
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = 219
+  width = 204
+  action = addbutton
+  actionid = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
+  y = 290
+  label = Done
+  height = 20
+}
+

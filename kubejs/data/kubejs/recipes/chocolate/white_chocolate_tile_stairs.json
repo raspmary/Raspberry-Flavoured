@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kubejs:white_chocolate_tiles"
+    }
+  },
+  "result": {
+    "item": "kubejs:white_chocolate_tile_stairs",
+    "count": 4
+  }
+}

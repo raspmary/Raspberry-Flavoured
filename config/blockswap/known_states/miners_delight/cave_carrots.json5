@@ -10,26 +10,5 @@ to make editing this file much easier.
 [
 	{
 		"Name": "miners_delight:cave_carrots"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "1"
-		},
-		"Name": "miners_delight:cave_carrots"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "2"
-		},
-		"Name": "miners_delight:cave_carrots"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"age": "3"
-		},
-		"Name": "miners_delight:cave_carrots"
 	}
 ]

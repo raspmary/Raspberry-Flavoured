@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "environmental:wisteria_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "environmental:stripped_wisteria_wood"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:bundle",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:sack"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Craft a sack to carry more items - just make sure not to carry too many sacks..."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:sack"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hit the Sack"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

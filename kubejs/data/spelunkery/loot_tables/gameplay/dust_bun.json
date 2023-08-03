@@ -48,11 +48,6 @@
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:carrot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "miners_delight:cave_carrot"
         }
       ]
     }

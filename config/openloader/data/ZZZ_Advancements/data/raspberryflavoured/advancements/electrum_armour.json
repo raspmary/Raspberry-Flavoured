@@ -1,0 +1,84 @@
+{
+  "parent": "raspberryflavoured:diamond_armour",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Make a full set of electrum armour - you'll need to have visited another dimension to have access to electrum..."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "oreganized:electrum_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hermes' Gift"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+      "1"
+    ],
+	[
+      "2"
+    ],
+	[
+      "3"
+    ]
+  ]
+}

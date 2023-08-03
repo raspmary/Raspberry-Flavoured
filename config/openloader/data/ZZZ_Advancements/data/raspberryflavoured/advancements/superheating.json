@@ -1,0 +1,46 @@
+{
+  "parent": "raspberryflavoured:blaze_burner",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "create:blaze_cake"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "create:blaze_burner"
+            ],
+            "state": {
+              "blaze": "seething"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Feed a Blaze Cake to a Blaze Burner to super-heat it"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "create:blaze_cake"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Fiery Passion"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

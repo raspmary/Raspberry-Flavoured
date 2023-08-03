@@ -1,0 +1,47 @@
+{
+  "parent": "raspberryflavoured:campfire",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass_bottle",
+            "minecraft:shears",
+            "ceramicshears:ceramic_shears",
+            "alloyed:steel_shears",
+            "ecologics:crab_claw"
+          ]
+        },
+        "location": {
+          "block": {
+            "tag": "minecraft:beehives"
+          },
+          "smokey": true
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Light a campfire under a bee nest or hive and then safely harvest the honey with a bottle or some honeycombs with shears"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bee_nest"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Just Bee Kind"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}
+    

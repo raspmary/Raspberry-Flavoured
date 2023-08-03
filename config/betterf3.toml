@@ -74,10 +74,10 @@
 	enabled = true
 
 	[modules_left.lines]
-		player_coords = true
-		block_coords = true
-		chunk_relative_coords = true
-		chunk_coords = true
+		player_coords = false
+		block_coords = false
+		chunk_relative_coords = false
+		chunk_coords = false
 
 [[modules_left]]
 	name = "chunks"
@@ -108,7 +108,7 @@
 	enabled = true
 
 	[modules_left.lines]
-		dimension = false
+		dimension = true
 		facing = false
 		rotation = false
 		light = true

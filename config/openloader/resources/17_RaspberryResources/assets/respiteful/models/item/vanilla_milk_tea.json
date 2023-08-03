@@ -1,0 +1,6 @@
+{
+  "parent": "farmersdelight:item/mug",
+  "textures": {
+    "layer0": "respiteful:item/vanilla_milk_tea"
+  }
+}

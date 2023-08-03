@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 2,
+  "ingredient": {
+    "tag": "abundant_atmosphere:ash_logs"
+  },
+  "result": "supplementaries:abundant_atmosphere/sign_post_ash"
+}

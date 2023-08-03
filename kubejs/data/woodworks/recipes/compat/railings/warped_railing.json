@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:warped_planks"
+  },
+  "result": "architects_palette:warped_railing"
+}

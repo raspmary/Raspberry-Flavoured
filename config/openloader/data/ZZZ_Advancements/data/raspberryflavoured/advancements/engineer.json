@@ -1,0 +1,66 @@
+{
+  "parent": "raspberryflavoured:mech_press",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:wrench"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:goggles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "create:toolboxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Craft an engineer's wrench, a pair of engineer's goggles and a toolbox to make it easier than ever to interact with your contraptions and carry things around"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:wrench"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Meet the Engineer"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+	  "1"
+	],
+	[
+	  "2"
+	]
+  ]
+}

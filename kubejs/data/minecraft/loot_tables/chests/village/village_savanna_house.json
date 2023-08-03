@@ -41,22 +41,6 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "babyfat:water_lettuce",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 1.0,
                 "min": 1.0
               },
@@ -151,7 +135,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "miners_delight:copper_cup"
+          "name": "minecraft:bucket"
         }
       ],
       "rolls": {

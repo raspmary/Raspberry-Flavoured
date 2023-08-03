@@ -1,0 +1,70 @@
+{
+  "parent": "raspberryflavoured:raw_iron",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_helmet",
+			  "minecraft:chainmail_chestplate",
+			  "minecraft:chainmail_leggings",
+			  "minecraft:chainmail_boots",
+			  "minecraft:iron_helmet",
+			  "minecraft:iron_chestplate",
+			  "minecraft:iron_leggings",
+			  "minecraft:iron_boots",
+			  "minecraft:diamond_helmet",
+			  "minecraft:diamond_chestplate",
+			  "minecraft:diamond_leggings",
+			  "minecraft:diamond_boots",
+			  "minecraft:netherite_helmet",
+			  "minecraft:netherite_chestplate",
+			  "minecraft:netherite_leggings",
+			  "minecraft:netherite_boots",
+			  "savage_and_ravage:griefer_helmet",
+			  "savage_and_ravage:griefer_chestplate",
+			  "savage_and_ravage:griefer_leggings",
+			  "savage_and_ravage:griefer_boots",
+			  "additionaladditions:rose_gold_helmet",
+			  "additionaladditions:rose_gold_chestplate",
+			  "additionaladditions:rose_gold_leggings",
+			  "additionaladditions:rose_gold_boots",
+			  "oreganized:electrum_helmet",
+			  "oreganized:electrum_chestplate",
+			  "oreganized:electrum_leggings",
+			  "oreganized:electrum_boots",
+			  "alloyed:steel_helmet",
+			  "alloyed:steel_chestplate",
+			  "alloyed:steel_leggings",
+			  "alloyed:steel_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Craft or find at least one piece of chainmail or higher tier armour"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chainmail_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Armour Up"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 2,
+  "ingredient": {
+    "item": "everycomp:ap/abundant_atmosphere/gourdrot_boards"
+  },
+  "result": "everycomp:ap/abundant_atmosphere/gourdrot_board_slab"
+}

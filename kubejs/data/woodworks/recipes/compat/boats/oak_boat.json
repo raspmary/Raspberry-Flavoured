@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "tag": "minecraft:oak_logs"
+  },
+  "result": "minecraft:oak_boat"
+}

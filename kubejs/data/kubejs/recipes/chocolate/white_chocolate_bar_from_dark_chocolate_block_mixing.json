@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:white_chocolate_block"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "kubejs:bar_of_white_chocolate"
+    }
+  ]
+}

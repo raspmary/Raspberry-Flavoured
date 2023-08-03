@@ -1,0 +1,30 @@
+{
+  "parent": "raspberryflavoured:voluntary_exile",
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:hero_of_the_village"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Defeat a village raid and earn the gratitude of the villagers"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:emerald_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hero of the Village"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

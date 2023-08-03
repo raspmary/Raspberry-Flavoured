@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:smoker",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "farmersrespite:kettle"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Craft and place down a kettle on a heated block like a lit campfire or stove to brew various drinks with helpful effects"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersrespite:kettle"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Rural Brewery"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

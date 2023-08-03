@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluidTag": "forge:milk"
+    },
+	{
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "kubejs:butterscotch"
+    }
+  ]
+}

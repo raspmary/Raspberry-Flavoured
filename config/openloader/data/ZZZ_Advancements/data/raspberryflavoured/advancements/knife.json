@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:hunting_root",
+  "parent": "raspberryflavoured:farming_root",
   "criteria": {
     "0": {
       "conditions": {
@@ -15,7 +15,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#CE3131",
+      "color": "#C44E00",
       "text": "Craft a knife for hunting, scavenging and cooking purposes"
     },
     "frame": "task",

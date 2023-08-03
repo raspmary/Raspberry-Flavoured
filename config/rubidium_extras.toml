@@ -5,7 +5,7 @@
 	[Settings.Misc]
 		"Cloud Height [Raw, Default 256]" = 256
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
-		"Render Fog" = false
+		"Render Fog" = true
 		"Hide JEI Until Searching" = true
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
 		"Use Borderless Fullscreen" = "FULLSCREEN"

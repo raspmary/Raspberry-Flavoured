@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "tag": "forge:plates/obsidian"
+    },
+    "B": {
+      "item": "minecraft:enchanted_book"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BSB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_enchantment_industry:enchanting_guide"
+  }
+}

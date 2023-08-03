@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:scarlet_cheese_wheel"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "kubejs:scarlet_cheese"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:brass",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_crafter"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down mechanical crafters to start crafting recipes automatically - they can even craft bigger than 3x3 recipes!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:mechanical_crafter"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Craft-A-Tron"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

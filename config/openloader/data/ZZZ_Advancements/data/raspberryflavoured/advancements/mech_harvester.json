@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:mech_press",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_harvester"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down some mechanical harvesters to get started on an automatic crop farm"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:mechanical_harvester"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hay Day, Hay Day!"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

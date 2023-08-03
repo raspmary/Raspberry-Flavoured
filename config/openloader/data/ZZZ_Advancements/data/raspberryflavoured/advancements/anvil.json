@@ -1,0 +1,44 @@
+{
+  "parent": "raspberryflavoured:raw_iron",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "minecraft:anvil"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"1": {
+      "conditions": {
+        "block": "minecraft:chipped_anvil"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"2": {
+      "conditions": {
+        "block": "minecraft:damaged_anvil"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Place down an anvil to repair your tools, combine enchantments and put those enchantments on equipment through enchanted books, or transfer enchantments from equipment back to books, all at the low, low - but sometimes high - price of some experience points"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Repair, Reuse, Recycle"
+    }
+  },
+  "requirements": [
+    [
+      "0", "1", "2"
+    ]
+  ]
+}

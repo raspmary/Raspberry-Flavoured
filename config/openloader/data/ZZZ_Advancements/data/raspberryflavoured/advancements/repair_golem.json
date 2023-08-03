@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:village",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_ingot"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Repair an iron golem with an iron ingot"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Meet the Medic"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

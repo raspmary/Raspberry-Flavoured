@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.6,
+  "ingredients": [
+    {
+      "item": "crittersandcompanions:clam"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "create:wheat_flour"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "kubejs:clam_chowder"
+  }
+}

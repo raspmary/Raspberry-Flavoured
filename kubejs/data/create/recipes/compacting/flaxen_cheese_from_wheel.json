@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:flaxen_cheese_wheel"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "kubejs:flaxen_cheese"
+    }
+  ]
+}

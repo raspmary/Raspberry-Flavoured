@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 4,
+  "ingredient": {
+    "tag": "ecologics:flowering_azalea_logs"
+  },
+  "result": "everycomp:af/ecologics/flowering_azalea_chair"
+}

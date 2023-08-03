@@ -1,0 +1,13 @@
+
+V 1.0 :
+
+-wither + custom animations
+-silverfish
+-endermite
+-blaze
+
+----------------------------------------------------------------------------------------------
+
+V 1.1 :
+
+-parrots (8 parrot variations + 2 toucan)

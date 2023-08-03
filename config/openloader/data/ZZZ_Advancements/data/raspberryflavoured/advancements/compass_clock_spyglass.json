@@ -1,0 +1,70 @@
+{
+  "parent": "raspberryflavoured:smithing_table",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass",
+              "minecraft:recovery_compass",
+              "spelunkery:magnetic_compass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Craft or find a compass, clock and spyglass for more information about your location, the current time or day, and your surroundings"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Utili-Trio"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+      "1"
+    ],
+	[
+      "2"
+    ]
+  ]
+}

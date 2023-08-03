@@ -66,7 +66,7 @@
 	"Feeding Trough" = true
 	"Ender Watcher" = true
 	"Dispensers Place Blocks" = true
-	Chute = true
+	Chute = false
 	"Chains Connect Blocks" = true
 
 	[automation.pistons_move_tile_entities]
@@ -550,7 +550,7 @@
 	"Enhanced Ladders" = true
 	Emotes = true
 	"Dyeable Item Frames" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Double Door Opening" = true
 	"Coral On Cactus" = true
 	"Compasses Work Everywhere" = true
@@ -1535,8 +1535,8 @@
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true
-		"Enable Pig" = true
-		"Enable Chicken" = true
+		"Enable Pig" = false
+		"Enable Chicken" = false
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
@@ -1566,7 +1566,7 @@
 		"Food Tooltips" = false
 		"Shulker Tooltips" = false
 		"Map Tooltips" = false
-		"Enchanting Tooltips" = true
+		"Enchanting Tooltips" = false
 		"Fuel Time Tooltips" = true
 		"Shulker Box Use Colors" = true
 		"Shulker Box Require Shift" = false

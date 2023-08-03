@@ -7,13 +7,13 @@ showDebugCoordinates = false
 orderTabsAlphabetically = false
 #Values below 50% might give odd results, use on own risk ;)
 #Range: 1 ~ 100
-uiScaling = 90
+uiScaling = 100
 #Lists the criteria for partially completed advancements, e.g. the biomes required for 'Adventuring Time'
 #    Off: Vanilla default
 #    Default: List which criteria you have already obtained
 #    Spoiler: Only reveal unobtained criteria
 #    All: Show both obtained and unobtained criteria
-criteriaDetail = "Default"
+criteriaDetail = "Off"
 criteriaDetailRequiresShift = true
 addInventoryButton = true
 defaultDrawDirectLines = false

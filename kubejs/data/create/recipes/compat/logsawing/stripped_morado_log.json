@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "atmospheric:stripped_morado_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "atmospheric:morado_planks",
+	  "count": 6
+    }
+  ]
+}

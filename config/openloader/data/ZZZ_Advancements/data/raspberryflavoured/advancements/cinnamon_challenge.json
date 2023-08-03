@@ -1,0 +1,36 @@
+{
+  "parent": "raspberryflavoured:fragrant_tree_bark",
+  "criteria": {
+    "00": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:cinnamon"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Consume raw cinnamon and suffer the consequences"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "kubejs:cinnamon"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cinnamon Challenge"
+    }
+  },
+  "requirements": [
+    [
+      "00"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:plant_seed",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmental:truffle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Feed a golden carrot to a pig and have it lead you to some buried truffles"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "environmental:truffle"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Truff Luck"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

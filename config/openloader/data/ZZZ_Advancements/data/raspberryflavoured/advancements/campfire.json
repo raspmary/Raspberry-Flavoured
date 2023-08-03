@@ -50,7 +50,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Make some campfire kindling and light it with any fire striker to cook food and make bricks"
+      "text": "Make some campfire kindling and light it with any fire striker to cook food and heat up clay lumps into bricks"
     },
     "frame": "task",
     "hidden": false,

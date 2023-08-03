@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "quark:blossom_wood"
+    }
+  ],
+  "result": [
+    {
+      "item": "quark:stripped_blossom_wood",
+      "count": 1
+    },
+    {
+      "item": "farmersdelight:tree_bark",
+      "count": 1
+    },
+    {
+	  "chance": 0.4,
+      "item": "kubejs:fragrant_tree_bark"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:blaze_burner",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Mix iron and fire charges in a heated mixer to get steel"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "alloyed:steel_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Steel of a Deal"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

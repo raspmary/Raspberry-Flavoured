@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:deployer",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:track"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Through a sequenced assembly using deployers, create train tracks"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:track"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "That Tracks"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

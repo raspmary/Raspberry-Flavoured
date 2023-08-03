@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "environmental:cherry_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "environmental:stripped_cherry_log"
+    }
+  ]
+}

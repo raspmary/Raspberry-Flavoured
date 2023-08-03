@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:obsidian",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Using a diamond pickaxe, obtain ancient debris from the Nether... or find some in a piglin bastion"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ancient_debris"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Lost and Found"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

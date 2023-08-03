@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:deployer",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:precision_mechanism"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Through a sequenced assembly using deployers, create precision mechanisms"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "create:precision_mechanism"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Delicate Work"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

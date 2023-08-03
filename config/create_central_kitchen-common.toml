@@ -8,7 +8,7 @@
 	enableCuttingBoardDeploying = true
 	#.
 	#List of Block Entities that can be boosted when placed on Blaze Stove
-	boostingCookerList = ["farmersdelight:cooking_pot", "farmersdelight:skillet", "farmersrespite:kettle", "miners_delight:copper_pot"]
+	boostingCookerList = ["farmersdelight:cooking_pot", "farmersdelight:skillet", "farmersrespite:kettle"]
 
 #.
 #Config for Integration with other mods
@@ -22,4 +22,8 @@
 	#Pie items in this list will not be included in pie overhaul
 	#[@cui:RequiresReload:both]
 	pieOverhaulBlackList = []
+	#.
+	#For harvester to function properly, turning on this support will cause the collision shape of the overweight crop block to disappear.
+	#[@cui:RequiresReload:server]
+	enableHarvesterSupportForOverweightFarming = true
 

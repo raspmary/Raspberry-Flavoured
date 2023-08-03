@@ -18,7 +18,7 @@ ItemEvents.toolTierRegistry (event => {
   event.add('copper', tier => {
     tier.uses = 256
     tier.attackDamageBonus = 2.0
-    tier.speed = 6.0
+    tier.speed = 4.0
     tier.level = 1
     tier.enchantmentValue = 5
     tier.repairIngredient = 'minecraft:copper_ingot'
@@ -29,14 +29,15 @@ StartupEvents.registry('fluid', event =>
 {
     event.create('cake_batter').displayName('Cake Batter').stillTexture('kubejs:fluid/cake_batter_still').flowingTexture('kubejs:fluid/cake_batter_flow')
 	event.create('butterscotch').displayName('Butterscotch').stillTexture('kubejs:fluid/butterscotch_still').flowingTexture('kubejs:fluid/butterscotch_flow').noBucket().noBlock()
+	event.create('flaxen_cheese').displayName('Flaxen Cheese').stillTexture('kubejs:fluid/flaxen_cheese_still').flowingTexture('kubejs:fluid/flaxen_cheese_flow')
+	event.create('scarlet_cheese').displayName('Scarlet Cheese').stillTexture('kubejs:fluid/scarlet_cheese_still').flowingTexture('kubejs:fluid/scarlet_cheese_flow')
 })
 
 StartupEvents.registry('item', event => {
 	event.create('rose_gold_knife', 'knife').displayName('Rose Gold Knife').tier('rosegold').attackDamageBaseline(1.5).speedBaseline(-2.0)
 	event.create('copper_knife', 'knife').displayName('Copper Knife').tier('copper').attackDamageBaseline(0).speedBaseline(-2.0)
 	event.create('raw_ammonite').displayName('Ammonite')
-	event.create('lead_sheet').displayName('Lead Sheet')
-	event.create('crab_bucket').displayName('Bucket of Crab')
+	event.create('crab_bucket').displayName('Bucket of Crab').maxStackSize(1)
 	event.create('soul_salt').displayName('Soul Salt')
 	event.create('fragrant_tree_bark').displayName('Fragrant Tree Bark')
 	event.create('oats').displayName('Oats')
@@ -52,12 +53,6 @@ StartupEvents.registry('item', event => {
     		.saturation(0.75)
 			.effect('farmersdelight:comfort', 3000, 0, 100)
         	})
-	event.create('lettuce_leaf').displayName('Lettuce Leaf').food(food => {
-		food
-    		.hunger(1)
-    		.saturation(0)
-			.fastToEat()
-        	})
 	event.create('sugar_cookie').displayName('Sugar Cookie').food(food => {
 		food
     		.hunger(1)
@@ -69,6 +64,24 @@ StartupEvents.registry('item', event => {
     		.hunger(2)
     		.saturation(0.9)
 			.fastToEat()
+        	})
+	event.create('candy_cane').displayName('Candy Cane').rarity('uncommon').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.3)
+			.effect('neapolitan:sugar_rush', 200, 0, 100)
+			.alwaysEdible()
+			.fastToEat()
+        	})
+	event.create('caramelized_marshmellow_on_a_stick').displayName('Caramelized Marshmallows on a Stick').maxStackSize(16).food(food => {
+		food
+    		.hunger(6)
+			.saturation(0.4)
+			.effect('neapolitan:sugar_rush', 300, 0, 100)
+			.alwaysEdible()
+			.eaten(ctx => {
+        		ctx.player.giveInHand('minecraft:stick')
+        	})
         	})
 	event.create('butterscotch_cinnamon_pie_slice').displayName('Butterscotch Cinnamon Pie Slice').food(food => {
 		food
@@ -84,47 +97,41 @@ StartupEvents.registry('item', event => {
     		.saturation(0.51)
 			.effect('water_breathing', 1200, 0, 100)
         	})
+	event.create('preserved_skewer').displayName('Preserved Skewer').food(food => {
+		food
+    		.hunger(6)
+    		.saturation(0.6)
+			.effect('water_breathing', 600, 0, 100)
+        	})
 	event.create('corn_fritters').displayName('Corn Fritters').food(food => {
 		food
     		.hunger(5)
-    		.saturation(0.8)
+    		.saturation(0.7)
 			.fastToEat()
         	})
-	event.create('soulstice_sake').displayName('Soulstice Sake').maxStackSize(16).food(food => {
+	event.create('oat_bar').displayName('Oat Bar').food(food => {
 		food
-    		.effect('brewinandchewin:tipsy', 6000, 0, 100)
-			.effect('slow_falling', 3300, 0, 100)
-			.effect('upgrade_aquatic:restfulness', 1, 1, 100)
-			.alwaysEdible()
-			.eaten(ctx => {
-        		ctx.player.giveInHand('brewinandchewin:tankard')
+    		.hunger(5)
+    		.saturation(0.65)
+			.effect('neapolitan:agility', 300, 0, 100)
         	})
+	event.create('trail_mix').displayName('Trail Mix').food(food => {
+		food
+    		.hunger(3)
+    		.saturation(0.35)
+			.fastToEat()
         	})
-		.useAnimation("drink")
-		.tooltip("§cTipsy (5:00)")
-        .tooltip("§9Slow Falling (2:45)")
-		.tooltip("§9Restfulness II")
-	event.create('bone_broth_cup').displayName('Bone Broth Cup').maxStackSize(16).food(food => {
+	event.create('prickly_pear_tart').displayName('Prickly Pear Tart').food(food => {
 		food
     		.hunger(7)
-    		.saturation(0.66)
-			.effect('haste', 1800, 0, 100)
-			.effect('farmersdelight:comfort', 1200, 0, 100)
-			.eaten(ctx => {
-        		ctx.player.giveInHand('miners_delight:copper_cup')
+    		.saturation(0.5)
+			.effect('farmersdelight:comfort', 3000, 0, 100)
         	})
-        	})
-		.useAnimation("drink")
-		.tooltip("§9Comfort (1:00)")
-        .tooltip("§9Haste (1:30)")
-		.tooltip("")
-		.tooltip("§5When Applied:")
-        .tooltip("§9+10% Attack Speed")
 	event.create('butterscotch_vanilla_ice_cream').displayName('Butterscotch Vanilla Ice Cream').maxStackSize(16).food(food => {
 		food
     		.hunger(7)
     		.saturation(0.5)
-			.effect('slowness', 100, 2, 100)
+			.effect('cofh_core:chilled', 100, 0, 70)
 			.effect('farmersdelight:comfort', 900, 0, 100)
 			.effect('neapolitan:vanilla_scent', 400, 0, 100)
 			.eaten(ctx => {
@@ -167,7 +174,16 @@ StartupEvents.registry('item', event => {
         		ctx.player.giveInHand('minecraft:bowl')
         	})
         	})
-	event.create('pasta_with_turkey').displayName('Pasta with Turkey').maxStackSize(16).food(food => {
+	event.create('clam_chowder').displayName('Clam Chowder').maxStackSize(16).food(food => {
+		food
+    		.hunger(8)
+    		.saturation(0.65)
+			.effect('farmersdelight:nourishment', 3600, 0, 100)
+			.eaten(ctx => {
+        		ctx.player.giveInHand('minecraft:bowl')
+        	})
+        	})
+	event.create('pasta_with_turkey').displayName('Turkey Pasta').maxStackSize(16).food(food => {
 		food
     		.hunger(13)
     		.saturation(0.65)
@@ -214,6 +230,7 @@ StartupEvents.registry('item', event => {
 		food
     		.hunger(13)
     		.saturation(0.5)
+			.effect('cofh_core:chilled', 60, 0, 100)
 			.effect('instant_health', 1, 0, 100)
 			.effect('neapolitan:sugar_rush', 1200, 1, 100)
 			.effect('neapolitan:vanilla_scent', 1200, 0, 100)
@@ -222,10 +239,78 @@ StartupEvents.registry('item', event => {
 		food
     		.hunger(13)
     		.saturation(0.5)
+			.effect('cofh_core:chilled', 60, 0, 100)
 			.effect('respiteful:vitality', 1800, 0, 100)
 			.effect('respiteful:tenacity', 1800, 0, 100)
 			.effect('respiteful:maturity', 1800, 0, 100)
         	})
+	event.create('cactus_juice').displayName('Cactus Juice').containerItem('minecraft:glass_bottle').maxStackSize(16).food(food => {
+		food
+    		.hunger(3)
+    		.saturation(0.4)
+    		.effect('windswept:thorns', 600, 0, 100)
+			.alwaysEdible()
+			.eaten(ctx => {
+        		ctx.player.giveInHand('minecraft:glass_bottle')
+        	})
+        	})
+		.useAnimation("drink")
+	event.create('soulstice_sake').displayName('Soulstice Sake').maxStackSize(16).food(food => {
+		food
+    		.effect('brewinandchewin:tipsy', 6000, 0, 100)
+			.effect('slow_falling', 3300, 0, 100)
+			.effect('upgrade_aquatic:restfulness', 1, 1, 100)
+			.alwaysEdible()
+			.eaten(ctx => {
+        		ctx.player.giveInHand('brewinandchewin:tankard')
+        	})
+        	})
+		.useAnimation("drink")
+		.tooltip("§cTipsy (5:00)")
+        .tooltip("§9Slow Falling (2:45)")
+		.tooltip("§9Restfulness II")
+	event.create('buzzing_bourbon').displayName('Buzzing Bourbon').maxStackSize(16).food(food => {
+		food
+    		.effect('brewinandchewin:tipsy', 6000, 0, 100)
+			.effect('buzzier_bees:sunny', 9000, 0, 100)
+			.effect('upgrade_aquatic:vibing', 3600, 0, 100)
+			.alwaysEdible()
+			.eaten(ctx => {
+        		ctx.player.giveInHand('brewinandchewin:tankard')
+        	})
+        	})
+		.useAnimation("drink")
+		.tooltip("§cTipsy (5:00)")
+        .tooltip("§9Sunny (7:30)")
+		.tooltip("§9Vibing (3:00)")
+	event.create('prickly_gin').displayName('Prickly Gin').maxStackSize(16).food(food => {
+		food
+    		.effect('brewinandchewin:tipsy', 6000, 1, 100)
+			.effect('windswept:thorns', 9000, 0, 100)
+			.alwaysEdible()
+			.eaten(ctx => {
+        		ctx.player.giveInHand('brewinandchewin:tankard')
+        	})
+        	})
+		.useAnimation("drink")
+		.tooltip("§cTipsy II (5:00)")
+        .tooltip("§9Thorns (7:30)")
+	event.create('draconic_whisky').displayName('Draconic Whisky').maxStackSize(16).food(food => {
+		food
+    		.effect('brewinandchewin:tipsy', 12000, 3, 100)
+			.effect('strength', 12000, 0, 100)
+			.effect('night_vision', 9000, 0, 100)
+			.effect('endersdelight:phasing', 6000, 0, 100)
+			.alwaysEdible()
+			.eaten(ctx => {
+        		ctx.player.giveInHand('brewinandchewin:tankard')
+        	})
+        	})
+		.useAnimation("drink")
+		.tooltip("§cTipsy IV (10:00)")
+        .tooltip("§9Strength (10:00)")
+        .tooltip("§9Night Vision (7:30)")
+        .tooltip("§9Ender Phasing (5:00)")
 	
 	event.create('bar_of_black_chocolate').displayName('Bar of Dark Chocolate').food(food => {
 		food
@@ -244,6 +329,7 @@ StartupEvents.registry('item', event => {
     		.hunger(5)
     		.saturation(0.5)
 			.effect('atmospheric:persistence', 1200, 1, 100)
+			.alwaysEdible()
         	})
 	event.create('bar_of_white_chocolate').displayName('Bar of White Chocolate').food(food => {
 		food
@@ -262,24 +348,7 @@ StartupEvents.registry('item', event => {
     		.hunger(3)
     		.saturation(0.5)
 			.effect('upgrade_aquatic:restfulness', 1, 0, 100)
-        	})
-	event.create('bar_of_ruby_chocolate').displayName('Bar of Ruby Chocolate').food(food => {
-		food
-    		.hunger(5)
-    		.saturation(0.3)
-			.effect('brewinandchewin:sweet_heart', 600, 2, 100)
-        	})
-	event.create('ruby_chocolate_glazed_berries').displayName('Ruby Chocolate Berries').food(food => {
-		food
-    		.hunger(6)
-    		.saturation(0.8)
-			.effect('brewinandchewin:sweet_heart', 600, 2, 100)
-        	})
-	event.create('ruby_chocolate_glazed_marshmallow').displayName('Ruby Chocolate Marshmallows').food(food => {
-		food
-    		.hunger(4)
-    		.saturation(0.6)
-			.effect('brewinandchewin:sweet_heart', 600, 2, 100)
+			.alwaysEdible()
         	})
 	
 	event.create('incomplete_beef_burrito','create:sequenced_assembly').displayName('Incomplete Beef Burrito').food(food => {
@@ -433,10 +502,69 @@ StartupEvents.registry('item', event => {
     		.hunger(2)
     		.saturation(0.6)
         	})
+	event.create('incomplete_passionfruit_tart','create:sequenced_assembly').displayName('Incomplete Passionfruit Tart').food(food => {
+		food
+    		.hunger(1)
+    		.saturation(0.6)
+        	})
+	event.create('incomplete_prickly_pear_tart','create:sequenced_assembly').displayName('Incomplete Prickly Pear Tart').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.6)
+        	})
+	event.create('incomplete_smore','create:sequenced_assembly').displayName('Incomplete Marshmallow Sandwich').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.6)
+        	})
+	event.create('incomplete_neapolitan_ice_cream_sandwich','create:sequenced_assembly').displayName('Incomplete Neapolitan Ice Cream Sandwich').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.6)
+        	})
+	event.create('incomplete_respiteful_ice_cream_sandwich','create:sequenced_assembly').displayName('Incomplete Respiteful Ice Cream Sandwich').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.6)
+        	})
+	event.create('incomplete_marshmallow_stick','create:sequenced_assembly').displayName('Incomplete Marshmallow Stick').food(food => {
+		food
+    		.hunger(1)
+    		.saturation(0.3)
+        	})
+	event.create('incomplete_preserved_skewer','create:sequenced_assembly').displayName('Incomplete Preserved Skewer').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.3)
+        	})
 })
 
 StartupEvents.registry('block', event => {
 	event.create('wheat_flour_bag').material('wool').hardness(0.8).displayName('Bag of Flour').tagBlock('farmersdelight:mineable/knife')
+	event.create('gingerbread_block').material('stone').hardness(1).displayName('Gingerbread Block').tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
+	event.create('gingerbread_bricks').material('stone').hardness(1).displayName('Gingerbread Bricks').tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
+	
+	event.create('dark_chocolate_block').material('wood').hardness(2).displayName('Block of Dark Chocolate').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_pavement').material('wood').hardness(2).displayName('Dark Chocolate Pavement').tagBlock('minecraft:mineable/axe')
+	event.create('chiseled_dark_chocolate_pavement').material('wood').hardness(2).displayName('Chiseled Dark Chocolate Pavement').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_pavement_slab', 'slab').material('wood').hardness(2).displayName('Dark Chocolate Pavement Slab').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_pavement_stairs', 'stairs').material('wood').hardness(2).displayName('Dark Chocolate Pavement Stairs').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_pavement_wall', 'wall').material('wood').hardness(2).displayName('Dark Chocolate Pavement Wall').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_tiles').material('wood').hardness(2).displayName('Dark Chocolate Tiles').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_tile_slab', 'slab').material('wood').hardness(2).displayName('Dark Chocolate Tile Slab').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_tile_stairs', 'stairs').material('wood').hardness(2).displayName('Dark Chocolate Tile Stairs').tagBlock('minecraft:mineable/axe')
+	event.create('dark_chocolate_tile_wall', 'wall').material('wood').hardness(2).displayName('Dark Chocolate Tile Wall').tagBlock('minecraft:mineable/axe')
+	
+	event.create('white_chocolate_block').material('wood').hardness(2).displayName('Block of White Chocolate').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_pavement').material('wood').hardness(2).displayName('White Chocolate Pavement').tagBlock('minecraft:mineable/axe')
+	event.create('chiseled_white_chocolate_pavement').material('wood').hardness(2).displayName('Chiseled White Chocolate Pavement').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_pavement_slab', 'slab').material('wood').hardness(2).displayName('White Chocolate Pavement Slab').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_pavement_stairs', 'stairs').material('wood').hardness(2).displayName('White Chocolate Pavement Stairs').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_pavement_wall', 'wall').material('wood').hardness(2).displayName('White Chocolate Pavement Wall').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_tiles').material('wood').hardness(2).displayName('White Chocolate Tiles').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_tile_slab', 'slab').material('wood').hardness(2).displayName('White Chocolate Tile Slab').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_tile_stairs', 'stairs').material('wood').hardness(2).displayName('White Chocolate Tile Stairs').tagBlock('minecraft:mineable/axe')
+	event.create('white_chocolate_tile_wall', 'wall').material('wood').hardness(2).displayName('White Chocolate Tile Wall').tagBlock('minecraft:mineable/axe')
 	
 	event.create('stuffed_pumpkin_two', 'feast').servingItems('farmersdelight:stuffed_pumpkin').hasLeftovers(false).displayName('Stuffed Pumpkin 2')
 	event.create('eggplant_parmesan_block', 'feast').servingItems('kubejs:eggplant_parmesan').hasLeftovers(true).box(0, 0, 0, 16, 5, 16, true).displayName('Eggplant Parmesan')
@@ -589,6 +717,34 @@ ItemEvents.modification(event => {
 	event.modify('toms_storage:ts.tag_item_filter', item => {
         item.maxStackSize = 64
     })
+	event.modify('minecraft:spyglass', item => {
+        item.maxStackSize = 64
+    })
+	event.modify('culturaldelights:exotic_roll_medley', item => {
+        item.maxStackSize = 1
+    })
+	
+	event.modify('minecraft:golden_carrot', item => {
+        item.rarity = 'uncommon'
+    })
+	event.modify('minecraft:glistering_melon_slice', item => {
+        item.rarity = 'uncommon'
+    })
+	event.modify('atmospheric:shimmering_passionfruit', item => {
+        item.rarity = 'uncommon'
+    })
+	event.modify('kubejs:butterscotch_cinnamon_pie', item => {
+        item.rarity = 'uncommon'
+    })
+	event.modify('kubejs:butterscotch_cinnamon_pie_slice', item => {
+        item.rarity = 'uncommon'
+    })
+	event.modify('kubejs:gingerbread_block', item => {
+        item.rarity = 'uncommon'
+    })
+	event.modify('kubejs:gingerbread_bricks', item => {
+        item.rarity = 'uncommon'
+    })
 	
 	event.modify('create_confectionery:gingerbread', item => {
         item.foodProperties = food => {
@@ -700,11 +856,6 @@ ItemEvents.modification(event => {
             food.hunger(4).saturation(0.6)
         }
     })
-	event.modify('miners_delight:smoked_bat_wing', item => {
-        item.foodProperties = food => {
-            food.hunger(2).saturation(0.6)
-        }
-    })
 	event.modify('farmersdelight:beef_patty', item => {
         item.foodProperties = food => {
             food.hunger(3).saturation(0.5)
@@ -808,6 +959,11 @@ ItemEvents.modification(event => {
 	event.modify('atmospheric:roasted_yucca_fruit', item => {
         item.foodProperties = food => {
             food.hunger(4).saturation(0.4)
+        }
+    })
+	event.modify('neapolitan:roasted_adzuki_beans', item => {
+        item.foodProperties = food => {
+            food.hunger(2).saturation(0.1).removeEffect('neapolitan:harmony').effect('neapolitan:harmony', 80, 0, 100).fastToEat()
         }
     })
 	event.modify('culturaldelights:avocado', item => {
@@ -927,12 +1083,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('ecologics:cooked_prickly_pear', item => {
         item.foodProperties = food => {
-            food.hunger(3).fastToEat()
+            food.hunger(2).saturation(0.5).fastToEat()
         }
     })
 	event.modify('ecologics:prickly_pear', item => {
         item.foodProperties = food => {
-            food.hunger(3)
+            food.hunger(2).saturation(0.5)
         }
     })
 	event.modify('create_confectionery:marshmallow', item => {
@@ -970,22 +1126,25 @@ ItemEvents.modification(event => {
             food.hunger(4).saturation(0.7).fastToEat()
         }
     })
-	event.modify('minecraft:golden_carrot', item => {
+	event.modify('atmospheric:passionfruit_sorbet', item => {
         item.foodProperties = food => {
-            food.hunger(3).saturation(0.75).effect('night_vision', 1200, 0, 100)
+            food.hunger(5).saturation(0.45).removeEffect('slowness')
+        }
+    })
+	event.modify('create_confectionery:marshmallow_on_a_stick', item => {
+        item.foodProperties = food => {
+            food.hunger(4).saturation(0.2)
+        }
+    })
+	event.modify('create_confectionery:caramelized_marshmellow_on_a_stick', item => {
+        item.foodProperties = food => {
+            food.hunger(6).saturation(0.4)
         }
     })
 	event.modify('minecraft:golden_carrot', item => {
-        item.rarity = 'uncommon'
-    })
-	event.modify('minecraft:glistering_melon_slice', item => {
-        item.rarity = 'uncommon'
-    })
-	event.modify('kubejs:butterscotch_cinnamon_pie', item => {
-        item.rarity = 'uncommon'
-    })
-	event.modify('kubejs:butterscotch_cinnamon_pie_slice', item => {
-        item.rarity = 'uncommon'
+        item.foodProperties = food => {
+            food.hunger(3).saturation(0.75).effect('night_vision', 1200, 0, 100).alwaysEdible()
+        }
     })
 	event.modify('minecraft:golden_apple', item => {
         item.foodProperties = food => {
@@ -1087,9 +1246,14 @@ ItemEvents.modification(event => {
             food.hunger(10).saturation(0.75).effect('endersdelight:phasing', 2400, 1, 100)
         }
     })
-	event.modify('miners_delight:baked_squid', item => {
+	event.modify('culturaldelights:cooked_squid', item => {
         item.foodProperties = food => {
-            food.saturation(0.5)
+            food.hunger(6).saturation(0.5)
+        }
+    })
+	event.modify('culturaldelights:glow_squid', item => {
+        item.foodProperties = food => {
+            food.removeEffect('glowing').effect('glowing', 1200, 0, 50)
         }
     })
 	event.modify('abnormals_delight:maple_glazed_bacon', item => {
@@ -1129,7 +1293,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('minecraft:glistering_melon_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).saturation(0.65).effect('regeneration', 140, 0, 100).fastToEat()
+            food.hunger(3).saturation(0.65).effect('regeneration', 100, 0, 100).alwaysEdible()
         }
     })
 	event.modify('overweight_farming:melon_juice', item => {
@@ -1158,6 +1322,11 @@ ItemEvents.modification(event => {
         }
     })
 	event.modify('farmersrespite:yellow_tea', item => {
+        item.foodProperties = food => {
+            food.effect('cofh_core:cold_resistance', 2400, 0, 100)
+        }
+    })
+	event.modify('farmersrespite:black_tea', item => {
         item.foodProperties = food => {
             food.effect('cofh_core:cold_resistance', 2400, 0, 100)
         }
@@ -1207,6 +1376,11 @@ ItemEvents.modification(event => {
             food.removeEffect('haste')
         }
     })
+	event.modify('nethersdelight:magma_gelatin', item => {
+        item.foodProperties = food => {
+            food.effect('cofh_core:slimed', 600, 0, 100)
+        }
+    })
 	event.modify('create:chocolate_glazed_berries', item => {
         item.foodProperties = food => {
             food.hunger(5).effect('neapolitan:sugar_rush', 800, 2, 100)
@@ -1215,21 +1389,6 @@ ItemEvents.modification(event => {
 	event.modify('create_confectionery:chocolate_glazed_marshmallow', item => {
         item.foodProperties = food => {
             food.hunger(3).effect('neapolitan:sugar_rush', 800, 2, 100)
-        }
-    })
-	event.modify('create_confectionery:chocolate_candy_1', item => {
-        item.foodProperties = food => {
-            food.hunger(6).effect('neapolitan:sugar_rush', 400, 0, 100)
-        }
-    })
-	event.modify('create_confectionery:chocolate_candy_2', item => {
-        item.foodProperties = food => {
-            food.hunger(6).effect('neapolitan:sugar_rush', 400, 0, 100)
-        }
-    })
-	event.modify('create_confectionery:chocolate_candy_3', item => {
-        item.foodProperties = food => {
-            food.hunger(6).effect('neapolitan:sugar_rush', 400, 0, 100)
         }
     })
 	event.modify('create_confectionery:bar_of_white_chocolate', item => {
@@ -1245,31 +1404,6 @@ ItemEvents.modification(event => {
 	event.modify('create_confectionery:white_chocolate_glazed_marshmallow', item => {
         item.foodProperties = food => {
             food.hunger(3)
-        }
-    })
-	event.modify('create_confectionery:white_chocolate_candy_1', item => {
-        item.foodProperties = food => {
-            food.hunger(6).effect('neapolitan:sugar_rush', 400, 0, 100)
-        }
-    })
-	event.modify('create_confectionery:white_chocolate_candy_2', item => {
-        item.foodProperties = food => {
-            food.hunger(6)
-        }
-    })
-	event.modify('create_confectionery:white_chocolate_candy_3', item => {
-        item.foodProperties = food => {
-            food.hunger(6)
-        }
-    })
-	event.modify('create_confectionery:black_chocolate_candy_1', item => {
-        item.foodProperties = food => {
-            food.effect('neapolitan:sugar_rush', 400, 0, 100)
-        }
-    })
-	event.modify('create_confectionery:ruby_chocolate_candy_1', item => {
-        item.foodProperties = food => {
-            food.effect('neapolitan:sugar_rush', 400, 0, 100)
         }
     })
 	event.modify('farmersrespite:green_tea_cookie', item => {
@@ -1344,7 +1478,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('neapolitan:mint_candies', item => {
         item.foodProperties = food => {
-            food.removeEffect('neapolitan:berserking').effect('neapolitan:berserking', 300, 0, 100)
+            food.hunger(2).removeEffect('neapolitan:berserking').effect('neapolitan:berserking', 300, 0, 100)
         }
     })
 	event.modify('farmersrespite:rose_hip_pie_slice', item => {
@@ -1410,6 +1544,71 @@ ItemEvents.modification(event => {
 	event.modify('atmospheric:passionfruit_tart', item => {
         item.foodProperties = food => {
             food.hunger(5).saturation(0.5).effect('farmersdelight:comfort', 3000, 0, 100)
+        }
+    })
+	event.modify('minecraft:rotten_flesh', item => {
+        item.foodProperties = food => {
+            food.effect('poison', 60, 0, 40)
+        }
+    })
+	event.modify('neapolitan:chocolate_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('neapolitan:strawberry_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('neapolitan:vanilla_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').removeEffect('neapolitan:vanilla_scent').effect('cofh_core:chilled', 100, 0, 100).effect('neapolitan:vanilla_scent', 400, 0, 100)
+        }
+    })
+	event.modify('neapolitan:banana_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('neapolitan:mint_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('neapolitan:adzuki_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('neapolitan:neapolitan_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').removeEffect('neapolitan:vanilla_scent').effect('cofh_core:chilled', 140, 0, 100).effect('neapolitan:vanilla_scent', 200, 0, 100)
+        }
+    })
+	event.modify('respiteful:green_tea_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('respiteful:yellow_tea_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('respiteful:black_tea_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').removeEffect('respiteful:maturity').effect('cofh_core:chilled', 100, 0, 100).effect('respiteful:maturity', 600, 1, 100)
+        }
+    })
+	event.modify('respiteful:coffee_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').effect('cofh_core:chilled', 100, 0, 70)
+        }
+    })
+	event.modify('respiteful:respiteful_ice_cream', item => {
+        item.foodProperties = food => {
+            food.removeEffect('slowness').removeEffect('respiteful:maturity').effect('cofh_core:chilled', 140, 0, 100).effect('respiteful:maturity', 900, 0, 100)
         }
     })
 })

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "kubejs:white_chocolate_pavement"
+  },
+  "result": "kubejs:chiseled_white_chocolate_pavement",
+  "count": 1
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kubejs:gingerbread_block"
+    },
+    "1": {
+      "item": "kubejs:gingerbread_block"
+    },
+    "2": {
+      "item": "kubejs:gingerbread_block"
+    },
+    "3": {
+      "item": "kubejs:gingerbread_block"
+    }
+  },
+  "result": {
+    "item": "kubejs:gingerbread_bricks",
+    "count": 4
+  }
+}

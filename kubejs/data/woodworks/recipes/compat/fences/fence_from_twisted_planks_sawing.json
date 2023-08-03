@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "architects_palette:twisted_planks"
+  },
+  "result": "architects_palette:twisted_fence"
+}

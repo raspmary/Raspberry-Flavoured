@@ -1,0 +1,40 @@
+{
+  "parent": "raspberryflavoured:repair_golem",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:iron_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Summon your own iron golem with four iron blocks in a T-shape and a carved pumpkin on top"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Calling in Reinforcements"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

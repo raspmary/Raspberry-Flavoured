@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+		[
+        {
+            "tag": "forge:seeds"
+        },
+		{
+            "item": "kubejs:oats"
+        }
+		],
+		[
+        {
+            "item": "ecologics:walnut"
+        },
+		{
+            "item": "windswept:chestnuts"
+        }
+		],
+		[
+        {
+            "item": "ecologics:walnut"
+        },
+		{
+            "item": "windswept:chestnuts"
+        }
+		],
+		[
+        {
+            "tag": "forge:seeds"
+        },
+		{
+            "item": "kubejs:oats"
+        }
+		]
+    ],
+    "result": {
+        "item": "kubejs:trail_mix",
+        "count": 2
+    }
+}

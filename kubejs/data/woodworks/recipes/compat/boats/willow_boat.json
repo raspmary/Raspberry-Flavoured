@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "tag": "environmental:willow_logs"
+  },
+  "result": "environmental:willow_boat"
+}

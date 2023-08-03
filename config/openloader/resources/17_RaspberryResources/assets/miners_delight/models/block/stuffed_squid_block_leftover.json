@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [64, 32],
+	"textures": {
+		"1": "miners_delight:block/tray_bottom",
+		"2": "miners_delight:block/tray_stuffed_squid",
+		"particle": "miners_delight:block/tray_stuffed_squid"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"east": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"south": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"west": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#2"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#1", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "stuffed_squid",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "plate",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0]
+				}
+			]
+		}
+	]
+}

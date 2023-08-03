@@ -1,0 +1,34 @@
+{
+  "parent": "raspberryflavoured:trade",
+  "criteria": {
+    "0": {
+      "conditions": {
+		  "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+			}
+		},
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Cook and sell some food to a nitwit for big profits"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Breadwinner"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

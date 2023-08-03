@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "ecologics:coconut_log"
+  },
+  "result": "everycomp:q/ecologics/hollow_coconut_log"
+}

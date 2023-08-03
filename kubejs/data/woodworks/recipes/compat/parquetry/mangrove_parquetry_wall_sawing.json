@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "architects_palette:mangrove_boards"
+  },
+  "result": "architects_palette:mangrove_board_wall"
+}

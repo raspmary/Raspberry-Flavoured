@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:dimensional_tears",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Using a bottle of dimensional tears on a frame made of obsidian, open a portal to the Nether and enter it"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "We Need to Go Deeper"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -17,7 +17,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#CE3131",
+      "color": "#C44E00",
       "text": "Use a knife to harvest some straw from grass or certain crops"
     },
     "frame": "task",

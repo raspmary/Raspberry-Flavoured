@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:andesite_alloy",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:water_wheel"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"1": {
+      "conditions": {
+        "block": "create:large_water_wheel"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down a regular or large water wheel to start getting some automatic rotational power going"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:water_wheel"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Wheel of Fortune"
+    }
+  },
+  "requirements": [
+    [
+      "0", "1"
+    ]
+  ]
+}

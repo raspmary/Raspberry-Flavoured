@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:diamond_pick",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Using a diamond pickaxe, obtain a block of obsidian... or find some in a chest somewhere - using obsidian will allow you to open a portal to another dimension... but don't expect the portal to open just by lighting it on fire - you'll need some dimensional tears for that!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Not Tough Enough"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

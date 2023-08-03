@@ -1,0 +1,86 @@
+{
+  "parent": "raspberryflavoured:cooking_pot",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "farmersdelight:roast_chicken_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"1": {
+      "conditions": {
+        "block": "farmersdelight:stuffed_pumpkin_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"2": {
+      "conditions": {
+        "block": "farmersdelight:honey_glazed_ham_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"3": {
+      "conditions": {
+        "block": "farmersdelight:shepherds_pie_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"4": {
+      "conditions": {
+        "block": "farmersdelight:rice_roll_medley_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"5": {
+      "conditions": {
+        "block": "culturaldelights:exotic_roll_medley"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"6": {
+      "conditions": {
+        "block": "nethersdelight:stuffed_hoglin"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"7": {
+      "conditions": {
+        "block": "brewinandchewin:fiery_fondue_pot"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"8": {
+      "conditions": {
+        "block": "kubejs:eggplant_parmesan_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"9": {
+      "conditions": {
+        "block": "endersdelight:stuffed_shulker_block"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Make any type of feast - they're placeable foods that you can take multiple portions out of, and they're usually very filling!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Eatin' Good"
+    }
+  },
+  "requirements": [
+    [
+	"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
+	]
+  ]
+}

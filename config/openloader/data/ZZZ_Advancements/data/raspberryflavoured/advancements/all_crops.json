@@ -301,30 +301,6 @@
         ]
       }
     },
-	"26": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "nethersdelight:propelpearl"
-            ]
-          }
-        ]
-      }
-    },
-	"27": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "miners_delight:cave_carrot"
-            ]
-          }
-        ]
-      }
-    },
 	"28": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -426,7 +402,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Obtain every single fruit, vegetable or other growable crop products"
+      "text": "Obtain at least one of every single fruit, vegetable or other growable crop products"
     },
     "frame": "challenge",
     "hidden": false,
@@ -513,12 +489,6 @@
 	],
 	[
 	"25"
-	],
-	[
-	"26"
-	],
-	[
-	"27"
 	],
 	[
 	"28"

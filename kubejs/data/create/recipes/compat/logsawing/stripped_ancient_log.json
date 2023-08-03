@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "quark:stripped_ancient_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "quark:ancient_planks",
+	  "count": 6
+    }
+  ]
+}

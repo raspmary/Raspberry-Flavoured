@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "quark:ancient_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "quark:stripped_ancient_wood"
+    }
+  ]
+}

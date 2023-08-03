@@ -1,0 +1,47 @@
+{
+  "parent": "raspberryflavoured:cog_block",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "minecraft:hopper"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"1": {
+      "conditions": {
+        "block": "quark:pipe"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"2": {
+      "conditions": {
+        "block": "quark:encased_pipe"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down some hoppers and item pipes to start moving items around"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:hopper"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Move Along Now"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+      "1", "2"
+    ]
+  ]
+}

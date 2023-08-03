@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "miners_delight:item/improvised_barbecue_stick"
+  }
+}

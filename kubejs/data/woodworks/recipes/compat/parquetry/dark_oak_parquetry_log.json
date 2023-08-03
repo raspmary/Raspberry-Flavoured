@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 4,
+  "ingredient": {
+    "tag": "minecraft:dark_oak_logs"
+  },
+  "result": "architects_palette:dark_oak_boards"
+}

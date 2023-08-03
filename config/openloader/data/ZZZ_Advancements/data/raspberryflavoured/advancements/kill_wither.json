@@ -1,0 +1,40 @@
+{
+  "parent": "raspberryflavoured:summon_wither",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Defeat the Wither"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Beginning"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

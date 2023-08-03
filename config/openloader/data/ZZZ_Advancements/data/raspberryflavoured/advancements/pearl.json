@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:clam",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crittersandcompanions:pearl"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Get an otter to crack open a clam for you and find a pearl inside - maybe you can make them into a pretty necklace!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "crittersandcompanions:pearl"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A Pearl Has a Use"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

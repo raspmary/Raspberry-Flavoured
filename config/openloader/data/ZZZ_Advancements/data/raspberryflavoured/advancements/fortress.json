@@ -1,0 +1,58 @@
+{
+  "parent": "raspberryflavoured:nether",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:fortress"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+	"1": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "betterfortresses:fortress"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Locate a Nether fortress"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chiseled_nether_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A Withering Fortress"
+    }
+  },
+  "requirements": [
+    [
+      "0", "1"
+    ]
+  ]
+}

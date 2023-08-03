@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:farming_root",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crittersandcompanions:clam"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Find a clam while fishing or get one from killing a drowned"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "crittersandcompanions:clam"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Not Very Clamplicated"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

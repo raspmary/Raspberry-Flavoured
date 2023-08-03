@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "windswept:chestnut_log"
+  },
+  "result": "everycomp:q/windswept/hollow_chestnut_log"
+}

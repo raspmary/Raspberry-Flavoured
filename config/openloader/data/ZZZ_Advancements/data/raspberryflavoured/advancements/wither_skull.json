@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:blaze_rod",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Get very lucky when killing a wither skeleton to obtain its skull - the Looting enchantment might help!"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Skull Issue"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:ancient_debris",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Obtain netherite ingots - you may need a super-heated mixer for this one..."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Finally Tough Enough"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

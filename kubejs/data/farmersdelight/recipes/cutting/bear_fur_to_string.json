@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "naturalist:bear_fur"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:string"
+    },
+	{
+	  "chance": 0.5,
+      "item": "minecraft:string"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}

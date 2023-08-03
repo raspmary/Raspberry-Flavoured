@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "tag": "quark:bamboo_logs"
+  },
+  "result": "supplementaries:quark/hanging_sign_bamboo"
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "raspberryflavoured:kill_wither",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Using a Nether Star, craft a beacon and power it by placing it on a pyramid of valuable blocks"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Light of Hope"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:fortress",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Defeat a Blaze to obtain a blaze rod from it"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Through the Fire"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

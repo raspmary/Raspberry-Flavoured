@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:windmill_bearing",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:steam_engine"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down a steam engine on a fluid tank to start preparing a steam boiler, a hard to maintain source of rotational power with a lot of potential"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:steam_engine"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Steampunk"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

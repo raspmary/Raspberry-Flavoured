@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:copper_pick",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Obtain raw iron with your copper pickaxe... or find some in a chest somewhere"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:raw_iron"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Ironic"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

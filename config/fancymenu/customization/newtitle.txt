@@ -37,15 +37,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  seconds = 1.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
@@ -74,30 +65,12 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  seconds = 1.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 102
   action = movebutton
   y = 46
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  seconds = 1.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
 }
 
 customization {
@@ -118,16 +91,7 @@ customization {
   orientation = top-centered
   x = -100
   action = movebutton
-  y = 152
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  seconds = 1.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
+  y = 118
 }
 
 customization {
@@ -144,15 +108,6 @@ customization {
   width = 98
   action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  seconds = 1.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
 }
 
 customization {
@@ -224,40 +179,30 @@ customization {
 }
 
 customization {
-  orientation = top-centered
-  delayappearanceseconds = 1.0
   path = config/fancymenu/fancymenu_assets/raspflavour_logo.png
-  fadein = true
-  fadeinspeed = 1.0
-  x = -161
-  width = 323
+  orientation = top-centered
+  x = -121
+  width = 243
   action = addtexture
   actionid = aad9c9ff-9bc2-43e3-bbe0-b3498ded12231688391998639
-  y = 13
-  delayappearance = true
-  delayappearanceeverytime = false
-  height = 135
+  y = 14
+  height = 103
 }
 
 customization {
   orientation = top-centered
   basecolor = #ffc1f6
   shadow = true
-  delayappearanceseconds = 1.0
   rotation = 0.0
-  scale = 1.0
+  scale = 0.75
   refresh = true
   bouncing = true
-  fadein = true
   vanilla-like = true
-  fadeinspeed = 1.0
-  x = -27
+  x = -20
   actionid = 7896132c-c0c1-42ca-a830-b8dbca27754f1688230352925
   action = addsplash
-  y = 226
-  delayappearance = true
-  text = Beware of the man who speaks in hands!
-  delayappearanceeverytime = false
+  y = 217
+  text = Escalerrrrra ooooooooooohhhhh!
 }
 
 customization {
@@ -275,24 +220,49 @@ customization {
   orientation = top-centered
   enable_scrolling = false
   shadow = true
-  delayappearanceseconds = 1.0
   scale = 1.0
   source = v2.0.0 PUBLIC BETA
   text_border = 0
   case_mode = upper
-  fadein = true
   source_mode = direct
   line_spacing = 1
-  fadeinspeed = 1.0
   x = -100
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = d3d1deba-77e1-4526-83cb-c399c8021bfd1688233519106
-  y = 123
-  delayappearance = true
+  y = 96
   alignment = centered
   base_color = #ffc1f6
-  delayappearanceeverytime = false
   height = 14
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  buttonaction = opengui;rfchangelog%btnaction_splitter_fm%
+  x = 0
+  width = 98
+  action = addbutton
+  actionid = 50af0d28-3c73-43ff-ada2-dad4847642541690110148460
+  y = 69
+  label = Changelog
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  buttonaction = opengui;rfcredits%btnaction_splitter_fm%
+  x = 102
+  width = 98
+  action = addbutton
+  actionid = 7f555a26-b6e9-482f-94fb-1b1144897b7d1690110148460
+  y = 70
+  label = Credits
+  height = 20
 }
 

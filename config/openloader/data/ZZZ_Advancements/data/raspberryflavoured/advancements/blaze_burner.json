@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:mech_mixer",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:blaze_burner"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Find a Nether fortress and capture a Blaze inside of a Blaze Burner"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "create:blaze_burner"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Sentient Fireplace"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

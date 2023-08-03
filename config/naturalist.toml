@@ -1,0 +1,92 @@
+
+#A higher spawn weight will make the mob spawn more often.
+#To prevent a certain mob from spawning, set its weight to 0.
+["Mob Spawn Weights"]
+	#Rabbit Forest Spawn Weight
+	#Range: 0 ~ 1000
+	forestRabbitSpawnWeight = 6
+	#Fox Forest Spawn Weight
+	#Range: 0 ~ 1000
+	forestFoxSpawnWeight = 6
+	#Snail Spawn Weight
+	#Range: 0 ~ 1000
+	snailSpawnWeight = 0
+	#Snake Spawn Weight
+	#Range: 0 ~ 1000
+	snakeSpawnWeight = 0
+	#Coral Snake Spawn Weight
+	#Range: 0 ~ 1000
+	coralSnakeSpawnWeight = 0
+	#Rattlesnake Spawn Weight
+	#Range: 0 ~ 1000
+	rattlesnakeSpawnWeight = 0
+	#Firefly Spawn Weight
+	#Range: 0 ~ 1000
+	fireflySpawnWeight = 0
+	#Bluejay Spawn Weight
+	#Range: 0 ~ 1000
+	bluejaySpawnWeight = 8
+	#Canary Spawn Weight
+	#Range: 0 ~ 1000
+	canarySpawnWeight = 8
+	#Cardinal Spawn Weight
+	#Range: 0 ~ 1000
+	cardinalSpawnWeight = 8
+	#Robin Spawn Weight
+	#Range: 0 ~ 1000
+	robinSpawnWeight = 8
+	#Butterfly Spawn Weight
+	#Range: 0 ~ 1000
+	butterflySpawnWeight = 0
+	#Duck Spawn Weight
+	#Range: 0 ~ 1000
+	duckSpawnWeight = 0
+	#Bear Spawn Weight
+	#Range: 0 ~ 1000
+	bearSpawnWeight = 8
+	#Deer Spawn Weight
+	#Range: 0 ~ 1000
+	deerSpawnWeight = 0
+	#Rhino Spawn Weight
+	#Range: 0 ~ 1000
+	rhinoSpawnWeight = 15
+	#Lion Spawn Weight
+	#Range: 0 ~ 1000
+	lionSpawnWeight = 0
+	#Elephant Spawn Weight
+	#Range: 0 ~ 1000
+	elephantSpawnWeight = 0
+	#Zebra Spawn Weight
+	#Range: 0 ~ 1000
+	zebraSpawnWeight = 0
+	#Giraffe Spawn Weight
+	#Range: 0 ~ 1000
+	giraffeSpawnWeight = 0
+	#Hippo Spawn Weight
+	#Range: 0 ~ 1000
+	hippoSpawnWeight = 0
+	#Vulture Spawn Weight
+	#Range: 0 ~ 1000
+	vultureSpawnWeight = 15
+	#Boar Spawn Weight
+	#Range: 0 ~ 1000
+	boarSpawnWeight = 0
+	#Dragonfly Spawn Weight
+	#Range: 0 ~ 1000
+	dragonflySpawnWeight = 0
+	#Catfish Spawn Weight
+	#Range: 0 ~ 1000
+	catfishSpawnWeight = 0
+	#Alligator Spawn Weight
+	#Range: 0 ~ 1000
+	alligatorSpawnWeight = 0
+	#Bass Spawn Weight
+	#Range: 0 ~ 1000
+	bassSpawnWeight = 0
+	#Lizard Spawn Weight
+	#Range: 0 ~ 1000
+	lizardSpawnWeight = 0
+	#Tortoise Spawn Weight
+	#Range: 0 ~ 1000
+	tortoiseSpawnWeight = 0
+

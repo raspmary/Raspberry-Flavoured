@@ -1,0 +1,36 @@
+{
+  "parent": "raspberryflavoured:end_city",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:shulker_boxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Craft a shulker box to carry more items - no catch this time! Craft and use as many as you want!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Moon Box, Baby"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

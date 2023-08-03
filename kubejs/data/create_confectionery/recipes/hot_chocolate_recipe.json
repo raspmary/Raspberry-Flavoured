@@ -2,9 +2,6 @@
   "group": "create_confectionery",
   "type": "create:mixing",
   "ingredients": [
-    {
-      "item": "minecraft:sugar"
-    },
 	{
       "item": "create_confectionery:cocoa_butter"
     },

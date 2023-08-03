@@ -1,0 +1,40 @@
+{
+  "parent": "raspberryflavoured:wither_skull",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Assemble four soul sand or soul soil blocks in a T-shape and place three wither skeleton skulls on top to summon the Wither"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:soul_sand"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Nether Lord"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

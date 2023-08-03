@@ -3,7 +3,7 @@
 	wind_vane = true
 	clock_block = true
 	redstone_illuminator = true
-	crank = true
+	crank = false
 	faucet = true
 	cog_block = true
 	gold_door = true

@@ -1,0 +1,75 @@
+{
+	"credit": "Made by MythrilBagels",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -19, -2],
+			"submodels": [
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 19, 2],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-4, -6, -7, 8, 16, 6], "textureOffset": [28, 8]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"rotation.rx": "0"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 8],
+			"boxes": [
+				{"coordinates": [-3, 16, -14, 6, 6, 8], "textureOffset": [0, 0]},
+				{"coordinates": [3, 18, -10, 3, 3, 1], "textureOffset": [20, 0]},
+				{"coordinates": [-6, 18, -10, 3, 3, 1], "textureOffset": [28, 0]}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3, -12, -7],
+			"boxes": [
+				{"coordinates": [1, 0, 5, 4, 12, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3, -12, -7],
+			"boxes": [
+				{"coordinates": [-5, 0, 5, 4, 12, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-3, -12, 5],
+			"boxes": [
+				{"coordinates": [1, 0, -7, 4, 12, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [3, -12, 5],
+			"boxes": [
+				{"coordinates": [-5, 0, -7, 4, 12, 4], "textureOffset": [0, 16]}
+			]
+		}
+	]
+}

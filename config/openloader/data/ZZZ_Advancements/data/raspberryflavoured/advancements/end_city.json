@@ -1,0 +1,42 @@
+{
+  "parent": "raspberryflavoured:end_gateway",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:end_city"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Find an End city on the outer End islands"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:purpur_pillar"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Purple Palace"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

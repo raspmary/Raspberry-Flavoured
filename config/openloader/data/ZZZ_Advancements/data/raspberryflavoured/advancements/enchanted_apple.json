@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:dungeon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_golden_apple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Find an enchanted apple - it could save your life!"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hunt For the Apple"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

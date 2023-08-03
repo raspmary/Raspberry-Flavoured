@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "tag": "atmospheric:morado_logs"
+  },
+  "result": "atmospheric:morado_boat"
+}

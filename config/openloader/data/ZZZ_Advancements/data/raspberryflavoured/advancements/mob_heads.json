@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:ham",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull",
+			  "minecraft:creeper_head",
+			  "minecraft:zombie_head",
+			  "supplementaries:enderman_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Get lucky while using a knife to deal the killing blow on a zombie, skeleton, creeper or enderman to obtain any one of their heads - you can then cut their heads up with an axe on a cutting board!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Heads-Up"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

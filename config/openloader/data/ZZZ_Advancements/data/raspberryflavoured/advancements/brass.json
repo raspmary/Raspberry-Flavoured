@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:blaze_burner",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:brass_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Mix copper and zinc in a heated mixer to get brass"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "create:brass_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Brass, Brass, Brass!"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

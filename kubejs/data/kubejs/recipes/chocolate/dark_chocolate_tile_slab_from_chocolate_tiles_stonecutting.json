@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "kubejs:dark_chocolate_tiles"
+  },
+  "result": "kubejs:dark_chocolate_tile_slab",
+  "count": 2
+}

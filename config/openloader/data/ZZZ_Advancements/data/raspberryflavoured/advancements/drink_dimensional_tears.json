@@ -1,0 +1,36 @@
+{
+  "parent": "raspberryflavoured:dimensional_tears",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "spelunkery:portal_fluid_bottle"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Instantly return to your spawn point by drinking a bottle of dimensional tears"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "spelunkery:portal_fluid_bottle"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Warp Drink"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

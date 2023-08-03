@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "kubejs:white_chocolate_pavement_slab"
+    }
+  },
+  "result": {
+    "item": "kubejs:chiseled_white_chocolate_pavement",
+    "count": 1
+  }
+}

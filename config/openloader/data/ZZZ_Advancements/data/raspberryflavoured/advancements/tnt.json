@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:redstone",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Craft or find a block of TNT - you can ignite it manually with any kind of fire striker, or from afar either using a line of gunpowder or powered redstone"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Kaboom?"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

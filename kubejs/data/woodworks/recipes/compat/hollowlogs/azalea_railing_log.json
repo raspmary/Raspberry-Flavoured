@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "ecologics:azalea_log"
+  },
+  "result": "everycomp:q/ecologics/hollow_azalea_log"
+}

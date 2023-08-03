@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:andesite_alloy",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:millstone"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down a millstone for an easy and compact way to crush up materials and ingredients"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:millstone"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hot Mills in Your Area"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:ruined_portal",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:portal_fluid_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Using a glass bottle, obtain dimensional tears from a block of crying obsidian"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Otherworldly Substance"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

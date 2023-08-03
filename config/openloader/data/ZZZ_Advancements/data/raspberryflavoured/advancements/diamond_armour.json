@@ -1,0 +1,84 @@
+{
+  "parent": "raspberryflavoured:gems",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Craft a full set of diamond armour"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cover Me In Diamonds"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+      "1"
+    ],
+	[
+      "2"
+    ],
+	[
+      "3"
+    ]
+  ]
+}

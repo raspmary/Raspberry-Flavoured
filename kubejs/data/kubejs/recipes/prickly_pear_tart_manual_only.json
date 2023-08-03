@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ecologics:cooked_prickly_pear"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "balm:eggs"
+    },
+	{
+      "item": "farmersdelight:pie_crust"
+    }
+  ],
+  "result": {
+    "item": "kubejs:prickly_pear_tart"
+  }
+}

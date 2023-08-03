@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "kubejs:cinnamon_cracker"
+        },
+        {
+            "item": "kubejs:cinnamon_cracker"
+        },
+        {
+            "item": "create_confectionery:marshmallow"
+        }
+    ],
+    "result": {
+        "item": "kubejs:smore"
+    }
+}

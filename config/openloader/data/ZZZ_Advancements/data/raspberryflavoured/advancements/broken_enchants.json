@@ -1,0 +1,86 @@
+{
+  "parent": "raspberryflavoured:enchanting",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:flame",
+								"levels": 1
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:infinity",
+								"levels": 1
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:flame",
+								"levels": 1
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"3": {
+      "conditions": {
+        "items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:infinity",
+								"levels": 1
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Get an enchantment you're not supposed to be able to (The Infinity and Flame enchantments are supposed to be disabled for the pack, but due to a bug in one of the mods, you're still able to obtain them from enchanting tables! I'm sorry for this issue, but in the meantime, you can still have fun with your illegal enchantment!)"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Wait, How'd You Get That??"
+    }
+  },
+  "requirements": [
+    [
+      "0", "1", "2", "3"
+    ]
+  ]
+}

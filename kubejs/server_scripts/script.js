@@ -28,7 +28,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'abnormalsdelight:melon_popsicle' })
 	event.remove({ id: 'farmersdelight:barbecue_stick' })
 	event.remove({ id: 'nethersdelight:nether_skewer' })
-	event.remove({ id: 'miners_delight:improvised_barbecue_stick' })
 	event.remove({ id: 'endersdelight:crispy_skewer' })
 	event.remove({ id: 'create_confectionery:chocolate_candy_1_recipe' })
 	event.remove({ id: 'create_confectionery:chocolate_candy_2_recipe' })
@@ -89,6 +88,16 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'upgrade_aquatic:bone_meal_from_tooth' })
 	event.remove({ id: 'architects_palette:bone_meal' })
 	event.remove({ id: 'atmospheric:passionfruit_tart' })
+	event.remove({ id: 'spelunkery:iron_ingot_from_smelting_raw_iron' })
+	event.remove({ id: 'nethersdelight:gold_nugget_from_smelting_machete' })
+	event.remove({ id: 'nethersdelight:iron_nugget_from_smelting_machete' })
+	event.remove({ id: 'oreganized:lead_nugget_from_smelting' })
+	event.remove({ id: 'ecologics:cooked_prickly_pear_from_smoking' })
+	event.remove({ id: 'ecologics:cooked_prickly_pear_from_campfire_cooking' })
+	event.remove({ id: 'create_enchantment_industry:crafting/printer' })
+	event.remove({ id: 'minecraft:painting' })
+	event.remove({ id: 'quark:building/crafting/chests/mixed_chest' })
+	event.remove({ id: 'quark:building/crafting/chests/chest_trapped' })
 	event.remove({ output: 'abundant_atmosphere:cooked_frog_leg' })
 	event.remove({ output: 'environmental:mud_ball' })
 	event.remove({ output: 'culturaldelights:smoked_tomato' })
@@ -111,12 +120,170 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'quark:crimson_trapped_chest' })
 	event.remove({ output: 'quark:warped_trapped_chest' })
 	event.remove({ output: 'quark:mangrove_trapped_chest' })
+	event.remove({ output: 'toms_storage:ts.trim' })
+	event.remove({ output: 'toms_storage:ts.open_crate' })
+	event.remove({ output: 'toms_storage:ts.inventory_cable_framed' })
+	event.remove({ output: 'toms_storage:ts.inventory_cable_connector_filtered' })
+	event.remove({ output: 'toms_storage:ts.inventory_cable_connector_framed' })
+	event.remove({ output: 'toms_storage:ts.inventory_proxy' })
+	event.remove({ output: 'toms_storage:ts.crafting_terminal' })
+	event.remove({ output: 'toms_storage:ts.inventory_hopper_basic' })
+	event.remove({ output: 'toms_storage:ts.level_emitter' })
+	event.remove({ output: 'toms_storage:ts.inventory_cable_connector_filtered' })
+	event.remove({ output: 'toms_storage:ts.paint_kit' })
+	event.remove({ output: 'toms_storage:ts.wireless_terminal' })
+	event.remove({ output: 'toms_storage:ts.adv_wireless_terminal' })
+	event.remove({ output: 'toms_storage:ts.item_filter' })
+	event.remove({ output: 'toms_storage:ts.polymorphic_item_filter' })
+	event.remove({ output: 'toms_storage:ts.tag_item_filter' })
+	event.remove({ output: 'create_enchantment_industry:experience_rotor' })
+	event.remove({ output: 'dustrial_decor:sheet_metal' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_plating' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_plating_slab' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_plating_stairs' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_paneling' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_siding' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_walling' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_treading' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_treading_slab' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_treading_stairs' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_trapdoor' })
+	event.remove({ output: 'dustrial_decor:sheet_metal_door' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_plating' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_plating_slab' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_plating_stairs' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_paneling' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_siding' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_walling' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_treading' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_treading_slab' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_treading_stairs' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_trapdoor' })
+	event.remove({ output: 'dustrial_decor:rusty_sheet_metal_door' })
+	event.remove({ output: 'dustrial_decor:cinder_block' })
+	event.remove({ output: 'dustrial_decor:polished_cinder_block' })
+	event.remove({ output: 'dustrial_decor:cinder_bricks' })
+	event.remove({ output: 'dustrial_decor:cinder_brick_slab' })
+	event.remove({ output: 'dustrial_decor:cinder_brick_stairs' })
+	event.remove({ output: 'dustrial_decor:cardboard' })
+	event.remove({ output: 'dustrial_decor:cardboard_box' })
+	event.remove({ output: 'dustrial_decor:smooth_cardboard' })
+	event.remove({ output: 'dustrial_decor:smooth_cardboard_slab' })
+	event.remove({ output: 'dustrial_decor:smooth_cardboard_stairs' })
+	event.remove({ output: 'dustrial_decor:folded_cardboard' })
+	event.remove({ output: 'dustrial_decor:cardboard_scrap' })
+	event.remove({ output: 'dustrial_decor:cardboard_trapdoor' })
+	event.remove({ output: 'dustrial_decor:cardboard_door' })
+	event.remove({ output: 'dustrial_decor:rusty_iron_ingot' })
+	event.remove({ output: 'dustrial_decor:rusty_iron_nugget' })
+	event.remove({ output: 'dustrial_decor:rusty_iron_block' })
+	event.remove({ output: 'dustrial_decor:rusty_iron_trapdoor' })
+	event.remove({ output: 'dustrial_decor:rusty_iron_door' })
+	event.remove({ output: 'dustrial_decor:black_light' })
+	event.remove({ input: 'dustrial_decor:sheet_metal' })
+	event.remove({ input: 'dustrial_decor:rusty_sheet_metal' })
+	event.remove({ input: 'dustrial_decor:cardboard' })
+	event.remove({ input: 'create_confectionery:ruby_chocolate_bucket' })
+	event.remove({ output: 'create_confectionery:ruby_chocolate_bucket' })
+	event.remove({ input: 'create_confectionery:ruby_chocolate_bricks' })
+	event.remove({ output: 'create_confectionery:ruby_chocolate_bricks' })
+	event.remove({ input: 'create_confectionery:ruby_chocolate_brick_slab' })
+	event.remove({ output: 'create_confectionery:ruby_chocolate_brick_slab' })
+	event.remove({ input: 'create_confectionery:ruby_chocolate_brick_stairs' })
+	event.remove({ output: 'create_confectionery:ruby_chocolate_brick_stairs' })
+	event.remove({ input: 'architects_palette:nether_brass_chain' })
+	event.remove({ output: 'architects_palette:nether_brass_chain' })
+	event.remove({ output: 'architects_palette:stone_nub' })
+	event.remove({ output: 'architects_palette:smooth_stone_nub' })
+	event.remove({ output: 'architects_palette:sandstone_nub' })
+	event.remove({ output: 'architects_palette:andesite_nub' })
+	event.remove({ output: 'architects_palette:granite_nub' })
+	event.remove({ output: 'architects_palette:diorite_nub' })
+	event.remove({ output: 'architects_palette:blackstone_nub' })
+	event.remove({ output: 'architects_palette:deepslate_nub' })
+	event.remove({ output: 'architects_palette:bone_nub' })
+	event.remove({ output: 'architects_palette:nub_of_ender' })
+	event.remove({ output: 'architects_palette:iron_nub' })
+	event.remove({ output: 'architects_palette:gold_nub' })
+	event.remove({ output: 'architects_palette:diamond_nub' })
+	event.remove({ output: 'architects_palette:emerald_nub' })
+	event.remove({ output: 'architects_palette:netherite_nub' })
+	event.remove({ output: 'architects_palette:plating_nub' })
+	event.remove({ output: 'architects_palette:sunmetal_nub' })
+	event.remove({ output: 'architects_palette:polished_glowstone_nub' })
+	event.remove({ output: 'architects_palette:nether_brass_nub' })
+	event.remove({ input: 'naturalist:cattail_fluff' })
+	event.remove({ input: 'naturalist:duck_egg' })
+	event.remove({ input: 'naturalist:cooked_egg' })
+	event.remove({ output: 'naturalist:cooked_egg' })
+	event.remove({ input: 'naturalist:duck' })
+	event.remove({ output: 'naturalist:duck' })
+	event.remove({ input: 'naturalist:cooked_duck' })
+	event.remove({ output: 'naturalist:cooked_duck' })
+	event.remove({ input: 'naturalist:venison' })
+	event.remove({ output: 'naturalist:venison' })
+	event.remove({ input: 'naturalist:cooked_venison' })
+	event.remove({ output: 'naturalist:cooked_venison' })
+	event.remove({ input: 'naturalist:lizard_tail' })
+	event.remove({ output: 'naturalist:lizard_tail' })
+	event.remove({ input: 'naturalist:cooked_lizard_tail' })
+	event.remove({ output: 'naturalist:cooked_lizard_tail' })
+	event.remove({ input: 'naturalist:bass' })
+	event.remove({ output: 'naturalist:bass' })
+	event.remove({ input: 'naturalist:cooked_bass' })
+	event.remove({ output: 'naturalist:cooked_bass' })
+	event.remove({ input: 'naturalist:catfish' })
+	event.remove({ output: 'naturalist:catfish' })
+	event.remove({ input: 'naturalist:cooked_catfish' })
+	event.remove({ output: 'naturalist:cooked_catfish' })
+	event.remove({ input: 'naturalist:reptile_hide' })
+	event.remove({ output: 'naturalist:reptile_hide' })
+	event.remove({ input: 'naturalist:snail_shell' })
+	event.remove({ output: 'naturalist:snail_shell' })
+	event.remove({ input: 'spelunkery:raw_nephrite' })
+	event.remove({ output: 'spelunkery:raw_nephrite' })
+	event.remove({ input: 'spelunkery:nephrite' })
+	event.remove({ output: 'spelunkery:nephrite' })
+	event.remove({ input: 'spelunkery:nephrite_slab' })
+	event.remove({ output: 'spelunkery:nephrite_slab' })
+	event.remove({ input: 'spelunkery:nephrite_stairs' })
+	event.remove({ output: 'spelunkery:nephrite_stairs' })
+	event.remove({ input: 'spelunkery:nephrite_wall' })
+	event.remove({ output: 'spelunkery:nephrite_wall' })
+	event.remove({ input: 'spelunkery:polished_nephrite' })
+	event.remove({ output: 'spelunkery:polished_nephrite' })
+	event.remove({ input: 'spelunkery:polished_nephrite_slab' })
+	event.remove({ output: 'spelunkery:polished_nephrite_slab' })
+	event.remove({ input: 'spelunkery:polished_nephrite_stairs' })
+	event.remove({ output: 'spelunkery:polished_nephrite_stairs' })
+	event.remove({ input: 'spelunkery:polished_nephrite_wall' })
+	event.remove({ output: 'spelunkery:polished_nephrite_wall' })
+	event.remove({ input: 'spelunkery:polished_nephrite_bricks' })
+	event.remove({ output: 'spelunkery:polished_nephrite_bricks' })
+	event.remove({ input: 'spelunkery:polished_nephrite_brick_slab' })
+	event.remove({ output: 'spelunkery:polished_nephrite_brick_slab' })
+	event.remove({ input: 'spelunkery:polished_nephrite_brick_stairs' })
+	event.remove({ output: 'spelunkery:polished_nephrite_brick_stairs' })
+	event.remove({ input: 'spelunkery:polished_nephrite_brick_wall' })
+	event.remove({ output: 'spelunkery:polished_nephrite_brick_wall' })
+	event.remove({ input: 'spelunkery:nephrite_chunk' })
+	event.remove({ output: 'spelunkery:nephrite_chunk' })
+	event.remove({ input: 'spelunkery:nephrite_charm' })
+	event.remove({ output: 'spelunkery:nephrite_charm' })
+	event.remove({ input: 'spelunkery:carved_nephrite' })
+	event.remove({ output: 'spelunkery:carved_nephrite' })
+	event.remove({ input: 'spelunkery:nephrite_siphon' })
+	event.remove({ output: 'spelunkery:nephrite_siphon' })
+	event.remove({ input: 'spelunkery:nephrite_spout' })
+	event.remove({ output: 'spelunkery:nephrite_spout' })
+	event.remove({ input: 'spelunkery:nephrite_diode' })
+	event.remove({ output: 'spelunkery:nephrite_diode' })
 	
 	event.smoking('abundant_atmosphere:roasted_mushrooms', '#forge:mushrooms').id('kubejs:roasted_mushrooms_smoking').xp(0.35)
 	event.campfireCooking('abundant_atmosphere:roasted_mushrooms', '#forge:mushrooms').id('kubejs:roasted_mushrooms_campfire').cookingTime(600)
 	event.campfireCooking('culturaldelights:smoked_eggplant', 'culturaldelights:eggplant').id('kubejs:smoked_eggplant_campfire').cookingTime(600)
 	event.campfireCooking('culturaldelights:smoked_cut_eggplant', 'culturaldelights:cut_eggplant').id('kubejs:smoked_cut_eggplant_campfire').cookingTime(600)
-	event.campfireCooking('culturaldelights:smoked_corn', 'culturaldelights:corn_cob').id('kubejs:smoked_corn_campfire').cookingTime(600)
 	event.campfireCooking('culturaldelights:smoked_white_eggplant', 'culturaldelights:white_eggplant').id('kubejs:smoked_white_eggplant_campfire').cookingTime(600)
 	event.campfireCooking('minecraft:brick', 'minecraft:clay_ball').id('kubejs:brick_campfire').cookingTime(300)
 	event.campfireCooking('minecraft:nether_brick', 'minecraft:netherrack').id('kubejs:nether_brick_campfire').cookingTime(300)
@@ -222,9 +389,9 @@ ServerEvents.recipes(event => {
 	],'farmersdelight:pie_crust',[
 		event.recipes.createDeploying('kubejs:incomplete_quiche',['kubejs:incomplete_quiche','#brewinandchewin:bacon_or_mushroom']),
 		event.recipes.createDeploying('kubejs:incomplete_quiche',['kubejs:incomplete_quiche','#forge:crops/cabbage']),
+		event.recipes.createDeploying('kubejs:incomplete_quiche',['kubejs:incomplete_quiche','#balm:eggs']),
 		event.recipes.createFilling('kubejs:incomplete_quiche',['kubejs:incomplete_quiche',Fluid.of('minecraft:milk',250)]),
-		event.recipes.createDeploying('kubejs:incomplete_quiche',['kubejs:incomplete_quiche','brewinandchewin:flaxen_cheese_wedge']),
-		event.recipes.createDeploying('kubejs:incomplete_quiche',['kubejs:incomplete_quiche','#balm:eggs'])
+		event.recipes.createFilling('kubejs:incomplete_quiche',['kubejs:incomplete_quiche',Fluid.of('kubejs:flaxen_cheese',250)])
 	]).transitionalItem('kubejs:incomplete_quiche').loops(1).id('kubejs:quiche_assembly')
 	event.recipes.createSequencedAssembly([
 		Item.of('farmersrespite:rose_hip_pie'),
@@ -236,15 +403,15 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:butterscotch_cinnamon_pie'),
 	],'farmersdelight:pie_crust',[
-		event.recipes.createDeploying('kubejs:incomplete_butterscotch_cinnamon_pie',['kubejs:incomplete_butterscotch_cinnamon_pie','kubejs:cinnamon']),
 		event.recipes.createFilling('kubejs:incomplete_butterscotch_cinnamon_pie',['kubejs:incomplete_butterscotch_cinnamon_pie',Fluid.of('kubejs:butterscotch',250)]),
-		event.recipes.createDeploying('kubejs:incomplete_butterscotch_cinnamon_pie',['kubejs:incomplete_butterscotch_cinnamon_pie','create:wheat_flour'])
+		event.recipes.createDeploying('kubejs:incomplete_butterscotch_cinnamon_pie',['kubejs:incomplete_butterscotch_cinnamon_pie','create:wheat_flour']),
+		event.recipes.createDeploying('kubejs:incomplete_butterscotch_cinnamon_pie',['kubejs:incomplete_butterscotch_cinnamon_pie','kubejs:cinnamon'])
 	]).transitionalItem('kubejs:incomplete_butterscotch_cinnamon_pie').loops(3).id('kubejs:butterscotch_cinnamon_pie_assembly')
 	event.recipes.createSequencedAssembly([
 		Item.of('brewinandchewin:pizza'),
 	],'farmersdelight:wheat_dough',[
 		event.recipes.createFilling('kubejs:incomplete_pizza',['kubejs:incomplete_pizza',Fluid.of('create_central_kitchen:tomato_sauce',250)]),
-		event.recipes.createDeploying('kubejs:incomplete_pizza',['kubejs:incomplete_pizza','brewinandchewin:flaxen_cheese_wedge']),
+		event.recipes.createFilling('kubejs:incomplete_pizza',['kubejs:incomplete_pizza',Fluid.of('kubejs:flaxen_cheese',250)]),
 		event.recipes.createDeploying('kubejs:incomplete_pizza',['kubejs:incomplete_pizza','farmersdelight:beef_patty']),
 		event.recipes.createDeploying('kubejs:incomplete_pizza',['kubejs:incomplete_pizza','minecraft:brown_mushroom'])
 	]).transitionalItem('kubejs:incomplete_pizza').loops(1).id('kubejs:pizza_assembly')
@@ -253,7 +420,7 @@ ServerEvents.recipes(event => {
 	],'minecraft:bread',[
 		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','farmersdelight:smoked_ham']),
 		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','minecraft:bread']),
-		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','brewinandchewin:flaxen_cheese_wedge']),
+		event.recipes.createFilling('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich',Fluid.of('kubejs:flaxen_cheese',250)]),
 		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','minecraft:bread'])
 	]).transitionalItem('kubejs:incomplete_ham_and_cheese_sandwich').loops(1).id('kubejs:ham_and_cheese_sandwich_assembly')
 	event.recipes.createSequencedAssembly([
@@ -297,15 +464,6 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying('kubejs:incomplete_nether_skewer',['kubejs:incomplete_nether_skewer','minecraft:crimson_fungus'])
 	]).transitionalItem('kubejs:incomplete_nether_skewer').loops(1).id('kubejs:nether_skewer_assembly')
 	event.recipes.createSequencedAssembly([
-		Item.of('miners_delight:improvised_barbecue_stick', 2),
-	],'minecraft:stick',[
-		event.recipes.createDeploying('kubejs:incomplete_improvised_barbecue_stick',['kubejs:incomplete_improvised_barbecue_stick','miners_delight:baked_cave_carrot']),
-		event.recipes.createDeploying('kubejs:incomplete_improvised_barbecue_stick',['kubejs:incomplete_improvised_barbecue_stick','miners_delight:smoked_bat_wing']),
-		event.recipes.createDeploying('kubejs:incomplete_improvised_barbecue_stick',['kubejs:incomplete_improvised_barbecue_stick','minecraft:stick']),
-		event.recipes.createDeploying('kubejs:incomplete_improvised_barbecue_stick',['kubejs:incomplete_improvised_barbecue_stick','miners_delight:smoked_bat_wing']),
-		event.recipes.createDeploying('kubejs:incomplete_improvised_barbecue_stick',['kubejs:incomplete_improvised_barbecue_stick','minecraft:brown_mushroom'])
-	]).transitionalItem('kubejs:incomplete_improvised_barbecue_stick').loops(1).id('kubejs:improvised_barbecue_stick_assembly')
-	event.recipes.createSequencedAssembly([
 		Item.of('endersdelight:crispy_skewer'),
 	],'minecraft:stick',[
 		event.recipes.createDeploying('kubejs:incomplete_crispy_skewer',['kubejs:incomplete_crispy_skewer','endersdelight:mite_crust']),
@@ -348,8 +506,8 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		Item.of('culturaldelights:calamari_roll', 2),
 	],'farmersdelight:cooked_rice',[
-		event.recipes.createDeploying('kubejs:incomplete_calamari_roll',['kubejs:incomplete_calamari_roll','miners_delight:tentacles']),
-		event.recipes.createDeploying('kubejs:incomplete_calamari_roll',['kubejs:incomplete_calamari_roll','miners_delight:tentacles']),
+		event.recipes.createDeploying('kubejs:incomplete_calamari_roll',['kubejs:incomplete_calamari_roll','culturaldelights:raw_calamari']),
+		event.recipes.createDeploying('kubejs:incomplete_calamari_roll',['kubejs:incomplete_calamari_roll','culturaldelights:raw_calamari']),
 		event.recipes.createDeploying('kubejs:incomplete_calamari_roll',['kubejs:incomplete_calamari_roll','minecraft:dried_kelp'])
 	]).transitionalItem('kubejs:incomplete_calamari_roll').loops(1).id('kubejs:calamari_roll_assembly')
 	event.recipes.createSequencedAssembly([
@@ -367,6 +525,57 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying('kubejs:incomplete_kipper_sandwich',['kubejs:incomplete_kipper_sandwich','#culturaldelights:avocados']),
 		event.recipes.createDeploying('kubejs:incomplete_kipper_sandwich',['kubejs:incomplete_kipper_sandwich','incubation:fried_egg'])
 	]).transitionalItem('kubejs:incomplete_kipper_sandwich').loops(1).id('kubejs:kipper_sandwich_assembly')
+	event.recipes.createSequencedAssembly([
+		Item.of('atmospheric:passionfruit_tart'),
+	],'farmersdelight:pie_crust',[
+		event.recipes.createDeploying('kubejs:incomplete_passionfruit_tart',['kubejs:incomplete_passionfruit_tart','atmospheric:passionfruit']),
+		event.recipes.createDeploying('kubejs:incomplete_passionfruit_tart',['kubejs:incomplete_passionfruit_tart','atmospheric:passionfruit']),
+		event.recipes.createDeploying('kubejs:incomplete_passionfruit_tart',['kubejs:incomplete_passionfruit_tart','minecraft:sugar']),
+		event.recipes.createDeploying('kubejs:incomplete_passionfruit_tart',['kubejs:incomplete_passionfruit_tart','#balm:eggs'])
+	]).transitionalItem('kubejs:incomplete_passionfruit_tart').loops(1).id('kubejs:passionfruit_tart_assembly')
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:prickly_pear_tart'),
+	],'farmersdelight:pie_crust',[
+		event.recipes.createDeploying('kubejs:incomplete_prickly_pear_tart',['kubejs:incomplete_prickly_pear_tart','ecologics:cooked_prickly_pear']),
+		event.recipes.createDeploying('kubejs:incomplete_prickly_pear_tart',['kubejs:incomplete_prickly_pear_tart','minecraft:sugar']),
+		event.recipes.createDeploying('kubejs:incomplete_prickly_pear_tart',['kubejs:incomplete_prickly_pear_tart','#balm:eggs'])
+	]).transitionalItem('kubejs:incomplete_prickly_pear_tart').loops(1).id('kubejs:prickly_pear_tart_assembly')
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:smore'),
+	],'kubejs:cinnamon_cracker',[
+		event.recipes.createDeploying('kubejs:incomplete_smore',['kubejs:incomplete_smore','create_confectionery:marshmallow']),
+		event.recipes.createDeploying('kubejs:incomplete_smore',['kubejs:incomplete_smore','kubejs:cinnamon_cracker'])
+	]).transitionalItem('kubejs:incomplete_smore').loops(1).id('kubejs:smore_assembly')
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:neapolitan_ice_cream_sandwich'),
+	],'kubejs:cinnamon_cracker',[
+		event.recipes.createFilling('kubejs:incomplete_neapolitan_ice_cream_sandwich',['kubejs:incomplete_neapolitan_ice_cream_sandwich',Fluid.of('create_central_kitchen:vanilla_ice_cream',250)]),
+		event.recipes.createFilling('kubejs:incomplete_neapolitan_ice_cream_sandwich',['kubejs:incomplete_neapolitan_ice_cream_sandwich',Fluid.of('create_central_kitchen:chocolate_ice_cream',250)]),
+		event.recipes.createFilling('kubejs:incomplete_neapolitan_ice_cream_sandwich',['kubejs:incomplete_neapolitan_ice_cream_sandwich',Fluid.of('create_central_kitchen:strawberry_ice_cream',250)]),
+		event.recipes.createDeploying('kubejs:incomplete_neapolitan_ice_cream_sandwich',['kubejs:incomplete_neapolitan_ice_cream_sandwich','kubejs:cinnamon_cracker'])
+	]).transitionalItem('kubejs:incomplete_neapolitan_ice_cream_sandwich').loops(1).id('kubejs:neapolitan_ice_cream_sandwich_assembly')
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:respiteful_ice_cream_sandwich'),
+	],'kubejs:cinnamon_cracker',[
+		event.recipes.createFilling('kubejs:incomplete_respiteful_ice_cream_sandwich',['kubejs:incomplete_respiteful_ice_cream_sandwich',Fluid.of('create_central_kitchen:green_tea_ice_cream',250)]),
+		event.recipes.createFilling('kubejs:incomplete_respiteful_ice_cream_sandwich',['kubejs:incomplete_respiteful_ice_cream_sandwich',Fluid.of('create_central_kitchen:black_tea_ice_cream',250)]),
+		event.recipes.createFilling('kubejs:incomplete_respiteful_ice_cream_sandwich',['kubejs:incomplete_respiteful_ice_cream_sandwich',Fluid.of('create_central_kitchen:yellow_tea_ice_cream',250)]),
+		event.recipes.createDeploying('kubejs:incomplete_respiteful_ice_cream_sandwich',['kubejs:incomplete_respiteful_ice_cream_sandwich','kubejs:cinnamon_cracker'])
+	]).transitionalItem('kubejs:incomplete_respiteful_ice_cream_sandwich').loops(1).id('kubejs:respiteful_ice_cream_sandwich_assembly')
+	event.recipes.createSequencedAssembly([
+		Item.of('create_confectionery:marshmallow_on_a_stick'),
+	],'minecraft:stick',[
+		event.recipes.createDeploying('kubejs:incomplete_marshmallow_stick',['kubejs:incomplete_marshmallow_stick','create_confectionery:marshmallow']),
+		event.recipes.createDeploying('kubejs:incomplete_marshmallow_stick',['kubejs:incomplete_marshmallow_stick','create_confectionery:marshmallow'])
+	]).transitionalItem('kubejs:incomplete_marshmallow_stick').loops(1).id('kubejs:marshmallow_stick_assembly')
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:preserved_skewer'),
+	],'minecraft:stick',[
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:kippers']),
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:jerky']),
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','culturaldelights:cut_pickle']),
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','minecraft:stick'])
+	]).transitionalItem('kubejs:incomplete_preserved_skewer').loops(1).id('kubejs:preserved_skewer_assembly')
 })
 
 ServerEvents.tags('item', event => {
@@ -382,8 +591,6 @@ ServerEvents.tags('item', event => {
 	event.get('forge:mushrooms').add('spelunkery:portabella')
 	event.get('forge:mushrooms').add('spelunkery:inkcap_mushroom')
 	event.get('forge:mushrooms').add('spelunkery:white_inkcap_mushroom')
-	event.get('forge:vegetables').add('miners_delight:cave_carrot')
-	event.get('forge:raw_fishes').add('babyfat:ranchu')
 	event.get('quark:seed_pouch_holdable').add('quark:glow_shroom')
 	event.get('quark:seed_pouch_holdable').add('spelunkery:phosphor_fungus')
 	event.get('quark:seed_pouch_holdable').add('spelunkery:mushgloom')
@@ -393,25 +600,72 @@ ServerEvents.tags('item', event => {
 	event.get('forge:tools').add('kubejs:copper_knife')
 	event.get('forge:tools/knives').add('kubejs:copper_knife')
 	event.get('brewinandchewin:raw_meats').add('#forge:raw_goat')
-	event.get('forge:crops/cabbage').add('kubejs:lettuce_leaf')
-	event.get('forge:salad_ingredients').add('kubejs:lettuce_leaf')
-	event.get('autumnity:snail_food').add('babyfat:water_lettuce')
-	event.get('autumnity:snail_food').add('kubejs:lettuce_leaf')
-	event.get('autumnity:snail_tempt_items').add('babyfat:water_lettuce')
-	event.get('autumnity:snail_tempt_items').add('kubejs:lettuce_leaf')
-	event.get('supplementaries:chains').add('architects_palette:nether_brass_chain')
 	event.get('minecraft:leaves').add('abundant_atmosphere:gourdrot_leaves')
 	event.get('minecraft:leaves').add('abundant_atmosphere:ash_leaves')
-	event.get('forge:plates').add('kubejs:lead_sheet')
-	event.get('forge:plates/lead').add('kubejs:lead_sheet')
 	event.get('crittersandcompanions:ferret_food').add('farmersdelight:chicken_cuts')
+	
+	event.get('forge:stripped_logs').add('environmental:stripped_willow_log')
+	event.get('forge:stripped_wood').add('environmental:stripped_willow_wood')
+	event.get('forge:stripped_logs').add('environmental:stripped_cherry_log')
+	event.get('forge:stripped_wood').add('environmental:stripped_cherry_wood')
+	event.get('forge:stripped_logs').add('environmental:stripped_wisteria_log')
+	event.get('forge:stripped_wood').add('environmental:stripped_wisteria_wood')
+	event.get('forge:stripped_logs').add('upgrade_aquatic:stripped_river_log')
+	event.get('forge:stripped_wood').add('upgrade_aquatic:stripped_river_wood')
+	event.get('forge:stripped_logs').add('upgrade_aquatic:stripped_driftwood_log')
+	event.get('forge:stripped_wood').add('upgrade_aquatic:stripped_driftwood')
+	event.get('forge:stripped_logs').add('autumnity:stripped_maple_log')
+	event.get('forge:stripped_wood').add('autumnity:stripped_maple_wood')
+	event.get('forge:stripped_logs').add('autumnity:sappy_maple_log')
+	event.get('forge:stripped_wood').add('autumnity:sappy_maple_wood')
+	event.get('forge:stripped_logs').add('atmospheric:stripped_rosewood_log')
+	event.get('forge:stripped_wood').add('atmospheric:stripped_rosewood')
+	event.get('forge:stripped_logs').add('atmospheric:stripped_morado_log')
+	event.get('forge:stripped_wood').add('atmospheric:stripped_morado_wood')
+	event.get('forge:stripped_logs').add('atmospheric:stripped_yucca_log')
+	event.get('forge:stripped_wood').add('atmospheric:stripped_yucca_wood')
+	event.get('forge:stripped_logs').add('atmospheric:stripped_aspen_log')
+	event.get('forge:stripped_wood').add('atmospheric:stripped_aspen_wood')
+	event.get('forge:stripped_logs').add('quark:stripped_ancient_log')
+	event.get('forge:stripped_wood').add('quark:stripped_ancient_wood')
+	
 	event.get('forge:cooked_eggs').remove('farmersdelight:fried_egg')
+	event.get('forge:cooked_eggs').remove('naturalist:cooked_egg')
+	event.get('forge:eggs').remove('naturalist:duck_egg')
+	event.get('minecraft:is_meat').remove('naturalist:duck')
+	event.get('minecraft:is_meat').remove('naturalist:cooked_duck')
+	event.get('minecraft:is_meat').remove('naturalist:venison')
+	event.get('minecraft:is_meat').remove('naturalist:cooked_venison')
+	event.get('minecraft:is_meat').remove('naturalist:lizard_tail')
+	event.get('minecraft:is_meat').remove('naturalist:cooked_lizard_tail')
+	event.get('minecraft:is_meat').remove('naturalist:bass')
+	event.get('minecraft:is_meat').remove('naturalist:cooked_bass')
+	event.get('minecraft:is_meat').remove('naturalist:catfish')
+	event.get('minecraft:is_meat').remove('naturalist:cooked_catfish')
+	event.get('naturalist:bear_tempt_items').remove('naturalist:venison')
 	event.get('minecraft:fishes').remove('crittersandcompanions:koi_fish')
 	event.get('minecraft:flowers').remove('nethersdelight:mimicarnation')
 	event.get('minecraft:small_flowers').remove('nethersdelight:mimicarnation')
+	event.get('forge:dough').remove('create:dough')
+	event.get('forge:dough/wheat').remove('create:dough')
+	event.get('forge:plates').remove('createaddition:zinc_sheet')
+	event.get('forge:plates_zinc').remove('createaddition:zinc_sheet')
+	event.get('minecraft:piglin_loved').remove('minecraft:enchanted_golden_apple')
+	
+	event.removeAllTagsFrom('createaddition:cake_base_baked')
+	event.removeAllTagsFrom('createaddition:chocolate_cake')
+	event.removeAllTagsFrom('createaddition:seed_oil_bucket')
+	event.removeAllTagsFrom('createaddition:bioethanol_bucket')
+	event.removeAllTagsFrom('create_enchantment_industry:hyper_experience_bottle')
+	event.removeAllTagsFrom('farmersdelight:milk_bottle')
+	
+	event.get('minecraft:saplings').add('culturaldelights:avocado_sapling')
+	event.get('create:upright_on_belt').add('neapolitan:milk_bottle')
+	event.get('naturalist:bear_tempt_items').add('environmental:venison')
 })
 
 ServerEvents.tags('block', event => {
+	event.get('auditory:basalt_sounds').add('create:andesite_alloy_block')
 	event.get('auditory:basalt_sounds').add('create:cut_granite')
 	event.get('auditory:basalt_sounds').add('create:cut_granite_stairs')
 	event.get('auditory:basalt_sounds').add('create:cut_granite_slab')
@@ -444,6 +698,12 @@ ServerEvents.tags('block', event => {
 	event.get('auditory:basalt_sounds').add('quark:permafrost_stairs')
 	event.get('auditory:basalt_sounds').add('quark:permafrost_slab')
 	event.get('auditory:basalt_sounds').add('quark:permafrost_wall')
+	event.get('auditory:basalt_sounds').add('kubejs:gingerbread_block')
+	event.get('auditory:basalt_sounds').add('create_confectionery:gingerbread_stairs')
+	event.get('auditory:basalt_sounds').add('create_confectionery:gingerbread_slab')
+	event.get('auditory:basalt_sounds').add('kubejs:gingerbread_bricks')
+	event.get('auditory:basalt_sounds').add('create_confectionery:gingerbread_brick_stairs')
+	event.get('auditory:basalt_sounds').add('create_confectionery:gingerbread_brick_slab')
 	
 	event.get('auditory:clay_brick_sounds').add('abundant_atmosphere:mixed_bricks')
 	event.get('auditory:clay_brick_sounds').add('abundant_atmosphere:mixed_brick_stairs')
@@ -471,6 +731,7 @@ ServerEvents.tags('block', event => {
 	event.get('auditory:clay_brick_sounds').add('autumnity:snail_shell_brick_wall')
 	event.get('auditory:clay_brick_sounds').add('autumnity:chiseled_snail_shell_bricks')
 	event.get('auditory:clay_brick_sounds').add('nethersdelight:blackstone_furnace')
+	event.get('auditory:clay_brick_sounds').add('farmersdelight:stove')
 	
 	event.get('auditory:stone_brick_sounds').add('minecraft:end_stone_bricks')
 	event.get('auditory:stone_brick_sounds').add('minecraft:end_stone_brick_stairs')
@@ -618,14 +879,24 @@ ServerEvents.tags('block', event => {
 	
 	event.get('auditory:gold_sounds').add('minecraft:beacon')
 	event.get('auditory:gold_sounds').add('create:blaze_burner')
+	event.get('auditory:gold_sounds').add('create_enchantment_industry:blaze_enchanter')
+	event.get('auditory:gold_sounds').add('create_central_kitchen:blaze_stove')
 	event.get('auditory:gold_sounds').add('create:track')
 	event.get('auditory:gold_sounds').add('create:copycat_panel')
 	event.get('auditory:gold_sounds').add('create:copycat_step')
 	event.get('auditory:gold_sounds').add('toms_storage:ts.trim')
 	event.get('auditory:gold_sounds').add('quark:magnet')
+	event.get('auditory:gold_sounds').add('toms_storage:ts.inventory_cable')
+	event.get('auditory:gold_sounds').add('toms_storage:ts.storage_terminal')
 	
-	event.get('auditory:metal_sounds').add('farmersdelight:stove')
 	event.get('auditory:metal_sounds').add('#minecraft:anvil')
+	event.get('auditory:metal_sounds').add('toms_storage:ts.inventory_cable_connector')
+	event.get('auditory:metal_sounds').add('toms_storage:ts.inventory_connector')
+	event.get('auditory:metal_sounds').add('create_enchantment_industry:printer')
+	event.get('auditory:metal_sounds').add('create_enchantment_industry:disenchanter')
+	event.get('auditory:metal_sounds').add('alloyed:bronze_bell')
+	event.get('auditory:metal_sounds').add('alloyed:steel_door')
+	event.get('auditory:metal_sounds').add('alloyed:locked_steel_door')
 	
 	event.get('auditory:raw_ore_block_sounds').add('nethersdelight:blackstone_stove')
 	
@@ -639,9 +910,28 @@ ServerEvents.tags('block', event => {
 	event.get('auditory:gourd_sounds').add('farmersdelight:roast_chicken_block')
 	event.get('auditory:gourd_sounds').add('farmersdelight:rice_roll_medley_block')
 	event.get('auditory:gourd_sounds').add('culturaldelights:exotic_roll_medley')
-	event.get('auditory:gourd_sounds').add('miners_delight:stuffed_squid')
 	event.get('auditory:gourd_sounds').add('nethersdelight:stuffed_hoglin')
 	event.get('auditory:gourd_sounds').add('kubejs:eggplant_parmesan_block')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_block')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_pavement')
+	event.get('auditory:gourd_sounds').add('kubejs:chiseled_dark_chocolate_pavement')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_pavement_slab')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_pavement_stairs')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_pavement_wall')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_tiles')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_tile_slab')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_tile_stairs')
+	event.get('auditory:gourd_sounds').add('kubejs:dark_chocolate_tile_wall')	
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_block')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_pavement')
+	event.get('auditory:gourd_sounds').add('kubejs:chiseled_white_chocolate_pavement')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_pavement_slab')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_pavement_stairs')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_pavement_wall')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_tiles')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_tile_slab')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_tile_stairs')
+	event.get('auditory:gourd_sounds').add('kubejs:white_chocolate_tile_wall')
 	
 	event.get('minecraft:soul_fire_base_blocks').add('spelunkery:rock_salt_block')
 	
@@ -678,7 +968,39 @@ ServerEvents.tags('block', event => {
 	event.get('auditory:leaf_sounds').add('#minecraft:leaves')
 	event.get('auditory:leaf_sounds').add('#woodworks:leaf_piles')
 	
+	event.get('minecraft:saplings').add('culturaldelights:avocado_sapling')
+	
 	event.get('brewinandchewin:freeze_sources').add('#auditory:ice_sounds')
+	
+	event.get('create:wrench_pickup').add('toms_storage:ts.inventory_cable_connector')
+	event.get('create:wrench_pickup').add('toms_storage:ts.inventory_cable')
+	event.get('create:wrench_pickup').add('toms_storage:ts.storage_terminal')
+	event.get('create:wrench_pickup').add('toms_storage:ts.inventory_connector')
+	event.get('create:wrench_pickup').add('toms_storage:ts.inventory_connector')
+	event.get('create:wrench_pickup').add('oreganized:exposer')
+	event.get('create:wrench_pickup').add('minecraft:dispenser')
+	event.get('create:wrench_pickup').add('minecraft:dropper')
+	event.get('create:wrench_pickup').add('minecraft:lightning_rod')
+	event.get('create:wrench_pickup').add('minecraft:redstone_lamp')
+	event.get('create:wrench_pickup').add('minecraft:note_block')
+	event.get('create:wrench_pickup').add('upgrade_aquatic:elder_eye')
+	event.get('create:wrench_pickup').add('upgrade_aquatic:elder_guardian_spine')
+	event.get('create:wrench_pickup').add('upgrade_aquatic:guardian_spine')
+	event.get('create:wrench_pickup').add('quark:ender_watcher')
+	event.get('create:wrench_pickup').add('quark:magnet')
+	event.get('create:wrench_pickup').add('quark:pipe')
+	event.get('create:wrench_pickup').add('quark:encased_pipe')
+	event.get('create:wrench_pickup').add('supplementaries:cog_block')
+	event.get('create:wrench_pickup').add('supplementaries:relayer')
+	event.get('create:wrench_pickup').add('supplementaries:spring_launcher')
+	event.get('create:wrench_pickup').add('supplementaries:speaker_block')
+	event.get('create:wrench_pickup').add('supplementaries:redstone_illuminator')
+	event.get('create:wrench_pickup').add('supplementaries:bellows')
+	event.get('create:wrench_pickup').add('supplementaries:clock_block')
+	event.get('create:wrench_pickup').add('supplementaries:crystal_display')
+	event.get('create:wrench_pickup').add('supplementaries:wind_vane')
+	event.get('create:wrench_pickup').add('supplementaries:faucet')
+	event.get('create:wrench_pickup').add('additionaladditions:amethyst_lamp')
 	
 	event.get('minecraft:needs_stone_tool').remove('minecraft:copper_ore')
 	event.get('minecraft:needs_stone_tool').remove('minecraft:deepslate_copper_ore')

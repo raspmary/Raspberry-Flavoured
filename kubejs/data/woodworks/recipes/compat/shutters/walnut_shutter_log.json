@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 8,
+  "ingredient": {
+    "tag": "ecologics:walnut_logs"
+  },
+  "result": "everycomp:af/ecologics/walnut_shutter"
+}

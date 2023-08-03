@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:find_stronghold",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "to": "minecraft:the_end"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Inside of a stronghold, find the room that contains the empty End portal frames, fill them in with Eyes of Ender to open up the portal and enter the End"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "In the Final"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

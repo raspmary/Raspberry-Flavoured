@@ -1,31 +1,71 @@
 {
   "criteria": {
     "0": {
-      "conditions": {},
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat_seeds",
+              "minecraft:pumpkin_seeds",
+              "minecraft:melon_seeds",
+              "minecraft:beetroot_seeds",
+              "farmersrespite:tea_seeds",
+              "farmersdelight:cabbage_seeds",
+              "farmersdelight:tomato_seeds",
+              "culturaldelights:cucumber_seeds",
+              "culturaldelights:eggplant_seeds",
+              "culturaldelights:corn_kernels",
+              "supplementaries:flax_seeds",
+              "minecraft:carrot",
+              "minecraft:potato",
+              "minecraft:beetroot",
+              "farmersdelight:onion",
+              "farmersdelight:cabbage",
+              "farmersdelight:tomato",
+              "farmersdelight:rice",
+              "culturaldelights:cucumber",
+              "culturaldelights:eggplant",
+              "culturaldelights:corn_cob",
+              "minecraft:flint",
+              "minecraft:clay_ball"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      },
       "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
     "announce_to_chat": false,
-    "background": "clayworks:textures/block/orange_terracotta_bricks.png",
+    "background": "farmersdelight:textures/block/rich_soil.png",
     "description": {
       "color": "#C44E00",
       "text": "Time to farm!"
     },
     "frame": "task",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "minecraft:wheat"
     },
     "show_toast": false,
     "title": {
       "color": "#C44E00",
-      "text": "Farming"
+      "text": "Farming & Foraging"
     }
   },
   "requirements": [
     [
-      "0"
+      "0", "1"
     ]
   ]
 }
