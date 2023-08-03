@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ecologics:coconut"
+    }
+  ],
+  "result": [
+    {
+      "item": "ecologics:coconut_slice",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  },
+  "sound": "auditory:block.gourd.break"
+}
