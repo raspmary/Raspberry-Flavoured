@@ -1,7 +1,0 @@
-{
-  "parent": "create:block/mechanical_saw/blade_horizontal_active",
-  "textures": {
-    "stonecutter_saw": "kubejs:block/static_saw",
-    "stonecutter_saw_reversed": "kubejs:block/static_saw"
-  }
-}

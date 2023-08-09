@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "architects_palette:item/withered_bone"
-  }
-}
