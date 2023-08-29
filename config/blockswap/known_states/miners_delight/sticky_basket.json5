@@ -9,6 +9,213 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"enabled": "false"
+		},
+		"Name": "miners_delight:sticky_basket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"enabled": "false"
+		},
 		"Name": "miners_delight:sticky_basket"
 	}
 ]

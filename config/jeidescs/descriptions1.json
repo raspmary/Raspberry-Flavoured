@@ -30,7 +30,23 @@
 		},
 		{
 			"item": "#forge:tools/gold",
-			"text": "Golden tools have a special property - they're naturally imbued with a Fortune I/Looting I effect, meaning they'll yield slightly more drops from certain blocks and almost all mobs. This effect does not stack with the Fortune/Looting enchantments."
+			"text": "Golden tools are naturally imbued with a Fortune I/Looting I effect. This effect does not stack with the actual enchantments."
+		},
+		{
+			"item": ["minecraft:leather_helmet","minecraft:leather_chestplate","minecraft:leather_leggings","minecraft:leather_boots"],
+			"text": "Leather armour is naturally imbued with a Feather Falling I effect. This effect does not stack with the actual enchantment. (Yes, Feather Falling works on all armour pieces)"
+		},
+		{
+			"item": ["minecraft:chainmail_helmet","minecraft:chainmail_chestplate","minecraft:chainmail_leggings","minecraft:chainmail_boots"],
+			"text": "Chainmail armour is naturally imbued with a Thorns I effect. This effect does not stack with the actual enchantment."
+		},
+		{
+			"item": ["minecraft:golden_helmet","minecraft:golden_chestplate","minecraft:golden_leggings","minecraft:golden_boots"],
+			"text": "Golden armour is naturally imbued with a Fire Protection I effect. This effect does not stack with the actual enchantment."
+		},
+		{
+			"item": ["alloyed:steel_helmet","alloyed:steel_chestplate","alloyed:steel_leggings","alloyed:steel_boots","alloyed:steel_pickaxe","alloyed:steel_shovel","alloyed:steel_axe","alloyed:steel_hoe","alloyed:steel_sword","alloyed:steel_knife","alloyed:steel_shears","alloyed:steel_fishing_rod"],
+			"text": "Steel armour and tools are naturally imbued with a Unbreaking I effect. This effect does not stack with the actual enchantment."
 		},
 		{
 			"item": "ceramicshears:ceramic_shears",
@@ -139,10 +155,6 @@
 		{
 			"item": ["supplementaries:flax","supplementaries:flax_seeds"],
 			"text": "Flax can be found in the wild in most biomes, and is used to make things like sacks, doormats and rope - it can also be cut, milled or crushed into string."
-		},
-		{
-			"item": ["miners_delight:cave_carrot","miners_delight:wild_cave_carrots"],
-			"text": "Cave carrots are somewhat rarely found in caves and are a good food source if you've gotten yourself stuck in the mines. Despite being found underground, they'll still grow on the surface just fine."
 		},
 		{
 			"item": ["culturaldelights:cucumber_seeds","culturaldelights:cucumber","culturaldelights:wild_cucumbers"],
@@ -317,8 +329,44 @@
 			"text": "Bucklers can be rarely found in Nether bastions, either in chests or dropped by piglin brutes. Holding R-Click with a buckler in hand will cause you to charge forward for a short while. During the charge, you won't be able to turn or jump, but colliding with an entity during the charge will knock it back and deal some damage. Additionally, after a collision, you're granted a critical melee strike that only lasts for one swing - make sure you don't miss!"
 		},
 		{
-			"item": ["farmersdelight:roast_chicken_block","farmersdelight:stuffed_pumpkin_block","farmersdelight:honey_glazed_ham_block","farmersdelight:shepherds_pie_block","farmersdelight:rice_roll_medley_block","culturaldelights:exotic_roll_medley","nethersdelight:stuffed_hoglin","brewinandchewin:fiery_fondue_pot","kubejs:eggplant_parmesan_block","endersdelight:stuffed_shulker"],
+			"item": ["farmersdelight:roast_chicken_block","farmersdelight:stuffed_pumpkin_block","farmersdelight:honey_glazed_ham_block","farmersdelight:shepherds_pie_block","farmersdelight:rice_roll_medley_block","culturaldelights:exotic_roll_medley","nethersdelight:stuffed_hoglin","brewinandchewin:fiery_fondue_pot","kubejs:eggplant_parmesan_block","endersdelight:stuffed_shulker","miners_delight:stuffed_squid"],
 			"text": "These foods are all feasts - you can place them down and then take portions out of them, typically with bowls."
+		},
+		{
+			"item": ["evoked:rune_of_life","evoked:totem_husk"],
+			"text": "Runes of life can be used to power totem husks in order to obtain totems of undying - the former will drop from Evokers and Tricksters spawning in village raids, and the latter can be found in places like dungeons or pillager outposts."
+		},
+		{
+			"item": ["minecraft:music_disc_13","minecraft:music_disc_cat"],
+			"text": "Dropped by a creeper when killed by a skeleton, or found in dungeon chests."
+		},
+		{
+			"item": ["minecraft:music_disc_blocks","minecraft:music_disc_chirp","minecraft:music_disc_far","minecraft:music_disc_mall","minecraft:music_disc_mellohi","minecraft:music_disc_stal","minecraft:music_disc_strad","minecraft:music_disc_ward","minecraft:music_disc_11","minecraft:music_disc_wait"],
+			"text": "Dropped by a creeper when killed by a skeleton."
+		},
+		{
+			"item": "minecraft:music_disc_otherside",
+			"text": "Found in stronghold chests or crafted with an eye of ender and eight disc fragments."
+		},
+		{
+			"item": "minecraft:music_disc_pigstep",
+			"text": "Found in the Nether inside piglin bastion remnants."
+		},
+		{
+			"item": "berry_good:music_disc_fox",
+			"text": "Foxes can very rarely be found holding this disc in their mouths."
+		},
+		{
+			"item": "ecologics:music_disc_coconut",
+			"text": "Found in buried treasure chests."
+		},
+		{
+			"item": "environmental:music_disc_slabrave",
+			"text": "Can be obtained by feeding any of the discs that drop from creepers to a slabfish."
+		},
+		{
+			"item": "neapolitan:music_disc_hullabaloo",
+			"text": "Can be obtained by getting a group of chimpanzees to kill a ravager by shooting it with a bananarrow."
 		}
 	]
 }

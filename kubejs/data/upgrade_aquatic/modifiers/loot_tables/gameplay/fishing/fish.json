@@ -6,18 +6,6 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": 1.0,
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "culturaldelights:squid",
-            "weight": 10
-          },
-          {
-            "type": "minecraft:item",
             "conditions": [
               {
                 "condition": "minecraft:alternative",

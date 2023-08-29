@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.2,
+  "ingredients": [
+    {
+      "item": "kubejs:cinnamon"
+    },
+	{
+      "item": "neapolitan:mint_leaves"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+	{
+      "tag": "forge:raw_chicken"
+    },
+	{
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "kubejs:cinnamon_mint_curry"
+  }
+}

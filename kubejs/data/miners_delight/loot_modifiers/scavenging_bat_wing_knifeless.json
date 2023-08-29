@@ -1,0 +1,43 @@
+{
+	"type": "farmersdelight:add_item",
+	"conditions": [
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "killer",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "farmersdelight:tools/knives"
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:bat"
+			}
+		},
+		{
+			"condition": "minecraft:random_chance",
+			"chance" : 0.5
+		}
+	],
+	"functions": [
+		{
+			"function": "minecraft:apply_bonus",
+			"enchantment": "minecraft:fortune",
+			"formula": "minecraft:binomial_with_bonus_count",
+			"parameters": {
+				"extra": 1,
+				"probability": 0.5714286
+			}
+		}
+	],
+	"item": "miners_delight:bat_wing",
+	"count" : 1
+}

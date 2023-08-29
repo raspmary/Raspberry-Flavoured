@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:hunting_root",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Find buried treasure"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "X Marks The Spot"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

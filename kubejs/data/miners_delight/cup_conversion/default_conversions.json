@@ -1,16 +1,4 @@
 {
 	"entries" : [
-		{
-			"bowl": "miners_delight:cave_soup",
-			"cup": "miners_delight:cave_soup_cup"
-		},
-		{
-			"bowl": "minecraft:mushroom_stew",
-			"cup": "miners_delight:mushroom_stew_cup"
-		},
-		{
-			"bowl": "farmersdelight:bone_broth",
-			"cup": "kubejs:bone_broth_cup"
-		}
 	]
 }

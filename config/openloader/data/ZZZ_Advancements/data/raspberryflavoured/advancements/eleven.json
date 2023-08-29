@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:dungeon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_eleven"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Repair \"11\", the shattered music disc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "kubejs:music_disc_eleven"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Mending Broken Memories"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

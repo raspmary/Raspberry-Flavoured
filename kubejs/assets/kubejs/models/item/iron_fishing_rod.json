@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+        "layer0": "kubejs:item/iron_fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "kubejs:item/iron_rod_cast"
+        }
+    ]
+}

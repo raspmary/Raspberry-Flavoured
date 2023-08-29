@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "kubejs:music_disc_dalarna"
+  },
+  "base": {
+    "item": "kubejs:music_disc_halland"
+  },
+  "result": {
+    "item": "kubejs:music_disc_halland_dalarna"
+  }
+}

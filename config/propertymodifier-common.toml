@@ -113,11 +113,14 @@
 		"minecraft:flint_and_steel" = 768
 		"minecraft:shears" = 512
 		"alloyed:steel_shears" = 1568
-		"minecraft:fishing_rod" = 128
+		"minecraft:fishing_rod" = 512
+		"minecraft:carrot_on_a_stick" = 512
+		"minecraft:warped_fungus_on_a_stick" = 512
 		"alloyed:steel_fishing_rod" = 1568
 		"create:sand_paper" = 16
 		"create:red_sand_paper" = 16
 		"bigbrain:buckler" = 128
+		"overweight_farming:straw_hat" = 64
 		"minecraft:wooden_pickaxe" = 128
 		"minecraft:wooden_shovel" = 128
 		"minecraft:wooden_hoe" = 128

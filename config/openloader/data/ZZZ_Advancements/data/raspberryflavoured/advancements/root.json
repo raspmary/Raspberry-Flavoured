@@ -1,8 +1,14 @@
 {
   "criteria": {
     "0": {
-      "conditions": {},
-      "trigger": "minecraft:inventory_changed"
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      },
+      "trigger": "minecraft:location"
     }
   },
   "display": {
@@ -23,6 +29,9 @@
       "text": "Raspberry Flavoured"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:gamerules"
+    },
   "requirements": [
     [
       "0"

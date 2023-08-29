@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "blueprint:quark_flag",
+          "flag": "hedges"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "#": {
+            "tag": "minecraft:spruce_logs"
+          },
+          "L": {
+            "item": "windswept:holly_leaves"
+          }
+        },
+        "pattern": [
+          "L",
+          "#"
+        ],
+        "result": {
+          "count": 2,
+          "item": "windswept:holly_hedge"
+        }
+      }
+    }
+  ]
+}

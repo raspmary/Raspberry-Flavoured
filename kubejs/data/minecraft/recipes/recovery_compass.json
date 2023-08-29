@@ -4,7 +4,7 @@
         "item": "minecraft:compass"
     },
     "addition": {
-        "item": "minecraft:echo_shard"
+        "item": "quark:soul_bead"
     },
     "result": {
         "item": "minecraft:recovery_compass"

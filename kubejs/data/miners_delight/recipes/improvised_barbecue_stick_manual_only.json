@@ -7,9 +7,14 @@
     {
       "tag": "forge:rods/wooden"
     },
+	[
     {
-      "item": "miners_delight:baked_cave_carrot"
+      "item": "miners_delight:baked_squid"
     },
+	{
+      "item": "miners_delight:baked_tentacles"
+    }
+	],
     {
       "item": "minecraft:brown_mushroom"
     },

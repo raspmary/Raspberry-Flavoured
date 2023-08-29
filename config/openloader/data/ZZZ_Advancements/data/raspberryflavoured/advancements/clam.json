@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Find a clam while fishing or get one from killing a drowned"
+      "text": "Find a clam while fishing, get one from killing a drowned, or put some algal blend in a fish trap to passively gather some"
     },
     "frame": "task",
     "hidden": false,

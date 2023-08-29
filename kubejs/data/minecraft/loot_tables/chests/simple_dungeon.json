@@ -6,8 +6,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 20
+          "name": "evoked:totem_husk",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -17,17 +17,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_13",
-          "weight": 15
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -36,7 +31,23 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:name_tag",
+          "name": "minecraft:disc_fragment_5",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rabbit_hide",
           "weight": 20
         },
         {
@@ -67,7 +78,7 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
+        "max": 2.0,
         "min": 1.0
       }
     },
@@ -108,8 +119,34 @@
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spelunkery:rough_emerald",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:bread",
           "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:oatmeal",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
@@ -253,6 +290,22 @@
           ],
           "name": "minecraft:gunpowder",
           "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "savage_and_ravage:creeper_spores",
+          "weight": 4
         },
         {
           "type": "minecraft:item",

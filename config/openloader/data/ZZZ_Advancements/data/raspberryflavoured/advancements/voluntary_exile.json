@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Kill a pillager captain to obtain an ominous banner, then burn it... or drink a Dread Nog"
+      "text": "Kill a pillager captain to obtain an ominous banner or find it on a pillager outpost, then burn it... or drink a Dread Nog - maybe you should stay away from your village for the time being..."
     },
     "frame": "goal",
     "hidden": false,

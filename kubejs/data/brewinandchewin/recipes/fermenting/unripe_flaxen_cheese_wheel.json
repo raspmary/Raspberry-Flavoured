@@ -4,7 +4,7 @@
     "item": "minecraft:honeycomb"
   },
   "experience": 1,
-  "fermentingtime": 4000,
+  "fermentingtime": 6000,
   "fluiditem": {
     "tag": "forge:milk"
   },
@@ -21,7 +21,7 @@
   ],
   "recipe_book_tab": "misc",
   "result": {
-    "item": "brewinandchewin:unripe_flaxen_cheese_wheel"
+    "item": "brewinandchewin:flaxen_cheese_wheel"
   },
   "temperature": 4
 }

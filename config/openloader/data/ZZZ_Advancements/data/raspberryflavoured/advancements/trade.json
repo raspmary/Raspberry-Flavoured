@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Make a trade with a villager or wandering trader"
+      "text": "Make a trade with a villager"
     },
     "frame": "task",
     "hidden": false,
@@ -19,7 +19,7 @@
     },
     "show_toast": true,
     "title": {
-      "text": "A Steal of a Deal"
+      "text": "Drive A Hard Bargain"
     }
   },
   "requirements": [

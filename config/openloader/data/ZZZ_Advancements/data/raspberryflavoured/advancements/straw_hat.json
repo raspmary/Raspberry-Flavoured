@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:trade",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "overweight_farming:straw_hat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Get lucky and buy a straw hat from a master farmer villager"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "overweight_farming:straw_hat"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Farmer's Delight"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "raspberryflavoured:voluntary_exile",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Find a totem husk and power it with a life rune to obtain a totem of undying"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Memento Mori"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

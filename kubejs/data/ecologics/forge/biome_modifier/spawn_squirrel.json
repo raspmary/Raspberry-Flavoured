@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:plains",
+  "spawners": {
+    "type": "ecologics:squirrel",
+    "weight": 0,
+    "minCount": 0,
+    "maxCount": 0
+  }
+}

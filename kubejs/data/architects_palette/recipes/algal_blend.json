@@ -6,11 +6,17 @@
     },
     {
       "item": "minecraft:kelp"
+    },
+	{
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:kelp"
     }
   ],
   "results": [
     {
-      "count": 2,
+      "count": 4,
       "item": "architects_palette:algal_blend"
     }
   ]

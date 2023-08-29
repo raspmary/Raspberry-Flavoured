@@ -1,0 +1,42 @@
+{
+  "parent": "raspberryflavoured:hunting_root",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Discover an ancient city deep down underground"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Echoes"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -4,6 +4,14 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 Platform.mods.kubejs.name = 'Raspberry Flavoured'
 
+let music_list = {
+    "music_disc_eleven": "Eleven",
+	"music_disc_dog": "Dog",
+	"music_disc_halland": "Halland",
+	"music_disc_dalarna": "Dalarna",
+	"music_disc_halland_dalarna": "Halland & Dalarna"
+}
+
 ItemEvents.toolTierRegistry (event => {
   event.add('rosegold', tier => {
     tier.uses = 896
@@ -33,11 +41,24 @@ StartupEvents.registry('fluid', event =>
 	event.create('scarlet_cheese').displayName('Scarlet Cheese').stillTexture('kubejs:fluid/scarlet_cheese_still').flowingTexture('kubejs:fluid/scarlet_cheese_flow')
 })
 
+StartupEvents.registry('sound_event', (event) => {
+    Object.keys(music_list).forEach((value) => {
+        event.create(`music.${value}`)
+    })
+})
+
 StartupEvents.registry('item', event => {
+	Object.keys(music_list).forEach((value, index) => {
+        event
+            .create(value, "music_disc")
+            .song(`kubejs:music.${value}`, 1)
+            .analogOutput(1)
+            .texture(`kubejs:item/${value}`)
+            .displayName('Music Disc')
+    })
 	event.create('rose_gold_knife', 'knife').displayName('Rose Gold Knife').tier('rosegold').attackDamageBaseline(1.5).speedBaseline(-2.0)
 	event.create('copper_knife', 'knife').displayName('Copper Knife').tier('copper').attackDamageBaseline(0).speedBaseline(-2.0)
 	event.create('raw_ammonite').displayName('Ammonite')
-	event.create('crab_bucket').displayName('Bucket of Crab').maxStackSize(1)
 	event.create('soul_salt').displayName('Soul Salt')
 	event.create('fragrant_tree_bark').displayName('Fragrant Tree Bark')
 	event.create('oats').displayName('Oats')
@@ -207,6 +228,16 @@ StartupEvents.registry('item', event => {
     		.saturation(0.95)
 			.effect('farmersdelight:comfort', 3000, 0, 100)
 			.effect('farmersdelight:nourishment', 3000, 0, 100)
+			.eaten(ctx => {
+        		ctx.player.giveInHand('minecraft:bowl')
+        	})
+        	})
+	event.create('cinnamon_mint_curry').displayName('Cinnamon Mint Curry').maxStackSize(16).food(food => {
+		food
+    		.hunger(10)
+    		.saturation(0.7)
+			.effect('farmersdelight:nourishment', 3600, 0, 100)
+			.effect('neapolitan:berserking', 900, 0, 100)
 			.eaten(ctx => {
         		ctx.player.giveInHand('minecraft:bowl')
         	})
@@ -727,6 +758,9 @@ ItemEvents.modification(event => {
 	event.modify('minecraft:golden_carrot', item => {
         item.rarity = 'uncommon'
     })
+	event.modify('minecraft:disc_fragment_5', item => {
+        item.rarity = 'rare'
+    })
 	event.modify('minecraft:glistering_melon_slice', item => {
         item.rarity = 'uncommon'
     })
@@ -1246,14 +1280,9 @@ ItemEvents.modification(event => {
             food.hunger(10).saturation(0.75).effect('endersdelight:phasing', 2400, 1, 100)
         }
     })
-	event.modify('culturaldelights:cooked_squid', item => {
+	event.modify('miners_delight:baked_squid', item => {
         item.foodProperties = food => {
-            food.hunger(6).saturation(0.5)
-        }
-    })
-	event.modify('culturaldelights:glow_squid', item => {
-        item.foodProperties = food => {
-            food.removeEffect('glowing').effect('glowing', 1200, 0, 50)
+            food.hunger(6).saturation(0.6)
         }
     })
 	event.modify('abnormals_delight:maple_glazed_bacon', item => {
@@ -1322,11 +1351,6 @@ ItemEvents.modification(event => {
         }
     })
 	event.modify('farmersrespite:yellow_tea', item => {
-        item.foodProperties = food => {
-            food.effect('cofh_core:cold_resistance', 2400, 0, 100)
-        }
-    })
-	event.modify('farmersrespite:black_tea', item => {
         item.foodProperties = food => {
             food.effect('cofh_core:cold_resistance', 2400, 0, 100)
         }
@@ -1609,6 +1633,11 @@ ItemEvents.modification(event => {
 	event.modify('respiteful:respiteful_ice_cream', item => {
         item.foodProperties = food => {
             food.removeEffect('slowness').removeEffect('respiteful:maturity').effect('cofh_core:chilled', 140, 0, 100).effect('respiteful:maturity', 900, 0, 100)
+        }
+    })
+	event.modify('crittersandcompanions:koi_fish', item => {
+        item.foodProperties = food => {
+            food.effect('poison', 40, 0, 100).effect('blindness', 80, 0, 100)
         }
     })
 })

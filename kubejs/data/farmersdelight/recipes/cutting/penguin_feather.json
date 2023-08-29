@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ecologics:penguin_feather"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:feather"
+    },
+	{
+	  "chance": 0.15,
+      "item": "minecraft:feather"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}

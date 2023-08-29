@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+	"I": {
+      "tag": "forge:ingots/iron"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "  I",
+    " IX",
+    "# X"
+  ],
+  "result": {
+    "item": "minecraft:fishing_rod"
+  }
+}

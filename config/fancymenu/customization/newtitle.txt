@@ -202,7 +202,7 @@ customization {
   actionid = 7896132c-c0c1-42ca-a830-b8dbca27754f1688230352925
   action = addsplash
   y = 217
-  text = Escalerrrrra ooooooooooohhhhh!
+  text = Now that's what I call consumption!
 }
 
 customization {
@@ -221,7 +221,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = v2.0.0 PUBLIC BETA
+  source = V2.0 BETA 3
   text_border = 0
   case_mode = upper
   source_mode = direct

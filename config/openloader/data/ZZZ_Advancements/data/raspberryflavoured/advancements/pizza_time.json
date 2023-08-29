@@ -1,0 +1,52 @@
+{
+  "parent": "raspberryflavoured:keg",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewinandchewin:pizza_slice"
+            ],
+			"count": 64
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewinandchewin:pizza"
+            ],
+			"count": 16
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Have a stack of pizza or pizza slices in your inventory"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "brewinandchewin:pizza"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Pizza Time Never Ends"
+    }
+  },
+  "requirements": [
+    [
+      "0", "1"
+    ]
+  ]
+}

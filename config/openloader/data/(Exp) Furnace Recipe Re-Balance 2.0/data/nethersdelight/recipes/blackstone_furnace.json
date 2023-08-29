@@ -3,13 +3,13 @@
   "key": {
     "#": [
 	{
-      "item": "minecraft:bricks"
+      "item": "minecraft:brick"
     },
 	{
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:nether_brick"
     },
 	{
-      "item": "supplementaries:ash_bricks"
+      "item": "supplementaries:ash_brick"
     }
 	],
 	"C": {

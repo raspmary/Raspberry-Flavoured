@@ -8,10 +8,10 @@
   "ingredients": [
     [
 		{
-			"item": "culturaldelights:squid"
+			"item": "miners_delight:squid"
 		},
 		{
-			"item": "culturaldelights:raw_calamari"
+			"item": "miners_delight:tentacles"
 		}
     ],
 	{

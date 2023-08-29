@@ -76,23 +76,6 @@
     },
     {
       "offer": {
-        "itemKey": "fishermens_trap:fishtrap",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
-        "priceModifier": 0
-      },
-      "tradeExp": 12,
-      "maxUses": 4,
-      "priceMultiplier": 0.2,
-      "demand": 0,
-      "tradeLevel": 2
-    },
-    {
-      "offer": {
         "itemKey": "minecraft:salmon",
         "amount": 2,
         "priceModifier": 0
@@ -414,6 +397,24 @@
       "demand": 0,
       "tradeLevel": 5,
       "UTID": "minecraft:fisherman_spyglass_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "fishermens_trap:fishtrap",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 4,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_fishtrap_for_emerald"
     }
   ]
 }

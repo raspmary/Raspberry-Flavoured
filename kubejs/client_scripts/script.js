@@ -7,6 +7,22 @@ JEIEvents.hideItems(event => {
 	// event.hide('minecraft:cobblestone')
 })
 
+JEIEvents.removeCategories(event => {
+    console.log(event.getCategoryIds())
+
+    const removeCategories = [
+    'brewinandchewin:flaxen_cheese_ripening',
+    'brewinandchewin:scarlet_cheese_ripening',
+    'miners_delight:cooking',
+    'minecraft:anvil'
+    ]
+
+    removeCategories.forEach((catid) => {
+        // console.log('Removing category id for: ' + catid)
+        event.remove(catid)
+    })
+})
+
 ItemEvents.tooltip(tooltip => {
   tooltip.add(['abnormals_delight:vanilla_cake_slice'], "§9Vanilla Scent (0:05)")
   tooltip.add(['abnormals_delight:chocolate_cake_slice'], "§9Sugar Rush (0:10)")
@@ -21,6 +37,7 @@ ItemEvents.tooltip(tooltip => {
   tooltip.add(['neapolitan:strawberry_ice_cream'], "§9Minor Instant Health")
   tooltip.add(['neapolitan:chocolate_strawberries'], "§9Minor Instant Health")
   tooltip.add(['neapolitan:strawberry_banana_smoothie'], "§9Minor Instant Health")
+  tooltip.add(['neapolitan:strawberry_bean_bonbons'], "§9Minor Instant Health")
   tooltip.add(['neapolitan:chocolate_milkshake'], "§7When drunk or given to a mob:")
   tooltip.add(['neapolitan:chocolate_milkshake'], "§9 Clears Beneficial Effects")
   tooltip.add(['neapolitan:strawberry_milkshake'], "§7When drunk or given to a mob:")
@@ -65,6 +82,9 @@ ItemEvents.tooltip(tooltip => {
 	text.remove(1)
 	text.remove(1)
 	text.remove(1)
+	text.remove(1)
+  })
+  tooltip.addAdvanced('minecraft:disc_fragment_5', (item, advanced, text) => {
 	text.remove(1)
   })
   tooltip.addAdvanced('toms_storage:ts.inventory_connector', (item, advanced, text) => {

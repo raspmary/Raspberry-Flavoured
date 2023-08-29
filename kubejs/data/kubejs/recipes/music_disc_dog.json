@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:music_disc_cat"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:music_disc_dog"
+    }
+  ]
+}

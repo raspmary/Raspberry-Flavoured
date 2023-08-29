@@ -6,6 +6,17 @@
       "entries": [
         {
           "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:crossbow"
         }
       ],
@@ -25,14 +36,30 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 3.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:wheat",
-          "weight": 7
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potato",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -47,30 +74,14 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:potato",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:carrot",
-          "weight": 5
+          "weight": 10
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 2.0
+        "max": 4.0,
+        "min": 1.0
       }
     },
     {
@@ -94,7 +105,7 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
+        "max": 4.0,
         "min": 1.0
       }
     },
@@ -104,7 +115,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "weight": 7
+          "weight": 14
         },
         {
           "type": "minecraft:item",
@@ -120,7 +131,7 @@
             }
           ],
           "name": "minecraft:string",
-          "weight": 4
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -136,7 +147,7 @@
             }
           ],
           "name": "minecraft:arrow",
-          "weight": 4
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -152,7 +163,7 @@
             }
           ],
           "name": "minecraft:tripwire_hook",
-          "weight": 3
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -168,7 +179,7 @@
             }
           ],
           "name": "minecraft:raw_iron",
-          "weight": 3
+          "weight": 6
         },
 	    {
           "type": "minecraft:item",
@@ -177,14 +188,30 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 27.0,
-                "min": 1.0
+                "max": 12.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "spelunkery:raw_silver_nugget",
           "weight": 2
+        },
+	    {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "evoked:totem_husk",
+          "weight": 1
         },
 	    {
           "type": "minecraft:item",
@@ -204,7 +231,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "max": 3.0,
-        "min": 2.0
+        "min": 1.0
       }
     },
     {

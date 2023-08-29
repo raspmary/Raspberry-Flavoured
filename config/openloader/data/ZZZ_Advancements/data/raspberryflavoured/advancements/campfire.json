@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:farming_root",
+  "parent": "raspberryflavoured:pickaxe",
   "criteria": {
     "campfire": {
       "conditions": {
@@ -49,8 +49,8 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#C44E00",
-      "text": "Make some campfire kindling and light it with any fire striker to cook food and heat up clay lumps into bricks"
+      "color": "#ED3D69",
+      "text": "Make some campfire kindling and light it with any fire striker to cook food and heat up clay lumps into bricks for your first furnace - standing near campfires will also give you a small regeneration effect!"
     },
     "frame": "task",
     "hidden": false,

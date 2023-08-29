@@ -1,0 +1,47 @@
+{
+    "music.music_disc_eleven": {
+        "sounds": [
+            {
+                "name": "kubejs:music_disc_eleven",
+                "stream": true
+            }
+        ],
+        "subtitle": "Music disc plays"
+    },
+	"music.music_disc_dog": {
+        "sounds": [
+            {
+                "name": "kubejs:music_disc_dog",
+                "stream": true
+            }
+        ],
+        "subtitle": "Music disc plays"
+    },
+	"music.music_disc_halland": {
+        "sounds": [
+            {
+                "name": "kubejs:music_disc_halland",
+                "stream": true
+            }
+        ],
+        "subtitle": "Music disc plays"
+    },
+	"music.music_disc_dalarna": {
+        "sounds": [
+            {
+                "name": "kubejs:music_disc_dalarna",
+                "stream": true
+            }
+        ],
+        "subtitle": "Music disc plays"
+    },
+	"music.music_disc_halland_dalarna": {
+        "sounds": [
+            {
+                "name": "kubejs:music_disc_halland_dalarna",
+                "stream": true
+            }
+        ],
+        "subtitle": "Music disc plays"
+    }
+}

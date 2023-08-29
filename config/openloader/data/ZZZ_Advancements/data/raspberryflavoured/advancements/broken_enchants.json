@@ -60,13 +60,79 @@
 				]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+	"4": {
+      "conditions": {
+        "items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "bigbrain:bang",
+								"levels": {
+									"min": 1,
+									"max": 3
+								}
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"5": {
+      "conditions": {
+        "items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "bigbrain:bang",
+								"levels": {
+									"min": 1,
+									"max": 3
+								}
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"6": {
+      "conditions": {
+        "items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "bigbrain:turning",
+								"levels": 1
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"7": {
+      "conditions": {
+        "items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "bigbrain:turning",
+								"levels": 1
+							}
+						]
+					}
+				]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Get an enchantment you're not supposed to be able to (The Infinity and Flame enchantments are supposed to be disabled for the pack, but due to a bug in one of the mods, you're still able to obtain them from enchanting tables! I'm sorry for this issue, but in the meantime, you can still have fun with your illegal enchantment!)"
+      "text": "Get an enchantment you're not supposed to be able to (The Infinity, Flame, Crash Dash and Turning enchantments are supposed to be disabled for the pack, but due to a bug in one of the mods, you're still able to obtain them from enchanting tables! I'm sorry for this issue, but in the meantime, you can still have fun with your illegal enchantment!)"
     },
     "frame": "challenge",
     "hidden": true,
@@ -80,7 +146,7 @@
   },
   "requirements": [
     [
-      "0", "1", "2", "3"
+      "0", "1", "2", "3", "4", "5", "6", "7"
     ]
   ]
 }

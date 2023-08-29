@@ -3,7 +3,7 @@
 [beach]
 	#How often (in percentage) should Coconut Crabs spawn when a coconut breaks? Set it to 0.0 to disable this.
 	#Range: 0.0 ~ 1.0
-	coconutCrabSpawnChance = 0.2
+	coconutCrabSpawnChance = 0.1
 
 #Desert Update
 [desert]

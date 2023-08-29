@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:disc_fragment_5"
+    },
+	"E": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SES",
+    "SSS"
+  ],
+  "result": {
+    "item": "minecraft:music_disc_5"
+  }
+}

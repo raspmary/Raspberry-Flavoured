@@ -1,0 +1,28 @@
+
+["Hostile Villages settings"]
+	#Percentage of how likely normal,non-zombie villages are to spawn. default: 0
+	#Range: 0 ~ 100
+	vanillaVillageChance = 0
+	#Set higher to increase the generated population of the hostile village, default: 5
+	#Range: 1 ~ 100
+	hostilePopulationSize = 1
+	#Whether to generate extra loot for the village, default: true
+	generateLoot = true
+	#Turn on debug messages for spawning, default: false
+	debugLog = false
+	#Disables entities beeing unable to despawn after they get an item equipped, default: true
+	disableNoEntityDespawnWhenPickingItem = true
+	#List of loottables to use, default: minecraft:chests/simple_dungeon
+	loottables = ["minecraft:chests/simple_dungeon"]
+	#Whether to allow vanilla villagers to spawn at all. default: false
+	allowVanillaVillagerSpawn = true
+	#If enabled and vanilla villager spawn is enabled then hostile villages will get a villager spawn egg added to their loot. default: true
+	villagesSpawnEggLoot = false
+	#List of entity pairs which spawn in villages. Format = entity1;entity2;5;6   5 is the chance of entity2(one in five), 6 is the total weight of this whole entry to be chosen
+	villageEntityTypes = ["minecraft:zombie;minecraft:stray;3;14", "minecraft:skeleton;minecraft:panda;5;6", "minecraft:husk;minecraft:spider;3;15", "minecraft:creeper;minecraft:cave_spider;3;11", "minecraft:slime;minecraft:rabbit;2;9", "minecraft:stray;minecraft:wither_skeleton;3;8", "minecraft:zombified_piglin;minecraft:pig;3;7", "minecraft:snow_golem;minecraft:sheep;3;5", "minecraft:witch;minecraft:bat;3;15", "minecraft:vindicator;minecraft:illusioner;5;3", "minecraft:pillager;minecraft:evoker;7;7"]
+	#Additional structures to add as houses for spawning zombie villages, default: []. Example for bountiful and waystones support: ["bountiful:village/common/bounty_gazebo", "waystones:village/common/waystone"]
+	additionalStructures = []
+	#Set higher to increase the amount of additional structures generated, note those replace houses, default: 2
+	#Range: 1 ~ 100
+	additionalStructuresWeight = 1
+

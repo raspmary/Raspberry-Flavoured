@@ -1,12 +1,12 @@
 {
-	"dynamicCrosshair": "Advanced",
+	"dynamicCrosshair": "Disabled",
 	"disableDebugCrosshair": false,
 	"thirdPersonCrosshair": false,
 	"hideWithScreen": true,
 	"crosshairConfig": {
 		"onBlock": "IfTargeting",
 		"onEntity": true,
-		"holdingTool": "Always",
+		"holdingTool": "IfTargeting",
 		"holdingMeleeWeapon": true,
 		"holdingRangedWeapon": "IfInteractable",
 		"holdingThrowable": "IfInteractable",
@@ -38,7 +38,7 @@
 			}
 		},
 		"onEntity": {
-			"style": "DiagonalCross",
+			"style": "Cross",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -46,7 +46,7 @@
 			}
 		},
 		"holdingTool": {
-			"style": "Square",
+			"style": "Cross",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -62,7 +62,7 @@
 			}
 		},
 		"holdingRangedWeapon": {
-			"style": "DiagonalCross",
+			"style": "Cross",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -70,7 +70,7 @@
 			}
 		},
 		"holdingThrowable": {
-			"style": "Circle",
+			"style": "Cross",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -78,7 +78,7 @@
 			}
 		},
 		"holdingBlock": {
-			"style": "Diamond",
+			"style": "Cross",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -88,7 +88,7 @@
 	},
 	"crosshairModifiers": {
 		"modInteractable": {
-			"style": "Brackets",
+			"style": "Disabled",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -96,7 +96,7 @@
 			}
 		},
 		"modUsableItem": {
-			"style": "RoundBrackets",
+			"style": "Disabled",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -104,7 +104,7 @@
 			}
 		},
 		"modShield": {
-			"style": "BracketsBottom",
+			"style": "Disabled",
 			"color": {
 				"crosshairColor": "Unchanged",
 				"customColor": -5588020,
@@ -129,9 +129,9 @@
 		}
 	},
 	"enableTweaks": false,
-	"additionalTools": null,
-	"additionalMeleeWeapons": null,
-	"additionalRangedWeapons": null,
-	"additionalThrowables": null,
-	"additionalUsableItems": null
+	"additionalTools": "",
+	"additionalMeleeWeapons": "",
+	"additionalRangedWeapons": "",
+	"additionalThrowables": "",
+	"additionalUsableItems": ""
 }

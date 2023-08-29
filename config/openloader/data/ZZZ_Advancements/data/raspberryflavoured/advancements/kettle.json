@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:smoker",
+  "parent": "raspberryflavoured:cooking_pot",
   "criteria": {
     "0": {
       "conditions": {

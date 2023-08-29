@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:disc_fragment_5"
+    },
+	"E": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SES",
+    "SSS"
+  ],
+  "result": {
+    "item": "kubejs:music_disc_halland"
+  }
+}

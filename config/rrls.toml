@@ -1,0 +1,6 @@
+enabled = true
+rgbProgress = false
+loadingScreenHide = false
+showIn = "ALL"
+resetResources = false
+reInitScreen = true
