@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:sweet_roll"
+    },
+    {
+      "item": "kubejs:cinnamon"
+    }
+  ],
+  "result": {
+    "item": "kubejs:cinnamon_roll",
+    "count": 1
+  }
+}

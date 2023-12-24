@@ -1,0 +1,34 @@
+{
+    "type": "farmersrespite:brewing",
+    "ingredients": [
+      {
+        "tag": "sob:hibiscus_flowers"
+      },
+      {
+        "item": "autumnity:autumn_crocus"
+      }
+    ],
+    "result": {
+      "item": "sob:saffron_tisane"
+    },
+    "experience": 0.35,
+    "brewingtime": 100,
+    "needwater": true,
+    "container": {
+        "item": "minecraft:honey_bottle"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "autumnity"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "environmental"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "farmersdelight"
+        }
+      ]
+  }

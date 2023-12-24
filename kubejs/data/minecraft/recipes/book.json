@@ -10,11 +10,21 @@
     {
       "item": "minecraft:paper"
     },
+	{
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
     {
       "tag": "minecraft:leather_cuts"
     }
   ],
   "result": {
-    "item": "minecraft:book"
+    "item": "minecraft:book",
+	"count": 2
   }
 }

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "kubejs:gingerbread_block"
-  },
-  "result": "create_confectionery:gingerbread_slab"
-}

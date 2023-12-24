@@ -1,11 +1,14 @@
 
 [misc]
-	creative_tab = true
+	creative_tab = false
 	stonecutter_damage = false
 	#Range: 0 ~ 128
 	diamond_grindstone_deplete_chance = 20
 	enable_rough_gems = true
 	enable_raw_nuggets = true
+	disable_diamond_grindstone_depletion = false
+	#Range: 0 ~ 128
+	parachute_delay = 10
 
 [slimes]
 	increased_slime_spawn_rate = true
@@ -43,6 +46,7 @@
 	piglins_give_crying_obsidian = true
 	portal_creation_sound = true
 	portal_destruction_sound = true
+	portal_fluid_drinking = true
 
 [worldgen]
 	stone_stripe_features = true

@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "tag": "abundant_atmosphere:ash_logs"
-  },
-  "result": "abundant_atmosphere:ash_fence_gate"
-}

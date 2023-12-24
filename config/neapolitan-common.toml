@@ -6,6 +6,10 @@
 		"Milk Cauldron" = true
 		#If milkable mobs can be milked with empty glass bottles
 		"Milking with Glass Bottles" = true
+		#If cauldrons are filled with milk dropping from a dripstone
+		"Milk from Dripstone" = true
+		#If milkshakes can be inserted into cauldrons
+		"Milkshake Cauldrons" = true
 
 [blocks]
 

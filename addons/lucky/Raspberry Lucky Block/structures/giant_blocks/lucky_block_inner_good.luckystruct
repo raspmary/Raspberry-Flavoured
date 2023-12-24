@@ -25,7 +25,7 @@ type=fill,ID=air,pos=[#]sPos(0,0,0),pos2=[#]sPos(7,7,7),delay=2.5; \
 type=command,ID=/particle supplementaries:confetti ~ ~4 ~ 0 0 0 0.7 750 force,delay=2.5;type=entity,ID=firework_rocket,pos=[#]sPos(4,4,4),posOffset=(#rand(-4,4),#rand(-4,4),#rand(-4,4)),amount=#rand(7,14),NBTTag=(LifeTime=5,FireworksItem=(id=firework_rocket,Count=1,tag=#randFireworksRocket)),delay=2.5; \
 
 / treasures
-group(ID=raw_iron,amount=#rand(16,32);ID=raw_gold,amount=#rand(12,24);ID=spelunkery:rough_diamond,amount=#rand(10,20);ID=spelunkery:rough_emerald,amount=#rand(16,24);ID=spelunkery:rough_cinnabar,amount=#rand(16,24);ID=spelunkery:rough_lazurite,amount=#rand(16,24)),pos=[#]sPos(4,4,4),delay=2.5)"])
+group(ID=raw_iron,amount=#rand(16,32);ID=raw_gold,amount=#rand(12,24);ID=spelunkery:rough_diamond,amount=#rand(10,20);ID=spelunkery:rough_cinnabar,amount=#rand(16,24);ID=spelunkery:rough_lazurite,amount=#rand(16,24)),pos=[#]sPos(4,4,4),delay=2.5)"])
 
 / === lever ===
 4,3,8,lever,(facing=south)

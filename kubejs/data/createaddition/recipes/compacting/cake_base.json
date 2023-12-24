@@ -1,5 +1,6 @@
 {
   "type": "create:compacting",
+  "heatRequirement": "heated",
   "ingredients": [
     {
       "item": "create:wheat_flour"

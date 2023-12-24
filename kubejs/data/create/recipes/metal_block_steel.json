@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "alloyed:steel_ingot"
+    },
+    "Q": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "result": {
+    "count": 8,
+    "item": "create:industrial_iron_block"
+  }
+}

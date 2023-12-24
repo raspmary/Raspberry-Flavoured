@@ -1,0 +1,11 @@
+{
+  "items": [
+    "ecologics:prickly_pear"
+  ],
+  "damage": 8,
+  "reload_ticks": 35,
+  "knockback": 0.1,
+  "velocity_multiplier": 1.5,
+  "sticky": true,
+  "sound_pitch": 1.1
+}

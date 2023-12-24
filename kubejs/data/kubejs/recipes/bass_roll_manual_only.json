@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "kubejs:bass_slice"
+    },
+    {
+      "item": "kubejs:bass_slice"
+    }
+  ],
+  "result": {
+    "item": "kubejs:bass_roll",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:waxed_exposed_cut_copper"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:exposed_cut_copper",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.wax_off",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

@@ -24,7 +24,7 @@
 
 	[Enchantments.Holding]
 		#If TRUE, the Holding Enchantment is available for various Storage Items and Blocks.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.

@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:waxed_oxidized_copper_tiles"
+    }
+  ],
+  "result": [
+    {
+      "item": "create:oxidized_copper_tiles",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.wax_off",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

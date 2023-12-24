@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/brass"
+      }
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "copper_lantern"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:nuggets/brass"
+    },
+    "2": {
+      "item": "architects_palette:nether_brass_torch"
+    }
+  },
+  "result": {
+    "item": "supplementaries:brass_lantern"
+  }
+}

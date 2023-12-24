@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ecologics:crab_claw"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "kubejs:crab_meat"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

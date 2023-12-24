@@ -1,0 +1,13 @@
+
+[changes]
+	#Amount of seconds before a mob's bucketed product replenishes
+	"Bucket timer" = 300
+	#Amount of seconds before a mob's bucketed product replenishes, for slower producers
+	"Worse bucket timer" = 600
+	#Amount of seconds before a mob's bowled product replenishes
+	"Bowl timer" = 300
+	#Amount of seconds before a mob's bottled product replenishes
+	"Bottle timer" = 100
+	#Mobs let off an angry particle to indicate the cooldown to impatient players
+	"Angry particle" = true
+

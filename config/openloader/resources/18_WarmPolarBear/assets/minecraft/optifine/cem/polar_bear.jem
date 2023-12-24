@@ -1,0 +1,23 @@
+{
+	"credit":"Made with Blockbench",
+	"textureSize":[128,64],
+	"models": [
+		{
+			"part":"leg1",
+			"invertAxis":"xy",
+			"mirrorTexture":"u",
+			"translate":[4.5,-10,-6],
+			"boxes": [
+				{"coordinates":[-6.5,0,4,4,10,8],"textureOffset":[50,22]}
+			]
+		},
+		{
+			"part":"leg3",
+			"invertAxis":"xy",
+			"mirrorTexture":"u",
+			"translate":[3.5,-10,8],
+			"boxes":[{"coordinates":[-5.5,0,-10,4,10,6],"textureOffset":[50,40]}
+			]
+		}
+	]
+}

@@ -8,13 +8,6 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Healing factor" = 0.25
 
-	[enchantments.missile]
-		#Weapon enchantment that launches enemies upwards rather than away
-		"Enable Launch" = true
-		#How much the target is affected on the vertical axis
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Vertical factor" = 0.35
-
 	[enchantments.reeling]
 		#Crossbow enchantment that pulls targets towards the user
 		"Enable Reeling" = true
@@ -48,6 +41,17 @@
 	[enchantments.spread_of_ailments]
 		#Crossbow enchantment that applies the user's active effects to their arrows
 		"Enable Spread of Ailments" = true
+
+	[enchantments.launch]
+		#Weapon enchantment that launches enemies upwards rather than away
+		"Enable Launch" = true
+		#How much the target is affected on the vertical axis
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Vertical factor" = 0.35
+
+	[enchantments.obedience]
+		#Horse armor enchantment tha prevents the horse from roaming around
+		"Enable Obedience" = true
 
 [curses]
 
@@ -83,7 +87,7 @@
 
 	[tweaks.protection]
 		#Remove the base Protection enchantment, requiring players to choose between the other types
-		"Disable Protection" = false
+		"Disable Protection" = true
 
 	[tweaks.riptide]
 		#Allow Riptide to function when in cauldrons
@@ -96,10 +100,47 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Damage factor" = 1.5
 
-	[tweaks.level_scaling]
-		#Remove the amount of experience per level increasing (experimental)
-		"Remove level scaling" = false
-		#The amount of experience per level, if level scaling is removed (experimental)
-		#Range: > 0
-		"Experience per level" = 50
+	[tweaks.experience]
+
+		[tweaks.experience.dropped_xp]
+			#If the player drops a flat percentage of their experience rather than capping at level 7
+			"Drop experience percentage" = false
+			#What percentage of the player's total experience is dropped
+			#Range: 0.0 ~ 1.0
+			"Experience percentage" = 0.75
+
+		[tweaks.experience.level_scaling]
+			#Remove the amount of experience per level increasing (experimental)
+			"Remove level scaling" = false
+			#The amount of experience per level, if level scaling is removed (experimental)
+			#Range: > 0
+			"Experience per level" = 50
+			#If the level scaling should only be modified after it reaches the 'Experience per level' value (experimental)
+			"Remove level scaling after cap" = true
+
+		[tweaks.experience.ender_dragon]
+			#If Ender Dragon experience dropping should be adjusted (to account for level scaling)
+			"Adjust Ender Dragon experience drop" = false
+			#The amount of experience (in points) that should be dropped by the Ender Dragon
+			#Range: > 0
+			"Ender Dragon experience drop" = 3000
+			#The amount of experience (in points) that should be dropped by a respawned Ender Dragon
+			#Range: > 0
+			"Respawned Ender Dragon experience drop" = 750
+
+		[tweaks.experience.anvil]
+			#If renaming items should always cost 1 experience
+			"Cheap item renaming" = true
+			#Remove the cap of 40 on anvil repairing prices
+			"Remove too expensive" = true
+			#If anvils can be repaired by right clicking with an iron ingot or using a dispenser
+			"Anvil ingot repairing" = false
+			#The amount of tries it should take on average to repair an anvil with an ingot (1 in x chance)
+			#Range: > 0
+			"Ingot repair chance" = 5
+			#If anvil transaction costs should be capped at a certain level
+			"Cap anvil costs" = false
+			#The max amount of levels an anvil transaction should be able to cost
+			#Range: > 1
+			"Anvil cost cap" = 30
 

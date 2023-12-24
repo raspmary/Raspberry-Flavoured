@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "block": "minecraft:copper_block",
+      "amplifier": 0
+    },
+    {
+      "block": "minecraft:iron_block",
+      "amplifier": 1
+    },
+    {
+      "block": "create:zinc_block",
+      "amplifier": 1
+    },
+    {
+      "block": "oreganized:lead_block",
+      "amplifier": 1
+    },
+    {
+      "block": "create:experience_block",
+      "amplifier": 1
+    },
+    {
+      "block": "minecraft:gold_block",
+      "amplifier": 2
+    },
+    {
+      "block": "minecraft:diamond_block",
+      "amplifier": 3
+    },
+    {
+      "block": "create:brass_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:steel_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:exposed_bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:weathered_bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:oxidized_bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:waxed_bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:waxed_exposed_bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:waxed_weathered_bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "alloyed:waxed_oxidized_bronze_block",
+      "amplifier": 3
+    },
+    {
+      "block": "oreganized:silver_block",
+      "amplifier": 5
+    },
+    {
+      "block": "oreganized:electrum_block",
+      "amplifier": 7
+    },
+    {
+      "block": "minecraft:netherite_block",
+      "amplifier": 8
+    }
+  ]
+}

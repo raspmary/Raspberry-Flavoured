@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:azalea_leaves"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:azalea",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hoes"
+  }
+}

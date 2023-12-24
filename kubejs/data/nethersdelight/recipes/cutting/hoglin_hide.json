@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "nethersdelight:hoglin_hide"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "minecraft:rabbit_hide"
+    },
+	{
+      "count": 3,
+	  "chance": 0.25,
+      "item": "minecraft:rabbit_hide"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "parent": "raspberryflavoured:lodestone",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "map_atlases:atlas"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:altimeter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Obtain a compass, altimeter, spyglass and atlas - they'll come in handy on long expeditions!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "map_atlases:atlas"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Adventure Time"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+      "1"
+    ],
+	[
+      "2"
+    ],
+	[
+      "3"
+    ]
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "tag": "forge:ingots/steel"
-  },
-  "result": "alloyed:steel_bars"
-}

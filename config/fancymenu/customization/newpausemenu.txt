@@ -23,12 +23,8 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 0
-  action = movebutton
-  y = 96
+  identifier = %id=398354%
+  action = hidebutton
 }
 
 customization {
@@ -43,7 +39,16 @@ customization {
 customization {
   identifier = %id=398306%
   action = setbuttonlabel
-  value = Mod Settings
+  value = Mods & Configs
+}
+
+customization {
+  identifier = %id=610258%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 92
+  action = movebutton
+  y = 72
 }
 
 customization {
@@ -65,6 +70,22 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 85
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  action = movebutton
+  y = 96
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
@@ -77,8 +98,15 @@ customization {
   identifier = %id=504330%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 106
+  x = 120
   action = movebutton
   y = 72
+}
+
+customization {
+  identifier = %id=504330%
+  width = 85
+  action = resizebutton
+  height = 20
 }
 

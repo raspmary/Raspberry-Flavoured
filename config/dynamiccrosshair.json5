@@ -6,13 +6,13 @@
 	"crosshairConfig": {
 		"onBlock": "IfTargeting",
 		"onEntity": true,
-		"holdingTool": "IfTargeting",
+		"holdingTool": "Always",
 		"holdingMeleeWeapon": true,
-		"holdingRangedWeapon": "IfInteractable",
-		"holdingThrowable": "IfInteractable",
+		"holdingRangedWeapon": "Always",
+		"holdingThrowable": "Always",
 		"holdingShield": true,
-		"holdingBlock": "IfInteractable",
-		"holdingUsableItem": "IfInteractable"
+		"holdingBlock": "Always",
+		"holdingUsableItem": "Always"
 	},
 	"color": {
 		"crosshairColor": "Unchanged",

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "cookingtime": 100,
+  "cookingtime": 50,
   "ingredient": {
     "tag": "minecraft:saplings"
   },

@@ -30,12 +30,12 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Craft and place down any type of furnace to process materials - brick furnaces are the cheapest and quickest to obtain, but be warned: furnaces will not cook food - you'll need a campfire or smoker instead!"
+      "text": "Craft and place down a furnace to process materials"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "nethersdelight:blackstone_furnace"
+      "item": "minecraft:furnace"
     },
     "show_toast": true,
     "title": {

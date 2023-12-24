@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "autumnity:red_maple_leaves"
+    }
+  ],
+  "result": [
+    {
+      "item": "autumnity:red_maple_sapling",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hoes"
+  }
+}

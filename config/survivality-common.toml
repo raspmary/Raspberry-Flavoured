@@ -1,0 +1,75 @@
+
+[general]
+	#Cactus blocks don't destroy Cactus items
+	safe_cactus = false
+	#Feather Falling boots don't trample farmland
+	feathery_falling_boots = false
+	#Leaves turn white when snowing
+	snowy_leaves = true
+	#Pointed Dripstone falls when hit by projectiles
+	unstable_dripstone = true
+	#Signs can be re-edited
+	editable_signs = false
+	#Armor in the hotbar can be swapped with equipped armor
+	armor_swapping = true
+	#Night Vision is affected by its amplifier
+	better_night_vision = false
+	#Max amount Night Vision can affect brightness
+	#Range: 0.0 ~ 25.0
+	max_night_vision_modifier = 5.0
+	#Max level for Multishot enchantment
+	#Range: 1 ~ 7
+	max_multishot_level = 3
+	#Max speed Minecarts can reach
+	#Range: 0.0 ~ 64.0
+	max_minecart_speed = 1.6
+	#Drop rate of Tridents from Drowned
+	#Range: 0.0 ~ 1.0
+	trident_drop_rate = 1.0
+	#Chance for Eyes of Enders to break
+	#Range: 0.0 ~ 1.0
+	eye_of_ender_break_chance = 0.1
+	#Horses struck by lightning become Zombie Horses
+	zombie_horse_transmutation = true
+	#Zombie Horses are rideable
+	rideable_zombie_horses = true
+	#Amount of xp to drop on death
+	#Range: 0.0 ~ 256.0
+	player_xp_modifier = 24.0
+	#Sheep can rarely spawn with any color wool
+	colorful_sheep = false
+	#Max size a Slime can spawn as
+	#Range: 1 ~ 16
+	max_slime_size = 4
+	#Max size a Magma Cube can spawn as
+	#Range: 1 ~ 16
+	max_magma_cube_size = 4
+	#Cookies, Sweet Berries, and Glow Berries are eaten faster
+	more_snacks = false
+	#Snow Layers can be decreased with Shovels
+	shovelable_snow = true
+	#Spawners are affected by the biome they generate in
+	variant_spawners = true
+	#Freshly generated worlds can start at any time
+	random_world_start_time = false
+	#Freshly generated worlds can start with any weather
+	random_world_start_weather = false
+	#Freshly generated worlds can start with a random position
+	random_world_start_spawn_pos = false
+	#Freshly generated worlds can start in any biome
+	random_world_start_biome = false
+	#Rockets boost vehicles and ridden mobs
+	rocket_boosting = false
+	#Default range for players to activate spawners
+	#Range: 0 ~ 128
+	spawner_required_player_range = 32
+	#Spawners will spawn regardless of how many mobs are nearby
+	unrestricted_spawners = false
+	#/enchant allows any level of enchantment
+	unbound_enchant = true
+	#Boats do not collide with Lily Pads, but they still break them
+	boats_ignore_waterlilies = true
+	#Chance for Polar Bears to spawn with a Stray on their back
+	#Range: 0.0 ~ 1.0
+	polar_bear_cavalry_chance = 0.11
+

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "NIN",
+    " N "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:lantern"
+    },
+    "L": {
+      "tag": "forge:ingots/iron"
+    },
+    "N": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "result": {
+    "item": "domesticationinnovation:wayward_lantern",
+    "count": 1
+  }
+}

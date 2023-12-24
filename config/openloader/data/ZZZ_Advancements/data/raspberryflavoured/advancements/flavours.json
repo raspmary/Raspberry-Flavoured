@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:kettle",
+  "parent": "raspberryflavoured:cooking_pot",
   "criteria": {
     "0": {
       "conditions": {

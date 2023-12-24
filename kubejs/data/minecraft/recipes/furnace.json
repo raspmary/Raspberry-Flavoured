@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "minecraft:coals"
+    },
+	"S": {
+      "item": "minecraft:cobblestone"
+    },
+	"C": [
+	{
+      "item": "minecraft:campfire"
+    },
+	{
+      "item": "minecraft:soul_campfire"
+    }
+	]
+  },
+  "pattern": [
+    "SSS",
+    "S#S",
+    "SCS"
+  ],
+  "result": {
+    "item": "minecraft:furnace"
+  }
+}

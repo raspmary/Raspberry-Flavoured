@@ -8,10 +8,32 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 4,
-					"max": 10
+					"min": 8,
+					"max": 16
 				}
 			}]
+		}, {
+			"type": "item",
+			"name": "oreganized:raw_lead",
+			"weight": 40,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 15,
+					"max": 30
+					}
+				}]
+		}, {
+			"type": "item",
+			"name": "create:raw_zinc",
+			"weight": 40,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 12,
+					"max": 24
+					}
+				}]
 		}, {
 			"type": "item",
 			"name": "minecraft:raw_copper",
@@ -19,8 +41,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 4,
-					"max": 24
+					"min": 24,
+					"max": 48
 					}
 				}]
 		}, {
@@ -30,8 +52,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 3,
-					"max": 9
+					"min": 6,
+					"max": 12
 				}
 			}]
 		}, {
@@ -41,8 +63,30 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 1,
-					"max": 2
+					"min": 3,
+					"max": 6
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "spelunkery:raw_silver_nugget",
+			"weight": 1,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 2,
+					"max": 3
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "spelunkery:raw_magnetite_nugget",
+			"weight": 5,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 6,
+					"max": 12
 				}
 			}]
 		}, {
@@ -52,8 +96,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 4,
-					"max": 12
+					"min": 16,
+					"max": 32
 				}
 			}]
 		}, {
@@ -63,8 +107,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 4,
-					"max": 12
+					"min": 16,
+					"max": 32
 				}
 			}]
 		}, {
@@ -74,19 +118,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 1,
-					"max": 16
-				}
-			}]
-		}, {
-			"type": "item",
-			"name": "miners_delight:cave_carrot",
-			"weight": 10,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 1,
-					"max": 6
+					"min": 24,
+					"max": 48
 				}
 			}]
 		}, {
@@ -96,24 +129,24 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 1,
-					"max": 6
+					"min": 2,
+					"max": 5
 				}
 			}]
 		}, {
 			"type": "item",
-			"name": "oreganized:shrapnel_bomb",
+			"name": "supplementaries:bomb",
 			"weight": 10,
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 1,
-					"max": 3
+					"min": 3,
+					"max": 9
 				}
 			}]
 		}, {
 			"type": "item",
-			"name": "miners_delight:copper_cup",
+			"name": "minecraft:bucket",
 			"weight": 15,
 			"functions": [{
 				"function": "set_count",
@@ -129,8 +162,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 3,
-					"max": 15
+					"min": 2,
+					"max": 8
 				}
 			}]
 		}, {
@@ -162,8 +195,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 1,
-					"max": 3
+					"min": 2,
+					"max": 6
 				}
 			}]
 		}, {
@@ -173,8 +206,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 1,
-					"max": 12
+					"min": 4,
+					"max": 16
 				}
 			}]
 		}, {
@@ -223,13 +256,13 @@
 			}]
 		}, {
 			"type": "item",
-			"name": "minecraft:coal",
+			"name": "minecraft:charcoal",
 			"weight": 40,
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 10,
-					"max": 30
+					"min": 7,
+					"max": 28
 				}
 			}]
 		}, {
@@ -254,17 +287,6 @@
 					"max": 0.49
 				}
 			}]
-		}, {
-			"type": "item",
-			"name": "minecraft:bread",
-			"weight": 25,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 4,
-					"max": 8
-				}
-			}]
 		},  {
 			"type": "item",
 			"name": "brewinandchewin:jerky",
@@ -276,6 +298,28 @@
 					"max": 18
 				}
 			}]
+		},  {
+			"type": "item",
+			"name": "miners_delight:improvised_barbecue_stick",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 2,
+					"max": 6
+				}
+			}]
+		},  {
+			"type": "item",
+			"name": "create:builders_tea",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 2
+				}
+			}]
 		}, {
 			"type": "item",
 			"name": "minecraft:rabbit_hide",
@@ -283,8 +327,30 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 3,
-					"max": 12
+					"min": 10,
+					"max": 30
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "farmersdelight:straw",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 16,
+					"max": 48
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:torch",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 20
 				}
 			}]
 		}, {
@@ -292,16 +358,20 @@
 			"name": "minecraft:golden_apple",
 			"weight": 1
 		}, {
-			"type": "item",
-			"name": "minecraft:name_tag",
-			"weight": 10
-		}, {
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 5,
           "functions": [{
               "function": "minecraft:enchant_randomly"
            }]
+		}, {
+			"type": "item",
+			"name": "minecraft:compass",
+			"weight": 20
+		}, {
+			"type": "item",
+			"name": "minecraft:spyglass",
+			"weight": 10
 		}, {
 			"type": "item",
 			"name": "minecraft:iron_horse_armor",
@@ -316,8 +386,8 @@
 			"weight": 1
 		}, {
 			"type": "item",
-			"name": "minecraft:saddle",
-			"weight": 4
+			"name": "minecraft:disc_fragment_5",
+			"weight": 1
 		}, {
 			"type": "item",
 			"name": "supplementaries:quiver",

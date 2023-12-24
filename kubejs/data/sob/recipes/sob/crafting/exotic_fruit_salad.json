@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "minecraft:glow_berries"},
+      {"item": "upgrade_aquatic:mulberry"},
+      {"item": "atmospheric:passionfruit"},
+      {"item": "atmospheric:yucca_fruit"},
+      {"item": "minecraft:bowl"}
+    ],
+    "result": {
+      "item": "sob:exotic_fruit_salad",
+      "count": 1
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "atmospheric"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgrade_aquatic"
+      }
+    ]
+  }

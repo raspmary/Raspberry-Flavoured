@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "direct_furnace_boat",
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "upgrade_aquatic:river_planks"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "upgrade_aquatic:river_furnace_boat"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "direct_chest_boat"
+    }
+  ]
+}

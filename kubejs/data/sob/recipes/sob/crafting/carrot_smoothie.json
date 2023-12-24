@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "minecraft:glass_bottle"},
+      {"item": "minecraft:glass_bottle"},
+      {"item": "minecraft:glass_bottle"},
+      {"tag": "culturaldelights:avocados"},
+      {"tag": "forge:ice_cubes"},
+      {"item": "minecraft:honey_bottle"},
+      {"tag": "forge:milk"}
+    ],
+    "result": {
+      "item": "sob:carrot_smoothie",
+      "count": 3
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "neapolitan"
+      }
+    ]
+  }

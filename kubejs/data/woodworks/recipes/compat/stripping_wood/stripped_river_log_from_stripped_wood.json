@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "upgrade_aquatic:stripped_river_wood"
+  },
+  "result": "upgrade_aquatic:stripped_river_log"
+}

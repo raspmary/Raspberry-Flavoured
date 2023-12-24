@@ -1,0 +1,25 @@
+{
+  "items": [
+    "brewinandchewin:pizza_slice",
+    "brewinandchewin:quiche_slice",
+    "kubejs:butterscotch_cinnamon_pie_slice",
+    "farmersrespite:rose_hip_pie_slice",
+    "create_central_kitchen:honey_cake_slice",
+    "farmersrespite:coffee_cake_slice",
+    "respiteful:green_tea_cake_slice",
+    "respiteful:yellow_tea_cake_slice",
+    "respiteful:black_tea_cake_slice",
+    "abnormals_delight:vanilla_cake_slice",
+    "abnormals_delight:chocolate_cake_slice",
+    "abnormals_delight:strawberry_cake_slice",
+    "abnormals_delight:banana_cake_slice",
+    "abnormals_delight:mint_cake_slice",
+    "abnormals_delight:adzuki_cake_slice",
+    "abnormals_delight:yucca_gateau_slice"
+  ],
+  "damage": 4,
+  "reload_ticks": 8,
+  "knockback": 0.2,
+  "velocity_multiplier": 1.4,
+  "sound_pitch": 1.5
+}

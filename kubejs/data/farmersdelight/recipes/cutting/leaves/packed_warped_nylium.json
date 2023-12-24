@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_wart_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:warped_fungus",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hoes"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.3
+    },
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "tag": "forge:tools/hoes"
+      }
+    },
+    {
+      "condition": "block_state_property",
+      "block": "farmersdelight:sandy_shrub"
+    }
+  ],
+  "item": "minecraft:beetroot_seeds"
+}

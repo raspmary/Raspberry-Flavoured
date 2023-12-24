@@ -14,35 +14,55 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = RF 2.0 BETA 3 CHANGELOG%n%%n%added/removed mods:%n%- added remove reloading screen, miner's delight%n%- removed repurposed structures, companion, beds don't explode, EMI%n%%n%changes:%n%- ash, gourdrot, holly, walnut, flowering azalea, blossom and ancient wood has been removed%n%- villages have been removed to make way for players curing zombified villagers to create their own villages%n%- woodland mansions have been removed, making raids the only source of totems of undying%n%- wandering traders will no longer spawn%n%- random pillager patrols will no longer spawn%n%- changed the recipe for eyes of ender%n%- changed the recipe for recovery compasses%n%- brick block recipes now output 2 brick blocks and brick furnaces are crafted with bricks%n%instead of brick blocks%n%- added new baits and catchables for fish traps%n%- both cheeses will now be made already ripened in the keg instead of having to place them down and wait%n%- certain armour and tool types now have baked in enchantments on them%n%- regular fishing rods are now made of iron and have more durability%n%- disc fragments are now universal and can be used to make/repair other discs%n%- added a bunch of new advancements and changed around some existing ones%n%- spoiled carrots.
+  source = Mod List Changes:%n%- Added: More Concrete, Responsive Shields, Redirector, FastSuite, %n%Cerbon's Better Beacons, Just Enough Beacons%n%- Removed: Critters and Companions, Fuel Goes Here, SwingThroughGrass, %n%Harvest With Ease, Aquaculture, Ceramic Shears, Fire Sticks, Ksyxis%n%- Updated: Portfolio, Placebo%n%%n%Gameplay/Content Changes:%n%- Beacons are now much more powerful, can grant new and %n%stronger effects, and differing base blocks/payment items affect %n%the strength and distance of the beacon effects respectively%n%- Copper blocks can now be used as beacon bases and %n%copper ingots can be used as beacon payment%n%- Copper ores no longer yield more raw copper when crushed %n%compared to other ores when they're crushed%n%- Copper blocks have been overhauled, separating the copper storage %n%block and building blocks to make balancing easier%n%- A majority of copper related textures have been changed to %n%a look similar to vanilla copper (missing/inconsistent textures %n%will be fixed soon enough)%n%- Added charcoal lumps, which are identical to coal lumps - however %n%charcoal lumps can be obtained by smelting tree bark on a campfire %n%or in a furnace, making it easier to obtain charcoal and %n%make a furnace in the early-game%n%- Atlases no longer display coordinates%n%- Atlas recipe has been tweaked%n%- Empty map and slice map recipes have been tweaked%n%- Ender chests and ender crystals' recipes now %n%output two chests/crystals%n%- Banners and flags' recipes now output three banners/flags%n%- All dyed blocks now have shapeless recipes, making it so they can %n%be automated via mech. mixers instead of mech. crafters%n%- Coconuts and coconut slices can now be crushed for milk via compacting%n%- Coconut husks now smelt into charcoal lumps instead of one full charcoal%n%- The recipe for item vaults is now consistent with that of fluid tanks%n%- Liquid glue has been removed%n%- Wolves and foxes now spawn less frequently%n%- Very slightly adjusted the maximum durability and %n%digging speed of some tools%n%- Hoes are now pumpkins and melons' correct harvesting %n%tool type rather than axes%n%- Seashells can now be picked off the ground instantaneously%n%- Sugar now has a very slightly different texture%n%- Flags now have a different texture%n%- Bones, withered bones and bone meal now have %n%new textures (made by Nive)%n%- Rotten flesh no longer inflicts poison when consumed%n%- Wither skeletons now spawn with iron swords, with smaller chances of %n%spawning with steel swords, netherite swords and bows, %n%along with a separate small chance to spawn wearing steel helmets%n%- Skeletons can now occasionally spawn with wooden or golden swords%n%- Zombies and husks will now drop raw iron and gold respectively %n%(instead of iron ingots), and both can now also rarely drop an onion%n%- Drowned will now drop raw copper (instead of copper ingots), and %n%can occasionally drop some kelp%n%- Drowned holding tridents will now always drop a trident%n%- Chilled will now drop some ice cubes, rarely drop raw zinc (instead %n%of gold ingots), and VERY rarely drop mint sprouts%n%- Resilience potions can now be brewed using snail shell pieces%n%- Blindness potions can now be brewed using spoiled carrots%n%- Levitation potions can now be brewed using fermented spider %n%eyes on slow falling potions%n%- Honey toast now clears the slowness and weakness effects %n%instead of bad omen%n%- Honey apples now clear both the levitation and hunger effects%n%- Honey glazed porkchops now clear both the fatigue and nausea effects%n%- Golden carrots now clear the blindness effect%n%- The fire protection, blast protection, projectile protection and %n%magic protection enchantments now go up to level 5%n%- The fire aspect and frost aspect enchantments now go up to level 3%n%- The trueshot enchantment now goes up to level 4%n%- Terracotta related blocks (except glazed terracotta) %n%now have new sounds%n%- Fixed deepslate ores dropping nothing when mined using silk touch%n%- Fixed deepslate iron only dropping either raw iron or magnetite nuggets, %n%rather than both at once%n%- Replaced Quark's crimson chests in ruined portal structures with %n%Woodworks' crimson chests%n%- Renamed steel sheet metal blocks to cut steel%n%- Removed iron sheet metal blocks%n%- Removed vault casing and metal casing%n%- Removed additional tiers of items like fire strikers, shears and %n%fishing rods for simplicity%n%- Removed froglass%n%- Removed emeralds from a few loot tables%n%- Made some unobtainable music discs actually unobtainable%n%- Added four new music discs%n%- Moved a bunch of items into the correct creative mode tabs
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 31
-  width = 583
+  x = -193
+  width = 387
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 0753e5b4-7a02-4d4e-8877-037b5dfb73041690066138901
-  y = 30
+  y = -94
   alignment = left
-  height = 237
+  height = 167
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = closegui%btnaction_splitter_fm%
-  x = 218
+  x = -102
   width = 204
   action = addbutton
   actionid = 6d5a4aa0-6dcc-4ede-a838-09c3de7a27731690067224501
-  y = 290
+  y = 84
   label = Done
   height = 20
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = RF 2.0 RELEASE CANDIDATE 4 CHANGELOG
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -192
+  width = 385
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 7c1eae62-f707-4682-90c9-eb6896e7a41c1701372163321
+  y = -105
+  alignment = centered
+  base_color = E8587C
+  height = 12
 }
 

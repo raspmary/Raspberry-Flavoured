@@ -1,0 +1,8 @@
+{
+  "type": "map_atlases:crafting_atlas",
+  "ingredients": [
+    {
+      "item": "minecraft:writable_book"
+    }
+  ]
+}

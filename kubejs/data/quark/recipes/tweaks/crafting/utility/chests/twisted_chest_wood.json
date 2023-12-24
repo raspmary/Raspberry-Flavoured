@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "architects_palette:twisted_logs"
+    }
+  },
+  "result": {
+    "item": "everycomp:q/architects_palette/twisted_chest",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "quark:flag",
+          "flag": "wood_to_chest_recipes"
+        }
+      ]
+    }
+  ]
+} 

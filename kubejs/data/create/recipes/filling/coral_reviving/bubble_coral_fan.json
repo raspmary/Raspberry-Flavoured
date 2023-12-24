@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:dead_bubble_coral_fan"
+    },
+    {
+      "amount": 25,
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:regeneration"
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:bubble_coral_fan"
+    }
+  ]
+}

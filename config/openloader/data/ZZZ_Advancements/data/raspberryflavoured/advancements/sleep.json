@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Make a bedroll out of wool and leather, then sleep your troubles away... or find a bed somewhere"
+      "text": "Make a bedroll out of wool and leather, then sleep your troubles away"
     },
     "frame": "task",
     "hidden": false,

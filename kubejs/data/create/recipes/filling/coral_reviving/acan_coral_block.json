@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "upgrade_aquatic:dead_acan_coral_block"
+    },
+    {
+      "amount": 25,
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:regeneration"
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "upgrade_aquatic:acan_coral_block"
+    }
+  ]
+}

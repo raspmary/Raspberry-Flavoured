@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:repair_golem",
+  "parent": "raspberryflavoured:hunting_root",
   "criteria": {
     "0": {
       "conditions": {
@@ -20,7 +20,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Summon your own iron golem with four iron blocks in a T-shape and a carved pumpkin on top"
+      "text": "Summon your very own iron golem with four iron blocks in a T-shape and a carved pumpkin on top"
     },
     "frame": "task",
     "hidden": false,

@@ -1,0 +1,11 @@
+{
+  "items": [
+    "autumnity:pancake"
+  ],
+  "damage": 6,
+  "reload_ticks": 12,
+  "knockback": 0.15,
+  "velocity_multiplier": 1.25,
+  "sticky": true,
+  "sound_pitch": 1.3
+}

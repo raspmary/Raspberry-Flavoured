@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:stripped_warped_stem"
+  },
+  "result": "quark:stripped_warped_post"
+}

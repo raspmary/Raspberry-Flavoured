@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "-": [
+	{
+      "item": "create:cut_deepslate"
+    },
+	{
+      "item": "create:polished_cut_deepslate"
+    }
+	],
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "I-I",
+    "# #"
+  ],
+  "result": {
+    "item": "minecraft:grindstone"
+  }
+}

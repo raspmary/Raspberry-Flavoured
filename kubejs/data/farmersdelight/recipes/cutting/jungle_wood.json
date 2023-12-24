@@ -11,10 +11,6 @@
     },
     {
       "item": "farmersdelight:tree_bark"
-    },
-    {
-	  "chance": 0.8,
-      "item": "kubejs:fragrant_tree_bark"
     }
   ],
   "sound": "minecraft:item.axe.strip",

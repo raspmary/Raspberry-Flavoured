@@ -6,9 +6,8 @@
         "items": [
           {
             "items": [
-              "ceramicshears:ceramic_shears",
-			  "minecraft:shears",
-			  "alloyed:steel_shears"
+              "ecologics:crab_claw",
+			  "minecraft:shears"
             ]
           }
         ]
@@ -20,12 +19,12 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Craft a pair of shears to pick up plants or foliage and shear wool off of sheep"
+      "text": "Craft a pair of shears - or get your hands on a crab claw - to pick up plants or foliage and shear wool off of sheep"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "ceramicshears:ceramic_shears",
+      "item": "minecraft:shears",
       "nbt": "{Damage:0}"
     },
     "show_toast": true,

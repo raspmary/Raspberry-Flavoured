@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/iron"
+    },
+	{
+      "tag": "forge:raw_materials/zinc"
+    },
+	{
+      "item": "minecraft:clay_ball"
+    },
+	{
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "results": [
+    {
+      "count": 12,
+      "item": "create_dd:potassic"
+    }
+  ]
+}

@@ -19,7 +19,7 @@
       "item": "minecraft:nether_wart"
     },
     {
-      "tag": "brewinandchewin:bone_or_withered_bone"
+      "item": "architects_palette:withered_bone"
     }
   ],
   "recipe_book_tab": "drinks",

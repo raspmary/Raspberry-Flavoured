@@ -1,6 +1,20 @@
 {
   "type": "minecraft:chest",
   "pools": [
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bell"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
+      }
+    },
     {
       "bonus_rolls": 0.0,
       "entries": [

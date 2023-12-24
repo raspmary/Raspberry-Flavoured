@@ -3,54 +3,23 @@
   "criteria": {
     "campfire": {
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:flint_and_steel",
-			"minecraft:fire_charge",
-			"firesticks:fire_stick"
-          ]
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:campfire"
-            ],
-            "state": {
-              "lit": "true"
-            }
+        "items": [
+          {
+            "items": [
+              "minecraft:campfire",
+			  "minecraft:soul_campfire"
+            ]
           }
-        }
+        ]
       },
-      "trigger": "minecraft:item_used_on_block"
-    },
-	"soul_campfire": {
-      "conditions": {
-        "item": {
-          "items": [
-            "minecraft:flint_and_steel",
-			"minecraft:fire_charge",
-			"firesticks:fire_stick"
-          ]
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:soul_campfire"
-            ],
-            "state": {
-              "lit": "true"
-            }
-          }
-        }
-      },
-      "trigger": "minecraft:item_used_on_block"
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Make some campfire kindling and light it with any fire striker to cook food and heat up clay lumps into bricks for your first furnace - standing near campfires will also give you a small regeneration effect!"
+      "text": "Make some campfire kindling - you can light it with a fire striker to cook food, or use it to make a furnace"
     },
     "frame": "task",
     "hidden": false,
@@ -64,8 +33,7 @@
   },
   "requirements": [
     [
-      "campfire",
-      "soul_campfire"
+      "campfire"
     ]
   ]
 }

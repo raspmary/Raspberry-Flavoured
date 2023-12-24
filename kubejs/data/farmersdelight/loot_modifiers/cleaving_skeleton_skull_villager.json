@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "tag": "savage_and_ravage:beheaders"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "savage_and_ravage:skeleton_villager"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.85,
+      "looting_multiplier": 0.25
+    }
+  ],
+  "item": "minecraft:skeleton_skull"
+}

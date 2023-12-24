@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "minecraft:bread"},
+      {"tag": "forge:cooked_duck"},
+      {"item": "upgrade_aquatic:boiled_blue_pickerelweed"},
+      {"item": "upgrade_aquatic:boiled_purple_pickerelweed"}
+    ],
+    "result": {
+      "item": "sob:duck_sandwich",
+      "count": 1
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgrade_aquatic"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "environmental"
+      }
+    ]
+  }

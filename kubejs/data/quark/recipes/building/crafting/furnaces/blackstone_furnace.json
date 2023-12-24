@@ -1,1 +1,34 @@
-{}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+	"C": {
+      "tag": "minecraft:coals"
+    },
+	"A": [
+	{
+      "item": "minecraft:campfire"
+    },
+	{
+      "item": "minecraft:soul_campfire"
+    }
+	]
+  },
+  "result": {
+    "item": "quark:blackstone_furnace"
+  },
+  "conditions": [
+      {
+        "type": "quark:flag",
+        "flag": "variant_furnaces"
+      }
+  ]
+}
+

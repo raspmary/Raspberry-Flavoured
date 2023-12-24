@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:village",
+  "parent": "raspberryflavoured:cock",
   "criteria": {
     "0": {
       "trigger": "minecraft:effects_changed",
@@ -14,17 +14,16 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Kill a pillager captain to obtain an ominous banner or find it on a pillager outpost, then burn it... or drink a Dread Nog - maybe you should stay away from your village for the time being..."
+      "text": "Huh? What's that supposed to mean??"
     },
     "frame": "goal",
-    "hidden": false,
+    "hidden": true,
     "icon": {
-      "item": "minecraft:white_banner",
-      "nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:'{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}'}}"
+      "item": "minecraft:air"
     },
     "show_toast": true,
     "title": {
-      "text": "Voluntary Exile"
+      "text": "Consider This Your Bad Omen"
     }
   },
   "requirements": [

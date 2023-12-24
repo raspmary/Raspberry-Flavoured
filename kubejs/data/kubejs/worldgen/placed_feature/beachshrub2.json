@@ -1,0 +1,17 @@
+{
+  "feature": "kubejs:beachshrub2",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:cactus",
+          "Properties": {
+            "age": "1"
+          }
+        }
+      }
+    }
+  ]
+}

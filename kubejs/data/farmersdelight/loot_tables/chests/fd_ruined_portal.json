@@ -7,7 +7,9 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "farmersdelight:golden_knife"

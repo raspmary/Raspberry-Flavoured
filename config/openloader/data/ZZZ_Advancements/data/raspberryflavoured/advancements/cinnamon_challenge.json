@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:fragrant_tree_bark",
+  "parent": "raspberryflavoured:tree_bark",
   "criteria": {
     "00": {
       "trigger": "minecraft:consume_item",

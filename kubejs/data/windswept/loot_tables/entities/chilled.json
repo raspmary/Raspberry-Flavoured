@@ -11,8 +11,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": -2.0
+                "max": 1.0,
+                "min": 0.0
               },
               "function": "minecraft:set_count"
             },
@@ -37,39 +37,39 @@
           "condition": "minecraft:killed_by_player"
         },
         {
-          "chance": 0.025,
+          "chance": 0.075,
           "condition": "minecraft:random_chance_with_looting",
-          "looting_multiplier": 0.01
+          "looting_multiplier": 0.03
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot"
+          "name": "create:raw_zinc"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:beetroot"
+          "name": "minecraft:potato"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
         },
         {
+          "chance": 0.009,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "flags": {
-                      "is_on_fire": true
-                    }
-                  }
-                }
-              ],
-              "function": "minecraft:furnace_smelt"
-            }
-          ],
-          "name": "minecraft:apple"
+          "name": "neapolitan:mint_sprout"
         }
       ],
       "rolls": 1.0
@@ -89,6 +89,35 @@
         {
           "type": "minecraft:item",
           "name": "windswept:music_disc_snow"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "neapolitan:ice_cubes"
         }
       ],
       "rolls": 1.0

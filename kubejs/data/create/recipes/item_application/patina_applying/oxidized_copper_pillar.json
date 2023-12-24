@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "twigs:weathered_copper_pillar"
+    },
+    {
+      "item": "additionaladditions:copper_patina"
+    }
+  ],
+  "results": [
+    {
+      "item": "twigs:oxidized_copper_pillar"
+    }
+  ]
+}

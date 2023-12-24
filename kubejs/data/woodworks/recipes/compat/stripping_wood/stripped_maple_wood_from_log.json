@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "autumnity:maple_log"
+  },
+  "result": "autumnity:stripped_maple_wood"
+}

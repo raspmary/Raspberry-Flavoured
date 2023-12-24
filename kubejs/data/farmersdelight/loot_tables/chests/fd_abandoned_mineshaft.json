@@ -13,8 +13,8 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.15,
-                "max": 0.8
+                "min": 0.24,
+                "max": 0.6
               }
             }
           ],
@@ -76,6 +76,20 @@
           "name": "farmersdelight:rice"
         },
         {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "miners_delight:bat_wing"
+        },
+        {
           "type": "minecraft:empty",
           "weight": 2
         }
@@ -96,7 +110,7 @@
               }
             }
           ],
-          "name": "farmersdelight:rope"
+          "name": "supplementaries:rope"
         },
         {
           "type": "minecraft:empty",

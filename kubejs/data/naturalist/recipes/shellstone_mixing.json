@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:calcite"
+    },
+	{
+      "item": "minecraft:calcite"
+    },
+	{
+      "item": "minecraft:calcite"
+    },
+	{
+      "item": "minecraft:calcite"
+    },
+	{
+      "item": "minecraft:calcite"
+    },
+	{
+      "item": "minecraft:calcite"
+    },
+	{
+      "item": "minecraft:calcite"
+    },
+	{
+      "item": "minecraft:calcite"
+    },
+    {
+      "item": "autumnity:snail_shell_piece"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+	  "item": "naturalist:shellstone"
+    }
+  ]
+}

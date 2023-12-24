@@ -1,0 +1,5 @@
+
+["Game Feel"]
+	#Displays note particles appear above jukeboxes while a record is playing.
+	"Display Note Particles" = true
+

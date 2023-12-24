@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:dark_forest",
+  "spawners": [
+    {
+      "type": "minecraft:vex",
+      "maxCount": 8,
+      "minCount": 4,
+      "weight": 3
+    }
+  ]
+}

@@ -25,6 +25,22 @@
           ],
           "name": "minecraft:arrow"
         },
+		{
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "quark:torch_arrow"
+        },
         {
           "type": "minecraft:item",
           "weight": 5,
@@ -40,6 +56,22 @@
             }
           ],
           "name": "minecraft:fire_charge"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 6.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:flint"
         }
       ]
     },
@@ -70,7 +102,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 10,
-              "treasure": true
+              "treasure": false
             },
             {
               "add": false,
@@ -86,12 +118,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20,
-              "treasure": true
+              "levels": 25,
+              "treasure": false
             },
             {
               "add": false,

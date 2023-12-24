@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:blaze_rod",
+  "parent": "raspberryflavoured:fortress",
   "criteria": {
     "0": {
       "conditions": {

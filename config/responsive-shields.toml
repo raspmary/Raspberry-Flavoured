@@ -1,0 +1,18 @@
+
+# ------------------------------
+# Vanilla Minecraft has a hard-coded 5 tick delay after right clicking before a shield will block.
+# Setting Raise Time to 5 is the same as vanilla.
+# Setting Raise Time to 0 makes shields capable of blocking instantaniously.
+# The client-side raise animation takes roughly one tick to complete from the POV of the player. So setting Raise Time to 1 is a good balance between tactility and balance.
+# Use 0 to make shields esports ready lol
+# ------------------------------
+#
+[Timing]
+	# The amount of time, in ticks, before a shield will block
+	#Range: > 0
+	"Raise Time" = 0
+
+[Toggles]
+	# Whether or not the mods effect is enabled.
+	Enabled = true
+

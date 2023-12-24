@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 2,
-  "ingredient": {
-    "tag": "atmospheric:rosewood_logs"
-  },
-  "result": "supplementaries:atmospheric/sign_post_rosewood"
-}

@@ -1,0 +1,52 @@
+{
+  "values": [
+    {
+      "item": "minecraft:copper_ingot",
+      "range": 0
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "range": 15
+    },
+    {
+      "item": "create:zinc_ingot",
+      "range": 15
+    },
+    {
+      "item": "oreganized:lead_ingot",
+      "range": 15
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "range": 30
+    },
+    {
+      "item": "create:brass_ingot",
+      "range": 45
+    },
+    {
+      "item": "alloyed:bronze_ingot",
+      "range": 45
+    },
+    {
+      "item": "alloyed:steel_ingot",
+      "range": 45
+    },
+    {
+      "item": "minecraft:diamond",
+      "range": 60
+    },
+    {
+      "item": "oreganized:silver_ingot",
+      "range": 85
+    },
+    {
+      "item": "oreganized:electrum_ingot",
+      "range": 100
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "range": 125
+    }
+  ]
+}

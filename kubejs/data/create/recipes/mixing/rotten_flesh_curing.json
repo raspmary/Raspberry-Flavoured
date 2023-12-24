@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+	{
+      "item": "minecraft:rotten_flesh"
+    },
+	{
+      "item": "minecraft:rotten_flesh"
+    },
+	{
+      "item": "minecraft:rotten_flesh"
+    },
+	{
+      "item": "kubejs:soul_salt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:leather",
+	  "count": 4
+    }
+  ]
+}

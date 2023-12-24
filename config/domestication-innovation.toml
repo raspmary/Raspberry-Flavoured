@@ -1,0 +1,127 @@
+
+[general]
+	#true if wolves, cats, parrots, foxes, axolotls, etc can be set to wander, sit or follow
+	trinary_command_system = true
+	#true if axolotls are fully tameable (axolotl must be tamed with tropical fish)
+	tameable_axolotls = true
+	#true if horses, donkeys, llamas, etc can be given enchants, beds, etc
+	tameable_horse = true
+	#true if foxes are fully tameable (fox must be tamed via breeding)
+	tameable_fox = true
+	#true if rabbits are fully tameable (rabbit must be tamed with carrots)
+	tameable_rabbit = true
+	#true if frogs are fully tameable (rabbit must be tamed with spider eyes)
+	tameable_frog = true
+	#true if attacks do not register on pets from their owners and go through them to attack a mob behind them
+	swing_through_pets = true
+	#true if apples can turn into rotten apples if they despawn
+	rotten_apple = false
+	#true if mobs can respawn in pet beds the next morning after they die
+	pet_bed_respawns = true
+	#true if collar tag functionality are enabled. If this is disabled, there is no way to enchant mobs!
+	collar_tags = false
+	#true if rabbits scare ravagers like they used to do
+	rabbits_scare_ravagers = true
+	#true if animal tamer villagers are enabled. Their work station is a pet bed
+	animal_tamer_villager = false
+	#the spawn weight of the pet store in villages, set to 0 to disable it entirely
+	#Range: 0 ~ 1000
+	petstore_village_weight = 0
+
+[loot]
+	#true if pet curse enchantments should only appear in loot, and not the enchanting table.
+	pet_curse_enchantments_loot_only = true
+	#percent chance of woodland mansion loot table containing sinister carrot:
+	#Range: 0.0 ~ 1.0
+	sinister_carrot_loot_chance = 0
+	#percent chance of burried treasure loot table containing Bubbling book:
+	#Range: 0.0 ~ 1.0
+	bubbling_loot_chance = 0
+	#percent chance of woodland mansion loot table containing Vampire book:
+	#Range: 0.0 ~ 1.0
+	vampirism_loot_chance = 0
+	#percent chance of end city loot table containing Void Cloud book:
+	#Range: 0.0 ~ 1.0
+	void_cloud_loot_chance = 0
+	#percent chance of mineshaft loot table containing Ore Scenting book:
+	#Range: 0.0 ~ 1.0
+	ore_scenting_loot_chance = 0
+	#percent chance of ancient city loot table containing Muffled book:
+	#Range: 0.0 ~ 1.0
+	muffled_loot_chance = 0
+	#percent chance of nether fortress loot table containing Blazing Protection book:
+	#Range: 0.0 ~ 1.0
+	blazing_protection_loot_chance = 0
+
+[enchantments]
+	#true if health boost enchant is enabled, false if disabled
+	health_boost_enabled = false
+	#true if fireproof enchant is enabled, false if disabled
+	fireproof_enabled = false
+	#true if immunity frame enchant is enabled, false if disabled
+	immunity_frame_enabled = false
+	#true if deflection enchant is enabled, false if disabled
+	deflection_enabled = false
+	#true if poison resistance enchant is enabled, false if disabled
+	poison_resistance_enabled = false
+	#true if chain lightning enchant is enabled, false if disabled
+	chain_lightning_enabled = false
+	#true if speedster enchant is enabled, false if disabled
+	speedster_enabled = false
+	#true if frost fang enchant is enabled, false if disabled
+	frost_fang_enabled = false
+	#true if magnetic enchant is enabled, false if disabled
+	magnetic_enabled = false
+	#true if linked inventory enchant is enabled, false if disabled
+	linked_inventory_enabled = false
+	#true if total recall enchant is enabled, false if disabled
+	total_recall_enabled = false
+	#true if health siphon enchant is enabled, false if disabled
+	health_siphon_enabled = false
+	#true if bubbling enchant is enabled, false if disabled
+	bubbling_enabled = false
+	#true if herding enchant is enabled, false if disabled
+	herding_enabled = false
+	#true if amphibious enchant is enabled, false if disabled
+	amphibious_enabled = false
+	#true if vampire enchant is enabled, false if disabled
+	vampire_enabled = false
+	#true if void cloud enchant is enabled, false if disabled
+	void_cloud_enabled = false
+	#true if charisma enchant is enabled, false if disabled
+	charisma_enabled = false
+	#true if shadow hands enchant is enabled, false if disabled
+	shadow_hands_enabled = false
+	#true if disc jockey enchant is enabled, false if disabled
+	disc_jockey_enabled = false
+	#true if defusal enchant is enabled, false if disabled
+	defusal_enabled = false
+	#true if warping bite enchant is enabled, false if disabled
+	warping_bite_enabled = false
+	#true if ore scenting enchant is enabled, false if disabled
+	ore_scenting_enabled = false
+	#true if gluttonous enchant is enabled, false if disabled
+	gluttonous_enabled = false
+	#true if psychic wall enchant is enabled, false if disabled
+	psychic_wall_enabled = false
+	#true if intimidation enchant is enabled, false if disabled
+	intimidation_enabled = false
+	#true if tethered teleport enchant is enabled, false if disabled
+	tethered_teleport_enabled = false
+	#true if muffled enchant is enabled, false if disabled
+	muffled_enabled = false
+	#true if blazing protection enchant is enabled, false if disabled
+	blazing_protection_enabled = false
+	#true if healing aura enchant is enabled, false if disabled
+	healing_aura_enabled = false
+	#true if rejuvenation enchant is enabled, false if disabled
+	rejuvenation_enabled = false
+	#true if undead curse enchant is enabled, false if disabled
+	undead_curse_enabled = false
+	#true if infamy curse enchant is enabled, false if disabled
+	infamy_curse_enabled = false
+	#true if blight curse enchant is enabled, false if disabled
+	blight_curse_enabled = false
+	#true if immaturity curse enchant is enabled, false if disabled
+	immaturity_curse_enabled = false
+

@@ -6,15 +6,12 @@
     },
     {
       "item": "farmersdelight:tree_bark"
-    },
-    {
-      "item": "farmersdelight:tree_bark"
     }
   ],
   "results": [
     {
       "item": "minecraft:paper",
-	  "count": 2
+	  "count": 1
     }
   ]
 }

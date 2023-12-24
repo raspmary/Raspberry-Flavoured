@@ -38,10 +38,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "spelunkery:rough_emerald"
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,

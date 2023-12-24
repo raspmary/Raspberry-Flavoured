@@ -18,9 +18,17 @@
     {
       "item": "minecraft:honeycomb"
     },
-    {
-      "tag": "culturaldelights:corn_or_kernels"
+    [
+	{
+      "item": "culturaldelights:corn_cob"
+    },
+	{
+      "item": "culturaldelights:corn_kernels"
+    },
+	{
+      "item": "kubejs:corn_flour"
     }
+	]
   ],
   "recipe_book_tab": "drinks",
   "result": {

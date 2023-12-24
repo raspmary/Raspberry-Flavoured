@@ -3,7 +3,7 @@
 	wind_vane = true
 	clock_block = true
 	redstone_illuminator = true
-	crank = false
+	crank = true
 	faucet = true
 	cog_block = true
 	gold_door = true
@@ -62,7 +62,7 @@
 		work_from_any_side = false
 
 	[redstone.turn_table]
-		enabled = false
+		enabled = true
 		#can rotate entities standing on it?
 		rotate_entities = true
 
@@ -81,16 +81,16 @@
 		trapped_present = true
 
 	[functional.rope]
-		enabled = false
+		enabled = true
 		#Allows ropes to be supported & attached to solid block sides
 		block_side_attachment = true
 		#Makes sliding down ropes as fast as free falling, still negating fall damage
 		slide_on_fall = true
 		#In case you want to disable supplementaries ropes you can specify here another mod rope and they will be used for rope arrows and in mineshafts instead
-		rope_override = "farmersdelight:rope"
+		rope_override = ""
 
 	[functional.jar]
-		enabled = true
+		enabled = false
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
@@ -136,10 +136,10 @@
 		sack_penalty = true
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
 		#Range: 0 ~ 50
-		sack_increment = 2
+		sack_increment = 4
 		#How many slots should a sack have
 		#Range: 1 ~ 27
-		slots = 9
+		slots = 12
 
 	[functional.bamboo_spikes]
 		enabled = true
@@ -176,7 +176,7 @@
 			enabled = true
 			#Spawn wild flax on average every 'x' chunks. Increases spawn frequency
 			#Range: 1 ~ 100
-			rarity = 6
+			rarity = 8
 			#Attempts at every patch to spawn 1 block. Increases average patch size
 			#Range: 1 ~ 100
 			attempts_per_patch = 35
@@ -212,6 +212,7 @@
 	flint_block = true
 	candle_holder = true
 	ash_bricks = true
+	altimeter = true
 
 	[building.blackboard]
 		enabled = true
@@ -313,6 +314,7 @@
 	antique_ink = true
 	candy = true
 	stasis = true
+	altimeter = true
 
 	[tools.quiver]
 		enabled = true
@@ -321,13 +323,13 @@
 		#Arrow stacks that can fit inside a quiver. Requires reboot
 		#Range: 1 ~ 9
 		slots = 6
-		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
-		#Range: 0.0 ~ 1.0
-		quiver_skeleton_chance = 0.0
 		#Allows quiver to only be used when in offhand or in curio slot
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
 		quiver_pickup = true
+		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		#Range: 0.0 ~ 1.0
+		quiver_skeleton_spawn_chance = 0.0
 
 	[tools.bubble_blower]
 		enabled = true
@@ -354,7 +356,7 @@
 		enabled = true
 		#Max number of robe items allowed to be stored inside a rope arrow
 		#Range: 1 ~ 256
-		capacity = 32
+		capacity = 128
 		#Makes rope arrows exclusive to crossbows
 		exclusive_to_crossbows = false
 
@@ -362,10 +364,10 @@
 		enabled = true
 		#Radius in which an unbound flute will search pets
 		#Range: 0 ~ 500
-		unbound_radius = 64
+		unbound_radius = 500
 		#Max distance at which a bound flute will allow a pet to teleport
 		#Range: 0 ~ 500
-		bound_distance = 64
+		bound_distance = 500
 
 	[tools.bomb]
 		enabled = true
@@ -400,6 +402,12 @@
 		stasis_deceleration = 0.9625
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
+
+	[tools.slice_map]
+		enabled = true
+		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
+		#Range: 0.0 ~ 1.0
+		range_multiplier = 0.25
 
 #General settings
 [general]
@@ -504,7 +512,7 @@
 	[tweaks.map_tweaks]
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 		#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
-		random_adventurer_maps = true
+		random_adventurer_maps = false
 		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
@@ -517,6 +525,15 @@
 		#These maps will roll a difference structure every time. Decrease their max trades to balance them
 		#Range: 1 ~ 12
 		map_trade_max_trades = 2
+		#Increases any search done with a quoll to be at least this radius. Vanilla locate is 100 while buried treasure is 50 chunks for reference
+		#Range: 0 ~ 500
+		minimum_search_radius = 100
+		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
+		random_adventurer_maps_select_random_structure = true
+		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
+		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
+		death_marker = "WITH_COMPASS"
+		colored_map = true
 
 	[tweaks.ceiling_banners]
 		#Allow banners to be placed on ceilings

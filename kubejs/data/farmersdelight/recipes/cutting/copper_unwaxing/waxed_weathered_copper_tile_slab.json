@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:waxed_weathered_copper_tile_slab"
+    }
+  ],
+  "result": [
+    {
+      "item": "create:weathered_copper_tile_slab",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.wax_off",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

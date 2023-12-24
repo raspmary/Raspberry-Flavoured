@@ -56,7 +56,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "spelunkery:rough_emerald"
+          "name": "minecraft:raw_iron"
         }
       ]
     }

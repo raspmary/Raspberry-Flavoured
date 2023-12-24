@@ -1,0 +1,8 @@
+{
+  "type": "easyshulkerboxes:block_entity",
+  "any_game_mode": true,
+  "block_entity_type": "minecraft:shulker_box",
+  "filter_container_items": true,
+  "inventory_height": 2,
+  "inventory_width": 6
+}

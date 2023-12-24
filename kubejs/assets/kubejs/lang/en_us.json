@@ -1,7 +1,13 @@
 {
+  "itemGroup.kubejs.kubejs": "Raspberry Flavoured",
+  "biome.kubejs.tropical_beach" : "Tropical Beach",
+  "death.attack.coughing" : "%1$s failed the Cinnamon Challenge",
+  "effect.kubejs.coughing.description" : "Don't try this at home. Or anywhere, really.",
   "item.kubejs.music_disc_eleven.desc": "C418 - eleven",
   "item.kubejs.music_disc_dog.desc": "C418 - dog",
   "item.kubejs.music_disc_halland.desc": "Johan Johnson - Halland",
   "item.kubejs.music_disc_dalarna.desc": "Peter Hont - Dalarna",
-  "item.kubejs.music_disc_halland_dalarna.desc": "Super Smash Bros. Ultimate - Halland / Dalarna"
+  "item.kubejs.music_disc_halland_dalarna.desc": "Super Smash Bros. Ultimate - Halland / Dalarna",
+  "item.kubejs.music_disc_shimmer.desc": "Crabbarition - shimmer",
+  "item.kubejs.music_disc_frontier.desc": "Crabbarition & Raspmary - frontier"
 }

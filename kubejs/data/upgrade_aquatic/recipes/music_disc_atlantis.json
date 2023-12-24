@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:disc_fragment_5"
+    },
+	"T": {
+      "item": "upgrade_aquatic:tooth_block"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "STS",
+    "SSS"
+  ],
+  "result": {
+    "item": "upgrade_aquatic:music_disc_atlantis"
+  }
+}

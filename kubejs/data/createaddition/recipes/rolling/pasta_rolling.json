@@ -4,6 +4,7 @@
       	"item": "farmersdelight:wheat_dough"
 	},
 	"result": {
-		"item": "farmersdelight:raw_pasta"
+		"item": "farmersdelight:raw_pasta",
+		"count": 2
 	}
 }

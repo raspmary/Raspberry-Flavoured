@@ -29,7 +29,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Use steel in a smithing table to upgrade your chainmail armour, your iron tools, or even your fishing rod - you'll need to have visited another dimension to have access to steel..."
+      "text": "Use steel in a smithing table to upgrade your chainmail armour and your iron tools - you'll need to have visited another dimension to have access to steel..."
     },
     "frame": "goal",
     "hidden": false,

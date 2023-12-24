@@ -1,0 +1,11 @@
+{
+  "items": [
+    "atmospheric:yucca_fruit",
+    "atmospheric:roasted_yucca_fruit"
+  ],
+  "damage": 5,
+  "reload_ticks": 20,
+  "knockback": 2,
+  "velocity_multiplier": 1.25,
+  "sound_pitch": 1.05
+}

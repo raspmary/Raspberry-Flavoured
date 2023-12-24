@@ -1,5 +1,4 @@
 {
-  "allowIllegalTexturePaths": false,
   "illegalPathSupportMode": "None",
   "enableCustomTextures": true,
   "enableCustomBlockEntities": true,
@@ -38,5 +37,7 @@
   "dontPatchAnimatedTextures": true,
   "ignoredConfigs": [],
   "hideConfigButton": false,
-  "disableVanillaDirectoryVariantTextures": false
+  "disableVanillaDirectoryVariantTextures": false,
+  "use3DSkinLayerPatch": true,
+  "enableFullBodyWardenTextures": true
 }

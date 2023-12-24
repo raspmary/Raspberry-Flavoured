@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:compass_clock_spyglass",
+  "parent": "raspberryflavoured:hunting_root",
   "criteria": {
     "0": {
       "conditions": {
@@ -22,7 +22,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#ED3D69",
+      "color": "#CE3131",
       "text": "Craft and place down a lodestone, then use a compass on it to have the compass always point towards that lodestone - not quite waystones, but they should do!"
     },
     "frame": "task",

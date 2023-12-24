@@ -1,0 +1,10 @@
+{
+  "items": [
+    "ecologics:coconut_slice"
+  ],
+  "damage": 8,
+  "reload_ticks": 40,
+  "knockback": 1,
+  "velocity_multiplier": 1.5,
+  "sound_pitch": 1.1
+}

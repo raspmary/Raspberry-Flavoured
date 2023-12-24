@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Craft a hoe to rake through leaves, till dirt into farmland & harvest crops and plants in a larger area"
+      "text": "Craft a hoe to gather wheat seeds from grass, rake through leaves and till dirt into farmland"
     },
     "frame": "task",
     "hidden": false,

@@ -1,0 +1,11 @@
+{
+  "items": [
+    "culturaldelights:cucumber",
+    "culturaldelights:pickle"
+  ],
+  "damage": 4,
+  "reload_ticks": 12,
+  "knockback": 0.6,
+  "velocity_multiplier": 2,
+  "sound_pitch": 1.4
+}

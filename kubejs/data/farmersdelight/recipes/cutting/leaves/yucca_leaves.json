@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "atmospheric:yucca_leaves"
+    }
+  ],
+  "result": [
+    {
+      "item": "atmospheric:yucca_sapling",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hoes"
+  }
+}

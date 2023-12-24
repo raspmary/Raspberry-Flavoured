@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "y": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "pattern": [
+    "xy",
+    "yx"
+  ],
+  "result": {
+    "count": 4,
+    "item": "create_dd:hazard_block"
+  }
+}

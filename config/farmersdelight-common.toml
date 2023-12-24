@@ -22,7 +22,7 @@
 #Farming
 [farming]
 	#Which rope should Tomato Vines leave behind when mined by hand?
-	defaultTomatoVineRope = "farmersdelight:rope"
+	defaultTomatoVineRope = "supplementaries:rope"
 	#Should tomato vines be able to climb any rope tagged as farmersdelight:ropes?
 	#Beware: this will convert these blocks into the block specified in defaultTomatoVineRope.
 	enableTomatoVineClimbingTaggedRopes = true
@@ -37,18 +37,16 @@
 	#Should soups and stews from vanilla Minecraft grant additional effects, like meals from this mod?
 	vanillaSoupExtraEffects = true
 	#Should Rabbit Stew grant users the jumping prowess of a rabbit when eaten?
-	rabbitStewJumpBoost = false
+	rabbitStewJumpBoost = true
 	#Should the Dispenser be able to operate a Cutting Board in front of it?
 	dispenserUsesToolsOnCuttingBoard = true
 
 	#Stack size overrides
 	[overrides.stack_size]
-		#Should SoupItems in the following list become stackable to 16, much like Farmer's Delight's meals?
+		#Should BowlFoodItems in the following list become stackable to 16, much like Farmer's Delight's meals?
 		enableStackableSoupItems = true
-		#List of SoupItems. Default: vanilla soups and stews.
+		#List of BowlFoodItems. They must extend this class to be affected. Default: vanilla soups and stews.
 		soupItemList = ["minecraft:mushroom_stew", "minecraft:beetroot_soup", "minecraft:rabbit_stew", "environmental:truffle_mash", "atmospheric:passionfruit_sorbet", "neapolitan:neapolitan_ice_cream", "neapolitan:chocolate_ice_cream", "neapolitan:strawberry_ice_cream", "neapolitan:vanilla_ice_cream", "neapolitan:banana_ice_cream", "neapolitan:mint_ice_cream", "neapolitan:adzuki_ice_cream", "berry_good:glowgurt", "ecologics:tropical_stew", "neapolitan:adzuki_stew", "neapolitan:adzuki_curry", "neapolitan:vanilla_pudding", "incubation:scrambled_eggs", "autumnity:foul_soup", "windswept:goat_stew", "windswept:chestnut_soup", "windswept:chestnut_risotto", "windswept:chestnut_chicken_platter"]
-		#Toggle this setting to instead make ALL SoupItems stackable, except the ones on the list (deny-list). This affects items from other mods, so be careful!
-		overrideAllSoupItems = false
 
 #World generation
 [world]

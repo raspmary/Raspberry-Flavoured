@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "direct_furnace_boat",
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atmospheric:aspen_planks"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "atmospheric:aspen_furnace_boat"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "direct_chest_boat"
+    }
+  ]
+}

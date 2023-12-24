@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "raspberry_flavoured:wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "upgrade_aquatic:driftwood"
+    }
+  ]
+}

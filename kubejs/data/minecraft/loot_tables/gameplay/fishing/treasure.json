@@ -30,8 +30,8 @@
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
-              "treasure": true
+              "levels": 20.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:bow"
@@ -50,8 +50,8 @@
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
-              "treasure": true
+              "levels": 20.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:fishing_rod"
@@ -61,7 +61,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "levels": 20.0,
               "treasure": true
             }
           ],

@@ -8,11 +8,14 @@
   "processingTime": 250,
   "results": [
     {
-      "chance": 0.5,
       "item": "kubejs:soul_salt"
     },
     {
-      "chance": 0.05,
+      "chance": 0.7,
+      "item": "kubejs:soul_salt"
+    },
+    {
+      "chance": 0.35,
       "item": "kubejs:soul_salt"
     }
   ]

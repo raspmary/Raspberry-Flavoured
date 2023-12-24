@@ -1,5 +1,6 @@
 {
   "type": "create:compacting",
+  "heatRequirement": "heated",
   "conditions": [
     {
       "type": "forge:mod_loaded",

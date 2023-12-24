@@ -9,6 +9,12 @@ net.minecraft.client.gui.screens.PauseScreen {
 net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
+}
+
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 

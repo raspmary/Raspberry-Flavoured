@@ -1,0 +1,15 @@
+{
+  "items": [
+    "neapolitan:mint_leaves",
+    "atmospheric:aloe_leaves",
+    "farmersrespite:green_tea_leaves",
+    "farmersrespite:yellow_tea_leaves",
+    "farmersrespite:black_tea_leaves"
+  ],
+  "damage": 7,
+  "reload_ticks": 25,
+  "knockback": 0.01,
+  "split": 2,
+  "velocity_multiplier": 0.35,
+  "sound_pitch": 1.4
+}

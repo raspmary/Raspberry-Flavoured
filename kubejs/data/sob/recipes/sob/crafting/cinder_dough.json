@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:cinder_flour"
+    },
+	{
+      "item": "create:cinder_flour"
+    },
+	{
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "sob:cinder_dough",
+	"count": 3
+  },
+  "conditions": [{
+    "type": "forge:mod_loaded",
+    "modid": "create"
+  }]
+}

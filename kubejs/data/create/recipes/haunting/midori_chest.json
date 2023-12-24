@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "atmospheric:kousa_chest"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:purpur_chest"
+    }
+  ]
+}

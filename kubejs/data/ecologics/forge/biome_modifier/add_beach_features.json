@@ -1,8 +1,10 @@
 {
   "type": "forge:add_features",
-  "biomes": "minecraft:beach",
+  "biomes": [
+    "minecraft:beach",
+    "kubejs:tropical_beach"
+  ],
   "features": [
-    "ecologics:trees_beach",
     "ecologics:seashell"
   ],
   "step": "vegetal_decoration"

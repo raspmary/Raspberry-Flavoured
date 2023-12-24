@@ -5,8 +5,8 @@
     "depth": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 1
+        "min_inclusive": 2,
+        "max_inclusive": 3
       }
     },
     "vertical_range": 5,
@@ -16,8 +16,8 @@
     "xz_radius": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 1
+        "min_inclusive": 2,
+        "max_inclusive": 3
       }
     },
     "replaceable": "#minecraft:nether_carver_replaceables",
@@ -48,7 +48,7 @@
                       "type": "minecraft:uniform",
                       "value": {
                         "min_inclusive": 0,
-                        "max_inclusive": 1
+                        "max_inclusive": 2
                       }
                     }
                   },
@@ -58,7 +58,7 @@
                       "type": "minecraft:uniform",
                       "value": {
                         "min_inclusive": 0,
-                        "max_inclusive": 2
+                        "max_inclusive": 3
                       }
                     }
                   }

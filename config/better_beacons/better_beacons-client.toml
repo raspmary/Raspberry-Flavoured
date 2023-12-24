@@ -1,0 +1,9 @@
+
+[Buttons]
+	#If false the cancel button will only close the gui and will not remove the active effects. DEFAULT: True
+	"Cancel Button Remove Effects" = true
+	#If false the cancel button will not have a tooltip. DEFAULT: True
+	"Enable Cancel Button Tooltip" = true
+	#If false the confirm button will not have a tooltip. DEFAULT: True
+	"Enable Confirm Button Tooltip" = true
+

@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "alloyed:exposed_bronze_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "alloyed:bronze_block",
+      "count": 1
+    },
+    {
+      "item": "additionaladditions:copper_patina",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.scrape",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

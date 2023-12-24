@@ -18,7 +18,8 @@
   ],
   "results": [
     {
-      "item": "upgrade_aquatic:mulberry_bread"
+      "item": "upgrade_aquatic:mulberry_bread",
+	  "count": 2
     }
   ]
 }

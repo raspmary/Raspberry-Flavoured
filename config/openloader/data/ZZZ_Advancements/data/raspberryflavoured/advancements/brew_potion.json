@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:obsidian",
+  "parent": "raspberryflavoured:cock",
   "criteria": {
     "0": {
       "conditions": {},
@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Using a brewing stand, brew any kind of potion"
+      "text": "Brew any kind of potion"
     },
     "frame": "task",
     "hidden": false,

@@ -1,0 +1,83 @@
+{
+  "parent": "raspberryflavoured:dungeon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:mask_of_dishonesty"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:conch_of_conjuring"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:cleaver_of_beheading"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:wand_of_freezing"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Collect the four ancient relics scattered around the world"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "savage_and_ravage:mask_of_dishonesty"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Relic Collector"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+      "1"
+    ],
+	[
+      "2"
+    ],
+	[
+      "3"
+    ]
+  ]
+}

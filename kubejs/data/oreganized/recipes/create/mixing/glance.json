@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+	{
+      "item": "minecraft:cobblestone"
+    },
+	{
+      "item": "minecraft:cobblestone"
+    },
+	{
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "create:crushed_raw_lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "oreganized:glance",
+	  "count": 4
+    }
+  ],
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

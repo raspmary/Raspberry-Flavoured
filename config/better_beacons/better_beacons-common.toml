@@ -1,0 +1,41 @@
+
+["Beacon Effects"]
+	#If false the beacon will not have a level 5 with the tertiary effects. Also, the GUI will change to fit the config. Keep in mind that the "current payment" will not be in the new GUI. DEFAULT: True
+	"Enable Tertiary Effects" = true
+	#This is a list that contains the effects that a beacon has when at level 1. I would recommend a maximum of three effects to prevent them from extending beyond the GUI. DEFAULT: "minecraft:speed", "minecraft:jump_boost"
+	"Level 1 Effects" = ["minecraft:speed", "minecraft:jump_boost"]
+	#This is a list that contains the effects that a beacon has when at level 2. I would recommend a maximum of three effects to prevent them from extending beyond the GUI. DEFAULT: "minecraft:haste", "better_beacons:long_reach"
+	"Level 2 Effects" = ["minecraft:haste", "better_beacons:long_reach"]
+	#This is a list that contains the effects that a beacon has when at level 3. I would recommend a maximum of three effects to prevent them from extending beyond the GUI. DEFAULT: "minecraft:strength", "minecraft:resistance"
+	"Level 3 Effects" = ["minecraft:strength", "minecraft:resistance"]
+	#This is a list that contains the secondary effects that a beacon has when at level 4. I would recommend a maximum of four effects to prevent them from extending beyond the GUI. DEFAULT: "minecraft:night_vision", "minecraft:regeneration", "minecraft:fire_resistance"
+	"Secondary Effects" = ["minecraft:night_vision", "minecraft:regeneration", "minecraft:fire_resistance", "cofh_core:explosion_resistance"]
+	#This is a list that contains the tertiary effects that a beacon has when at level 5. I would recommend a maximum of two effects to prevent them from extending beyond the GUI. DEFAULT: "better_beacons:phantom_bane", "better_beacons:patrol_nullifier"
+	"Tertiary Effects" = ["cofh_core:clarity", "cofh_core:panacea"]
+
+["Payment Item Range && Block Amplifier"]
+	#Sets if depending on the payment item used the range of the beacon will increase. DEFAULT: True
+	"Enable Payment Item Range" = true
+	#Sets if depending on the base block used to build the beacon the primary effect amplifier (effect level) will increase. DEFAULT: True
+	"Enable Base Block Amplifier" = true
+
+["Redirection && Transparency"]
+	#Sets if the beacon beam can be redirected. DEFAULT: True
+	"Enable Beacon Beam Redirection" = true
+	#Sets if the beacon beam can become transparent. DEFAULT: True
+	"Enable Beacon Beam Transparency" = true
+	#Sets the maximum amount of blocks that the beacon beam can extend while horizontal. DEFAULT: 64
+	"Horizontal Move Limit" = 64
+
+["Waterlogging && Redstone"]
+	#Sets if the beacon can be waterlogged. DEFAULT: True
+	"Enable Waterlogging" = true
+	#Sets if the beacon can conduct redstone. DEFAULT: True
+	"Enable Conduct Redstone" = true
+
+["Lock Beacon"]
+	#Sets if the beacon needs a special item (Key) to open it for the first time. DEFAULT: False
+	"Lock Beacon" = false
+	#You can put in this list all items that can be used to unlock the beacon. Example: ["minecraft:stick", "minecraft:bone"]. DEFAULT: Nothing
+	Keys = []
+

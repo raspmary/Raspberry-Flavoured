@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Decorate your bed using a banner to look cool and to prevent the bed from only dropping a bedroll when destroyed"
+      "text": "Decorate your bed using a banner"
     },
     "frame": "goal",
     "hidden": false,

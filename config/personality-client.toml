@@ -1,0 +1,11 @@
+
+[animation]
+	#If there should be a special animation for climbing ladders
+	"Climbing animation" = true
+
+[keybindings]
+	#If true, crawling will be toggled on or off instead of the keybinding being held down
+	toggleCrawl = true
+	#If true, sitting will be toggled on or off instead of the keybinding being held down
+	toggleSitting = true
+

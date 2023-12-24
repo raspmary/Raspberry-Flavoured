@@ -3,10 +3,6 @@
 
 	[types.leaves_type]
 
-		[types.leaves_type.abundant_atmosphere]
-			ash = true
-			gourdrot = true
-
 		[types.leaves_type.environmental]
 			willow = true
 			cherry = true
@@ -67,10 +63,6 @@
 			coconut = true
 			walnut = true
 
-		[types.wood_type.abundant_atmosphere]
-			ash = true
-			gourdrot = true
-
 		[types.wood_type.environmental]
 			willow = true
 			cherry = true
@@ -97,6 +89,11 @@
 		[types.wood_type.windswept]
 			holly = true
 			chestnut = true
+
+		[types.wood_type.create_dd]
+			rose = true
+			smoked = true
+			spirit = true
 
 [entries]
 
@@ -149,4 +146,7 @@
 			board_slab = true
 			boards = true
 			board_wall = true
+
+		[entries.wood_type.twigs]
+			table = true
 

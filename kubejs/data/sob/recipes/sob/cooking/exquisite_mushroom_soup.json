@@ -1,0 +1,36 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "ingredients": [
+      {
+        "item": "environmental:truffle"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "tag": "forge:vegetables"
+      }
+    ],
+    "result": {
+      "item": "sob:exquisite_mushroom_soup"
+    },
+    "experience": 2.0,
+    "cookingtime": 300,
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "environmental"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "farmersdelight"
+        }
+      ]
+  }

@@ -1,0 +1,13 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {"item": "minecraft:bread"},
+      {"fluid": "create_central_kitchen:syrup","amount": 250}
+    ],
+    "results": [{"item": "sob:maple_bread","count": 2}],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "autumnity"},
+        {"type": "forge:mod_loaded","modid": "create_central_kitchen"}
+    ]
+  }

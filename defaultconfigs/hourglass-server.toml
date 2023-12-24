@@ -4,12 +4,12 @@
 	#Day is defined as any time between 23500 (middle of dawn) and 12500 (middle of dusk) the next day.
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	daySpeed = 0.8
+	daySpeed = 0.75
 	#The speed at which time passes during the night.
 	#Night is defined as any time between 12500 (middle of dusk) and 23500 (middle of dawn).
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	nightSpeed = 0.8
+	nightSpeed = 0.75
 
 	[time.effects]
 		#When applied, this effect syncs the passage of weather with the current speed of time.
@@ -58,10 +58,10 @@
 	#The maximum speed at which time passes when all players are sleeping.
 	#A value of 110 is nearly equal to the time it takes to sleep in vanilla.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMax = 9.0
+	sleepSpeedMax = 9.5
 	#The minimum speed at which time passes when only 1 player is sleeping in a full server.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMin = 1.0
+	sleepSpeedMin = 0.5
 	#The speed at which time passes when all players are sleeping.
 	#Set to -1 to disable this feature (sleepSpeedMax will be used when all players are sleeping).
 	#Range: -1.0 ~ 24000.0

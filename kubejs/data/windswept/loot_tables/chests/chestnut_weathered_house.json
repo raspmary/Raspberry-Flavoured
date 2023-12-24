@@ -11,21 +11,6 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:rough_emerald"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 4.0,
                 "min": 1.0
               },
@@ -33,7 +18,7 @@
             }
           ],
           "name": "minecraft:fern",
-          "weight": 3
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -49,7 +34,7 @@
             }
           ],
           "name": "minecraft:sweet_berries",
-          "weight": 3
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -65,7 +50,7 @@
             }
           ],
           "name": "windswept:chestnut_log",
-          "weight": 3
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -81,7 +66,7 @@
             }
           ],
           "name": "minecraft:cobweb",
-          "weight": 3
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -97,7 +82,7 @@
             }
           ],
           "name": "windswept:chestnut_sapling",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -113,22 +98,16 @@
             }
           ],
           "name": "minecraft:birch_sapling",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 20.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "miners_delight:copper_cup"
+          "name": "minecraft:bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "environmental:wanderer_boots",
+          "weight": 1
         }
       ],
       "rolls": {

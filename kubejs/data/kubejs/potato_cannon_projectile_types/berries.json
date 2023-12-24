@@ -1,0 +1,21 @@
+{
+  "items": [
+    "kubejs:black_chocolate_glazed_berries",
+    "kubejs:white_chocolate_glazed_berries",
+    "upgrade_aquatic:mulberry",
+    "neapolitan:strawberries",
+    "neapolitan:white_strawberries",
+    "neapolitan:chocolate_strawberries",
+    "neapolitan:vanilla_pods",
+    "neapolitan:dried_vanilla_pods",
+    "neapolitan:vanilla_chocolate_fingers",
+    "neapolitan:adzuki_beans",
+    "neapolitan:roasted_adzuki_beans"
+  ],
+  "damage": 4,
+  "reload_ticks": 10,
+  "knockback": 0.2,
+  "split": 3,
+  "velocity_multiplier": 1,
+  "sound_pitch": 1.25
+}

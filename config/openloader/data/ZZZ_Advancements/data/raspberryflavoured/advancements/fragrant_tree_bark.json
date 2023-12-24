@@ -1,12 +1,12 @@
 {
-  "parent": "raspberryflavoured:tree_bark",
+  "parent": "raspberryflavoured:cock",
   "criteria": {
     "0": {
       "conditions": {
         "items": [
           {
             "items": [
-              "kubejs:fragrant_tree_bark"
+              "kubejs:cinnamon"
             ]
           }
         ]
@@ -18,12 +18,12 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Strip one of a few special kinds of wood logs on a cutting board to obtain fragrant tree bark, the purest source of cinnamon"
+      "text": "Strip one of a few special kinds of wood logs on a cutting board with a knife to obtain cinnamon"
     },
-    "frame": "goal",
+    "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "kubejs:fragrant_tree_bark"
+      "item": "kubejs:cinnamon"
     },
     "show_toast": true,
     "title": {

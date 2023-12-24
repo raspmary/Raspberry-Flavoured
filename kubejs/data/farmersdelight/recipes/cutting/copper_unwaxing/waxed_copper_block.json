@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:waxed_copper_block"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:copper_block",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.wax_off",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

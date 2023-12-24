@@ -3,12 +3,10 @@ type = menu
 customization-meta {
   identifier = net.minecraft.client.gui.screens.OptionsScreen
   randomgroup = 1
-  biggerthanwidth = 1919
   renderorder = foreground
   randommode = false
   custom_menu_title = 
   randomonlyfirsttime = false
-  biggerthanheight = 1016
 }
 
 customization {
@@ -82,10 +80,10 @@ customization {
 
 customization {
   identifier = %id=400334%
-  orientation = top-centered
+  orientation = mid-centered
   x = -100
   action = movebutton
-  y = 244
+  y = 77
 }
 
 customization {
@@ -153,7 +151,7 @@ customization {
   identifier = %id=635154%
   orientation = element
   orientation_element = vanillabtn:400334
-  x = 236
+  x = 235
   action = movebutton
   y = -154
 }

@@ -6,7 +6,7 @@
       "dirtSounds": true,
       "goldSounds": true,
       "leafSounds": true,
-      "lilyPadSounds": false,
+      "lilyPadSounds": true,
       "metalSounds": true,
       "magmaSounds": true,
       "obsidianSounds": true,
@@ -19,7 +19,7 @@
       "stoneBrickSounds": true,
       "stoneOreSounds": true,
       "stringSounds": true,
-      "terracottaSounds": false,
+      "terracottaSounds": true,
       "jukeboxWoodSounds": true,
       "mushroomSounds": true,
       "purpurSounds": true,
@@ -46,7 +46,7 @@
     "pickaxe_swinging_sounds": false,
     "shovel_swinging_sounds": false,
     "hoe_swinging_sounds": false,
-    "trident_swinging_sounds": true,
+    "trident_swinging_sounds": false,
     "shear_swinging_sounds": false,
     "bow_pullback_sounds": true,
     "trident_pullback_sounds": true,
@@ -54,6 +54,6 @@
   },
   "misc_sounds": {
     "silverfish_step_sounds": true,
-    "item_drop_sounds": true
+    "item_drop_sounds": false
   }
 }

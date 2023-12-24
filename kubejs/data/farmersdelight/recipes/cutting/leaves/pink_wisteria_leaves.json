@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "environmental:pink_wisteria_leaves"
+    }
+  ],
+  "result": [
+    {
+      "item": "environmental:pink_wisteria_sapling",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hoes"
+  }
+}

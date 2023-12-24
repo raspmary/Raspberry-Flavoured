@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "amount": 10,
+      "fluid": "create_enchantment_industry:ink"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:map"
+    }
+  ]
+}

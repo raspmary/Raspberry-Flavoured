@@ -1,0 +1,11 @@
+{
+  "items": [
+    "neapolitan:banana",
+    "neapolitan:dried_banana"
+  ],
+  "damage": 1,
+  "reload_ticks": 20,
+  "knockback": 2,
+  "velocity_multiplier": 1.2,
+  "sound_pitch": 1.25
+}

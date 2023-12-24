@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "raspberry_flavoured:stripped_logs"
+    }
+  ],
+  "results": [
+    {
+      "item": "upgrade_aquatic:stripped_driftwood_log"
+    }
+  ]
+}

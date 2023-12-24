@@ -4,9 +4,17 @@
     "#": {
       "tag": "forge:ingots/iron"
     },
-    "/": {
+    "/": [
+	{
       "item": "minecraft:brick"
+    },
+	{
+      "item": "minecraft:nether_brick"
+    },
+	{
+      "item": "supplementaries:ash_brick"
     }
+	]
   },
   "pattern": [
     " ##",

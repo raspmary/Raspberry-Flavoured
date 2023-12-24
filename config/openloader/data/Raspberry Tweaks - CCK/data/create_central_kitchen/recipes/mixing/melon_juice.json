@@ -6,6 +6,10 @@
     },
     {
       "item": "minecraft:sugar"
+    },
+	{
+      "amount": 250,
+      "fluid": "minecraft:water"
     }
   ],
   "results": [

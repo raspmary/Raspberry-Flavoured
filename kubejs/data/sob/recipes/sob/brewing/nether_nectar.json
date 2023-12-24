@@ -1,0 +1,30 @@
+{
+    "type": "farmersrespite:brewing",
+    "ingredients": [
+      {
+        "item": "nethersdelight:propelpearl"
+      },
+      {
+        "item": "farmersrespite:yellow_tea_leaves"
+      }
+    ],
+    "result": {
+      "item": "sob:nether_nectar"
+    },
+    "experience": 0.35,
+    "brewingtime": 100,
+    "needwater": true,
+    "container": {
+        "item": "minecraft:honey_bottle"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "nethersdelight"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "farmersrespite"
+        }
+      ]
+  }

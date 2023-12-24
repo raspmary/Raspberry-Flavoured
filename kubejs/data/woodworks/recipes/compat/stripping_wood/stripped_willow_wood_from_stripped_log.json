@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "environmental:stripped_willow_log"
+  },
+  "result": "environmental:stripped_willow_wood"
+}

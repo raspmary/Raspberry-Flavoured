@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "quark:diamond_heart"
+    }
+  ],
+  "processingTime": 1000,
+  "results": [
+    {
+      "item": "spelunkery:rough_diamond"
+    },
+    {
+	  "chance": 0.2,
+	  "count": 1,
+      "item": "spelunkery:rough_diamond"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+	  "chance": 0.2,
+	  "count": 3,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

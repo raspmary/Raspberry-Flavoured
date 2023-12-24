@@ -1,0 +1,12 @@
+{
+  "entity.farmersdelight.rotten_tomato": "Rotten Tomato",
+  "item.farmersdelight.kelp_roll": "Carrot Roll",
+  "item.farmersdelight.kelp_roll_slice": "Carrot Roll Slice",
+  "item.farmersdelight.cake_slice": "Slice of Sweet Berry Cake",
+  "item.farmersdelight.pie_crust": "Pastry Crust",
+  "item.farmersdelight.barbecue_stick": "Meat Skewer",
+  "farmersdelight.advancement.place_copper_pot": "Speed-Cooking",
+  "farmersdelight.advancement.place_copper_pot.desc": "Put down a Copper Pot that cooks faster, but can only cook small meals",
+  "farmersdelight.advancement.harvest_ropelogged_tomato.desc": "Hang some rope above or place a stick into a tomato crop to make it grow taller",
+  "farmersdelight.advancement.place_campfire.desc": "Make some campfire kindling and ignite it with a fire striker"
+}

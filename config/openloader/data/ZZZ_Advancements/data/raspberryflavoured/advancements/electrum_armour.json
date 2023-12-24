@@ -54,7 +54,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Make a full set of electrum armour - you'll need to have visited another dimension to have access to electrum..."
+      "text": "Make a full set of electrum armour - you'll need to have visited another dimension to make electrum..."
     },
     "frame": "challenge",
     "hidden": false,

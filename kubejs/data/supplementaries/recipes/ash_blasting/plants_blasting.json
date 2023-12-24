@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "cookingtime": 100,
-  "ingredient": {
-    "tag": "minecraft:replaceable_plants"
-  },
-  "result": "supplementaries:ash"
-}

@@ -17,8 +17,6 @@
 	"autumnity:redstone_jack_o_lantern",
 	"autumnity:large_jack_o_lantern_slice",
 	"autumnity:large_soul_jack_o_lantern_slice",
-	"autumnity:large_redstone_jack_o_lantern_slice",
-	"overweight_farming:overweight_cocoa_block",
-	"overweight_farming:peeled_overweight_cocoa_block"
+	"autumnity:large_redstone_jack_o_lantern_slice"
   ]
 }

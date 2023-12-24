@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "furnace_minecart",
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": [
+	{
+      "tag": "forge:ingots/iron"
+    },
+	{
+      "tag": "forge:ingots/lead"
+    }
+	],
+    "X": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace_minecart"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "minecart_upgrade"
+    }
+  ]
+}

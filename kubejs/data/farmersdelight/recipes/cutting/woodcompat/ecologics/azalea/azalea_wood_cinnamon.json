@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "ecologics:azalea_wood"
+    }
+  ],
+  "result": [
+    {
+      "item": "ecologics:stripped_azalea_wood",
+      "count": 1
+    },
+    {
+      "item": "kubejs:cinnamon",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

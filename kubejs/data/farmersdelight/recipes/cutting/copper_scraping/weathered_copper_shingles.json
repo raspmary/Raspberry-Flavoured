@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:weathered_copper_shingles"
+    }
+  ],
+  "result": [
+    {
+      "item": "create:exposed_copper_shingles",
+      "count": 1
+    },
+    {
+      "item": "additionaladditions:copper_patina",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.scrape",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

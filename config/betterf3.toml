@@ -5,7 +5,7 @@
 	space_modules = false
 	shadow_text = true
 	animations = true
-	animationSpeed = 1.1
+	animationSpeed = 1.5
 	fontScale = 1.0
 	background_color = 1867534416
 	hide_debug_crosshair = false
@@ -47,6 +47,26 @@
 		shader = false
 
 [[modules_left]]
+	name = "location"
+	name_color = 43520
+	value_color = 5636095
+	enabled = true
+
+	[modules_left.lines]
+		dimension = false
+		facing = false
+		rotation = false
+		light = false
+		light_server = false
+		highest_block = false
+		highest_block_server = false
+		biome = false
+		local_difficulty = false
+		day_ticks = false
+		days_played = true
+		slime_chunk = false
+
+[[modules_left]]
 	name = "empty"
 	empty_lines = 1
 	enabled = true
@@ -58,7 +78,7 @@
 	name = "server"
 	name_color = 11184810
 	value_color = 16777045
-	enabled = true
+	enabled = false
 
 	[modules_left.lines]
 		server_tick = true
@@ -86,7 +106,7 @@
 	chunks_enabled_color = 5635925
 	chunks_disabled_color = 16733525
 	total_chunks_color = 16755200
-	enabled = true
+	enabled = false
 
 	[modules_left.lines]
 		chunk_sections = true
@@ -99,34 +119,14 @@
 		loaded_chunks_server = true
 		forceloaded_chunks = true
 		spawn_chunks = true
-		chunk_file = true
-
-[[modules_left]]
-	name = "location"
-	name_color = 43520
-	value_color = 5636095
-	enabled = true
-
-	[modules_left.lines]
-		dimension = true
-		facing = false
-		rotation = false
-		light = true
-		light_server = true
-		highest_block = false
-		highest_block_server = false
-		biome = true
-		local_difficulty = true
-		day_ticks = false
-		days_played = true
-		slime_chunk = true
+		chunk_file = false
 
 [[modules_left]]
 	name = "entity"
 	name_color = 16733525
 	value_color = 16777045
 	total_entities_color = 16755200
-	enabled = true
+	enabled = false
 
 	[modules_left.lines]
 		particles = false
@@ -145,7 +145,7 @@
 	name_color = 16755200
 	value_color = 5636095
 	maximum_color = 43690
-	enabled = true
+	enabled = false
 
 	[modules_left.lines]
 		sounds = true
@@ -212,7 +212,7 @@
 	name = "miscright"
 	name_color = 16645526
 	value_color = 5636095
-	enabled = true
+	enabled = false
 
 	[modules_right.lines]
 		misc_right = true

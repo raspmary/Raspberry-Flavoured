@@ -59,22 +59,6 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:rough_emerald",
-          "weight": 10
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 12.0,
                 "min": 6.0
               },
@@ -123,7 +107,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "create:experience_nugget",
+          "name": "minecraft:experience_bottle",
           "weight": 25
         },
 		{

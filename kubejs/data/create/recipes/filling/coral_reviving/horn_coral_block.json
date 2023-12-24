@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:dead_horn_coral_block"
+    },
+    {
+      "amount": 25,
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:regeneration"
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:horn_coral_block"
+    }
+  ]
+}

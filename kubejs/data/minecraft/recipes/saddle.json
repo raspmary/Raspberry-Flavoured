@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:leather"
+            "tag": "minecraft:leather_cuts"
         },
         "C": {
             "item": "minecraft:chain"

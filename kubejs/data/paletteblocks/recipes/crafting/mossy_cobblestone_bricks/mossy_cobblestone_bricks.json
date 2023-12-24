@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mossy_cobblestone_bricks",
+  "ingredients": [
+    {
+      "item": "paletteblocks:cobblestone_bricks"
+    },
+    {
+      "tag": "raspberry_flavoured:moss"
+    }
+  ],
+  "result": {
+    "item": "paletteblocks:mossy_cobblestone_bricks"
+  }
+}

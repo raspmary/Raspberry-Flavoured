@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "environmental:stripped_wisteria_wood"
+  },
+  "result": "environmental:stripped_wisteria_log"
+}

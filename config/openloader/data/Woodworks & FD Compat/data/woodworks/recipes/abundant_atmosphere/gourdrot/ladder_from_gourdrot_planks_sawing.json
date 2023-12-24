@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "item": "abundant_atmosphere:gourdrot_planks"
-  },
-  "result": "everycomp:q/abundant_atmosphere/gourdrot_ladder"
-}

@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 10,
-        "description": [{"text":"Recipes and balancing","color":"yellow"}]
+        "description": [{"text":"RF custom advancements","color":"yellow"}]
     },
     "filter": {
         "block": [
@@ -14,19 +14,7 @@
                 "path": "advancements/.*"
             },
 			{
-                "namespace": "repurposed_structures",
-                "path": "advancements/.*"
-            },
-			{
-                "namespace": "betterdeserttemples",
-                "path": "advancements/.*"
-            },
-			{
                 "namespace": "create",
-                "path": "advancements/.*"
-            },
-			{
-                "namespace": "dungeons_enhanced",
                 "path": "advancements/.*"
             },
 			{
@@ -38,7 +26,7 @@
                 "path": "advancements/.*"
             },
 			{
-                "namespace": "toms_storage",
+                "namespace": "create_dd",
                 "path": "advancements/.*"
             }
         ]

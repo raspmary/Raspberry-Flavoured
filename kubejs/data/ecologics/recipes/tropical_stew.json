@@ -7,7 +7,7 @@
   "experience": 0.35,
   "ingredients": [
     {
-      "item": "ecologics:crab_meat"
+      "item": "kubejs:crab_meat"
     },
     {
       "tag": "forge:vegetables"

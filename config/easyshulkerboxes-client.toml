@@ -1,5 +1,5 @@
 #Color item inventories on tooltips according to the container item's color.
-colorful_tooltips = true
+colorful_tooltips = false
 #Render a white overlay or the hotbar selected item frame over the slot the next item will be taken out of when right-clicking the container item.
 #Allowed Values: HOTBAR, HOVER
 slot_overlay = "HOVER"

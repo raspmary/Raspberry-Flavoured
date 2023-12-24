@@ -28,30 +28,6 @@ group(ID=iron_horse_armor;ID=golden_horse_armor;ID=diamond_horse_armor)@luck=2
 / bow and arrows
 group(ID=bow;ID=arrow,amount=#rand(16,32))@luck=1
 
-/ lucky equipment
-group:1:(
-	ID=additionaladditions:rose_gold_sword,NBTTag=(Enchantments=#luckySwordEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Sword,color=light_purple,italic=false)));
-	ID=bow,NBTTag=(Enchantments=[
-		(id=power,lvl=#rand(3,5)),
-		(id=punch,lvl=#rand(1,2))
-	],quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Bow,color=light_purple,italic=false)));
-	ID=crossbow,NBTTag=(Enchantments=#luckyCrossbowEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Crossbow,color=light_purple,italic=false)));
-	ID=trident,NBTTag=(Enchantments=#luckyTridentEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Trident,color=light_purple,italic=false)));
-	ID=additionaladditions:rose_gold_shovel,NBTTag=(Enchantments=#luckyToolEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Shovel,color=light_purple,italic=false)));
-    ID=additionaladditions:rose_gold_pickaxe,NBTTag=(Enchantments=#luckyToolEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Pickaxe,color=light_purple,italic=false)));
-    ID=additionaladditions:rose_gold_axe,NBTTag=(Enchantments=#luckyAxeEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Axe,color=light_purple,italic=false)));
-    ID=additionaladditions:rose_gold_hoe,NBTTag=(Enchantments=#luckyToolEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Hoe,color=light_purple,italic=false)));
-    ID=fishing_rod,NBTTag=(Enchantments=#luckyFishingRodEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Fishing Rod,color=light_purple,italic=false)));
-	ID=additionaladditions:rose_gold_helmet,NBTTag=(Enchantments=#luckyHelmetEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Helmet,color=light_purple,italic=false)));
-    ID=additionaladditions:rose_gold_chestplate,NBTTag=(Enchantments=#luckyChestplateEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Chestplate,color=light_purple,italic=false)));
-    ID=additionaladditions:rose_gold_leggings,NBTTag=(Enchantments=#luckyLeggingsEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Leggings,color=light_purple,italic=false)));
-    ID=additionaladditions:rose_gold_boots,NBTTag=(Enchantments=#luckyBootsEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Boots,color=light_purple,italic=false)));
-	ID=createaddition:diamond_grit_sandpaper,NBTTag=(Enchantments=[
-		(id=unbreaking,lvl=#rand(1,3)),
-		(id=#randList(mending,allurement:reforming),lvl=1)
-	],quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Sand Paper,color=light_purple,italic=false)))
-)@luck=2
-
 / lucky potion
 ID=potion,NBTTag=(
     Potion=regeneration,
@@ -73,44 +49,61 @@ ID=sponge@luck=0
 ID=tnt,amount=8@luck=1
 ID=obsidian,amount=14@luck=1
 ID=enchanting_table@luck=2
-ID=end_portal_frame,amount=#rand(2,6)@luck=2
-ID=dragon_egg@luck=1
 ID=ender_chest,amount=2@luck=0
 ID=beacon@luck=2
 ID=dropper,amount=8@luck=0
 ID=hay_block,amount=8@luck=0
 
 / random items
+ID=#randList(cake,neapolitan:vanilla_cake,neapolitan:chocolate_cake,neapolitan:strawberry_cake,neapolitan:banana_cake,neapolitan:mint_cake,neapolitan:adzuki_cake,farmersrespite:coffee_cake,respiteful:green_tea_cake,respiteful:yellow_tea_cake,respiteful:black_tea_cake,createaddition:honey_cake),amount=1@luck=1
+ID=#randList(compass,clock,spyglass,supplementaries:altimeter),amount=#rand(1,3)@luck=0
 ID=gold_ingot,amount=#rand(8,16)@luck=1
 ID=stick@luck=-1
 ID=painting,amount=4@luck=0
 ID=saddle,amount=2@luck=0
-ID=cake@luck=0
 ID=rotten_flesh@luck=-1
 ID=nether_star@luck=2
 ID=poppy,NBTTag=(display=(Name=#jsonStr(text="Romantic Rose",color=dark_red)))@luck=-1
-ID=rabbit_stew,amount=#rand(5,7)@luck=1
+ID=rabbit_stew,amount=#rand(4,8)@luck=1
 
 / bookshelves and books
 group(ID=bookshelf,amount=#rand(6,12);ID=book,amount=#rand(8,16))@luck=0
 
 / pumpkins and jack o'lanterns
-group(ID=pumpkin,amount=#rand(8,16);ID=jack_o_lantern,amount=#rand(8,16))@luck=0
+group(ID=carved_pumpkin,amount=#rand(6,12);ID=jack_o_lantern,amount=#rand(3,6))@luck=0
 
 / golden apples
-group(ID=golden_apple,amount=#rand(2,4);ID=enchanted_golden_apple,amount=#rand(1,2))@luck=2
+group:1:(ID=golden_apple,amount=#rand(2,4);ID=golden_apple,amount=#rand(2,4);ID=golden_apple,amount=#rand(2,4);ID=golden_apple,amount=#rand(2,4);ID=quark:golden_apple_crate,amount=#rand(1,2))@luck=2
 
 / buckets
-group(ID=bucket,amount=#rand(1,2);ID=water_bucket,amount=#rand(1,2);ID=lava_bucket,amount=#rand(1,2);ID=milk_bucket,amount=#rand(1,2))@luck=0
+group:1:(ID=bucket,amount=#rand(3,6);group:#rand(1,3):(ID=water_bucket,amount=#rand(1,2);ID=lava_bucket,amount=1;ID=milk_bucket,amount=#rand(1,2)))@luck=1
 
-/ meat (raw and cooked)
-group:1:(group(ID=porkchop,amount=#rand(8,16);ID=cooked_porkchop,amount=#rand(4,8));group(ID=salmon,amount=#rand(8,16);ID=cooked_salmon,amount=#rand(4,8));group(ID=beef,amount=#rand(8,16);ID=cooked_beef,amount=#rand(4,8));group(ID=chicken,amount=#rand(8,16);ID=cooked_chicken,amount=#rand(4,8));group(ID=mutton,amount=#rand(8,16);ID=cooked_mutton,amount=#rand(4,8));group(ID=rabbit,amount=#rand(8,16);ID=cooked_rabbit,amount=#rand(4,8)))@luck=1
+/ meat
+group:1:(
+	group(ID=porkchop,amount=#rand(8,16);ID=cooked_porkchop,amount=#rand(4,8));
+	group(ID=salmon,amount=#rand(8,16);ID=cooked_salmon,amount=#rand(4,8));
+	group(ID=beef,amount=#rand(8,16);ID=cooked_beef,amount=#rand(4,8));
+	group(ID=chicken,amount=#rand(8,16);ID=cooked_chicken,amount=#rand(4,8));
+	group(ID=mutton,amount=#rand(8,16);ID=cooked_mutton,amount=#rand(4,8));
+	group(ID=rabbit,amount=#rand(8,16);ID=cooked_rabbit,amount=#rand(4,8));
+	group(ID=windswept:goat,amount=#rand(8,16);ID=windswept:cooked_goat,amount=#rand(4,8));
+	group(ID=naturalist:bass,amount=#rand(8,16);ID=naturalist:cooked_bass,amount=#rand(4,8));
+	group(ID=kubejs:crab_meat,amount=#rand(8,16);ID=ecologics:crab_meat,amount=#rand(4,8));
+	group(ID=farmersdelight:ham,amount=#rand(1,4);ID=farmersdelight:smoked_ham,amount=#rand(1,2));
+	group(ID=environmental:duck,amount=#rand(8,16);ID=environmental:cooked_duck,amount=#rand(4,8));
+	group(ID=upgrade_aquatic:pike,amount=#rand(8,16);ID=upgrade_aquatic:cooked_pike,amount=#rand(4,8));
+	group(ID=upgrade_aquatic:lionfish,amount=#rand(8,16);ID=upgrade_aquatic:cooked_lionfish,amount=#rand(4,8));
+	group(ID=upgrade_aquatic:perch,amount=#rand(8,16);ID=upgrade_aquatic:cooked_perch,amount=#rand(4,8));
+	group(ID=autumnity:turkey,amount=#rand(1,4);ID=autumnity:cooked_turkey,amount=#rand(1,2));
+	group(ID=autumnity:turkey_piece,amount=#rand(8,16);ID=autumnity:cooked_turkey_piece,amount=#rand(4,8));
+	group(ID=nethersdelight:hoglin_loin,amount=#rand(8,16);ID=nethersdelight:hoglin_sirloin,amount=#rand(4,8));
+	group(ID=miners_delight:bat_wing,amount=#rand(8,16);ID=miners_delight:smoked_bat_wing,amount=#rand(4,8));
+	group(ID=miners_delight:squid,amount=#rand(6,12);ID=miners_delight:baked_squid,amount=#rand(3,6)))@luck=1
 
 / vegetables
-group:#rand(2,4):(
+group:#rand(3,5):(
 	group:#rand(1,2):(ID=carrot,amount=#rand(4,8);ID=farmersdelight:carrot_crate,amount=#rand(2,4));
 	group:#rand(1,2):(ID=golden_carrot,amount=#rand(2,4);ID=quark:golden_carrot_crate,amount=1);
-	group:#rand(1,2):(ID=miners_delight:cave_carrot,amount=#rand(3,6);ID=miners_delight:cave_carrot_crate,amount=#rand(1,2));
 	group:#rand(1,2):(ID=potato,amount=#rand(4,8);ID=farmersdelight:potato_crate,amount=#rand(2,4));
 	group:#rand(1,2):(ID=farmersdelight:cabbage,amount=#rand(3,6);ID=farmersdelight:cabbage_crate,amount=#rand(1,2));
 	group:#rand(1,2):(ID=farmersdelight:onion,amount=#rand(4,8);ID=farmersdelight:onion_crate,amount=#rand(2,4));
@@ -122,19 +115,16 @@ group:#rand(2,4):(
 )@luck=0
 
 / ender pearls and eyes
-group(ID=ender_pearl,amount=10;ID=ender_eye,amount=5)@luck=2
+group:#rand(1,2):(ID=ender_pearl,amount=#rand(4,12);ID=ender_eye,amount=#rand(1,4))@luck=2
 
 / potions
 ID=#randList(potion,splash_potion),NBTTag=(Potion=#randPotion),amount=#rand(4,8)@luck=1
-
-/ spawn eggs
-ID=#randSpawnEgg,amount=#rand(4,8)@luck=1
 
 / heads
 group:#rand(1,3):(ID=wither_skeleton_skull;ID=skeleton_skull;ID=zombie_head;ID=player_head;ID=creeper_head;ID=supplementaries:enderman_head;ID=skeleton_skull;ID=zombie_head;ID=creeper_head;ID=supplementaries:enderman_head;ID=skeleton_skull;ID=zombie_head;ID=creeper_head;ID=supplementaries:enderman_head)@luck=0
 
 / redstone
-group(ID=dispenser,amount=2;ID=note_block,amount=1;ID=sticky_piston,amount=4;ID=piston,amount=4;ID=tnt,amount=6;ID=lever,amount=2;ID=stone_pressure_plate,amount=2;ID=oak_pressure_plate,amount=2;ID=redstone_torch,amount=8;ID=stone_button,amount=2;ID=oak_trapdoor,amount=2;ID=iron_trapdoor,amount=2;ID=oak_fence_gate,amount=1;ID=redstone_lamp,amount=4;ID=tripwire_hook,amount=2;ID=oak_button,amount=2;ID=light_weighted_pressure_plate,amount=1;ID=heavy_weighted_pressure_plate,amount=1;ID=daylight_detector,amount=1;ID=hopper,amount=4;ID=dropper,amount=#rand(2,4);ID=oak_door,amount=1;ID=iron_door,amount=1;ID=redstone,amount=#rand(32,64);ID=repeater,amount=8;ID=comparator,amount=2;type=particle,ID=splashpotion,potion="healing")@luck=2
+group(group:#rand(1,2):(group:#rand(6,12):(ID=dispenser,amount=2;ID=note_block,amount=1;ID=sticky_piston,amount=4;ID=piston,amount=4;ID=tnt,amount=6;ID=lever,amount=2;ID=stone_pressure_plate,amount=2;ID=oak_pressure_plate,amount=2;ID=redstone_torch,amount=8;ID=stone_button,amount=2;ID=oak_trapdoor,amount=2;ID=iron_trapdoor,amount=2;ID=oak_fence_gate,amount=1;ID=redstone_lamp,amount=4;ID=tripwire_hook,amount=2;ID=oak_button,amount=2;ID=light_weighted_pressure_plate,amount=1;ID=heavy_weighted_pressure_plate,amount=1;ID=daylight_detector,amount=1;ID=hopper,amount=4;ID=dropper,amount=#rand(2,4);ID=oak_door,amount=1;ID=iron_door,amount=1;ID=redstone,amount=#rand(32,64);ID=repeater,amount=8;ID=comparator,amount=2);group:#rand(6,12):(ID=oreganized:exposer,amount=1;ID=quark:redstone_randomizer,amount=2;ID=quark:iron_button,amount=2;ID=quark:gold_button,amount=2;ID=quark:obsidian_pressure_plate,amount=2;ID=supplementaries:cog_block,amount=8;ID=supplementaries:relayer,amount=2;ID=supplementaries:speaker_block,amount=1;ID=supplementaries:turn_table,amount=2;ID=supplementaries:redstone_illuminator,amount=1;ID=supplementaries:sconce_lever,amount=3;ID=supplementaries:crank,amount=1;ID=supplementaries:gold_door,amount=1;ID=supplementaries:gold_trapdoor,amount=1;ID=supplementaries:silver_door,amount=1;ID=supplementaries:silver_trapdoor,amount=1;ID=supplementaries:lead_door,amount=1;ID=supplementaries:lead_trapdoor,amount=1));type=particle,ID=splashpotion,potion=healing)@luck=2
 
 / colourful
 group(group:1:(
@@ -150,59 +140,45 @@ group(group:1:(
 	ID=spelunkery:#randColor_glowstick,amount=#rand(32,64)
 );type=particle,ID=splashpotion,potion=#randPotion,amount=#rand(6,12))@luck=1
 
-/ riches & fireworks
-group(
-    ID=raw_iron,amount=#rand(7,14);
-    ID=raw_gold,amount=#rand(5,10);
-    ID=spelunkery:rough_diamond,amount=#rand(3,10);
-    ID=spelunkery:rough_emerald,amount=#rand(7,14);
-    ID=spelunkery:rough_lazurite,amount=#rand(7,14);
-	ID=spelunkery:rough_cinnabar,amount=#rand(7,14);
-    type=entity,ID=firework_rocket,NBTTag=(
-        LifeTime=20,FireworksItem=(id=firework_rocket,Count=1,tag=#randFireworksRocket)
-    ),amount=#rand(3,6),posOffset=#circleOffset(0,2);
-	type=command,ID=/particle supplementaries:confetti ~ ~0.5 ~ 0 0 0 0.2 100 force
-)@luck=2
-
 / fountain of riches
 group(
 	type=command,ID=/particle supplementaries:confetti ~ ~0.5 ~ 0 0 0 0.3 200 force;
 	type=sound,ID=entity.firework_rocket.launch,amount=3;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18)));
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.05;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.1;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.15;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.2;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.25;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.3;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.35;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.4;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.45;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.5;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.55;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.6;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.65;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.7;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.75;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.8;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.85;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.9;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.95;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.05;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.1;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.15;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.2;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.25;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.3;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.35;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.4;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.45;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.5;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.55;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.6;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.65;
-	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_emerald,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.7
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18)));
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.05;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.1;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.15;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.2;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.25;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.3;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.35;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.4;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.45;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.5;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.55;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.6;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.65;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.7;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.75;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.8;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.85;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.9;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=0.95;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.05;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.1;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.15;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.2;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.25;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.3;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.35;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.4;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.45;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.5;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.55;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.6;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.65;
+	group(type=sound,ID=entity.item.pickup;type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5);type=entity,ID=item,NBTTag=(Item=(id=#randList(raw_iron,raw_gold,spelunkery:rough_diamond,spelunkery:rough_lazurite,spelunkery:rough_cinnabar),Count=#rand(1,3)),Motion=#randLaunchMotion(0.7,18))),delay=1.7
 )@luck=2
 
 / quartz
@@ -227,31 +203,27 @@ group(
 
 / enchanted books
 group:#rand(2,4):(
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:protection,lvl=#rand(1,4))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:fire_protection,lvl=#rand(1,4))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:projectile_protection,lvl=#rand(1,4))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:blast_protection,lvl=#rand(1,4))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:protection,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:fire_protection,lvl=#rand(1,5))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:projectile_protection,lvl=#rand(1,5))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:blast_protection,lvl=#rand(1,5))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:feather_falling,lvl=#rand(1,4))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:respiration,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:aqua_affinity,lvl=1)]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:thorns,lvl=#rand(1,3))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:thorns,lvl=1)]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:depth_strider,lvl=#rand(1,3))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:frost_walker,lvl=#rand(1,2))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:frost_walker,lvl=#rand(1,4))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:binding_curse,lvl=1)]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:soul_speed,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:swift_sneak,lvl=#rand(1,3))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:sharpness,lvl=#rand(1,5))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:smite,lvl=#rand(1,5))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:bane_of_arthropods,lvl=#rand(1,5))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:knockback,lvl=#rand(1,2))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:fire_aspect,lvl=#rand(1,2))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:looting,lvl=#rand(1,3))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:fire_aspect,lvl=#rand(1,3))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:looting,lvl=1)]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:sweeping,lvl=#rand(1,3))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:efficiency,lvl=#rand(1,5))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:silk_touch,lvl=1)]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:unbreaking,lvl=#rand(1,3))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:fortune,lvl=#rand(1,3))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:power,lvl=#rand(1,5))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:punch,lvl=#rand(1,2))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:luck_of_the_sea,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:lure,lvl=#rand(1,3))]);
@@ -259,19 +231,16 @@ group:#rand(2,4):(
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:impaling,lvl=#rand(1,5))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:riptide,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:channeling,lvl=1)]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:multishot,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:multishot,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:quick_charge,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:piercing,lvl=#rand(1,4))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:mending,lvl=1)]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=minecraft:vanishing_curse,lvl=1)]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=additionaladditions:speed,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=create:potato_recovery,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=create:capacity,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=farmersdelight:backstabbing,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=supplementaries:stasis,lvl=1)]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=windswept:slipping_curse,lvl=1)]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=aileron:cloudskipper,lvl=#rand(1,3))]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=aileron:smokestack,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:vengeance,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:alleviating,lvl=1)]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:launch,lvl=#rand(1,2))]);
@@ -280,61 +249,93 @@ group:#rand(2,4):(
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:shockwave,lvl=#rand(1,4))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:spread_of_ailments,lvl=#rand(1,3))]);
 	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:ascension_curse,lvl=1)]);
-	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:fleeting_curse,lvl=1)])
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=allurement:fleeting_curse,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:magic_protection,lvl=#rand(1,5))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:air_affinity,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:xp_boost,lvl=#rand(1,3))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:vitality,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:leech,lvl=#rand(1,2))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:quick_draw,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:trueshot,lvl=#rand(1,4))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:volley,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:angler,lvl=#rand(1,2))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:bulwark,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:phalanx,lvl=#rand(1,2))]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:curse_fool,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=ensorcellation:curse_mercy,lvl=1)]);
+	ID=enchanted_book,NBTTag=(StoredEnchantments=[(id=usefulspyglass:marking,lvl=#rand(1,3))])
 )@luck=1
 
 / fish
-group(ID=fishing_rod;ID=#randList(cod,pufferfish,salmon,tropical_fish),amount=#rand(6,12))@luck=0
+group(ID=fishing_rod;ID=#randList(cod,pufferfish,salmon,tropical_fish,naturalist:bass,environmental:koi,upgrade_aquatic:pike,upgrade_aquatic:lionfish,upgrade_aquatic:perch,miners_delight:squid),amount=#rand(4,8))@luck=0
 
 / random jokes
-group:1:(ID=clock,NBTTag=(display=(Name=#jsonStr(text="You're wasting your time")));ID=tropical_fish,NBTTag=(display=(Name=#jsonStr(text="I'm funny")));ID=pufferfish,NBTTag=(display=(Name=#jsonStr(text="Oooooh!"))))@luck=-1
+group:1:(ID=clock,NBTTag=(display=(Name=#jsonStr(text="You're wasting your time")));ID=tropical_fish,NBTTag=(display=(Name=#jsonStr(text="I'm funny")));ID=pufferfish,NBTTag=(display=(Name=#jsonStr(text="Oooooh!")));group(ID=farmersdelight:cooked_bacon,NBTTag=(display=(Name=#jsonStr(text="Bacon Pancakes")));ID=autumnity:pancake,NBTTag=(display=(Name=#jsonStr(text="Bacon Pancakes"))));group(ID=stick,NBTTag=(display=(Name=#jsonStr(text="Sticks and Stones")));ID=twigs:pebble,NBTTag=(display=(Name=#jsonStr(text="Sticks and Stones")))))@luck=-1
 
 / flowers
-ID=#randList(dandelion,poppy,blue_orchid,allium,azure_bluet,pink_tulip,oxeye_daisy),amount=64@luck=0
+group(ID=#randList(dandelion,poppy,blue_orchid,allium,azure_bluet,red_tulip,orange_tulip,white_tulip,pink_tulip,oxeye_daisy,cornflower,lily_of_the_valley,windswept:red_rose,windswept:pink_rose,windswept:blue_rose,windswept:white_rose,windswept:yellow_rose,windswept:foxglove,windswept:nightshade,environmental:cartwheel,environmental:bluebell,environmental:violet,environmental:dianthus,environmental:red_lotus_flower,environmental:white_lotus_flower,environmental:yellow_hibiscus,environmental:orange_hibiscus,environmental:red_hibiscus,environmental:pink_hibiscus,environmental:magenta_hibiscus,environmental:purple_hibiscus,upgrade_aquatic:white_searocket,upgrade_aquatic:pink_searocket,autumnity:autumn_crocus,buzzier_bees:buttercup,buzzier_bees:white_clover,buzzier_bees:pink_clover,atmospheric:water_hyacinth,atmospheric:warm_monkey_brush,atmospheric:hot_monkey_brush,atmospheric:scalding_monkey_brush,atmospheric:yucca_flower,atmospheric:gilia),amount=#rand(16,32);type=particle,ID=happy_villager,size=(0.5,1,0.5),particleAmount=100;type=sound,ID=block.grass.break)@luck=0
+
+/ maps
+group:#rand(1,2):(ID=map,amount=#rand(3,12);ID=supplementaries:slice_map,amount=#rand(2,8))@luck=0
 
 / ========== CHESTS ==========
 
 / average chests
-type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:holly_chestwindswept:chestnut_chesteverycomp:q/abundant_atmosphere/ash_chest,everycomp:q/abundant_atmosphere/gourdrot_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/flowering_azalea_chest,everycomp:q/ecologics/walnut_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
+type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:chestnut_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
 ),tileEntity=(Items=#chestLootTable(chests/#randList(spawn_bonus_chest,shipwreck_supply)))@luck=0
 
-/ village chests
-type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:holly_chestwindswept:chestnut_chesteverycomp:q/abundant_atmosphere/ash_chest,everycomp:q/abundant_atmosphere/gourdrot_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/flowering_azalea_chest,everycomp:q/ecologics/walnut_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
-),tileEntity=(Items=#chestLootTable(chests/village/village_#randList(armorer,butcher,cartographer,desert_house,fisher,fletcher,mason,plains_house,savanna_house,shepherd,snowy_house,taiga_house,tannery,temple,toolsmith,weaponsmith)))@luck=0
-
 / good chests
-type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:holly_chestwindswept:chestnut_chesteverycomp:q/abundant_atmosphere/ash_chest,everycomp:q/abundant_atmosphere/gourdrot_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/flowering_azalea_chest,everycomp:q/ecologics/walnut_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
+type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:chestnut_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
 ),tileEntity=(Items=#chestLootTable(chests/#randList(simple_dungeon,igloo_chest,abandoned_mineshaft,ruined_portal,jungle_temple,desert_pyramid,ancient_city_ice_box,nether_bridge,pillager_outpost,shipwreck_treasure)))@luck=1
 
 / amazing chests
-type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:holly_chestwindswept:chestnut_chesteverycomp:q/abundant_atmosphere/ash_chest,everycomp:q/abundant_atmosphere/gourdrot_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/flowering_azalea_chest,everycomp:q/ecologics/walnut_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
+type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:chestnut_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
 ),tileEntity=(Items=#chestLootTable(chests/#randList(ancient_city,bastion_bridge,bastion_hoglin_stable,bastion_other,bastion_treasure,buried_treasure,woodland_mansion)))@chance=0.5@luck=2
 
 / lucky chests
-type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:holly_chestwindswept:chestnut_chesteverycomp:q/abundant_atmosphere/ash_chest,everycomp:q/abundant_atmosphere/gourdrot_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/flowering_azalea_chest,everycomp:q/ecologics/walnut_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
+type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:chestnut_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
 ),tileEntity=(Items=#chestLootTable(#randList(chests/end_city_treasure,kubejs:chests/lucky_chest)))@chance=0.25@luck=2
 
 / confectionery chest
-type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:holly_chestwindswept:chestnut_chesteverycomp:q/abundant_atmosphere/ash_chest,everycomp:q/abundant_atmosphere/gourdrot_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/flowering_azalea_chest,everycomp:q/ecologics/walnut_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
+type=block,ID=#randList(woodworks:oak_chest,woodworks:spruce_chest,woodworks:birch_chest,woodworks:jungle_chest,woodworks:acacia_chest,woodworks:dark_oak_chest,woodworks:mangrove_chest,woodworks:crimson_chest,woodworks:warped_chest,atmospheric:rosewood_chest,atmospheric:morado_chest,atmospheric:yucca_chest,atmospheric:aspen_chest,autumnity:maple_chest,environmental:willow_chest,environmental:cherry_chest,environmental:wisteria_chest,upgrade_aquatic:driftwood_chest,upgrade_aquatic:river_chest,windswept:chestnut_chest,everycomp:q/ecologics/azalea_chest,everycomp:q/ecologics/coconut_chest,everycomp:q/architects_palette/twisted_chest
 ),tileEntity=(Items=#chestLootTable(kubejs:chests/confectionery_chest))@chance=0.5@luck=2
 
 / ========== ENTITIES ==========
 
 / lucky mobs
 group:1:(
-    type=entity,ID=pig,NBTTag=(CustomName=#jsonStr(text="Lucky Pig",color=yellow,italic=false),CustomNameVisible=true);
-    type=entity,ID=cow,NBTTag=(CustomName=#jsonStr(text="Lucky Cow",color=yellow,italic=false),CustomNameVisible=true);
-    type=entity,ID=chicken,NBTTag=(CustomName=#jsonStr(text="Lucky Chicken",color=yellow,italic=false),CustomNameVisible=true);
-    type=entity,ID=sheep,NBTTag=(CustomName=#jsonStr(text="Lucky Sheep",color=yellow,italic=false),CustomNameVisible=true);
-    type=entity,ID=rabbit,NBTTag=(CustomName=#jsonStr(text="Lucky Rabbit",color=yellow,italic=false),CustomNameVisible=true);
-    type=entity,ID=squid,NBTTag=(CustomName=#jsonStr(text="Unlucky Squid",color=blue,italic=false),CustomNameVisible=true)
+    type=entity,ID=pig,NBTTag=(CustomName=#jsonStr(text=Lucky Pig,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=cow,NBTTag=(CustomName=#jsonStr(text=Lucky Cow,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=chicken,NBTTag=(CustomName=#jsonStr(text=Lucky Chicken,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=sheep,NBTTag=(CustomName=#jsonStr(text=Lucky Sheep,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=rabbit,NBTTag=(CustomName=#jsonStr(text=Lucky Rabbit,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=bee,NBTTag=(CustomName=#jsonStr(text=Lucky Bee,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=frog,NBTTag=(CustomName=#jsonStr(text=Lucky Frog,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=goat,NBTTag=(IsScreamingGoat=#randList(0b,0b,1b),HasLeftHorn=#randList(0b,1b,1b),HasRightHorn=#randList(0b,1b,1b),CustomName=#jsonStr(text=Lucky Goat,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=mooshroom,NBTTag=(CustomName=#jsonStr(text=Lucky Mooshroom,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=panda,NBTTag=(CustomName=#jsonStr(text=Lucky Panda,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=polar_bear,NBTTag=(CustomName=#jsonStr(text=Lucky Polar Bear,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=slime,NBTTag=(Size=0,CustomName=#jsonStr(text=Lucky Slime,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=buzzier_bees:moobloom,NBTTag=(CustomName=#jsonStr(text=Lucky Moobloom,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=ecologics:camel,NBTTag=(CustomName=#jsonStr(text=Lucky Camel,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=ecologics:penguin,NBTTag=(CustomName=#jsonStr(text=Lucky Penguin,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=autumnity:snail,NBTTag=(CustomName=#jsonStr(text=Lucky Snail,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=autumnity:turkey,NBTTag=(CustomName=#jsonStr(text=Lucky Turkey,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=environmental:deer,NBTTag=(CustomName=#jsonStr(text=Lucky Deer,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=environmental:duck,NBTTag=(CustomName=#jsonStr(text=Lucky Ducky,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=environmental:slabfish,NBTTag=(CustomName=#jsonStr(text=Lucky Slabfish,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=environmental:yak,NBTTag=(CustomName=#jsonStr(text=Lucky Yak,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=neapolitan:chimpanzee,NBTTag=(CustomName=#jsonStr(text=Lucky Monkey,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=naturalist:bear,NBTTag=(CustomName=#jsonStr(text=Lucky Grizzly Bear,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=naturalist:butterfly,NBTTag=(CustomName=#jsonStr(text=Lucky Butterfly,color=yellow,italic=false),CustomNameVisible=true);
+    type=entity,ID=squid,NBTTag=(CustomName=#jsonStr(text=Unlucky Squid,color=blue,italic=false),CustomNameVisible=true)
 )@luck=0
 
 / colored sheep
 type=entity,ID=sheep,NBTTag=(CustomName=#jsonStr(text="$cM$6r. $eR$aa$2i$bn$3b$5o$dw"),CustomNameVisible=true,Color=#rand(0,15)),posOffset=#circleOffset(4),amount=#rand(9,18)@luck=1
 
 / poultry & riches
-group(type=entity,ID=#randList(egg,autumnity:turkey_egg,environmental:duck_egg),NBTTag=(Motion=#randLaunchMotion(0.6,15)),amount=#rand(32,48);type=sound,ID=entity.egg.throw;ID=#randList(spelunkery:rough_diamond,spelunkery:rough_emerald),posOffset=#circleOffset(4),amount=#rand(5,20),delay=1.9;type=particle,ID=supplementaries:feather,size=(2,1,2),particleAmount=50,delay=1.9;type=sound,ID=entity.turtle.egg_break,delay=1.9;type=sound,ID=entity.chicken.egg,delay=1.9)@luck=2
+group(type=entity,ID=#randList(egg,autumnity:turkey_egg,environmental:duck_egg),NBTTag=(Motion=#randLaunchMotion(0.6,15)),amount=#rand(32,48);type=sound,ID=entity.egg.throw;ID=#randList(spelunkery:rough_diamond,spelunkery:rough_diamond_shard),posOffset=#circleOffset(4),amount=#rand(12,24),delay=1.9;type=particle,ID=supplementaries:feather,size=(2,1,2),particleAmount=50,delay=1.9;type=sound,ID=entity.turtle.egg_break,delay=1.9;type=sound,ID=entity.chicken.egg,delay=1.9)@luck=2
 
 / thrown exp bottles
 type=entity,ID=experience_bottle,NBTTag=(Motion=#randLaunchMotion),amount=#rand(32,64)@luck=2
@@ -346,22 +347,22 @@ group(type=sound,ID=entity.tnt.primed;type=entity,ID=tnt,NBTTag=(Fuse=55b,Motion
 group(type=sound,ID=entity.tnt.primed;type=entity,ID=spelunkery:thrown_primed_mineomite,NBTTag=(Motion=#randLaunchMotion),amount=#rand(8,16);type=sound,ID=entity.tnt.primed,delay=0.5;type=entity,ID=spelunkery:thrown_primed_mineomite,NBTTag=(Motion=#randLaunchMotion),amount=#rand(8,16),delay=0.5;type=sound,ID=entity.tnt.primed,delay=1;type=entity,ID=spelunkery:thrown_primed_mineomite,NBTTag=(Motion=#randLaunchMotion),amount=#rand(8,16),delay=1;type=sound,ID=entity.tnt.primed,delay=1.5;type=entity,ID=spelunkery:thrown_primed_mineomite,NBTTag=(Motion=#randLaunchMotion),amount=#rand(8,16),delay=1.5;type=sound,ID=entity.tnt.primed,delay=2;type=entity,ID=spelunkery:thrown_primed_mineomite,NBTTag=(Motion=#randLaunchMotion),amount=#rand(8,16),delay=2)@luck=-2
 
 / lightning creeper
-group(type=difficulty,ID=normal;type=entity,ID=#randList(creeper,creeperoverhaul:jungle_creeper,creeperoverhaul:desert_creeper,creeperoverhaul:badlands_creeper,creeperoverhaul:hills_creeper,creeperoverhaul:swamp_creeper,creeperoverhaul:dripstone_creeper,creeperoverhaul:cave_creeper,creeperoverhaul:dark_oak_creeper,creeperoverhaul:spruce_creeper,creeperoverhaul:beach_creeper);type=entity,ID=lightning_bolt)@luck=-2
+group(type=difficulty,ID=normal;type=entity,ID=creeper;type=entity,ID=lightning_bolt)@luck=-2
 
 / wither
-group(type=difficulty,ID=normal;type=entity,ID=wither)@chance=0.5@luck=-2
+group(type=difficulty,ID=normal;type=sound,ID=entity.wither.spawn;type=entity,ID=wither)@chance=0.5@luck=-2
 
 / ghast
-group(type=difficulty,ID=normal;type=entity,ID=ghast)@luck=-2
+group(type=difficulty,ID=normal;type=entity,ID=ghast,NBTTag=(DeathLootTable="kubejs:lucky/bob"))@luck=-2
 
 / elder guardian
-group(type=difficulty,ID=normal;type=entity,ID=elder_guardian@luck=-2
+group(type=difficulty,ID=normal;type=entity,ID=elder_guardian,NBTTag=(DeathLootTable="kubejs:lucky/bob"))@luck=-2
 
 / killer rabbit
-group(type=difficulty,ID=normal;type=entity,ID=rabbit,NBTTag=(RabbitType=99))@luck=-1
+group(type=difficulty,ID=normal;type=entity,ID=rabbit,NBTTag=(DeathLootTable="kubejs:lucky/bob",RabbitType=99))@luck=-1
 
 / bob the zombie
-group(type=difficulty,ID=normal;type=entity,ID=zombie,NBTTag=(
+group(type=difficulty,ID=normal;type=entity,ID=zombie,NBTTag=(DeathLootTable="kubejs:lucky/bob",
     HandItems=[(id=diamond_sword,Count=1,tag=(Enchantments=#luckySwordEnchantments))],
     ArmorItems=[(id=diamond_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments)),(id=diamond_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments)),(id=diamond_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments)),(id=diamond_helmet,Count=1,tag=(Enchantments=#luckyHelmetEnchantments))],
     HandDropChances=[0f,0f],ArmorDropChances=[0f,0f,0f,0f],
@@ -375,7 +376,7 @@ group(type=difficulty,ID=normal;type=entity,ID=bat,NBTTag=(
     Silent=true,
     ActiveEffects=[(Id=14,Duration=100000,Amplifier=1b,ShowParticles=0b)],
     Passengers=[(id=skeleton_horse,Tame=true,Type=4,
-        Passengers=[(id=stray,
+        Passengers=[(id=stray,DeathLootTable="kubejs:lucky/bob",
             HandItems=[(id=bow,Count=1)],
             ArmorItems=[(id=chainmail_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments)),(id=chainmail_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments)),(id=chainmail_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments)),(id=#randList(carved_pumpkin,jack_o_lantern),Count=1,tag=(Enchantments=#luckyHelmetEnchantments))],
             HandDropChances=[0f,0f],ArmorDropChances=[0f,0f,0f,0f],
@@ -393,7 +394,7 @@ group(type=difficulty,ID=normal;type=entity,ID=bat,NBTTag=(
     Silent=true,
     ActiveEffects=[(Id=14,Duration=100000,Amplifier=1b,ShowParticles=0b)],
     Passengers=[(id=skeleton_horse,Tame=true,Type=4,
-        Passengers=[(id=stray,
+        Passengers=[(id=stray,DeathLootTable="kubejs:lucky/bob",
             HandItems=[(id=bow,Count=1)],
             ArmorItems=[(id=alloyed:steel_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments)),(id=alloyed:steel_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments)),(id=alloyed:steel_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments)),(id=#randList(carved_pumpkin,jack_o_lantern),Count=1,tag=(Enchantments=#luckyHelmetEnchantments))],
             HandDropChances=[0f,0f],ArmorDropChances=[0f,0f,0f,0f],
@@ -408,11 +409,11 @@ group(type=difficulty,ID=normal;type=entity,ID=bat,NBTTag=(
 ))
 )@luck=-2
 
-/ stacked villager and pigs
-type=entity,ID=pig,NBTTag=(Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=pig,Passengers=[(id=villager,VillagerData=(profession=nitwit))])])])])])])])])@luck=0
+/ stacked animals
+type=entity,ID=#randList(pig,cow,sheep,chicken),NBTTag=(Passengers=[(id=#randList(pig,cow),Passengers=[(id=#randList(pig,cow),Passengers=[(id=#randList(pig,cow),Passengers=[(id=#randList(pig,cow),Passengers=[(id=#randList(pig,cow),Passengers=[(id=#randList(pig,cow),Passengers=[(id=#randList(pig,cow),Passengers=[(id=#randList(pig,cow))])])])])])])])])@luck=0
 
 / llamas
-type=entity,ID=llama,amount=#rand(7,14),posOffset=#circleOffset(4),NBTTag=(CustomName=#jsonStr(text=#randList(Llaura,Llauretta,Llavender,Llinda,Llisa,Llouise,Llucy,Llydia),color=dark_purple,italic=false),Variant=#rand(0,3),CustomNameVisible=true)@luck=0
+type=entity,ID=llama,amount=#rand(7,14),posOffset=#circleOffset(4),NBTTag=(CustomName=#jsonStr(text=#randList(Llaura,Llauretta,Llavender,Llinda,Llisa,Llouise,Llucy,Llydia,Lliam,Llevi,Llogan,Lluca,Llayla,Llincoln,Lleonardo,Lleah,Llucas,Lluna,Lluke,Llily,Llucy,Llandon,Lluis,Llorenzo,Lleon,Lleighton,Llewis,Llawrence),color=dark_purple,italic=false),Variant=#rand(0,3),CustomNameVisible=true)@luck=0
 
 / witch with bats
 group(type=difficulty,ID=normal;type=entity,ID=witch;type=entity,ID=bat,posY=#bPosY+#rand(0,2),posOffset=#circleOffset(0,1),amount=#rand(16,32))@luck=-1
@@ -446,58 +447,8 @@ group(type=entity,ID=fox,amount=#rand(5,10),posOffset=#circleOffset(3),NBTTag=(T
 	snow
 ),Owner=#pUUIDArray,Trusted=[#pUUIDArray],Sitting=1b);type=particle,ID=heart,size=(3,0.5,3),particleAmount=#rand(20,40))@luck=2
 
-/ ========== MERCHANTS ==========
-
-/ lucky weaponsmith
-group:1:(
-	type=entity,ID=villager,NBTTag=(
-    VillagerData=(level=5,profession=weaponsmith,type=jungle),
-    Offers=(Recipes=[
-        (buy=(id=emerald,Count=#rand(25,35)),sell=(id=additionaladditions:rose_gold_sword,Count=1,tag=(Enchantments=#luckySwordEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Sword,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(15,25)),sell=(id=bow,Count=1,tag=(Enchantments=[(id=power,lvl=#rand(3,5)),(id=punch,lvl=#rand(1,2))],quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Bow,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(15,25)),sell=(id=fishing_rod,Count=1,tag=(Enchantments=#luckyFishingRodEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Fishing Rod,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(48,64)),sell=(id=potion,Count=1,tag=(Potion=regeneration,CustomPotionEffects=#luckyPotionEffects,display=(Name=#jsonStr(text=Lucky Potion,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(16,32)),sell=(id=splash_potion,Count=1,tag=(Potion=harming,CustomPotionEffects=#unluckyPotionEffects,display=(Name=#jsonStr(text=Unlucky Potion,color=dark_red,italic=false)))),maxUses=1)
-    ]),
-    CustomName=#jsonStr(text=Lucky Weaponsmith,color=light_purple,italic=false),CustomNameVisible=true);
-	type=entity,ID=villager,NBTTag=(
-    VillagerData=(level=5,profession=weaponsmith,type=jungle),
-    Offers=(Recipes=[
-        (buy=(id=emerald,Count=#rand(25,35)),sell=(id=additionaladditions:rose_gold_sword,Count=1,tag=(Enchantments=#luckySwordEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Sword,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(15,25)),sell=(id=crossbow,Count=1,tag=(Enchantments=#luckyCrossbowEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Crossbow,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(15,25)),sell=(id=fishing_rod,Count=1,tag=(Enchantments=#luckyFishingRodEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Fishing Rod,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(48,64)),sell=(id=potion,Count=1,tag=(Potion=regeneration,CustomPotionEffects=#luckyPotionEffects,display=(Name=#jsonStr(text=Lucky Potion,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(16,32)),sell=(id=splash_potion,Count=1,tag=(Potion=harming,CustomPotionEffects=#unluckyPotionEffects,display=(Name=#jsonStr(text=Unlucky Potion,color=dark_red,italic=false)))),maxUses=1)
-    ]),
-    CustomName=#jsonStr(text=Lucky Weaponsmith,color=light_purple,italic=false),CustomNameVisible=true)
-)@luck=1
-
-/ lucky armourer
-type=entity,ID=villager,NBTTag=(
-    VillagerData=(level=5,profession=armorer,type=jungle),
-    Offers=(Recipes=[
-        (buy=(id=emerald,Count=#rand(20,35)),sell=(id=additionaladditions:rose_gold_helmet,Count=1,tag=(Enchantments=#luckyHelmetEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Helmet,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(22,37)),sell=(id=additionaladditions:rose_gold_chestplate,Count=1,tag=(Enchantments=#luckyChestplateEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Chestplate,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(21,36)),sell=(id=additionaladditions:rose_gold_leggings,Count=1,tag=(Enchantments=#luckyLeggingsEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Leggings,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(19,34)),sell=(id=additionaladditions:rose_gold_boots,Count=1,tag=(Enchantments=#luckyBootsEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Boots,color=light_purple,italic=false)))),maxUses=1)
-    ]),
-    CustomName=#jsonStr(text=Lucky Armourer,color=light_purple,italic=false),CustomNameVisible=true
-)@luck=1
-
-/ lucky toolsmith
-type=entity,ID=villager,NBTTag=(
-    VillagerData=(level=5,profession=toolsmith,type=jungle),
-    Offers=(Recipes=[
-        (buy=(id=emerald,Count=#rand(20,25)),sell=(id=diamond_shovel,Count=1,tag=(Enchantments=#luckyToolEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Shovel,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(25,30)),sell=(id=diamond_pickaxe,Count=1,tag=(Enchantments=#luckyToolEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Pickaxe,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(25,30)),sell=(id=diamond_axe,Count=1,tag=(Enchantments=#luckyAxeEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Axe,color=light_purple,italic=false)))),maxUses=1),
-        (buy=(id=emerald,Count=#rand(15,20)),sell=(id=diamond_hoe,Count=1,tag=(Enchantments=#luckyToolEnchantments,quark:RuneAttached=1b,quark:RuneColor=(id=quark:magenta_rune,Count=1b),display=(Name=#jsonStr(text=Lucky Hoe,color=light_purple,italic=false)))),maxUses=1)
-    ]),
-    CustomName=#jsonStr(text=Lucky Toolsmith,color=light_purple,italic=false),CustomNameVisible=true
-)@luck=1
-
 / baby player
-type=entity,ID=armor_stand,NBTTag=(Small=true,NoBasePlate=true,ShowArms=true,HandItems=[(id=stone_pickaxe,Count=1)],ArmorItems=[(id=leather_boots,Count=1,tag=(display=(color=#randColor))),(id=leather_leggings,Count=1,tag=(display=(color=#randColor))),(id=leather_chestplate,Count=1,tag=(display=(color=#randColor))),(id=player_head,Count=1,tag=(SkullOwner=#pName))],Rotation=[#pYaw+180f,0f],CustomName=#jsonStr(text="Baby #pName"),CustomNameVisible=true)@luck=0
+type=entity,ID=armor_stand,NBTTag=(Small=true,NoBasePlate=true,ShowArms=true,HandItems=[(id=#randList(stone_pickaxe,stone_axe,stone_shovel,stone_hoe,stone_sword,kubejs:copper_knife),Count=1)],ArmorItems=[(id=#randList(leather,chainmail)_boots,Count=1,tag=(display=(color=#randColor))),(id=#randList(leather,chainmail)_leggings,Count=1,tag=(display=(color=#randColor))),(id=#randList(leather,chainmail)_chestplate,Count=1,tag=(display=(color=#randColor))),(id=player_head,Count=1,tag=(SkullOwner=#pName))],Rotation=[#pYaw+180f,0f],CustomName=#jsonStr(text="Baby #pName"),CustomNameVisible=true)@luck=0
 
 / ========== AIR DROP ==========
 
@@ -505,20 +456,19 @@ type=entity,ID=armor_stand,NBTTag=(Small=true,NoBasePlate=true,ShowArms=true,Han
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=raw_iron_block));type=particle,ID=large_smoke,size=(0.5,1,0.5),particleAmount=25,delay=1;type=command,ID=/particle minecraft:large_smoke ~ ~ ~ 0 0 0 0.15 50 force,delay=1;type=sound,ID=block.fire.extinguish,delay=1)@luck=0
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=raw_gold_block));type=particle,ID=flame,size=(0.5,1,0.5),particleAmount=40,delay=1;type=command,ID=/particle minecraft:flame ~ ~0 ~ 0 0 0 0.15 60 force,delay=0.9;type=sound,ID=entity.ghast.shoot,delay=0.9)@luck=1
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=spelunkery:rough_diamond_block));type=command,ID=/particle visuality:charge ~ ~ ~ 0.75 0.75 0.75 0 6 force,delay=1.2;type=command,ID=/particle visuality:charge ~ ~ ~ 0.75 0.75 0.75 0 6 force,delay=1.4;type=entity,ID=lightning_bolt,delay=1)@luck=2
-group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=spelunkery:rough_emerald_block));type=command,ID=/particle visuality:emerald ~ ~0.5 ~ 0 0 0 0.05 7 force,delay=0.95;type=particle,ID=happy_villager,size=(0.5,1,0.5),particleAmount=100,delay=1;type=sound,ID=block.grass.break,delay=1;type=sound,ID=entity.villager.yes,delay=1)@luck=1
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=spelunkery:rough_lazurite_block));type=particle,ID=splash,size=(0.5,1,0.5),particleAmount=500,delay=1;type=sound,ID=entity.player.splash.high_speed,delay=1)@luck=0
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=spelunkery:rough_cinnabar_block));type=command,ID=/particle dust 1 0 0 1 ~ ~ ~ 0.55 0.55 0.55 1 175,delay=1;type=command,ID=/particle upgrade_aquatic:red_jelly_flame ~ ~0 ~ 0 0 0 0.15 75 force,delay=0.95;type=particle,ID=upgrade_aquatic:red_jelly_flame,size=(0.5,1,0.5),particleAmount=50,delay=1;type=sound,ID=block.piston.extend,delay=1)@luck=0
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=raw_copper_block));type=command,ID=/particle minecraft:crit ~ ~0.25 ~ 0 0 0 0.7 100 force,delay=1;type=command,ID=/particle minecraft:scrape ~ ~0.25 ~ 0.5 0.25 0.5 0.7 50 force,delay=1;type=sound,ID=block.piston.contract,delay=1;type=sound,ID=item.axe.scrape,delay=1)@luck=0
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=create:raw_zinc_block));type=command,ID=/particle minecraft:enchanted_hit ~ ~0.25 ~ 0 0 0 0.7 100 force,delay=1;type=command,ID=/particle minecraft:electric_spark ~ ~0.25 ~ 0.5 0.25 0.5 0.7 50 force,delay=1;type=sound,ID=block.piston.contract,delay=1;type=sound,ID=create:steam,delay=1)@luck=0
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=oreganized:raw_lead_block));type=particle,ID=supplementaries:bomb_explosion,size=(0.5,1,0.5),particleAmount=15,delay=1;type=command,ID=/particle oreganized:lead_shrapnel ~ ~ ~ 0 0 0 0.5 50 force,delay=1;type=sound,ID=entity.generic.explode,delay=1)@luck=0
-group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=oreganized:raw_silver_block));type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5),particleAmount=25,delay=1;type=command,ID=/particle minecraft:end_rod ~ ~ ~ 0 0 0 0.2 50 force,delay=1;type=sound,ID=savage_and_ravage:entity.iceologer.cast_spell,delay=0.9;type=particle,ID=splashpotion,potion=swiftness,delay=1)@luck=2
+group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(oreganized:silver_ore,oreganized:silver_ore,oreganized:silver_ore,oreganized:silver_ore,oreganized:deepslate_silver_ore,oreganized:deepslate_silver_ore,oreganized:raw_silver_block)));type=particle,ID=supplementaries:air_burst,size=(0.5,1,0.5),particleAmount=25,delay=1;type=command,ID=/particle minecraft:end_rod ~ ~ ~ 0 0 0 0.2 50 force,delay=1;type=sound,ID=savage_and_ravage:entity.iceologer.cast_spell,delay=0.9;type=particle,ID=splashpotion,potion=swiftness,delay=1)@luck=2
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=ancient_debris));type=particle,ID=large_smoke,size=(0.5,1,0.5),particleAmount=25,delay=1;type=command,ID=/particle minecraft:large_smoke ~ ~ ~ 0 0 0 0.15 50 force,delay=1;type=particle,ID=soul,size=(0.5,1,0.5),particleAmount=50,delay=1;type=command,ID=/particle minecraft:soul_fire_flame ~ ~0 ~ 0 0 0 0.15 60 force,delay=0.95;type=particle,ID=soul_fire_flame,size=(0.5,1,0.5),particleAmount=50,delay=1;type=sound,ID=entity.ghast.shoot,delay=0.9;type=sound,ID=block.anvil.land,delay=1)@luck=2
 
 / jukebox & music discs
-group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=jukebox));ID=#randList(music_disc_11,music_disc_13,music_disc_blocks,music_disc_chirp,music_disc_far,music_disc_mall,music_disc_mellohi,music_disc_stal,music_disc_strad,music_disc_wait,music_disc_ward,music_disc_pigstep,music_disc_otherside,berry_good:music_disc_fox,ecologics:music_disc_coconut,environmental:music_disc_leaving_home,environmental:music_disc_slabrave,neapolitan:music_disc_hullabaloo,quark:music_disc_endermosh,quark:music_disc_drips,quark:music_disc_ocean,quark:music_disc_rain,quark:music_disc_wind,quark:music_disc_fire,quark:music_disc_clock,quark:music_disc_crickets,quark:music_disc_chatter,oreganized:music_disc_structure,windswept:music_disc_rain,windswept:music_disc_snow,windswept:music_disc_bumblebee),posY=#bPosY+1,amount=#rand(1,3),delay=1;type=particle,ID=note,size=(0.5,1,0.5),particleAmount=7,delay=1;type=sound,ID=#randList(minecraft:block.note_block.banjo,minecraft:block.note_block.basedrum,minecraft:block.note_block.bass,minecraft:block.note_block.bell,minecraft:block.note_block.bit,minecraft:block.note_block.chime,minecraft:block.note_block.cow_bell,minecraft:block.note_block.didgeridoo,minecraft:block.note_block.flute,minecraft:block.note_block.guitar,minecraft:block.note_block.harp,minecraft:block.note_block.hat,minecraft:block.note_block.iron_xylophone,minecraft:block.note_block.pling,minecraft:block.note_block.snare,minecraft:block.note_block.xylophone,savage_and_ravage:block.note_block.harpsichord,savage_and_ravage:block.note_block.hit_marker,savage_and_ravage:block.note_block.orchestral_hit),delay=1)@luck=1
+group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(jukebox,jukebox,jukebox,jukebox,jukebox,jukebox,etched:album_jukebox)));ID=#randList(music_disc_11,music_disc_13,music_disc_blocks,music_disc_chirp,music_disc_far,music_disc_mall,music_disc_mellohi,music_disc_stal,music_disc_strad,music_disc_wait,music_disc_ward,music_disc_pigstep,music_disc_otherside,berry_good:music_disc_fox,ecologics:music_disc_coconut,environmental:music_disc_slabrave,neapolitan:music_disc_hullabaloo,oreganized:music_disc_structure,windswept:music_disc_rain,windswept:music_disc_snow,windswept:music_disc_bumblebee,upgrade_aquatic:music_disc_atlantis,kubejs:music_disc_shimmer,kubejs:music_disc_eleven,kubejs:music_disc_dog,kubejs:music_disc_halland,kubejs:music_disc_dalarna,kubejs:music_disc_halland_dalarna,kubejs:music_disc_frontier),posY=#bPosY+1,amount=#rand(1,3),delay=1;type=particle,ID=note,size=(0.5,1,0.5),particleAmount=7,delay=1;type=sound,ID=#randList(minecraft:block.note_block.banjo,minecraft:block.note_block.basedrum,minecraft:block.note_block.bass,minecraft:block.note_block.bell,minecraft:block.note_block.bit,minecraft:block.note_block.chime,minecraft:block.note_block.cow_bell,minecraft:block.note_block.didgeridoo,minecraft:block.note_block.flute,minecraft:block.note_block.guitar,minecraft:block.note_block.harp,minecraft:block.note_block.hat,minecraft:block.note_block.iron_xylophone,minecraft:block.note_block.pling,minecraft:block.note_block.snare,minecraft:block.note_block.xylophone,savage_and_ravage:block.note_block.harpsichord,savage_and_ravage:block.note_block.hit_marker,savage_and_ravage:block.note_block.orchestral_hit),delay=1)@luck=1
 
-/ brewing stand & brewing stuff
-group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=brewing_stand));group:#rand(3,6):(ID=ghast_tear,amount=#rand(1,3);ID=gold_nugget,amount=#rand(1,3);ID=nether_wart,amount=#rand(1,3);ID=spider_eye,amount=#rand(1,3);ID=fermented_spider_eye,amount=#rand(1,3);ID=blaze_powder,amount=#rand(1,3);ID=magma_cream,amount=#rand(1,3);ID=glistering_melon_slice,amount=#rand(1,3);ID=rabbit_foot,amount=#rand(1,3)),delay=1;type=particle,ID=splashpotion,potion=fire_resistance,delay=1;type=sound,ID=block.brewing_stand.brew,delay=1)@luck=1
+/ brewing stuff
+group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=create:basin));group:#rand(3,6):(ID=ghast_tear,amount=#rand(1,3);ID=gold_nugget,amount=#rand(1,3);ID=nether_wart,amount=#rand(1,3);ID=spider_eye,amount=#rand(1,3);ID=fermented_spider_eye,amount=#rand(1,3);ID=blaze_powder,amount=#rand(1,3);ID=magma_cream,amount=#rand(1,3);ID=glistering_melon_slice,amount=#rand(1,3);ID=rabbit_foot,amount=#rand(1,3)),delay=1;type=particle,ID=splashpotion,potion=fire_resistance,delay=1;type=sound,ID=block.brewing_stand.brew,delay=1)@luck=1
 
 / colourful pole
 group(type=fill,ID=air,size=(1,51,1);
@@ -603,8 +553,7 @@ group(type=fill,ID=air,size=(1,51,1);
     )
 	),type=entity,ID=falling_block;
 	group:1:(
-	group(type=entity,ID=falling_block,NBTTag=(BlockState=(Name=spelunkery:rough_diamond_block)),posY=#bPosY+50;type=entity,ID=lightning_bolt,posY=#bPosY+10,delay=2.7);
-	group(type=entity,ID=falling_block,NBTTag=(BlockState=(Name=spelunkery:rough_emerald_block)),posY=#bPosY+50;type=command,ID=/particle visuality:emerald ~ ~9.5 ~ 0 0 0 0.05 7 force,delay=2.65;type=particle,ID=happy_villager,size=(0.5,1,0.5),particleAmount=100,posY=#bPosY+9,delay=2.7;type=sound,ID=block.grass.break,delay=2.7;type=sound,ID=entity.villager.yes,delay=2.7;type=sound,ID=block.grass.break,posY=#bPosY+9,delay=2.7;type=sound,ID=entity.villager.yes,posY=#bPosY+9,delay=2.7)
+	group(type=entity,ID=falling_block,NBTTag=(BlockState=(Name=spelunkery:rough_diamond_block)),posY=#bPosY+50;type=entity,ID=lightning_bolt,posY=#bPosY+10,delay=2.7)
 	))
 )@luck=2
 
@@ -624,31 +573,6 @@ group(type=fill,ID=air,size=(1,51,1);
 / abandoned quiche
 group(type=fill,ID=air,size=(1,8,1);type=entity,ID=falling_block,posY=#bPosY+7,NBTTag=(BlockState=(Name=another_furniture:oak_bench));type=sound,ID=block.wood.place,delay=1;ID=brewinandchewin:quiche,NBTTag=(display=(Name=#jsonStr(text=Abandoned Quiche,color=yellow,italic=false),Lore=[#jsonStr(text=I just wasn't ready for the responsibility.,color=gray,italic=false)])),delay=1)@luck=0
 
-/ falling campsite
-group(
-	group(type=sound,ID=block.wood.place,posX=#bPosX+2,posZ=#bPosZ+2,delay=1;type=entity,ID=falling_block,posX=#bPosX+2,posZ=#bPosZ+2,posY=#bPosY+7,NBTTag=(BlockState=(Name=another_furniture:oak_table)));
-	group(type=sound,ID=block.wood.place,posX=#bPosX+1,posZ=#bPosZ+2,delay=1.3;type=entity,ID=falling_block,posX=#bPosX+1,posZ=#bPosZ+2,posY=#bPosY+7,NBTTag=(BlockState=(Name=another_furniture:oak_chair,Properties=(facing=east))),delay=0.3);
-
-	group(type=sound,ID=block.wood.place,posX=#bPosX+5,posZ=#bPosZ-2,delay=1.5;type=entity,ID=falling_block,posX=#bPosX+5,posZ=#bPosZ-2,posY=#bPosY+7,NBTTag=(BlockState=(Name=minecraft:campfire)),delay=0.5);
-	group(type=sound,ID=block.wood.place,posX=#bPosX+7,posZ=#bPosZ-1,delay=2.5;type=entity,ID=falling_block,posX=#bPosX+7,posZ=#bPosZ-1,posY=#bPosY+7,NBTTag=(BlockState=(Name=minecraft:oak_log,Properties=(axis=z))),delay=1.5);
-	group(type=sound,ID=block.wood.place,posX=#bPosX+7,posZ=#bPosZ-2,delay=2.6;type=entity,ID=falling_block,posX=#bPosX+7,posZ=#bPosZ-2,posY=#bPosY+7,NBTTag=(BlockState=(Name=minecraft:oak_log,Properties=(axis=z))),delay=1.6);
-	group(type=sound,ID=block.wood.place,posX=#bPosX+7,posZ=#bPosZ-3,delay=2.7;type=entity,ID=falling_block,posX=#bPosX+7,posZ=#bPosZ-3,posY=#bPosY+7,NBTTag=(BlockState=(Name=minecraft:oak_log,Properties=(axis=z))),delay=1.7);
-
-	group(type=sound,ID=auditory:block.gourd.place,posX=#bPosX-1,posZ=#bPosZ+4,delay=1.4;type=entity,ID=falling_block,posX=#bPosX-1,posZ=#bPosZ+4,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(farmersdelight:carrot_crate,farmersdelight:potato_crate,farmersdelight:beetroot_crate,farmersdelight:cabbage_crate,farmersdelight:tomato_crate,farmersdelight:onion_crate,culturaldelights:avocado_crate,culturaldelights:cucumber_crate,culturaldelights:corn_cob_crate,culturaldelights:eggplant_crate,quark:apple_crate,incubation:chicken_egg_crate,environmental:duck_egg_crate,autumnity:turkey_egg_crate,neapolitan:banana_crate,neapolitan:adzuki_crate,atmospheric:passionfruit_crate,environmental:cherry_crate,windswept:chestnut_crate))),delay=0.4);
-	group(type=sound,ID=auditory:block.gourd.place,posX=#bPosX-4,posZ=#bPosZ+2,delay=1.8;type=entity,ID=falling_block,posX=#bPosX-4,posZ=#bPosZ+2,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(farmersdelight:carrot_crate,farmersdelight:potato_crate,farmersdelight:beetroot_crate,farmersdelight:cabbage_crate,farmersdelight:tomato_crate,farmersdelight:onion_crate,culturaldelights:avocado_crate,culturaldelights:cucumber_crate,culturaldelights:corn_cob_crate,culturaldelights:eggplant_crate,quark:apple_crate,incubation:chicken_egg_crate,environmental:duck_egg_crate,autumnity:turkey_egg_crate,neapolitan:banana_crate,neapolitan:adzuki_crate,atmospheric:passionfruit_crate,environmental:cherry_crate,windswept:chestnut_crate))),delay=0.8);
-	
-	group(type=sound,ID=block.wood.place,posX=#bPosX-2,posZ=#bPosZ+6,delay=2;type=entity,ID=falling_block,posX=#bPosX-2,posZ=#bPosZ+6,posY=#bPosY+7,NBTTag=(BlockState=(Name=another_furniture:oak_table)),delay=1);
-	group(type=sound,ID=block.wood.place,posX=#bPosX-3,posZ=#bPosZ+6,delay=2.2;type=entity,ID=falling_block,posX=#bPosX-3,posZ=#bPosZ+6,posY=#bPosY+7,NBTTag=(BlockState=(Name=another_furniture:oak_table)),delay=1.2);
-	group(type=sound,ID=auditory:block.gourd.place,posX=#bPosX-2,posZ=#bPosZ+6,delay=2.3;type=entity,ID=falling_block,posX=#bPosX-2,posZ=#bPosZ+6,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(farmersdelight:shepherds_pie_block,farmersdelight:roast_chicken_block,farmersdelight:stuffed_pumpkin_block,farmersdelight:honey_glazed_ham_block,farmersdelight:rice_roll_medley_block,miners_delight:stuffed_squid))),delay=1.3);
-	
-	group(type=sound,ID=auditory:block.gourd.place,posX=#bPosX-5,posZ=#bPosZ-8,delay=3;type=entity,ID=falling_block,posX=#bPosX-5,posZ=#bPosZ-8,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(farmersdelight:carrot_crate,farmersdelight:potato_crate,farmersdelight:beetroot_crate,farmersdelight:cabbage_crate,farmersdelight:tomato_crate,farmersdelight:onion_crate,culturaldelights:avocado_crate,culturaldelights:cucumber_crate,culturaldelights:corn_cob_crate,culturaldelights:eggplant_crate,quark:apple_crate,incubation:chicken_egg_crate,environmental:duck_egg_crate,autumnity:turkey_egg_crate,neapolitan:banana_crate,neapolitan:adzuki_crate,atmospheric:passionfruit_crate,environmental:cherry_crate,windswept:chestnut_crate))),delay=2);
-	group(type=sound,ID=auditory:block.gourd.place,posX=#bPosX+1,posZ=#bPosZ-9,delay=3.3;type=entity,ID=falling_block,posX=#bPosX+1,posZ=#bPosZ-9,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(farmersdelight:carrot_crate,farmersdelight:potato_crate,farmersdelight:beetroot_crate,farmersdelight:cabbage_crate,farmersdelight:tomato_crate,farmersdelight:onion_crate,culturaldelights:avocado_crate,culturaldelights:cucumber_crate,culturaldelights:corn_cob_crate,culturaldelights:eggplant_crate,quark:apple_crate,incubation:chicken_egg_crate,environmental:duck_egg_crate,autumnity:turkey_egg_crate,neapolitan:banana_crate,neapolitan:adzuki_crate,atmospheric:passionfruit_crate,environmental:cherry_crate,windswept:chestnut_crate))),delay=2.3);
-	
-	group(type=sound,ID=block.wood.place,posX=#bPosX-1,posZ=#bPosZ-7,delay=3.2;type=entity,ID=falling_block,posX=#bPosX-1,posZ=#bPosZ-7,posY=#bPosY+7,NBTTag=(BlockState=(Name=another_furniture:oak_table)),delay=2.2);
-	group(type=sound,ID=block.wood.place,posX=#bPosX,posZ=#bPosZ-7,delay=3.4;type=entity,ID=falling_block,posX=#bPosX+0.5,posZ=#bPosZ-7,posY=#bPosY+7,NBTTag=(BlockState=(Name=another_furniture:oak_chair,Properties=(facing=west))),delay=2.4);
-	group(type=sound,ID=auditory:block.gourd.place,posX=#bPosX-1,posZ=#bPosZ-7,delay=3.6;type=entity,ID=falling_block,posX=#bPosX-1,posZ=#bPosZ-7,posY=#bPosY+7,NBTTag=(BlockState=(Name=#randList(farmersdelight:shepherds_pie_block,farmersdelight:roast_chicken_block,farmersdelight:stuffed_pumpkin_block,farmersdelight:honey_glazed_ham_block,farmersdelight:rice_roll_medley_block,miners_delight:stuffed_squid))),delay=2.6)
-)@luck=1
-
 / ========== SWARMS ==========
 
 group(
@@ -657,8 +581,8 @@ group(
 	type=effect,ID=blindness,duration=1;
     group:1:(
         group(type=time,ID=18750;type=entity,ID=#randList(zombie,zombie,zombie,zombie_villager,drowned,husk,windswept:chilled),posOffset=#circleOffset(6,12),amount=#rand(50,150));
-        group(type=time,ID=18750;type=entity,ID=#randList(skeleton,skeleton,skeleton,wither_skeleton,stray,savage_and_ravage:skeleton_villager),posOffset=#circleOffset(8,16),amount=#rand(25,75));
-		type=entity,ID=#randList(creeper,creeper,creeper,creeperoverhaul:jungle_creeper,creeperoverhaul:desert_creeper,creeperoverhaul:badlands_creeper,creeperoverhaul:hills_creeper,creeperoverhaul:swamp_creeper,creeperoverhaul:dripstone_creeper,creeperoverhaul:cave_creeper,creeperoverhaul:dark_oak_creeper,creeperoverhaul:spruce_creeper,creeperoverhaul:beach_creeper),NBTTag=(powered=#randList(0,0,0,0,0,1)),posOffset=#circleOffset(6,12),amount=#rand(25,50);
+        group(type=time,ID=18750;type=entity,ID=#randList(skeleton,skeleton,skeleton,wither_skeleton,stray),posOffset=#circleOffset(8,16),amount=#rand(25,75));
+		type=entity,ID=#randList(creeper,creeper,savage_and_ravage:creepie),NBTTag=(powered=#randList(0,0,0,0,0,1)),posOffset=#circleOffset(6,12),amount=#rand(25,50);
         group(type=time,ID=18750;group:#rand(2,3):(type=entity,ID=spider,amount=#rand(30,75);type=entity,ID=cave_spider,amount=#rand(25,60);type=entity,ID=neapolitan:plantain_spider,amount=#rand(25,60)),posOffset=#circleOffset(6,12));
         group:#rand(1,2):(type=entity,ID=silverfish,amount=#rand(50,150);type=entity,ID=endermite,amount=#rand(50,150)),posOffset=#circleOffset(6,12);
         group(type=entity,ID=elder_guardian;type=entity,ID=guardian,posOffset=#circleOffset(6,12),amount=#rand(25,50))
@@ -672,7 +596,7 @@ group(
     type=structure,ID=brick_cage,pos=#pPos,rotation=#pDirect;
     group:1:(
 	group(type=fill,ID=air,size=(1,70,1),pos=#pPos;type=fill,ID=anvil,size=(1,2,1),pos=(#pPosX,#pPosY+70,#pPosZ));
-	group(type=fill,ID=air,size=(1,70,1),pos=#pPos;type=fill,ID=#randList(sand,red_sand,atmospheric:arid_sand,gravel,gravel),size=(1,16,1),pos=(#pPosX,#pPosY+70,#pPosZ));
+	group(type=fill,ID=air,size=(1,70,1),pos=#pPos;type=fill,ID=#randList(sand,red_sand,sand,red_sand,atmospheric:arid_sand,atmospheric:red_arid_sand,gravel,gravel,gravel,gravel),size=(1,16,1),pos=(#pPosX,#pPosY+70,#pPosZ));
 	type=block,ID=lava,pos=(#pPosX,#pPosY+3,#pPosZ);
 	group(type=fill,ID=air,size=(1,60,1),pos=#pPos;type=entity,ID=spelunkery:thrown_primed_mineomite,pos=(#pPosX,#pPosY+50,#pPosZ);type=entity,ID=spelunkery:thrown_primed_mineomite,pos=(#pPosX,#pPosY+50,#pPosZ),delay=0.1;type=entity,ID=spelunkery:thrown_primed_mineomite,pos=(#pPosX,#pPosY+50,#pPosZ),delay=0.2;type=entity,ID=spelunkery:thrown_primed_mineomite,pos=(#pPosX,#pPosY+50,#pPosZ),delay=0.3;type=entity,ID=spelunkery:thrown_primed_mineomite,pos=(#pPosX,#pPosY+50,#pPosZ),delay=0.4)
 	)
@@ -718,7 +642,6 @@ group(
         ID=raw_iron,amount=#rand(16,48),posY='#'bPosY+10,posOffset='#'circleOffset(2);
 		ID=raw_gold,amount=#rand(12,36),posY='#'bPosY+10,posOffset='#'circleOffset(2);
         ID=spelunkery:rough_diamond,amount=#rand(8,16),posY='#'bPosY+10,posOffset='#'circleOffset(2);
-        ID=spelunkery:rough_emerald,amount=#rand(12,36),posY='#'bPosY+10,posOffset='#'circleOffset(2);
         ID=spelunkery:rough_lazurite,amount=#rand(16,32),posY='#'bPosY+10,posOffset='#'circleOffset(2);
         ID=spelunkery:rough_cinnabar,amount=#rand(16,32),posY='#'bPosY+10,posOffset='#'circleOffset(2);
 		type=command,ID=/particle supplementaries:confetti ~ ~10 ~ 0 0 0 0.4 500 force

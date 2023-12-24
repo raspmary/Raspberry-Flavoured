@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:soul_soil"
+        },
+        {
+            "item": "sob:cinder_dough"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        }
+    ],
+    "result": {
+        "item": "farmersrespite:nether_wart_sourdough"
+    }
+}

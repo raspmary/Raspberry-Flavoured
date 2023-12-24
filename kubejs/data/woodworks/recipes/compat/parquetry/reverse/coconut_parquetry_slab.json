@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 1,
+  "ingredient": {
+    "item": "everycomp:ap/ecologics/coconut_board_slab"
+  },
+  "result": "ecologics:coconut_slab"
+}

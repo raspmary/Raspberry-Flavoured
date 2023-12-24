@@ -1,0 +1,10 @@
+{
+  "items": [
+    "kubejs:spoiled_carrot"
+  ],
+  "damage": 4,
+  "reload_ticks": 12,
+  "knockback": 0.15,
+  "velocity_multiplier": 2,
+  "sound_pitch": 1.5
+}

@@ -11,7 +11,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -20,6 +20,22 @@
           "name": "minecraft:obsidian",
           "weight": 40
         },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:crying_obsidian",
+          "weight": 15
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -27,8 +43,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 12.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -43,8 +59,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 18.0,
-                "min": 9.0
+                "max": 14.0,
+                "min": 7.0
               },
               "function": "minecraft:set_count"
             }
@@ -54,18 +70,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "firesticks:fire_stick",
-          "weight": 30
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:fire_charge",
           "weight": 40
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 15
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -74,7 +85,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 24.0,
+                "max": 12.0,
                 "min": 4.0
               },
               "function": "minecraft:set_count"
@@ -87,91 +98,109 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_sword",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_axe",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_hoe",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_shovel",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_pickaxe",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_boots",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_chestplate",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_helmet",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
             }
           ],
           "name": "minecraft:golden_leggings",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -235,6 +264,22 @@
           ],
           "name": "minecraft:raw_gold",
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "quark:clear_shard",
+          "weight": 25
         },
         {
           "type": "minecraft:item",

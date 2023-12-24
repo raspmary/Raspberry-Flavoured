@@ -1,0 +1,11 @@
+{
+  "items": [
+    "buzzier_bees:honey_apple"
+  ],
+  "damage": 6,
+  "reload_ticks": 15,
+  "knockback": 0.1,
+  "sticky": true,
+  "velocity_multiplier": 1.4,
+  "sound_pitch": 1
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:pearl",
+  "parent": "raspberryflavoured:cock",
   "criteria": {
     "0": {
       "conditions": {
@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Upgrade your wooden fishing rod to a much more durable steel fishing rod - because who doesn't love fishing?"
+      "text": "Upgrade your iron fishing rod to a much more durable steel fishing rod - because who doesn't love fishing?"
     },
     "frame": "goal",
     "hidden": true,

@@ -29,7 +29,19 @@
             }
           ],
           "name": "minecraft:compass",
-          "weight": 2
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "supplementaries:altimeter",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -49,8 +61,19 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:name_tag",
-          "weight": 2
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 21.0,
+                "min": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "supplementaries:rope",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
@@ -76,22 +99,10 @@
                 "max": 50.0,
                 "min": 30.0
               },
-              "treasure": true
+              "treasure": false
             }
           ],
           "name": "minecraft:diamond_hoe",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:lead",
           "weight": 2
         },
         {
@@ -115,8 +126,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:saddle",
-          "weight": 2
+          "name": "supplementaries:quiver",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -138,11 +149,11 @@
                 "max": 50.0,
                 "min": 30.0
               },
-              "treasure": true
+              "treasure": false
             }
           ],
           "name": "minecraft:diamond_leggings",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -150,6 +161,19 @@
             {
               "enchantments": [
                 "minecraft:swift_sneak"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "minecraft:mending"
               ],
               "function": "minecraft:enchant_randomly"
             }
@@ -196,14 +220,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:candle",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -212,8 +236,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 1.0
+                "max": 12.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -228,8 +252,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 10.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -244,13 +268,29 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 1.0
+                "max": 20.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:glow_berries",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "berry_good:glowgurt",
           "weight": 3
         },
         {
@@ -263,7 +303,7 @@
                 "max": 39.0,
                 "min": 20.0
               },
-              "treasure": true
+              "treasure": false
             }
           ],
           "name": "minecraft:iron_leggings",
@@ -276,8 +316,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -292,7 +332,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 4.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -305,15 +345,6 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
               "function": "minecraft:set_potion",
               "id": "minecraft:strong_regeneration"
             }
@@ -325,11 +356,33 @@
           "type": "minecraft:item",
           "functions": [
             {
+              "function": "minecraft:set_potion",
+              "id": "upgrade_aquatic:restfulness_strong"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:invisibility"
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
               "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:book",
-          "weight": 5
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -338,7 +391,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 10.0,
+                "max": 6.0,
                 "min": 3.0
               },
               "function": "minecraft:set_count"
@@ -355,7 +408,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 15.0,
-                "min": 1.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -370,8 +423,56 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 15.0,
+                "max": 2.0,
                 "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:skeleton_skull",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "additionaladditions:rose_gold_alloy",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:crying_obsidian",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 15.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -386,14 +487,18 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 6.0
+                "max": 64.0,
+                "min": 48.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:coal",
-          "weight": 7
+          "name": "spelunkery:coal_lump",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bell"
         }
       ],
       "rolls": {

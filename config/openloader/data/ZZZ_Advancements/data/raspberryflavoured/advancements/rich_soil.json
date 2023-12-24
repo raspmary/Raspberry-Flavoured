@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Obtain rich soil by letting organic compost decompose near sunlight, water, mushrooms or other compost blocks... or just find some in a village"
+      "text": "Obtain rich soil by letting organic compost decompose near sunlight, water, mushrooms or other compost blocks"
     },
     "frame": "goal",
     "hidden": false,

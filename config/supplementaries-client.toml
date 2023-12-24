@@ -145,6 +145,7 @@
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
+	no_optifine_warn_screen = false
 
 #Game tweaks
 [tweaks]
@@ -168,6 +169,10 @@
 	#Placeable books random colors
 	#This is a list. Add more entries with syntax [[...]]
 	placeable_books_colors = ["brown", "orange", "yellow", "red", "green", "lime", "cyan", "blue", "purple"]
+	#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
+	tinted_blocks_on_maps = true
+	#Colors tall grass same color as grass
+	tall_grass_color = true
 
 [items]
 
@@ -210,4 +215,14 @@
 	[items.flute]
 		#Display visual particles when a playing a flute
 		note_particles = true
+
+	[items.altimeter]
+		#Click action for depth meter which displays current depth
+		click_action = true
+		#Allows depth meter to have unique textures per each dimension. Add more dimensions IDs and a matching texture in the correct path replacing ':' with '_'
+		#This is a list. Add more entries with syntax [[...]]
+		extra_dimension_textures = ["minecraft:the_nether", "minecraft:the_end"]
+		#Increasing this to be more than 1 will result in delth meter display image to be shown in float amounts instead of pixel perfect ones
+		#Range: 1 ~ 10
+		texture_precision_multiplier = 1
 

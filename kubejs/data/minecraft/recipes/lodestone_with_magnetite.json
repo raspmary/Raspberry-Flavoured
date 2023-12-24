@@ -5,7 +5,7 @@
       "item": "spelunkery:magnetite_chunk"
     },
     "S": {
-      "item": "minecraft:stone"
+      "tag": "forge:stone"
     }
   },
   "pattern": [
@@ -14,7 +14,7 @@
     "S#S"
   ],
   "result": {
-	"count": 10,
+	"count": 15,
     "item": "minecraft:lodestone"
   }
 }

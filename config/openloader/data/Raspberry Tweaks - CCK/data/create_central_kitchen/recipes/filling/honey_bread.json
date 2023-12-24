@@ -12,7 +12,8 @@
   ],
   "results": [
     {
-      "item": "buzzier_bees:honey_bread"
+      "item": "buzzier_bees:honey_bread",
+	  "count": 2
     }
   ]
 }

@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Craft a backpack to get an additional twenty-seven slots in your inventory - but be warned, you can't take it off when there's items inside it!"
+      "text": "Craft a backpack to add an additional twenty-seven slots to your inventory - but keep in mind that you can't take the backpack off when there's items inside it!"
     },
     "frame": "goal",
     "hidden": false,

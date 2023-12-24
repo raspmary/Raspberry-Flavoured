@@ -38,7 +38,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Make sand paper and use it to polish any rough gemstone"
+      "text": "Make sand paper or a grindstone and use it to polish any rough gemstone"
     },
     "frame": "goal",
     "hidden": false,

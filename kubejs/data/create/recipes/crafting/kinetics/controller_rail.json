@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:nuggets/gold"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "A A",
+    "ASA",
+    "AEA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "create:controller_rail"
+  }
+}

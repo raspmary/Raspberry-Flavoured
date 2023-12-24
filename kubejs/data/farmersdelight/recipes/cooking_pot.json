@@ -7,9 +7,17 @@
     "W": {
       "item": "minecraft:water_bucket"
     },
-    "b": {
+    "b": [
+	{
       "item": "minecraft:brick"
     },
+	{
+      "item": "minecraft:nether_brick"
+    },
+	{
+      "item": "supplementaries:ash_brick"
+    }
+	],
     "i": {
       "tag": "forge:ingots/iron"
     }

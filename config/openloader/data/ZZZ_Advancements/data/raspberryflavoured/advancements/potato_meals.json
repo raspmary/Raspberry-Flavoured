@@ -13,18 +13,6 @@
         ]
       }
     },
-	"01": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "kubejs:clam_chowder"
-            ]
-          }
-        ]
-      }
-    },
 	"02": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -249,9 +237,6 @@
   "requirements": [
     [
 	"00"
-	],
-	[
-	"01"
 	],
 	[
 	"02"

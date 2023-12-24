@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:muddy_mangrove_roots"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:mud"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:mangrove_roots"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "shovel_dig"
+  }
+}

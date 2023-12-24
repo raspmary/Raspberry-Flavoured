@@ -9,9 +9,17 @@
     {
       "item": "autumnity:turkey_piece"
     },
+	[
 	{
-      "tag": "culturaldelights:corn_or_kernels"
+      "item": "culturaldelights:corn_cob"
     },
+	{
+      "item": "culturaldelights:corn_kernels"
+    },
+	{
+      "item": "kubejs:corn_flour"
+    }
+	],
     {
       "item": "minecraft:potato"
     },

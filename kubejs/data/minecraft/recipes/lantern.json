@@ -1,13 +1,18 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:chain"
-        },
-        {
-            "item": "minecraft:torch"
-        }
-    ],
+    "type": "minecraft:crafting_shaped",
+	"pattern": [
+		" 1 ",
+		"121",
+		" 1 "
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:iron_nugget"
+		},
+		"2": {
+			"item": "minecraft:torch"
+		}
+	},
     "result": {
         "item": "minecraft:lantern"
     }

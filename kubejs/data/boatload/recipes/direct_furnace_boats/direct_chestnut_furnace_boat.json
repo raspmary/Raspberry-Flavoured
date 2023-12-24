@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "direct_furnace_boat",
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "windswept:chestnut_planks"
+    },
+    "X": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "windswept:chestnut_furnace_boat"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "direct_chest_boat"
+    }
+  ]
+}

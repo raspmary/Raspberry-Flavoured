@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "crittersandcompanions:clam"
+    }
+  ],
+  "result": [
+    {
+      "item": "crittersandcompanions:pearl",
+      "count": 1,
+      "chance": 0.02
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "sound": "minecraft:entity.turtle.egg_crack"
+}

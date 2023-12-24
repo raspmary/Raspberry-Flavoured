@@ -1,0 +1,26 @@
+{
+  "defaultCycleTime": 10000,
+  "ignoredNamespaces": [],
+  "ignoredTips": [
+    "tipsmod:absolem_joke_tips/skulls",
+    "tipsmod:string_wool",
+    "tipsmod:hitting_obsidian",
+    "tipsmod:end_dimension",
+    "tipsmod:dragon_egg",
+    "tipsmod:water_grass",
+    "tipsmod:absolem_joke_tips/swim",
+    "tipsmod:job_site_dimension",
+    "tipsmod:shulker_armor",
+    "tipsmod:fortress_triangulation",
+    "tipsmod:absolem_joke_tips/provoke",
+    "tipsmod:fishing_resources",
+    "tipsmod:villager_sweat",
+    "tipsmod:shulker_golem",
+    "tipsmod:witch_conversion",
+    "tipsmod:portal_trick",
+    "tipsmod:dragon_blocks",
+    "tipsmod:wandering_invis",
+    "tipsmod:bed_explode"
+  ],
+  "useAmericanEnglishAsDefault": false
+}

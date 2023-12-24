@@ -1,0 +1,8 @@
+{
+  "type": "woodworks:sawmill",
+  "count": 3,
+  "ingredient": {
+    "item": "environmental:willow_wood"
+  },
+  "result": "environmental:willow_post"
+}

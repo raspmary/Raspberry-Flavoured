@@ -7,6 +7,10 @@
 	"supplementaries:gold_trapdoor",
 	"supplementaries:gold_gate",
 	"supplementaries:hourglass",
-	"architects_palette:gold_nub"
+	"architects_palette:gold_nub",
+    {
+      "id": "lucky:raspberry_lucky_block",
+      "required": false
+    }
   ]
 }

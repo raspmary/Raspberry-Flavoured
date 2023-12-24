@@ -1,0 +1,488 @@
+{
+  "parent": "raspberryflavoured:eleven",
+  "criteria": {
+    "01": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_13"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"02": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_cat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"03": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_blocks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"04": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_chirp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"05": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_far"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"06": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mall"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"07": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mellohi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"08": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_stal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"09": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_strad"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"10": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_ward"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"11": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"12": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_wait"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"13": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_otherside"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"14": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_5"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"15": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_pigstep"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"16": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "berry_good:music_disc_fox"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"17": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:music_disc_structure"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"18": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecologics:music_disc_coconut"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"19": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmental:music_disc_slabrave"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"20": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "neapolitan:music_disc_hullabaloo"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"21": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:music_disc_atlantis"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"22": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "windswept:music_disc_rain"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"23": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "windswept:music_disc_snow"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"24": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "windswept:music_disc_bumblebee"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"25": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_eleven"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"26": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_dog"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"27": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_halland"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"28": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_dalarna"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"29": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_halland_dalarna"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"30": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_frontier"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"31": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_shimmer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Collect every single music disc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "kubejs:music_disc_halland_dalarna"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Disc Jockey"
+    }
+  },
+  "requirements": [
+    [
+      "01"
+    ],
+	[
+      "02"
+    ],
+	[
+      "03"
+    ],
+	[
+      "04"
+    ],
+    [
+      "05"
+    ],
+	[
+      "06"
+    ],
+	[
+      "07"
+    ],
+	[
+      "08"
+    ],
+	[
+      "09"
+    ],
+	[
+      "10"
+    ],
+	[
+      "11"
+    ],
+	[
+      "12"
+    ],
+	[
+      "13"
+    ],
+	[
+      "14"
+    ],
+	[
+      "15"
+    ],
+	[
+      "16"
+    ],
+	[
+      "17"
+    ],
+	[
+      "18"
+    ],
+	[
+      "19"
+    ],
+	[
+      "20"
+    ],
+	[
+      "21"
+    ],
+	[
+      "22"
+    ],
+	[
+      "23"
+    ],
+	[
+      "24"
+    ],
+	[
+      "25"
+    ],
+	[
+      "26"
+    ],
+	[
+      "27"
+    ],
+	[
+      "28"
+    ],
+	[
+      "29"
+    ],
+	[
+      "30"
+    ],
+	[
+      "31"
+    ]
+  ]
+}

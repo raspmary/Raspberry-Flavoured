@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 4,
-  "ingredient": {
-    "tag": "ecologics:azalea_logs"
-  },
-  "result": "everycomp:abnww/ecologics/azalea_boards"
-}

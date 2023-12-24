@@ -1,0 +1,14 @@
+{
+  "itemGroup.spelunkery": "Spelunkery",
+  "entity.spelunkery.mineomite": "Mine-o-mite",
+  "entity.spelunkery.thrown_primed_mineomite": "Primed Mine-o-mite",
+  "block.spelunkery.rock_salt": "Soul Salt Crystal",
+  "block.spelunkery.rock_salt_block": "Packed Soul Salt Crystal",
+  "block.spelunkery.rough_quartz_block": "Block of Nether Quartz",
+  "block.spelunkery.magnetite": "Packed Magnetite",
+  "item.spelunkery.magnetite_chunk": "Magnetite Chunk",
+  "item.spelunkery.raw_magnetite_nugget": "Magnetite Nugget",
+  "tooltip.spelunkery.depth_gauge_depth": "Y: %1$s",
+  "tooltip.spelunkery.magnetite_pos": "Magnetic interference at X: %1$s, Z: %2$s",
+  "tooltip.spelunkery.player_pos": "Current location is X: %1$s, Z: %2$s"
+}

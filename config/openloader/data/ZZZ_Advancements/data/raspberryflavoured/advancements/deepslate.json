@@ -1,0 +1,93 @@
+{
+  "parent": "raspberryflavoured:cock",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate",
+              "minecraft:cobbled_deepslate",
+              "minecraft:polished_deepslate",
+              "minecraft:deepslate_coal_ore",
+              "minecraft:deepslate_iron_ore",
+              "minecraft:deepslate_copper_ore",
+              "minecraft:deepslate_gold_ore",
+              "minecraft:deepslate_redstone_ore",
+              "minecraft:deepslate_lapis_ore",
+              "minecraft:deepslate_diamond_ore",
+              "minecraft:deepslate_bricks",
+              "minecraft:cracked_deepslate_bricks",
+              "minecraft:deepslate_tiles",
+              "minecraft:cracked_deepslate_tiles",
+              "minecraft:chiseled_deepslate",
+              "minecraft:cobbled_deepslate_stairs",
+              "minecraft:polished_deepslate_stairs",
+              "minecraft:deepslate_brick_stairs",
+              "minecraft:deepslate_tile_stairs",
+              "minecraft:cobbled_deepslate_slab",
+              "minecraft:polished_deepslate_slab",
+              "minecraft:deepslate_brick_slab",
+              "minecraft:deepslate_tile_slab",
+              "minecraft:cobbled_deepslate_wall",
+              "minecraft:polished_deepslate_wall",
+              "minecraft:deepslate_brick_wall",
+              "minecraft:deepslate_tile_wall",
+              "quark:deepslate_furnace",
+              "supplementaries:deepslate_lamp",
+              "oreganized:deepslate_lead_ore",
+              "oreganized:deepslate_silver_ore",
+              "abundant_atmosphere:mossy_deepslate",
+              "abundant_atmosphere:deepslate_pillar",
+              "abundant_atmosphere:chiseled_deepslate_tiles",
+              "abundant_atmosphere:deepslate_pot",
+              "abundant_atmosphere:tall_deepslate_pot",
+              "abundant_atmosphere:screaming_deepslate_pot",
+              "create:deepslate_zinc_ore",
+              "create:cut_deepslate",
+              "create:cut_deepslate_stairs",
+              "create:cut_deepslate_slab",
+              "create:cut_deepslate_wall",
+              "create:polished_cut_deepslate",
+              "create:polished_cut_deepslate_stairs",
+              "create:polished_cut_deepslate_slab",
+              "create:polished_cut_deepslate_wall",
+              "create:cut_deepslate_bricks",
+              "create:cut_deepslate_brick_stairs",
+              "create:cut_deepslate_brick_slab",
+              "create:cut_deepslate_brick_wall",
+              "create:small_deepslate_bricks",
+              "create:small_deepslate_brick_stairs",
+              "create:small_deepslate_brick_slab",
+              "create:small_deepslate_brick_wall",
+              "create:layered_deepslate",
+              "create:deepslate_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Using an iron pickaxe or explosives, successfully penetrate and obtain deepslate, and begin heading deeper underground"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:deepslate"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Deep Cut"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

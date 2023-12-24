@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "S": {
+      "tag": "forge:plates/iron"
+    },
+    "W": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    " S ",
+    "CWC",
+    "CCC"
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:redstone_contact"
+  }
+}

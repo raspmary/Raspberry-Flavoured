@@ -4,10 +4,10 @@
 ["Mob Spawn Weights"]
 	#Rabbit Forest Spawn Weight
 	#Range: 0 ~ 1000
-	forestRabbitSpawnWeight = 6
+	forestRabbitSpawnWeight = 8
 	#Fox Forest Spawn Weight
 	#Range: 0 ~ 1000
-	forestFoxSpawnWeight = 6
+	forestFoxSpawnWeight = 4
 	#Snail Spawn Weight
 	#Range: 0 ~ 1000
 	snailSpawnWeight = 0
@@ -22,7 +22,7 @@
 	rattlesnakeSpawnWeight = 0
 	#Firefly Spawn Weight
 	#Range: 0 ~ 1000
-	fireflySpawnWeight = 0
+	fireflySpawnWeight = 6
 	#Bluejay Spawn Weight
 	#Range: 0 ~ 1000
 	bluejaySpawnWeight = 8
@@ -37,7 +37,7 @@
 	robinSpawnWeight = 8
 	#Butterfly Spawn Weight
 	#Range: 0 ~ 1000
-	butterflySpawnWeight = 0
+	butterflySpawnWeight = 6
 	#Duck Spawn Weight
 	#Range: 0 ~ 1000
 	duckSpawnWeight = 0
@@ -49,7 +49,7 @@
 	deerSpawnWeight = 0
 	#Rhino Spawn Weight
 	#Range: 0 ~ 1000
-	rhinoSpawnWeight = 15
+	rhinoSpawnWeight = 8
 	#Lion Spawn Weight
 	#Range: 0 ~ 1000
 	lionSpawnWeight = 0
@@ -82,7 +82,7 @@
 	alligatorSpawnWeight = 0
 	#Bass Spawn Weight
 	#Range: 0 ~ 1000
-	bassSpawnWeight = 0
+	bassSpawnWeight = 6
 	#Lizard Spawn Weight
 	#Range: 0 ~ 1000
 	lizardSpawnWeight = 0

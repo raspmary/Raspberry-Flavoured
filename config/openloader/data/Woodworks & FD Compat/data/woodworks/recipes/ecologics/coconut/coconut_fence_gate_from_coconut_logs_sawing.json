@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "tag": "ecologics:coconut_logs"
-  },
-  "result": "ecologics:coconut_fence_gate"
-}

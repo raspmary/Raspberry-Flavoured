@@ -1,21 +1,14 @@
 {
-  "type": "create:mechanical_crafting",
-  "acceptMirrored": false,
-  "key": {
-    "S": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "tag": "forge:plates/obsidian"
     },
-    "B": {
-      "item": "minecraft:enchanted_book"
+    {
+      "item": "minecraft:enchanting_table"
     }
-  },
-  "pattern": [
-    "BBB",
-    "BSB",
-    "BBB"
   ],
   "result": {
-    "count": 1,
     "item": "create_enchantment_industry:enchanting_guide"
   }
 }

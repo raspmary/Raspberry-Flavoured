@@ -1,8 +1,0 @@
-{
-  "exposed": true,
-  "rate": 4,
-  "count": {
-    "min": 1,
-    "max": 2
-  }
-}

@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "quark:midori_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:purpur_block"
+    }
+  ]
+}

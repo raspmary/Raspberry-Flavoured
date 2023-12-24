@@ -103,12 +103,6 @@
 	  },
       "trigger": "minecraft:placed_block"
     },
-	"17": {
-      "conditions": {
-        "block": "windswept:wild_berry_bush_pips"
-	  },
-      "trigger": "minecraft:placed_block"
-    },
 	"18": {
       "conditions": {
         "block": "berry_good:cave_vine_pips"
@@ -123,7 +117,7 @@
     },
 	"20": {
       "conditions": {
-        "block": "autumnity:foul_berry_bush_pips"
+        "block": "autumnity:foul_berry_bush"
 	  },
       "trigger": "minecraft:placed_block"
     },
@@ -150,12 +144,12 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Till dirt into farmland and plant any seed or crop"
+      "text": "Plant any seed or crop"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:wheat_seeds"
+      "item": "supplementaries:flax_seeds"
     },
     "show_toast": true,
     "title": {
@@ -181,7 +175,6 @@
 	  "14",
 	  "15",
 	  "16",
-	  "17",
 	  "18",
 	  "19",
 	  "20",

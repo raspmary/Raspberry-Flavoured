@@ -12,25 +12,23 @@
     {
       "item": "ecologics:cooked_prickly_pear"
     },
-	[
     {
       "item": "minecraft:sweet_berries"
     },
-	{
-      "item": "windswept:holly_berries"
-    }
-	],
+    {
+      "item": "minecraft:sweet_berries"
+    },
     [
-    {
-      "item": "minecraft:sweet_berries"
+	{
+      "item": "culturaldelights:corn_cob"
     },
 	{
-      "item": "windswept:holly_berries"
+      "item": "culturaldelights:corn_kernels"
+    },
+	{
+      "item": "kubejs:corn_flour"
     }
-	],
-    {
-      "tag": "culturaldelights:corn_or_kernels"
-    }
+	]
   ],
   "recipe_book_tab": "drinks",
   "result": {

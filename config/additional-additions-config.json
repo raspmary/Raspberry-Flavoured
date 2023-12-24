@@ -9,7 +9,7 @@
   "RoseGold": true,
   "Ropes": false,
   "EnchantmentPrecision": false,
-  "EnchantmentSpeed": true,
+  "EnchantmentSpeed": false,
   "Wrench": false,
   "CopperPatina": false,
   "AmethystLamp": {

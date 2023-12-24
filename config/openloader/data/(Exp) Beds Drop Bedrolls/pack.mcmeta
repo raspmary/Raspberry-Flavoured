@@ -1,6 +1,0 @@
-{
-    "pack": {
-        "pack_format": 10,
-        "description": [{"text":"Beds drop bedrolls when broken instead of themselves","color":"yellow"}]
-    }
-}

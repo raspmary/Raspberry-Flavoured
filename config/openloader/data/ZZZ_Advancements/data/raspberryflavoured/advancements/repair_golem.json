@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:village",
+  "parent": "raspberryflavoured:summon_golem",
   "criteria": {
     "0": {
       "trigger": "minecraft:player_interacted_with_entity",
@@ -22,7 +22,7 @@
       "text": "Repair an iron golem with an iron ingot"
     },
     "frame": "task",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "minecraft:iron_ingot"
     },

@@ -1,9 +1,0 @@
-
-["Aileron Forge Config"]
-
-	["Aileron Forge Config".Campfires]
-		#Push players
-		campfiresPushPlayers = true
-		#Smoke Stack Charge Ticks
-		smokeStackChargeTicks = 20
-

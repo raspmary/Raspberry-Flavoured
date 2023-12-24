@@ -1,0 +1,97 @@
+[
+  {
+    "mob": "minecraft:pillager",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:vindicator",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:evoker",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:ravager",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:villager",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:wandering_trader",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:trader_llama",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "savage_and_ravage:skeleton_villager",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "savage_and_ravage:executioner",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "savage_and_ravage:griefer",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "savage_and_ravage:iceologer",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "savage_and_ravage:trickster",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:wolf",
+    "random": 0.2,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:fox",
+    "random": 0.2,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:wither_skeleton",
+    "onjoin": true,
+    "random": 0.2,
+    "armorhelmet": ["alloyed:steel_helmet"],
+    "helditem": ["100=minecraft:iron_sword", "25=alloyed:steel_sword", "10=minecraft:bow", "5=minecraft:netherite_sword"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:wither_skeleton",
+    "onjoin": true,
+    "helditem": ["100=minecraft:iron_sword", "25=alloyed:steel_sword", "10=minecraft:bow", "5=minecraft:netherite_sword"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "onjoin": true,
+    "helditem": ["100=minecraft:bow", "30=minecraft:wooden_sword", "15=minecraft:golden_sword"],
+    "result": "allow"
+  }
+]

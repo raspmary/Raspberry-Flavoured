@@ -1,0 +1,5 @@
+{
+  "tip": {
+    "text": "Torch arrows will place a torch if they come in contact with the ground - if they come in contact with a mob, they'll light it ablaze."
+  }
+}

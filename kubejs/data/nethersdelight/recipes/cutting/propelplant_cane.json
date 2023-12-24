@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "nethersdelight:propelplant_cane"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:gunpowder",
+	  "count": 1
+    },
+	{
+      "item": "minecraft:gunpowder",
+	  "count": 1,
+	  "chance": 0.1
+    }
+  ],
+  "tool": {
+    "item": "another_furniture:furniture_hammer"
+  }
+}

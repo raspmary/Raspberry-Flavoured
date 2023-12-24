@@ -7,11 +7,10 @@
   ],
   "result": [
     {
-      "chance": 0.25,
       "item": "kubejs:soul_salt"
     },
 	{
-      "chance": 0.025,
+      "chance": 0.35,
       "item": "kubejs:soul_salt"
     }
   ],

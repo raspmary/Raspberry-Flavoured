@@ -43,5 +43,23 @@
             }
         ],
         "subtitle": "Music disc plays"
+    },
+	"music.music_disc_shimmer": {
+        "sounds": [
+            {
+                "name": "kubejs:music_disc_shimmer",
+                "stream": true
+            }
+        ],
+        "subtitle": "Music disc plays"
+    },
+	"music.music_disc_frontier": {
+        "sounds": [
+            {
+                "name": "kubejs:music_disc_frontier",
+                "stream": true
+            }
+        ],
+        "subtitle": "Music disc plays"
     }
 }

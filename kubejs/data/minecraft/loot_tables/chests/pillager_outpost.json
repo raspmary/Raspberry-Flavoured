@@ -218,6 +218,11 @@
           "name": "supplementaries:quiver",
           "weight": 1
         },
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:bell",
+          "weight": 2
+        },
         {
           "type": "minecraft:item",
           "functions": [

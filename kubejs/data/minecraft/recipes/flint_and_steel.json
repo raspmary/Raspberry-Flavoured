@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:plates/steel"
+      "item": "minecraft:flint"
     },
     {
       "item": "minecraft:flint"

@@ -8,9 +8,9 @@ sunstoneSpreadChance = 0.35
 [Restart_Required]
 	#Architect's Palette adds trades to various villagers. This option controls if they can appear in newly generated trades.
 	#Villagers that already sell AP items will continue to do so regardless of this setting.
-	enableVillagerTrades = true
+	enableVillagerTrades = false
 	#Enables Wandering Trader trades added by AP.
-	enableWandererTrades = true
+	enableWandererTrades = false
 	#AP adds Vertical Slabs to be compatible with Quark. Enabling this will force those to be available even if Quark isn't loaded.
 	verticalSlabsForced = false
 

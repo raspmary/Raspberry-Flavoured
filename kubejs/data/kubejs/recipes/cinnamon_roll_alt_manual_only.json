@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+	{
+      "tag": "forge:milk"
+    },
+    {
+      "item": "kubejs:cinnamon"
+    }
+  ],
+  "result": {
+    "item": "kubejs:cinnamon_roll",
+    "count": 1
+  }
+}

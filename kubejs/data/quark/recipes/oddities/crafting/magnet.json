@@ -7,7 +7,7 @@
   ],
   "key": {
     "C": {
-      "tag": "forge:cobblestone"
+      "tag": "minecraft:stone_tool_materials"
     },
     "I": {
       "tag": "forge:ingots/iron"

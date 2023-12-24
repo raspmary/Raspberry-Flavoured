@@ -18,14 +18,9 @@
     {
       "item": "minecraft:sugar_cane"
     },
-	[
-		{
-			"item": "minecraft:melon_slice"
-		},
-		{
-			"item": "overweight_farming:melon_juice"
-		}
-	]
+    {
+      "item": "minecraft:melon_slice"
+    }
   ],
   "recipe_book_tab": "drinks",
   "result": {

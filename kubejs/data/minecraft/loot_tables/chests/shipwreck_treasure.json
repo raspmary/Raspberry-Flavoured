@@ -38,22 +38,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:rough_emerald",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
           "name": "spelunkery:rough_diamond",
           "weight": 5
         },

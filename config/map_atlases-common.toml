@@ -1,0 +1,31 @@
+#The maximum number of Maps (Filled & Empty combined) allowed to be inside an Atlas (-1 to disable).
+max_map_count = -1
+#If enabled, you can increase the Empty Map count by inserting Paper
+accept_paper_for_empty_maps = false
+#If true, the Atlas is required to have spare Empty Maps stored to expand the Filled Map size
+require_empty_maps_to_expand = true
+#Controls how many usable Maps are added when you add a single Map to the Atlas
+#Range: 0 ~ 64
+map_entry_value_multiplier = 1
+#Controls how many free Empty Maps you get for 'activating' an Inactive Atlas
+#Range: 0 ~ 64
+pity_activation_map_count = 9
+#If 'true', Atlases will be able to store Empty Maps and auto-fill them as you explore.
+enable_empty_map_entry_and_fill = true
+#Locations of where an atlas will be scanned for. By default only hotbar will be scanned
+#Allowed Values: MAIN_HAND, HOTBAR, HANDS, HOTBAR_AND_HANDS, INVENTORY
+activation_locations = "HOTBAR_AND_HANDS"
+#Allows players in creative to teleport using the atlas. Hold shift and press anywhere
+creative_teleport = true
+#Marker id associated with the red pin button on the atlas screen. Set to empty string to disable
+pin_marked_id = "map_atlases:pin"
+#Makes maps updates multithreaded. Can substantially improve atlas performance.Disable incase it causes concurrency issues with other mods
+multithreaded_updates = true
+
+[update_logic]
+	#Update maps in simple round robin fashion instead of prioritizing the ones closer. Overrides configs below
+	round_robin = false
+	#Max of maps to update each tick. Increase to make maps update faster
+	#Range: 0 ~ 9
+	map_updates_per_tick = 1
+

@@ -4,8 +4,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
+        "min": 2.0,
+        "max": 3.0
       },
       "bonus_rolls": 0.0,
       "entries": [
@@ -27,19 +27,51 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 25,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
+                "max": 2.0
               },
               "add": false
             }
           ],
           "name": "minecraft:crying_obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ],
+          "name": "create:powdered_obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ],
+          "name": "quark:clear_shard"
         }
       ]
     },
@@ -53,13 +85,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 20,
+          "name": "firesticks:fire_stick"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 5,
           "name": "minecraft:flint_and_steel"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
           "name": "spelunkery:rough_diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spelunkery:portal_fluid_bottle"
         }
       ]
     }

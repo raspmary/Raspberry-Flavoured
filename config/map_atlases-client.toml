@@ -1,0 +1,86 @@
+#Multiplier for all the Atlases sound float
+#Range: 0.0 ~ 10.0
+soundScalar = 1.0
+#Render atlas like normal map when in hand
+#Allowed Values: ON, NOT_LOCKED, OFF
+in_hand_renderer = "NOT_LOCKED"
+
+[minimap]
+	#Hide minimap when holding the atlas in hand
+	hide_when_in_hand = true
+	#Only display y coordinates if atlas holds some slice maps
+	only_show_y_when_has_slices = false
+	#Global scale of entire minimap HUD. Keep at 1 for pixel perfect consistency
+	#Range: 0.0 ~ 20.0
+	scale = 1.0
+	#If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
+	enabled = true
+	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
+	#Range: 0.001 ~ 100.0
+	zoom_multiplier = 1.0
+	#Controls anchor position of mini-map
+	#Allowed Values: UPPER_LEFT, UPPER_RIGHT, LOWER_LEFT, LOWER_RIGHT
+	anchoring = "UPPER_RIGHT"
+	#An integer which will offset the mini-map horizontally
+	#Range: -4000 ~ 4000
+	horizontal_offset = -5
+	#An integer which will offset the mini-map vertically
+	#Range: -4000 ~ 4000
+	vertical_offset = 5
+	#The number of pixels to shift vertically when there's an active effect
+	#Range: -4000 ~ 4000
+	active_potion_effects_vertical_offset = 26
+	#When enabled, the player's current Coords will be displayed
+	coordinate_text = false
+	#When enabled, the player's current Biome will be displayed
+	biome_text = true
+	#Sets the scale of the text rendered for Coords and Biome mini-map data
+	#Range: 0.0 ~ 10.0
+	coords_and_biome_scale = 1.0
+	#Sets the scale of the map icons rendered in the mini-map
+	#Range: 0.0 ~ 10.0
+	decoration_scale = 1.0
+	#Allows minimap to follow player movement instead of only displaying current map
+	follow_player = true
+	#When enabled the map will align itself with the player
+	rotate_with_player = true
+	#Draw cardinal directions on minimap
+	cardinal_directions = true
+	#Scale of cardinal directions on minimap
+	#Range: 0.0 ~ 2.0
+	cardinal_scale = 1.0
+	#Only shows north cardinal direction
+	only_show_north_cardinal = false
+	#Shows map separation borders
+	map_borders = true
+	#Use sky color for minimap
+	darken_at_night = true
+
+[world_map]
+	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
+	alternative_texture = true
+	#Pan smoothly. When off it will pan in map increments instead
+	smooth_panning = true
+	#Global scale of the entire world map GUI. Keep at 1 for pixel perfect consistency
+	#Range: 0.0 ~ 20.0
+	scale = 1.0
+	#Global scale of the entire world map GUI when opening from lectern. Keep at 1 for pixel perfect consistency
+	#Range: 0.0 ~ 20.0
+	lectern_scale = 1.0
+	#Shows map separation borders
+	map_borders = true
+	#When enabled, the Atlas world map coordinates will be displayed
+	draw_coordinates = false
+	#Sets the scale of the text rendered for Coords world-map data
+	#Range: 0.0 ~ 10.0
+	coordinates_scale = 1.0
+	#Sets the scale of the map icons rendered in the world-map
+	#Range: 0.0 ~ 10.0
+	decoration_scale = 0.5
+	#Rearranges the position of the slice indicator to be more compact. You will need supplementaries slice maps to use this
+	compact_slices_indicator = true
+	#Allows minimap to follow player movement instead of only displaying current map
+	follow_player = true
+	#Makes zooming work smoothly instead of in 2 maps increments
+	smooth_zooming = true
+
