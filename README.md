@@ -1,12 +1,11 @@
-# Raspberry-Flavoured
+# Raspberry Flavoured
  A Minecraft 1.19.2 modpack
 
- RESOURCE PACK/DATAPACK CREDITS:
+RESOURCE PACK/DATAPACK CREDITS:
 
 The following resource packs/datapacks have been modified to fit the modpack, however neither I nor any of the RF team members claim them as our own. Please support the original authors.
 
 Team VanillaTweaks - VanillaTweaks resource pack
-
 hatsondogs - Peeves resource pack
 
 vectorwing - Detail Brush, Refined Armor and Soft Weather resource packs
