@@ -1,0 +1,14 @@
+{
+   "targets": [
+   "brewinandchewin:scarlet_cheese_wheel"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.squishy.break",
+	  "place_sound": "kubejs:sound.squishy.place",
+      "hit_sound": "kubejs:sound.squishy.hit",
+      "fall_sound": "kubejs:sound.squishy.fall",
+      "step_sound": "kubejs:sound.squishy.step",
+      "pitch": 0.75,
+      "volume": 1
+   } 
+}

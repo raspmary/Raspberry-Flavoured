@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:icons/hotbar_icon"
+  },
+  "display": {
+    "gui": {
+      "translation": [ 1, 1, 0],
+      "scale":[ 2, 2, 2 ]
+    }
+  }
+}

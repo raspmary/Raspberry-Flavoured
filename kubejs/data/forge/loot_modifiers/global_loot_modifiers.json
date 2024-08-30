@@ -13,7 +13,6 @@
 	"farmersdelight:scavenging_cococrab",
 	"farmersdelight:scavenging_cococrab_cooked",
 	"farmersdelight:scavenging_skeleton_skull",
-	"farmersdelight:scavenging_skeleton_skull_baby",
 	"farmersdelight:scavenging_skeleton_skull_stray",
 	"farmersdelight:scavenging_skeleton_skull_villager",
 	"farmersdelight:scavenging_zombie_head",
@@ -25,8 +24,14 @@
 	"farmersdelight:scavenging_creeper_head_creepie",
 	"farmersdelight:scavenging_enderman_head",
 	"farmersdelight:scavenging_wither_head",
+	"farmersdelight:scavenging_string_extra",
+	"farmersdelight:scavenging_bones_livestock",
+	"farmersdelight:scavenging_bones_livestock_small",
+	"farmersdelight:scavenging_bones_livestock_big",
+	"farmersdelight:scavenging_bone_meal_from_skeleton",
+	"farmersdelight:scavenging_blaze_rod",
+	"farmersdelight:scavenging_cloth",
 	"farmersdelight:cleaving_skeleton_skull",
-	"farmersdelight:cleaving_skeleton_skull_baby",
 	"farmersdelight:cleaving_skeleton_skull_stray",
 	"farmersdelight:cleaving_skeleton_skull_villager",
 	"farmersdelight:cleaving_zombie_head",
@@ -37,6 +42,10 @@
 	"farmersdelight:cleaving_creeper_head",
 	"farmersdelight:cleaving_creeper_head_creepie",
 	"farmersdelight:cleaving_enderman_head",
-	"farmersdelight:cleaving_wither_head"
+	"farmersdelight:cleaving_wither_skeleton_skull",
+	"farmersdelight:cleaving_wither_head",
+	"farmersdelight:music_disc_droopy1",
+	"farmersdelight:music_disc_death",
+	"farmersdelight:disc_fragment_from_creepie"
   ]
 }

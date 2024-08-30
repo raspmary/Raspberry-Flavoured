@@ -1,0 +1,35 @@
+{
+  "parent": "raspberryflavoured:obsidian",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "miningmaster:gem_forge"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Place down a forge to create enchanted tablets, runes, and unique weapons"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "miningmaster:gem_forge"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Reforged"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

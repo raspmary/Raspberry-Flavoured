@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_wall_post",
+    "textures": {
+        "wall": "spelunkery:block/rough_lazurite_block"
+    }
+}

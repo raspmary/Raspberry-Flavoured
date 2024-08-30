@@ -27,9 +27,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "A Pair of Giants"
+      "text": "Crush 40"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

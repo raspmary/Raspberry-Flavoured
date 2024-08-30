@@ -30,6 +30,9 @@
       "text": "Mending Broken Memories"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_mystery"
+    },
   "requirements": [
     [
       "0"

@@ -33,6 +33,9 @@
       "text": "Heads-Up"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

@@ -30,9 +30,9 @@
     },
     {
       "condition": "minecraft:random_chance_with_looting",
-      "chance": 0.5,
+      "chance": 0.75,
       "looting_multiplier": 0.1
     }
   ],
-  "item": "ecologics:crab_claw"
+  "item": "kubejs:crab_meat"
 }

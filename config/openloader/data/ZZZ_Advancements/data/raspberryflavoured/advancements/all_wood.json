@@ -1,0 +1,312 @@
+{
+  "parent": "raspberryflavoured:all_ores",
+  "criteria": {
+    "00": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:oak_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"01": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:spruce_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"02": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:birch_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"03": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:jungle_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"04": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:acacia_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"05": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:dark_oak_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"06": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:mangrove_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"07": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "architects_palette:twisted_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"08": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "ecologics:coconut_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"09": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "ecologics:azalea_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"10": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "atmospheric:rosewood_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"11": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "atmospheric:morado_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"12": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "atmospheric:yucca_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"14": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "autumnity:maple_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"15": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "environmental:willow_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"16": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "environmental:cherry_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"17": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "environmental:wisteria_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"18": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "upgrade_aquatic:driftwood_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"19": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "upgrade_aquatic:river_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"20": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "windswept:chestnut_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"21": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:crimson_stems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"22": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:warped_stems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Collect every type of wood"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Woody's Roundup"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "00"
+    ],
+	[
+      "01"
+    ],
+	[
+      "02"
+    ],
+	[
+      "03"
+    ],
+	[
+      "04"
+    ],
+    [
+      "05"
+    ],
+	[
+      "06"
+    ],
+	[
+      "07"
+    ],
+	[
+      "08"
+    ],
+	[
+      "09"
+    ],
+	[
+      "10"
+    ],
+	[
+      "11"
+    ],
+	[
+      "12"
+    ],
+	[
+      "14"
+    ],
+	[
+      "15"
+    ],
+	[
+      "16"
+    ],
+	[
+      "17"
+    ],
+	[
+      "18"
+    ],
+	[
+      "19"
+    ],
+	[
+      "20"
+    ],
+	[
+      "21"
+    ],
+	[
+      "22"
+    ]
+  ]
+}

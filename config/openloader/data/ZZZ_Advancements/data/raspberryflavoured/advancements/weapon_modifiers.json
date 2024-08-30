@@ -1,0 +1,101 @@
+{
+  "parent": "raspberryflavoured:forge",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clash:swept_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clash:spear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clash:greatblade"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mace_backport:mace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:rose_gold_rapier"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Forge all 5 modified weapons"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "kubejs:rose_gold_rapier"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "By Their Powers Combined"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ],
+	[
+      "1"
+    ],
+	[
+      "2"
+    ],
+	[
+      "3"
+    ],
+	[
+      "4"
+    ]
+  ]
+}

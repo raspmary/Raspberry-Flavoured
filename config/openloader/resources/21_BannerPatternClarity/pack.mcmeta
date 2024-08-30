@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"description": "Retextures of different Banner Pattern items",
+		"pack_format": 9,
+		"supported_formats": [
+			8,
+			22
+		]
+	}
+}

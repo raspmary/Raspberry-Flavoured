@@ -30,6 +30,9 @@
       "text": "Silver Lining"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

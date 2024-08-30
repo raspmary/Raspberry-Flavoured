@@ -65,13 +65,18 @@
     "result": "deny"
   },
   {
-    "mob": "minecraft:wolf",
-    "random": 0.2,
+    "mob": "sullysmod:copper_golem",
+    "onjoin": true,
     "result": "deny"
   },
   {
-    "mob": "minecraft:fox",
-    "random": 0.2,
+    "mob": "sullysmod:tortoise",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "sullysmod:tortoise_shell",
+    "onjoin": true,
     "result": "deny"
   },
   {
@@ -79,13 +84,39 @@
     "onjoin": true,
     "random": 0.2,
     "armorhelmet": ["alloyed:steel_helmet"],
-    "helditem": ["100=minecraft:iron_sword", "25=alloyed:steel_sword", "10=minecraft:bow", "5=minecraft:netherite_sword"],
+    "helditem": ["100=kubejs:lead_sword", "25=alloyed:steel_sword", "10=minecraft:bow", "5=minecraft:netherite_sword", "5=caverns_and_chasms:necromium_sword"],
     "result": "allow"
   },
   {
     "mob": "minecraft:wither_skeleton",
     "onjoin": true,
-    "helditem": ["100=minecraft:iron_sword", "25=alloyed:steel_sword", "10=minecraft:bow", "5=minecraft:netherite_sword"],
+    "helditem": ["100=kubejs:lead_sword", "25=alloyed:steel_sword", "10=minecraft:bow", "5=minecraft:netherite_sword", "5=caverns_and_chasms:necromium_sword"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "onjoin": true,
+    "random": 0.2,
+	"maxheight": -20,
+    "armorhelmet": ["minecraft:chainmail_helmet", "copperized:copper_helmet", "minecraft:iron_helmet", "minecraft:leather_helmet"],
+    "armorchest": ["minecraft:chainmail_chestplate", "copperized:copper_chestplate", "minecraft:iron_chestplate", "minecraft:leather_chestplate"],
+    "helditem": ["100=minecraft:bow", "50=minecraft:stone_sword", "30=minecraft:iron_sword", "10=minecraft:golden_axe"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "onjoin": true,
+	"maxheight": -5,
+    "helditem": ["100=minecraft:bow", "30=minecraft:stone_sword", "5=minecraft:iron_sword", "5=kubejs:lead_sword"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "onjoin": true,
+    "seesky": true,
+    "random": 0.2,
+    "armorhelmet": ["minecraft:leather_helmet", "copperized:copper_helmet", "minecraft:chainmail_helmet"],
+    "helditem": ["100=minecraft:bow", "30=minecraft:wooden_sword", "15=minecraft:golden_sword", "5=minecraft:stone_sword"],
     "result": "allow"
   },
   {
@@ -93,5 +124,104 @@
     "onjoin": true,
     "helditem": ["100=minecraft:bow", "30=minecraft:wooden_sword", "15=minecraft:golden_sword"],
     "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+	"maxheight": -15,
+    "random": 0.15,
+    "armorchest": ["copperized:copper_chestplate", "minecraft:leather_chestplate"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+	"maxheight": -15,
+    "random": 0.15,
+    "armorhelmet": ["copperized:copper_helmet", "minecraft:leather_helmet"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+    "random": 0.1,
+    "helditem": ["100=minecraft:stone_pickaxe", "70=minecraft:stone_shovel", "35=minecraft:stone_sword", "10=minecraft:stone_axe"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+    "random": 0.05,
+    "helditem": ["85=minecraft:wooden_sword", "60=minecraft:wooden_axe", "35=minecraft:stone_sword", "25=minecraft:iron_sword", "25=kubejs:lead_sword", "12=minecraft:stone_axe"],
+    "armorlegs": ["copperized:copper_leggings", "minecraft:leather_leggings"],
+    "armorboots": ["copperized:copper_boots", "minecraft:leather_boots"],
+    "armorhelmet": ["copperized:copper_helmet", "minecraft:leather_helmet"],
+    "armorchest": ["copperized:copper_chestplate", "minecraft:leather_chestplate"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+	"maxheight": -15,
+    "random": 0.25,
+    "helditem": ["100=minecraft:stone_pickaxe", "70=minecraft:stone_shovel", "35=minecraft:stone_sword", "10=minecraft:stone_axe"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:husk",
+    "onjoin": true,
+    "random": 0.19,
+    "helditem": ["100=minecraft:golden_pickaxe", "70=minecraft:golden_shovel", "35=minecraft:golden_sword", "10=minecraft:golden_axe"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:drowned",
+    "onjoin": true,
+    "random": 0.035,
+    "armorhelmet": ["create:copper_diving_helmet"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:drowned",
+    "onjoin": true,
+    "random": 0.01,
+    "armorhelmet": ["create:copper_diving_helmet"],
+    "armorboots": ["create:copper_diving_boots"],
+    "result": "allow"
+  },
+  {
+    "mob": "naturalist:bear",
+    "onjoin": true,
+    "biome": "environmental:blossom_woods",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:bear",
+    "onjoin": true,
+    "biome": "environmental:blossom_valleys",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:vulture",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:goat",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:windswept_hills",
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:goat",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:windswept_gravelly_hills",
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:goat",
+    "dimension": "minecraft:overworld",
+    "incontrol": true,
+    "result": "deny"
   }
 ]

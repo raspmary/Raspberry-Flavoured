@@ -1,0 +1,18 @@
+{
+	"keep_scaling_on_conversion": true,
+	"upgrade_aquatic:flare": {
+		"type": "uniform",
+		"min_scaling": 1.0,
+		"max_scaling": 1.25
+	},
+	"minecraft:rabbit": 1.1,
+	"minecraft:phantom": {
+		"type": "uniform",
+		"min_scaling": 1.0,
+		"max_scaling": 1.25
+	},
+	"minecraft:allay": 1.25,
+	"savage_and_ravage:creepie": 1.05,
+	"minecraft:vex": 1.45,
+	"minecraft:bat": 1.2
+}

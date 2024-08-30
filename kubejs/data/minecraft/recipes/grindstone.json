@@ -4,14 +4,9 @@
     "#": {
       "tag": "minecraft:planks"
     },
-    "-": [
-	{
-      "item": "create:cut_deepslate"
+    "-": {
+      "tag": "raspberry_flavoured:deepslate"
     },
-	{
-      "item": "create:polished_cut_deepslate"
-    }
-	],
     "I": {
       "item": "minecraft:stick"
     }

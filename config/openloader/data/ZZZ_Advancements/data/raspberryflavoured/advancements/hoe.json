@@ -29,6 +29,9 @@
       "text": "Rake It 'til You Make It"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

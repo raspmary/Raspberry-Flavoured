@@ -1,8 +1,0 @@
->minecraft:overworld
-type=block,ID=lucky:lucky_block@chance=0
-
->minecraft:the_nether
-type=block,ID=lucky:lucky_block@chance=0
-
->minecraft:the_end
-type=block,ID=lucky:lucky_block@chance=0

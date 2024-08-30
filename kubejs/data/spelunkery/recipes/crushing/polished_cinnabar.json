@@ -14,7 +14,7 @@
   "results": [
     {
       "item": "minecraft:redstone",
-      "count": 1
+      "count": 2
     },
     {
       "item": "minecraft:redstone",
@@ -23,13 +23,8 @@
     },
     {
       "item": "minecraft:redstone",
-	  "count": 1,
-      "chance": 0.25
-    },
-    {
-      "item": "minecraft:redstone",
-	  "count": 1,
-      "chance": 0.25
+	  "count": 2,
+      "chance": 0.15
     }
   ],
   "processingTime": 350

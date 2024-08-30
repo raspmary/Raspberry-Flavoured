@@ -1,0 +1,112 @@
+
+#Mob Configuration
+[mob_configuration]
+	#Enable the default ability of Wraiths to summon Wraith Fire around the player as an attack. 
+	#If you prefer a less griefy attack using Soul Fireballs akin to the Blaze, disable this feature. [true / false]
+	enableWraithFireSummon = true
+	#Enable the default ability of Icy Creeper Explosions to grief the environment. 
+	#If you prefer their explosions to not damage the environment, disable this feature. [true / false]
+	enablyIcyCreeperGriefing = false
+	#Enable mobs added/tweaked by Dungeons Mobs to drop their armor when killed. 
+	#If you prefer these mobs to not drop their armor, disable this feature. [true / false]
+	enableMobArmorDrops = true
+	#Enable mobs added/tweaked by Dungeons Mobs mobs to drop their held items when killed. 
+	#If you prefer these mobs to not drop their held items, disable this feature. [true / false]
+	enableMobHeldItemDrops = true
+	#Add mobs (preferably undead) that the Necromancer can summon. 
+	#To do so, enter the namespace ID of the mob, like "minecraft:zombie".
+	#If this list is empty, zombies will be summoned instead.
+	#If a mob chosen from this list cannot be spawned, a zombie will be summoned instead.
+	necromancerMobSummons = ["minecraft:zombie", "minecraft:skeleton"]
+	#Add mobs (preferably undead and aquatic) that the Drowned Necromancer can summon. 
+	#To do so, enter the namespace ID of the mob, like "minecraft:drowned".
+	#If this list is empty, drowned will be summoned instead.
+	#If a mob chosen from this list cannot be spawned, a drowned will be summoned instead.
+	drownedNecromancerMobSummons = ["minecraft:drowned", "dungeons_mobs:sunken_skeleton"]
+
+#Texture Configuration
+[texture_configuration]
+	#Enable 3D sleeves on the various Illagers. 
+	#Can be combined with the  resource pack to 
+	#If you prefer a more vanilla look, disable this feature. [true / false]
+	enable3DSleeves = false
+
+#Spawn Configuration
+[spawn_configuration]
+	#Enable Frozen Zombies replacing 80% of  Zombie spawns in ICY biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableFrozenZombieReplacesZombie = true
+	#Enable Icy Creepers replacing 80% of Creeper spawns in ICY biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableIcyCreeperReplacesCreeper = true
+	#Enable Jungle Zombies replacing 80% of Zombie spawns in JUNGLE biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableJungleZombieReplacesZombie = true
+	#Enable Mossy Skeletons  80% of Skeleton spawns in JUNGLE biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableMossySkeletonReplacesSkeleton = true
+
+#Structure Spawn Configuration
+[structure_spawn_configuration]
+	#Enables logic for allowing vindicators to spawn in Outposts. Defaults to true [true / false]
+	enableOutpostVanillaVindicator = false
+	#Enables logic for allowing evokers to spawn in Outposts. Defaults to false [true / false]
+	enableOutpostVanillaEvoker = false
+	#Enables logic for allowing melee Dungeons Mobs to spawn in Outposts. Defaults to true [true / false]
+	enableOutpostDungeonsMobsMelee = false
+	#Enables logic for allowing caster Dungeons Mobs to spawn in Outposts. Defaults to false [true / false]
+	enableOutpostDungeonsMobsCaster = false
+	#Enables logic for allowing vanilla mobs to spawn in Mansions. Defaults to true [true / false]
+	enableMansionVanilla = false
+	#Enables logic for allowing Dungeons Mobs to spawn in Mansions. Defaults to true [true / false]
+	enableMansionDungeonsMobs = false
+	#Enables logic for allowing vanilla mobs to spawn in Bastions. Defaults to true [true / false]
+	enableBastionVanilla = true
+	#Enables logic for allowing Dungeons Mobs to spawn in Bastions. Defaults to true [true / false]
+	enableBastionDungeonsMobs = true
+	#Enables logic for allowing Dungeons Mobs to spawn in Nether Fortresses. Defaults to true [true / false]
+	enableNetherFortressDungeonsMobs = false
+	#Enables logic for allowing Dungeons Mobs to spawn in Desert Pyramids. Defaults to true [true / false]
+	enableDesertPyramidDungeonsMobs = true
+	#Enables logic for allowing Dungeons Mobs to spawn in Jungle Temples. Defaults to true [true / false]
+	enableJungleTempleDungeonsMobs = true
+
+#Raid Configuration
+[raid_configuration]
+	#Enables logic for only allowing certain raiders to spawn as a part of raids in certain biome types.  
+	#This will make the Mountaineers, Windcaller, Iceologer and Squall Golem only spawn as raiders in their allowed biomes. 
+	#If they are not allowed to spawn as part of a raid in a given biome, 
+	#another equivalent Illager type (Vindicator, Evoker, Ravager) will spawn instead. 
+	#If they are not configured to be added to raids, 
+	#they will replace their equivalent Illager type (Vindicator, Evoker, Ravager) in raids taking place in their allowed biomes. [true / false]
+	enableBiomeSpecificRaiders = false
+	#Enable the addition of Mountaineers to raids. [true / false]
+	enableMountaineersInRaids = false
+	#Enable the addition of Armored Mountaineers to raids. [true / false]
+	enableArmoredMountaineersInRaids = false
+	#Enable the addition of Royal Guards to raids. [true / false]
+	enableRoyalGuardsInRaids = false
+	#Enable the addition of Geomancers to raids. [true / false]
+	enableGeomancersInRaids = true
+	#Enable the addition of Illusioners to raids. [true / false]
+	enableIllusionersInRaids = false
+	#Enable the addition of Mages to raids. [true / false]
+	enableMagesInRaids = false
+	#Enable the addition of Iceologers to raids. [true / false]
+	enableIceologersInRaids = false
+	#Enable the addition of Windcallers to raids. [true / false]
+	enableWindcallersInRaids = false
+	#Enable the addition of Armored Pillagers to raids. [true / false]
+	enableArmoredPillagersInRaids = true
+	#Enable the addition of Squall Golems to raids. [true / false]
+	enableSquallGolemsInRaids = true
+	#Enable the addition of Redstone Golems to raids. [true / false]
+	enableRedstoneGolemsInRaids = true
+
+#Vanilla Mob Configuration
+[vanilla_mob_configuration]
+	#Enable the addition of additional attributes to Husks to make them as powerful as they are in Minecraft Dungeons. [true / false]
+	enableStrongerHusks = true
+	#Enables Spiders and Cave Spiders shooting webs as a ranged attack like they do in Minecraft Dungeons. [true / false]
+	enableRangedSpiders = true
+

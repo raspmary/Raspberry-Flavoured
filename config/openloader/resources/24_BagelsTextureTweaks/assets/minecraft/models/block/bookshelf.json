@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "block/chiseled_bookshelf_top",
+		"side": "block/bookshelf"
+	}
+}

@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Use andesite and zinc nuggets to make andesite alloy, an essential material for all of your mechanical dreams"
+      "text": "Combine sturdy stone and zinc to make sturdy alloy, a material essential for realizing all your mechanical dreams"
     },
     "frame": "goal",
     "hidden": false,
@@ -27,9 +27,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Alliterations Aplenty"
+      "text": "Sturdy Solitary Stone"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

@@ -1,7 +1,7 @@
 {
   "type": "brewinandchewin:fermenting",
   "experience": 0.3,
-  "fermentingtime": 500,
+  "fermentingtime": 600,
   "ingredients": [
     {
       "item": "minecraft:spider_eye"

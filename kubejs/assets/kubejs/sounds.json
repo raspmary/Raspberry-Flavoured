@@ -2,64 +2,1154 @@
     "music.music_disc_eleven": {
         "sounds": [
             {
-                "name": "kubejs:music_disc_eleven",
+                "name": "kubejs:discs/music_disc_eleven",
                 "stream": true
             }
-        ],
-        "subtitle": "Music disc plays"
+        ]
     },
 	"music.music_disc_dog": {
         "sounds": [
             {
-                "name": "kubejs:music_disc_dog",
+                "name": "kubejs:discs/music_disc_dog",
                 "stream": true
             }
-        ],
-        "subtitle": "Music disc plays"
+        ]
     },
-	"music.music_disc_halland": {
+	"music.music_disc_death": {
         "sounds": [
             {
-                "name": "kubejs:music_disc_halland",
+                "name": "kubejs:discs/music_disc_death",
                 "stream": true
             }
-        ],
-        "subtitle": "Music disc plays"
+        ]
     },
-	"music.music_disc_dalarna": {
+	"music.music_disc_droopy1": {
         "sounds": [
             {
-                "name": "kubejs:music_disc_dalarna",
+                "name": "kubejs:discs/music_disc_droopy1",
                 "stream": true
             }
-        ],
-        "subtitle": "Music disc plays"
+        ]
     },
-	"music.music_disc_halland_dalarna": {
+	"music.music_disc_droopy2": {
         "sounds": [
             {
-                "name": "kubejs:music_disc_halland_dalarna",
+                "name": "kubejs:discs/music_disc_droopy2",
                 "stream": true
             }
-        ],
-        "subtitle": "Music disc plays"
+        ]
     },
 	"music.music_disc_shimmer": {
         "sounds": [
             {
-                "name": "kubejs:music_disc_shimmer",
+                "name": "kubejs:discs/music_disc_shimmer",
                 "stream": true
             }
-        ],
-        "subtitle": "Music disc plays"
+        ]
     },
 	"music.music_disc_frontier": {
         "sounds": [
             {
-                "name": "kubejs:music_disc_frontier",
+                "name": "kubejs:discs/music_disc_frontier",
                 "stream": true
             }
+        ]
+    },
+	"music.music_disc_origin": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_origin",
+                "stream": true
+            }
+        ]
+    },
+	"music.music_disc_savour": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_savour",
+                "stream": true
+            }
+        ]
+    },
+	"music.music_disc_halland_dalarna": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_halland_dalarna",
+                "stream": true
+            }
+        ]
+    },
+	"music.music_disc_whatll_it_be": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_whatll_it_be",
+                "stream": true
+            }
+        ]
+    },
+	"advancement.regular": {
+        "sounds": [
+            "kubejs:advancement_sounds/advancement"
+        ]
+    },
+	"advancement.task": {
+        "sounds": [
+            "kubejs:advancement_sounds/task_advancement"
+        ]
+    },
+	"advancement.goal": {
+        "sounds": [
+            "kubejs:advancement_sounds/goal_advancement"
+        ]
+    },
+	"advancement.challenge": {
+        "sounds": [
+            "kubejs:advancement_sounds/challenge_advancement"
+        ]
+    },
+	"advancement.nether": {
+        "sounds": [
+            "kubejs:advancement_sounds/nether_advancement"
+        ]
+    },
+	"advancement.mystery": {
+        "sounds": [
+            "kubejs:advancement_sounds/mysterious_advancement"
+        ]
+    },
+	"advancement.joke": {
+        "sounds": [
+            "kubejs:advancement_sounds/joke_advancement"
+        ]
+    },
+	"advancement.pizza": {
+        "sounds": [
+            "kubejs:advancement_sounds/pizza_advancement"
+        ]
+    },
+	"advancement.happyhour": {
+        "sounds": [
+            "kubejs:advancement_sounds/happyhour_advancement"
+        ]
+    },
+	"crowbar.hit": {
+        "sounds": [
+			{
+				"name": "kubejs:crowbar",
+				"weight": 3
+			},
+			{
+				"name": "kubejs:crowbar",
+				"pitch": 0.95
+			},
+			{
+				"name": "kubejs:crowbar",
+				"pitch": 1.05
+			},
+			{
+				"name": "kubejs:crowbar",
+				"pitch": 0.975
+			},
+			{
+				"name": "kubejs:crowbar",
+				"pitch": 1.025
+			}
+        ]
+    },
+	"sound.soul_salt.break": {
+        "sounds": [
+            "kubejs:soul_salt/break1",
+			"kubejs:soul_salt/break2",
+			"kubejs:soul_salt/break3",
+			"kubejs:soul_salt/break4"
         ],
-        "subtitle": "Music disc plays"
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.soul_salt.place": {
+        "sounds": [
+            "kubejs:soul_salt/place1",
+			"kubejs:soul_salt/place2",
+			"kubejs:soul_salt/place3",
+			"kubejs:soul_salt/place4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.grass_block.break": {
+        "sounds": [
+            "kubejs:grass_block/break1",
+			"kubejs:grass_block/break2",
+			"kubejs:grass_block/break3",
+			"kubejs:grass_block/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.grass_block.place": {
+        "sounds": [
+            "kubejs:grass_block/break1",
+			"kubejs:grass_block/break2",
+			"kubejs:grass_block/break3",
+			"kubejs:grass_block/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.grass_block.fall": {
+        "sounds": [
+            "kubejs:grass_block/hit1",
+			"kubejs:grass_block/hit2",
+			"kubejs:grass_block/hit3",
+			"kubejs:grass_block/hit4",
+			"kubejs:grass_block/hit5",
+			"kubejs:grass_block/hit6"
+        ]
+    },
+	"sound.grass_block.step": {
+        "sounds": [
+            "kubejs:grass_block/hit1",
+			"kubejs:grass_block/hit2",
+			"kubejs:grass_block/hit3",
+			"kubejs:grass_block/hit4",
+			"kubejs:grass_block/hit5",
+			"kubejs:grass_block/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.grass_block.hit": {
+        "sounds": [
+            "kubejs:grass_block/hit1",
+			"kubejs:grass_block/hit2",
+			"kubejs:grass_block/hit3",
+			"kubejs:grass_block/hit4",
+			"kubejs:grass_block/hit5",
+			"kubejs:grass_block/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.clay.break": {
+        "sounds": [
+            "kubejs:clay/break1",
+			"kubejs:clay/break2",
+			"kubejs:clay/break3",
+			"kubejs:clay/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.clay.place": {
+        "sounds": [
+            "kubejs:clay/break1",
+			"kubejs:clay/break2",
+			"kubejs:clay/break3",
+			"kubejs:clay/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.clay.fall": {
+        "sounds": [
+            "kubejs:clay/hit1",
+			"kubejs:clay/hit2",
+			"kubejs:clay/hit3",
+			"kubejs:clay/hit4",
+			"kubejs:clay/hit5",
+			"kubejs:clay/hit6"
+        ]
+    },
+	"sound.clay.step": {
+        "sounds": [
+            "kubejs:clay/hit1",
+			"kubejs:clay/hit2",
+			"kubejs:clay/hit3",
+			"kubejs:clay/hit4",
+			"kubejs:clay/hit5",
+			"kubejs:clay/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.clay.hit": {
+        "sounds": [
+            "kubejs:clay/hit1",
+			"kubejs:clay/hit2",
+			"kubejs:clay/hit3",
+			"kubejs:clay/hit4",
+			"kubejs:clay/hit5",
+			"kubejs:clay/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.glowstone.break": {
+        "sounds": [
+            "kubejs:glowstone/break1",
+			"kubejs:glowstone/break2",
+			"kubejs:glowstone/break3",
+			"kubejs:glowstone/break4",
+			"kubejs:glowstone/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.glowstone.place": {
+        "sounds": [
+            "kubejs:glowstone/place1",
+			"kubejs:glowstone/place2",
+			"kubejs:glowstone/place3",
+			"kubejs:glowstone/place4",
+			"kubejs:glowstone/place5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.workstation.break": {
+        "sounds": [
+            "kubejs:workstation/break1",
+			"kubejs:workstation/break2",
+			"kubejs:workstation/break3",
+			"kubejs:workstation/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.workstation.place": {
+        "sounds": [
+            "kubejs:workstation/break1",
+			"kubejs:workstation/break2",
+			"kubejs:workstation/break3",
+			"kubejs:workstation/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.netherwood.break": {
+        "sounds": [
+            "kubejs:netherwood/break1",
+			"kubejs:netherwood/break2",
+			"kubejs:netherwood/break3",
+			"kubejs:netherwood/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.netherwood.place": {
+        "sounds": [
+            "kubejs:netherwood/break1",
+			"kubejs:netherwood/break2",
+			"kubejs:netherwood/break3",
+			"kubejs:netherwood/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.netherwood.fall": {
+        "sounds": [
+            "kubejs:netherwood/hit1",
+			"kubejs:netherwood/hit2",
+			"kubejs:netherwood/hit3",
+			"kubejs:netherwood/hit4",
+			"kubejs:netherwood/hit5"
+        ]
+    },
+	"sound.netherwood.step": {
+        "sounds": [
+            "kubejs:netherwood/hit1",
+			"kubejs:netherwood/hit2",
+			"kubejs:netherwood/hit3",
+			"kubejs:netherwood/hit4",
+			"kubejs:netherwood/hit5"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.netherwood.hit": {
+        "sounds": [
+            "kubejs:netherwood/hit1",
+			"kubejs:netherwood/hit2",
+			"kubejs:netherwood/hit3",
+			"kubejs:netherwood/hit4",
+			"kubejs:netherwood/hit5"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.bamboowood.break": {
+        "sounds": [
+            "kubejs:bamboowood/break1",
+			"kubejs:bamboowood/break2",
+			"kubejs:bamboowood/break3",
+			"kubejs:bamboowood/break4",
+			"kubejs:bamboowood/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.bamboowood.place": {
+        "sounds": [
+            "kubejs:bamboowood/break1",
+			"kubejs:bamboowood/break2",
+			"kubejs:bamboowood/break3",
+			"kubejs:bamboowood/break4",
+			"kubejs:bamboowood/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.bamboowood.fall": {
+        "sounds": [
+            "kubejs:bamboowood/hit1",
+			"kubejs:bamboowood/hit2",
+			"kubejs:bamboowood/hit3",
+			"kubejs:bamboowood/hit4",
+			"kubejs:bamboowood/hit5",
+			"kubejs:bamboowood/hit6"
+        ]
+    },
+	"sound.bamboowood.step": {
+        "sounds": [
+            "kubejs:bamboowood/hit1",
+			"kubejs:bamboowood/hit2",
+			"kubejs:bamboowood/hit3",
+			"kubejs:bamboowood/hit4",
+			"kubejs:bamboowood/hit5",
+			"kubejs:bamboowood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.bamboowood.hit": {
+        "sounds": [
+            "kubejs:bamboowood/hit1",
+			"kubejs:bamboowood/hit2",
+			"kubejs:bamboowood/hit3",
+			"kubejs:bamboowood/hit4",
+			"kubejs:bamboowood/hit5",
+			"kubejs:bamboowood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.altwood1.break": {
+        "sounds": [
+            "kubejs:altwood1/break1",
+			"kubejs:altwood1/break2",
+			"kubejs:altwood1/break3",
+			"kubejs:altwood1/break4",
+			"kubejs:altwood1/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.altwood1.place": {
+        "sounds": [
+            "kubejs:altwood1/break1",
+			"kubejs:altwood1/break2",
+			"kubejs:altwood1/break3",
+			"kubejs:altwood1/break4",
+			"kubejs:altwood1/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.altwood1.fall": {
+        "sounds": [
+            "kubejs:altwood1/hit1",
+			"kubejs:altwood1/hit2",
+			"kubejs:altwood1/hit3",
+			"kubejs:altwood1/hit4",
+			"kubejs:altwood1/hit5",
+			"kubejs:altwood1/hit6"
+        ]
+    },
+	"sound.altwood1.step": {
+        "sounds": [
+            "kubejs:altwood1/hit1",
+			"kubejs:altwood1/hit2",
+			"kubejs:altwood1/hit3",
+			"kubejs:altwood1/hit4",
+			"kubejs:altwood1/hit5",
+			"kubejs:altwood1/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.altwood1.hit": {
+        "sounds": [
+            "kubejs:altwood1/hit1",
+			"kubejs:altwood1/hit2",
+			"kubejs:altwood1/hit3",
+			"kubejs:altwood1/hit4",
+			"kubejs:altwood1/hit5",
+			"kubejs:altwood1/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.stoneore.break": {
+        "sounds": [
+            "kubejs:stoneore/break1",
+			"kubejs:stoneore/break2",
+			"kubejs:stoneore/break3",
+			"kubejs:stoneore/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.stoneore.place": {
+        "sounds": [
+            "kubejs:stoneore/break1",
+			"kubejs:stoneore/break2",
+			"kubejs:stoneore/break3",
+			"kubejs:stoneore/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.stoneore.fall": {
+        "sounds": [
+            "kubejs:stoneore/hit1",
+			"kubejs:stoneore/hit2",
+			"kubejs:stoneore/hit3",
+			"kubejs:stoneore/hit4",
+			"kubejs:stoneore/hit5"
+        ]
+    },
+	"sound.stoneore.step": {
+        "sounds": [
+            "kubejs:stoneore/hit1",
+			"kubejs:stoneore/hit2",
+			"kubejs:stoneore/hit3",
+			"kubejs:stoneore/hit4",
+			"kubejs:stoneore/hit5"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.stoneore.hit": {
+        "sounds": [
+            "kubejs:stoneore/hit1",
+			"kubejs:stoneore/hit2",
+			"kubejs:stoneore/hit3",
+			"kubejs:stoneore/hit4",
+			"kubejs:stoneore/hit5"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.blackstone.break": {
+        "sounds": [
+            "kubejs:blackstone/break1",
+			"kubejs:blackstone/break2",
+			"kubejs:blackstone/break3",
+			"kubejs:blackstone/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.blackstone.place": {
+        "sounds": [
+            "kubejs:blackstone/break1",
+			"kubejs:blackstone/break2",
+			"kubejs:blackstone/break3",
+			"kubejs:blackstone/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.blackstone.fall": {
+        "sounds": [
+            "kubejs:blackstone/hit1",
+			"kubejs:blackstone/hit2",
+			"kubejs:blackstone/hit3",
+			"kubejs:blackstone/hit4",
+			"kubejs:blackstone/hit5",
+			"kubejs:blackstone/hit6"
+        ]
+    },
+	"sound.blackstone.step": {
+        "sounds": [
+            "kubejs:blackstone/hit1",
+			"kubejs:blackstone/hit2",
+			"kubejs:blackstone/hit3",
+			"kubejs:blackstone/hit4",
+			"kubejs:blackstone/hit5",
+			"kubejs:blackstone/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.blackstone.hit": {
+        "sounds": [
+            "kubejs:blackstone/hit1",
+			"kubejs:blackstone/hit2",
+			"kubejs:blackstone/hit3",
+			"kubejs:blackstone/hit4",
+			"kubejs:blackstone/hit5",
+			"kubejs:blackstone/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.squishy.break": {
+        "sounds": [
+            "kubejs:squishy/break1",
+			"kubejs:squishy/break2",
+			"kubejs:squishy/break3",
+			"kubejs:squishy/break4",
+			"kubejs:squishy/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.squishy.place": {
+        "sounds": [
+            "kubejs:squishy/break1",
+			"kubejs:squishy/break2",
+			"kubejs:squishy/break3",
+			"kubejs:squishy/break4",
+			"kubejs:squishy/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.squishy.fall": {
+        "sounds": [
+            "kubejs:squishy/hit1",
+			"kubejs:squishy/hit2",
+			"kubejs:squishy/hit3",
+			"kubejs:squishy/hit4"
+        ]
+    },
+	"sound.squishy.step": {
+        "sounds": [
+            "kubejs:squishy/hit1",
+			"kubejs:squishy/hit2",
+			"kubejs:squishy/hit3",
+			"kubejs:squishy/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.squishy.hit": {
+        "sounds": [
+            "kubejs:squishy/hit1",
+			"kubejs:squishy/hit2",
+			"kubejs:squishy/hit3",
+			"kubejs:squishy/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.stickywood.break": {
+        "sounds": [
+            "kubejs:stickywood/break1",
+			"kubejs:stickywood/break2",
+			"kubejs:stickywood/break3",
+			"kubejs:stickywood/break4",
+			"kubejs:stickywood/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.stickywood.place": {
+        "sounds": [
+            "kubejs:stickywood/break1",
+			"kubejs:stickywood/break2",
+			"kubejs:stickywood/break3",
+			"kubejs:stickywood/break4",
+			"kubejs:stickywood/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.stickywood.fall": {
+        "sounds": [
+            "kubejs:stickywood/hit1",
+			"kubejs:stickywood/hit2",
+			"kubejs:stickywood/hit3",
+			"kubejs:stickywood/hit4",
+			"kubejs:stickywood/hit5",
+			"kubejs:stickywood/hit6"
+        ]
+    },
+	"sound.stickywood.step": {
+        "sounds": [
+            "kubejs:stickywood/hit1",
+			"kubejs:stickywood/hit2",
+			"kubejs:stickywood/hit3",
+			"kubejs:stickywood/hit4",
+			"kubejs:stickywood/hit5",
+			"kubejs:stickywood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.stickywood.hit": {
+        "sounds": [
+            "kubejs:stickywood/hit1",
+			"kubejs:stickywood/hit2",
+			"kubejs:stickywood/hit3",
+			"kubejs:stickywood/hit4",
+			"kubejs:stickywood/hit5",
+			"kubejs:stickywood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.clothwood.break": {
+        "sounds": [
+            "kubejs:clothwood/break1",
+			"kubejs:clothwood/break2",
+			"kubejs:clothwood/break3",
+			"kubejs:clothwood/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.clothwood.place": {
+        "sounds": [
+            "kubejs:clothwood/break1",
+			"kubejs:clothwood/break2",
+			"kubejs:clothwood/break3",
+			"kubejs:clothwood/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.clothwood.fall": {
+        "sounds": [
+            "kubejs:clothwood/hit1",
+			"kubejs:clothwood/hit2",
+			"kubejs:clothwood/hit3",
+			"kubejs:clothwood/hit4",
+			"kubejs:clothwood/hit5",
+			"kubejs:clothwood/hit6"
+        ]
+    },
+	"sound.clothwood.step": {
+        "sounds": [
+            "kubejs:clothwood/hit1",
+			"kubejs:clothwood/hit2",
+			"kubejs:clothwood/hit3",
+			"kubejs:clothwood/hit4",
+			"kubejs:clothwood/hit5",
+			"kubejs:clothwood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.clothwood.hit": {
+        "sounds": [
+            "kubejs:clothwood/hit1",
+			"kubejs:clothwood/hit2",
+			"kubejs:clothwood/hit3",
+			"kubejs:clothwood/hit4",
+			"kubejs:clothwood/hit5",
+			"kubejs:clothwood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.glasswood.break": {
+        "sounds": [
+            "kubejs:glasswood/break1",
+			"kubejs:glasswood/break2",
+			"kubejs:glasswood/break3",
+			"kubejs:glasswood/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.glasswood.place": {
+        "sounds": [
+            "kubejs:glasswood/place1",
+			"kubejs:glasswood/place2",
+			"kubejs:glasswood/place3",
+			"kubejs:glasswood/place4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.glasswood.fall": {
+        "sounds": [
+            "kubejs:glasswood/hit1",
+			"kubejs:glasswood/hit2",
+			"kubejs:glasswood/hit3",
+			"kubejs:glasswood/hit4",
+			"kubejs:glasswood/hit5",
+			"kubejs:glasswood/hit6"
+        ]
+    },
+	"sound.glasswood.step": {
+        "sounds": [
+            "kubejs:glasswood/hit1",
+			"kubejs:glasswood/hit2",
+			"kubejs:glasswood/hit3",
+			"kubejs:glasswood/hit4",
+			"kubejs:glasswood/hit5",
+			"kubejs:glasswood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.glasswood.hit": {
+        "sounds": [
+            "kubejs:glasswood/hit1",
+			"kubejs:glasswood/hit2",
+			"kubejs:glasswood/hit3",
+			"kubejs:glasswood/hit4",
+			"kubejs:glasswood/hit5",
+			"kubejs:glasswood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.netherglasswood.break": {
+        "sounds": [
+            "kubejs:netherglasswood/break1",
+			"kubejs:netherglasswood/break2",
+			"kubejs:netherglasswood/break3",
+			"kubejs:netherglasswood/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.netherglasswood.place": {
+        "sounds": [
+            "kubejs:netherglasswood/place1",
+			"kubejs:netherglasswood/place2",
+			"kubejs:netherglasswood/place3",
+			"kubejs:netherglasswood/place4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.netherglasswood.fall": {
+        "sounds": [
+            "kubejs:netherglasswood/hit1",
+			"kubejs:netherglasswood/hit2",
+			"kubejs:netherglasswood/hit3",
+			"kubejs:netherglasswood/hit4",
+			"kubejs:netherglasswood/hit5",
+			"kubejs:netherglasswood/hit6"
+        ]
+    },
+	"sound.netherglasswood.step": {
+        "sounds": [
+            "kubejs:netherglasswood/hit1",
+			"kubejs:netherglasswood/hit2",
+			"kubejs:netherglasswood/hit3",
+			"kubejs:netherglasswood/hit4",
+			"kubejs:netherglasswood/hit5",
+			"kubejs:netherglasswood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.netherglasswood.hit": {
+        "sounds": [
+            "kubejs:netherglasswood/hit1",
+			"kubejs:netherglasswood/hit2",
+			"kubejs:netherglasswood/hit3",
+			"kubejs:netherglasswood/hit4",
+			"kubejs:netherglasswood/hit5",
+			"kubejs:netherglasswood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.altglasswood1.break": {
+        "sounds": [
+            "kubejs:altglasswood1/break1",
+			"kubejs:altglasswood1/break2",
+			"kubejs:altglasswood1/break3",
+			"kubejs:altglasswood1/break4",
+			"kubejs:altglasswood1/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.altglasswood1.place": {
+        "sounds": [
+            "kubejs:altglasswood1/place1",
+			"kubejs:altglasswood1/place2",
+			"kubejs:altglasswood1/place3",
+			"kubejs:altglasswood1/place4",
+			"kubejs:altglasswood1/place5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.altglasswood1.fall": {
+        "sounds": [
+            "kubejs:altglasswood1/hit1",
+			"kubejs:altglasswood1/hit2",
+			"kubejs:altglasswood1/hit3",
+			"kubejs:altglasswood1/hit4",
+			"kubejs:altglasswood1/hit5",
+			"kubejs:altglasswood1/hit6"
+        ]
+    },
+	"sound.altglasswood1.step": {
+        "sounds": [
+            "kubejs:altglasswood1/hit1",
+			"kubejs:altglasswood1/hit2",
+			"kubejs:altglasswood1/hit3",
+			"kubejs:altglasswood1/hit4",
+			"kubejs:altglasswood1/hit5",
+			"kubejs:altglasswood1/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.altglasswood1.hit": {
+        "sounds": [
+            "kubejs:altglasswood1/hit1",
+			"kubejs:altglasswood1/hit2",
+			"kubejs:altglasswood1/hit3",
+			"kubejs:altglasswood1/hit4",
+			"kubejs:altglasswood1/hit5",
+			"kubejs:altglasswood1/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.bambooglasswood.break": {
+        "sounds": [
+            "kubejs:bambooglasswood/break1",
+			"kubejs:bambooglasswood/break2",
+			"kubejs:bambooglasswood/break3",
+			"kubejs:bambooglasswood/break4",
+			"kubejs:bambooglasswood/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.bambooglasswood.place": {
+        "sounds": [
+            "kubejs:bambooglasswood/place1",
+			"kubejs:bambooglasswood/place2",
+			"kubejs:bambooglasswood/place3",
+			"kubejs:bambooglasswood/place4",
+			"kubejs:bambooglasswood/place5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.bambooglasswood.fall": {
+        "sounds": [
+            "kubejs:bambooglasswood/hit1",
+			"kubejs:bambooglasswood/hit2",
+			"kubejs:bambooglasswood/hit3",
+			"kubejs:bambooglasswood/hit4",
+			"kubejs:bambooglasswood/hit5",
+			"kubejs:bambooglasswood/hit6"
+        ]
+    },
+	"sound.bambooglasswood.step": {
+        "sounds": [
+            "kubejs:bambooglasswood/hit1",
+			"kubejs:bambooglasswood/hit2",
+			"kubejs:bambooglasswood/hit3",
+			"kubejs:bambooglasswood/hit4",
+			"kubejs:bambooglasswood/hit5",
+			"kubejs:bambooglasswood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.bambooglasswood.hit": {
+        "sounds": [
+            "kubejs:bambooglasswood/hit1",
+			"kubejs:bambooglasswood/hit2",
+			"kubejs:bambooglasswood/hit3",
+			"kubejs:bambooglasswood/hit4",
+			"kubejs:bambooglasswood/hit5",
+			"kubejs:bambooglasswood/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.forge.break": {
+        "sounds": [
+            "kubejs:forge/break1",
+			"kubejs:forge/break2",
+			"kubejs:forge/break3",
+			"kubejs:forge/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.forge.place": {
+        "sounds": [
+            "kubejs:forge/break1",
+			"kubejs:forge/break2",
+			"kubejs:forge/break3",
+			"kubejs:forge/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.forge.fall": {
+        "sounds": [
+            "kubejs:forge/hit1",
+			"kubejs:forge/hit2",
+			"kubejs:forge/hit3",
+			"kubejs:forge/hit4",
+			"kubejs:forge/hit5",
+			"kubejs:forge/hit6"
+        ]
+    },
+	"sound.forge.step": {
+        "sounds": [
+            "kubejs:forge/hit1",
+			"kubejs:forge/hit2",
+			"kubejs:forge/hit3",
+			"kubejs:forge/hit4",
+			"kubejs:forge/hit5",
+			"kubejs:forge/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.forge.hit": {
+        "sounds": [
+            "kubejs:forge/hit1",
+			"kubejs:forge/hit2",
+			"kubejs:forge/hit3",
+			"kubejs:forge/hit4",
+			"kubejs:forge/hit5",
+			"kubejs:forge/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.gravel.break": {
+        "sounds": [
+            "kubejs:gravel/break1",
+			"kubejs:gravel/break2",
+			"kubejs:gravel/break3",
+			"kubejs:gravel/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.gravel.place": {
+        "sounds": [
+            "kubejs:gravel/break1",
+			"kubejs:gravel/break2",
+			"kubejs:gravel/break3",
+			"kubejs:gravel/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.gravel.fall": {
+        "sounds": [
+            "kubejs:gravel/hit1",
+			"kubejs:gravel/hit2",
+			"kubejs:gravel/hit3",
+			"kubejs:gravel/hit4"
+        ]
+    },
+	"sound.gravel.step": {
+        "sounds": [
+            "kubejs:gravel/hit1",
+			"kubejs:gravel/hit2",
+			"kubejs:gravel/hit3",
+			"kubejs:gravel/hit4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.gravel.hit": {
+        "sounds": [
+            "kubejs:gravel/hit1",
+			"kubejs:gravel/hit2",
+			"kubejs:gravel/hit3",
+			"kubejs:gravel/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.cobweb.break": {
+        "sounds": [
+            "kubejs:cobweb/break1",
+			"kubejs:cobweb/break2",
+			"kubejs:cobweb/break3",
+			"kubejs:cobweb/break4",
+			"kubejs:cobweb/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.cobweb.place": {
+        "sounds": [
+            "kubejs:cobweb/break1",
+			"kubejs:cobweb/break2",
+			"kubejs:cobweb/break3",
+			"kubejs:cobweb/break4",
+			"kubejs:cobweb/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.cobweb.fall": {
+        "sounds": [
+            "kubejs:cobweb/hit1",
+			"kubejs:cobweb/hit2",
+			"kubejs:cobweb/hit3",
+			"kubejs:cobweb/hit4",
+			"kubejs:cobweb/hit5",
+			"kubejs:cobweb/hit6"
+        ]
+    },
+	"sound.cobweb.step": {
+        "sounds": [
+            "kubejs:cobweb/hit1",
+			"kubejs:cobweb/hit2",
+			"kubejs:cobweb/hit3",
+			"kubejs:cobweb/hit4",
+			"kubejs:cobweb/hit5",
+			"kubejs:cobweb/hit6"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.cobweb.hit": {
+        "sounds": [
+            "kubejs:cobweb/hit1",
+			"kubejs:cobweb/hit2",
+			"kubejs:cobweb/hit3",
+			"kubejs:cobweb/hit4",
+			"kubejs:cobweb/hit5",
+			"kubejs:cobweb/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.sponge.break": {
+        "sounds": [
+            "kubejs:sponge/break1",
+			"kubejs:sponge/break2",
+			"kubejs:sponge/break3",
+			"kubejs:sponge/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.sponge.place": {
+        "sounds": [
+            "kubejs:sponge/break1",
+			"kubejs:sponge/break2",
+			"kubejs:sponge/break3",
+			"kubejs:sponge/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.sponge.fall": {
+        "sounds": [
+            "kubejs:sponge/hit1",
+			"kubejs:sponge/hit2",
+			"kubejs:sponge/hit3",
+			"kubejs:sponge/hit4",
+			"kubejs:sponge/hit5",
+			"kubejs:sponge/hit6"
+        ]
+    },
+	"sound.sponge.step": {
+        "sounds": [
+            "kubejs:sponge/hit1",
+			"kubejs:sponge/hit2",
+			"kubejs:sponge/hit3",
+			"kubejs:sponge/hit4",
+			"kubejs:sponge/hit5",
+			"kubejs:sponge/hit6"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.sponge.hit": {
+        "sounds": [
+            "kubejs:sponge/hit1",
+			"kubejs:sponge/hit2",
+			"kubejs:sponge/hit3",
+			"kubejs:sponge/hit4",
+			"kubejs:sponge/hit5",
+			"kubejs:sponge/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.wetsponge.break": {
+        "sounds": [
+            "kubejs:wetsponge/break1",
+			"kubejs:wetsponge/break2",
+			"kubejs:wetsponge/break3",
+			"kubejs:wetsponge/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.wetsponge.place": {
+        "sounds": [
+            "kubejs:wetsponge/break1",
+			"kubejs:wetsponge/break2",
+			"kubejs:wetsponge/break3",
+			"kubejs:wetsponge/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.wetsponge.fall": {
+        "sounds": [
+            "kubejs:wetsponge/hit1",
+			"kubejs:wetsponge/hit2",
+			"kubejs:wetsponge/hit3",
+			"kubejs:wetsponge/hit4"
+        ]
+    },
+	"sound.wetsponge.step": {
+        "sounds": [
+            "kubejs:wetsponge/hit1",
+			"kubejs:wetsponge/hit2",
+			"kubejs:wetsponge/hit3",
+			"kubejs:wetsponge/hit4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.wetsponge.hit": {
+        "sounds": [
+            "kubejs:wetsponge/hit1",
+			"kubejs:wetsponge/hit2",
+			"kubejs:wetsponge/hit3",
+			"kubejs:wetsponge/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
     }
 }

@@ -9,11 +9,14 @@
     },
     "i": {
       "tag": "forge:ingots/iron"
+    },
+    "O": {
+      "tag": "minecraft:coals"
     }
   },
   "pattern": [
     "iii",
-    "B B",
+    "BOB",
     "BCB"
   ],
   "result": {

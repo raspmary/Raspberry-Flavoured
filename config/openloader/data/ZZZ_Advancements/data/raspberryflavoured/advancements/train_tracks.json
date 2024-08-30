@@ -30,6 +30,9 @@
       "text": "That Tracks"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

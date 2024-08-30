@@ -30,6 +30,9 @@
       "text": "All Bark and No Bite"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

@@ -10,10 +10,18 @@
 			  "minecraft:chainmail_chestplate",
 			  "minecraft:chainmail_leggings",
 			  "minecraft:chainmail_boots",
+			  "copperized:copper_helmet",
+			  "copperized:copper_chestplate",
+			  "copperized:copper_leggings",
+			  "copperized:copper_boots",
 			  "minecraft:iron_helmet",
 			  "minecraft:iron_chestplate",
 			  "minecraft:iron_leggings",
 			  "minecraft:iron_boots",
+			  "minecraft:golden_helmet",
+			  "minecraft:golden_chestplate",
+			  "minecraft:golden_leggings",
+			  "minecraft:golden_boots",
 			  "minecraft:diamond_helmet",
 			  "minecraft:diamond_chestplate",
 			  "minecraft:diamond_leggings",
@@ -26,6 +34,10 @@
 			  "savage_and_ravage:griefer_chestplate",
 			  "savage_and_ravage:griefer_leggings",
 			  "savage_and_ravage:griefer_boots",
+			  "caverns_and_chasms:sanguine_helmet",
+			  "caverns_and_chasms:sanguine_chestplate",
+			  "caverns_and_chasms:sanguine_leggings",
+			  "caverns_and_chasms:sanguine_boots",
 			  "additionaladditions:rose_gold_helmet",
 			  "additionaladditions:rose_gold_chestplate",
 			  "additionaladditions:rose_gold_leggings",
@@ -37,7 +49,11 @@
 			  "alloyed:steel_helmet",
 			  "alloyed:steel_chestplate",
 			  "alloyed:steel_leggings",
-			  "alloyed:steel_boots"
+			  "alloyed:steel_boots",
+			  "caverns_and_chasms:necromium_helmet",
+			  "caverns_and_chasms:necromium_chestplate",
+			  "caverns_and_chasms:necromium_leggings",
+			  "caverns_and_chasms:necromium_boots"
             ]
           }
         ]
@@ -62,6 +78,9 @@
       "text": "Armour Up"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

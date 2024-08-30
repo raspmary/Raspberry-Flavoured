@@ -15,7 +15,9 @@
 			  "additionaladditions:rose_gold_axe",
 			  "additionaladditions:rose_gold_hoe",
 			  "additionaladditions:rose_gold_sword",
-			  "kubejs:rose_gold_knife"
+			  "kubejs:rose_gold_knife",
+			  "kubejs:rose_gold_horse_armor",
+			  "kubejs:rose_gold_rapier"
             ]
           }
         ]
@@ -27,7 +29,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Make rose gold alloy out of copper & gold and use it in a smithing table to upgrade any of your iron equipment"
+      "text": "Make rose gold alloy out of copper & gold and use it in a smithing table to upgrade any of your iron equipment - rose gold equipment is quick yet soft, dropping blocks in their purest form whenever possible, and has a magic edge!"
     },
     "frame": "goal",
     "hidden": false,
@@ -39,6 +41,9 @@
       "text": "A Rose Full of Gold"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

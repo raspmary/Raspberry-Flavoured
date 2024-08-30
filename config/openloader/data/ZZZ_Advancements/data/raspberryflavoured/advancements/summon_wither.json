@@ -32,6 +32,9 @@
       "text": "The Nether Lord"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_nether"
+    },
   "requirements": [
     [
       "0"

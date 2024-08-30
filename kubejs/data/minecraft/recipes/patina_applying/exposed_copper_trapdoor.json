@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "copperized:copper_trapdoor"
+    },
+    {
+      "item": "additionaladditions:copper_patina"
+    }
+  ],
+  "result": {
+      "item": "copperized:exposed_copper_trapdoor"
+    }
+}

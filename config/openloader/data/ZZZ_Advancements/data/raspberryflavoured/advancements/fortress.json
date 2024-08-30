@@ -50,6 +50,9 @@
       "text": "A Withering Fortress"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_nether"
+    },
   "requirements": [
     [
       "0", "1"

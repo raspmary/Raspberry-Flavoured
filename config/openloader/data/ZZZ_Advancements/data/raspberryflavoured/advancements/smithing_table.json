@@ -1,24 +1,18 @@
 {
-  "parent": "raspberryflavoured:cock",
+  "parent": "raspberryflavoured:iron_pick",
   "criteria": {
     "0": {
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smithing_table"
-            ]
-          }
-        ]
+        "block": "minecraft:smithing_table"
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:placed_block"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Make a smithing table to upgrade various kinds of equipment"
+      "text": "Place down a smithing table to upgrade and/or enchant various equipment"
     },
     "frame": "task",
     "hidden": false,
@@ -30,6 +24,9 @@
       "text": "Blacksmithing"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

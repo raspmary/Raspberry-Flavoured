@@ -24,6 +24,9 @@
       "text": "I Repeat, This is a Drill!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

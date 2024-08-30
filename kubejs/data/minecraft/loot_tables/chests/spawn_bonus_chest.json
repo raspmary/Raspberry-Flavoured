@@ -11,7 +11,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_axe",
-          "weight": 3
+          "weight": 6
         }
       ],
       "rolls": 1.0
@@ -26,7 +26,164 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_pickaxe",
-          "weight": 3
+          "weight": 6
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:copper_knife"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:flint_knife",
+          "weight": 6
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:campfire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:sack"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:sand_paper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:slingshot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 24.0,
+                "min": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "supplementaries:rope"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chalk:white_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:orange_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:magenta_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:light_blue_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:yellow_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:lime_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:pink_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:gray_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:light_gray_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:cyan_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:purple_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:blue_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:brown_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:green_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:red_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chalk:black_chalk"
         }
       ],
       "rolls": 1.0
@@ -49,6 +206,38 @@
           ],
           "name": "minecraft:apple",
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "environmental:cherries",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sugar_cane",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -81,6 +270,175 @@
           ],
           "name": "minecraft:salmon",
           "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "kubejs:sugar_cookie",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cookie",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersdelight:sweet_berry_cookie",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersdelight:honey_cookie",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "create_confectionery:marshmallow",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersdelight:melon_popsicle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "brewinandchewin:jerky",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "incubation:fried_egg",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "naturalist:bass",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "upgrade_aquatic:pike",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "miners_delight:squid",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:apple_cider",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:sweet_roll",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice",
+          "weight": 2
         }
       ],
       "rolls": 3.0
@@ -95,14 +453,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:stick",
-          "weight": 10
+          "name": "quark:stick_block",
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -111,13 +469,29 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
+                "max": 5.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:oak_planks",
+          "name": "twigs:twig",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 18.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twigs:pebble",
           "weight": 10
         },
         {
@@ -181,22 +555,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:jungle_log",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:acacia_log",
           "weight": 3
         },
@@ -230,6 +588,134 @@
             }
           ],
           "name": "minecraft:mangrove_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ecologics:coconut_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atmospheric:morado_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "autumnity:maple_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "environmental:willow_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "environmental:cherry_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "environmental:wisteria_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "upgrade_aquatic:driftwood_log",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "windswept:chestnut_log",
           "weight": 3
         }
       ],

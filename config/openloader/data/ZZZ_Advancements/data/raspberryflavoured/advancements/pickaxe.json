@@ -28,9 +28,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "It's in the Name"
+      "text": "It's In The Name"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

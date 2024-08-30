@@ -24,6 +24,9 @@
       "text": "Mixin' It Up!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

@@ -24,6 +24,9 @@
       "text": "I Came, I Saw"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

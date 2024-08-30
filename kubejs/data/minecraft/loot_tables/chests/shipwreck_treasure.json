@@ -43,7 +43,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
+          "name": "minecraft:music_disc_strad",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_far",
           "weight": 5
         }
       ],
@@ -87,22 +92,6 @@
           ],
           "name": "spelunkery:raw_gold_nugget",
           "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:rough_lazurite",
-          "weight": 20
         }
       ],
       "rolls": {

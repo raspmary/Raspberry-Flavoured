@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "layer0": "clash:item/spear"
+  },
+  "base": {
+    "parent": "clash:item/spear_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "clash:item/spear_gui"
+    },
+    "fixed": {
+      "parent": "clash:item/spear_gui"
+    },
+    "ground": {
+      "parent": "clash:item/spear_gui"
+    }
+  }
+}

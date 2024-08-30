@@ -1,0 +1,14 @@
+{
+  "farmersdelight.jei.info.knife": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals. They will also occasionally cause certain mobs to drop their heads.",
+  "entity.farmersdelight.rotten_tomato": "Rotten Tomato",
+  "block.farmersdelight.sweet_berry_cheesecake": "Glow Berry Cheesecake",
+  "item.farmersdelight.sweet_berry_cheesecake_slice": "Slice of Glow Berry Cheesecake",
+  "item.farmersdelight.kelp_roll": "Carrot Roll",
+  "item.farmersdelight.kelp_roll_slice": "Carrot Roll Slice",
+  "item.farmersdelight.cake_slice": "Slice of Sweet Berry Cake",
+  "item.farmersdelight.barbecue_stick": "Meat Skewer",
+  "farmersdelight.advancement.place_copper_pot": "Speed-Cooking",
+  "farmersdelight.advancement.place_copper_pot.desc": "Put down a Copper Pot that cooks faster, but can only cook small meals",
+  "farmersdelight.advancement.harvest_ropelogged_tomato.desc": "Hang some rope above or place a stick into a tomato crop to make it grow taller",
+  "farmersdelight.advancement.place_campfire.desc": "Make some campfire kindling and ignite it with a fire striker"
+}

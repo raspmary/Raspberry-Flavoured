@@ -1,0 +1,113 @@
+Found an issue? Talk about it in the Raspberry Flavoured Discord!
+Got a suggestion? Talk about it in the Raspberry Flavoured Discord!
+Wanna chat with other RF players? Join the Raspberry Flavoured Discord!
+Sleeping won't skip nights instantly.
+Sleeping will speed up various processes.
+Zombies drop cloth scraps, used for making beds... but you know that already.
+Having an atlas in your hotbar will display a minimap.
+There's many ways to automate many things.
+Bellows can make fires last longer and speed up furnaces.
+Bombs will damage mobs, but not blocks.
+Campfires grant the &lComfort &reffect when lit.
+Crushing cinnabar will yield redstone dust.
+Cooking pots can cook big meals that grant helpful effects.
+Blaze burners with cooking guides can cook automatically.
+There are no stone tools in RF - only copper tools.
+Chainmail armour, horse armour, saddles and name tags are craftable in RF.
+Creeper spores can be thrown to spawn a horde of friendly Creepies.
+Creepers won't damage terrain, but they will spawn Creepies.
+The crosshair indicates your tool's effectiveness on the block in front of you.
+Use bottles on crying obsidian to obtain dimensional tears.
+Upon death, a totem will appear at your death point which holds your items.
+Discs can be smashed into fragments, which can be crafted into other discs.
+Diving gear and backtanks will let you traverse underwater more easily.
+Dunes are rare luscious deserts with yucca trees and various other fauna.
+Leather armour protects against fall damage.
+Chainmail armour damages attackers.
+Golden tools increase drops from certain blocks and mobs.
+Golden armour lightly protects against fire.
+Rose gold tools dig quickly and cause blocks to drop in their purest form.
+Rose gold armour protects against magic.
+Steel tools dig slowly, but are durable and knock targets further away.
+Steel armour protects against projectiles and getting knocked back.
+Electrum tools dig very quickly and deal more damage to undead mobs.
+Electrum armour grants a movement speed boost.
+Netherite tools light targets on fire.
+Netherite armour protects against fire and getting knocked back.
+Necromium tools slow down targets.
+Necromium armour weakens nearby entities.
+Various enchants you may be used to no longer exist in RF.
+Etching tables allow you to make your own music discs.
+Animals can eat out of feeding troughs and breed by themselves.
+Banners can be applied to beds.
+Flags can be placed on sticks and moved up and down.
+Don't leave trees floating!
+Item vaults can combine into bigger vaults when placed next to each other.
+Fluid tanks can combine into bigger tanks when placed next to each other.
+Flutes can be assigned to tamed mobs and will call them from far away.
+Mushrooms and nether fungi on rich soil will grow into colonies.
+Furnaces require one piece of coal to craft.
+Furnace boats can be fueled with coal to go faster.
+Lighting copper-related blocks on fire will create green cupric fire.
+Hollow logs will let you crawl inside them by sneaking next to them.
+Ice will drop ice cubes when mined with a pickaxe. They're crunchy.
+Kilns smelt everything smokers & blast furnaces can't, and twice as quickly as a furnace.
+Killing various mobs with knives may cause them to drop extra items.
+Large boats can carry four passengers.
+Holding a light source in your offhand will light up the area around you.
+Days and nights are longer in RF.
+Stripping maple logs will sometimes reveal sap that you can bottle.
+Stressometers will visualise the stress level of your machines.
+Speedometers will visualise the speed of your machines.
+Minecart couplings will allow you to link minecarts together.
+Melons will cause you to spit seeds when consumed.
+Piglin brutes will drop ancient scrap.
+Piglins and hoglins can be made immune to zombification with a golden apple.
+Zombified piglins and zoglins can be cured with weakness and a golden apple.
+Pikes come in various sizes and colours.
+Rough gems can be polished with sand paper or a grindstone.
+Potato cannons use various foods as ammo.
+Presents allow you to gift a stack of items to a player. The gift of giving!
+Trapped presents will instantly release their contents when opened.
+Redstone links can transmit redstone signals wirelessly.
+Rerack your trees!
+Bundles and sacks will let you carry more items.
+Schematicannons can build for you when provided with blueprints and materials.
+Skillets can be held/placed over fire to cook food on the go.
+Skillets and cooking pots always drop items or containers to their right.
+All hail the Slabfish.
+Baby snails will drop snail shell pieces when they grow into adults.
+Snow boots will allow you to move faster over snowy blocks.
+Soul soap can clean dye off blocks.
+Stoves are like campfires, except they have 6 spaces instead of 4.
+Too many machines attached to a single power source may cause overstress.
+Suspicious stews can only be obtained from loot and brown mooshrooms.
+You can find wild tea in swamps and wild coffee in basalt deltas.
+You can find eggplants in jungles and rainforests.
+Thrashers roam deep frozen oceans and will attack if they locate you.
+Torch arrows place torches where they land or light mobs they hit on fire.
+Trains allow for mass item transport and highly stylish travel.
+Both types of water wheels are cheap sources of rotational power.
+The wood type of water wheels can be changed by right-clicking with planks.
+There are numerous wood types in RF. Which one's your favourite?
+Shearing yaks will yield yak hair, but it'll also make them angry at you.
+Shearing bears will yield bear fur, but it'll also make them angry at you.
+Shearing mooblooms will yield a few buttercups and turn them into regular cows.
+Hand a heartstone to another player to always be able to locate them.
+Using scaffolding can make building easier.
+Withered may occasionally wield better weapons.
+Lead can be used as an alternative to iron in various recipes.
+Compasses, depth gauges, atlases and spyglasses are always helpful to bring along.
+Paragliders allow for slower descension.
+Koi fish will reduce hostile mob spawns in an area.
+Large obsidian spikes in the Nether are easy sources of blazes.
+Blaze spawners will also fill empty blaze burners when right-clicked.
+Cages allow you to capture small to medium-sized mobs.
+The Nether is a lot taller and denser than normal.
+Bronze has musical properties.
+Use display boards to display specific information about your machinery.
+Steam engines can provide large amounts of stress capacity, but require hefty maintenance.
+Lava oceans in the Nether are big enough to pump an infinite amount of lava.
+Trains can go through Nether portals as long as there's a track on the other side.
+Deepers will destroy terrain when they explode, but can only be found underground.
+Unstable spawners spawn a single wave of monsters which will drop extra goodies.

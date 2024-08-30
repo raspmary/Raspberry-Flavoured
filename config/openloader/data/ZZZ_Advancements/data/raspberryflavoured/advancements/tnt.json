@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Craft or find a block of TNT - you can ignite it manually with any kind of fire striker, or from afar either using a line of gunpowder or powered redstone"
+      "text": "Craft or find some TNT - all deepslate ores and both silver ores are blast resistant, so explosives may come in handy for your next mining expedition!"
     },
     "frame": "task",
     "hidden": false,
@@ -27,9 +27,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Kaboom?"
+      "text": "And Kablooey!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

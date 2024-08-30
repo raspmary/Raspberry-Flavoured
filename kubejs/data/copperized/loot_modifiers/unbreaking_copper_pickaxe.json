@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "chance": 0.045,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+      ]
+    }
+  ],
+  "type": "copperized:enchanted_add_item",
+  "item": "copperized:copper_pickaxe",
+  "enchantment": "minecraft:unbreaking",
+  "level": 3,
+  "unique": true
+}

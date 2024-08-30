@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:copper_button"
+    },
+    {
+      "item": "additionaladditions:copper_patina"
+    }
+  ],
+  "result": {
+      "item": "caverns_and_chasms:exposed_copper_button"
+    }
+}

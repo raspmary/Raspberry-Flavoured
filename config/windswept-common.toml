@@ -17,3 +17,9 @@
 	#Roots will grow under the dirt block below a tree, chestnut trees overhanging logs will grow roots
 	"Tree Roots" = true
 
+#Windswept Content Tweaks
+[content]
+	#How much durability Wooden Buckets should have
+	#Range: 1 ~ 1000
+	"Wooden Bucket Durability" = 24
+

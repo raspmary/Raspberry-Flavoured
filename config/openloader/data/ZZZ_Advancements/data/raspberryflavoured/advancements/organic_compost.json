@@ -24,6 +24,9 @@
       "text": "Decomposition"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "00"

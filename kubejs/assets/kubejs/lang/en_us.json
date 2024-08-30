@@ -1,13 +1,54 @@
 {
-  "itemGroup.kubejs.kubejs": "Raspberry Flavoured",
   "biome.kubejs.tropical_beach" : "Tropical Beach",
+  
   "death.attack.coughing" : "%1$s failed the Cinnamon Challenge",
   "effect.kubejs.coughing.description" : "Don't try this at home. Or anywhere, really.",
+  
+  "block.kubejs.wheat_flour_bag": "Bag of Flour",
+  "block.kubejs.dark_chocolate_block": "Block of Dark Chocolate",
+  "block.kubejs.white_chocolate_block": "Block of White Chocolate",
+  
+  "block.kubejs.eggplant_parmesan_block": "Eggplant Parmesan",
+  "block.kubejs.stuffed_pumpkin_two": "Stuffed Pumpkin 2",
+  "block.kubejs.butterscotch_cinnamon_pie": "Butterscotch Cinnamon Pie",
+  "block.kubejs.prickly_pear_pie": "Prickly Pear Pie",
+  
+  "item.kubejs.raw_ammonite": "Ammonite",
+  "item.kubejs.charcoal_lump": "Lump of Charcoal",
+  "item.kubejs.electrum_horse_armor": "Electrum Horse Armor",
+  "item.kubejs.rose_gold_horse_armor": "Rose Gold Horse Armor",
+  "item.kubejs.steel_horse_armor": "Steel Horse Armor",
+  
+  "item.kubejs.candy_cane": "Peppermint Candy Cane",
+  "item.kubejs.caramelized_marshmellow_on_a_stick": "Caramelized Marshmallows on a Stick",
+  "item.kubejs.butterscotch_cinnamon_pie_slice": "Slice of Butterscotch Cinnamon Pie",
+  "item.kubejs.prickly_pear_pie_slice": "Slice of Prickly Pear Pie",
+  "item.kubejs.bass_slice": "Raw Bass Slice",
+  "item.kubejs.crab_meat": "Raw Crab Meat",
+  "item.kubejs.pasta_with_turkey": "Turkey Pasta",
+  "item.kubejs.eggplant_parmesan": "Plate of Eggplant Parmesan",
+  "item.kubejs.smore": "Marshmallow Sandwich",
+  "item.kubejs.bar_of_black_chocolate": "Bar of Dark Chocolate",
+  "item.kubejs.black_chocolate_glazed_berries": "Dark Chocolate Berries",
+  "item.kubejs.black_chocolate_glazed_marshmallow": "Dark Chocolate Marshmallows",
+  "item.kubejs.bar_of_white_chocolate": "Bar of White Chocolate",
+  "item.kubejs.white_chocolate_glazed_berries": "White Chocolate Berries",
+  "item.kubejs.white_chocolate_glazed_marshmallow": "White Chocolate Marshmallows",
+  
+  "item.kubejs.incomplete_glue": "Incomplete Super Glue",
+  "item.kubejs.incomplete_smore": "Incomplete Marshmallow Sandwich",
+  
+  "item.kubejs.music_disc_shimmer.desc": "Crabbarition - shimmer",
+  "item.kubejs.music_disc_frontier.desc": "raspmary & Crabbarition - frontier",
+  "item.kubejs.music_disc_origin.desc": "raspmary - origin",
+  "item.kubejs.music_disc_savour.desc": "raspmary - savour",
+  
   "item.kubejs.music_disc_eleven.desc": "C418 - eleven",
   "item.kubejs.music_disc_dog.desc": "C418 - dog",
-  "item.kubejs.music_disc_halland.desc": "Johan Johnson - Halland",
-  "item.kubejs.music_disc_dalarna.desc": "Peter Hont - Dalarna",
-  "item.kubejs.music_disc_halland_dalarna.desc": "Super Smash Bros. Ultimate - Halland / Dalarna",
-  "item.kubejs.music_disc_shimmer.desc": "Crabbarition - shimmer",
-  "item.kubejs.music_disc_frontier.desc": "Crabbarition & Raspmary - frontier"
+  "item.kubejs.music_disc_death.desc": "C418 - death",
+  "item.kubejs.music_disc_droopy1.desc": "C418 - face",
+  "item.kubejs.music_disc_droopy2.desc": "C418 - ricochet",
+  
+  "item.kubejs.music_disc_halland_dalarna.desc": "ACE - Halland / Dalarna (Remix)",
+  "item.kubejs.music_disc_whatll_it_be.desc": "iteachvader - What'll It Be?"
 }

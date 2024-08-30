@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "mob": "minecraft:goat",
+    "persecond": 0.5,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 80,
+      "maxheight": 200,
+      "maxthis": 5
+    }
+  }
+]

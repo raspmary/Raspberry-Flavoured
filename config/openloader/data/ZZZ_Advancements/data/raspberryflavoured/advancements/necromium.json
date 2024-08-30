@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:ancient_debris",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Obtain necromium ingots - you may need a super-heated mixer for this one..."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "caverns_and_chasms:necromium_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Death Metal"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

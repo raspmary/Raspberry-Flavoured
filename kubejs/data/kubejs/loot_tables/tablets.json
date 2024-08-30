@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_4"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_5"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_6"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_7"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_8"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_9"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_10"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_11"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_12"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_13"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_14"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_15"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_16"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_17"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_18"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_19"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_20"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_21"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_22"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_23"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:smithing_template_24"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

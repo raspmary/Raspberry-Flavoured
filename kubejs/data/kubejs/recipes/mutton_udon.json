@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.2,
+  "ingredients": [
+    {
+      "tag": "forge:raw_mutton"
+    },
+	{
+      "tag": "forge:pasta"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+	{
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "kubejs:mutton_udon"
+  }
+}

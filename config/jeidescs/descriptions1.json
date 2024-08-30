@@ -2,15 +2,25 @@
 	"entries": [
 		{
 			"item": "minecraft:campfire",
-			"text": "Unlit kindling for a pleasantly hot bonfire. You can light it using a fire striker."
+			"text": "Unlit kindling for a pleasantly hot bonfire. You can light it using a fire striker. Standing in close proximity of a lit campfire will grant the Comfort effect."
 		},
 		{
 			"item": "minecraft:soul_campfire",
-			"text": "Unlit kindling for a fire so cold* that it burns. You can light it using a fire striker."
+			"component": [
+				{
+					"text": "Unlit kindling for a fire so cold* that it burns. You can light it using a fire striker. Standing in close proximity of a lit campfire will grant the Comfort effect."
+				},
+				{
+					"text": " "
+				},
+				{
+					"text": "*Soul fire isn't actually cold."
+				}
+			]
 		},
 		{
-			"item": "minecraft:soul_campfire",
-			"text": "*Soul fire isn't actually cold."
+			"item": ["minecraft:campfire", "minecraft:soul_campfire"],
+			"text": "Campfires can also burn tree bark into charcoal lumps, which can be crafted into charcoal if you're having no luck finding coal."
 		},
 		{
 			"item": "#minecraft:beds",
@@ -21,20 +31,37 @@
 			"text": "A makeshift bed for much needed rest during long expeditions or in the earlier days of a world. Does not set your spawn point."
 		},
 		{
-			"item": "oreganized:electrum_knife",
-			"text": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals."
+			"item": ["#minecraft:beds", "#upgrade_aquatic:bedrolls"],
+			"component": [
+				{
+					"text": "Sleeping will ",
+					"extra": [
+						{
+							"text": "not skip the night instantly,",
+							"bold": true
+						},
+						{
+							"text": " but rather accelerate the passage of time until it's day. While this means sleeping takes much longer, it'll also "
+						},
+						{
+							"text": "accelerate things like the growth of your crops and the processing of your furnaces!",
+							"bold": true
+						}
+					]
+				}
+			]
 		},
 		{
-			"item": "kubejs:rose_gold_knife",
-			"text": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals."
+			"item": ["kubejs:bone_knife", "kubejs:copper_knife", "kubejs:rose_gold_knife", "alloyed:steel_knife", "oreganized:electrum_knife", "kubejs:lead_knife"],
+			"text": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals. They will also occasionally cause certain mobs to drop their heads."
 		},
 		{
-			"item": "kubejs:copper_knife",
-			"text": "Knives are lightweight melee weapons. They can harvest Straw from grasses, and guarentee secondary drops from animals."
+			"item": "#forge:tools/hoes",
+			"text": "Hoes will allow you to obtain seeds from various foliage such as grass or sandy shrubs, as they normally won't yield any without the use of a hoe. They can also rake through leaves quicker than other tools."
 		},
 		{
 			"item": "#forge:tools/gold",
-			"text": "Golden tools decently increase drops from certain blocks, like ores. Golden swords on the other hand will increase mob drops."
+			"text": ["Golden tools are fragile, but harvest blocks the quickest out of every tool and increase drops from certain blocks like ores, and from mobs.", "(Note: Golden pickaxes can harvest any block iron pickaxes can.)"]
 		},
 		{
 			"item": ["minecraft:leather_helmet","minecraft:leather_chestplate","minecraft:leather_leggings","minecraft:leather_boots"],
@@ -42,35 +69,88 @@
 		},
 		{
 			"item": ["minecraft:chainmail_helmet","minecraft:chainmail_chestplate","minecraft:chainmail_leggings","minecraft:chainmail_boots"],
-			"text": "Chainmail armour is now craftable and will occasionally cause attackers to take damage when they come in contact with you."
+			"text": "Chainmail armour is now craftable and will cause attackers to take damage when they come in contact with the wearer."
 		},
 		{
 			"item": ["minecraft:golden_helmet","minecraft:golden_chestplate","minecraft:golden_leggings","minecraft:golden_boots"],
-			"text": "Golden armour will lightly protect you from burning damage."
+			"text": "Golden armour is fragile, but will lightly protect the wearer against fire damage."
 		},
 		{
-			"item": ["alloyed:steel_helmet","alloyed:steel_chestplate","alloyed:steel_leggings","alloyed:steel_boots","alloyed:steel_pickaxe","alloyed:steel_shovel","alloyed:steel_axe","alloyed:steel_hoe","alloyed:steel_sword","alloyed:steel_knife"],
-			"text": "Steel armour and tools will occasionally not lose durability when used."
+			"item": ["alloyed:steel_pickaxe","alloyed:steel_shovel","alloyed:steel_hoe","alloyed:steel_axe","alloyed:steel_sword","alloyed:steel_knife"],
+			"text": "Steel tools are slow and heavy, but highly durable. Steel swords, axes and knives will knock targets further away."
+		},
+		{
+			"item": ["alloyed:steel_helmet","alloyed:steel_chestplate","alloyed:steel_leggings","alloyed:steel_boots"],
+			"text": "Steel armour will lightly protect the wearer against projectile damage and getting knocked back."
 		},
 		{
 			"item": ["additionaladditions:rose_gold_helmet","additionaladditions:rose_gold_chestplate","additionaladditions:rose_gold_leggings","additionaladditions:rose_gold_boots"],
-			"text": "Rose gold armour will very lightly protect you from burning damage."
+			"text": "Rose gold armour will lightly protect the wearer against magic damage."
 		},
 		{
 			"item": ["additionaladditions:rose_gold_shovel","additionaladditions:rose_gold_pickaxe","additionaladditions:rose_gold_axe","additionaladditions:rose_gold_hoe","additionaladditions:rose_gold_sword","kubejs:rose_gold_knife"],
-			"text": "Rose gold tools slightly increase drops from certain blocks, like ores. Rose gold swords on the other hand will increase mob drops."
+			"text": ["Rose gold tools are quick, with a delicate touch - most blocks harvested with rose gold tools will drop themselves as they are, in place of what they would normally drop.", "Ores, glass, leaves, you name it - they'll all drop in block form. Rose gold tools may seem weak, but they deal bonus magic damage to targets, piercing through any armour they may have!"]
 		},
 		{
-			"item": "#forge:tools/hoes",
-			"text": "Hoes will allow you to obtain seeds from various foliage such as grass or sandy shrubs, as they normally won't yield any without the use of a hoe. They can also rake through leaves quicker than other tools."
+			"item": ["minecraft:netherite_pickaxe","minecraft:netherite_shovel","minecraft:netherite_hoe","minecraft:netherite_axe","minecraft:netherite_sword","farmersdelight:netherite_knife"],
+			"text": "Netherite tools are extremely durable and won't burn up when thrown into fire or lava in item form. Netherite swords, axes and knives will set targets on fire."
+		},
+		{
+			"item": ["minecraft:netherite_helmet","minecraft:netherite_chestplate","minecraft:netherite_leggings","minecraft:netherite_boots"],
+			"text": "Netherite armour will protect the wearer against a decent amount of fire damage and provide light knockback resistance - additionally, it won't burn up when thrown into fire or lava in item form."
+		},
+		{
+			"item": ["oreganized:electrum_pickaxe","oreganized:electrum_shovel","oreganized:electrum_hoe","oreganized:electrum_axe","oreganized:electrum_sword","oreganized:electrum_knife"],
+			"text": "Electrum tools harvest blocks very quickly. Electrum swords, axes and knives will deal slightly increased damage to undead mobs."
+		},
+		{
+			"item": ["oreganized:electrum_helmet","oreganized:electrum_chestplate","oreganized:electrum_leggings","oreganized:electrum_boots"],
+			"text": "Electrum armour will increase the wearer's movement speed."
 		},
 		{
 			"item": "minecraft:shears",
-			"text": "A pair of copper shears. Shears will allow you to gather wool from sheep, as they won't yield any when killed. If these are a pair of shears, what's two of them next to each other called? Two pairs of shears, obviously."
+			"component": [
+				{
+					"text": "A pair of copper shears. Shears will allow you to gather wool from sheep, as they ",
+					"extra": [
+						{
+							"text": "won't yield any when killed.",
+							"bold": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"item": "minecraft:shears",
+			"component": [
+				{
+					"text": "If this is a pair of shears, what's two of them next to each other called?"
+				},
+				{
+					"text": "Well, two pairs of shears - ",
+					"extra": [
+						{
+							"text": "obviously.",
+							"italic": true
+						}
+					]
+				}
+			]
 		},
 		{
 			"item": "ecologics:crab_claw",
-			"text": "Believe it or not, this claw is basically an edible pair of shears. Shears will allow you to gather wool from sheep, as they won't yield any when killed."
+			"component": [
+				{
+					"text": "Believe it or not, this claw is basically an edible pair of shears. Shears will allow you to gather wool from sheep, as they ",
+					"extra": [
+						{
+							"text": "won't yield any when killed.",
+							"bold": true
+						}
+					]
+				}
+			]
 		},
 		{
 			"item": ["#farmersrespite:tea_leaves","farmersrespite:wild_tea_bush","farmersrespite:tea_seeds"],
@@ -93,32 +173,20 @@
 			"text": "Melons can be found in jungles. You'll need a Knife to cut them up into slices."
 		},
 		{
-			"item": ["minecraft:beetroot_seeds","minecraft:beetroot","farmersdelight:sandy_shrub","farmersdelight:wild_beetroots"],
-			"text": "Beetroots are most commonly found on beaches. You'll be able to get them or their seeds from wild sea beets or sandy shrubs."
+			"item": ["minecraft:beetroot_seeds","farmersdelight:sandy_shrub"],
+			"text": ["Beetroot can be commonly found as a wild plant in beach coasts."]
 		},
 		{
-			"item": ["minecraft:carrot","farmersdelight:wild_carrots"],
-			"text": "Carrots can be found in temperate biomes like plains, meadows or forests. You'll find wild carrots growing from the ground, ready to be plucked. Just like onions."
+			"item": ["farmersdelight:tomato_seeds"],
+			"text": "Tomatoes can be commonly found as a wild plant in arid lands, such as savannas and deserts."
 		},
 		{
-			"item": ["farmersdelight:onion","farmersdelight:wild_onions"],
-			"text": "Onions can be found in temperate biomes like plains, meadows or forests. You'll find wild onions growing from the ground, ready to be plucked. Just like carrots."
-		},
-		{
-			"item": ["minecraft:potato","farmersdelight:wild_potatoes"],
-			"text": "Potatoes can be found in cold biomes like snowy plains or tundras. You'll find wild potatoes growing from the ground, ready to be plucked. Kind of like carrots and onions."
-		},
-		{
-			"item": ["farmersdelight:tomato","farmersdelight:wild_tomatoes","farmersdelight:tomato_seeds"],
-			"text": "Tomatoes are most commonly found in arid biomes like deserts or savannas. You can harvest the wild tomato shrubs scattered around those biomes to get them and their seeds."
-		},
-		{
-			"item": ["farmersdelight:cabbage","farmersdelight:cabbage_seeds","farmersdelight:wild_cabbages"],
-			"text": "Cabbages are most commonly found on beaches. You'll be able to get them and their seeds from the wild cabbages growing out of the sand. You can also cut cabbages to use up less of them when cooking."
+			"item": ["farmersdelight:cabbage_seeds"],
+			"text": "Cabbages can be commonly found as a wild plant in beach coasts."
 		},
 		{
 			"item": ["farmersdelight:rice","farmersdelight:wild_rice","farmersdelight:rice_panicle"],
-			"text": "Rice can be found in swamps with its roots buried inside the dirt and half-submerged in water. When grown, harvesting it normally will drop a rice panicle which you'll have to cut up - but if you use a knife to harvest it, it'll give you the rice directly!"
+			"text": "After it's grown, it will drop a rice panicle when harvested normally, which you'll have to cut up - but if harvested with a knife, it'll drop the rice directly!"
 		},
 		{
 			"item": ["minecraft:sweet_berries","berry_good:sweet_berry_pips"],
@@ -126,7 +194,20 @@
 		},
 		{
 			"item": ["minecraft:glow_berries","berry_good:glow_berry_pips"],
-			"text": "Glow berries are found underground in lush caves. They quell your hunger §oand§r the darkness!"
+			"component": [
+				{
+					"text": "Glow berries are found underground in lush caves. They quell your hunger ",
+					"extra": [
+						{
+							"text": "and",
+							"italic": true
+						},
+						{
+							"text": " the darkness!"
+						}
+					]
+				}
+			]
 		},
 		{
 			"item": ["autumnity:foul_berries","autumnity:foul_berry_pips"],
@@ -134,30 +215,26 @@
 		},
 		{
 			"item": ["neapolitan:strawberries","neapolitan:white_strawberries","neapolitan:strawberry_pips"],
-			"text": "Strawberries are found in patches around plains biomes. Strawberries, along with any foods that have strawberries in them, slightly restore your health when eaten."
+			"text": "Strawberries are found in patches around plains biomes. Strawberries, along with all foods that have strawberries in them, restore a little bit of your health when eaten. Growing strawberry bushes at altitudes above 256 blocks will yield white strawberries."
 		},
 		{
 			"item": ["neapolitan:mint_leaves","neapolitan:mint_sprout"],
-			"text": "Mint is typically found on mountains or windswept hills. Mint, along with most foods that have mint in them, give you the Berserking effect."
+			"text": "Mint is typically found on windswept hills and some other cold biomes. Mint, along with most foods that have mint in them, give you the Berserking effect."
 		},
 		{
 			"item": ["neapolitan:banana","neapolitan:banana_bunch","neapolitan:banana_bundle","neapolitan:banana_stalk","neapolitan:small_banana_frond","neapolitan:banana_frond","neapolitan:large_banana_frond"],
-			"text": "Bananas are found on beaches hanging off of thick banana stalks with fronds on them. Bananas, along with any foods that have bananas in them, give you the Agility effect. I hear someone named after a certain kind of bread roll really likes them."
+			"text": "Bananas are found on beaches hanging off of thick banana stalks with fronds on them. Bananas, along with all foods that have bananas in them, give you the Agility effect. I hear someone named after a certain kind of bread roll really likes them."
 		},
 		{
 			"item": "neapolitan:vanilla_pods",
-			"text": "Vanilla is found in savanna biomes. You might wanna use some shears when harvesting them. Vanilla pods, along with any foods that have vanilla in them, give you the Vanilla Scent effect."
+			"text": "Vanilla is found in savanna biomes. You might wanna use some shears when harvesting it. Vanilla pods, along with all foods that have vanilla in them, give you the Vanilla Scent effect."
 		},
 		{
 			"item": ["supplementaries:flax","supplementaries:flax_seeds"],
 			"text": "Flax can be found in the wild in most biomes, and is used to make things like sacks, doormats and rope - it can also be cut, milled or crushed into string."
 		},
 		{
-			"item": ["culturaldelights:cucumber_seeds","culturaldelights:cucumber","culturaldelights:wild_cucumbers"],
-			"text": "Cucumbers can be found in the wild in jungles and swamps. They're not used for much, but you can make something funny out of them."
-		},
-		{
-			"item": ["culturaldelights:eggplant_seeds","culturaldelights:eggplant","culturaldelights:white_eggplant","culturaldelights:wild_eggplants"],
+			"item": ["culturaldelights:eggplant_seeds","culturaldelights:eggplant","culturaldelights:wild_eggplants"],
 			"text": "Eggplants are found somewhat sparsely in jungles. They're by far the beefiest out of all the regular crops."
 		},
 		{
@@ -166,7 +243,24 @@
 		},
 		{
 			"item": ["culturaldelights:avocado","culturaldelights:avocado_pit","culturaldelights:avocado_sapling"],
-			"text": "Avocados can be found growing on avocado trees in jungles. You can also grow avocado trees yourself by obtaining avocado saplings or avocado pits. Avocado avocado avocado. Doesn't sound like a word anymore, does it? That's called §ojamais vu."
+			"text": "Avocados can be found growing on avocado trees in jungles. You can also grow avocado trees yourself by obtaining avocado saplings or avocado pits."
+		},
+		{
+			"item": ["culturaldelights:avocado","culturaldelights:avocado_pit","culturaldelights:avocado_sapling"],
+			"component": [
+				{
+					"text": "Avocado avocado avocado. Doesn't sound like a word anymore, does it?"
+				},
+				{
+					"text": "That's called ",
+					"extra": [
+						{
+							"text": "jamais vu.",
+							"italic": true
+						}
+					]
+				}
+			]
 		},
 		{
 			"item": ["nethersdelight:propelpearl","nethersdelight:propelplant_cane"],
@@ -185,15 +279,15 @@
 			"text": "Iron can be found near - but not directly at - deepslate level and is an extremely versatile material most commonly used to make reliably powerful tools, armour and various other helpful items."
 		},
 		{
-			"item": ["#minecraft:copper_ores","minecraft:raw_copper","minecraft:raw_copper_block","minecraft:copper_ingot","kubejs:copper_block","spelunkery:raw_copper_nugget","create:copper_nugget"],
-			"text": "Copper can be found very commonly both over and underground, though it's less common in lower altitudes. It's used to make copper tools early on and other unique gadgets later in the game."
+			"item": ["#minecraft:copper_ores","minecraft:raw_copper","minecraft:raw_copper_block","minecraft:copper_ingot","copperandtuffbackport:chiseled_copper","copperandtuffbackport:waxed_chiseled_copper","spelunkery:raw_copper_nugget","create:copper_nugget"],
+			"text": ["Copper can be found very commonly both over and underground, though it's less common in lower altitudes.", "It's used to make copper tools and shears early on, and other unique gadgets later in the game."]
 		},
 		{
-			"item": ["#minecraft:copper_ores","minecraft:raw_copper","minecraft:raw_copper_block","minecraft:copper_ingot","kubejs:copper_block","spelunkery:raw_copper_nugget","create:copper_nugget"],
-			"text": "It can also be used to make decorative blocks that oxidise over time, which can be prevented by waxing them with honeycombs. Together with gold, copper makes rose gold alloy."
+			"item": ["#minecraft:copper_ores","minecraft:raw_copper","minecraft:raw_copper_block","minecraft:copper_ingot","copperandtuffbackport:chiseled_copper","copperandtuffbackport:waxed_chiseled_copper","spelunkery:raw_copper_nugget","create:copper_nugget"],
+			"text": ["It can also be used to make decorative blocks that oxidise over time, which can be prevented by waxing them with honeycombs.", "Together with gold, copper makes rose gold alloy, which can be used to upgrade iron equipment."]
 		},
 		{
-			"item": ["#minecraft:gold_ores","minecraft:raw_gold","minecraft:raw_gold_block","minecraft:gold_ingot","minecraft:gold_block","spelunkery:raw_gold_nugget","minecraft:gold_nugget"],
+			"item": ["#minecraft:gold_ores","minecraft:gilded_blackstone","minecraft:raw_gold","minecraft:raw_gold_block","minecraft:gold_ingot","minecraft:gold_block","spelunkery:raw_gold_nugget","minecraft:gold_nugget"],
 			"text": "Gold is most commonly found near the top of the deepslate layer and is also found in the Nether. It has some magical properties and is used in making rose gold, electrum and netherite. You can also use gold ingots to barter for various items with Piglins."
 		},
 		{
@@ -201,28 +295,24 @@
 			"text": "Cinnabar is found near the lower half of the world and can be seen more frequently as you go further and further down. Rough cinnabar can be polished via sand paper or on a grindstone and then crushed to obtain redstone dust, a conductive powder that can be placed to form lines and make all sorts of machines and contraptions."
 		},
 		{
-			"item": ["#minecraft:lapis_ores","spelunkery:rough_lazurite","minecraft:lapis_lazuli","spelunkery:rough_lazurite_block","minecraft:lapis_block","spelunkery:rough_lazurite_shard","spelunkery:lapis_lazuli_shard"],
-			"text": "Lazurite is found most commonly near the bottom of the world, but is rather rare due to pretty much never being exposed to air. Rough lazurite can be polished via sand paper or on a grindstone into lapis lazuli, a gemstone used to make dye and decorative blocks, but is most importantly used as a sort of fuel for enchanting tables."
-		},
-		{
 			"item": ["#minecraft:diamond_ores","spelunkery:rough_diamond","spelunkery:rough_diamond_block","minecraft:diamond","minecraft:diamond_block","spelunkery:rough_diamond_shard","spelunkery:diamond_shard"],
-			"text": "Diamonds are most common near the very bottom of the world. They're precious gemstones used to forge some of the toughest tools and armour in the game and some other important items like enchanting tables."
+			"text": "Diamonds are most common near the very bottom of the world. They're precious gemstones used to forge some of the toughest tools and armour in the game."
 		},
 		{
 			"item": "minecraft:ancient_debris",
 			"text": "Ancient debris is found in small chunks near the bottom of the Nether. It's said that the Piglins have long since mined up all of whatever ore it was left from, but it could potentially still be forged into something powerful..."
 		},
 		{
-			"item": ["minecraft:netherite_scrap","minecraft:netherite_ingot","oreganized:netherite_nugget","minecraft:netherite_block"],
-			"text": "Netherite is an extraordinarily powerful metal made from alloying netherite scraps together with gold. It's used to make the strongest, most durable tools and armour in the game. Netherite and tools/armour made with it are impervious to fire and lava. Piglin brutes also often drop netherite scrap."
+			"item": ["minecraft:netherite_scrap","minecraft:netherite_ingot","caverns_and_chasms:netherite_nugget","minecraft:netherite_block"],
+			"text": "Netherite is an extraordinarily powerful metal made from alloying ancient scraps together with gold. It's used to make the strongest, most durable tools and armour in the game. Netherite and tools/armour made with it are impervious to fire and lava. Piglin brutes also often drop ancient scraps."
 		},
 		{
 			"item": ["#forge:ores/zinc","create:raw_zinc","create:raw_zinc_block","create:zinc_ingot","create:zinc_block","spelunkery:raw_zinc_nugget","create:zinc_nugget"],
-			"text": "Zinc is found scattered around at pretty much any altitude underground and is used to make various alloys such as andesite alloy, bronze and brass. You can also use it to make Copycat Blocks, Slabs, Steps and Panels to add extra depth to your builds."
+			"text": "Zinc is found scattered around at pretty much any altitude underground and is used to make various alloys such as sturdy alloy, bronze and brass. Zinc can also be used to make Copycat Steps and Panels to add extra depth to builds."
 		},
 		{
 			"item": ["#forge:ores/lead","oreganized:raw_lead","oreganized:raw_lead_block","oreganized:lead_ingot","oreganized:lead_block","spelunkery:raw_lead_nugget","oreganized:lead_nugget"],
-			"text": "Lead is found fairly frequently deep underground - higher up in savanna biomes - or sometimes in boulders scattered around the world. It's used for crystal glass, bombs, and as a cheaper iron alternative in certain recipes."
+			"text": "Lead is found somewhat frequently deep underground and in Nether wastes, but it can be found much higher up near the surface in savanna biomes. It's used to make tools, depth gauges, minecarts & rails, crystal glass, bombs, and as a cheaper iron alternative in certain recipes."
 		},
 		{
 			"item": ["#forge:ores/silver","oreganized:raw_silver","oreganized:raw_silver_block","oreganized:silver_ingot","oreganized:silver_block","spelunkery:raw_silver_nugget","oreganized:silver_nugget"],
@@ -233,12 +323,8 @@
 			"text": "Electrum is a very powerful metal made from silver and gold. It's used to make some of the most durable tools/armour and can even be preferable over netherite in that the tools are slightly quicker and the armour will increase your movement speed."
 		},
 		{
-			"item": "additionaladditions:rose_gold_alloy",
-			"text": "Rose gold alloy is made from copper and gold, and is used to upgrade iron equipment to rose gold. Tools upgraded with it retain gold's quick nature (albeit slightly dulled by the copper in the mix) and are a little quicker than diamond tools as a result. Rose gold tools/weapons also slightly increase the amount of drops yielded from blocks and/or mobs."
-		},
-		{
 			"item": ["alloyed:steel_ingot","alloyed:steel_nugget","alloyed:steel_block"],
-			"text": "Steel is a tough metal made by alloying iron with fire charges. It's used to upgrade iron tools or chainmail armour and in making some important components for certain contraptions. Steel equipment is heavy and slow, but quite durable."
+			"text": "Steel is a tough metal made by alloying iron or lead with fire charges. It's used to upgrade lead tools or chainmail armour and in making some important components for certain contraptions. Steel equipment is heavy and slow, but very durable."
 		},
 		{
 			"item": ["alloyed:bronze_ingot","alloyed:bronze_nugget","alloyed:bronze_block"],
@@ -266,7 +352,7 @@
 		},
 		{
 			"item": "minecraft:compass",
-			"text": "Compasses point towards your last set spawn point. If used on a lodestone, they will point towards the specific lodestone to which they were assigned. Right clicking with a compass in hand will briefly display your X and Z coordinates."
+			"text": "Compasses point towards your last set spawn point. If used on a lodestone, they will point towards the specific lodestone to which they were assigned. Right clicking with a compass in hand will briefly display your latitude and longitude."
 		},
 		{
 			"item": "minecraft:recovery_compass",
@@ -274,11 +360,11 @@
 		},
 		{
 			"item": "spelunkery:magnetic_compass",
-			"text": "Magnetic compasses always point towards north, unless there's magnetic interference being caused by any raw magnetite in a 128 block radius, in which case they start glowing and pointing towards that magnetite chunk. Right clicking with a magnetic compass in hand will briefly display your X and Z coordinates, however if there's magnetic interference, it will display the coordinates of the interference's source instead."
+			"text": "Magnetic compasses always point towards north, unless there's magnetic interference being caused by any raw magnetite in a 128 block radius, in which case they start glowing and pointing towards that magnetite chunk. Right clicking with a magnetic compass in hand will briefly display your latitude and longitude, however if there's magnetic interference, it will display the coordinates of the interference's source instead."
 		},
 		{
 			"item": "minecraft:clock",
-			"text": "Clocks show the time of day. Right clicking with a clock in hand will briefly display the time of day in numerical form."
+			"text": "Clocks show the time of day. Right clicking with a clock in hand will briefly display the time of day in numerical form and the day number."
 		},
 		{
 			"item": "minecraft:spyglass",
@@ -289,8 +375,8 @@
 			"text": "Through the use of a keybind (Z by default), you can instantly use your spyglass from anywhere inside your inventory."
 		},
 		{
-			"item": "supplementaries:altimeter",
-			"text": "Altimeters show your current altitude. Right clicking with an altimeter in hand will briefly display your Y coordinate."
+			"item": "caverns_and_chasms:depth_gauge",
+			"text": "Depth gauges show your current altitude. Right clicking with a depth gauge in hand will briefly display your altitude."
 		},
 		{
 			"item": "map_atlases:atlas",
@@ -305,20 +391,24 @@
 			"text": "These foods are all feasts - meaning, you can place them down and then take portions out of them, typically with bowls."
 		},
 		{
-			"item": ["farmersdelight:organic_compost","farmersdelight:rich_soil"],
-			"text": "By placing down some organic compost and letting it sit for a while, you'll be able to get your hands on rich soil, a high quality soil that doesn't need water to grow crops, but grows crops faster than normal if water is provided. If you can't figure out which crops it grows faster, just remember - if it bone meals, it rich soils!"
+			"item": "farmersdelight:organic_compost",
+			"text": "Organic compost can be made out of a variety of waste material, or can occasionally be obtained from a full composter."
 		},
 		{
-			"item": ["nethersdelight:soul_compost","nethersdelight:rich_soul_soil"],
-			"text": "By placing down some soul compost and letting it sit for a while in the Nether, you'll be able to get your hands on rich soul soil, a hellish variant of rich soil that'll let you grow your propelplants and Nether fungi faster."
+			"item": ["farmersdelight:organic_compost","farmersdelight:rich_soil"],
+			"text": "By placing down some organic compost and letting it sit for a while, you'll be able to get your hands on rich soil, which doesn't require water to grow crops, but grows crops faster than normal if water is provided."
+		},
+		{
+			"item": ["farmersdelight:organic_compost","farmersdelight:rich_soil"],
+			"text": "If you're having trouble remembering or figuring out which crops rich soil allows to grow faster, just remember - if it bone meals, it rich soils!"
+		},
+		{
+			"item": "#minecraft:creeper_drop_music_discs",
+			"text": "Dropped by a creeper when killed by a skeleton."
 		},
 		{
 			"item": ["minecraft:music_disc_13","minecraft:music_disc_cat"],
-			"text": "Dropped by a creeper when killed by a skeleton, or found in dungeon chests."
-		},
-		{
-			"item": ["minecraft:music_disc_blocks","minecraft:music_disc_chirp","minecraft:music_disc_far","minecraft:music_disc_mall","minecraft:music_disc_mellohi","minecraft:music_disc_stal","minecraft:music_disc_strad","minecraft:music_disc_ward","minecraft:music_disc_11","minecraft:music_disc_wait"],
-			"text": "Dropped by a creeper when killed by a skeleton."
+			"text": "These two discs can also be found in dungeon chests."
 		},
 		{
 			"item": "minecraft:music_disc_pigstep",
@@ -341,20 +431,28 @@
 			"text": "Can be obtained by getting a group of chimpanzees to kill a ravager by shooting it with a bananarrow."
 		},
 		{
-			"item": "minecraft:rabbit_hide",
-			"text": "Leather scraps can be obtained by cutting leather on a cutting board using shears or dealing the killing blow on a mob that drops leather with a knife. As they're used in the same recipes as normal leather, they'll allow you to save a bunch of leather! You can also salvage some leather scraps from various leather equipment thanks to the cutting board."
+			"item": "kubejs:music_disc_death",
+			"text": "Dropped by a chicken, duck or turkey when killed by a skeleton."
 		},
 		{
-			"item": ["#create:sandpaper", "spelunkery:rough_cinnabar", "spelunkery:rough_cinnabar_shard", "spelunkery:rough_lazurite", "spelunkery:rough_lazurite_shard", "spelunkery:rough_diamond", "spelunkery:rough_diamond_shard"],
+			"item": "kubejs:music_disc_droopy1",
+			"text": "Has a very small chance to be dropped by mobs that can drop their heads, or can alternatively be made by crafting one of said heads together with disc fragments."
+		},
+		{
+			"item": "minecraft:rabbit_hide",
+			"text": "Leather scraps can be obtained by cutting leather on a cutting board using shears or dealing the killing blow on various livestock with a knife. As they're used in the same recipes as regular leather, they'll allow you to save a bunch of leather!"
+		},
+		{
+			"item": "minecraft:rabbit_hide",
+			"text": "You can also salvage some leather scraps from various leather equipment thanks to the cutting board."
+		},
+		{
+			"item": ["#create:sandpaper", "spelunkery:rough_cinnabar", "spelunkery:rough_cinnabar_shard", "spelunkery:rough_diamond", "spelunkery:rough_diamond_shard", "create:rose_quartz"],
 			"text": "Sand paper will allow you to polish rough gems. If you're finding the process too slow, use a grindstone or hand the sand paper to a deployer!"
 		},
 		{
-			"item": ["minecraft:grindstone", "spelunkery:rough_cinnabar", "spelunkery:rough_cinnabar_shard", "spelunkery:rough_cinnabar_block", "spelunkery:rough_lazurite", "spelunkery:rough_lazurite_shard", "spelunkery:rough_lazurite_block", "spelunkery:rough_diamond", "spelunkery:rough_diamond_shard", "spelunkery:rough_diamond_block"],
+			"item": ["minecraft:grindstone", "spelunkery:rough_cinnabar", "spelunkery:rough_cinnabar_shard", "spelunkery:rough_cinnabar_block", "spelunkery:rough_diamond", "spelunkery:rough_diamond_shard", "spelunkery:rough_diamond_block"],
 			"text": "Grindstones can repair and disenchant tools or armour, and directly right-clicking on one with a rough gem in hand will polish the gem. Grindstones can also polish whole rough gem blocks."
-		},
-		{
-			"item": "spelunkery:handheld_compactor",
-			"text": "When activated with a right-click, a handheld compactor will instantly compact all ores in your inventory into a bigger form. The green setting will turn nuggets/shards into raw ores/ingots/gems, the blue setting will turn raw ores/ingots/gems into blocks, and the yellow setting will do both at the same time."
 		},
 		{
 			"item": "spelunkery:item_magnet",
@@ -369,40 +467,65 @@
 			"text": "Trowels will select and place a random block from your hotbar with every use. Perfect for adding some variation to your builds!"
 		},
 		{
-			"item": ["quark:pickarang", "quark:flamerang", "quark:echorang"],
-			"text": "When thrown, pickarangs will fly far away, only stopping and flying back after reaching their maximum distance, hitting a block, or a mob. Hitting a block with a thrown pickarang will destroy the block and the pickarang will bring its drops to you. When killing a mob with a thrown pickarang, it will bring the mob's drops to you."
+			"item": "quark:echorang",
+			"text": "When thrown, echorangs will fly far away, only stopping and flying back after reaching their maximum distance, hitting a block, or a mob. Hitting a block with a thrown echorang will destroy the block and the echorang will bring its drops to you."
+		},
+		{
+			"item": "quark:echorang",
+			"text": "Killing a mob with a thrown echorang will have it bring the mob's drops with it as it flies back to you. They'll also continue flying further when they fly near sculk shriekers."
 		},
 		{
 			"item": "oreganized:silver_mirror",
-			"text": "Silver mirrors will glow whenever an undead mob is nearby."
+			"text": "Silver mirrors will glow whenever an undead mob is nearby, and will deal huge damage to undead mobs specifically."
 		},
 		{
 			"item": "minecraft:anvil",
-			"text": "Anvils allow you to repair equipment using materials and experience levels. They'll also let you rename items and combine their enchantments."
-		},
-		{
-			"item": "minecraft:anvil",
-			"text": "Placing a book next to an enchanted piece of equipment will transfer its first three enchantments onto the book at the cost of some experience levels and will destroy the equipment in the process."
+			"text": "Anvils allow you to repair equipment using materials. They'll also let you rename items and combine enchantments."
 		},
 		{
 			"item": "savage_and_ravage:wand_of_freezing",
-			"text": "The Wand of Freezing is one of four ancient relics. It summons damaging and freezing ice blocks above your foes. It can be rarely found in fortresses of the undead, which are dungeons full of skeletons."
-		},
-		{
-			"item": "savage_and_ravage:cleaver_of_beheading",
-			"text": "The Cleaver of Beheading is one of four ancient relics. It deals high damage, slows down enemies hit with its sweep attack and has a higher chance to cause mobs to drop their heads."
-		},
-		{
-			"item": "savage_and_ravage:cleaver_of_beheading",
-			"text": "It can be rarely found in catacombs, which are dungeons full of zombies and tombs."
+			"text": "The Wand of Freezing is one of three ancient relics. It summons damaging and freezing ice blocks above your foes. It can be rarely found in fortresses of the undead, which are dungeons full of skeletons."
 		},
 		{
 			"item": "savage_and_ravage:mask_of_dishonesty",
-			"text": "The Mask of Dishonesty is one of four ancient relics. When worn and sneaking, it will allow you to go fully invisible to mobs and players, even if you're wearing armour or holding an item. It can be rarely found in desert pyramids."
+			"text": "The Mask of Dishonesty is one of three ancient relics. When worn and sneaking, it will allow you to go fully invisible to mobs and players, even if you're wearing armour or holding an item. It can be rarely found in desert pyramids."
 		},
 		{
 			"item": "savage_and_ravage:conch_of_conjuring",
-			"text": "The Conch of Conjuring is one of four ancient relics. It summons vicious fangs that come out of the ground and deal damage in a straight line in front of you. It can be rarely found in jungle temples."
+			"text": "The Conch of Conjuring is one of three ancient relics. It summons vicious fangs that come out of the ground and deal damage in a straight line in front of you. It can be rarely found in jungle temples."
+		},
+		{
+			"item": "fishermens_trap:fishtrap",
+			"component": [
+				{
+					"text": "Fish traps - ",
+					"extra": [
+						{
+							"text": "when submerged deep underwater in river biomes",
+							"bold": true
+						},
+						{
+							"text": " - can automatically catch fish based on the bait placed inside. If they have no bait, they'll catch other miscellaneous items instead."
+						}
+					]
+				}
+			]
+		},
+		{
+			"item": "minecraft:heart_of_the_sea",
+			"text": "Hearts of the sea are ancient artifacts found rarely in buried treasure chests. A heart of the sea, along with some nautilus shells, can be used to craft a conduit."
+		},
+		{
+			"item": "minecraft:composter",
+			"text": ["Composters will allow you to recycle various biological material into some bone meal, or even occasionally some organic compost.", "This process can be automated by placing a hopper on top of and under the composter."]
+		},
+		{
+			"item": "minecraft:ender_eye",
+			"text": "Awoken exopearls are not only a useful crafting ingredient, but will also fly in the direction of the nearest ruined Nether portal structure when used."
+		},
+		{
+			"item": "heartstone:heartstone",
+			"text": "Binding exopearls come in pairs and will allow you to easily locate and/or keep track of another player. Simply hand someone one of the two binding exopearls and this will bind you and them together, creating a particle trail leading towards each other whenever one of you two right-clicks with the item in hand."
 		}
 	]
 }

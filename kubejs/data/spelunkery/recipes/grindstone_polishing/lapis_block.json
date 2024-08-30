@@ -1,10 +1,1 @@
-{
-  "type": "spelunkery:grindstone_polishing",
-  "ingredient": "spelunkery:rough_lazurite_block",
-  "result": "minecraft:lapis_block",
-  "resultCount": 1,
-  "byproduct": "minecraft:air",
-  "byproductMin": 0,
-  "byproductMax": 0,
-  "experience": 0
-}
+{}

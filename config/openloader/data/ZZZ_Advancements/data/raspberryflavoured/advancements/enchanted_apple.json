@@ -30,6 +30,9 @@
       "text": "Hunt For The Apple"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "0"

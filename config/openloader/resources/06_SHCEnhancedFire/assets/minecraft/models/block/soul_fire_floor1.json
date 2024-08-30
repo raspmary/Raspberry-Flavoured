@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/soul_fire_1",
+		"soul_fire_1": "block/soul_fire_1"
+	},
+	"elements": [
+		{
+			"from": [-9, 0, 11.25],
+			"to": [9, 24, 11.25],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#soul_fire_1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#soul_fire_1"}
+			}
+		},
+		{
+			"from": [6.75, 0, 11.32],
+			"to": [24.75, 24, 11.32],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#soul_fire_1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#soul_fire_1"}
+			}
+		}
+	]
+}

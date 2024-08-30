@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+	{
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "type": "#minecraft:skeletons"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "savage_and_ravage:creepie"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.575,
+      "looting_multiplier": 0.015
+    }
+  ],
+  "item": "minecraft:disc_fragment_5"
+}

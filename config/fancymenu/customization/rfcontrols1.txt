@@ -1,0 +1,95 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.controls.ControlsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = 106
+  action = movebutton
+  y = -151
+}
+
+customization {
+  identifier = %id=505202%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = 106
+  action = movebutton
+  y = -96
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = -55
+  action = movebutton
+  y = -151
+}
+
+customization {
+  identifier = %id=345202%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = -55
+  action = movebutton
+  y = -96
+}
+
+customization {
+  identifier = %id=400250%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 77
+}
+
+customization {
+  identifier = %id=505178%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = 106
+  action = movebutton
+  y = -120
+}
+
+customization {
+  identifier = %id=345178%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = -55
+  action = movebutton
+  y = -120
+}
+
+customization {
+  identifier = %id=345226%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = -55
+  action = movebutton
+  y = -72
+}
+
+customization {
+  identifier = %id=5052021%
+  orientation = element
+  orientation_element = vanillabtn:400250
+  x = 106
+  action = movebutton
+  y = -72
+}
+

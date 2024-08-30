@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:sleep",
+  "parent": "raspberryflavoured:cock",
   "criteria": {
     "0": {
       "conditions": {
@@ -28,6 +28,9 @@
       "text": "No Place Like Home"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

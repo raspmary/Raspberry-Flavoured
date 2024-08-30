@@ -59,6 +59,22 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "oreganized:raw_lead",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 24.0,
                 "min": 6.0
               },
@@ -123,7 +139,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -139,7 +155,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 6.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -188,11 +204,11 @@
         {
           "type": "minecraft:item",
           "name": "buzzier_bees:four_leaf_clover",
-          "weight": 2
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 5,
           "functions": [
 			{
               "add": false,
@@ -306,29 +322,6 @@
           "type": "minecraft:item",
           "name": "supplementaries:quiver",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:book"
         }
       ],
       "rolls": {
@@ -336,6 +329,20 @@
         "max": 8.0,
         "min": 4.0
       }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "kubejs:tablets"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

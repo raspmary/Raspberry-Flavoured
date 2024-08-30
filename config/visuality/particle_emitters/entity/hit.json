@@ -9,14 +9,6 @@
     },
     {
       "entity": [
-        "minecraft:chicken",
-        "environmental:duck",
-        "autumnity:turkey"
-      ],
-      "particle": "visuality:feather"
-    },
-    {
-      "entity": [
         "minecraft:villager",
         "minecraft:wandering_trader"
       ],

@@ -12,7 +12,10 @@ JEIEvents.removeCategories(event => {
 	'create_dd:also_mystery_conversion',
 	'create_dd:industrial_fan_freezing',
 	'create_dd:industrial_fan_superheating',
-	'pollen:grindstone'
+	'pollen:grindstone',
+	'copperized:axe_scraping', 
+	'copperized:oxidation', 
+	'copperized:waxing'
     ]
 
     removeCategories.forEach((catid) => {

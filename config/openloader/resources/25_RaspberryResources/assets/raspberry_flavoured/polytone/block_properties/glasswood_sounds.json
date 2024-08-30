@@ -1,0 +1,39 @@
+{
+   "targets": [
+   "create:oak_window",
+   "create:spruce_window",
+   "create:dark_oak_window",
+   "create:mangrove_window",
+   "create:oak_window_pane",
+   "create:spruce_window_pane",
+   "create:dark_oak_window_pane",
+   "create:mangrove_window_pane",
+   "everycomp:c/windswept/chestnut_window",
+   "everycomp:c/atmospheric/morado_window",
+   "everycomp:c/atmospheric/aspen_window",
+   "everycomp:c/ecologics/coconut_window",
+   "everycomp:c/autumnity/maple_window",
+   "everycomp:c/upgrade_aquatic/driftwood_window",
+   "everycomp:c/environmental/willow_window",
+   "everycomp:c/environmental/wisteria_window",
+   "everycomp:c/upgrade_aquatic/river_window",
+   "everycomp:c/windswept/chestnut_window_pane",
+   "everycomp:c/atmospheric/morado_window_pane",
+   "everycomp:c/atmospheric/aspen_window_pane",
+   "everycomp:c/ecologics/coconut_window_pane",
+   "everycomp:c/autumnity/maple_window_pane",
+   "everycomp:c/upgrade_aquatic/driftwood_window_pane",
+   "everycomp:c/environmental/willow_window_pane",
+   "everycomp:c/environmental/wisteria_window_pane",
+   "everycomp:c/upgrade_aquatic/river_window_pane"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.glasswood.break",
+	  "place_sound": "kubejs:sound.glasswood.place",
+      "hit_sound": "kubejs:sound.glasswood.hit",
+      "fall_sound": "kubejs:sound.glasswood.fall",
+      "step_sound": "kubejs:sound.glasswood.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

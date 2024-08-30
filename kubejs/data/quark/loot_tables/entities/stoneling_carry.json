@@ -175,18 +175,40 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 250,
           "name": "minecraft:iron_horse_armor"
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 175,
           "name": "minecraft:golden_horse_armor"
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 100,
           "name": "minecraft:diamond_horse_armor"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"quark:glimmering_weald\", targetBiomeColor: 4707220, targetBiomeUnderground: 1b}"
+            }
+          ],
+          "weight": 150,
+          "name": "quark:pathfinders_quill"
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{zoomLevel: 2, targetStructure:\"minecraft:ancient_city\", decoration: \"red_x\", maxSearchRadius: 100, display: {Name: '{\"translate\": \"filled_map.ancient_city\"}'}}"
+            }
+          ],
+          "weight": 75,
+          "name": "supplementaries:cartographers_quill"
         }
       ]
     }

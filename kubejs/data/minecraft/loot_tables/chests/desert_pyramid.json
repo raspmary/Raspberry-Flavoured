@@ -123,31 +123,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 10
         },
@@ -195,7 +170,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 5.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -244,7 +219,7 @@
         {
           "type": "minecraft:item",
           "name": "buzzier_bees:four_leaf_clover",
-          "weight": 4
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -257,7 +232,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 3,
           "functions": [
 			{
               "add": false,
@@ -411,6 +386,20 @@
         }
       ],
       "rolls": 4.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "kubejs:tablets"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

@@ -20,13 +20,13 @@
       "item": "minecraft:glow_ink_sac"
     },
 	{
-      "item": "culturaldelights:squid"
+      "item": "miners_delight:squid"
     },
 	{
-      "item": "culturaldelights:glow_squid"
+      "item": "miners_delight:glow_squid"
     },
 	{
-      "item": "culturaldelights:raw_calamari"
+      "item": "miners_delight:tentacles"
     }
 	]
   ],

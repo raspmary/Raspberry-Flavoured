@@ -1,9 +1,0 @@
-#Setting Swap Item Animation Speed [1 ~ 400]
-#Range: 1 ~ 400
-"Animation Speed" = 80
-#Setting Ease Swap Item Animation Style. [linear, ease-in, ease-in-out]
-"Ease Animation Style" = "linear"
-#Setting Ease Swap Item Animation Speed [1 ~ 1000]
-#Range: 10 ~ 1000
-"Ease Animation Speed" = 500
-

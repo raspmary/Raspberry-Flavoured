@@ -1,0 +1,78 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.InBedChatScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400960%
+  orientation = bottom-centered
+  x = -37
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=400960%
+  width = 75
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400960%
+  seconds = 0.5
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"randomtext","values":{"path":"config/fancymenu/fancymenu_assets/tips.txt","interval":"15"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -210
+  width = 420
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c20bfa35-286c-44fe-8d5a-c4002da1d19b1713540061837
+  y = -61
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &lGood night, {"placeholder":"playername"}! Here's a tip:
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -211
+  width = 422
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = fae0b8a7-79bc-4138-9b7c-34419b301be71713541223050
+  y = -73
+  alignment = centered
+  base_color = FFA88C
+  height = 12
+}
+

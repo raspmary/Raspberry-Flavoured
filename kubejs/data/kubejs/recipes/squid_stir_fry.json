@@ -21,7 +21,7 @@
       "item": "farmersdelight:tomato_sauce"
     },
     {
-      "tag": "culturaldelights:cucumbers"
+      "tag": "forge:crops/cabbage"
     }
   ],
   "recipe_book_tab": "meals",

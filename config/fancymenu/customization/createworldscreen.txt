@@ -14,12 +14,108 @@ customization {
 }
 
 customization {
+  identifier = %id=5059751%
+  orientation = element
+  orientation_element = vanillabtn:425236
+  x = 0
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=505975%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505975%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -25
+}
+
+customization {
   identifier = %id=65590%
   action = hidebutton
 }
 
 customization {
+  identifier = %id=505151%
+  orientation = element
+  orientation_element = vanillabtn:5051001
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=345151%
+  orientation = element
+  orientation_element = vanillabtn:345100
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=345151%
+  action = setbuttondescription
+  description = If enabled, will generate%n%a chest with some helpful%n%items near your spawn point.
+}
+
+customization {
   identifier = %id=30590%
   action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 5
+  width = 150
+  action = addbutton
+  actionid = ed1cda04-dfa2-4e3a-abb6-85954cada31f1713615136465
+  y = -25
+  label = Cancel
+  height = 20
+}
+
+customization {
+  identifier = %id=505120%
+  orientation = element
+  orientation_element = vanillabtn:5051001
+  x = 150
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=505120%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505120%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505120%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/fancymenu_assets/settingsbuttonhover.png
+  backgroundnormal = config/fancymenu/fancymenu_assets/settingsbutton.png
+}
+
+customization {
+  identifier = %id=345100%
+  action = setbuttondescription
+  description = If enabled, structures such as%n%dungeons and mineshafts%n%will generate in the world.
 }
 

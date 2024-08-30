@@ -1,0 +1,7 @@
+{
+  "enableMod": true,
+  "onlyDisplayOnBooks": true,
+  "onlyDisplayInEnchantingTable": false,
+  "requireKeybindPress": true,
+  "indentSize": 0
+}

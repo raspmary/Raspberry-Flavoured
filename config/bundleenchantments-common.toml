@@ -1,0 +1,9 @@
+#The amount of levels the enchantment has. If a mod such as Apotheosis is installed, this is overridden and you should consult that mod's config instead.
+#Range: > 1
+bundleCapacityMaxLevel = 4
+#The amount of additional items a bundle can carry per level of the enchantment.
+#Range: > 1
+bundleCapacityItemsPerLevel = 16
+#Whether additional code which prevents an illegal stack from being made should be disabled. This code prevents many bugs such as potential loss of items, however may cause compatibility issues. Only set this to true if you know what you're doing.
+allowIllegalStacks = false
+

@@ -1,0 +1,185 @@
+
+[Uncategorized]
+	# 
+	#Range: > -2147483648
+	configVersion = 5
+
+["Nuclear Option"]
+	#If set to 'true', no mob will ever attack anyone.
+	#Use this option if you don't want to deal with the rest of the config file.
+	#Default: false
+	nuclearOption = false
+
+["Built In Rule Order"]
+	#Which order should the rules in this config file be evaluated in?
+	#Comma-separated list built out of any or all of the following keywords, in any order:
+	#json, difficulty, boss, mobSet, tagSet, playerSet, potionSet, spawnType, revenge
+	#Note: If a rule is not listed in the rule order, it will not be checked.
+	#Example: difficulty, revenge, playerSet
+	#Default: json, difficulty, boss, mobSet, tagSet, potionSet, playerSet, spawnType, revenge
+	ruleOrder = "revenge, mobSet, tagSet, difficulty, json, boss,potionSet, playerSet, spawnType"
+
+["Difficulty Rule"]
+	#Comma-separated list of difficulties.
+	#Example: easy, normal
+	#Default: 
+	difficultySet = "easy"
+	#What happens when the current world difficulty appears in difficultySet?
+	#May be one of:
+	#allow - Every mob is always allowed to attack everyone.
+	#deny  - No mob is ever allowed to attack anyone.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	difficultySetIncluded = "deny"
+	#What happens when the current world difficulty does *not* appear in difficultySet?
+	#May be one of:
+	#allow - Every mob is always allowed to attack everyone.
+	#deny  - No mob is ever allowed to attack anyone.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	difficultySetExcluded = "pass"
+
+["Boss Rule"]
+	#What happens when the attacker is a boss?
+	#'Bossness' is defined by inclusion in the 'apathy:bosses' tag.
+	#May be one of:
+	#allow - Every boss is allowed to attack everyone.
+	#deny  - No boss is allowed to attack anyone.
+	#pass  - Defer to the next rule.
+	#Note: If the current attacker is *not* a boss, always passes to the next rule.
+	#Default: allow
+	boss = "allow"
+
+["Mob Set Rule"]
+	#A comma-separated set of mob IDs.
+	#Example: minecraft:creeper, minecraft:spider
+	#Default: 
+	mobSet = "minecraft:bee, minecraft:cat, minecraft:goat, environmental:yak"
+	#What happens when the attacker's entity ID appears in mobSet?
+	#May be one of:
+	#allow - The mob will be allowed to attack the player.
+	#deny  - The mob will not be allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	mobSetIncluded = "pass"
+	#What happens when the attacker's entity ID does *not* appear in mobSet?
+	#May be one of:
+	#allow - The mob will be allowed to attack the player.
+	#deny  - The mob will not be allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	mobSetExcluded = "pass"
+
+["Tag Set Rule"]
+	#A comma-separated set of entity type tags.
+	#Example: minecraft:raiders, some_datapack:some_tag
+	#Default: 
+	tagSet = "kubejs:allowed_to_attack"
+	#What happens when the attacker is tagged with one of the tags in mobTagSet?
+	#May be one of:
+	#allow - The mob will be allowed to attack the player.
+	#deny  - The mob will not be allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	tagSetIncluded = "allow"
+	#What happens when the attacker is *not* tagged with one of the tags in mobTagSet?
+	#May be one of:
+	#allow - The mob will be allowed to attack the player.
+	#deny  - The mob will not be allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	tagSetExcluded = "pass"
+
+["Potion Effect Set Rule"]
+	#A set of potion effects.
+	#Example: minecraft:invisibility, minecraft:jump_boost
+	#Default: minecraft:invisibility
+	potionEffectSet = "minecraft:invisibility"
+	#Whose potion effects will be checked?
+	#May be one of:
+	#attacker - The attacking mob's potion effects will be checked.
+	#defender - The player's potion effects will be checked.
+	#Default: defender
+	potionEffectWho = "defender"
+	#What happens when the entity has a potion effect included in potionEffectSet?
+	#May be one of:
+	#allow - The mob will be allowed to attack the player.
+	#deny  - The mob will not be allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	potionEffectSetIncluded = "pass"
+	#What happens when the entity does not have any potion effects included in potionEffectSet?
+	#May be one of:
+	#allow - The mob will be allowed to attack the player.
+	#deny  - The mob will not be allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	potionEffectSetExcluded = "pass"
+
+["Player Set Rule"]
+	#The name of a set of players.
+	#If this option is not provided, a player set is not created, and this whole rule always passes.
+	#Default: no-mobs
+	playerSetName = "no-mobs"
+	#If 'true', players can add themselves to the set, using '/apathy set join <playerListName>'.
+	#If 'false', only an operator can add them to the set, using '/apathy set-admin join <selector> <playerListName>'.
+	#Default: true
+	playerSetSelfSelect = true
+	#What happens when a mob tries to attack someone who appears in the playerSet?
+	#May be one of:
+	#allow - The mob is allowed to attack the player.
+	#deny  - The mob is not allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: deny
+	playerSetIncluded = "deny"
+	#What happens when a mob tries to attack someone who does *not* appear in the playerSet?
+	#May be one of:
+	#allow - The mob is allowed to attack the player.
+	#deny  - The mob is not allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	playerSetExcluded = "pass"
+
+["Spawn Type Rule"]
+	#Comma-separated list of spawn types.
+	#The options are "unknown", "natural", "chunk_generation", "spawner", "structure", "breeding", "mob_summoned", "jockey",
+	#"event", "conversion", "reinforcement", "triggered", "bucket", "spawn_egg", "command", "dispenser", and "patrol".
+	#More documentation for exactly what these do is on the wiki.
+	#Default: 
+	spawnTypeSet = ""
+	#What happens to mobs spawned with a method included in spawnTypeSet?
+	#May be one of:
+	#allow - The mob is allowed to attack the player.
+	#deny  - The mob is not allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	spawnTypeIncluded = "pass"
+	#What happens to mobs that were *not* spawned with a method included in spawnTypeSet?
+	#May be one of:
+	#allow - The mob is allowed to attack the player.
+	#deny  - The mob is not allowed to attack the player.
+	#pass  - Defer to the next rule.
+	#Default: pass
+	spawnTypeExcluded = "pass"
+
+["Revenge Rule"]
+	#For how many ticks is a mob allowed to retaliate after being attacked?
+	#Set to -1 to disable this 'revenge' mechanic.
+	#When the timer expires, defers to the next rule.
+	#Note: The exact duration of the attack may be up to (<revengeTimer> + <recheckInterval>) ticks.
+	#     Btw, the original mod had an option for 'eternal revenge', with an uncapped timer.
+	#     I didn't port that, but the maximum value of the timer is 9223372036854775807 ticks.
+	#     Make of that information what you will ;)
+	#Default: -1
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	revengeTimer = 500000
+
+["Last Resort Rule"]
+	#If absolutely none of the previous rules applied, what happens?
+	#May be one of:
+	#allow - By default, mobs are allowed to attack players.
+	#deny  - By default, mobs are not allowed to attack players.
+	#May *not* be set to 'pass'.
+	#Default: allow
+	fallthrough = "allow"
+

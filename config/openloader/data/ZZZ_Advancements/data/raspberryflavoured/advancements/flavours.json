@@ -34,6 +34,9 @@
       "text": "Flavour Town"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

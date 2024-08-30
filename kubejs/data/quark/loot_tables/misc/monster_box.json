@@ -4,50 +4,6 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:raw_iron",
-			"weight": 40,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 8,
-					"max": 16
-				}
-			}]
-		}, {
-			"type": "item",
-			"name": "oreganized:raw_lead",
-			"weight": 40,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 15,
-					"max": 30
-					}
-				}]
-		}, {
-			"type": "item",
-			"name": "create:raw_zinc",
-			"weight": 40,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 12,
-					"max": 24
-					}
-				}]
-		}, {
-			"type": "item",
-			"name": "minecraft:raw_copper",
-			"weight": 40,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 24,
-					"max": 48
-					}
-				}]
-		}, {
-			"type": "item",
-			"name": "minecraft:raw_gold",
 			"weight": 30,
 			"functions": [{
 				"function": "set_count",
@@ -58,8 +14,52 @@
 			}]
 		}, {
 			"type": "item",
+			"name": "oreganized:raw_lead",
+			"weight": 30,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 8,
+					"max": 16
+					}
+				}]
+		}, {
+			"type": "item",
+			"name": "create:raw_zinc",
+			"weight": 30,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 12,
+					"max": 24
+					}
+				}]
+		}, {
+			"type": "item",
+			"name": "minecraft:raw_copper",
+			"weight": 30,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 16,
+					"max": 32
+					}
+				}]
+		}, {
+			"type": "item",
+			"name": "minecraft:raw_gold",
+			"weight": 20,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 12
+				}
+			}]
+		}, {
+			"type": "item",
 			"name": "spelunkery:rough_diamond",
-			"weight": 10,
+			"weight": 8,
 			"functions": [{
 				"function": "set_count",
 				"count": {
@@ -70,7 +70,7 @@
 		}, {
 			"type": "item",
 			"name": "spelunkery:raw_silver_nugget",
-			"weight": 1,
+			"weight": 2,
 			"functions": [{
 				"function": "set_count",
 				"count": {
@@ -92,12 +92,12 @@
 		}, {
 			"type": "item",
 			"name": "spelunkery:rough_cinnabar",
-			"weight": 10,
+			"weight": 12,
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 16,
-					"max": 32
+					"min": 8,
+					"max": 24
 				}
 			}]
 		}, {
@@ -113,24 +113,13 @@
 			}]
 		}, {
 			"type": "item",
-			"name": "spelunkery:rough_emerald",
-			"weight": 10,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 24,
-					"max": 48
-				}
-			}]
-		}, {
-			"type": "item",
 			"name": "minecraft:golden_carrot",
-			"weight": 15,
+			"weight": 18,
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 2,
-					"max": 5
+					"min": 3,
+					"max": 7
 				}
 			}]
 		}, {
@@ -162,19 +151,19 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 2,
-					"max": 8
+					"min": 3,
+					"max": 12
 				}
 			}]
 		}, {
 			"type": "item",
 			"name": "farmersdelight:organic_compost",
-			"weight": 15,
+			"weight": 18,
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 2,
-					"max": 6
+					"min": 5,
+					"max": 15
 				}
 			}]
 		}, {
@@ -195,18 +184,7 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 2,
-					"max": 6
-				}
-			}]
-		}, {
-			"type": "item",
-			"name": "spelunkery:mineomite",
-			"weight": 8,
-			"functions": [{
-				"function": "set_count",
-				"count": {
-					"min": 4,
+					"min": 8,
 					"max": 16
 				}
 			}]
@@ -316,8 +294,19 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 1,
-					"max": 2
+					"min": 2,
+					"max": 4
+				}
+			}]
+		},  {
+			"type": "item",
+			"name": "create:andesite_alloy",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 6,
+					"max": 18
 				}
 			}]
 		}, {
@@ -327,8 +316,8 @@
 			"functions": [{
 				"function": "set_count",
 				"count": {
-					"min": 10,
-					"max": 30
+					"min": 8,
+					"max": 24
 				}
 			}]
 		}, {
@@ -344,6 +333,17 @@
 			}]
 		}, {
 			"type": "item",
+			"name": "supplementaries:rope",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 12,
+					"max": 40
+				}
+			}]
+		}, {
+			"type": "item",
 			"name": "minecraft:torch",
 			"weight": 25,
 			"functions": [{
@@ -351,6 +351,39 @@
 				"count": {
 					"min": 4,
 					"max": 20
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "spelunkery:glowstick",
+			"weight": 20,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 20
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "ecologics:surface_moss",
+			"weight": 20,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 20
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:map",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 8,
+					"max": 24
 				}
 			}]
 		}, {
@@ -366,12 +399,28 @@
            }]
 		}, {
 			"type": "item",
+			"name": "create:sand_paper",
+			"weight": 25
+		}, {
+			"type": "item",
 			"name": "minecraft:compass",
 			"weight": 20
 		}, {
 			"type": "item",
+			"name": "additionaladditions:rose_gold_alloy",
+			"weight": 15
+		}, {
+			"type": "item",
+			"name": "supplementaries:altimeter",
+			"weight": 20
+		}, {
+			"type": "item",
 			"name": "minecraft:spyglass",
-			"weight": 10
+			"weight": 15
+		}, {
+			"type": "item",
+			"name": "additionaladditions:mysterious_bundle",
+			"weight": 12
 		}, {
 			"type": "item",
 			"name": "minecraft:iron_horse_armor",
@@ -387,7 +436,7 @@
 		}, {
 			"type": "item",
 			"name": "minecraft:disc_fragment_5",
-			"weight": 1
+			"weight": 6
 		}, {
 			"type": "item",
 			"name": "supplementaries:quiver",

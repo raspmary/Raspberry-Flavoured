@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "layer0": "clash:item/swept_axe"
+  },
+  "base": {
+    "parent": "clash:item/swept_axe_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "clash:item/swept_axe_gui"
+    },
+    "fixed": {
+      "parent": "clash:item/swept_axe_gui"
+    },
+    "ground": {
+      "parent": "clash:item/swept_axe_gui"
+    }
+  }
+}

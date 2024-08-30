@@ -1,0 +1,24 @@
+{
+   "targets": [
+   "minecraft:coal_ore",
+   "minecraft:iron_ore",
+   "minecraft:copper_ore",
+   "minecraft:gold_ore",
+   "minecraft:redstone_ore",
+   "minecraft:lapis_ore",
+   "minecraft:diamond_ore",
+   "oreganized:silver_ore",
+   "create:zinc_ore",
+   "kubejs:lead_ore",
+   "upgrade_aquatic:embedded_ammonite"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.stoneore.break",
+	  "place_sound": "kubejs:sound.stoneore.place",
+      "hit_sound": "kubejs:sound.stoneore.hit",
+      "fall_sound": "kubejs:sound.stoneore.fall",
+      "step_sound": "kubejs:sound.stoneore.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

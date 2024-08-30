@@ -1,0 +1,14 @@
+{
+   "targets": [
+   "minecraft:clay"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.clay.break",
+	  "place_sound": "kubejs:sound.clay.place",
+      "hit_sound": "kubejs:sound.clay.hit",
+      "fall_sound": "kubejs:sound.clay.fall",
+      "step_sound": "kubejs:sound.clay.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

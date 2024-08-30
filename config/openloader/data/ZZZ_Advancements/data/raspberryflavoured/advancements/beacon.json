@@ -26,6 +26,9 @@
       "text": "The Light of Hope"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

@@ -1,0 +1,148 @@
+{
+	"entries": [
+		{
+			"item": "#raspberry_flavoured:smithing_templates",
+			"text": ["Enchanted tablets can apply enchantments to equipment using smithing tables.", "All of them are made in a forge, using amethyst shards and a catalyst item that determines the tablet's enchantments."]
+		},
+		{
+			"item": "kubejs:smithing_template_1",
+			"text": "This tablet is imbued with the Swift Sneak and Phalanx enchantments. Swift Sneak is a 3-level enchantment that can be applied to leggings, and will increase the wearer's movement speed while they're sneaking - perfect for when you're trying to hide from sculk shriekers. Phalanx is a 2-level enchantment that be applied to shields, which will allow the wielder to move faster while they have their shield up."
+		},
+		{
+			"item": "kubejs:smithing_template_2",
+			"text": "This tablet is imbued with the Knockback and Bulwark enchantments. Knockback is a 2-level enchantment that can be applied to axes, swords, knives, or bows. It'll cause targets to be flung back further upon taking a hit. Bulwark is a single-level enchantment that can be applied to shields, which will prevent the wielder from being knocked back and can disable the attacker's weapon."
+		},
+		{
+			"item": "kubejs:smithing_template_3",
+			"text": "This tablet is imbued with the Respiration and Depth Strider enchantments. Respiration is a 3-level enchantment that can be applied to helmets, and will increase the wearer's underwater air supply, preventing them from drowning for longer. Depth Strider is a 3-level enchantment that can be applied to boots, and will increase the wearer's underwater movement speed."
+		},
+		{
+			"item": "kubejs:smithing_template_4",
+			"text": "This tablet is imbued with the Frost Walker and Frost Aspect enchantments. Frost Walker is a 4-level enchantment that can be applied to boots, and will temporarily freeze the surface of water and lava around the wearer, allowing them to walk over it. Frost Aspect is a 3-level enchantment that can be applied to melee weapons, and will allow the weapons' strikes to slow down targets."
+		},
+		{
+			"item": "kubejs:smithing_template_5",
+			"text": "This tablet is imbued with the Smite enchantment. Smite is a 5-level enchantment that can be applied to melee weapons, and will increase the weapon's damage against undead mobs, such as zombies and skeletons."
+		},
+		{
+			"item": "kubejs:smithing_template_6",
+			"text": "This tablet is imbued with the Bane of Arthropods and Spread of Ailments enchantments. Bane of Arthropods is a 5-level enchantment that can be applied to melee weapons, and will increase the weapon's damage against arthropods, like spiders. Spread of Ailments is a 3-level enchantment that can be applied to crossbows, and will apply the user's active effects to the arrows shot from the crossbow, inflicting targets with the same effects."
+		},
+		{
+			"item": "kubejs:smithing_template_7",
+			"text": "This tablet is imbued with the Quick Draw and Swiftstrike enchantments. Quick Draw is a single-level enchantment for bows and a 3-level enchantment for crossbows that increases their draw speed, allowing for faster fire. Swiftstrike is a 3-level enchantment that can be applied to melee weapons, and will decrease their cooldown between attacks."
+		},
+		{
+			"item": "kubejs:smithing_template_8",
+			"text": "This tablet is imbued with the Angler's Bounty enchantment. Angler's Bounty is a 3-level enchantment that can be applied to fishing rods, and will allow for a chance to catch two items with one reel."
+		},
+		{
+			"item": "kubejs:smithing_template_9",
+			"text": "This tablet is imbued with the Impaling, Trueshot and Backstabbing enchantments. Impaling is a 5-level enchantment that can be applied to tridents and will allow them to deal more damage to mobs that are naturally aquatic, or ones that are/recently were in contact with water. Trueshot is a 2-level enchantment for bows and a 4-level enchantment for crossbows, which will allow fired arrows to fly further and pierce through targets. Backstabbing is a 3-level enchantment that can be applied to knives, and will deal extra damage to targets struck from behind."
+		},
+		{
+			"item": "kubejs:smithing_template_10",
+			"text": "This tablet is imbued with the Riptide, Sweeping Edge and Power Swipe enchantments. Riptide is a 3-level enchantment for tridents that alters their functionality, disallowing them from being thrown but allowing any user in contact with water to launch in the direction they're facing. Sweeping Edge is a 3-level enchantment for swords which increases the damage dealt from their sweep attack. Power Swipe is a 2-level enchantment for necromium claymores that allows for their big swipe attack to travel further and hit more targets."
+		},
+		{
+			"item": "kubejs:smithing_template_11",
+			"text": "This tablet is imbued with the Channeling enchantment. Channeling is a single-level enchantment for tridents, which - during a thunderstorm - allows for them to call down a bolt of lightning upon landing after being thrown."
+		},
+		{
+			"item": "kubejs:smithing_template_12",
+			"text": "This tablet is imbued with the Stasis, Displacement and Exodisruption enchantments. Stasis is a single-level enchantment that can be applied to slingshots, and will allow for their projectiles to ignore gravity. Displacement is a 3-level enchantment for chestplates, which randomly causes attackers that come in contact with the wearer to teleport around. Exodisruption is a 5-level enchantment that can be applied to melee weapons, and will allow them to deal additional damage to Exodic mobs and inhibit teleportation."
+		},
+		{
+			"item": "kubejs:smithing_template_13",
+			"text": "This tablet is imbued with the Capacity enchantment. Capacity is a 3-level enchantment that can be applied to copper backtanks, and will increase their maximum air capacity."
+		},
+		{
+			"item": "kubejs:smithing_template_14",
+			"text": "This tablet is imbued with the Cavalier enchantment. Cavalier is a 3-level enchantment that can be applied to melee weapons, and will increase damage dealth when the wielder is mounted."
+		},
+		{
+			"item": "kubejs:smithing_template_15",
+			"text": "This tablet is imbued with the Leech and Vengeance enchantments. Leech is a 2-level enchantment that can be applied to melee weapons, and will allow them to restore the wielder's health upon defeating a mob. Vengeance is a 3-level enchantment that can be applied to armour, and will store some of the damage taken by the wearer and apply it to their next attack."
+		},
+		{
+			"item": "kubejs:smithing_template_16",
+			"text": "This tablet is imbued with the Launch enchantment. Launch is a 2-level enchantment that can be applied to melee weapons, and will make them fling targets upwards when hit."
+		},
+		{
+			"item": "kubejs:smithing_template_17",
+			"text": "This tablet is imbued with the Lure and Reeling enchantments. Lure is a 3-level enchantment that can be applied to fishing rods, and will decrease the time it takes to get a catch. Reeling is a 2-level enchantment that can be applied to crossbows, and will make shot arrows pull targets towards the wielder upon impact."
+		},
+		{
+			"item": "kubejs:smithing_template_18",
+			"text": "This tablet is imbued with the Vitality enchantment. Vitality is a 5-level enchantment that can be applied to chestplates, and will increase the wearer's maximum health by two hearts per level."
+		},
+		{
+			"item": "kubejs:smithing_template_19",
+			"text": "This tablet is imbued with the Shockwave enchantment. Shockwave is a 4-level enchantment that can be applied to boots, and will create a damaging shockwave around the wearer when they take fall damage."
+		},
+		{
+			"item": "kubejs:smithing_template_20",
+			"text": "This tablet is imbued with the Marking enchantment. Marking is a 3-level enchantment that can be applied to spyglasses, and will temporarily add a glowing outline to mobs viewed through the spyglass."
+		},
+		{
+			"item": "kubejs:smithing_template_21",
+			"text": "This tablet is imbued with the Multi-Leap enchantment. Multi-Leap is a 3-level enchantment that can be applied to leggings, and will allow the wearer to perform another jump mid-air for every level."
+		},
+		{
+			"item": "kubejs:smithing_template_22",
+			"text": "This tablet is imbued with the Reach enchantment. Reach is a 3-level enchantment that can be applied to chestplates, and will allow the wearer to reach blocks and attack mobs from further away."
+		},
+		{
+			"item": "kubejs:smithing_template_23",
+			"text": "This tablet is imbued with the Soul Speed and Homing enchantments. Soul Speed is a 3-level enchantment that can be applied to boots, and will increase the wearer's movement speed whenever they walk on soul-related blocks, such as soul sand, soul soil, soul salt crystals, or even sculk. Homing is a single-level enchantment that can be applied to ranged weapons, and will allow their projectiles to home in on targets."
+		},
+		{
+			"item": "kubejs:smithing_template_24",
+			"text": "This tablet is imbued with the Volley and Guard Break enchantments. Volley is a single-level enchantment for bows and a 3-level enchantment for crossbows, which increases the amount of arrows shot while only consuming a single arrow. Bows will fire the extra arrows in an arc, while crossbows will fire them in a horizontal line. Guard Break is a 3-level enchantment that can be applied to melee weapons, and will shorten targets' invulnerability time between hits."
+		},
+		{
+			"item": "clash:spear",
+			"text": "Electrum spears deal less damage, but can be charged to deal damage to mobs from further away and allow the wielder to dash in the direction they're moving when beginning the charge."
+		},
+		{
+			"item": "clash:swept_axe",
+			"text": "Netherite broad axes deal less single-target damage and will not function as tools, but will perform a wide sweep attack that deals their full damage to every target caught in the attack."
+		},
+		{
+			"item": "clash:greatblade",
+			"text": "Necromium claymores will not function as tools, but can be charged by holding right-click to unleash a big swipe attack, and striking with their hilt will cause targets to stagger and move backwards. They'll also cause mobs to drop their heads frequently."
+		},
+		{
+			"item": "mace_backport:mace",
+			"text": "Steel maces are heavy and won't deal a lot of damage upfront, but will deal increased damage depending on how many blocks the wielder has fallen before striking a target."
+		},
+		{
+			"item": "kubejs:rose_gold_rapier",
+			"text": "Rose gold rapiers deal little damage, but can strike very quickly and will heal half a heart of health for every hit if the wielder is below 6 hearts."
+		},
+		{
+			"item": "miningmaster:gem_forge",
+			"component": [
+				{
+					"text": "Forges are used to create enchanted tablets or modify various weapons."
+				},
+				{
+					"text": ""
+				},
+				{
+					"text": "",
+					"extra": [
+						{
+							"text": "No, there isn't another block called a Fabric.",
+							"italic": true
+						}	
+					]
+				}
+			]
+		},
+		{
+			"item": ["miningmaster:gem_forge", "#quark:runes"],
+			"text": "Forges can also create blank runes or colour existing ones, which can be applied at an anvil to change the colour of the enchantment glint effect on enchanted items."
+		}
+	]
+}

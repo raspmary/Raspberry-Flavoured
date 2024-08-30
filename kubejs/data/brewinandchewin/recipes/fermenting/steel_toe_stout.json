@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 1500,
+  "fermentingtime": 3000,
   "fluiditem": {
     "item": "brewinandchewin:strongroot_ale"
   },
@@ -16,7 +16,7 @@
       "tag": "forge:ingots/steel"
     },
 	{
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:crimson_fungus"
     },
     {
       "item": "minecraft:wheat"

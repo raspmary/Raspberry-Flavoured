@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/template_attached_stem",
+	"ambientocclusion": false,
+	"textures": {
+		"attached_stem": "block/melon_stem_attached",
+		"stem": "block/melon_stem_attached_cross"
+	}
+}

@@ -64,9 +64,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Hades' Gift"
+      "text": "Hephaestus' Gift"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "0"

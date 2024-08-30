@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "copperandtuffbackport:weathered_chiseled_copper"
+    },
+    {
+      "item": "additionaladditions:copper_patina"
+    }
+  ],
+  "results": [
+    {
+      "item": "copperandtuffbackport:oxidized_chiseled_copper"
+    }
+  ]
+}

@@ -30,26 +30,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "smite"
-              ]
-            }
-          ],
-          "name": "minecraft:book"
+          "weight": 15,
+          "name": "minecraft:music_disc_ward"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
+          "weight": 15,
+          "name": "minecraft:music_disc_mellohi"
         },
         {
           "type": "minecraft:item",
@@ -157,28 +144,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
+                "min": 1.0,
                 "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
           "name": "spelunkery:rough_cinnabar"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "spelunkery:rough_lazurite"
         },
         {
           "type": "minecraft:item",

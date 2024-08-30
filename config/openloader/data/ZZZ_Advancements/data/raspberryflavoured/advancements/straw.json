@@ -30,6 +30,9 @@
       "text": "Grasping at Straws"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

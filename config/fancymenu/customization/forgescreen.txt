@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = org.infernalstudios.miningmaster.client.gui.screen.inventory.GemForgeScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=554450%
+  orientation = mid-centered
+  x = 19
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=554450%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/fancymenu_assets/tickbuttonhover.png
+  backgroundnormal = config/fancymenu/fancymenu_assets/tickbutton.png
+}
+

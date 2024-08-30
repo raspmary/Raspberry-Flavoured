@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:cutting_board",
+  "parent": "raspberryflavoured:farming_root",
   "criteria": {
     "0": {
       "conditions": {},
@@ -10,18 +10,21 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Make a bedroll out of wool and leather, then sleep your troubles away"
+      "text": "Make a bed or bedroll and sleep your troubles away - sleeping may take longer than usual, but it'll accelerate various things such as your crops' growth and your furnaces' processing!"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "upgrade_aquatic:bedroll"
+      "item": "minecraft:red_bed"
     },
     "show_toast": true,
     "title": {
       "text": "Nighty Night"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

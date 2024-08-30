@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "farmersrespite:rose_hip_pie_slice",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4
+                }
+              ],
+              "conditions": [
+			    {
+				  "condition": "minecraft:match_tool",
+				  "predicate": {
+					"tag": "farmersdelight:tools/knives"
+				  }
+				},
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "farmersrespite:rose_hip_pie",
+                  "properties": {
+                    "bites": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "farmersrespite:rose_hip_pie_slice",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 3
+                }
+              ],
+              "conditions": [
+			    {
+				  "condition": "minecraft:match_tool",
+				  "predicate": {
+					"tag": "farmersdelight:tools/knives"
+				  }
+				},
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "farmersrespite:rose_hip_pie",
+                  "properties": {
+                    "bites": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "farmersrespite:rose_hip_pie_slice",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2
+                }
+              ],
+              "conditions": [
+			    {
+				  "condition": "minecraft:match_tool",
+				  "predicate": {
+					"tag": "farmersdelight:tools/knives"
+				  }
+				},
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "farmersrespite:rose_hip_pie",
+                  "properties": {
+                    "bites": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "farmersrespite:rose_hip_pie_slice",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ],
+              "conditions": [
+			    {
+				  "condition": "minecraft:match_tool",
+				  "predicate": {
+					"tag": "farmersdelight:tools/knives"
+				  }
+				},
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "farmersrespite:rose_hip_pie",
+                  "properties": {
+                    "bites": "3"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "farmersrespite:rose_hip_pie"
+}

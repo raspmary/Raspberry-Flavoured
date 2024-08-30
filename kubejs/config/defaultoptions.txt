@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","Supplementaries Generated Pack","quark:emote_resources","Forgery","Forgery grayscale","resources/01_VanillaTweaks","resources/02_Peeves-1.19compatedit","resources/03_DetailBrushcompatedit","resources/04_RefinedArmourcompatedit","resources/05_SoftWeather","resources/07_CreatedUpdated","resources/08_createredonestones","resources/09_CreateStyleModdedCompats","resources/10_VexBackport","resources/11_BatBackport","resources/12_FarcrsRecrafted","resources/13_UpToScratch","resources/14_QuarkVRO","resources/15_BetterMobModels","resources/16_BagelsAnimalTweaks","resources/17_RemodeledRabbit","resources/18_WarmPolarBear","resources/19_RaspberryResources"]
-incompatibleResourcePacks:["Resources for lucky:raspberry_lucky_block","quark:emote_resources","Forgery","Forgery grayscale","resources/01_VanillaTweaks","resources/12_FarcrsRecrafted","resources/13_UpToScratch"]
+resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","Supplementaries Generated Pack","quark:emote_resources","Forgery","Forgery grayscale","resources/01_VanillaTweaks","resources/02_Peeves-1.19compatedit","resources/03_DetailBrushcompatedit","resources/04_RefinedArmourcompatedit","resources/05_SoftWeather","resources/06_SHCEnhancedFire","resources/07_CreateReoxidized","resources/08_CreatedUpdated","resources/09_createredonestones","resources/10_CreateStyleModdedCompats","resources/11_VexBackport","resources/12_BatBackport","resources/13_FarcrsRecrafted","resources/14_UpToScratch","resources/15_BetterMobModels","resources/16_QuarkVRO","resources/17_BagelsAnimalTweaks","resources/18_RemodeledRabbit","resources/19_WarmPolarBear","resources/20_RailFix","resources/21_BannerPatternClarity","resources/22_BrushUp","resources/23_VintagePhotography","resources/24_RaspberryResources"]
+incompatibleResourcePacks:["quark:emote_resources","Forgery","Forgery grayscale","resources/01_VanillaTweaks","resources/12_FarcrsRecrafted","resources/13_UpToScratch"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -84,8 +84,8 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.left.control
-key_key.sprint:key.keyboard.left.shift
+key_key.sneak:key.keyboard.left.shift
+key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
@@ -193,6 +193,11 @@ key_key.raised.hud.up:key.keyboard.unknown
 key_key.raised.chat.down:key.keyboard.unknown
 key_key.raised.chat.up:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.unknown
+key_keybind.additional_enchantments.cycle_tipped:key.keyboard.unknown
+key_keybind.additional_enchantments.cycle_homing:key.keyboard.unknown
+key_keybind.additional_enchantments.cycle_explosive_tip:key.keyboard.unknown
+key_keybind.additional_enchantments.cycle_perception:key.keyboard.unknown
+key_keybind.additional_enchantments.ore_sight:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.25
 soundCategory_record:1.0

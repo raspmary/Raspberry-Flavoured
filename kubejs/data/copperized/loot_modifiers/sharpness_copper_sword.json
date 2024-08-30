@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "chance": 0.025,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+      ]
+    }
+  ],
+  "type": "copperized:enchanted_add_item",
+  "item": "copperized:copper_sword",
+  "enchantment": "minecraft:sharpness",
+  "level": 1,
+  "unique": true
+}

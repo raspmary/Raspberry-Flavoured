@@ -35,6 +35,9 @@
       "text": "Locked and Loded"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

@@ -5,6 +5,14 @@
       "range": 0
     },
     {
+      "item": "spelunkery:cinnabar",
+      "range": 7
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "range": 7
+    },
+    {
       "item": "minecraft:iron_ingot",
       "range": 15
     },

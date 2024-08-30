@@ -15,13 +15,24 @@
       "item": "minecraft:rotten_flesh"
     },
 	{
+      "item": "minecraft:rotten_flesh"
+    },
+	{
+      "item": "kubejs:soul_salt"
+    },
+	{
       "item": "kubejs:soul_salt"
     }
   ],
   "results": [
     {
-      "item": "minecraft:leather",
+      "item": "minecraft:rabbit_hide",
 	  "count": 4
+    },
+	{
+      "item": "minecraft:rabbit_hide",
+	  "chance": 0.45,
+	  "count": 2
     }
   ]
 }

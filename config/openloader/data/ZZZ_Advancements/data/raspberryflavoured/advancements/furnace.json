@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:campfire",
+  "parent": "raspberryflavoured:pickaxe",
   "criteria": {
     "0": {
       "conditions": {
@@ -30,7 +30,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Craft and place down a furnace to process materials"
+      "text": "Craft and place down a furnace to process materials - you'll need a piece of coal to make one!"
     },
     "frame": "task",
     "hidden": false,
@@ -42,6 +42,9 @@
       "text": "Hot Topic"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0",

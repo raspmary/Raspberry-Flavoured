@@ -1,0 +1,20 @@
+{
+   "targets": [
+	"minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:respawn_anchor",
+    "minecraft:enchanting_table",
+    "minecraft:ender_chest",
+    "quark:obsidian_pressure_plate",
+	"quark:ender_watcher"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.blackstone.break",
+	  "place_sound": "kubejs:sound.blackstone.place",
+      "hit_sound": "kubejs:sound.blackstone.hit",
+      "fall_sound": "kubejs:sound.blackstone.fall",
+      "step_sound": "kubejs:sound.blackstone.step",
+      "pitch": 1.2,
+      "volume": 1
+   } 
+}

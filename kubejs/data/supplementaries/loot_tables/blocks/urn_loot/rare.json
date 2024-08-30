@@ -10,15 +10,6 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 35.0
-              },
-              "treasure": true
-            },
-            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -26,9 +17,6 @@
                 "max": 0.75
               },
               "add": false
-            },
-            {
-              "function": "supplementaries:curse_loot"
             }
           ],
           "name": "minecraft:iron_helmet"
@@ -38,15 +26,6 @@
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 35.0
-              },
-              "treasure": true
-            },
-            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -54,9 +33,6 @@
                 "max": 0.75
               },
               "add": false
-            },
-            {
-              "function": "supplementaries:curse_loot"
             }
           ],
           "name": "minecraft:iron_boots"
@@ -155,7 +131,7 @@
               "add": false
             }
           ],
-          "name": "spelunkery:rough_lazurite"
+          "name": "spelunkery:rough_cinnabar"
         },
         {
           "type": "minecraft:item",
@@ -175,12 +151,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 5,
           "name": "minecraft:skeleton_skull"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 5,
           "name": "minecraft:zombie_head"
         },
         {

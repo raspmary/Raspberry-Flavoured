@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "layer0": "kubejs:item/rose_gold_rapier"
+  },
+  "base": {
+    "parent": "kubejs:item/rose_gold_rapier_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "kubejs:item/rose_gold_rapier_gui"
+    },
+    "fixed": {
+      "parent": "kubejs:item/rose_gold_rapier_gui"
+    },
+    "ground": {
+      "parent": "kubejs:item/rose_gold_rapier_gui"
+    }
+  }
+}

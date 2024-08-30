@@ -17,10 +17,6 @@
 	  "chance": 0.25,
       "item": "architects_palette:withered_bone",
 	  "count": 2
-    },
-	{
-      "item": "create:experience_nugget",
-	  "count": 12
     }
   ],
   "tool": {

@@ -1,0 +1,22 @@
+{
+  "target_type": "menu_class",
+    "target": "InventoryMenu",
+    "slot_modifiers": [
+    {
+      "slots": 0,
+      "x_offset": -9,
+      "y_offset": 16
+    },
+    {
+      "slots": "1->4",
+      "x_offset": -9,
+      "y_offset": 17
+    },
+    {
+      "slots": 45,
+      "x_offset": -15,
+      "y_offset": 0
+    }
+  ],
+  "title_y_offset": -1400
+}

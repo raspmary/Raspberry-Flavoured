@@ -15,12 +15,9 @@
                 "min": 0.15
               },
               "function": "minecraft:set_damage"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_shovel",
+          "name": "alloyed:steel_shovel",
           "weight": 15
         },
         {
@@ -39,12 +36,9 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_pickaxe",
+          "name": "alloyed:steel_pickaxe",
           "weight": 12
         },
         {
@@ -82,18 +76,6 @@
           ],
           "name": "minecraft:ancient_debris",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:saddle",
-          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -152,9 +134,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:golden_axe"

@@ -1,0 +1,15 @@
+{
+  "block.jade.ricochet": {
+	"replace": true,
+    "sounds": [
+      "kubejs:amethyst_bounce/bounce1",
+      "kubejs:amethyst_bounce/bounce2",
+      "kubejs:amethyst_bounce/bounce3",
+      "kubejs:amethyst_bounce/bounce4",
+      "kubejs:amethyst_bounce/bounce5",
+      "kubejs:amethyst_bounce/bounce6",
+      "kubejs:amethyst_bounce/bounce7"
+    ],
+    "subtitle": "subtitles.block.jade.ricochet"
+  }
+}

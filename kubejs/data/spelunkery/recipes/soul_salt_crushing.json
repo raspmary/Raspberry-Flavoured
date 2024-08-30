@@ -5,22 +5,15 @@
       "item": "spelunkery:rock_salt"
     }
   ],
-  "processingTime": 500,
   "results": [
     {
-      "item": "kubejs:soul_salt"
-    },
-    {
-      "chance": 0.7,
-      "item": "kubejs:soul_salt"
+      "item": "kubejs:soul_salt",
+	  "count": 2
     },
     {
       "chance": 0.35,
-      "item": "kubejs:soul_salt"
-    },
-    {
-      "chance": 0.165,
-      "item": "kubejs:soul_salt"
+      "item": "kubejs:soul_salt",
+	  "count": 2
     }
   ]
 }

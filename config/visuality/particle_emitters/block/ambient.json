@@ -8,7 +8,9 @@
         "minecraft:diamond_ore",
         "minecraft:deepslate_diamond_ore",
         "oreganized:silver_ore",
-        "oreganized:deepslate_silver_ore"
+        "oreganized:deepslate_silver_ore",
+        "oreganized:silver_block",
+        "oreganized:raw_silver_block"
       ],
       "particle": {
         "type": "visuality:sparkle",
@@ -59,19 +61,18 @@
     },
     {
       "block": [
-        "minecraft:soul_sand",
-        "minecraft:soul_soil"
-      ],
-      "direction": "up",
-      "particle": "visuality:soul"
-    },
-    {
-      "block": [
         "spelunkery:rock_salt_block",
         "spelunkery:rock_salt",
         "supplementaries:soap_block"
       ],
       "particle": "buzzier_bees:small_soul_fire_flame"
+    },
+    {
+      "block": [
+        "minecraft:soul_fire"
+      ],
+      "direction": "up",
+      "particle": "visuality:soul"
     },
     {
       "block": "minecraft:fire",

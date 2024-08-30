@@ -1,18 +1,24 @@
 {
-  "type": "create:filling",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
     {
       "item": "minecraft:paper"
     },
     {
-      "amount": 100,
-      "fluid": "kubejs:butterscotch"
+      "item": "create_confectionery:cocoa_butter"
     }
   ],
-  "results": [
+  "result": {
+    "item": "supplementaries:candy",
+    "count": 8
+  },
+  "conditions": [
     {
-		"item": "supplementaries:candy",
-		"count": 4
+      "type": "supplementaries:flag",
+      "flag": "candy"
     }
   ]
 }

@@ -1,0 +1,54 @@
+[21:47:36] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
+[21:47:36] [INIT] Loaded plugins:
+[21:47:36] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[21:47:36] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[21:47:36] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[21:47:36] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[21:47:36] [INIT] - com.almostreliable.morejs.Plugin
+[21:47:36] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[21:47:36] [INIT] - com.probejs.ProbeJSPlugin
+[21:47:38] [INFO] Loaded script startup_scripts:blocks.js in 0.148 s
+[21:47:38] [INFO] Loaded script startup_scripts:block_modify.js in 0.013 s
+[21:47:38] [INFO] Loaded script startup_scripts:durability_modify.js in 0.003 s
+[21:47:38] [INFO] Loaded script startup_scripts:food_modify.js in 0.076 s
+[21:47:38] [INFO] horse_armor.js#3: Loaded Java class 'net.minecraft.world.item.HorseArmorItem'
+[21:47:38] [INFO] horse_armor.js#4: Loaded Java class 'net.minecraft.world.item.Item$Properties'
+[21:47:38] [INFO] Loaded script startup_scripts:horse_armor.js in 0.021 s
+[21:47:38] [INFO] Loaded script startup_scripts:icons.js in 0.001 s
+[21:47:38] [INFO] Loaded script startup_scripts:incomplete_items.js in 0.001 s
+[21:47:38] [INFO] Loaded script startup_scripts:items.js in 0.011 s
+[21:47:38] [INFO] Loaded script startup_scripts:misc.js in 0.004 s
+[21:47:38] [INFO] Loaded script startup_scripts:music_discs.js in 0.009 s
+[21:47:38] [INFO] potions_effects.js#3: Loaded Java class 'net.minecraft.world.damagesource.EntityDamageSource'
+[21:47:38] [INFO] potions_effects.js#36: Loaded Java class 'net.minecraft.world.effect.MobEffectInstance'
+[21:47:38] [INFO] Loaded script startup_scripts:potions_effects.js in 0.017 s
+[21:47:38] [INFO] Loaded script startup_scripts:smithing_templates.js in 0.002 s
+[21:47:38] [INFO] Loaded script startup_scripts:sound_events.js in 0.001 s
+[21:47:38] [INFO] Loaded script startup_scripts:stack_size_modify.js in 0.002 s
+[21:47:38] [INFO] Loaded script startup_scripts:worldgen.js in 0.001 s
+[21:47:38] [INFO] Loaded 15/15 KubeJS startup scripts in 1.391 s
+[21:48:36] [INFO] potions_effects.js#50: Removed potion brewing recipe: minecraft:swiftness + {"item":"minecraft:amethyst_shard"} -> additionaladditions:haste_potion
+[21:48:36] [INFO] potions_effects.js#51: Removed potion brewing recipe: additionaladditions:haste_potion + {"item":"minecraft:redstone"} -> additionaladditions:long_haste_potion
+[21:48:36] [INFO] potions_effects.js#51: Removed potion brewing recipe: minecraft:long_swiftness + {"item":"minecraft:amethyst_shard"} -> additionaladditions:long_haste_potion
+[21:48:36] [INFO] potions_effects.js#52: Removed potion brewing recipe: additionaladditions:haste_potion + {"item":"minecraft:glowstone_dust"} -> additionaladditions:strong_haste_potion
+[21:48:36] [INFO] potions_effects.js#52: Removed potion brewing recipe: minecraft:strong_swiftness + {"item":"minecraft:amethyst_shard"} -> additionaladditions:strong_haste_potion
+[21:48:36] [INFO] potions_effects.js#53: Removed potion brewing recipe: minecraft:awkward + [] -> quark:resilience
+[21:48:36] [INFO] potions_effects.js#54: Removed potion brewing recipe: quark:resilience + [] -> quark:long_resilience
+[21:48:36] [INFO] potions_effects.js#55: Removed potion brewing recipe: quark:resilience + [] -> quark:strong_resilience
+[21:48:36] [INFO] potions_effects.js#56: Removed potion brewing recipe: minecraft:awkward + {"item":"windswept:holly_berries"} -> windswept:thorns
+[21:48:36] [INFO] potions_effects.js#57: Removed potion brewing recipe: minecraft:awkward + {"item":"minecraft:turtle_helmet"} -> minecraft:turtle_master
+[21:48:36] [INFO] potions_effects.js#58: Removed potion brewing recipe: minecraft:awkward + {"item":"caverns_and_chasms:bejeweled_pearl"} -> caverns_and_chasms:rewind
+[21:48:36] [INFO] potions_effects.js#59: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:nether_wart"} -> minecraft:awkward
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:glistering_melon_slice"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:ghast_tear"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:rabbit_foot"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:blaze_powder"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:spider_eye"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:sugar"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:magma_cream"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:redstone"} -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#60: Removed potion brewing recipe: minecraft:water + [] -> minecraft:mundane
+[21:48:36] [INFO] potions_effects.js#61: Removed potion brewing recipe: minecraft:water + {"item":"minecraft:glowstone_dust"} -> minecraft:thick
+[21:48:36] [INFO] potions_effects.js#62: Removed potion brewing recipe: minecraft:awkward + {"item":"minecraft:sugar"} -> minecraft:swiftness
+[21:48:36] [INFO] potions_effects.js#63: Removed potion brewing recipe: minecraft:night_vision + {"item":"minecraft:fermented_spider_eye"} -> minecraft:invisibility
+[21:48:36] [INFO] potions_effects.js#64: Removed potion brewing recipe: minecraft:water + {"item":"oreganized:lead_ingot"} -> oreganized:stunning

@@ -1,0 +1,21 @@
+{
+  "type": "exposure:film_developing",
+  "film": {
+    "item": "exposure:color_film"
+  },
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:awkward\"}"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:thick\"}"
+    }
+  ],
+  "result": {
+    "item": "exposure:developed_color_film"
+  }
+}

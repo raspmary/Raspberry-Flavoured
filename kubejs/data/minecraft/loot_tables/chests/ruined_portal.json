@@ -1,6 +1,31 @@
 {
   "type": "minecraft:chest",
   "pools": [
+	{
+      "bonus_rolls": 0.0,
+	  "entries": [
+		{
+          "type": "minecraft:item",
+          "name": "quark:golden_apple_crate",
+          "weight": 1
+        },
+		{
+          "type": "minecraft:empty",
+          "weight": 100
+        }
+	  ],
+      "rolls": 1.0
+	},
+	{
+      "bonus_rolls": 0.0,
+	  "entries": [
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:crying_obsidian"
+        }
+	  ],
+      "rolls": 1.0
+	},
     {
       "bonus_rolls": 0.0,
       "entries": [
@@ -34,7 +59,7 @@
             }
           ],
           "name": "minecraft:crying_obsidian",
-          "weight": 15
+          "weight": 22
         },
         {
           "type": "minecraft:item",
@@ -98,9 +123,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_sword",
@@ -110,9 +139,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_axe",
@@ -122,9 +155,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_hoe",
@@ -134,9 +171,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_shovel",
@@ -146,9 +187,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_pickaxe",
@@ -158,9 +203,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_boots",
@@ -170,9 +219,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_chestplate",
@@ -182,9 +235,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_helmet",
@@ -194,9 +251,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 15.0,
-              "treasure": false
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:golden_leggings",
@@ -217,11 +278,6 @@
           ],
           "name": "minecraft:glistering_melon_slice",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -283,7 +339,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bell"
+          "name": "minecraft:bell",
+          "weight": 2
         },
         {
           "type": "minecraft:item",

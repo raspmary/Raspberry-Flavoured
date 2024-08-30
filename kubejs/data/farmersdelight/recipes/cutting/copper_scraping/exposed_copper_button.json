@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:exposed_copper_button"
+    }
+  ],
+  "result": [
+    {
+      "item": "caverns_and_chasms:copper_button",
+      "count": 1
+    },
+    {
+      "item": "additionaladditions:copper_patina",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.scrape",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

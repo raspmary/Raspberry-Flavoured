@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 3,
-        "max": 6
+        "min": 6,
+        "max": 8
       },
       "entries": [
         {
@@ -23,6 +23,22 @@
           "weight": 3,
           "name": "minecraft:prismarine_crystals"
         },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3,
+          "name": "minecraft:prismarine_shard"
+        },
         {
           "type": "minecraft:item",
           "weight": 4,
@@ -32,6 +48,11 @@
           "type": "minecraft:item",
           "weight": 4,
           "name": "farmersdelight:apple_pie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "kubejs:prickly_pear_pie"
         },
         {
           "type": "minecraft:item",
@@ -149,22 +170,6 @@
           ],
           "weight": 10,
           "name": "minecraft:gunpowder"
-        },
-        {
-          "type": "minecraft:item",
-		  "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "weight": 10,
-          "name": "supplementaries:flax"
         },
         {
           "type": "minecraft:item",
@@ -320,6 +325,17 @@
         },
         {
           "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 1,
           "name": "spelunkery:raw_silver_nugget"
         },
@@ -341,17 +357,23 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "supplementaries:altimeter"
+          "name": "caverns_and_chasms:depth_gauge"
         },
         {
           "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 4,
           "name": "minecraft:slime_ball"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "autumnity:snail_goo"
         },
 		{
           "type": "minecraft:item",
@@ -360,14 +382,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 5.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3,
-          "name": "minecraft:experience_bottle"
+          "weight": 4,
+          "name": "autumnity:snail_goo"
         },
         {
           "type": "minecraft:item",
@@ -376,6 +398,17 @@
         },
         {
           "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 1,
           "name": "kubejs:raw_ammonite"
         }

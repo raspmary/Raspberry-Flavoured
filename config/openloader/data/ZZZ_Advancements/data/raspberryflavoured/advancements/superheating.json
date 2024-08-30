@@ -26,7 +26,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Feed a Blaze Cake to a Blaze Burner to super-heat it"
+      "text": "Feed a Blaze Tart to a Blaze Burner to superheat it"
     },
     "frame": "goal",
     "hidden": false,
@@ -38,6 +38,9 @@
       "text": "Fiery Passion"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

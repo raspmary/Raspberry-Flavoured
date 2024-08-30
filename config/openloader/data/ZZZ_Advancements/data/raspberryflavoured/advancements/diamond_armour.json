@@ -67,6 +67,9 @@
       "text": "Cover Me In Diamonds"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

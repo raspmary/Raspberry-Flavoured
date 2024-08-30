@@ -3,10 +3,6 @@
 
 	[types.leaves_type]
 
-		[types.leaves_type.environmental]
-			willow = true
-			cherry = true
-
 		[types.leaves_type.upgrade_aquatic]
 			river = true
 
@@ -30,43 +26,42 @@
 			red_maple = true
 
 		[types.leaves_type.quark]
-			blue_blossom = true
-			lavender_blossom = true
-			orange_blossom = true
-			pink_blossom = true
-			yellow_blossom = true
-			red_blossom = true
-			ancient = true
+			blue_blossom = false
+			lavender_blossom = false
+			orange_blossom = false
+			pink_blossom = false
+			yellow_blossom = false
+			red_blossom = false
+			ancient = false
 
 		[types.leaves_type.culturaldelights]
 			avocado = true
-			fruiting_avocado = true
+			fruiting_avocado = false
 
 		[types.leaves_type.architects_palette]
 			twisted = true
 
 		[types.leaves_type.windswept]
-			holly = true
+			holly = false
 			chestnut = true
+
+		[types.leaves_type.environmental]
+			willow = true
+			cherry = true
 
 	[types.wood_type]
 
 		[types.wood_type.quark]
 			bamboo = true
 			azalea = false
-			blossom = true
-			ancient = true
+			blossom = false
+			ancient = false
 
 		[types.wood_type.ecologics]
-			flowering_azalea = true
+			flowering_azalea = false
 			azalea = true
 			coconut = true
-			walnut = true
-
-		[types.wood_type.environmental]
-			willow = true
-			cherry = true
-			wisteria = true
+			walnut = false
 
 		[types.wood_type.upgrade_aquatic]
 			driftwood = true
@@ -76,9 +71,9 @@
 			rosewood = true
 			morado = true
 			yucca = true
-			kousa = true
+			kousa = false
 			aspen = true
-			grimwood = true
+			grimwood = false
 
 		[types.wood_type.autumnity]
 			maple = true
@@ -87,13 +82,19 @@
 			twisted = true
 
 		[types.wood_type.windswept]
-			holly = true
+			holly = false
 			chestnut = true
 
-		[types.wood_type.create_dd]
-			rose = true
-			smoked = true
-			spirit = true
+		[types.wood_type.environmental]
+			willow = true
+			cherry = true
+			wisteria = true
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.wood_type.endergetic]
+			poise = true
 
 [entries]
 
@@ -101,7 +102,7 @@
 
 		[entries.leaves_type.quark]
 			hedge = true
-			leaf_carpet = true
+			leaf_carpet = false
 
 		[entries.leaves_type.woodworks]
 			leaf_pile = true
@@ -113,6 +114,8 @@
 			boards = true
 			ladder = false
 			beehive = true
+			trapped_chest = true
+			chest = true
 
 		[entries.wood_type.quark]
 			vertical_planks = false
@@ -132,7 +135,7 @@
 			shelf = true
 			drawer = true
 			shutter = true
-			planter_box = true
+			planter_box = false
 			bench = true
 			chair = true
 
@@ -148,5 +151,5 @@
 			board_wall = true
 
 		[entries.wood_type.twigs]
-			table = true
+			table = false
 

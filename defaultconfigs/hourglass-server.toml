@@ -4,12 +4,12 @@
 	#Day is defined as any time between 23500 (middle of dawn) and 12500 (middle of dusk) the next day.
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	daySpeed = 0.75
+	daySpeed = 0.7
 	#The speed at which time passes during the night.
 	#Night is defined as any time between 12500 (middle of dusk) and 23500 (middle of dawn).
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	nightSpeed = 0.75
+	nightSpeed = 0.7
 
 	[time.effects]
 		#When applied, this effect syncs the passage of weather with the current speed of time.
@@ -58,14 +58,14 @@
 	#The maximum speed at which time passes when all players are sleeping.
 	#A value of 110 is nearly equal to the time it takes to sleep in vanilla.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMax = 9.5
+	sleepSpeedMax = 10.0
 	#The minimum speed at which time passes when only 1 player is sleeping in a full server.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMin = 0.5
+	sleepSpeedMin = 0.0
 	#The speed at which time passes when all players are sleeping.
 	#Set to -1 to disable this feature (sleepSpeedMax will be used when all players are sleeping).
 	#Range: -1.0 ~ 24000.0
-	sleepSpeedAll = 9.0
+	sleepSpeedAll = -1
 	#This parameter defines the curvature of the interpolation function that translates the sleeping player percentage into time-speed.
 	#The function used is a Normalized Tunable Sigmoid Function.
 	#A value of 0.5 represents a linear relationship.
@@ -78,7 +78,7 @@
 	#Set to 'true' for the weather to clear when players wake up in the morning as it does in vanilla.
 	#Set to 'false' to force weather to pass naturally. Adds realism when accelerateWeather is enabled.
 	#Note: This setting is ignored if game rule doWeatherCycle is false.
-	clearWeatherOnWake = true
+	clearWeatherOnWake = false
 	#When true, players are allowed to sleep at all times of day in dimensions controlled by Hourglass.
 	#Note: Other mods may override this ability.
 	allowDaySleep = false
@@ -103,7 +103,7 @@
 			#sleepingPlayers -> the number of players in the current dimension who were sleeping.
 			#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 			#sleepingPercentage -> the percentage of players in the current dimension who were sleeping (does not include % symbol).
-			message = "§eGood morning!"
+			message = "Good morning!"
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
 			type = "GAME_INFO"

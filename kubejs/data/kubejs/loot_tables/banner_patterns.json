@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_banner_pattern",
+		  "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_banner_pattern",
+		  "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skull_banner_pattern",
+		  "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mojang_banner_pattern",
+		  "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:globe_banner_pattern",
+		  "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "windswept:snow_golem_banner_pattern",
+		  "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "windswept:snow_charge_banner_pattern",
+		  "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "windswept:rose_flower_banner_pattern",
+		  "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "neapolitan:chimpanzee_banner_pattern",
+		  "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "autumnity:maple_leaf_banner_pattern",
+		  "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "autumnity:swirl_banner_pattern",
+		  "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buzzier_bees:honeycomb_banner_pattern",
+		  "weight": 12
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

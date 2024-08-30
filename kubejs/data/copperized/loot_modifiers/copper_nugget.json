@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "chance": 0.15,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+      ]
+    }
+  ],
+  "type": "copperized:add_item",
+  "item": "copperized:copper_nugget",
+  "minAmount": 5,
+  "maxAmount": 8,
+  "unique": true
+}

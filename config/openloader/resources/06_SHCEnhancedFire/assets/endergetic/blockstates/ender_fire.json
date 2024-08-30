@@ -1,0 +1,16 @@
+{
+    "multipart": [
+	{
+	   "apply": [
+		{ "model": "endergetic:block/ender_fire_floor0" },
+		{ "model": "endergetic:block/ender_fire_floor0", "y": 90  },
+		{ "model": "endergetic:block/ender_fire_floor0", "y": 180 },
+		{ "model": "endergetic:block/ender_fire_floor0", "y": 270 },
+		{ "model": "endergetic:block/ender_fire_floor1" },
+		{ "model": "endergetic:block/ender_fire_floor1", "y": 90  },
+		{ "model": "endergetic:block/ender_fire_floor1", "y": 180 },
+		{ "model": "endergetic:block/ender_fire_floor1", "y": 270 }
+            ]
+	}
+    ]
+}

@@ -7,13 +7,13 @@
         "primary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:stone"
+            "Name": "minecraft:granite"
           }
         },
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:stone"
+            "Name": "minecraft:diorite"
           }
         },
         "stone_pattern": {

@@ -14,14 +14,6 @@
 	  "chance": 0.2,
 	  "count": 1,
       "item": "spelunkery:rough_diamond"
-    },
-    {
-      "item": "create:experience_nugget"
-    },
-    {
-	  "chance": 0.2,
-	  "count": 3,
-      "item": "create:experience_nugget"
     }
   ]
 }

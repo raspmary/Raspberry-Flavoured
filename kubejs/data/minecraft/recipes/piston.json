@@ -11,7 +11,7 @@
       "tag": "minecraft:planks"
     },
     "X": {
-      "item": "minecraft:copper_ingot"
+      "tag": "brewinandchewin:iron_or_lead"
     }
   },
   "pattern": [

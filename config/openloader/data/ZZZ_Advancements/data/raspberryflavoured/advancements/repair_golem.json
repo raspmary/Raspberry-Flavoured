@@ -13,27 +13,43 @@
           "type": "minecraft:iron_golem"
         }
       }
+    },
+    "1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_ingot"
+          ]
+        },
+        "entity": {
+          "type": "caverns_and_chasms:copper_golem"
+        }
+      }
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Repair an iron golem with an iron ingot"
+      "text": "Repair an iron golem with an iron ingot, or a copper golem with a copper ingot"
     },
     "frame": "task",
     "hidden": true,
     "icon": {
-      "item": "minecraft:iron_ingot"
+      "item": "another_furniture:furniture_hammer"
     },
     "show_toast": true,
     "title": {
       "text": "Meet the Medic"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
-      "0"
+      "0", "1"
     ]
   ]
 }

@@ -1,0 +1,13 @@
+
+["Sully's Mod"]
+
+	["Sully's Mod"."Grindstone Tooltip"]
+		#If the tooltips appended to grindable items in Sully's Mod should be removed
+		"No Grindstone Tooltip" = true
+
+["Brewin' and Chewin'"]
+
+	["Brewin' and Chewin'".Tipsy]
+		#If the tipsy effect should, instead of doing whatever it does now, should act as a progressively worsening nausea effect. TO FULLY DISABLE THIS FEATURE, PLEASE ALSO TURN OFF "WEIRD TIPSY" IN THE COMMON CONFIG
+		"Weird Tipsy" = true
+

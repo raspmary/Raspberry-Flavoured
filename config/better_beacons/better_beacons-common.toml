@@ -11,7 +11,7 @@
 	#This is a list that contains the secondary effects that a beacon has when at level 4. I would recommend a maximum of four effects to prevent them from extending beyond the GUI. DEFAULT: "minecraft:night_vision", "minecraft:regeneration", "minecraft:fire_resistance"
 	"Secondary Effects" = ["minecraft:night_vision", "minecraft:regeneration", "minecraft:fire_resistance", "cofh_core:explosion_resistance"]
 	#This is a list that contains the tertiary effects that a beacon has when at level 5. I would recommend a maximum of two effects to prevent them from extending beyond the GUI. DEFAULT: "better_beacons:phantom_bane", "better_beacons:patrol_nullifier"
-	"Tertiary Effects" = ["cofh_core:clarity", "cofh_core:panacea"]
+	"Tertiary Effects" = ["cofh_core:true_invisibility", "cofh_core:panacea"]
 
 ["Payment Item Range && Block Amplifier"]
 	#Sets if depending on the payment item used the range of the beacon will increase. DEFAULT: True

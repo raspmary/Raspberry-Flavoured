@@ -14,10 +14,6 @@
 	  "chance": 0.4,
       "item": "minecraft:rotten_flesh",
 	  "count": 2
-    },
-	{
-      "item": "create:experience_nugget",
-	  "count": 3
     }
   ],
   "tool": {

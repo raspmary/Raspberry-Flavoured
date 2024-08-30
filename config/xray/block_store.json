@@ -1,0 +1,604 @@
+[
+  {
+    "name": "Diorite Gold Ore",
+    "blockName": "spelunkery:diorite_gold_ore",
+    "order": 29,
+    "color": 4558338,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Spirit Garnet Ore",
+    "blockName": "miningmaster:deepslate_spirit_garnet_ore",
+    "order": 74,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Tuff Lapis Lazuli Ore",
+    "blockName": "spelunkery:tuff_lapis_ore",
+    "order": 43,
+    "color": 3938258,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Gold Ore",
+    "blockName": "minecraft:deepslate_gold_ore",
+    "order": 27,
+    "color": 7758968,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Lucky Citrine Ore",
+    "blockName": "miningmaster:deepslate_lucky_citrine_ore",
+    "order": 76,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Unbreaking Iolite Ore",
+    "blockName": "miningmaster:deepslate_unbreaking_iolite_ore",
+    "order": 80,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Diorite Diamond Ore",
+    "blockName": "spelunkery:diorite_diamond_ore",
+    "order": 15,
+    "color": 14419772,
+    "drawing": false
+  },
+  {
+    "name": "Dive Aquamarine Ore",
+    "blockName": "miningmaster:dive_aquamarine_ore",
+    "order": 61,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Diamond Ore",
+    "blockName": "minecraft:deepslate_diamond_ore",
+    "order": 13,
+    "color": 7001599,
+    "drawing": false
+  },
+  {
+    "name": "Granite Coal Ore",
+    "blockName": "spelunkery:granite_coal_ore",
+    "order": 2,
+    "color": 5370949,
+    "drawing": false
+  },
+  {
+    "name": "Granite Diamond Ore",
+    "blockName": "spelunkery:granite_diamond_ore",
+    "order": 14,
+    "color": 1168855,
+    "drawing": false
+  },
+  {
+    "name": "Smooth Basalt Diamond Ore",
+    "blockName": "spelunkery:smooth_basalt_diamond_ore",
+    "order": 18,
+    "color": 179543,
+    "drawing": false
+  },
+  {
+    "name": "Calcite Redstone Ore",
+    "blockName": "spelunkery:calcite_redstone_ore",
+    "order": 51,
+    "color": 10123324,
+    "drawing": false
+  },
+  {
+    "name": "Block of Rough Lazurite",
+    "blockName": "spelunkery:rough_lazurite_block",
+    "order": 86,
+    "color": 255,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Spider Kunzite Ore",
+    "blockName": "miningmaster:deepslate_spider_kunzite_ore",
+    "order": 79,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Nether Quartz Ore",
+    "blockName": "minecraft:nether_quartz_ore",
+    "order": 52,
+    "color": 8549753,
+    "drawing": false
+  },
+  {
+    "name": "Lazurite Ore",
+    "blockName": "minecraft:lapis_ore",
+    "order": 38,
+    "color": 255,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Divine Beryl Ore",
+    "blockName": "miningmaster:deepslate_divine_beryl_ore",
+    "order": 78,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Copper Ore",
+    "blockName": "minecraft:copper_ore",
+    "order": 6,
+    "color": 3147459,
+    "drawing": false
+  },
+  {
+    "name": "Diorite Redstone Ore",
+    "blockName": "spelunkery:diorite_redstone_ore",
+    "order": 48,
+    "color": 10812063,
+    "drawing": false
+  },
+  {
+    "name": "Stone",
+    "blockName": "minecraft:stone",
+    "order": 71,
+    "color": 7171695,
+    "drawing": false
+  },
+  {
+    "name": "Malacrust",
+    "blockName": "miningmaster:malacrust",
+    "order": 85,
+    "color": 42495,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Copper Ore",
+    "blockName": "minecraft:deepslate_copper_ore",
+    "order": 7,
+    "color": 1246048,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Haste Peridot Ore",
+    "blockName": "miningmaster:deepslate_haste_peridot_ore",
+    "order": 75,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Silver Ore",
+    "blockName": "oreganized:silver_ore",
+    "order": 66,
+    "color": 16777215,
+    "drawing": false
+  },
+  {
+    "name": "Granite Redstone Ore",
+    "blockName": "spelunkery:granite_redstone_ore",
+    "order": 47,
+    "color": 3944103,
+    "drawing": false
+  },
+  {
+    "name": "Zinc Ore",
+    "blockName": "create:zinc_ore",
+    "order": 54,
+    "color": 6767674,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Silver Ore",
+    "blockName": "oreganized:deepslate_silver_ore",
+    "order": 67,
+    "color": 16777215,
+    "drawing": false
+  },
+  {
+    "name": "Nether Gold Ore",
+    "blockName": "minecraft:nether_gold_ore",
+    "order": 26,
+    "color": 5858087,
+    "drawing": false
+  },
+  {
+    "name": "Kinetic Opal Ore",
+    "blockName": "miningmaster:kinetic_opal_ore",
+    "order": 64,
+    "color": 13552966,
+    "drawing": true
+  },
+  {
+    "name": "Emerald Ore",
+    "blockName": "minecraft:emerald_ore",
+    "order": 19,
+    "color": 6271635,
+    "drawing": false
+  },
+  {
+    "name": "Granite Copper Ore",
+    "blockName": "spelunkery:granite_copper_ore",
+    "order": 8,
+    "color": 12327715,
+    "drawing": false
+  },
+  {
+    "name": "Andesite Emerald Ore",
+    "blockName": "spelunkery:andesite_emerald_ore",
+    "order": 23,
+    "color": 6298634,
+    "drawing": false
+  },
+  {
+    "name": "Granite Emerald Ore",
+    "blockName": "spelunkery:granite_emerald_ore",
+    "order": 21,
+    "color": 6063079,
+    "drawing": false
+  },
+  {
+    "name": "Andesite Gold Ore",
+    "blockName": "spelunkery:andesite_gold_ore",
+    "order": 30,
+    "color": 4374868,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Ice Sapphire Ore",
+    "blockName": "miningmaster:deepslate_ice_sapphire_ore",
+    "order": 73,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Emerald Ore",
+    "blockName": "minecraft:deepslate_emerald_ore",
+    "order": 20,
+    "color": 2827822,
+    "drawing": false
+  },
+  {
+    "name": "Air Malachite Ore",
+    "blockName": "miningmaster:air_malachite_ore",
+    "order": 65,
+    "color": 606442,
+    "drawing": true
+  },
+  {
+    "name": "Diorite Emerald Ore",
+    "blockName": "spelunkery:diorite_emerald_ore",
+    "order": 22,
+    "color": 2369328,
+    "drawing": false
+  },
+  {
+    "name": "Haste Peridot Ore",
+    "blockName": "miningmaster:haste_peridot_ore",
+    "order": 60,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Diorite Lapis Lazuli Ore",
+    "blockName": "spelunkery:diorite_lapis_ore",
+    "order": 41,
+    "color": 1436795,
+    "drawing": false
+  },
+  {
+    "name": "Tuff Copper Ore",
+    "blockName": "spelunkery:tuff_copper_ore",
+    "order": 11,
+    "color": 16657970,
+    "drawing": false
+  },
+  {
+    "name": "Block of Gold",
+    "blockName": "minecraft:gold_block",
+    "order": 82,
+    "color": 16572419,
+    "drawing": false
+  },
+  {
+    "name": "Diorite Iron Ore",
+    "blockName": "spelunkery:diorite_iron_ore",
+    "order": 35,
+    "color": 15459524,
+    "drawing": false
+  },
+  {
+    "name": "Tuff Diamond Ore",
+    "blockName": "spelunkery:tuff_diamond_ore",
+    "order": 17,
+    "color": 353253,
+    "drawing": false
+  },
+  {
+    "name": "Tuff Iron Ore",
+    "blockName": "spelunkery:tuff_iron_ore",
+    "order": 37,
+    "color": 12546234,
+    "drawing": false
+  },
+  {
+    "name": "Cinnabar Ore",
+    "blockName": "minecraft:redstone_ore",
+    "order": 45,
+    "color": 11277367,
+    "drawing": false
+  },
+  {
+    "name": "Ancient Debris",
+    "blockName": "minecraft:ancient_debris",
+    "order": 53,
+    "color": 12585204,
+    "drawing": false
+  },
+  {
+    "name": "Rocky Dirt",
+    "blockName": "twigs:rocky_dirt",
+    "order": 83,
+    "color": 6831872,
+    "drawing": false
+  },
+  {
+    "name": "Fire Ruby Ore",
+    "blockName": "miningmaster:fire_ruby_ore",
+    "order": 56,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Andesite Diamond Ore",
+    "blockName": "spelunkery:andesite_diamond_ore",
+    "order": 16,
+    "color": 14915782,
+    "drawing": false
+  },
+  {
+    "name": "Power Pyrite Ore",
+    "blockName": "miningmaster:power_pyrite_ore",
+    "order": 63,
+    "color": 14654383,
+    "drawing": true
+  },
+  {
+    "name": "Tuff Redstone Ore",
+    "blockName": "spelunkery:tuff_redstone_ore",
+    "order": 50,
+    "color": 11385395,
+    "drawing": false
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "minecraft:iron_ore",
+    "order": 32,
+    "color": 801708,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Iron Ore",
+    "blockName": "minecraft:deepslate_iron_ore",
+    "order": 33,
+    "color": 14117997,
+    "drawing": false
+  },
+  {
+    "name": "Tuff Gold Ore",
+    "blockName": "spelunkery:tuff_gold_ore",
+    "order": 31,
+    "color": 14213014,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Dive Aquamarine Ore",
+    "blockName": "miningmaster:deepslate_dive_aquamarine_ore",
+    "order": 77,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Diorite Copper Ore",
+    "blockName": "spelunkery:diorite_copper_ore",
+    "order": 9,
+    "color": 9984693,
+    "drawing": false
+  },
+  {
+    "name": "Block of Iron",
+    "blockName": "minecraft:iron_block",
+    "order": 81,
+    "color": 15246240,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "minecraft:gold_ore",
+    "order": 25,
+    "color": 5070458,
+    "drawing": false
+  },
+  {
+    "name": "Heart Rhodonite Ore",
+    "blockName": "miningmaster:heart_rhodonite_ore",
+    "order": 62,
+    "color": 12001277,
+    "drawing": true
+  },
+  {
+    "name": "Andesite Iron Ore",
+    "blockName": "spelunkery:andesite_iron_ore",
+    "order": 36,
+    "color": 2943111,
+    "drawing": false
+  },
+  {
+    "name": "Granite Gold Ore",
+    "blockName": "spelunkery:granite_gold_ore",
+    "order": 28,
+    "color": 16090121,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Zinc Ore",
+    "blockName": "create:deepslate_zinc_ore",
+    "order": 55,
+    "color": 2677060,
+    "drawing": false
+  },
+  {
+    "name": "Lead Ore",
+    "blockName": "kubejs:lead_ore",
+    "order": 69,
+    "color": 5458550,
+    "drawing": false
+  },
+  {
+    "name": "Sandstone Lapis Ore",
+    "blockName": "spelunkery:sandstone_lapis_ore",
+    "order": 44,
+    "color": 8498168,
+    "drawing": false
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "minecraft:diamond_ore",
+    "order": 12,
+    "color": 7001599,
+    "drawing": false
+  },
+  {
+    "name": "Granite Lapis Lazuli Ore",
+    "blockName": "spelunkery:granite_lapis_ore",
+    "order": 40,
+    "color": 4734019,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Coal Ore",
+    "blockName": "minecraft:deepslate_coal_ore",
+    "order": 1,
+    "color": 202223,
+    "drawing": true
+  },
+  {
+    "name": "Diorite Coal Ore",
+    "blockName": "spelunkery:diorite_coal_ore",
+    "order": 3,
+    "color": 11617259,
+    "drawing": false
+  },
+  {
+    "name": "Granite Iron Ore",
+    "blockName": "spelunkery:granite_iron_ore",
+    "order": 34,
+    "color": 1869360,
+    "drawing": false
+  },
+  {
+    "name": "Andesite Copper Ore",
+    "blockName": "spelunkery:andesite_copper_ore",
+    "order": 10,
+    "color": 13646930,
+    "drawing": false
+  },
+  {
+    "name": "Spirit Garnet Ore",
+    "blockName": "miningmaster:spirit_garnet_ore",
+    "order": 58,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Tuff Coal Ore",
+    "blockName": "spelunkery:tuff_coal_ore",
+    "order": 5,
+    "color": 13515802,
+    "drawing": false
+  },
+  {
+    "name": "Tuff Emerald Ore",
+    "blockName": "spelunkery:tuff_emerald_ore",
+    "order": 24,
+    "color": 6212451,
+    "drawing": false
+  },
+  {
+    "name": "Ice Sapphire Ore",
+    "blockName": "miningmaster:ice_sapphire_ore",
+    "order": 57,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Malacore",
+    "blockName": "miningmaster:malacore",
+    "order": 84,
+    "color": 42495,
+    "drawing": false
+  },
+  {
+    "name": "Andesite Lapis Lazuli Ore",
+    "blockName": "spelunkery:andesite_lapis_ore",
+    "order": 42,
+    "color": 14213157,
+    "drawing": false
+  },
+  {
+    "name": "Lucky Citrine Ore",
+    "blockName": "miningmaster:lucky_citrine_ore",
+    "order": 59,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Lazurite Ore",
+    "blockName": "minecraft:deepslate_lapis_ore",
+    "order": 39,
+    "color": 255,
+    "drawing": true
+  },
+  {
+    "name": "Andesite Coal Ore",
+    "blockName": "spelunkery:andesite_coal_ore",
+    "order": 4,
+    "color": 10286081,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Fire Ruby Ore",
+    "blockName": "miningmaster:deepslate_fire_ruby_ore",
+    "order": 72,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Coal Ore",
+    "blockName": "minecraft:coal_ore",
+    "order": 0,
+    "color": 7181775,
+    "drawing": true
+  },
+  {
+    "name": "Andesite Redstone Ore",
+    "blockName": "spelunkery:andesite_redstone_ore",
+    "order": 49,
+    "color": 13577881,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Lead Ore",
+    "blockName": "oreganized:deepslate_lead_ore",
+    "order": 68,
+    "color": 9721840,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Cinnabar Ore",
+    "blockName": "minecraft:deepslate_redstone_ore",
+    "order": 46,
+    "color": 95580,
+    "drawing": false
+  }
+]

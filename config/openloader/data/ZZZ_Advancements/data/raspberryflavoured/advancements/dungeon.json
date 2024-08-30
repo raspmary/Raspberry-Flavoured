@@ -98,6 +98,9 @@
       "text": "Cage Match"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0", "1", "2", "3", "4"

@@ -20,7 +20,7 @@
 
 	[enchantments.reforming]
 		#Gear enchantment that very slowly repairs items over time
-		"Enable Reforming" = true
+		"Enable Reforming" = false
 		#How many ticks it takes a reforming item to repair
 		#Range: > 0
 		"Reforming tick rate" = 300
@@ -67,7 +67,7 @@
 
 	[tweaks.horse_armor]
 		#Allow horse armor to be enchanted
-		"Enchantable horse armor" = false
+		"Enchantable horse armor" = true
 		#If horse armor can appear enchanted when found in loot tables
 		"Generates in loot tables" = false
 		#Which loot tables horse armor can't appear enchanted in
@@ -107,7 +107,7 @@
 			"Drop experience percentage" = false
 			#What percentage of the player's total experience is dropped
 			#Range: 0.0 ~ 1.0
-			"Experience percentage" = 0.75
+			"Experience percentage" = 0.0
 
 		[tweaks.experience.level_scaling]
 			#Remove the amount of experience per level increasing (experimental)
@@ -130,14 +130,14 @@
 
 		[tweaks.experience.anvil]
 			#If renaming items should always cost 1 experience
-			"Cheap item renaming" = true
+			"Cheap item renaming" = false
 			#Remove the cap of 40 on anvil repairing prices
-			"Remove too expensive" = true
+			"Remove too expensive" = false
 			#If anvils can be repaired by right clicking with an iron ingot or using a dispenser
 			"Anvil ingot repairing" = false
 			#The amount of tries it should take on average to repair an anvil with an ingot (1 in x chance)
 			#Range: > 0
-			"Ingot repair chance" = 5
+			"Ingot repair chance" = 1
 			#If anvil transaction costs should be capped at a certain level
 			"Cap anvil costs" = false
 			#The max amount of levels an anvil transaction should be able to cost

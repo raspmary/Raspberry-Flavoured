@@ -143,9 +143,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:golden_chestplate"
@@ -157,9 +154,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:golden_helmet"
@@ -171,9 +165,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:golden_leggings"
@@ -185,9 +176,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:golden_boots"
@@ -199,9 +187,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:golden_axe"

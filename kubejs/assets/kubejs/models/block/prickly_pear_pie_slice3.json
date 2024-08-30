@@ -1,0 +1,10 @@
+{
+  "parent": "farmersdelight:block/pie_slice3",
+  "textures": {
+    "particle": "kubejs:block/prickly_pear_pie_top",
+    "bottom": "kubejs:block/prickly_pear_pie_bottom",
+    "inner": "kubejs:block/prickly_pear_pie_inner",
+    "side": "kubejs:block/prickly_pear_pie_side",
+    "top": "kubejs:block/prickly_pear_pie_top"
+  }
+}

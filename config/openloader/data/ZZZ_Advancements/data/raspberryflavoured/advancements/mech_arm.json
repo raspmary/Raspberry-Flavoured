@@ -24,6 +24,9 @@
       "text": "Need A Hand?"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

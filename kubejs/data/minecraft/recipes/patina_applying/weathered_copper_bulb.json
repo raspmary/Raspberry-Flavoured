@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "copperandtuffbackport:exposed_copper_bulb"
+    },
+    {
+      "item": "additionaladditions:copper_patina"
+    }
+  ],
+  "result": {
+      "item": "copperandtuffbackport:weathered_copper_bulb"
+    }
+}

@@ -1,0 +1,34 @@
+type = menu
+
+customization-meta {
+  identifier = com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=10973%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui;rfmoresettings%btnaction_splitter_fm%
+  x = 10
+  width = 128
+  action = addbutton
+  actionid = 742983b5-b7fa-4a7a-9843-9cc6ab0070c91713553835914
+  y = -27
+  label = Back
+  height = 20
+}
+

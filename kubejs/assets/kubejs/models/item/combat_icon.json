@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:icons/combat_icon"
+  },
+  "display": {
+    "gui": {
+      "translation": [ 0, 0, 0],
+      "scale":[ 2, 2, 2 ]
+    }
+  }
+}

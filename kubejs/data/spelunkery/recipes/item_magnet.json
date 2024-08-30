@@ -10,10 +10,10 @@
       "item": "spelunkery:magnetite_chunk"
     },
     "X": {
-      "item": "spelunkery:cinnabar"
+      "item": "spelunkery:cinnabar_block"
     },
     "L": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "oreganized:lead_block"
     }
   },
   "result": {

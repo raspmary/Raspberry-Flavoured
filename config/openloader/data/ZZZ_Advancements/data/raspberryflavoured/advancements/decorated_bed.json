@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:bed",
+  "parent": "raspberryflavoured:sleep",
   "criteria": {
     "0": {
       "conditions": {
@@ -21,7 +21,7 @@
       "text": "Decorate your bed using a banner"
     },
     "frame": "goal",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "bedspreads:decorated_bed",
       "nbt": "{BlockEntityTag: {BannerStack: {id: \"minecraft:lime_banner\", Count: 1b, tag: {BlockEntityTag: {Patterns: [{Pattern: \"cre\", Color: 15}], id: \"minecraft:banner\"}}}, BedStack: {id: \"minecraft:white_bed\", Count:1b}}}"
@@ -31,6 +31,9 @@
       "text": "Sleeping With Style"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

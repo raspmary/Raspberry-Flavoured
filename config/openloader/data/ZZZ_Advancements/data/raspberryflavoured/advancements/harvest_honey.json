@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:farming_root",
+  "parent": "raspberryflavoured:campfire",
   "criteria": {
     "0": {
       "conditions": {
@@ -36,6 +36,9 @@
       "text": "Just Bee Kind"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

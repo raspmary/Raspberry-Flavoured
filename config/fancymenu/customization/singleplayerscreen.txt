@@ -1,0 +1,92 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = bottom-centered
+  x = -154
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=346948%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = Play World
+}
+
+customization {
+  identifier = %id=504948%
+  orientation = element
+  orientation_element = vanillabtn:346948
+  x = 104
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=504948%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504948%
+  action = setbuttonlabel
+  value = Create World
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:346948
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_multiplayer_button%btnaction_splitter_fm%
+  x = 208
+  width = 100
+  action = addbutton
+  actionid = 38e5a831-1e47-46bb-95a6-574efe74f5681714648879530
+  y = 0
+  label = Multiplayer
+  height = 20
+}
+
+customization {
+  identifier = %id=582972%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.TitleScreen%btnaction_splitter_fm%
+  x = 82
+  width = 72
+  action = addbutton
+  actionid = 7669ab7b-fd4d-40b6-9230-e8008332731d1714649163356
+  y = -28
+  label = Cancel
+  height = 20
+}
+

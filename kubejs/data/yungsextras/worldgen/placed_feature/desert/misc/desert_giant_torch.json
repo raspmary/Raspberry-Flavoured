@@ -1,0 +1,22 @@
+{
+  "feature": "yungsextras:desert/misc/desert_giant_torch",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 700
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "yungsextras:rng_initializer"
+    }
+  ]
+}

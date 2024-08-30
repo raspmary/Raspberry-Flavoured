@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "particle": "caverns_and_chasms:block/cupric_campfire_log",
+    "fire": "caverns_and_chasms:block/cupric_campfire_fire",
+    "log": "caverns_and_chasms:block/cupric_campfire_log",
+    "lit_log": "caverns_and_chasms:block/cupric_campfire_log_lit"
+  }
+}

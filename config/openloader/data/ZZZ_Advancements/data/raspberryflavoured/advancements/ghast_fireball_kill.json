@@ -38,6 +38,9 @@
       "text": "Return to Sender"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "0"

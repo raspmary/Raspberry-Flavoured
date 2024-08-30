@@ -1,0 +1,18 @@
+# Let's Configure Copperized
+copper_axe = false
+copper_bars = false
+copper_boots = true
+copper_button = true
+copper_chestplate = true
+copper_door = true
+copper_helmet = true
+copper_hoe = false
+copper_horse_armor = false
+copper_leggings = true
+copper_nugget = false
+copper_pickaxe = false
+copper_shovel = false
+copper_sword = false
+copper_trapdoor = true
+medium_weighted_pressure_plate = true
+

@@ -1,0 +1,14 @@
+{
+   "targets": [
+   "spelunkery:rock_salt_block"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.soul_salt.break",
+	  "place_sound": "kubejs:sound.soul_salt.place",
+      "hit_sound": "minecraft:block.amethyst_block.hit",
+      "fall_sound": "minecraft:block.amethyst_block.fall",
+      "step_sound": "minecraft:block.amethyst_block.step",
+      "pitch": 1.275,
+      "volume": 1
+   } 
+}

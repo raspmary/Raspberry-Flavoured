@@ -17,10 +17,6 @@
 	{
 	  "chance": 0.2,
       "item": "savage_and_ravage:creeper_spores"
-    },
-	{
-      "item": "create:experience_nugget",
-	  "count": 4
     }
   ],
   "tool": {

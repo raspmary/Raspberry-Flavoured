@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Instantly return to your spawn point by drinking a bottle of dimensional tears"
+      "text": "Instantly return to your spawn point by consuming a dimensional flask"
     },
     "frame": "task",
     "hidden": false,
@@ -28,6 +28,9 @@
       "text": "Warp Drink"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

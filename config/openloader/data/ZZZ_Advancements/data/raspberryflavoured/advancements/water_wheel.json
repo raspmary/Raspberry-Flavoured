@@ -30,6 +30,9 @@
       "text": "Wheel of Fortune"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0", "1"

@@ -1,10 +1,8 @@
 
 [vanilla_changes]
-	#If dispensers can interact with cauldrons using buckets
-	"Cauldron Dispensers" = true
 	#If dispensers can dye sheep
 	"Dye-ing Dispensers" = true
-	#If slime chunks should be smited into ten thousand pieces.
+	#If slime chunks should be smote into ten thousand pieces.
 	"Disable slime chunks" = false
 	#If dolphins shouldn't need air to survive.
 	"Dolphins don't need air" = false
@@ -14,6 +12,10 @@
 	"BOA cure" = true
 	#If monsters & being too far away from a bed shouldn't prevent you from sleeping
 	"Reliable Sleep" = true
+	#If dispensers ignite creepers in front of it with flint and steel
+	"Explosive Dispensers" = true
+	#If the texture change of chests during Christmas should be removed
+	"Bah Humbug" = false
 
 ["Environmental changes"]
 	#If Good Ending's Muddy Oak should instead use Environmental's Willow blocks.

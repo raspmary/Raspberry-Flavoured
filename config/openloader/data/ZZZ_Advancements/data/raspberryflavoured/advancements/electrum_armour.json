@@ -67,6 +67,9 @@
       "text": "Hermes' Gift"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "0"

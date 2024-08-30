@@ -127,27 +127,11 @@
         ]
       },
       "trigger": "minecraft:location"
-    },
-	"8": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structure": "repurposed_structures:ruined_portal_end"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
     }
   },
   "display": {
     "announce_to_chat": false,
-    "background": "supplementaries:textures/blocks/stone_tiles.png",
+    "background": "minecraft:textures/block/deepslate_tiles.png",
     "description": {
       "color": "#CE3131",
       "text": "Explore, sightsee and gather resources!"
@@ -165,7 +149,7 @@
   },
   "requirements": [
     [
-      "0", "1", "2", "3", "4", "5", "6", "7", "8"
+      "0", "1", "2", "3", "4", "5", "6", "7"
     ]
   ]
 }

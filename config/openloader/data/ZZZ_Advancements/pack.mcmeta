@@ -28,6 +28,14 @@
 			{
                 "namespace": "create_dd",
                 "path": "advancements/.*"
+            },
+			{
+                "namespace": "create_connected",
+                "path": "advancements/.*"
+            },
+			{
+                "namespace": "miningmaster",
+                "path": "advancements/.*"
             }
         ]
     }

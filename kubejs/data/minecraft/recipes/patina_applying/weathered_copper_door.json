@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "copperized:exposed_copper_door"
+    },
+    {
+      "item": "additionaladditions:copper_patina"
+    }
+  ],
+  "result": {
+      "item": "copperized:weathered_copper_door"
+    }
+}

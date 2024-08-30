@@ -39,7 +39,7 @@
     },
 	"6": {
       "conditions": {
-        "block": "nethersdelight:stuffed_hoglin"
+        "block": "mynethersdelight:stuffed_hoglin"
       },
       "trigger": "minecraft:placed_block"
     },
@@ -57,7 +57,7 @@
     },
 	"9": {
       "conditions": {
-        "block": "endersdelight:stuffed_shulker_block"
+        "block": "miners_delight:stuffed_squid"
       },
       "trigger": "minecraft:placed_block"
     }
@@ -75,9 +75,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Eatin' Good"
+      "text": "Good Eatin'"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
 	"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"

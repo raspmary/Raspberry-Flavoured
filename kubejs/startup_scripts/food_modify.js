@@ -1,9 +1,9 @@
 // priority: 0
 
 ItemEvents.modification(event => {
-	event.modify('create_confectionery:gingerbread', item => {
+	event.modify('minecraft:beetroot', item => {
         item.foodProperties = food => {
-            food.hunger(5).saturation(0.6)
+            food.fastToEat()
         }
     })
 	event.modify('nethersdelight:hoglin_sirloin', item => {
@@ -43,12 +43,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('minecraft:rabbit', item => {
         item.foodProperties = food => {
-            food.hunger(1)
+            food.hunger(2)
         }
     })
 	event.modify('minecraft:cooked_rabbit', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.4)
+            food.hunger(5).saturation(0.4).fastToEat()
         }
     })
 	event.modify('minecraft:cooked_mutton', item => {
@@ -58,7 +58,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('windswept:cooked_goat', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.5)
+            food.hunger(4).saturation(0.65)
         }
     })
 	event.modify('environmental:cooked_venison', item => {
@@ -98,7 +98,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('upgrade_aquatic:mulberry_bread', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.5).effect('upgrade_aquatic:vibing', 500, 0, 100)
+            food.hunger(4).saturation(0.5).effect('windswept:thorns', 500, 0, 100)
         }
     })
 	event.modify('quark:cooked_crab_leg', item => {
@@ -238,17 +238,22 @@ ItemEvents.modification(event => {
     })
 	event.modify('upgrade_aquatic:mulberry_jam_bottle', item => {
         item.foodProperties = food => {
-            food.saturation(0.35).effect('upgrade_aquatic:vibing', 1000, 0, 100)
+            food.saturation(0.35).effect('windswept:thorns', 1000, 0, 100)
         }
     })
 	event.modify('farmersdelight:pumpkin_slice', item => {
         item.foodProperties = food => {
-            food.fastToEat()
+            food.hunger(2).saturation(0.7).fastToEat()
         }
     })
 	event.modify('minecraft:melon_slice', item => {
         item.foodProperties = food => {
-            food.fastToEat()
+            food.effect('atmospheric:spitting', 140, 0, 0.5).fastToEat()
+        }
+    })
+	event.modify('farmersdelight:melon_popsicle', item => {
+        item.foodProperties = food => {
+            food.effect('atmospheric:spitting', 180, 0, 0.4).fastToEat()
         }
     })
 	event.modify('minecraft:sweet_berries', item => {
@@ -263,12 +268,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('windswept:goat_shanks', item => {
         item.foodProperties = food => {
-            food.fastToEat()
+            food.hunger(2).saturation(0.65).fastToEat()
         }
     })
 	event.modify('windswept:cooked_goat_shanks', item => {
         item.foodProperties = food => {
-            food.fastToEat().hunger(2)
+            food.fastToEat().hunger(2).saturation(0.65)
         }
     })
 	event.modify('neapolitan:vanilla_fudge', item => {
@@ -276,14 +281,19 @@ ItemEvents.modification(event => {
             food.fastToEat()
         }
     })
-	event.modify('neapolitan:strawberries', item => {
+	event.modify('brewinandchewin:cocoa_fudge', item => {
         item.foodProperties = food => {
             food.fastToEat()
         }
     })
+	event.modify('neapolitan:strawberries', item => {
+        item.foodProperties = food => {
+            food.hunger(2).fastToEat()
+        }
+    })
 	event.modify('neapolitan:white_strawberries', item => {
         item.foodProperties = food => {
-            food.fastToEat()
+            food.hunger(3).fastToEat()
         }
     })
 	event.modify('neapolitan:chocolate_strawberries', item => {
@@ -393,12 +403,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('minecraft:golden_carrot', item => {
         item.foodProperties = food => {
-            food.hunger(3).saturation(0.75).effect('night_vision', 1200, 0, 100).alwaysEdible()
+            food.hunger(2).saturation(0.75).effect('night_vision', 1200, 0, 100).alwaysEdible()
         }
     })
 	event.modify('minecraft:golden_apple', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.6).removeEffect('absorption').effect('absorption', 2400, 1, 100)
+            food.hunger(4).saturation(0.6).removeEffect('absorption').removeEffect('regeneration').effect('regeneration', 300, 0, 1).effect('absorption', 400, 0, 1)
         }
     })
 	event.modify('minecraft:enchanted_golden_apple', item => {
@@ -408,7 +418,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('brewinandchewin:pizza_slice', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.9)
+            food.hunger(5).saturation(0.6)
         }
     })
 	event.modify('incubation:fried_egg', item => {
@@ -418,7 +428,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('brewinandchewin:ham_and_cheese_sandwich', item => {
         item.foodProperties = food => {
-            food.hunger(10).saturation(0.6)
+            food.hunger(10).saturation(0.75)
         }
     })
 	event.modify('brewinandchewin:kippers', item => {
@@ -433,12 +443,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('minecraft:cookie', item => {
         item.foodProperties = food => {
-            food.effect('neapolitan:sugar_rush', 140, 0, 100)
+            food.effect('neapolitan:sugar_rush', 300, 0, 0.35)
         }
     })
 	event.modify('culturaldelights:hearty_salad', item => {
         item.foodProperties = food => {
-            food.hunger(9).saturation(0.7).removeEffect('farmersdelight:nourishment').effect('regeneration', 300, 0, 100).effect('farmersdelight:nourishment', 3600, 0, 100).effect('brewinandchewin:satisfaction', 2400, 0, 100)
+            food.hunger(9).saturation(0.7).effect('regeneration', 100, 0, 100).effect('brewinandchewin:satisfaction', 2400, 0, 100)
         }
     })
 	event.modify('create:sweet_roll', item => {
@@ -458,7 +468,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('culturaldelights:eggplant_burger', item => {
         item.foodProperties = food => {
-            food.hunger(10).saturation(0.7)
+            food.hunger(9).saturation(0.7)
         }
     })
 	event.modify('culturaldelights:smoked_eggplant', item => {
@@ -488,7 +498,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('minecraft:glistering_melon_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).saturation(0.65).alwaysEdible()
+            food.hunger(2).saturation(0.65).effect('atmospheric:spitting', 140, 1, 0.5).alwaysEdible()
         }
     })
 	event.modify('farmersdelight:hot_cocoa', item => {
@@ -607,7 +617,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('nethersdelight:magma_gelatin', item => {
         item.foodProperties = food => {
-            food.effect('cofh_core:slimed', 600, 0, 100)
+            food.hunger(3).effect('cofh_core:slimed', 600, 0, 100)
         }
     })
 	event.modify('abnormals_delight:escargot', item => {
@@ -642,7 +652,27 @@ ItemEvents.modification(event => {
     })
 	event.modify('farmersrespite:green_tea_cookie', item => {
         item.foodProperties = food => {
-            food.fastToEat()
+            food.fastToEat().removeEffect('respiteful:vitality').effect('respiteful:vitality', 300, 0, 0.35)
+        }
+    })
+	event.modify('farmersdelight:sweet_berry_cookie', item => {
+        item.foodProperties = food => {
+            food.effect('windswept:thorns', 300, 0, 0.35)
+        }
+    })
+	event.modify('farmersdelight:honey_cookie', item => {
+        item.foodProperties = food => {
+            food.effect('farmersdelight:comfort', 300, 0, 0.35)
+        }
+    })
+	event.modify('abnormals_delight:cherry_cookie', item => {
+        item.foodProperties = food => {
+            food.effect('neapolitan:harmony', 160, 0, 0.4)
+        }
+    })
+	event.modify('abnormals_delight:maple_cookie', item => {
+        item.foodProperties = food => {
+            food.effect('resistance', 240, 0, 0.35)
         }
     })
 	event.modify('abnormals_delight:vanilla_cake_slice', item => {
@@ -745,39 +775,9 @@ ItemEvents.modification(event => {
             food.removeEffect('fire_resistance')
         }
     })
-	event.modify('minecraft:pumpkin_pie', item => {
-        item.foodProperties = food => {
-            food.hunger(7).saturation(0.5).effect('farmersdelight:comfort', 3000, 0, 100)
-        }
-    })
-	event.modify('windswept:mutton_pie', item => {
-        item.foodProperties = food => {
-            food.hunger(7).saturation(0.55).effect('farmersdelight:comfort', 3000, 0, 100)
-        }
-    })
-	event.modify('environmental:cherry_pie', item => {
-        item.foodProperties = food => {
-            food.saturation(0.55).effect('farmersdelight:comfort', 3000, 0, 100).effect('neapolitan:harmony', 1000, 0, 100)
-        }
-    })
-	event.modify('environmental:apple_pie', item => {
-        item.foodProperties = food => {
-            food.hunger(8).saturation(0.4).effect('farmersdelight:comfort', 3000, 0, 100)
-        }
-    })
-	event.modify('environmental:truffle_pie', item => {
-        item.foodProperties = food => {
-            food.effect('farmersdelight:comfort', 6000, 0, 100)
-        }
-    })
-	event.modify('upgrade_aquatic:mulberry_pie', item => {
-        item.foodProperties = food => {
-            food.hunger(8).saturation(0.5).effect('farmersdelight:comfort', 3000, 0, 100).effect('upgrade_aquatic:vibing', 1600, 0, 100)
-        }
-    })
 	event.modify('atmospheric:passionfruit_tart', item => {
         item.foodProperties = food => {
-            food.hunger(5).saturation(0.5).effect('farmersdelight:comfort', 3000, 0, 100)
+            food.hunger(5).saturation(0.4).effect('farmersdelight:comfort', 1200, 0, 100).effect('atmospheric:spitting', 400, 0, 100)
         }
     })
 	event.modify('neapolitan:chocolate_ice_cream', item => {
@@ -892,7 +892,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('sob:saffron_tisane', item => {
         item.foodProperties = food => {
-            food.hunger(0).removeEffect('environmental:serenity').removeEffect('autumnity:extension').effect('autumnity:extension', 600, 0, 100).effect('buzzier_bees:sunny', 600, 0, 100)
+            food.hunger(0).removeEffect('environmental:serenity').removeEffect('autumnity:extension').effect('buzzier_bees:sunny', 600, 0, 100).effect('autumnity:extension', 600, 0, 100)
         }
     })
 	event.modify('naturalist:cooked_bass', item => {
@@ -937,7 +937,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('sob:exquisite_mushroom_soup', item => {
         item.foodProperties = food => {
-            food.removeEffect('health_boost').removeEffect('farmersdelight:nourishment').effect('health_boost', 2400, 0, 100).effect('farmersdelight:nourishment', 4800, 0, 100)
+            food.removeEffect('health_boost').effect('health_boost', 2400, 0, 100).effect('farmersdelight:comfort', 2400, 0, 100)
         }
     })
 	event.modify('culturaldelights:avocado_toast', item => {
@@ -1008,6 +1008,193 @@ ItemEvents.modification(event => {
 	event.modify('abnormals_delight:seared_venison', item => {
         item.foodProperties = food => {
             food.effect('neapolitan:harmony', 1000, 0, 100)
+        }
+    })
+	event.modify('brewinandchewin:flaxen_cheese_wedge', item => {
+        item.foodProperties = food => {
+            food.hunger(3)
+        }
+    })
+	event.modify('culturaldelights:fried_eggplant_pasta', item => {
+        item.foodProperties = food => {
+            food.saturation(0.7)
+        }
+    })
+	event.modify('farmersdelight:chocolate_pie_slice', item => {
+        item.foodProperties = food => {
+            food.removeEffect('speed').effect('neapolitan:sugar_rush', 700, 0, 100)
+        }
+    })
+	event.modify('create_central_kitchen:cherry_pie_slice', item => {
+        item.foodProperties = food => {
+            food.effect('neapolitan:harmony', 600, 0, 100)
+        }
+    })
+	event.modify('create_central_kitchen:mulberry_pie_slice', item => {
+        item.foodProperties = food => {
+            food.effect('upgrade_aquatic:vibing', 600, 0, 100)
+        }
+    })
+	event.modify('abnormals_delight:dune_platter', item => {
+        item.foodProperties = food => {
+            food.hunger(11).effect('jump_boost', 500, 1, 100)
+        }
+    })
+	event.modify('farmersrespite:blazing_chili', item => {
+        item.foodProperties = food => {
+            food.hunger(12)
+        }
+    })
+	event.modify('farmersrespite:black_cod', item => {
+        item.foodProperties = food => {
+            food.hunger(12)
+        }
+    })
+	event.modify('minecraft:sugar_cane', item => {
+        item.foodProperties = food => {
+            food.hunger(1).saturation(0.45).effect('neapolitan:sugar_rush', 100, 0, 0.5)
+        }
+    })
+	event.modify('sullysmod:cave_chum_bucket', item => {
+        item.foodProperties = food => {
+            food.hunger(9).removeEffect('glowing').effect('glowing', 1200, 0, 1)
+        }
+    })
+	event.modify('sullysmod:lanternfish_roll', item => {
+        item.foodProperties = food => {
+            food.removeEffect('glowing').effect('glowing', 700, 0, 1)
+        }
+    })
+	event.modify('create:blaze_cake', item => {
+        item.foodProperties = food => {
+            food.hunger(7).saturation(0.65)
+        }
+    })
+	event.modify('farmersdelight:horse_feed', item => {
+        item.foodProperties = food => {
+            food.hunger(4).saturation(0.4)
+        }
+    })
+	event.modify('culturaldelights:popcorn', item => {
+        item.foodProperties = food => {
+            food.hunger(2).saturation(0.5)
+        }
+    })
+	event.modify('farmersdelight:fruit_salad', item => {
+        item.foodProperties = food => {
+            food.effect('atmospheric:spitting', 160, 0, 0.4)
+        }
+    })
+	event.modify('farmersdelight:melon_juice', item => {
+        item.foodProperties = food => {
+            food.effect('atmospheric:spitting', 160, 0, 0.4)
+        }
+    })
+	event.modify('brewinandchewin:saccharine_rum', item => {
+        item.foodProperties = food => {
+            food.effect('atmospheric:spitting', 100, 0, 1)
+        }
+    })
+	event.modify('farmersdelight:sweet_berry_cheesecake_slice', item => {
+        item.foodProperties = food => {
+            food.effect('glowing', 600, 0, 1)
+        }
+    })
+	event.modify('farmersdelight:glow_berry_custard', item => {
+        item.foodProperties = food => {
+            food.removeEffect('glowing').effect('glowing', 1200, 0, 1)
+        }
+    })
+	
+// Replacing nourishment with comfort	
+	// 6 minute foods (12 minute comfort)
+	event.modify([
+	'brewinandchewin:fiery_fondue',
+	'brewinandchewin:horror_lasagna'
+	], item => {
+        item.foodProperties = food => {
+            food.removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('farmersdelight:comfort', 14400, 0, 1)
+        }
+    })
+	
+	// 5 minute foods (10 minute comfort)
+	event.modify([
+	'windswept:chestnut_risotto',
+	'windswept:chestnut_chicken_platter',
+	'sob:exquisite_mushroom_soup',
+	'farmersdelight:roasted_mutton_chops',
+	'farmersdelight:vegetable_noodles',
+	'farmersdelight:squid_ink_pasta',
+	'farmersdelight:roast_chicken',
+	'farmersdelight:stuffed_pumpkin',
+	'farmersdelight:honey_glazed_ham',
+	'farmersdelight:shepherds_pie',
+	'culturaldelights:hearty_salad',
+	'culturaldelights:fried_eggplant_pasta',
+	'abnormals_delight:seared_venison',
+	'abnormals_delight:duck_noodles',
+	'abnormals_delight:perch_with_mushrooms',
+	'abnormals_delight:venison_with_bamboo_shoots',
+	'miners_delight:bowl_of_stuffed_squid'
+	], item => {
+        item.foodProperties = food => {
+            food.removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('farmersdelight:comfort', 12000, 0, 1)
+        }
+    })
+	
+	// 4 minute foods (8 minute comfort)
+	event.modify([
+	'brewinandchewin:vegetable_omelet',
+	'brewinandchewin:cheesy_pasta',
+	'brewinandchewin:scarlet_pierogies',
+	'mynethersdelight:plate_of_stuffed_hoglin_snout'
+	], item => {
+        item.foodProperties = food => {
+            food.removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('farmersdelight:comfort', 9600, 0, 1)
+        }
+    })
+	
+	// 3.5 minute foods (7 minute comfort)
+	event.modify([
+	'farmersrespite:black_cod',
+	'farmersrespite:tea_curry'
+	], item => {
+        item.foodProperties = food => {
+            food.removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('farmersdelight:comfort', 8400, 0, 1)
+        }
+    })
+	
+	// 3 minute foods (6 minute comfort)
+	event.modify([,
+	'farmersdelight:pasta_with_meatballs',
+	'farmersdelight:pasta_with_mutton_chop',
+	'farmersdelight:mushroom_rice',
+	'farmersdelight:steak_and_potatoes',
+	'farmersdelight:grilled_salmon',
+	'abnormals_delight:dune_platter',
+	'mynethersdelight:breakfast_sampler',
+	'mynethersdelight:fried_hoglin_chop',
+	'mynethersdelight:spicy_curry',
+	'mynethersdelight:plate_of_stuffed_hoglin_ham',
+	'mynethersdelight:plate_of_stuffed_hoglin'
+	], item => {
+        item.foodProperties = food => {
+            food.removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('farmersdelight:comfort', 7200, 0, 1)
+        }
+    })
+	
+	// 2 minute foods (4 minute comfort)
+	event.modify([
+	'farmersdelight:bacon_and_eggs',
+	'farmersdelight:ratatouille',
+	'mynethersdelight:bleeding_tartar',
+	'mynethersdelight:strider_with_grilled_fungus',
+	'mynethersdelight:blue_tenderloin_steak',
+	'mynethersdelight:hot_wings',
+	'brewinandchewin:quiche_slice'
+	], item => {
+        item.foodProperties = food => {
+            food.removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('farmersdelight:comfort', 4800, 0, 1)
         }
     })
 })

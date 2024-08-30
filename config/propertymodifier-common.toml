@@ -8,21 +8,21 @@
 #Generates a config with all non-default values in propertymodifier-generated.toml.
 [generating]
 	#Generates item group-related entries.
-	item_groups = true
+	item_groups = false
 	#Generates block state-related entries.
-	block_states = true
+	block_states = false
 	#Generates block-related entries.
-	blocks = true
+	blocks = false
 	#Generates item-related entries.
-	items = true
+	items = false
 	#Generates armor-related entries.
-	armor = true
+	armor = false
 	#Generates tool-related entries.
 	tools = true
 	#Generates enchantment-related entries.
-	enchantments = true
+	enchantments = false
 	#Generates composting-related entries.
-	composting = true
+	composting = false
 	#The default enchantment value used. 0 in vanilla, but mods such as Apotheosis may change this.
 	#Range: 0 ~ 1000000
 	default_enchantment_value = 0
@@ -36,7 +36,7 @@
 	#Whether to sort all item groups or not.
 	sort = false
 	#A list of groups that should be removed under all circumstances. Cannot remove "hotbar", "search" and "inventory".
-	force_remove = ["kubejs.kubejs", "create.base", "create.palettes", "create_dd.base", "alloyed.main_group", "everycomp"]
+	force_remove = ["kubejs.kubejs", "create.base", "create.palettes", "create_dd.base", "alloyed.main_group", "everycomp", "create_connected.main", "copperandtuffbackport", "mynethersdelight", "vc_gliders.main", "webasemod"]
 	#Set an icon for a creative tab. Must be a valid item id. Example (without the leading #):
 	#test = "minecraft:nether_star"
 	icon = {}
@@ -72,80 +72,7 @@
 	#"minecraft:grass_block[snowy=true]" = 100
 	#"minecraft:.*_planks" = 100
 	[blocks_and_blockstates.destroy_time]
-		"minecraft:cobblestone" = 1.5
-		"minecraft:mossy_cobblestone" = 1.5
-		"minecraft:cobblestone_stairs" = 1.5
-		"minecraft:cobblestone_wall" = 1.5
-		"minecraft:mossy_cobblestone_wall" = 1.5
-		"minecraft:cobblestone_slab" = 1.5
-		"minecraft:mossy_cobblestone_stairs" = 1.5
-		"minecraft:mossy_cobblestone_slab" = 1.5
-		"paletteblocks:cobblestone_bricks" = 1.5
-		"paletteblocks:mossy_cobblestone_bricks" = 1.5
-		"paletteblocks:cracked_cobblestone_bricks" = 1.5
-		"paletteblocks:cobblestone_brick_slab" = 1.5
-		"paletteblocks:mossy_cobblestone_brick_slab" = 1.5
-		"paletteblocks:cobblestone_brick_stairs" = 1.5
-		"paletteblocks:mossy_cobblestone_brick_stairs" = 1.5
-		"paletteblocks:cobblestone_brick_wall" = 1.5
-		"paletteblocks:mossy_cobblestone_brick_wall" = 1.5
-		"upgrade_aquatic:kelpy_cobblestone" = 1.5
-		"upgrade_aquatic:kelpy_cobblestone_stairs" = 1.5
-		"upgrade_aquatic:kelpy_cobblestone_slab" = 1.5
-		"upgrade_aquatic:kelpy_cobblestone_wall" = 1.5
-		"atmospheric:kousa_chest" = 1.5
-		"atmospheric:kousa_trapped_chest" = 1.5
-		"minecraft:deepslate_gold_ore" = 6.0
-		"minecraft:deepslate_iron_ore" = 6.0
-		"minecraft:deepslate_coal_ore" = 6.0
-		"minecraft:deepslate_lapis_ore" = 6.0
-		"minecraft:deepslate_diamond_ore" = 6.0
-		"minecraft:deepslate_redstone_ore" = 6.0
-		"minecraft:deepslate_emerald_ore" = 6.0
-		"minecraft:deepslate_copper_ore" = 6.0
-		"minecraft:deepslate" = 4.5
-		"minecraft:cobbled_deepslate" = 4.5
-		"minecraft:cobbled_deepslate_stairs" = 4.5
-		"minecraft:cobbled_deepslate_slab" = 4.5
-		"minecraft:cobbled_deepslate_wall" = 4.5
-		"minecraft:polished_deepslate" = 4.5
-		"minecraft:polished_deepslate_stairs" = 4.5
-		"minecraft:polished_deepslate_slab" = 4.5
-		"minecraft:polished_deepslate_wall" = 4.5
-		"minecraft:deepslate_tiles" = 4.5
-		"minecraft:deepslate_tile_stairs" = 4.5
-		"minecraft:deepslate_tile_slab" = 4.5
-		"minecraft:deepslate_tile_wall" = 4.5
-		"minecraft:deepslate_bricks" = 4.5
-		"minecraft:deepslate_brick_stairs" = 4.5
-		"minecraft:deepslate_brick_slab" = 4.5
-		"minecraft:deepslate_brick_wall" = 4.5
-		"minecraft:chiseled_deepslate" = 4.5
-		"minecraft:cracked_deepslate_bricks" = 4.5
-		"minecraft:cracked_deepslate_tiles" = 4.5
-		"create:deepslate_zinc_ore" = 6.0
-		"create:cut_deepslate" = 4.5
-		"create:cut_deepslate_stairs" = 4.5
-		"create:cut_deepslate_slab" = 4.5
-		"create:cut_deepslate_wall" = 4.5
-		"create:polished_cut_deepslate" = 4.5
-		"create:polished_cut_deepslate_stairs" = 4.5
-		"create:polished_cut_deepslate_slab" = 4.5
-		"create:polished_cut_deepslate_wall" = 4.5
-		"create:cut_deepslate_bricks" = 4.5
-		"create:cut_deepslate_brick_stairs" = 4.5
-		"create:cut_deepslate_brick_slab" = 4.5
-		"create:cut_deepslate_brick_wall" = 4.5
-		"create:small_deepslate_bricks" = 4.5
-		"create:small_deepslate_brick_stairs" = 4.5
-		"create:small_deepslate_brick_slab" = 4.5
-		"create:small_deepslate_brick_wall" = 4.5
-		"create:layered_deepslate" = 4.5
-		"create:deepslate_pillar" = 4.5
-		"oreganized:deepslate_silver_ore" = 6.0
-		"oreganized:deepslate_lead_ore" = 6.0
-		"quark:deepslate_furnace" = 4.5
-		"supplementaries:deepslate_lamp" = 4.5
+		test = 0.0
 
 	#Set the tool requirement of a block (state). Must be true or false. Examples (without the leading #):
 	#"minecraft:diamond_ore" = false
@@ -158,7 +85,8 @@
 	#"minecraft:redstone_torch[lit=true]" = 15
 	#"minecraft:.*_bricks" = 7
 	[blocks_and_blockstates.light_emission]
-		test = 0
+		"quark:monster_box" = 10
+		"additionaladditions:amethyst_lamp[lit=true]" = 15
 
 #Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood") or a block regex (e.g. "minecraft:.*_block").
 [blocks]
@@ -278,9 +206,9 @@
 		"farmersrespite:coffee_beans_sack" = "decorations"
 		"farmersrespite:wild_tea_bush" = "decorations"
 		"farmersrespite:wild_coffee_bush" = "decorations"
-		"farmersrespite:green_tea_leaves" = "food"
-		"farmersrespite:yellow_tea_leaves" = "food"
-		"farmersrespite:black_tea_leaves" = "food"
+		"farmersrespite:green_tea_leaves" = "misc"
+		"farmersrespite:yellow_tea_leaves" = "misc"
+		"farmersrespite:black_tea_leaves" = "misc"
 		"farmersrespite:tea_seeds" = "misc"
 		"farmersrespite:coffee_beans" = "misc"
 		"farmersrespite:coffee_berries" = "food"
@@ -498,13 +426,6 @@
 		"kubejs:white_chocolate_pavement_wall" = "building_blocks"
 		"kubejs:dark_chocolate_pavement_wall" = "building_blocks"
 		"kubejs:dark_chocolate_tile_slab" = "building_blocks"
-		"kubejs:music_disc_eleven" = "misc"
-		"kubejs:music_disc_dog" = "misc"
-		"kubejs:music_disc_halland" = "misc"
-		"kubejs:music_disc_dalarna" = "misc"
-		"kubejs:music_disc_halland_dalarna" = "misc"
-		"kubejs:music_disc_shimmer" = "misc"
-		"kubejs:music_disc_frontier" = "misc"
 		"kubejs:rose_gold_knife" = "combat"
 		"kubejs:copper_knife" = "combat"
 		"kubejs:raw_ammonite" = "misc"
@@ -742,7 +663,7 @@
 		"create:red_sand_paper" = "tools"
 		"create:wrench" = "tools"
 		"create:linked_controller" = "redstone"
-		"create:potato_cannon" = "tools"
+		"create:potato_cannon" = "combat"
 		"create:extendo_grip" = "tools"
 		"create:wand_of_symmetry" = "tools"
 		"create:handheld_worldshaper" = "search"
@@ -1649,7 +1570,7 @@
 		"miners_delight:bowl_of_stuffed_squid" = "food"
 		"create_enchantment_industry:disenchanter" = "redstone"
 		"create_enchantment_industry:ink_bucket" = "misc"
-		"create_enchantment_industry:enchanting_guide" = "tools"
+		"create_enchantment_industry:enchanting_guide" = ""
 		"createaddition:rolling_mill" = "redstone"
 		"createaddition:honey_cake" = "food"
 		"createaddition:diamond_grit_sandpaper" = "tools"
@@ -1864,7 +1785,6 @@
 		"ecologics:surface_moss" = "decorations"
 		"environmental:chiseled_mud_bricks" = "building_blocks"
 		"minecraft:map" = "tools"
-		"create_central_kitchen:honey_cake_slice" = "food"
 		"minecraft:cobblestone_wall" = "building_blocks"
 		"minecraft:mossy_cobblestone_wall" = "building_blocks"
 		"minecraft:brick_wall" = "building_blocks"
@@ -2027,11 +1947,137 @@
 		"twigs:waxed_weathered_copper_pillar" = "building_blocks"
 		"twigs:waxed_oxidized_copper_pillar" = "building_blocks"
 		"kubejs:copper_block" = "building_blocks"
+		"create_connected:copycat_slab" = "decorations"
+		"create_connected:copycat_block" = "decorations"
+		"create_connected:copycat_beam" = "decorations"
+		"create_connected:copycat_vertical_step" = "decorations"
+		"minecraft:fire_charge" = "tools"
+		"minecraft:dragon_egg" = ""
+		"create_central_kitchen:pumpkin_pie_slice" = "food"
+		"create_central_kitchen:cherry_pie_slice" = "food"
+		"create_central_kitchen:truffle_pie_slice" = "food"
+		"create_central_kitchen:mulberry_pie_slice" = "food"
+		"kubejs:prickly_pear_pie" = "food"
+		"miningmaster:gem_forge" = "decorations"
+		"spelunkery:portal_fluid_bucket" = "misc"
+		"kubejs:lazurite_slab" = "building_blocks"
+		"kubejs:lazurite_stairs" = "building_blocks"
+		"kubejs:lazurite_wall" = "building_blocks"
+		"kubejs:lapis_slab" = "building_blocks"
+		"kubejs:lapis_stairs" = "building_blocks"
+		"kubejs:lapis_wall" = "building_blocks"
+		"kubejs:electrum_horse_armor" = "misc"
+		"kubejs:rose_gold_horse_armor" = "misc"
+		"kubejs:steel_horse_armor" = "misc"
+		"minecraft:sugar_cane" = "food"
+		"alloyed:steel_fishing_rod" = "tools"
+		"kubejs:cobbled_exolite" = "building_blocks"
+		"kubejs:exolite" = "building_blocks"
+		"kubejs:chiseled_exolite" = "building_blocks"
+		"kubejs:chiseled_exolite_tiles" = "building_blocks"
+		"kubejs:packed_choral_nylium" = "building_blocks"
+		"copperandtuffbackport:chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:waxed_chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:exposed_chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:waxed_exposed_chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:oxidized_chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:waxed_oxidized_chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:weathered_chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:waxed_weathered_chiseled_copper" = "building_blocks"
+		"copperandtuffbackport:copper_grate" = "building_blocks"
+		"copperandtuffbackport:waxed_copper_grate" = "building_blocks"
+		"copperandtuffbackport:exposed_copper_grate" = "building_blocks"
+		"copperandtuffbackport:waxed_exposed_copper_grate" = "building_blocks"
+		"copperandtuffbackport:weathered_copper_grate" = "building_blocks"
+		"copperandtuffbackport:waxed_weathered_copper_grate" = "building_blocks"
+		"copperandtuffbackport:oxidized_copper_grate" = "building_blocks"
+		"copperandtuffbackport:waxed_oxidized_copper_grate" = "building_blocks"
+		"copperandtuffbackport:copper_bulb" = "redstone"
+		"copperandtuffbackport:waxed_copper_bulb" = "redstone"
+		"copperandtuffbackport:exposed_copper_bulb" = "redstone"
+		"copperandtuffbackport:waxed_exposed_copper_bulb" = "redstone"
+		"copperandtuffbackport:weathered_copper_bulb" = "redstone"
+		"copperandtuffbackport:waxed_weathered_copper_bulb" = "redstone"
+		"copperandtuffbackport:oxidized_copper_bulb" = "redstone"
+		"copperandtuffbackport:waxed_oxidized_copper_bulb" = "redstone"
+		"mynethersdelight:nether_bricks_cabinet" = "decorations"
+		"mynethersdelight:nether_bricks_soul_stove" = "decorations"
+		"mynethersdelight:resurgent_soil_farmland" = "decorations"
+		"mynethersdelight:powdery_cabinet" = "decorations"
+		"mynethersdelight:letios_compost" = "building_blocks"
+		"mynethersdelight:resurgent_soil" = "building_blocks"
+		"mynethersdelight:powder_cannon" = "decorations"
+		"mynethersdelight:powdery_torch" = "decorations"
+		"mynethersdelight:block_of_powdery_cannon" = "building_blocks"
+		"mynethersdelight:block_of_stripped_powdery_cannon" = "building_blocks"
+		"mynethersdelight:powdery_planks" = "building_blocks"
+		"mynethersdelight:powdery_stairs" = "building_blocks"
+		"mynethersdelight:powdery_slab" = "building_blocks"
+		"mynethersdelight:powdery_mosaic" = "building_blocks"
+		"mynethersdelight:powdery_fence" = "decorations"
+		"mynethersdelight:powdery_fence_gate" = "redstone"
+		"mynethersdelight:powdery_door" = "redstone"
+		"mynethersdelight:powdery_trapdoor" = "redstone"
+		"mynethersdelight:powdery_button" = "redstone"
+		"mynethersdelight:powdery_pressure_plate" = "redstone"
+		"mynethersdelight:powdery_sign" = "decorations"
+		"mynethersdelight:strider_slice" = "food"
+		"mynethersdelight:minced_strider" = "food"
+		"mynethersdelight:bleeding_tartar" = "food"
+		"mynethersdelight:strider_with_grilled_fungus" = "food"
+		"mynethersdelight:strider_stew" = "food"
+		"mynethersdelight:crimson_stroganoff" = "food"
+		"mynethersdelight:hoglin_sausage" = "food"
+		"mynethersdelight:roasted_sausage" = "food"
+		"mynethersdelight:hotdog" = "food"
+		"mynethersdelight:sausage_and_potatoes" = "food"
+		"mynethersdelight:breakfast_sampler" = "food"
+		"mynethersdelight:blue_tenderloin_steak" = "food"
+		"mynethersdelight:fried_hoglin_chop" = "food"
+		"mynethersdelight:bullet_pepper" = "food"
+		"mynethersdelight:spicy_skewer" = "food"
+		"mynethersdelight:chilidog" = "food"
+		"mynethersdelight:spicy_hoglin_stew" = "food"
+		"mynethersdelight:hot_wings" = "food"
+		"mynethersdelight:spicy_curry" = "food"
+		"mynethersdelight:hot_cream" = "food"
+		"mynethersdelight:hot_cream_cone" = "food"
+		"mynethersdelight:hoglin_trophy" = "decorations"
+		"mynethersdelight:waxed_hoglin_trophy" = "decorations"
+		"mynethersdelight:zoglin_trophy" = "decorations"
+		"mynethersdelight:raw_stuffed_hoglin" = "food"
+		"mynethersdelight:roast_stuffed_hoglin" = "food"
+		"mynethersdelight:roast_ear" = "food"
+		"mynethersdelight:plate_of_stuffed_hoglin_snout" = "food"
+		"mynethersdelight:plate_of_stuffed_hoglin_ham" = "food"
+		"mynethersdelight:plate_of_stuffed_hoglin" = "food"
+		"webasemod:diamond_bat" = "combat"
+		"vc_gliders:paraglider_wood" = "tools"
+		"heads:blaze_head" = "decorations"
+		"heads:hoglin_head" = "decorations"
+		"heads:piglin_head" = "decorations"
+		"heads:zoglin_head" = "decorations"
+		"heads:zombified_piglin_skull" = "decorations"
+		"heads:spider_head" = "decorations"
+		"kubejs:nether_lead_ore" = "building_blocks"
 
 	#Set this value to true to make an item fire resistant (like netherite is), or set it to false to make it burn in fire and lava. Example (without the leading #):
 	#"minecraft:netherite_ingot" = false
 	[items.fire_resistant]
-		test = false
+		"abnormals_delight:necromium_knife" = false
+		"caverns_and_chasms:necromium_block" = false
+		"caverns_and_chasms:necromium_ingot" = false
+		"caverns_and_chasms:necromium_sword" = false
+		"caverns_and_chasms:necromium_shovel" = false
+		"caverns_and_chasms:necromium_pickaxe" = false
+		"caverns_and_chasms:necromium_axe" = false
+		"caverns_and_chasms:necromium_hoe" = false
+		"caverns_and_chasms:necromium_helmet" = false
+		"caverns_and_chasms:necromium_chestplate" = false
+		"caverns_and_chasms:necromium_leggings" = false
+		"caverns_and_chasms:necromium_boots" = false
+		"caverns_and_chasms:necromium_horse_armor" = false
+		"caverns_and_chasms:necromium_nugget" = false
 
 	#Set the rarity (item color) of an item. Must be a valid rarity name. Example (without the leading #):
 	#"minecraft:beacon" = "common"
@@ -2047,16 +2093,55 @@
 	#Set the repair material of an item. May be an item or a tag containing multiple items, with a # before the tag id. Example (without the leading #):
 	#"minecraft:wooden_.*" = "#minecraft:fishes"
 	[items.repair_material]
+		"minecraft:leather_helmet" = "minecraft:rabbit_hide"
+		"minecraft:leather_chestplate" = "minecraft:rabbit_hide"
+		"minecraft:leather_leggings" = "minecraft:rabbit_hide"
+		"minecraft:leather_boots" = "minecraft:rabbit_hide"
 		"minecraft:chainmail_helmet" = "minecraft:chain"
 		"minecraft:chainmail_chestplate" = "minecraft:chain"
 		"minecraft:chainmail_leggings" = "minecraft:chain"
 		"minecraft:chainmail_boots" = "minecraft:chain"
+		"minecraft:iron_helmet" = "create:iron_sheet"
+		"minecraft:iron_chestplate" = "create:iron_sheet"
+		"minecraft:iron_leggings" = "create:iron_sheet"
+		"minecraft:iron_boots" = "create:iron_sheet"
+		"minecraft:golden_helmet" = "create:golden_sheet"
+		"minecraft:golden_chestplate" = "create:golden_sheet"
+		"minecraft:golden_leggings" = "create:golden_sheet"
+		"minecraft:golden_boots" = "create:golden_sheet"
 		"minecraft:stone_shovel" = "minecraft:copper_ingot"
 		"minecraft:stone_pickaxe" = "minecraft:copper_ingot"
 		"minecraft:stone_axe" = "minecraft:copper_ingot"
 		"minecraft:stone_hoe" = "minecraft:copper_ingot"
 		"minecraft:stone_sword" = "minecraft:copper_ingot"
-		"minecraft:fishing_rod" = "minecraft:copper_ingot"
+		"clash:spear" = "oreganized:electrum_ingot"
+		"clash:swept_axe" = "minecraft:netherite_ingot"
+		"clash:greatblade" = "caverns_and_chasms:necromium_ingot"
+		"mace_backport:mace" = "alloyed:steel_ingot"
+		"environmental:thief_hood" = "minecraft:leather"
+		"environmental:healer_pouch" = "minecraft:leather"
+		"environmental:architect_belt" = "minecraft:leather"
+		"environmental:wanderer_boots" = "minecraft:leather"
+		"copperized:copper_helmet" = "create:copper_sheet"
+		"copperized:copper_chestplate" = "create:copper_sheet"
+		"copperized:copper_leggings" = "create:copper_sheet"
+		"copperized:copper_boots" = "create:copper_sheet"
+		"another_furniture:furniture_hammer" = "minecraft:copper_ingot"
+		"webasemod:diamond_bat" = "minecraft:amethyst_shard"
+		"sullysmod:jade_shield" = "minecraft:amethyst_shard"
+		"minecraft:bow" = "minecraft:string"
+		"minecraft:crossbow" = "minecraft:string"
+		"minecraft:fishing_rod" = "minecraft:string"
+		"alloyed:steel_fishing_rod" = "create:iron_sheet"
+		"additionaladditions:rose_gold_helmet" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_chestplate" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_leggings" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_boots" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_pickaxe" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_axe" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_hoe" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_shovel" = "additionaladditions:rose_gold_alloy"
+		"additionaladditions:rose_gold_sword" = "additionaladditions:rose_gold_alloy"
 
 	#Set the values for armor.
 	[items.armor]
@@ -2064,23 +2149,94 @@
 		#Set the defense value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_chestplate" = 10
 		[items.armor.defense]
-			test = 0
+			"additionaladditions:rose_gold_leggings" = 5
+			"minecraft:diamond_helmet" = 3
+			"minecraft:diamond_chestplate" = 7
+			"minecraft:diamond_leggings" = 5
+			"minecraft:diamond_boots" = 2
+			"minecraft:chainmail_boots" = 2
+			"copperized:copper_boots" = 2
+			"minecraft:leather_chestplate" = 4
+			"minecraft:leather_leggings" = 3
 
 		#Set the toughness value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_boots" = 1
 		[items.armor.toughness]
-			test = 0.0
+			"additionaladditions:rose_gold_chestplate" = 2
+			"minecraft:golden_chestplate" = 1
+			"alloyed:steel_helmet" = 2
+			"alloyed:steel_chestplate" = 2
+			"alloyed:steel_leggings" = 2
+			"alloyed:steel_boots" = 2
+			"minecraft:leather_helmet" = 1
+			"minecraft:leather_chestplate" = 1
+			"minecraft:leather_leggings" = 1
+			"minecraft:leather_boots" = 1
+			"minecraft:iron_helmet" = 1
+			"minecraft:iron_chestplate" = 1
+			"minecraft:iron_leggings" = 1
+			"minecraft:iron_boots" = 1
+			"copperized:copper_helmet" = 1
+			"copperized:copper_chestplate" = 1
+			"copperized:copper_leggings" = 1
+			"copperized:copper_boots" = 1
 
 		#Set the knockback resistance of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_leggings" = 0.1
 		[items.armor.knockback_resistance]
-			test = 0.0
+			"alloyed:steel_helmet" = 1
+			"alloyed:steel_chestplate" = 2
+			"alloyed:steel_leggings" = 2
+			"alloyed:steel_boots" = 1
 
 	#Set the values for tools, swords and tridents.
 	[items.tools]
+
 		#Set the attack damage of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_sword" = 12
-		attack_damage = {}
+		[items.tools.attack_damage]
+			"alloyed:steel_sword" = 7.0
+			"alloyed:steel_pickaxe" = 5.0
+			"alloyed:steel_axe" = 9.0
+			"alloyed:steel_shovel" = 5.5
+			"alloyed:steel_hoe" = 1.0
+			"alloyed:steel_knife" = 4.5
+			"minecraft:golden_sword" = 4.5
+			"minecraft:golden_shovel" = 3.0
+			"minecraft:golden_pickaxe" = 2.5
+			"minecraft:golden_axe" = 6.5
+			"minecraft:golden_hoe" = 1.0
+			"kubejs:rose_gold_knife" = 3.0
+			"additionaladditions:rose_gold_sword" = 3.5
+			"additionaladditions:rose_gold_axe" = 5.5
+			"additionaladditions:rose_gold_pickaxe" = 3.5
+			"additionaladditions:rose_gold_shovel" = 3.5
+			"additionaladditions:rose_gold_hoe" = 1.0
+			"oreganized:electrum_hoe" = 1.0
+			"minecraft:trident" = 13.5
+			"savage_and_ravage:cleaver_of_beheading" = 15
+			"clash:swept_axe" = 8
+			"mace_backport:mace" = 7.0
+			"kubejs:rose_gold_rapier" = 3
+			"minecraft:netherite_axe" = 11
+			"minecraft:iron_axe" = 8
+			"minecraft:stone_axe" = 7
+			"minecraft:wooden_axe" = 6
+			"minecraft:diamond_axe" = 8.75
+			"minecraft:diamond_sword" = 6.75
+			"minecraft:diamond_shovel" = 5.25
+			"minecraft:diamond_pickaxe" = 4.75
+			"minecraft:diamond_hoe" = 1
+			"farmersdelight:diamond_knife" = 4.25
+			"kubejs:bone_knife" = 2.5
+			"kubejs:crowbar" = 3
+			"oreganized:silver_mirror" = 3
+			"kubejs:lead_axe" = 7.5
+			"kubejs:lead_sword" = 5.5
+			"kubejs:lead_shovel" = 4
+			"kubejs:lead_pickaxe" = 3.5
+			"kubejs:lead_hoe" = 1
+			"kubejs:lead_knife" = 3.25
 
 		#Set the efficiency value of a tool. May not work on modded tools, please file an issue if that's the case. Also doesn't work on shears, due to internal problems with that. Example (without the leading #):
 		#"minecraft:iron_pickaxe" = 16
@@ -2090,49 +2246,94 @@
 			"minecraft:wooden_axe" = 3.5
 			"minecraft:wooden_hoe" = 3.5
 			"farmersdelight:flint_knife" = 3.5
-			"minecraft:stone_shovel" = 5.5
-			"minecraft:stone_pickaxe" = 5.5
-			"minecraft:stone_axe" = 5.5
-			"minecraft:stone_hoe" = 5.5
-			"minecraft:iron_shovel" = 7.5
-			"minecraft:iron_pickaxe" = 7.5
-			"minecraft:iron_axe" = 7.5
-			"minecraft:iron_hoe" = 7.5
-			"farmersdelight:iron_knife" = 7.5
-			"alloyed:steel_pickaxe" = 7.5
-			"alloyed:steel_axe" = 7.5
-			"alloyed:steel_shovel" = 7.5
-			"alloyed:steel_hoe" = 7.5
-			"alloyed:steel_knife" = 7.5
-			"minecraft:diamond_shovel" = 10.0
-			"minecraft:diamond_pickaxe" = 10.0
-			"minecraft:diamond_axe" = 10.0
-			"minecraft:diamond_hoe" = 10.0
-			"farmersdelight:diamond_knife" = 10.0
-			"minecraft:netherite_shovel" = 10.0
-			"minecraft:netherite_pickaxe" = 10.0
-			"minecraft:netherite_axe" = 10.0
-			"minecraft:netherite_hoe" = 10.0
-			"farmersdelight:netherite_knife" = 10.0
-			"additionaladditions:rose_gold_axe" = 12.5
-			"additionaladditions:rose_gold_pickaxe" = 12.5
-			"additionaladditions:rose_gold_shovel" = 12.5
-			"additionaladditions:rose_gold_hoe" = 12.5
-			"oreganized:electrum_shovel" = 15.0
-			"oreganized:electrum_pickaxe" = 15.0
-			"oreganized:electrum_axe" = 15.0
-			"oreganized:electrum_hoe" = 15.0
-			"oreganized:electrum_knife" = 15.0
-			"minecraft:golden_shovel" = 16.0
-			"minecraft:golden_pickaxe" = 16.0
-			"minecraft:golden_axe" = 16.0
-			"minecraft:golden_hoe" = 16.0
-			"farmersdelight:golden_knife" = 16.0
+			"minecraft:stone_shovel" = 5.0
+			"minecraft:stone_pickaxe" = 5.0
+			"minecraft:stone_axe" = 5.0
+			"minecraft:stone_hoe" = 5.0
+			"minecraft:iron_shovel" = 6.5
+			"minecraft:iron_pickaxe" = 6.5
+			"minecraft:iron_axe" = 6.5
+			"minecraft:iron_hoe" = 6.5
+			"farmersdelight:iron_knife" = 6.5
+			"alloyed:steel_pickaxe" = 6.0
+			"alloyed:steel_axe" = 6.0
+			"alloyed:steel_shovel" = 6.0
+			"alloyed:steel_hoe" = 6.0
+			"alloyed:steel_knife" = 6.0
+			"minecraft:diamond_shovel" = 8.0
+			"minecraft:diamond_pickaxe" = 8.0
+			"minecraft:diamond_axe" = 8.0
+			"minecraft:diamond_hoe" = 8.0
+			"farmersdelight:diamond_knife" = 8.0
+			"minecraft:netherite_shovel" = 9.0
+			"minecraft:netherite_pickaxe" = 9.0
+			"minecraft:netherite_axe" = 9.0
+			"minecraft:netherite_hoe" = 9.0
+			"farmersdelight:netherite_knife" = 9.0
+			"caverns_and_chasms:necromium_shovel" = 10
+			"caverns_and_chasms:necromium_pickaxe" = 10
+			"caverns_and_chasms:necromium_axe" = 10
+			"caverns_and_chasms:necromium_hoe" = 10
+			"abnormals_delight:necromium_knife" = 10
+			"additionaladditions:rose_gold_axe" = 12.0
+			"additionaladditions:rose_gold_pickaxe" = 12.0
+			"additionaladditions:rose_gold_shovel" = 12.0
+			"additionaladditions:rose_gold_hoe" = 12.0
+			"oreganized:electrum_shovel" = 18
+			"oreganized:electrum_pickaxe" = 18
+			"oreganized:electrum_axe" = 18
+			"oreganized:electrum_hoe" = 18
+			"oreganized:electrum_knife" = 18
+			"minecraft:golden_shovel" = 19.5
+			"minecraft:golden_pickaxe" = 19.5
+			"minecraft:golden_axe" = 19.5
+			"minecraft:golden_hoe" = 19.5
+			"farmersdelight:golden_knife" = 19.5
 
 		#Set the attack speed of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_pickaxe" = 2.5
 		[items.tools.attack_speed]
-			test = 0.0
+			"minecraft:golden_sword" = 2.0
+			"minecraft:golden_shovel" = 1.4
+			"minecraft:golden_pickaxe" = 1.6
+			"minecraft:golden_axe" = 1.4
+			"minecraft:golden_hoe" = 6
+			"farmersdelight:golden_knife" = 2.4
+			"additionaladditions:rose_gold_sword" = 1.7
+			"additionaladditions:rose_gold_axe" = 1.1
+			"additionaladditions:rose_gold_pickaxe" = 1.3
+			"additionaladditions:rose_gold_shovel" = 1.1
+			"additionaladditions:rose_gold_hoe" = 4.0
+			"kubejs:rose_gold_knife" = 2.1
+			"alloyed:steel_sword" = 1.4
+			"alloyed:steel_pickaxe" = 1.0
+			"alloyed:steel_axe" = 0.8
+			"alloyed:steel_shovel" = 0.8
+			"alloyed:steel_hoe" = 3
+			"alloyed:steel_knife" = 1.8
+			"oreganized:electrum_hoe" = 5.0
+			"savage_and_ravage:cleaver_of_beheading" = 0.6
+			"clash:swept_axe" = 1.0
+			"mace_backport:mace" = 0.9
+			"kubejs:rose_gold_rapier" = 2.75
+			"minecraft:netherite_axe" = 1
+			"minecraft:iron_axe" = 0.9
+			"minecraft:stone_axe" = 0.8
+			"minecraft:wooden_axe" = 0.8
+			"minecraft:diamond_axe" = 1
+			"minecraft:diamond_sword" = 1.6
+			"minecraft:diamond_shovel" = 1
+			"minecraft:diamond_pickaxe" = 1.2
+			"minecraft:diamond_hoe" = 4
+			"farmersdelight:diamond_knife" = 2
+			"kubejs:crowbar" = 1.6
+			"oreganized:silver_mirror" = 0.6
+			"kubejs:lead_axe" = 0.9
+			"kubejs:lead_sword" = 1.6
+			"kubejs:lead_shovel" = 1
+			"kubejs:lead_pickaxe" = 1.2
+			"kubejs:lead_hoe" = 2.5
+			"kubejs:lead_knife" = 2
 
 #Set the values for enchantments.
 [enchantments]
@@ -2220,12 +2421,12 @@
 	#Whether a certain tilling transition needs air above to work. Consists of a block or block regex and a boolean value (true or false). If left unspecified, true is assumed. Example (without the leading #):
 	#"minecraft:diamond_block" = false
 	[tilling.needs_air]
-		test = false
+		test = ""
 
 	#The item that is dropped when tilling. Consists of a block or block regex and an item id. If left unspecified, no item is dropped. Example (without the leading #):
 	#"minecraft:diamond_block" = "minecraft:iron_nugget"
 	[tilling.item_drop]
-		test = "minecraft:missingno"
+		test = ""
 
 #Set the values for entities.
 [entities]
@@ -2233,5 +2434,13 @@
 	#Set the default attributes for entities. Format is "entityid" = "attributeid;value". Cannot add new attributes to mobs, can only alter those that are present by default anyway. Example (without the leading #):
 	#"minecraft:zombie" = "minecraft:generic.attack_damage;10"
 	[entities.default_attributes]
-		test = ""
+		"minecraft:rabbit" = "minecraft:generic.max_health;6"
+		"minecraft:bat" = "minecraft:generic.max_health;4"
+		"minecraft:phantom" = "minecraft:generic.max_health;12"
+		"minecraft:stray" = "minecraft:generic.max_health;10"
+		"minecraft:wither_skeleton" = "minecraft:generic.max_health;16"
+		"minecraft:blaze" = "minecraft:generic.max_health;16"
+		"upgrade_aquatic:flare" = "minecraft:generic.max_health;12"
+		"naturalist:rhino" = "minecraft:generic.max_health;60"
+		"autumnity:turkey" = "minecraft:generic.max_health;8"
 

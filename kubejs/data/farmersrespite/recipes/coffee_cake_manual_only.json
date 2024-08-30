@@ -2,13 +2,31 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "createaddition:cake_base"
+            "item": "farmersrespite:coffee_beans"
+        },
+		{
+            "tag": "forge:milk"
         },
         {
             "item": "farmersrespite:coffee_beans"
         },
+		{
+            "item": "minecraft:sugar"
+        },
+		{
+            "tag": "forge:eggs"
+        },
         {
-            "item": "farmersrespite:coffee_beans"
+            "item": "minecraft:sugar"
+        },
+		{
+            "tag": "farmersdelight:wheat_or_flour"
+        },
+		{
+            "tag": "farmersdelight:wheat_or_flour"
+        },
+		{
+            "tag": "farmersdelight:wheat_or_flour"
         }
     ],
     "result": {

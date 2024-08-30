@@ -11,7 +11,7 @@
 	#If true, enables the hunger/saturation/health overlays for food in your off-hand
 	showFoodValuesHudOverlayWhenOffhand = false
 	#If true, shows your food exhaustion as a progress bar behind the hunger bars
-	showFoodExhaustionHudUnderlay = true
+	showFoodExhaustionHudUnderlay = false
 	#If true, adds a line that shows your hunger, saturation, and exhaustion level in the F3 debug overlay
 	showFoodStatsInDebugOverlay = true
 	#If true, shows estimated health restored by food on the health bar

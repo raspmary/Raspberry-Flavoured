@@ -1,16 +1,1 @@
-{
-  "conditions": [
-    {
-      "modid": "create",
-      "type": "forge:mod_loaded"
-    }
-  ],
-  "type": "spelunkery:grindstone_polishing",
-  "ingredient": "create:rose_quartz",
-  "result": "create:polished_rose_quartz",
-  "resultCount": 1,
-  "byproduct": "minecraft:air",
-  "byproductMin": 0,
-  "byproductMax": 0,
-  "experience": 0
-}
+{}

@@ -1,0 +1,356 @@
+{
+  "parent": "raspberryflavoured:hunting_root",
+  "criteria": {
+    "00": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"01": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_coal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"02": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"03": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"04": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"05": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_copper_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"06": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"07": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"08": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"09": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_redstone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"10": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"11": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_lapis_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"12": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"13": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"14": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"15": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_quartz_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"16": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:silver_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"17": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:deepslate_silver_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"18": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:lead_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"19": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:deepslate_lead_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"20": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:zinc_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"21": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:deepslate_zinc_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Collect every ore in block form using a rose gold pickaxe"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Geology Rocks!"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "00"
+    ],
+	[
+      "01"
+    ],
+	[
+      "02"
+    ],
+	[
+      "03"
+    ],
+	[
+      "04"
+    ],
+    [
+      "05"
+    ],
+	[
+      "06"
+    ],
+	[
+      "07"
+    ],
+	[
+      "08"
+    ],
+	[
+      "09"
+    ],
+	[
+      "10"
+    ],
+	[
+      "11"
+    ],
+	[
+      "12"
+    ],
+	[
+      "13"
+    ],
+	[
+      "14"
+    ],
+	[
+      "15"
+    ],
+	[
+      "16"
+    ],
+	[
+      "17"
+    ],
+	[
+      "18"
+    ],
+	[
+      "19"
+    ],
+	[
+      "20"
+    ],
+	[
+      "21"
+    ]
+  ]
+}

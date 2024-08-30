@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "lucky:block/raspberry_lucky_block"
-    }
-}

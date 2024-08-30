@@ -1,0 +1,65 @@
+
+[Vanilla]
+
+	[Vanilla.metal_ores]
+		#If mining ores that normally drop raw ores should grant XP
+		"Experienced metal" = true
+
+	[Vanilla.farmland]
+		#Whether farmland can be untilled by sneak-right clicking them with a hoe
+		"Untillable Farmland" = true
+
+	[Vanilla.crops]
+		#If all blocks that are crops should drop experience.
+		"Experienced Crops" = true
+		#Minimum XP a crop block will drop when broken.
+		"Minimum Crop XP" = 0
+		#Maximum XP a crop block will drop when broken.
+		"Maximum Crop XP" = 1
+
+	[Vanilla.dispensers]
+		#If dispensers should be able to dispense into cauldrons
+		"Dispenser Cauldrons" = true
+
+[atmospheric]
+
+	[atmospheric.Oranges]
+		#If oranges can no longer be jumped on to be broken and to create a vapor cloud
+		"Normal Oranges" = true
+
+[farmersdelight]
+
+	[farmersdelight."Knife Enchantments"]
+		#If knives should no longer receive the silk touch and efficiency from the enchanting table
+		"Unbloated Knife Enchantments" = true
+
+[brewin_and_chewin]
+
+	[brewin_and_chewin.Tipsy]
+		#If the tipsy effect should, instead of doing whatever it does now, should act as a progressively worsening nausea effect. TO FULLY DISABLE THIS FEATURE, PLEASE ALSO TURN OFF "WEIRD TIPSY" IN THE COMMON CONFIG
+		"Weird Tipsy" = true
+
+[nethersdelight]
+
+	[nethersdelight.fungus_colonies]
+		#If fungus colonies should grow on normal rich soil instead of soul rich soil
+		"Rich Fungus" = true
+
+[environmental]
+
+	[environmental.wanderers_boots]
+		#If mobs will spawn with wanderer's boots with some odds proportional to how far they are away from the 0, 0
+		"Cool Boots" = false
+
+[supplementaries]
+
+	[supplementaries.quivers]
+		#If processing a quiver in a cutting board will eject all the arrows in that quiver
+		"Realistic Quivers" = true
+
+[anchor]
+
+	[anchor."epilogue Disc"]
+		#If striking a jukebox with lightning with a filled disc inside will change that disc to Epilogue
+		"AWESOME epilogue disc" = true
+

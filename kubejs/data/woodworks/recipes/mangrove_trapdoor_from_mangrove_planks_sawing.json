@@ -1,0 +1,21 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "woodworks:config",
+          "value": "sawmill"
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 1,
+        "ingredient": {
+          "item": "minecraft:mangrove_planks"
+        },
+        "result": "minecraft:mangrove_trapdoor"
+      }
+    }
+  ]
+}

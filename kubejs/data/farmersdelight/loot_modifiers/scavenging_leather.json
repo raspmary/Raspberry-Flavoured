@@ -61,20 +61,6 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "minecraft:trader_llama"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:frog"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
             "type": "environmental:deer"
           }
         },
@@ -84,9 +70,30 @@
           "predicate": {
             "type": "buzzier_bees:moobloom"
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:sheep"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:goat"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "naturalist:rhino"
+          }
         }
       ]
     }
   ],
-  "item": "minecraft:rabbit_hide"
+  "item": "minecraft:leather"
 }

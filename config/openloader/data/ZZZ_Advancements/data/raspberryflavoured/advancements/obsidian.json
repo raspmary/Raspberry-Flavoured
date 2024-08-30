@@ -30,6 +30,9 @@
       "text": "Not Tough Enough"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

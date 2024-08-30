@@ -4,24 +4,25 @@
     {
       "rolls": {
         "min": 2.0,
-        "max": 4.0,
+        "max": 6.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 5,
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
+			{
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.6
+              },
+              "function": "minecraft:set_damage"
             }
           ],
-          "name": "minecraft:charcoal"
+          "name": "minecraft:bow"
         },
         {
           "type": "minecraft:item",
@@ -31,12 +32,27 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 2.0,
-                "max": 4.0,
+                "max": 36.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:coal"
+          "name": "kubejs:charcoal_lump"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 36.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "spelunkery:coal_lump"
         },
         {
           "type": "minecraft:item",
@@ -61,7 +77,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 3.0,
-                "max": 5.0,
+                "max": 15.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -75,8 +91,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 5.0,
+                "min": 1.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -85,8 +101,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 25,
           "name": "spelunkery:rough_diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_ward"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_mellohi"
         },
         {
           "type": "minecraft:item",
@@ -110,7 +136,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 8,
           "functions": [
 			{
               "add": false,

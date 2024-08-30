@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:block/chiseled_exolite",
+    "side": "kubejs:block/chiseled_exolite_side"
+  }
+}

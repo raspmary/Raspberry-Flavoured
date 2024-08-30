@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:gameplay/fishing/fish",
+          "quality": 0,
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:gameplay/fishing/junk",
+          "quality": -1,
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                }
+              }
+            }
+          ],
+          "name": "minecraft:gameplay/fishing/treasure",
+          "quality": 1,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                }
+              }
+            }
+          ],
+          "name": "kubejs:tablets",
+          "quality": 1,
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

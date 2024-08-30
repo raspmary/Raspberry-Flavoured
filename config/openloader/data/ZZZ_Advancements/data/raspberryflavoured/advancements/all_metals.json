@@ -1,0 +1,206 @@
+{
+  "parent": "raspberryflavoured:necromium",
+  "criteria": {
+    "00": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"01": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"02": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"03": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"04": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:bronze_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"05": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"06": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:zinc_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"07": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:brass_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"08": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:silver_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"09": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:lead_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"10": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"11": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Acquire every single metal ingot"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Metallic Madness"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "00"
+    ],
+    [
+      "01"
+    ],
+    [
+      "02"
+    ],
+    [
+      "03"
+    ],
+    [
+      "04"
+    ],
+    [
+      "05"
+    ],
+    [
+      "06"
+    ],
+    [
+      "07"
+    ],
+    [
+      "08"
+    ],
+    [
+      "09"
+    ],
+    [
+      "10"
+    ],
+    [
+      "11"
+    ]
+  ]
+}

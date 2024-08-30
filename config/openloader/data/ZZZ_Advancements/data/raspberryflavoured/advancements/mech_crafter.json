@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Place down mechanical crafters to start crafting recipes automatically - they can even craft bigger than 3x3 recipes!"
+      "text": "Place down mechanical crafters to start crafting recipes automatically - they can even craft recipes bigger than a 3x3 space!"
     },
     "frame": "task",
     "hidden": false,
@@ -24,6 +24,9 @@
       "text": "Craft-A-Tron"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

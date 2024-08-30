@@ -1,0 +1,24 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:drowned",
+    "minecraft:husk",
+    "windswept:chilled",
+	"minecraft:creeper",
+	"minecraft:enderman",
+	"minecraft:skeleton",
+	"minecraft:wither_skeleton",
+    "minecraft:stray",
+	"minecraft:blaze",
+	"minecraft:hoglin",
+	"minecraft:piglin",
+	"minecraft:zombified_piglin",
+	"minecraft:zoglin",
+	"minecraft:spider",
+	"minecraft:cave_spider",
+	"neapolitan:plantain_spider",
+	"caverns_and_chasms:deeper",
+	"caverns_and_chasms:peeper",
+	"caverns_and_chasms:mime"
+  ]
+}

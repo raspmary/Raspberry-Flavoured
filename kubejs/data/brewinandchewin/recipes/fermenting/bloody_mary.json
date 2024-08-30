@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 1500,
+  "fermentingtime": 3000,
   "fluiditem": {
     "item": "brewinandchewin:vodka"
   },
@@ -18,14 +18,9 @@
     {
       "tag": "forge:crops/cabbage"
     },
-	[
     {
       "item": "minecraft:sweet_berries"
-    },
-	{
-      "item": "windswept:wild_berries"
     }
-	]
   ],
   "recipe_book_tab": "drinks",
   "result": {

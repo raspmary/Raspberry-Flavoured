@@ -1,0 +1,18 @@
+
+[general]
+	#This allows you hide or show the overlay in the top right of the screen when XRay is enabled
+	showOverlay = true
+	#This allows you to set your own outline thickness, I find that 1.0 is perfect but others my
+	#think differently. The max is 5.0
+	#Range: 1.0 ~ 5.0
+	outlineThickness = 1.0
+
+#DO NOT TOUCH!
+[store]
+	#DO NOT TOUCH!
+	#This is not for you.
+	#Range: 0 ~ 5
+	radius = 5
+	#Memory value for if you're currently wanting Lava to be rendered into the mix
+	lavaActive = false
+

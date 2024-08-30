@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "oreganized:lead_block",
-	"oreganized:silver_block",
 	"oreganized:electrum_block",
 	"quark:iron_plate",
 	"quark:iron_plate_slab",

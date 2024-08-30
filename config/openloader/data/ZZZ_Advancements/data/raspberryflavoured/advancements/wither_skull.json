@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Get very lucky when killing a wither skeleton to obtain its skull - the Looting enchantment might help!"
+      "text": "Get very lucky when killing a Withered to obtain its skull - a golden sword might help speed things up!"
     },
     "frame": "challenge",
     "hidden": false,
@@ -30,6 +30,9 @@
       "text": "Skull Issue"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_nether"
+    },
   "requirements": [
     [
       "0"

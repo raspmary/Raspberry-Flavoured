@@ -1,25 +1,54 @@
 {
-  "parent": "raspberryflavoured:pickaxe",
+  "parent": "raspberryflavoured:farming_root",
   "criteria": {
     "campfire": {
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:campfire",
-			  "minecraft:soul_campfire"
-            ]
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
           }
-        ]
+        }
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:item_used_on_block"
+    },
+	"soul_campfire": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:soul_campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#ED3D69",
-      "text": "Make some campfire kindling - you can light it with a fire striker to cook food, or use it to make a furnace"
+      "color": "#C44E00",
+      "text": "Make some campfire kindling and light it with a fire striker or by holding twigs in both hands - campfires can cook food, pacify bees, and burn tree bark into charcoal lumps"
     },
     "frame": "task",
     "hidden": false,
@@ -31,9 +60,13 @@
       "text": "F-F-Fire!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
-      "campfire"
+      "campfire",
+      "soul_campfire"
     ]
   ]
 }

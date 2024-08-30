@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:mech_mixer",
+  "parent": "raspberryflavoured:steel",
   "criteria": {
     "0": {
       "conditions": {
@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Place down an encased fan to pull and push entities or process materials by blowing fire or water"
+      "text": "Place down an industrial fan to pull and push entities, or process materials by blowing fire, water or lava"
     },
     "frame": "task",
     "hidden": false,
@@ -24,6 +24,9 @@
       "text": "I'm A True Fan"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

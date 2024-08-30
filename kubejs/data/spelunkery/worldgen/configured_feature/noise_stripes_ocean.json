@@ -7,13 +7,13 @@
         "primary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone"
+            "Name": "minecraft:stone"
           }
         },
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone"
+            "Name": "minecraft:tuff"
           }
         },
         "stone_pattern": {
@@ -29,13 +29,13 @@
         "primary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone"
+            "Name": "minecraft:stone"
           }
         },
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone"
+            "Name": "minecraft:tuff"
           }
         },
         "stone_pattern": {
@@ -55,7 +55,7 @@
         "primary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone",
+            "Name": "minecraft:deepslate",
             "Properties": {
               "axis": "y"
             }
@@ -64,7 +64,7 @@
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone"
+            "Name": "minecraft:tuff"
           }
         },
         "stone_pattern": {
@@ -80,7 +80,7 @@
         "primary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone",
+            "Name": "minecraft:deepslate",
             "Properties": {
               "axis": "y"
             }
@@ -89,7 +89,7 @@
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:cobblestone"
+            "Name": "minecraft:tuff"
           }
         },
         "stone_pattern": {

@@ -24,6 +24,9 @@
       "text": "Hay Day, Hay Day!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

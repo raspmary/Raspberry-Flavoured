@@ -14,11 +14,22 @@ customization {
 }
 
 customization {
+  path = config/fancymenu/fancymenu_assets/backgroundshadows2.png
+  orientation = mid-centered
+  x = -269
+  width = 538
+  action = addtexture
+  actionid = 735cc7a4-b72b-4015-9893-63cc022879581707263062173
+  y = -156
+  height = 304
+}
+
+customization {
   orientation = mid-centered
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Microsoft & Mojang Studios are the current owners, maintainers and %n%developers of Minecraft. Team Raspberry bares no intent to%n%infringe on their copyrighted material, brand or work. %n%Raspberry Flavoured is and will always remain a non-direct profit project.%n%%n%TEAM RASPBERRY CREDITS:%n%%n%raspmary - owner and maintainer of Raspberry Flavoured%n%QinomeD - helping the team figure out how to use KubeJS, making %n%the KubeJS Delight addon upon request and lending his assistance with %n%other various technicalities%n%Chad - brainstorming tons of ideas, managing the Discord server %n%and being emotional support%n%Nive - being our main texture artist and making loads of textures for %n%both new and existing items and/or blocks%n%Crabbarition - helping out with recipes, structures, music, %n%and brainstorming even more ideas%n%%n%CONTRIBUTOR CREDITS:%n%%n%DoltHHaven/Shyguymack - lending his Upgrade Aquatic %n%Coralstone datapack and Presence Footsteps config file, and updating %n%Dolt Compat to not require Good Ending upon request%n%culling - making a compatibility datapack for all the wood types in the %n%pack to work with Woodworks' sawmill and Farmer's Delight's cutting board%n%WaterOre - design input and datapack contributions%n%MythrilBagels - making the chocolate bar, flax seeds and smithing table %n%hammer sprites (and being the first person ever to livestream the pack %n%on Twitch!)%n%Jamiscus - making the campfire kindling textures%n%%n%RESOURCE PACK/DATAPACK CREDITS:%n%%n%DISCLAIMER: The following resource packs/datapacks have been modified %n%to fit the modpack, however neither I nor any of the members of %n%Team Raspberry claim them as our own work. Please support %n%the original authors.%n%%n%Team VanillaTweaks - VanillaTweaks resource pack%n%hatsondogs - Peeves resource pack%n%vectorwing - Detail Brush, Refined Armor and Soft Weather resource packs%n%spydnel - Created & Updated resource pack%n%wedge1453 - Create Style Modded Compats resource pack%n%Kayladillo - Better Create Palettes resource pack%n%Wooferscoots - Vex Backport and Bat Backport resource packs%n%Farcr - Farcr's Re-Crafted resource pack%n%Paradiscal - Up to Scratch resource pack%n%Feranogame - Quark Vanilla Resource Overrides resource pack%n%joosh_7889 - Better Mob Models resource pack%n%MythrilBagels - Bagels' Animal Tweaks resource pack%n%DiegoxDios - Warm Polar Bear and Remodeled Rabbit resource packs%n%
+  source = Microsoft & Mojang Studios are the current owners, maintainers and %n%developers of Minecraft. Berrybush Creative bares no intent to%n%infringe on their copyrighted material, brand or work. %n%Raspberry Flavoured is and will always remain a non-profit project.%n%%n%&c&nBERRYBUSH CREATIVE TEAM CREDITS:%n%%n%&draspmary&f - Project Lead%n%&eNive&f - Artist%n%&6nöelle&f - Artist%n%&5QinomeD&f - Programmer%n%&4Crabbarition&f - Musician/Programmer%n%&bChadVAFN&f - Brainstormer/Manager%n%%n%&c&nCONTRIBUTOR CREDITS:%n%%n%&aDoltHHaven&f - Various configuration files & %n%Dolt Compat update upon request%n%&aMythrilBagels&f - Various sprites & textures, and the %n%first person to ever livestream Raspberry Flavoured%n%&aJamiscus&f - Campfire kindling textures%n%&aWaterOre&f - Design input and datapack-related contributions%n%&aculling&f - Help with various tedious sets of recipes%n%&aFreshah&f - Assistance with KubeJS scripting%n%&aKelpiesaurus&f - Help with configuring the Apathy mod%n%&amurao.kun&f - Previous player inventory layout inspiration%n%&aMehVahdJukaar&f - Assistance with the Slotify mod%n%&aVazkii&f - Original EMI layout%n%&aKiroto&f - Setting up the Raspberry Flavoured SMP server%n%&aProbablyEkho&f - Gamemode icon art%n%&abeb&f - Smithing template texture drafts, advancement book sprite%n%&aNCP_Bails, noodleman & Jameslice&f - Smithing template texture drafts%n%&aAkhillLikesMinecraft&f - Horse armour KubeJS script & textures%n%%n%&c&nRESOURCE PACK CREDITS:%n%%n%&c&n&oDisclaimer:%n%&c&oThe following resource packs/datapacks have been modified %n%&c&oto fit the modpack, however none of the members %n%&c&oof Team Raspberry claim them to be our own work. %n%&c&oPlease support the original authors.%n%%n%&aTeam Vanilla Tweaks&f - Vanilla Tweaks resource pack%n%&ahatsondogs&f - Peeves resource pack%n%&avectorwing&f - Detail Brush, Refined Armor %n%and Soft Weather resource packs%n%&a8shadowscrow8&f - SHC Enhanced Fire resource pack%n%&adb3k&f - Create Reoxidized resource pack%n%&aspydnel&f - Created & Updated resource pack%n%&awedge1453&f - Create Style Modded Compats resource pack%n%&aKayladillo&f - Better Create Palettes resource pack%n%&aScutoel&f - Vex Backport and Bat Backport resource packs%n%&aFarcr&f - Farcr's Re-Crafted resource pack%n%&aParadiscal&f - Up to Scratch resource pack%n%&aFeranogame&f - Quark Vanilla Resource Overrides resource pack%n%&ajoosh_7889&f - Better Mob Models resource pack%n%&aMythrilBagels&f - Bagels' Animal Tweaks & Texture Tweaks resource packs%n%&aDiegoxDios&f - Warm Polar Bear and Remodeled Rabbit resource packs%n%&aLad_Flaver&f - Rail Fix resource pack%n%&abebebea_loste&f - Banner Pattern Clarity resource pack%n%&aI_am_Merp&f - Brush Up resource pack%n%&aFinneganso&f - Vintage Photography resource pack
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -28,7 +39,7 @@ customization {
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 561e0002-8488-49b8-942e-67ee2e818b221690065456718
   y = -94
-  alignment = left
+  alignment = centered
   height = 167
 }
 
@@ -37,11 +48,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = closegui%btnaction_splitter_fm%
-  x = -101
+  x = -102
   width = 204
   action = addbutton
   actionid = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
-  y = 84
+  y = 78
   label = Done
   height = 20
 }
@@ -50,8 +61,8 @@ customization {
   orientation = mid-centered
   enable_scrolling = true
   shadow = true
-  scale = 1.0
-  source = RASPBERRY FLAVOURED CREDITS
+  scale = 1.5
+  source = &o&nCREDITS & ATTRIBUTIONS
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -60,9 +71,27 @@ customization {
   width = 385
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = e8333dda-cfe3-485b-bf83-f31925b66e851701372444687
-  y = -105
+  y = -111
   alignment = centered
   base_color = E8587C
-  height = 12
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/jxNe26WNYh%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/fancymenu_assets/discordbuttonhover.png
+  description = Join the RF%n%Discord server!
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
+  x = 282
+  width = 20
+  action = addbutton
+  actionid = 3f5f58d5-3a58-4288-bdcd-9cf638c01eba1714672157312
+  y = 0
+  backgroundnormal = config/fancymenu/fancymenu_assets/discordbutton.png
+  height = 20
 }
 

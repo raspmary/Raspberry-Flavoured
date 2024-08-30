@@ -1,0 +1,122 @@
+type = menu
+
+customization-meta {
+  identifier = rfmoresettings
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.ChatOptionsScreen%btnaction_splitter_fm%
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = af6a7f33-711e-464a-bd47-6905541308051713556219345
+  y = -77
+  label = Chat Settings...
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = af6a7f33-711e-464a-bd47-6905541308051713556219345
+  buttonaction = opengui;net.minecraft.client.gui.screens.AccessibilityOptionsScreen%btnaction_splitter_fm%
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = de8102da-cd75-4ef3-bb70-f0f3019bad6d1713556331462
+  y = 52
+  label = Accessibility Settings...
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = af6a7f33-711e-464a-bd47-6905541308051713556219345
+  buttonaction = opengui;net.minecraft.client.gui.screens.SkinCustomizationScreen%btnaction_splitter_fm%
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = 5cfa813c-3997-4600-979f-5b724cd219b11713556434330
+  y = 26
+  label = Skin Settings...
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = af6a7f33-711e-464a-bd47-6905541308051713556219345
+  buttonaction = opengui;com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen%btnaction_splitter_fm%
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = d7202fbc-0bd1-4279-85c4-c486ac93cdd31713556577820
+  y = 78
+  label = Mods & Configurations...
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = More Settings
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8be58e21-d5db-46c4-82bd-0544302298a71713556768988
+  y = 21
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = 07b337d8-07f5-441f-a77d-ad87077384191713556845194
+  y = 77
+  label = Done
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = af6a7f33-711e-464a-bd47-6905541308051713556219345
+  buttonaction = opencustomgui;rfmoreinfo%btnaction_splitter_fm%
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = 3902f191-b670-46a0-9bff-2957c177c14c1713557093963
+  y = 116
+  label = Resource Packs/Languages? Where?
+  height = 20
+}
+

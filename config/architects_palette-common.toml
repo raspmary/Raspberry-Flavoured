@@ -20,5 +20,5 @@ sunstoneSpreadChance = 0.35
 		#If false, NOTHING from AP will generate. If true, individual features may still be disabled.
 		globalWorldGenToggle = true
 		#Controls the spawning of Monazite, Ekanite, and Heliodor rods in various Nether biomes.
-		netherCrystalGeneration = true
+		netherCrystalGeneration = false
 

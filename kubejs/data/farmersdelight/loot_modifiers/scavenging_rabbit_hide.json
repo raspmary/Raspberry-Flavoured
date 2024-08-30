@@ -13,11 +13,23 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type": "minecraft:rabbit"
-      }
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:rabbit"
+          }
+        },
+		{
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:pig"
+          }
+        }
+      ]
     }
   ],
   "item": "minecraft:rabbit_hide"

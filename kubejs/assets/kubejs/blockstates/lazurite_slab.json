@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "kubejs:block/lazurite_slab" },
+        "type=top": { "model": "kubejs:block/lazurite_slab_top" },
+        "type=double": { "model": "spelunkery:block/rough_lazurite_block" }
+    }
+}

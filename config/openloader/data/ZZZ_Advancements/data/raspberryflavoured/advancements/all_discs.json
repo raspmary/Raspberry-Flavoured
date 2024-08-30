@@ -313,42 +313,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"27": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "kubejs:music_disc_halland"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-	"28": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "kubejs:music_disc_dalarna"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-	"29": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "kubejs:music_disc_halland_dalarna"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
 	"30": {
       "conditions": {
         "items": [
@@ -372,6 +336,66 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+	"32": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_origin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"33": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_savour"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"34": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_death"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"35": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_droopy1"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"36": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_droopy2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -383,13 +407,16 @@
     "frame": "challenge",
     "hidden": true,
     "icon": {
-      "item": "kubejs:music_disc_halland_dalarna"
+      "item": "kubejs:music_disc_origin"
     },
     "show_toast": true,
     "title": {
       "text": "Disc Jockey"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "01"
@@ -470,19 +497,25 @@
       "26"
     ],
 	[
-      "27"
-    ],
-	[
-      "28"
-    ],
-	[
-      "29"
-    ],
-	[
       "30"
     ],
 	[
       "31"
+    ],
+	[
+      "32"
+    ],
+	[
+      "33"
+    ],
+	[
+      "34"
+    ],
+	[
+      "35"
+    ],
+	[
+      "36"
     ]
   ]
 }

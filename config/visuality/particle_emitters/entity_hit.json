@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "min_amount": 1,
+  "max_amount": 20,
+  "entries": [
+    {
+      "entity": [
+        "minecraft:skeleton",
+        "minecraft:skeleton_horse",
+        "minecraft:stray"
+      ],
+      "particle": {
+        "type": "visuality:bone"
+      }
+    },
+    {
+      "entity": "minecraft:wither_skeleton",
+      "particle": {
+        "type": "visuality:wither_bone"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:chicken",
+        "environmental:duck",
+        "autumnity:turkey",
+		"naturalist:bluejay",
+		"naturalist:canary",
+		"naturalist:cardinal",
+		"naturalist:robin"
+      ],
+      "particle": {
+        "type": "visuality:feather"
+      }
+    }
+  ]
+}

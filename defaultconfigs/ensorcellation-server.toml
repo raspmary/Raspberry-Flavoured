@@ -12,7 +12,7 @@
 
 	[Enchantments.Displacement]
 		#If TRUE, the Displacement Enchantment is available for Armor, Shields, and Horse Armor.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -54,13 +54,13 @@
 
 	[Enchantments."Air Affinity"]
 		#If TRUE, the Air Affinity Enchantment is available for Helmets.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 
 	[Enchantments.Insight]
 		#If TRUE, the Insight Enchantment is available for Helmets.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -81,7 +81,7 @@
 
 	[Enchantments.Reach]
 		#If TRUE, the Reach Enchantment is available for Chestplates.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -95,14 +95,14 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 1
+		"Max Level" = 5
 		#Adjust this value to set the health granted per level of the Enchantment. (There are 2 health per heart icon.)
 		#Range: 1 ~ 10
 		"Health / Level" = 4
 
 	[Enchantments."Ender Disruption"]
 		#If TRUE, the Ender Disruption Enchantment is available for various Weapons.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -149,7 +149,7 @@
 
 	[Enchantments.Instigating]
 		#If TRUE, the Instigating Enchantment is available for various Weapons.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 
@@ -229,7 +229,7 @@
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 4
+		"Max Level" = 2
 
 	[Enchantments.Volley]
 		#If TRUE, the Volley Enchantment is available for various Bows.
@@ -244,7 +244,7 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 2
+		"Max Level" = 3
 		#Adjust this value to set the chance of an additional drop per level of the Enchantment (in percentage).
 		#Range: 1 ~ 100
 		"Effect Chance" = 50
@@ -285,7 +285,7 @@
 
 	[Enchantments."Curse of Foolishness"]
 		#If TRUE, the Curse of Foolishness Enchantment is available for Helmets.
-		Enable = true
+		Enable = false
 
 	[Enchantments."Curse of Mercy"]
 		#If TRUE, the Curse of Mercy Enchantment is available for various Weapons.
@@ -362,7 +362,7 @@
 		"Max Level" = 1
 		#Adjust this value to set the chance per level of the Enchantment firing (in percentage).
 		#Range: 1 ~ 100
-		"Effect Chance" = 15
+		"Effect Chance" = 50
 
 	[Overrides.Mending]
 		#If TRUE, the Mending Enchantment is replaced with a new Enchantment - Preservation. This enchantment allows you to repair items at an Anvil without paying an increasing XP cost for every time you repair it. Additionally, these repairs have a much lower chance of damaging the anvil.

@@ -3,11 +3,11 @@
   "pattern": [
     " X ",
     "RYR",
-    " # "
+    "###"
   ],
   "key": {
     "#": {
-      "item": "farmersdelight:wheat_dough"
+      "tag": "farmersdelight:wheat_or_flour"
     },
     "X": {
       "item": "atmospheric:yucca_flower"

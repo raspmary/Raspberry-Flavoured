@@ -30,6 +30,9 @@
       "text": "Quality Assurance"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

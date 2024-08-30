@@ -29,6 +29,18 @@
             {
               "type": "minecraft:item",
 			  "functions": [
+			  {
+					"function": "minecraft:apply_bonus",
+					"enchantment": "minecraft:fortune",
+					"formula": "minecraft:ore_drops"
+				},
+				{
+					"function": "minecraft:limit_count",
+					"limit": {
+						"min": 1,
+						"max": 4
+					}
+				},
                 {
                   "function": "minecraft:explosion_decay"
                 }

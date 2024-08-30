@@ -8,6 +8,7 @@
     "#fishermens_trap:fish_baits/salmon",
 	"#fishermens_trap:fish_baits/perch",
 	"#fishermens_trap:fish_baits/pike",
-	"#fishermens_trap:fish_baits/squid"
+	"#fishermens_trap:fish_baits/squid",
+	"#fishermens_trap:fish_baits/bass"
   ]
 }

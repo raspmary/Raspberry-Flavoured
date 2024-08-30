@@ -30,6 +30,9 @@
       "text": "Delicate Work"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

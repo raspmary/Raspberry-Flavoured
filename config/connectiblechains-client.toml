@@ -1,0 +1,13 @@
+#Configurable Chains Client Config
+#
+#  Chain Quality
+#
+# Effects the visual quality of the chain.
+#Range: 1 ~ 9
+quality = 4
+#
+#  ToolTip
+#
+# Displays a ToolTip under compatible chain items
+showToolTip = false
+

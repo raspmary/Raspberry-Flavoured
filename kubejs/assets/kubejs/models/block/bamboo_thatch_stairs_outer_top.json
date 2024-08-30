@@ -1,0 +1,7 @@
+{
+  "parent": "blueprint:block/thatch/thatch_stairs_outer_top",
+  "textures": {
+    "thatch": "twigs:block/bamboo_thatch",
+    "extrudes": "twigs:block/bamboo_thatch_thatch"
+  }
+}

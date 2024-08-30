@@ -61,18 +61,6 @@
         ]
       }
     },
-	"06": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "windswept:goat_stew"
-            ]
-          }
-        ]
-      }
-    },
 	"07": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -204,18 +192,6 @@
           }
         ]
       }
-    },
-	"19": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "abnormals_delight:passionfruit_glazed_duck"
-            ]
-          }
-        ]
-      }
     }
   },
   "display": {
@@ -234,6 +210,9 @@
       "text": "My Life is Potato"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_joke"
+    },
   "requirements": [
     [
 	"00"
@@ -249,9 +228,6 @@
 	],
 	[
 	"05"
-	],
-	[
-	"06"
 	],
 	[
 	"07"
@@ -285,9 +261,6 @@
 	],
 	[
 	"18"
-	],
-	[
-	"19"
 	]
   ]
 }

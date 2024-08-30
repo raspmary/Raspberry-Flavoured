@@ -6,20 +6,12 @@
     },
 	"S": {
       "item": "minecraft:cobblestone"
-    },
-	"C": [
-	{
-      "item": "minecraft:campfire"
-    },
-	{
-      "item": "minecraft:soul_campfire"
     }
-	]
   },
   "pattern": [
     "SSS",
     "S#S",
-    "SCS"
+    "SSS"
   ],
   "result": {
     "item": "minecraft:furnace"

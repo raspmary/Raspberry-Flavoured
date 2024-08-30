@@ -73,16 +73,13 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.8
+                "max": 0.95,
+                "min": 0.7
               },
               "function": "minecraft:set_damage"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_sword",
+          "name": "alloyed:steel_sword",
           "weight": 6
         },
         {
@@ -92,16 +89,13 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.8
+                "max": 0.95,
+                "min": 0.7
               },
               "function": "minecraft:set_damage"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_chestplate",
+          "name": "alloyed:steel_chestplate",
           "weight": 6
         },
         {
@@ -111,16 +105,13 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.8
+                "max": 0.95,
+                "min": 0.7
               },
               "function": "minecraft:set_damage"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_helmet",
+          "name": "alloyed:steel_helmet",
           "weight": 6
         },
         {
@@ -130,16 +121,13 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.8
+                "max": 0.95,
+                "min": 0.7
               },
               "function": "minecraft:set_damage"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_leggings",
+          "name": "alloyed:steel_leggings",
           "weight": 6
         },
         {
@@ -149,42 +137,39 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.8
+                "max": 0.95,
+                "min": 0.7
               },
               "function": "minecraft:set_damage"
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_boots",
+          "name": "alloyed:steel_boots",
           "weight": 6
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
-          "weight": 6
+          "name": "alloyed:steel_sword",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
-          "weight": 5
+          "name": "alloyed:steel_chestplate",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
-          "weight": 5
+          "name": "alloyed:steel_helmet",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_boots",
-          "weight": 5
+          "name": "alloyed:steel_boots",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_leggings",
-          "weight": 5
+          "name": "alloyed:steel_leggings",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -332,7 +317,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 15.0,
+                "max": 30.0,
                 "min": 5.0
               },
               "function": "minecraft:set_count"
@@ -360,6 +345,20 @@
         "type": "minecraft:uniform",
         "max": 4.0,
         "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "kubejs:tablets"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
       }
     }
   ]

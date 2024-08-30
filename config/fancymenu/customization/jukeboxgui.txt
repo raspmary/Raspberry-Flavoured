@@ -1,0 +1,76 @@
+type = menu
+
+customization-meta {
+  identifier = gg.moonflower.etched.client.screen.AlbumJukeboxScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=428450%
+  orientation = mid-centered
+  x = -51
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=428450%
+  width = 11
+  action = resizebutton
+  height = 17
+}
+
+customization {
+  identifier = %id=428450%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=428450%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/fancymenu_assets/lefthover.png
+  backgroundnormal = config/fancymenu/fancymenu_assets/left.png
+}
+
+customization {
+  identifier = %id=536450%
+  orientation = element
+  orientation_element = vanillabtn:428450
+  x = 91
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=536450%
+  width = 11
+  action = resizebutton
+  height = 17
+}
+
+customization {
+  identifier = %id=536450%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=536450%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/fancymenu_assets/righthover.png
+  backgroundnormal = config/fancymenu/fancymenu_assets/right.png
+}
+

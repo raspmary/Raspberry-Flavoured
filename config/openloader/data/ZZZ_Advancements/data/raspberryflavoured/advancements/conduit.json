@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:buried_treasure",
+  "parent": "raspberryflavoured:monument",
   "criteria": {
     "0": {
       "trigger": "minecraft:effects_changed",
@@ -26,6 +26,9 @@
       "text": "Ocean Man"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "0"

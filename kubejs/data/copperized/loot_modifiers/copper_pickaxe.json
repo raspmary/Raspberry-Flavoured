@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "chance": 0.1,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+      ]
+    }
+  ],
+  "type": "copperized:add_item",
+  "item": "copperized:copper_pickaxe",
+  "minAmount": 1,
+  "maxAmount": 1,
+  "unique": true
+}

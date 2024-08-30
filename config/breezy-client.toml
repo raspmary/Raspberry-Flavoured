@@ -1,0 +1,31 @@
+
+[client]
+	#Should balloons render from farther distances?
+	#Default: true
+	balloons_render_farther_away = true
+
+	[client.particles]
+		#Should wind be displayed?
+		#Default: true
+		should_display_wind = true
+		#How high above sea level should wind be displayed?
+		#Default: 20
+		minimum_wind_height_above_sea_level = 20
+		#Wind particles may only spawn in blocks with access to sky
+		#Default: true
+		wind_must_see_sky = true
+
+		[client.particles."biome dependent frequency multipliers"]
+			#Wind freq multiplier for low_wind biomes
+			#Default: 0.005
+			#Range: 0.0 ~ 1.0
+			low_wind_frequency = 0.005
+			#Wind freq multiplier by default
+			#Default: 0.01
+			#Range: 0.0 ~ 1.0
+			medium_wind_frequency = 0.01
+			#Wind freq multiplier for high_wind biomes
+			#Default: 0.015
+			#Range: 0.0 ~ 1.0
+			high_wind_frequency = 0.015
+

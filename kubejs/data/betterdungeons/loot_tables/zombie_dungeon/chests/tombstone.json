@@ -61,7 +61,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 0.0,
-                "max": 1.0,
+                "max": 2.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -75,19 +75,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-			{
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.6
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "savage_and_ravage:cleaver_of_beheading"
+          "weight": 12,
+          "name": "minecraft:music_disc_ward"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:music_disc_mellohi"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "architects_palette:withered_bone_block"
         }
       ]
     }

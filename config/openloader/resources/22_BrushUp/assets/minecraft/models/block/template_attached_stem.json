@@ -1,0 +1,38 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#attached_stem"
+	},
+	"elements": [
+		{
+			"from": [-16, -1, 8],
+			"to": [16, 31, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#attached_stem"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#attached_stem"}
+			}
+		},
+		{
+			"from": [8, -1, 0],
+			"to": [8, 15, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 15, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"from": [0, -1, 8],
+			"to": [16, 15, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 15, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+			}
+		}
+	]
+}

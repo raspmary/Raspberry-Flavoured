@@ -30,6 +30,9 @@
       "text": "Brass, Brass, Brass!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

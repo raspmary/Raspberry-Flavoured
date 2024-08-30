@@ -28,6 +28,9 @@
       "text": "Cutting Edge"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

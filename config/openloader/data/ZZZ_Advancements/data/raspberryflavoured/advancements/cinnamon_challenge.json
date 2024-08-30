@@ -28,6 +28,9 @@
       "text": "Cinnamon Challenge"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_joke"
+    },
   "requirements": [
     [
       "00"

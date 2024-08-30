@@ -1,0 +1,16 @@
+{
+    "multipart": [
+	{
+	   "apply": [
+		{ "model": "block/soul_fire_floor0" },
+		{ "model": "block/soul_fire_floor0", "y": 90  },
+		{ "model": "block/soul_fire_floor0", "y": 180 },
+		{ "model": "block/soul_fire_floor0", "y": 270 },
+		{ "model": "block/soul_fire_floor1" },
+		{ "model": "block/soul_fire_floor1", "y": 90  },
+		{ "model": "block/soul_fire_floor1", "y": 180 },
+		{ "model": "block/soul_fire_floor1", "y": 270 }
+            ]
+	}
+    ]
+}

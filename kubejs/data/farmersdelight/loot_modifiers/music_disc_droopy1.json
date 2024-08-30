@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#kubejs:head_droppers"
+      }
+    },
+	{
+      "condition": "minecraft:killed_by_player"
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.005,
+      "looting_multiplier": 0.015
+    }
+  ],
+  "item": "kubejs:music_disc_droopy1"
+}

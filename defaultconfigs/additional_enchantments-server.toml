@@ -1,0 +1,285 @@
+
+[straight_shot]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 4
+
+[faster_attacks]
+	#Enable or disable the enchantment completely
+	is_enabled = true
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 3
+	#Multiplier to the enchantment level which will determine the attack speed bonus (level * <multiplier>) (result will apply as multiply_base)
+	#Range: 0.0 ~ 10.0
+	faster_attacks_multiplier = 0.15
+
+[ore_sight]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 5
+
+[tipped]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 4
+	#Base duration (in seconds) for the applied effect
+	#Range: 0.0 ~ 60.0
+	tipped_duration_base = 3.0
+	#How much the enchantment level affect the duration (1 * <multiplier>) (result will be in seconds)
+	#Range: 0.0 ~ 10.0
+	tipped_duration_multiplier = 2.0
+
+[explosive_tip]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 4
+	#Multiplier to the enchantment level which will determine the explosion radius (level * <multiplier>) (result will at least by 0.1)
+	#Range: 0.0 ~ 100.0
+	explosive_tip_radius_multiplier = 1.0
+
+[homing]
+	#Enable or disable the enchantment completely
+	is_enabled = true
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 1
+
+[shatter]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 4
+	#Base chance for the projectile to shatter and deal area of effect damage (1 means 100%)
+	#Range: 0.0 ~ 1.0
+	shatter_chance_base = 0.3
+	#Multiplier to the enchantment level to determine the bonus to the base chance (level * <chance_multiplier>)
+	#Range: 0.0 ~ 1.0
+	shatter_chance_modifier = 0.1
+	#Multiplier to the enchantment level to determine the area of effect damage (level * <damage_multiplier>)
+	#Range: 0.0 ~ 10.0
+	shatter_damage_multiplier = 0.5
+
+[plague]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 6
+	#Chance for the effect to apply (level * <chance_multiplier>) (result of 1 means 100%)
+	#Range: 0.0 ~ 1.0
+	plague_chance_multiplier = 0.1
+	#Base duration (in seconds) for the applied effect
+	#Range: 0.0 ~ 60.0
+	plague_duration_base = 3.0
+	#How much the enchantment level affects the duration (1 * <multiplier>) (result will be in seconds)
+	#Range: 0.0 ~ 10.0
+	plague_duration_multiplier = 2.0
+	#Base damage for the plague effect (the effect level (amplifier) gets added to this damage)
+	#Range: 0.0 ~ 100.0
+	plague_damage_base = 1.0
+	#Multiplier to the (<base_damage> + amplifier) result
+	#Range: 0.0 ~ 10.0
+	plague_damage_multiplier = 0.5
+	#Determines how often the plague effect ticks (i.e. deals damage) - when (duration % (Math.max(1, 20 - amplifier / <damage_tick_rate>))) is equal to 0 the effect tick will happen
+	#Range: 1 ~ 15
+	plague_damage_tick_rate = 3
+
+[wither]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 6
+	#Chance for the effect to apply (level * <chance_multiplier>) (result of 1 means 100%)
+	#Range: 0.0 ~ 1.0
+	wither_chance_multiplier = 0.1
+	#Base duration (in seconds) for the applied effect
+	#Range: 0.0 ~ 60.0
+	wither_duration_base = 3.0
+	#How much the enchantment level affects the duration (1 * <multiplier>) (result will be in seconds)
+	#Range: 0.0 ~ 10.0
+	wither_duration_multiplier = 2.0
+	#Base damage for the wither effect (the effect level (amplifier) gets added to this damage)
+	#Range: 0.0 ~ 100.0
+	wither_damage_base = 1.0
+	#Multiplier to the (<base_damage> + amplifier) result
+	#Range: 0.0 ~ 10.0
+	wither_damage_multiplier = 0.75
+	#Determines how often the wither effect ticks (i.e. deals damage) - when (duration % (Math.max(1, 20 - amplifier / <damage_tick_rate>))) is equal to 0 the effect tick will happen
+	#Range: 1 ~ 15
+	wither_damage_tick_rate = 2
+
+[confusion]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 5
+
+[perception]
+	#Enable or disable the enchantment completely
+	is_enabled = false
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Enable / Disable outlines on invisible entities
+	perception_show_invisible = true
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 4
+
+[hydro_shock]
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 5
+	#Enable or disable the enchantment completely
+	is_enabled = true
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+
+[voiding]
+	#Enable or disable the enchantment completely
+	is_enabled = true
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+
+[bracewalk]
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 4
+	#Enable or disable the enchantment completely
+	is_enabled = true
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+
+[hunter]
+	#Maximum acquirable level of the enchantment
+	#Range: 1 ~ 15
+	max_level = 6
+	#Enable or disable the enchantment completely
+	is_enabled = true
+	#Determines if this enchantment can appear in loot / the enchantment table etc.
+	is_discoverable = true
+	#Allow the enchantment to be applied to books
+	is_allowed_on_books = true
+	#Determines if the enchantment appears in trades
+	is_tradeable = true
+	#Treasure enchantments usually do not appear in the enchantment table
+	is_treasure = false
+	#Determines how much enchantment levels affect the speed of losing stacks - when (tick_count % (level / <reduction>)) is equal to 0 the stacks will reduce by 1
+	#Range: 1 ~ 15
+	hunter_stack_reduction = 3
+

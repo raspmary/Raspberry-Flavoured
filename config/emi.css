@@ -17,6 +17,11 @@
 	help-level: none;
 
 	/**
+	 * Where EMI should pull stacks from to populate the index.
+	 */
+	index-source: creative;
+
+	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
 	search-tooltip-by-default: true;
@@ -36,12 +41,12 @@
 	/**
 	 * Which action should be performed when clicking the recipe book.
 	 */
-	recipe-book-action: default;
+	recipe-book-action: toggle-visibility;
 
 	/**
 	 * Where to display status effects in the inventory.
 	 */
-	effect-location: right-compressed;
+	effect-location: top;
 
 	/**
 	 * Whether to display a gray overlay when hovering over a stack.
@@ -78,7 +83,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: false;
+	center-search-bar: true;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -88,24 +93,24 @@
 	/**
 	 * Which sidebar type to focus when the search is empty.
 	 */
-	empty-search-sidebar-focus: none;
+	empty-search-sidebar-focus: craftables;
 
 	/**
 	 * The amount of vertical margin to give in the recipe screen.
 	 */
-	vertical-margin: 20;
+	vertical-margin: 56;
 
 	/**
 	 * The minimum width of the recipe screen in pixels. Controls how many tabs there
 	 * can be, and where the page switching buttons go. The default is 176, the width
 	 * of most screens.
 	 */
-	minimum-recipe-screen-width: 250;
+	minimum-recipe-screen-width: 176;
 
 	/**
 	 * Where to show workstations in the recipe screen
 	 */
-	workstation-location: bottom;
+	workstation-location: none;
 
 	/**
 	 * Display cost per batch when hovering a recipe output
@@ -141,17 +146,17 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: craftables, favorites;
 
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: none;
+	left-sidebar-subpanels: craft-history 1;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 6, 100;
+	left-sidebar-size: 9, 7;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -161,7 +166,7 @@
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: left, top;
+	left-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -171,12 +176,12 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: transparent;
+	left-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index, lookup-history;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -186,7 +191,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 6, 100;
+	right-sidebar-size: 8, 7;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
@@ -196,7 +201,7 @@
 	/**
 	 * Where to position the right sidebar
 	 */
-	right-sidebar-align: right, top;
+	right-sidebar-align: center, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the right sidebar
@@ -206,7 +211,7 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: transparent;
+	right-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the top sidebar
@@ -284,7 +289,7 @@
 	/**
 	 * Toggle the visibility of EMI.
 	 */
-	toggle-visibility: "ctrl key.keyboard.o";
+	toggle-visibility: "shift key.keyboard.r";
 
 	/**
 	 * Focuse the search bar.
@@ -294,7 +299,7 @@
 	/**
 	 * Clears the search bar.
 	 */
-	clear-search: "key.keyboard.unknown";
+	clear-search: "key.keyboard.delete";
 
 	/**
 	 * Display the recipes for creating a stack.
@@ -334,6 +339,11 @@
 	 * Return to the previous page in EMI.
 	 */
 	back: "key.keyboard.backspace";
+
+	/**
+	 * Return to the next page in EMI after going back.
+	 */
+	forward: "key.keyboard.unknown";
 
 	/**
 	 * When on a stack with an associated recipe:
@@ -397,6 +407,11 @@
 	delete-cursor-stack: "key.mouse.left";
 
 	/**
+	 * Copies the hovered recipe's ID to the clipboard
+	 */
+	copy-recipe-id: "key.keyboard.unknown";
+
+	/**
 	 * In edit mode, hide the hovered stack
 	 */
 	hide-stack: "ctrl key.mouse.left";
@@ -412,12 +427,12 @@
 	 * Whether development functions should be enabled. Not recommended for general
 	 * play.
 	 */
-	dev-mode: true;
+	dev-mode: false;
 
 	/**
 	 * Whether editing the index is enabled
 	 */
-	edit-mode: true;
+	edit-mode: false;
 
 	/**
 	 * Whether to log untranslated tags as warnings.
@@ -432,7 +447,14 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
+
+	/**
+	 * Whether to display additional widgets added to recipes from other mods.
+	 * These are typically developer facing and compatibility related, and not useful
+	 * for players.
+	 */
+	show-recipe-decorators: false;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

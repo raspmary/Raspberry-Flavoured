@@ -24,6 +24,9 @@
       "text": "Hot Mills in Your Area"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

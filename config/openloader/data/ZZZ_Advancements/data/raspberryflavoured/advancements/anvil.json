@@ -36,6 +36,9 @@
       "text": "Repair, Reuse, Recycle"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0", "1", "2"

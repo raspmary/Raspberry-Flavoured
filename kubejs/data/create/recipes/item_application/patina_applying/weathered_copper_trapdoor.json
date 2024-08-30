@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "copperized:exposed_copper_trapdoor"
+    },
+    {
+      "item": "additionaladditions:copper_patina"
+    }
+  ],
+  "results": [
+    {
+      "item": "copperized:weathered_copper_trapdoor"
+    }
+  ]
+}

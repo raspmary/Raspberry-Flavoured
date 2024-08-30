@@ -14,7 +14,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = hidebutton
 }
 
@@ -22,14 +22,14 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 0
+  x = 104
   action = movebutton
-  y = 23
+  y = 0
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 98
+  width = 100
   action = resizebutton
   height = 20
 }
@@ -51,9 +51,9 @@ customization {
   identifier = %id=628382%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = -23
+  x = -24
   action = movebutton
-  y = 46
+  y = 0
 }
 
 customization {
@@ -62,16 +62,38 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 0
   action = movebutton
-  y = 46
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 85
+  action = resizebutton
+  height = 20
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 102
+  x = 91
   action = movebutton
-  y = 46
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 85
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -99
+  action = movebutton
+  y = -14
 }
 
 customization {
@@ -90,9 +112,33 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -100
+  x = -88
   action = movebutton
-  y = 11
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 176
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Play
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:49686f83-fba1-4cc1-bed9-5a5e679c79741713553155857] = importantmessage:false
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
 }
 
 customization {
@@ -106,15 +152,18 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 98
-  action = resizebutton
-  height = 20
+  action = setbuttonlabel
+  value = Mods & Configs
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = setbuttonlabel
-  value = Mods & Configs
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
 }
 
 customization {
@@ -186,64 +235,6 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/fancymenu_assets/raspflavour_logo.png
-  orientation = mid-centered
-  x = -121
-  width = 243
-  action = addtexture
-  actionid = aad9c9ff-9bc2-43e3-bbe0-b3498ded12231688391998639
-  y = -97
-  height = 103
-}
-
-customization {
-  orientation = mid-centered
-  basecolor = #ffc1f6
-  shadow = true
-  rotation = 0.0
-  scale = 0.75
-  refresh = true
-  bouncing = true
-  vanilla-like = true
-  x = -20
-  actionid = 7896132c-c0c1-42ca-a830-b8dbca27754f1688230352925
-  action = addsplash
-  y = 87
-  text = Honest reaction to that information:
-}
-
-customization {
-  path = 
-  orientation = top-left
-  x = 0
-  width = 0
-  action = addtexture
-  actionid = 9c06e8eb-8868-49e2-a1b4-04fdb135202e1688391936002
-  y = 6
-  height = 100
-}
-
-customization {
-  orientation = mid-centered
-  enable_scrolling = false
-  shadow = true
-  scale = 1.0
-  source = V2.0 RELEASE CANDIDATE 4
-  text_border = 0
-  case_mode = upper
-  source_mode = direct
-  line_spacing = 1
-  x = -100
-  width = 200
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = d3d1deba-77e1-4526-83cb-c399c8021bfd1688233519106
-  y = -14
-  alignment = centered
-  base_color = #ffc1f6
-  height = 14
-}
-
-customization {
   orientation = element
   restartbackgroundanimations = true
   buttonaction = opengui;rfchangelog%btnaction_splitter_fm%
@@ -252,7 +243,7 @@ customization {
   label = 
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = -23
+  x = -24
   width = 20
   action = addbutton
   actionid = 50af0d28-3c73-43ff-ada2-dad4847642541690110148460
@@ -271,7 +262,7 @@ customization {
   loopbackgroundanimations = true
   hoverlabel = 
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 203
+  x = 180
   width = 20
   action = addbutton
   actionid = 7f555a26-b6e9-482f-94fb-1b1144897b7d1690110148460
@@ -281,31 +272,63 @@ customization {
 }
 
 customization {
-  path = 
-  orientation = top-left
-  x = 0
-  width = 0
+  path = config/fancymenu/fancymenu_assets/rflogonewest_outline.png
+  orientation = top-centered
+  x = -133
+  width = 266
   action = addtexture
-  actionid = 7c9eadd0-87f8-4b90-9b29-6d0e8aa9358d1698607991984
-  y = 6
-  height = 100
+  actionid = 4ba3eb78-463d-44c6-9ea8-705fbb8bfadd1703343636679
+  y = 19
+  height = 115
+}
+
+customization {
+  orientation = element
+  basecolor = FFA88C
+  shadow = true
+  splashfilepath = config/fancymenu/fancymenu_assets/splashes.txt
+  rotation = -20.0
+  scale = 1.0
+  refresh = true
+  bouncing = true
+  vanilla-like = false
+  orientation_element = 4ba3eb78-463d-44c6-9ea8-705fbb8bfadd1703343636679
+  x = 209
+  actionid = 86e8d141-020a-4f25-9811-f5ad155ca9881713129827940
+  action = addsplash
+  y = 85
+}
+
+customization {
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:49b27935-3019-4253-84e5-c89431af4a851713554423538] = importantmessage:true
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;rfwarning%btnaction_splitter_fm%set_variable;importantmessage:false%btnaction_splitter_fm%
+  x = -88
+  width = 176
+  action = addbutton
+  actionid = ad42939d-ae19-4080-a71b-3afa21bf2b151713554368206
+  y = 44
+  label = Read before you play!
+  height = 20
 }
 
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink;https://discord.gg/jxNe26WNYh%btnaction_splitter_fm%
-  backgroundhovered = config/fancymenu/fancymenu_assets/discordbuttonhover.png
-  description = RF Discord
+  buttonaction = join_last_world%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/fancymenu_assets/lastworldbuttonhover.png
+  description = Play Last World
   label = 
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 203
+  x = 180
   width = 20
   action = addbutton
-  actionid = 2fd57c49-073c-44ba-b53a-861d0116ac651701289102706
-  y = 46
-  backgroundnormal = config/fancymenu/fancymenu_assets/discordbutton.png
+  actionid = e72ff7e0-6b52-49ef-a5ac-8e6f9203fd3c1714670605984
+  y = 0
+  backgroundnormal = config/fancymenu/fancymenu_assets/lastworldbutton.png
   height = 20
 }
 

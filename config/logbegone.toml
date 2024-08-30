@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "UUID of added entity already exists", "Detected setBlock in a far chunk", "Attempted to hide item", "ModelBakery", "VersionChecker", "ModernFix", "Registering config", "SoundEngine", "campfire_heal", "Couldn't load advancement"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "UUID of added entity already exists", "Detected setBlock in a far chunk", "Attempted to hide item", "ModelBakery", "VersionChecker", "ModernFix", "Registering config", "SoundEngine", "campfire_heal", "Couldn't load advancement"]
+

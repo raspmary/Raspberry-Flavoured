@@ -24,6 +24,9 @@
       "text": "Cog Blocked"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

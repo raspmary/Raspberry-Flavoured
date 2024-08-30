@@ -1,0 +1,37 @@
+{
+  "parent": "raspberryflavoured:beacon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "level": {
+          "min": 5
+        }
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Construct a maximum level beacon"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Unlimited Power"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

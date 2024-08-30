@@ -10,15 +10,6 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 34.0,
-                "max": 91.0
-              },
-              "treasure": true
-            },
-            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -26,9 +17,6 @@
                 "max": 0.8
               },
               "add": false
-            },
-            {
-              "function": "supplementaries:curse_loot"
             }
           ],
           "name": "minecraft:diamond_helmet"
@@ -38,15 +26,6 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 34.0,
-                "max": 91.0
-              },
-              "treasure": true
-            },
-            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -54,9 +33,6 @@
                 "max": 0.8
               },
               "add": false
-            },
-            {
-              "function": "supplementaries:curse_loot"
             }
           ],
           "name": "minecraft:diamond_boots"
@@ -113,6 +89,70 @@
             }
           ],
           "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 12.0
+              },
+              "add": false
+            }
+          ],
+          "name": "autumnity:snail_goo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:disc_fragment_5"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "kubejs:raw_ammonite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "quark:blank_rune"
         }
       ]
     }

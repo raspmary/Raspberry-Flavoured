@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+		{
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "tag": "forge:tools/knives"
+                }
+              }
+            }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+		{
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "tag": "forge:tools/knives"
+          }
+        }
+      ],
+      "entries": [
+        {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 4.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "farmersdelight:pumpkin_slice"
+            }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

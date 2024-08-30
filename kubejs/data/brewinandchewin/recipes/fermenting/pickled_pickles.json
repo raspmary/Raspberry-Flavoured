@@ -1,7 +1,7 @@
 {
   "type": "brewinandchewin:fermenting",
   "experience": 0.4,
-  "fermentingtime": 500,
+  "fermentingtime": 800,
   "fluiditem": {
     "item": "minecraft:honey_bottle"
   },

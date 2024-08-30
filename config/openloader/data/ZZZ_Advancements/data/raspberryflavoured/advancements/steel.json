@@ -27,9 +27,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Steel of a Deal"
+      "text": "Post-Irony"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

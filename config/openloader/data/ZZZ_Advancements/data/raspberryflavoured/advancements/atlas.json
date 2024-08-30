@@ -24,37 +24,13 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-	"2": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:compass"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-	"3": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "supplementaries:altimeter"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Obtain a compass, altimeter, spyglass and atlas - they'll come in handy on long expeditions!"
+      "text": "Obtain a spyglass and atlas - they'll come in handy on long expeditions!"
     },
     "frame": "task",
     "hidden": false,
@@ -66,18 +42,15 @@
       "text": "Adventure Time"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"
     ],
 	[
       "1"
-    ],
-	[
-      "2"
-    ],
-	[
-      "3"
     ]
   ]
 }

@@ -24,7 +24,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Place down some hoppers and item pipes to start moving items around"
+      "text": "Place down some hoppers and item pipes to move items around"
     },
     "frame": "task",
     "hidden": false,
@@ -36,6 +36,9 @@
       "text": "Move Along Now"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

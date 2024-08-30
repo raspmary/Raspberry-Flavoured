@@ -16,7 +16,7 @@
 	slimes_friendly_if_regen = true
 	slimes_always_friendly = false
 	#Range: 1 ~ 2400
-	slime_eat_cooldown = 150
+	slime_eat_cooldown = 450
 	enable_slime_growth = true
 	#Range: 1 ~ 127
 	slime_growth_chance = 10
@@ -53,5 +53,5 @@
 	enable_sporophytes = true
 	better_sculk_patches = true
 	dark_forest_portabellas = false
-	enable_mores = false
+	enable_mores = true
 

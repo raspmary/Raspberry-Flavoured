@@ -14,27 +14,44 @@
         ]
       },
       "trigger": "minecraft:summoned_entity"
+    },
+    "1": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "caverns_and_chasms:copper_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Summon your very own iron golem with four iron blocks in a T-shape and a carved pumpkin on top"
+      "text": "Summon your very own iron golem with four iron blocks in a T-shape and a carved pumpkin on top, or a copper golem with a lightning rod on top of a carved pumpkin"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:carved_pumpkin"
     },
     "show_toast": true,
     "title": {
       "text": "Calling in Reinforcements"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
-      "0"
+      "0", "1"
     ]
   ]
 }

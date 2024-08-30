@@ -52,6 +52,9 @@
       "text": "Meet the Engineer"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

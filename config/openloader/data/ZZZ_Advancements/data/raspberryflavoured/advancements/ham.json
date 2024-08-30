@@ -30,7 +30,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Get the killing blow on a pig or a hoglin with a knife to obtain ham"
+      "text": "Deal the killing blow on a pig or a hoglin with a knife to have a chance to obtain ham"
     },
     "frame": "task",
     "hidden": false,
@@ -39,9 +39,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Ham It Up"
+      "text": "Ham Gone Ham Ham"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "ham",

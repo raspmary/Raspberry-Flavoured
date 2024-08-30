@@ -1,18 +1,6 @@
 {
   "replace": false,
   "values": [
-    "create_confectionery:chocolate_bricks",
-	"create_confectionery:chocolate_bricks_stairs",
-	"create_confectionery:chocolate_bricks_slab",
-	"create_confectionery:black_chocolate_bricks",
-	"create_confectionery:black_chocolate_bricks_stairs",
-	"create_confectionery:black_chocolate_bricks_slab",
-	"create_confectionery:white_chocolate_bricks",
-	"create_confectionery:white_chocolate_bricks_stairs",
-	"create_confectionery:white_chocolate_bricks_slab",
-	"create_confectionery:ruby_chocolate_bricks",
-	"create_confectionery:ruby_chocolate_brick_stairs",
-	"create_confectionery:ruby_chocolate_brick_slab",
 	"quark:glow_shroom_stem"
   ]
 }

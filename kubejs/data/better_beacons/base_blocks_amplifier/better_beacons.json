@@ -5,6 +5,14 @@
       "amplifier": 0
     },
     {
+      "block": "spelunkery:cinnabar_block",
+      "amplifier": 0
+    },
+    {
+      "block": "twigs:polished_amethyst",
+      "amplifier": 1
+    },
+    {
       "block": "minecraft:iron_block",
       "amplifier": 1
     },
@@ -17,10 +25,6 @@
       "amplifier": 1
     },
     {
-      "block": "create:experience_block",
-      "amplifier": 1
-    },
-    {
       "block": "minecraft:gold_block",
       "amplifier": 2
     },
@@ -30,50 +34,54 @@
     },
     {
       "block": "create:brass_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:steel_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:exposed_bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:weathered_bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:oxidized_bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:waxed_bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:waxed_exposed_bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:waxed_weathered_bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "alloyed:waxed_oxidized_bronze_block",
-      "amplifier": 3
+      "amplifier": 2
     },
     {
       "block": "oreganized:silver_block",
-      "amplifier": 5
+      "amplifier": 4
     },
     {
       "block": "oreganized:electrum_block",
+      "amplifier": 6
+    },
+    {
+      "block": "caverns_and_chasms:necromium_block",
       "amplifier": 7
     },
     {

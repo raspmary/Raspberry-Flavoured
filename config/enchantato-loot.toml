@@ -1,0 +1,6 @@
+
+[Enchantato-Loot]
+	#If you enable this, the 'DisabledEnchantments' will become 'AllowedEnchantments'
+	InvertedMode = true
+	DisabledEnchantments = []
+

@@ -15,33 +15,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 7,
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
           "name": "minecraft:bundle"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
           "name": "quark:blank_rune"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:experience_bottle"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3.0,
-                "max": 6.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "create:experience_nugget"
         },
         {
           "type": "minecraft:item",
@@ -77,89 +62,233 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:enchanted_golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "sweeping",
-                "fire_aspect"
-              ]
-            }
-          ],
-          "name": "minecraft:book"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
         }
       ]
     },
     {
       "rolls": {
-        "min": 0.0,
-        "max": 2.0,
+        "min": 1.0,
+        "max": 3.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 17,
+          "name": "minecraft:music_disc_ward"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 17,
+          "name": "minecraft:music_disc_mellohi"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
           "weight": 15,
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.5,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 13,
+          "name": "supplementaries:wrench"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.5,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 13,
+          "name": "another_furniture:furniture_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 13,
           "name": "minecraft:stone_sword"
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 13,
           "name": "minecraft:stone_axe"
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 13,
           "name": "minecraft:stone_shovel"
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 6,
           "name": "minecraft:iron_sword"
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 6,
           "name": "minecraft:iron_axe"
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "weight": 6,
           "name": "minecraft:iron_shovel"
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
           "weight": 7,
-          "name": "minecraft:iron_helmet"
+          "name": "copperized:copper_helmet"
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
           "weight": 7,
-          "name": "minecraft:iron_chestplate"
+          "name": "copperized:copper_chestplate"
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
           "weight": 7,
-          "name": "minecraft:iron_leggings"
+          "name": "copperized:copper_leggings"
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.95,
+                "min": 0.35
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
           "weight": 7,
-          "name": "minecraft:iron_boots"
+          "name": "copperized:copper_boots"
         },
         {
           "type": "minecraft:item",
@@ -490,7 +619,7 @@
               }
             }
           ],
-          "name": "crittersandcompanions:koi_fish"
+          "name": "kubejs:spoiled_carrot"
         },
         {
           "type": "minecraft:item",

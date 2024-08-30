@@ -1,0 +1,26 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/copper_hammer"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "damage": 0.25
+            },
+            "model": "another_furniture:item/exposed_copper_hammer"
+        },
+        {
+            "predicate": {
+                "damage": 0.5
+            },
+            "model": "another_furniture:item/weathered_copper_hammer"
+        },
+        {
+            "predicate": {
+                "damage": 0.75
+            },
+            "model": "another_furniture:item/oxidized_copper_hammer"
+        }
+    ]
+}

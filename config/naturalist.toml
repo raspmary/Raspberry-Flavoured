@@ -67,7 +67,7 @@
 	hippoSpawnWeight = 0
 	#Vulture Spawn Weight
 	#Range: 0 ~ 1000
-	vultureSpawnWeight = 15
+	vultureSpawnWeight = 0
 	#Boar Spawn Weight
 	#Range: 0 ~ 1000
 	boarSpawnWeight = 0
@@ -82,7 +82,7 @@
 	alligatorSpawnWeight = 0
 	#Bass Spawn Weight
 	#Range: 0 ~ 1000
-	bassSpawnWeight = 6
+	bassSpawnWeight = 5
 	#Lizard Spawn Weight
 	#Range: 0 ~ 1000
 	lizardSpawnWeight = 0

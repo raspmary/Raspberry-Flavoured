@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:farming_root",
+  "parent": "raspberryflavoured:campfire",
   "criteria": {
     "0": {
       "conditions": {
@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Craft and place down a cooking pot on a heated block like a lit campfire or stove to cook delicious meals with some helpful effects"
+      "text": "Craft and place down a cooking pot on a heated block like a lit campfire or stove to cook meals and brew beverages with some helpful effects"
     },
     "frame": "task",
     "hidden": false,
@@ -24,6 +24,9 @@
       "text": "Now We're Cookin'!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

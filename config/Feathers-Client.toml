@@ -1,0 +1,25 @@
+
+["Feathers' Config"]
+	#Fade the HUD overlay if the feathers are full.
+	"Fade When Full" = false
+	#Duration (in ticks) before the HUD overlay fades.
+	"Fade Cooldown" = 60
+	#Duration (in ticks) of the HUD Fade-in animation.
+	"Fade-in Duration" = 40
+	#Duration (in ticks) of the HUD Fade-out animation.
+	"Fade-out Duration" = 40
+	#Whether the feathers flash white when regenerating.
+	"Regeneration Effect" = true
+	#Whether a sound is played when feathers freeze in cold biomes
+	"Cold Sound Effect" = true
+	#Whether armor weights are displayed when hovering over an item
+	"Display Weights in Inventory" = true
+	#Whether armor weights are displayed as icons (true) or text (false) when hovering over an item
+	"Display Weight As Icons" = false
+	#Whether feather icons are affected by icons on the right side of the HUD.
+	"Feathers Affected by Right Side Icons" = true
+	#How far left or right you want the feathers to be
+	"HUD X Offset" = 0
+	#How far up or down you want the feathers to be. TIP: use this for compatibility with mods that add other bars such as thirst
+	"HUD Y Offset" = 0
+

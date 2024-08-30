@@ -81,16 +81,6 @@
         }
       }
     },
-	"08": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "item": {
-          "items": [
-            "brewinandchewin:dread_nog"
-          ]
-        }
-      }
-    },
 	"09": {
       "trigger": "minecraft:consume_item",
       "conditions": {
@@ -208,6 +198,9 @@
       "text": "It's Happy Hour!"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_happyhour"
+    },
   "requirements": [
     [
       "00"
@@ -232,9 +225,6 @@
     ],
 	[
       "07"
-    ],
-	[
-      "08"
     ],
 	[
       "09"

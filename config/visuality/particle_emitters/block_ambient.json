@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "interval": 10,
+  "entries": [
+    {
+      "block": [
+        "minecraft:diamond_block",
+        "minecraft:diamond_ore",
+        "minecraft:deepslate_diamond_ore",
+        "oreganized:silver_ore",
+        "oreganized:deepslate_silver_ore",
+        "oreganized:silver_block",
+        "oreganized:raw_silver_block"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.7058824,
+          0.99215686,
+          0.93333334
+        ]
+      }
+    },
+    {
+      "block": "oreganized:electrum_block",
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.99607843,
+          1.0,
+          0.7411765
+        ]
+      }
+    },
+    {
+      "block": "minecraft:amethyst_cluster",
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.99607843,
+          0.79607844,
+          0.9019608
+        ]
+      }
+    }
+  ]
+}

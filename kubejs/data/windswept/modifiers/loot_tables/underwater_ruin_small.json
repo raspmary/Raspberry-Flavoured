@@ -9,7 +9,7 @@
             "entries": [
               {
                 "type": "minecraft:item",
-                "name": "miners_delight:copper_cup",
+                "name": "minecraft:stick",
                 "weight": 2
               }
             ],

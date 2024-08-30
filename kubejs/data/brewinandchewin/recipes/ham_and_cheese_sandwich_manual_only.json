@@ -7,9 +7,6 @@
     {
       "item": "minecraft:bread"
     },
-	{
-      "item": "minecraft:bread"
-    },
     {
       "item": "farmersdelight:smoked_ham"
     },
@@ -18,7 +15,7 @@
     }
   ],
   "result": {
-    "count": 3,
+    "count": 2,
     "item": "brewinandchewin:ham_and_cheese_sandwich"
   }
 }

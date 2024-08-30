@@ -10,21 +10,24 @@
               "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.15,
-                "max": 0.8
+                "max": 0.95
               }
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "farmersdelight:diamond_knife"
+          "name": "alloyed:steel_knife"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.6,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "farmersdelight:golden_knife"

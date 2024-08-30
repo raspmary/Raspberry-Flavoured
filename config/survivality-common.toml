@@ -7,7 +7,7 @@
 	#Leaves turn white when snowing
 	snowy_leaves = true
 	#Pointed Dripstone falls when hit by projectiles
-	unstable_dripstone = true
+	unstable_dripstone = false
 	#Signs can be re-edited
 	editable_signs = false
 	#Armor in the hotbar can be swapped with equipped armor
@@ -40,10 +40,10 @@
 	colorful_sheep = false
 	#Max size a Slime can spawn as
 	#Range: 1 ~ 16
-	max_slime_size = 4
+	max_slime_size = 3
 	#Max size a Magma Cube can spawn as
 	#Range: 1 ~ 16
-	max_magma_cube_size = 4
+	max_magma_cube_size = 3
 	#Cookies, Sweet Berries, and Glow Berries are eaten faster
 	more_snacks = false
 	#Snow Layers can be decreased with Shovels

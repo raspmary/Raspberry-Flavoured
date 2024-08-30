@@ -32,6 +32,9 @@
       "text": "Snip Snip"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

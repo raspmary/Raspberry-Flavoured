@@ -16,10 +16,6 @@
 	{
 	  "chance": 0.1,
       "item": "minecraft:bone"
-    },
-	{
-      "item": "create:experience_nugget",
-	  "count": 4
     }
   ],
   "tool": {

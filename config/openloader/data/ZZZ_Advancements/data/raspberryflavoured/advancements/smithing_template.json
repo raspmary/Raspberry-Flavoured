@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:forge",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "raspberry_flavoured:smithing_templates"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Find or create any enchanted tablet, which you can use to apply enchantments to your equipment - you can apply them at a smithing table!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:smithing_template_5"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Metal and Magic"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

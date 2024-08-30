@@ -103,11 +103,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bucket"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "environmental:wanderer_boots",
-          "weight": 1
         }
       ],
       "rolls": {

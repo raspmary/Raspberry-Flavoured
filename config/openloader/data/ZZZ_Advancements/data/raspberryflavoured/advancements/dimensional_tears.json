@@ -30,6 +30,9 @@
       "text": "Otherworldly Substance"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

@@ -36,8 +36,8 @@
     "ender_pearl_sounds": true,
     "spawn_egg_sounds": false,
     "lead_sounds": true,
-    "boat_sounds": false,
-    "minecart_sounds": false
+    "boat_sounds": true,
+    "minecart_sounds": true
   },
   "weapon_sounds": {
     "fist_swinging_sounds": false,
@@ -50,7 +50,7 @@
     "shear_swinging_sounds": false,
     "bow_pullback_sounds": true,
     "trident_pullback_sounds": true,
-    "shield_blocking_sounds": true
+    "shield_blocking_sounds": false
   },
   "misc_sounds": {
     "silverfish_step_sounds": true,

@@ -1,0 +1,13 @@
+{
+   "targets": [
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.forge.break",
+	  "place_sound": "kubejs:sound.forge.place",
+      "hit_sound": "kubejs:sound.forge.hit",
+      "fall_sound": "kubejs:sound.forge.fall",
+      "step_sound": "kubejs:sound.forge.step",
+      "pitch": 1.25,
+      "volume": 1
+   } 
+}

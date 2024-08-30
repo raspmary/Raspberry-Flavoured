@@ -16,18 +16,28 @@
         },
         {
           "type": "minecraft:item",
+          "name": "sullysmod:music_disc_scour",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_wait",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:music_disc_13",
-          "weight": 10
+          "weight": 9
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "weight": 15
+          "weight": 12
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:disc_fragment_5",
-          "weight": 4
+          "weight": 15
         },
         {
           "type": "minecraft:item",
@@ -44,21 +54,6 @@
           ],
           "name": "minecraft:rabbit_hide",
           "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -320,6 +315,31 @@
         }
       ],
       "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spelunkery:raw_silver_nugget"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

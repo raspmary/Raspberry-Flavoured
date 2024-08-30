@@ -19,3 +19,7 @@ mobSpawningMaxLayers = 8
 
 [integration]
 accumulationWinterOnly = false
+
+[debug]
+weatherTickSlowness = 16
+mobSpawningCommand = false

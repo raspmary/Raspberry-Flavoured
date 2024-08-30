@@ -24,7 +24,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -45,7 +45,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -66,7 +66,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -87,7 +87,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -108,7 +108,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -129,7 +129,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -150,7 +150,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -171,7 +171,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -190,7 +190,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = [""]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 	#The buttons to display on Discord 
@@ -206,36 +206,48 @@
 	variables = []
 
 [dimension_overrides]
-	enabled = false
+	enabled = true
 
 	[[dimension_overrides.dimensions]]
 		name = "overworld"
 		description = "%player% is in The Overworld"
-		state = ""
-		largeImageKey = ["overworld"]
-		largeImageText = "In the Overworld"
-		smallImageKey = ["mclogo"]
-		smallImageText = "%mods% mods installed"
-		buttons = []
+		state = "Playing in: %savename%"
+		largeImageKey = ["rflogodcbig"]
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		smallImageKey = [""]
+		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "CurseForge Page"
+			url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
 
 	[[dimension_overrides.dimensions]]
 		name = "the_nether"
 		description = "%player% is in The Nether"
-		state = ""
-		largeImageKey = ["nether"]
-		largeImageText = "In the Nether"
-		smallImageKey = ["mclogo"]
-		smallImageText = "%mods% mods installed"
-		buttons = []
+		state = "Playing in: %savename%"
+		largeImageKey = ["rflogodcbig"]
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		smallImageKey = [""]
+		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "CurseForge Page"
+			url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
 
 	[[dimension_overrides.dimensions]]
 		name = "the_end"
-		description = "%player% is in The End"
-		state = ""
-		largeImageKey = ["end"]
-		largeImageText = "In the End"
-		smallImageKey = ["mclogo"]
-		smallImageText = "%mods% mods installed"
-		buttons = []
+		description = "%player% is a dirty cheater"
+		state = "Playing in: %savename%"
+		largeImageKey = ["rflogodcbig"]
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		smallImageKey = [""]
+		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "CurseForge Page"
+			url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+
 
 

@@ -1,0 +1,79 @@
+type = menu
+
+customization-meta {
+  identifier = rfwarning
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/fancymenu_assets/backgroundshadows3.png
+  orientation = mid-centered
+  x = -260
+  width = 521
+  action = addtexture
+  actionid = 20302ffd-c9ca-448c-99ec-0e2058e068361707263852602
+  y = -143
+  height = 294
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = -102
+  width = 204
+  action = addbutton
+  actionid = 4acdb80e-1497-4370-a50f-ac7f8b06e1c21707075409220
+  y = 83
+  label = Got it!
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 2.0
+  source = &o&nBefore you play!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -192
+  width = 385
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e24b5fe8-3eef-4f83-b3d0-af00a145a54f1707075453372
+  y = -102
+  alignment = centered
+  base_color = E8587C
+  height = 25
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = It's very important that you know, that you're currently playing a%n%version of Raspberry Flavoured that is in the &ltesting phase %n%AND IS THEREFORE &lNOT&r FINALIZED.%n%%n%There's a very good chance things may change, especially%n%world breaking things such as world and structure generation.%n%PLEASE, do NOT use this build to play in an existing world,%n%&lit will NOT work.%n%%n%Additionally, this specific version is an early test build to get feedback%n%and get to the bottom of some critical issues. It's not very polished,%n%and there will more than likely be some problems/rough spots.%n%&lDon't make long-term worlds on this build.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -192
+  width = 387
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0ec7570b-50c6-4c26-b451-6598fa0d84961707075532629
+  y = -66
+  alignment = centered
+  height = 134
+}
+

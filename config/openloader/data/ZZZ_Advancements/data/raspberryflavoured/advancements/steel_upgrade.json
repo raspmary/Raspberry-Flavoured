@@ -16,8 +16,8 @@
 			  "alloyed:steel_hoe",
 			  "alloyed:steel_sword",
 			  "alloyed:steel_knife",
-			  "alloyed:steel_shears",
-			  "alloyed:steel_fishing_rod"
+			  "kubejs:steel_horse_armor",
+			  "mace_backport:mace"
             ]
           }
         ]
@@ -29,18 +29,21 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Use steel in a smithing table to upgrade your chainmail armour and your iron tools - you'll need to have visited another dimension to have access to steel..."
+      "text": "Mix iron and fire charges to make steel and use it in a smithing table to upgrade your chainmail armour and your lead tools - steel equipment isn't the fastest, but is super durable and knocks foes far away!"
     },
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "alloyed:steel_pickaxe"
+      "item": "alloyed:steel_axe"
     },
     "show_toast": true,
     "title": {
       "text": "Man of Steel"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
   "requirements": [
     [
       "0"

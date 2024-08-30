@@ -1,0 +1,6 @@
+
+[ore_sight]
+	#Determines after how many seconds cached entries expire (affects how fast blocks update their outline) (0 disables caching - not recommended)
+	#Range: 0 ~ 10
+	cache_expire = 2
+

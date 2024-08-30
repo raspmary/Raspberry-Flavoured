@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "kubejs:block/lapis_slab" },
+        "type=top": { "model": "kubejs:block/lapis_slab_top" },
+        "type=double": { "model": "minecraft:block/lapis_block" }
+    }
+}

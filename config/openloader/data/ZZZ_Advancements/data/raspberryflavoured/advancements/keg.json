@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#C44E00",
-      "text": "Craft and place down a keg to make alcoholic beverages with unique effects and some other fun foods - keep in mind that some recipes require the keg to be surrounded by hot blocks like magma or cold blocks like ice!"
+      "text": "Craft and place down a keg to make alcoholic beverages with unique effects and some other fun foods"
     },
     "frame": "task",
     "hidden": false,
@@ -24,6 +24,9 @@
       "text": "Ninety-Nine Bottles"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

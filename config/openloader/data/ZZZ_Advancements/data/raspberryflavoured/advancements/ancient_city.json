@@ -34,6 +34,9 @@
       "text": "Echoes"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_mystery"
+    },
   "requirements": [
     [
       "0"

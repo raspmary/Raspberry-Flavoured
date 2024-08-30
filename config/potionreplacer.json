@@ -1,0 +1,7 @@
+{
+	"minecraft:leaping": [{"id": "minecraft:jump_boost", "duration": 3600, "amplifier": 1}],
+	"minecraft:strong_leaping": [{"id": "minecraft:jump_boost", "duration": 1800, "amplifier": 3}],
+	"minecraft:long_leaping": [{"id": "minecraft:jump_boost", "duration": 9600, "amplifier": 1}],
+	"minecraft:healing": [{"id": "minecraft:instant_health", "amplifier": 1}],
+	"minecraft:strong_healing": [{"id": "minecraft:instant_health", "amplifier": 3}]
+}

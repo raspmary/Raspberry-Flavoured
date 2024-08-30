@@ -3,7 +3,7 @@
   "pattern": [
     "DDD",
     "DCD",
-    "DAD"
+    "DDD"
   ],
   "key": {
 	"D": {
@@ -11,15 +11,7 @@
     },
 	"C": {
       "tag": "minecraft:coals"
-    },
-	"A": [
-	{
-      "item": "minecraft:campfire"
-    },
-	{
-      "item": "minecraft:soul_campfire"
     }
-	]
   },
   "result": {
     "item": "quark:deepslate_furnace"

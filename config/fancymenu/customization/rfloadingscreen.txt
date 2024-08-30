@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  path = config/fancymenu/fancymenu_assets/bg_straight.png
+  action = texturizebackground
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -38,36 +43,41 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
-  original_pos_size_calculation = true
-  x = 151
+  hidden = true
+  original_pos_size_calculation = false
+  x = 30
   width = 338
   action = deep_customization_element:drippy_overlay_progress_bar
   actionid = 081fbf08-cead-43b3-a7ea-2ae1fb4657fb1698548389591
-  y = 277
+  y = 30
   height = 10
 }
 
 customization {
-  path = config/fancymenu/fancymenu_assets/mojangstudios.png
+  path = config/fancymenu/fancymenu_assets/bbc_team_logo_oh_god_thats_not_a_great_abbreviation.png
   orientation = mid-centered
-  x = -185
-  width = 164
+  x = -149
+  width = 298
   action = addtexture
-  actionid = da7e1f1e-e870-4914-8e70-952cd915462b1698548457011
-  y = -20
-  height = 41
+  actionid = 6f6629fd-8116-4b08-8cd1-fb1293b7097d1717410979165
+  y = -78
+  height = 114
 }
 
 customization {
-  path = config/fancymenu/fancymenu_assets/teamraspberry.png
   orientation = mid-centered
-  x = 1
-  width = 192
-  action = addtexture
-  actionid = 61d42526-c38a-4cb3-b056-0b933ec6d99b1698548551874
-  y = -35
-  height = 69
+  background_texture = config/fancymenu/fancymenu_assets/loadbar.png
+  bar_texture = config/fancymenu/fancymenu_assets/loadbar_loaded.png
+  progress_for_element_orientation = false
+  background_color = 8F1D4F
+  x = -150
+  width = 300
+  bar_color = DF467E
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = c37dc917-cc42-41f4-a455-06dfa43a4cba1717411024168
+  y = 39
+  direction = right
+  height = 10
 }
 
 customization {
@@ -75,18 +85,18 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = ORIGINAL GAME BY
+  source = {"placeholder":"randomtext","values":{"path":"config/fancymenu/fancymenu_assets/loading_splashes.txt","interval":"3"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -200
-  width = 200
+  x = -149
+  width = 275
   action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 0ed3eca7-a8bb-4ce8-b287-ad8b9cc58d1f1698548712032
-  y = -33
-  alignment = centered
-  height = 14
+  actionid = fae086cb-94f8-4d8d-a1e8-43cd26268df21722779632401
+  y = 51
+  alignment = left
+  height = 40
 }
 
 customization {
@@ -94,17 +104,17 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = MODPACK CURATED BY
+  source = {"placeholder":"drippy_gl_percent"}%
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 0
+  x = 126
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
-  actionid = a5889aa2-b6f5-4e5c-ac8e-02620f0fa8081698548994773
-  y = -43
-  alignment = centered
-  height = 15
+  actionid = 7167b721-287f-4406-83b0-23018253fd8c1722782407847
+  y = 51
+  alignment = left
+  height = 40
 }
 

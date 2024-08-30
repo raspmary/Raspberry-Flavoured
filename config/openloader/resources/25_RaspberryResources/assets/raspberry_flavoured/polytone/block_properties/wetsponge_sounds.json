@@ -1,0 +1,14 @@
+{
+   "targets": [
+   "minecraft:wet_sponge"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.wetsponge.break",
+	  "place_sound": "kubejs:sound.wetsponge.place",
+      "hit_sound": "kubejs:sound.wetsponge.hit",
+      "fall_sound": "kubejs:sound.wetsponge.fall",
+      "step_sound": "kubejs:sound.wetsponge.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

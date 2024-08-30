@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 4000,
+  "fermentingtime": 6000,
   "fluiditem": {
     "item": "minecraft:water_bucket"
   },

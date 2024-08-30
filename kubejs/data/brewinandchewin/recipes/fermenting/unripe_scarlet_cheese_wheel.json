@@ -4,7 +4,7 @@
     "item": "minecraft:honeycomb"
   },
   "experience": 1.6,
-  "fermentingtime": 6000,
+  "fermentingtime": 8000,
   "fluiditem": {
     "tag": "forge:milk"
   },

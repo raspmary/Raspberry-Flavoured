@@ -15,7 +15,7 @@ uiScaling = 100
 #    All: Show both obtained and unobtained criteria
 criteriaDetail = "Off"
 criteriaDetailRequiresShift = true
-addInventoryButton = true
+addInventoryButton = false
 defaultDrawDirectLines = false
 defaultHideLines = false
 defaultCompletedLineColor = "#FFFFFF"

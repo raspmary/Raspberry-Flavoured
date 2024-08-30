@@ -30,6 +30,9 @@
       "text": "Sentient Fireplace"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_nether"
+    },
   "requirements": [
     [
       "0"

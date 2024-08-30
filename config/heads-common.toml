@@ -1,0 +1,409 @@
+
+#Axolotl settings
+[axolotl]
+	#Enable charged creeper explosion to drop a Axolotl head
+	axolotlEnableCreeperDrop = true
+	#Defines the drop rate for the Axolotl head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	axolotlDropRate = 0.025
+
+#Bat settings
+[bat]
+	#Enable charged creeper explosion to drop a Bat head
+	batEnableCreeperDrop = true
+	#Defines the drop rate for the Bat head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	batDropRate = 0.025
+
+#Bee settings
+[bee]
+	#Enable charged creeper explosion to drop a Bee head
+	beeEnableCreeperDrop = true
+	#Defines the drop rate for the Bee head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	beeDropRate = 0.025
+
+#Blaze settings
+[blaze]
+	#Enable charged creeper explosion to drop a Blaze head
+	blazeEnableCreeperDrop = true
+	#Defines the drop rate for the Blaze head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	blazeDropRate = 0.025
+
+#Cat settings
+[cat]
+	#Enable charged creeper explosion to drop a Cat head
+	catEnableCreeperDrop = true
+	#Defines the drop rate for the Cat head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	catDropRate = 0.025
+
+#Cave Spider settings
+[caveSpider]
+	#Enable charged creeper explosion to drop a Cave Spider head
+	caveSpiderEnableCreeperDrop = true
+	#Defines the drop rate for the Cave Spider head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	caveSpiderDropRate = 0.025
+
+#Chicken settings
+[chicken]
+	#Enable charged creeper explosion to drop a Chicken head
+	chickenEnableCreeperDrop = true
+	#Defines the drop rate for the Chicken head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	chickenDropRate = 0.025
+
+#Cod settings
+[cod]
+	#Enable charged creeper explosion to drop a Cod head
+	codEnableCreeperDrop = true
+	#Defines the drop rate for the Cod head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	codDropRate = 0.025
+
+#Cow settings
+[cow]
+	#Enable charged creeper explosion to drop a Cow head
+	cowEnableCreeperDrop = true
+	#Defines the drop rate for the Cow head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	cowDropRate = 0.025
+
+#Dolphin settings
+[dolphin]
+	#Enable charged creeper explosion to drop a Dolphin head
+	dolphinEnableCreeperDrop = true
+	#Defines the drop rate for the Dolphin head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	dolphinDropRate = 0.025
+
+#Donkey settings
+[donkey]
+	#Enable charged creeper explosion to drop a Donkey head
+	donkeyEnableCreeperDrop = true
+	#Defines the drop rate for the Donkey head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	donkeyDropRate = 0.025
+
+#Drowned settings
+[drowned]
+	#Enable charged creeper explosion to drop a Drowned head
+	drownedEnableCreeperDrop = true
+	#Defines the drop rate for the Drowned head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	drownedDropRate = 0.025
+
+#Enderman settings
+[enderman]
+	#Enable charged creeper explosion to drop a Enderman head
+	endermanEnableCreeperDrop = true
+	#Defines the drop rate for the Enderman head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	endermanDropRate = 0.025
+
+#Endermite settings
+[endermite]
+	#Enable charged creeper explosion to drop a Endermite head
+	endermiteEnableCreeperDrop = true
+	#Defines the drop rate for the Endermite head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	endermiteDropRate = 0.025
+
+#Evoker settings
+[evoker]
+	#Enable charged creeper explosion to drop a Evoker head
+	evokerEnableCreeperDrop = true
+	#Defines the drop rate for the Evoker head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	evokerDropRate = 0.025
+
+#Fox settings
+[fox]
+	#Enable charged creeper explosion to drop a Fox head
+	foxEnableCreeperDrop = true
+	#Defines the drop rate for the Fox head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	foxDropRate = 0.025
+
+#Ghast settings
+[ghast]
+	#Enable charged creeper explosion to drop a Ghast head
+	ghastEnableCreeperDrop = true
+	#Defines the drop rate for the Ghast head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	ghastDropRate = 0.025
+
+#Glow Squid settings
+[glowSquid]
+	#Enable charged creeper explosion to drop a Glow Squid head
+	glowSquidEnableCreeperDrop = true
+	#Defines the drop rate for the Glow Squid head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	glowSquidDropRate = 0.025
+
+#Goat settings
+[goat]
+	#Enable charged creeper explosion to drop a Goat head
+	goatEnableCreeperDrop = true
+	#Defines the drop rate for the Goat head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	goatDropRate = 0.025
+
+#Hoglin settings
+[hoglin]
+	#Enable charged creeper explosion to drop a Hoglin head
+	hoglinEnableCreeperDrop = true
+	#Defines the drop rate for the Hoglin head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	hoglinDropRate = 0.025
+
+#Gorse settings
+[gorse]
+	#Enable charged creeper explosion to drop a Gorse head
+	gorseEnableCreeperDrop = true
+	#Defines the drop rate for the Gorse head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	gorseDropRate = 0.025
+
+#Skeleton Horse settings
+[skeletonHorse]
+	#Enable charged creeper explosion to drop a Skeleton Horse head
+	skeletonHorseEnableCreeperDrop = true
+	#Defines the drop rate for the Skeleton Horse head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	skeletonHorseDropRate = 0.025
+
+#Undead Horse settings
+[undeadHorse]
+	#Enable charged creeper explosion to drop a Undead Horse head
+	undeadHorseEnableCreeperDrop = true
+	#Defines the drop rate for the Undead Horse head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	undeadHorseDropRate = 0.025
+
+#Husk settings
+[husk]
+	#Enable charged creeper explosion to drop a Husk head
+	huskEnableCreeperDrop = true
+	#Defines the drop rate for the Husk head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	huskDropRate = 0.025
+
+#Illusioner settings
+[illusioner]
+	#Enable charged creeper explosion to drop a Illusioner head
+	illusionerEnableCreeperDrop = true
+	#Defines the drop rate for the Illusioner head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	illusionerDropRate = 0.025
+
+#Iron Golem settings
+[ironGolem]
+	#Enable charged creeper explosion to drop a Iron Golem head
+	ironGolemEnableCreeperDrop = true
+	#Defines the drop rate for the Iron Golem head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	ironGolemDropRate = 0.025
+
+#Magma Cube settings
+[magmaCube]
+	#Enable charged creeper explosion to drop a Magma Cube head
+	magmaCubeEnableCreeperDrop = true
+	#Defines the drop rate for the Magma Cube head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	magmaCubeDropRate = 0.025
+
+#Mule settings
+[mule]
+	#Enable charged creeper explosion to drop a Mule head
+	muleEnableCreeperDrop = true
+	#Defines the drop rate for the Mule head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	muleDropRate = 0.025
+
+#Mooshroom settings
+[mooshroom]
+	#Enable charged creeper explosion to drop a Mooshroom head
+	mooshroomEnableCreeperDrop = true
+	#Defines the drop rate for the Mooshroom head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	mooshroomDropRate = 0.025
+
+#Ocelot settings
+[ocelot]
+	#Enable charged creeper explosion to drop a Ocelot head
+	ocelotEnableCreeperDrop = true
+	#Defines the drop rate for the Ocelot head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	ocelotDropRate = 0.025
+
+#Pig settings
+[pig]
+	#Enable charged creeper explosion to drop a Pig head
+	pigEnableCreeperDrop = true
+	#Defines the drop rate for the Pig head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	pigDropRate = 0.025
+
+#Piglin settings
+[piglin]
+	#Enable charged creeper explosion to drop a Piglin head
+	piglinEnableCreeperDrop = true
+	#Defines the drop rate for the Piglin head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	piglinDropRate = 0.025
+
+#Piglin Brute settings
+[piglinBrute]
+	#Enable charged creeper explosion to drop a Piglin Brute head
+	piglinBruteEnableCreeperDrop = true
+	#Defines the drop rate for the Piglin Brute head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	piglinBruteDropRate = 0.025
+
+#Pillager settings
+[pillager]
+	#Enable charged creeper explosion to drop a Pillager head
+	pillagerEnableCreeperDrop = true
+	#Defines the drop rate for the Pillager head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	pillagerDropRate = 0.025
+
+#Salmon settings
+[salmon]
+	#Enable charged creeper explosion to drop a Salmon head
+	salmonEnableCreeperDrop = true
+	#Defines the drop rate for the Salmon head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	salmonDropRate = 0.025
+
+#Sheep settings
+[sheep]
+	#Enable charged creeper explosion to drop a Sheep head
+	sheepEnableCreeperDrop = true
+	#Defines the drop rate for the Sheep head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	sheepDropRate = 0.025
+
+#Silverfish settings
+[silverfish]
+	#Enable charged creeper explosion to drop a Silverfish head
+	silverfishEnableCreeperDrop = true
+	#Defines the drop rate for the Silverfish head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	silverfishDropRate = 0.025
+
+#Slime settings
+[slime]
+	#Enable charged creeper explosion to drop a Slime head
+	slimeEnableCreeperDrop = true
+	#Defines the drop rate for the Slime head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	slimeDropRate = 0.025
+
+#Snow Golem settings
+[snowGolem]
+	#Enable charged creeper explosion to drop a Snow Golem head
+	snowGolemEnableCreeperDrop = true
+	#Defines the drop rate for the Snow Golem head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	snowGolemDropRate = 0.025
+
+#Spider settings
+[spider]
+	#Enable charged creeper explosion to drop a Spider head
+	spiderEnableCreeperDrop = true
+	#Defines the drop rate for the Spider head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	spiderDropRate = 0.025
+
+#Squid settings
+[squid]
+	#Enable charged creeper explosion to drop a Squid head
+	squidEnableCreeperDrop = true
+	#Defines the drop rate for the Squid head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	squidDropRate = 0.025
+
+#Stray settings
+[stray]
+	#Enable charged creeper explosion to drop a Stray head
+	strayEnableCreeperDrop = true
+	#Defines the drop rate for the Stray head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	strayDropRate = 0.025
+
+#Turtle settings
+[turtle]
+	#Enable charged creeper explosion to drop a Turtle head
+	turtleEnableCreeperDrop = true
+	#Defines the drop rate for the Turtle head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	turtleDropRate = 0.025
+
+#Villager settings
+[villager]
+	#Enable charged creeper explosion to drop a Villager head
+	villagerEnableCreeperDrop = true
+	#Defines the drop rate for the Villager head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	villagerDropRate = 0.025
+
+#Vindicator settings
+[vindicator]
+	#Enable charged creeper explosion to drop a Vindicator head
+	vindicatorEnableCreeperDrop = true
+	#Defines the drop rate for the Vindicator head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	vindicatorDropRate = 0.025
+
+#Wandering Trader settings
+[wanderingTrader]
+	#Enable charged creeper explosion to drop a Wandering Trader head
+	wanderingTraderEnableCreeperDrop = true
+	#Defines the drop rate for the Wandering Trader head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	wanderingTraderDropRate = 0.025
+
+#Witch settings
+[witch]
+	#Enable charged creeper explosion to drop a Witch head
+	witchEnableCreeperDrop = true
+	#Defines the drop rate for the Witch head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	witchDropRate = 0.025
+
+#Wolf settings
+[wolf]
+	#Enable charged creeper explosion to drop a Wolf head
+	wolfEnableCreeperDrop = true
+	#Defines the drop rate for the Wolf head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	wolfDropRate = 0.025
+
+#Zoglin settings
+[zoglin]
+	#Enable charged creeper explosion to drop a Zoglin head
+	zoglinEnableCreeperDrop = true
+	#Defines the drop rate for the Zoglin head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	zoglinDropRate = 0.025
+
+#Zombie Villager settings
+[zombieVillager]
+	#Enable charged creeper explosion to drop a Zombie Villager head
+	zombieVillagerEnableCreeperDrop = true
+	#Defines the drop rate for the Zombie Villager head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	zombieVillagerDropRate = 0.025
+
+#Zombified Piglin settings
+[zombifiedPiglin]
+	#Enable charged creeper explosion to drop a Zombified Piglin head
+	zombifiedPiglinEnableCreeperDrop = true
+	#Defines the drop rate for the Zombified Piglin head (0 to disable) [Default: 0.025]
+	#Range: 0.0 ~ 1.0
+	zombifiedPiglinDropRate = 0.025
+

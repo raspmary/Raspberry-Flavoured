@@ -1,0 +1,12 @@
+{
+	"ui.toast.goal_complete": {
+		"replace": true,
+		"sounds": [
+		  ]
+	  },
+	  "ui.toast.task_complete": {
+		"replace": true,
+		"sounds": [
+		  ]
+	  }
+}

@@ -1,0 +1,17 @@
+{
+  "subtitles.mace_smash_ground_heavy": "Mace Lands a Heavy Blow",
+  "enchantment.mace_backport.wind_burst": "Wind Burst",
+  "advancements.over_overkill.descr": "Deal 50 hearts of damage in a single hit using the Mace ",
+  "subtitles.mace_smash_air": "Mace Smashes Air",
+  "gamerule.maceDamageCap.description": "Max damage the Mace can deal (-1 is infinite)",
+  "advancements.mace_windu_advancement.title": "it\u0027s treason then",
+  "gamerule.maceDamageCap": "Mace Damage Cap",
+  "enchantment.mace_backport.density": "Density",
+  "advancements.mace_windu_advancement.descr": "the senate will decide your fate...",
+  "gamerule.maceDebugMode": "Mace Debug Mode",
+  "enchantment.mace_backport.breach": "Breach",
+  "advancements.over_overkill.title": "Over-Overkill",
+  "subtitles.mace_smash_ground": "Mace Smashes Ground",
+  "item.mace_backport.mace": "Steel Mace",
+  "gamerule.maceDebugMode.description": "Toggles debug mode for the Mace mod"
+}

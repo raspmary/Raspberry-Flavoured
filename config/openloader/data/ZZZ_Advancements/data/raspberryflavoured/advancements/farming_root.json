@@ -27,7 +27,9 @@
               "culturaldelights:eggplant",
               "culturaldelights:corn_cob",
               "minecraft:flint",
-              "minecraft:clay_ball"
+              "minecraft:clay_ball",
+              "minecraft:campfire",
+              "minecraft:soul_campfire"
             ]
           }
         ]

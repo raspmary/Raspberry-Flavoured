@@ -25,18 +25,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"2": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "savage_and_ravage:cleaver_of_beheading"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
 	"3": {
       "conditions": {
         "items": [
@@ -54,7 +42,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Collect the four ancient relics scattered around the world"
+      "text": "Collect the three ancient relics scattered around the world"
     },
     "frame": "challenge",
     "hidden": true,
@@ -63,18 +51,18 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Relic Collector"
+      "text": "Finally, I Have Them All"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "0"
     ],
 	[
       "1"
-    ],
-	[
-      "2"
     ],
 	[
       "3"

@@ -49,18 +49,6 @@
         ]
       }
     },
-	"04": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "neapolitan:adzuki_beans"
-            ]
-          }
-        ]
-      }
-    },
 	"05": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -373,18 +361,6 @@
         ]
       }
     },
-	"34": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "culturaldelights:cucumber"
-            ]
-          }
-        ]
-      }
-    },
 	"35": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -414,6 +390,9 @@
       "text": "Plentiful Harvest"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
 	"00"
@@ -426,9 +405,6 @@
 	],
 	[
 	"03"
-	],
-	[
-	"04"
 	],
 	[
 	"05"
@@ -507,9 +483,6 @@
 	],
 	[
 	"33"
-	],
-	[
-	"34"
 	],
 	[
 	"35"

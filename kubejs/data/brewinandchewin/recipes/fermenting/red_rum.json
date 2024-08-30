@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 1500,
+  "fermentingtime": 3000,
   "fluiditem": {
     "item": "brewinandchewin:bloody_mary"
   },
@@ -13,10 +13,10 @@
       "item": "minecraft:crimson_fungus"
     },
     {
-      "item": "minecraft:nether_wart"
+      "item": "nethersdelight:propelplant_cane"
     },
     {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "nethersdelight:propelpearl"
     },
     {
       "item": "minecraft:shroomlight"

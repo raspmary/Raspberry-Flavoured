@@ -6,7 +6,8 @@
         "items": [
           {
             "items": [
-              "minecraft:iron_pickaxe"
+              "minecraft:iron_pickaxe",
+			  "kubejs:lead_pickaxe"
             ]
           }
         ]
@@ -18,12 +19,12 @@
     "announce_to_chat": true,
     "description": {
       "color": "#ED3D69",
-      "text": "Craft an iron pickaxe"
+      "text": "Craft an iron or lead pickaxe"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:iron_pickaxe",
+      "item": "kubejs:pickaxe_icon",
       "nbt": "{Damage:0}"
     },
     "show_toast": true,
@@ -31,6 +32,9 @@
       "text": "Not Your First Pick"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"

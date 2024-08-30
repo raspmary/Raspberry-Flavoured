@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "oreganized:silver_ore",
-	"oreganized:lead_ore",
-	"create:zinc_ore"
-  ]
-}

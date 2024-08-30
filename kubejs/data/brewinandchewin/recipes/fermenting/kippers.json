@@ -1,7 +1,7 @@
 {
   "type": "brewinandchewin:fermenting",
   "experience": 0.3,
-  "fermentingtime": 500,
+  "fermentingtime": 1000,
   "ingredients": [
     {
       "tag": "forge:raw_fishes"

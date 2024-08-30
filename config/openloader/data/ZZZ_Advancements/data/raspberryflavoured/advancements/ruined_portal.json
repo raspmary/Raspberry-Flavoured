@@ -112,29 +112,13 @@
         ]
       },
       "trigger": "minecraft:location"
-    },
-	"8": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structure": "repurposed_structures:ruined_portal_end"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Find a ruined portal"
+      "text": "Find a ruined portal - if you're struggling to locate one, try crafting and using an awoken exopearl, they'll point you in the direction of a ruined portal!"
     },
     "frame": "task",
     "hidden": false,
@@ -143,12 +127,15 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Blueprints From the Past"
+      "text": "Riftprints"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_mystery"
+    },
   "requirements": [
     [
-      "1", "2", "3", "4", "5", "6", "7", "8"
+      "1", "2", "3", "4", "5", "6", "7"
     ]
   ]
 }

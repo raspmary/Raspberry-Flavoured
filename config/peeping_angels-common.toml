@@ -1,0 +1,15 @@
+
+[changes]
+	#Looking threshold.
+	# Closer to -1 means the player's head must be turned closer to the peeper to make it freeze
+	"Looking threshold" = -0.5
+	#Highest the peeper speed bonus can get. 
+	# Default is currently CnC's default, feels a bit slow in this context though
+	"Max speed boost" = 0.23
+	#Unit by which peeper's speed increases per tick when moving
+	"Acceleration interval" = 4.0E-4
+	#Peepers move faster while defusing
+	"blowing off steam" = false
+	#Mulitiplier for the speed bonus when blowing off steam
+	"steam multiplier" = 2
+

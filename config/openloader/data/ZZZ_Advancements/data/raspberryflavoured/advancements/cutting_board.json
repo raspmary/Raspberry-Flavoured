@@ -22,6 +22,9 @@
       "text": "Watch Your Fingers"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

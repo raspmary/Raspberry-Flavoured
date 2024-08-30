@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Craft a sack to carry more items - just make sure not to carry too many sacks..."
+      "text": "Craft a sack to carry more items"
     },
     "frame": "task",
     "hidden": false,
@@ -30,6 +30,9 @@
       "text": "Hit the Sack"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
   "requirements": [
     [
       "0"

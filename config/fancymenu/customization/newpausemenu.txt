@@ -17,18 +17,25 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
   orientation = mid-centered
-  x = -102
+  x = -87
   action = movebutton
-  y = -58
+  y = 22
 }
 
 customization {
-  identifier = %id=398354%
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=398306%
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
   x = 0
@@ -37,18 +44,33 @@ customization {
 }
 
 customization {
-  identifier = %id=398306%
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
   action = setbuttonlabel
   value = Mods & Configs
+}
+
+customization {
+  identifier = %id=398354%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
 }
 
 customization {
   identifier = %id=610258%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 92
+  x = 153
   action = movebutton
-  y = 72
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  action = hidebutton
 }
 
 customization {
@@ -61,17 +83,24 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  width = 86
+  action = resizebutton
+  height = 20
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
   x = 0
   action = movebutton
-  y = 72
+  y = 46
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
-  width = 85
+  width = 150
   action = resizebutton
   height = 20
 }
@@ -80,33 +109,104 @@ customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 0
+  x = 153
   action = movebutton
-  y = 96
+  y = 46
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/fancymenu_assets/quitbuttonhover.png
+  backgroundnormal = config/fancymenu/fancymenu_assets/quitbutton.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = setbuttondescription
+  description = Save & Quit World
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 106
+  x = 0
   action = movebutton
-  y = 24
+  y = 23
 }
 
 customization {
-  identifier = %id=504330%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 120
-  action = movebutton
-  y = 72
-}
-
-customization {
-  identifier = %id=504330%
-  width = 85
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  width = 150
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = mid-centered
+  x = 66
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=504330%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504330%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=504330%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/fancymenu_assets/lanbuttonhover.png
+  backgroundnormal = config/fancymenu/fancymenu_assets/lanbutton.png
+}
+
+customization {
+  identifier = %id=504330%
+  action = setbuttondescription
+  description = Open to LAN / Player Reporting
+}
+
+customization {
+  identifier = %id=374330%
+  action = hidebutton
+}
+
+customization {
+  path = config/fancymenu/fancymenu_assets/gamemenu.png
+  orientation = top-centered
+  x = -133
+  width = 269
+  action = addtexture
+  actionid = a1dafe95-aa03-4444-a20f-ab3eb176760b1713536658706
+  y = 36
+  height = 48
 }
 

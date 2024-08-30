@@ -1,0 +1,21 @@
+
+["wind patterns"]
+	#Duration in ticks for how often the wind changes
+	#Default: 24000
+	wind_period_length = 24000
+	#Percent by which wind changes each duration
+	#Default: 2.5%
+	#Range: 0.0 ~ 1.0
+	wind_change_percent = 0.025
+
+	["wind patterns"."speed modifiers"]
+		#Speed modifier for biomes with less wind
+		#Default: 0.7
+		low_wind_modifier = 0.7
+		#Speed modifier for biomes with more wind
+		#Default: 1.3
+		high_wind_modifier = 1.3
+		#Speed modifier added for each higher atmospheric layer
+		#Default: 0.065
+		altitude_bonus = 0.065
+

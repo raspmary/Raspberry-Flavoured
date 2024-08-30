@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:pickaxe",
+  "parent": "raspberryflavoured:furnace",
   "criteria": {
     "0": {
       "conditions": {
@@ -31,6 +31,9 @@
       "text": "Getting an Upgrade"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
   "requirements": [
     [
       "0"
