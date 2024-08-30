@@ -18,6 +18,7 @@ build
 .gradle
 
 # other
+.mixin.out
 .vscode
 eclipse
 saves
@@ -28,6 +29,18 @@ mods
 resourcepacks
 screenshots
 schematics
+server-resource-packs
+shaderpacks
+temp
+texturepacks
+thingpacks
+cherishedworlds-favorites.dat
+options.txt
+rhino.local.properties
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
 
 # Files from Forge MDK
 forge*changelog.txt
