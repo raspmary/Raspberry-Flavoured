@@ -1,26 +1,27 @@
 # Raspberry Flavoured
  A Minecraft 1.19.2 modpack
 
-RESOURCE PACK/DATAPACK CREDITS:
+RESOURCE PACK CREDITS:
 
-The following resource packs/datapacks have been modified to fit the modpack, however neither I nor any of the RF team members claim them as our own. Please support the original authors.
+The following resource packs have been modified to fit the modpack, however neither I nor any of the RF team members claim them as our own. Please support the original authors.
 
 Team VanillaTweaks - VanillaTweaks resource pack
+
 hatsondogs - Peeves resource pack
 
 vectorwing - Detail Brush, Refined Armor and Soft Weather resource packs
 
-EndRage - Tom's Create Storage resource pack and datapack
+8shadowscrow8 - SHC Enhanced Fire resource pack
+
+db3k - Create Reoxidized resource pack
 
 spydnel - Created & Updated resource pack
 
-redmatazz - 3D Tankards resource pack
-
-Reijvi - Torches Reimagined resource pack
-
 Kayladillo - Better Create Palettes resource pack
 
-Wooferscoots - Vex Backport resource pack 
+wedge1453 - Create Style Modded Compats resource pack
+
+Scutoel - Vex Backport & Bat Backport resource packs
 
 Farcr - Farcr's Re-Crafted resource pack
 
@@ -32,26 +33,20 @@ joosh_7889 - Better Mob Models resource pack
 
 MythrilBagels - Bagels' Animal Tweaks resource pack
 
-telepathicgrunt - all of the Repurposed Structures Compatibility datapacks
+bebebea_loste - Banner Pattern Clarity resource pack
 
 RF TEAM CREDITS:
 
-QinomeD - helping me figure out what the hell I'm doing with KubeJS, making the KubeJS Delight addon upon my request, helping me create this very Github repo and helping out with other technicalities
+raspmary - Project Lead
 
-Chad - brainstorming tons of ideas, managing the Discord server and being emotional support (and once having played the pack for 11 HOURS STRAIGHT, therefore holding the record)
+Nive - Artist
 
-Nive - being our main texture artist and making loads of textures for both new and existing items and/or blocks
+QinomeD - Programmer
 
-CONTRIBUTOR CREDITS:
+nöelle - Artist
 
-DoltHHaven/Shyguymack - lending his Upgrade Aquatic Coralstone datapack and Presence Footsteps config file, and updating Dolt Compat to not require Good Ending upon request
+Crabbarition - Programmer/Musician
 
-culling - making a compatibility datapack for all the wood types in the pack to work with Woodworks' sawmill and Farmer's Delight's cutting board
+NCP_Bails - Programmer/GitHub Manager
 
-WaterOre - creating an audit of sorts of all the food items in the pack to help with and give feedback for balancing, and also making datapacks for more convenient dye recipes and adding dyeing recipes for some of the Another Furniture blocks
-
-MythrilBagels - making the chocolate bar, wild corn and flax seed sprites (and being the first to do a stream of the pack!)
-
-Jamiscus - making the campfire kindling textures
-
-Pouffy - making the strawberry banana smoothie texture
+Chad - Brainstormer/Project Manager
