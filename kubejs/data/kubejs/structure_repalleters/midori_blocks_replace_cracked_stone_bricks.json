@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:cracked_stone_bricks",
+  "replaces_with": "kubejs:cracked_midori_block",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_lush"
+    ]
+  }
+}

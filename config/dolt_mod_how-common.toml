@@ -3,7 +3,7 @@
 
 	[Vanilla.metal_ores]
 		#If mining ores that normally drop raw ores should grant XP
-		"Experienced metal" = true
+		"Experienced metal" = false
 
 	[Vanilla.farmland]
 		#Whether farmland can be untilled by sneak-right clicking them with a hoe
@@ -11,7 +11,7 @@
 
 	[Vanilla.crops]
 		#If all blocks that are crops should drop experience.
-		"Experienced Crops" = true
+		"Experienced Crops" = false
 		#Minimum XP a crop block will drop when broken.
 		"Minimum Crop XP" = 0
 		#Maximum XP a crop block will drop when broken.
@@ -61,5 +61,5 @@
 
 	[anchor."epilogue Disc"]
 		#If striking a jukebox with lightning with a filled disc inside will change that disc to Epilogue
-		"AWESOME epilogue disc" = true
+		"AWESOME epilogue disc" = false
 

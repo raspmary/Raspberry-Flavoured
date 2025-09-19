@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 1.0,
-        "max": 2.0,
+        "min": 2.0,
+        "max": 4.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -15,8 +15,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 2.0,
+                "min": 4.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -25,13 +25,13 @@
         },
 		{
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 3.0,
+                "max": 6.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -45,8 +45,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 4.0,
+                "min": 2.0,
+                "max": 6.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -55,13 +55,28 @@
         },
 		{
           "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "kubejs:cloth_scrap"
+        },
+		{
+          "type": "minecraft:item",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 4.0,
+                "min": 4.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -75,8 +90,23 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 12.0,
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "aquaculture:fish_bones"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12.0,
+                "max": 36.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -85,7 +115,7 @@
         },
 		{
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -96,14 +126,74 @@
               }
             }
           ],
-          "name": "minecraft:dead_bush"
+          "name": "minecraft:flint"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "farmersdelight:straw"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "aquaculture:worm"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "naturalist:caterpillar"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "supplementaries:ash"
         }
       ]
     },
 	{
       "rolls": {
-        "min": 1.0,
-        "max": 3.0,
+        "min": 2.0,
+        "max": 4.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -114,8 +204,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 8.0,
+                "max": 24.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -129,8 +219,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 4.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -144,8 +234,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 8.0,
+                "max": 24.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -159,23 +249,14 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 8.0,
+                "max": 24.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
           "name": "minecraft:gravel"
-        }
-      ]
-    },
-	{
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "weight": 1,
@@ -183,8 +264,32 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 4.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "raspberry:deepslate_gravel"
+        }
+      ]
+    },
+	{
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 16.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -193,13 +298,13 @@
         },
 		{
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 4.0,
+                "max": 16.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -208,13 +313,13 @@
         },
 		{
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 4.0,
+                "max": 16.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -223,18 +328,18 @@
         },
 		{
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 2.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:granite"
+          "name": "kubejs:dwarf_geode"
         },
 		{
           "type": "minecraft:item",
@@ -244,42 +349,12 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 5.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:diorite"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:andesite"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:smooth_basalt"
+          "name": "kubejs:deepslate_dwarf_geode"
         }
       ]
     }

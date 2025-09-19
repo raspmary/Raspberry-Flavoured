@@ -21,7 +21,7 @@
 	#Set to true if you need to find the class name for a screen that's causing problems
 	"Print Screen Classnames" = false
 	#A list of screens that can accept quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
-	"Allowed Screens" = []
+	"Allowed Screens" = ["com.tom.storagemod.gui.StorageTerminalScreen"]
 	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
 	"Use Screen List Blacklist" = false
 	#Set to true to make the quark big worldgen features such as stone clusters generate as spheres rather than unique shapes. It's faster, but won't look as cool
@@ -35,7 +35,7 @@
 	#Set to false to stop quark from adding its own advancements
 	"Enable Quark Advancements" = true
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
 	"Hide Disabled Content" = true
 	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
@@ -165,7 +165,7 @@
 		"Replace Worldgen Chests" = true
 		"Enable Reverting Wooden Chests" = false
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
-		"Structure Chests" = ["minecraft:village_plains=woodworks:oak_chest", "minecraft:igloo=woodworks:spruce_chest", "minecraft:village_snowy=woodworks:spruce_chest", "minecraft:village_taiga=woodworks:spruce_chest", "minecraft:desert_pyramid=woodworks:birch_chest", "minecraft:jungle_pyramid=woodworks:jungle_chest", "minecraft:village_desert=woodworks:jungle_chest", "minecraft:village_savanna=woodworks:acacia_chest", "minecraft:mansion=woodworks:dark_oak_chest", "minecraft:pillager_outpost=woodworks:dark_oak_chest", "minecraft:ruined_portal=woodworks:crimson_chest", "minecraft:bastion_remnant=woodworks:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "betterfortresses:fortress=quark:nether_brick_chest", "minecraft:end_city=quark:purpur_chest", "minecraft:ancient_city=woodworks:dark_oak_chest"]
+		"Structure Chests" = []
 
 	[building.variant_bookshelves]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -339,12 +339,12 @@
 	"Skull Pikes" = true
 	"Seed Pouch" = false
 	Pickarang = true
-	"Pathfinder Maps" = false
+	"Pathfinder Maps" = true
 	"Parrot Eggs" = false
 	"Endermosh Music Disc" = false
 	"Color Runes" = true
 	"Bundle Recipe" = true
-	"Bottled Cloud" = true
+	"Bottled Cloud" = false
 	"Beacon Redirection" = false
 	"Ancient Tomes" = false
 	"Ambient Discs" = false
@@ -580,7 +580,7 @@
 		#Can other stone-like materials be used for crafting stone tools?
 		"Better Stone Tool Crafting" = false
 		#Can a dispenser be crafted by adding a bow to a dropper?
-		"Enable Dispenser" = true
+		"Enable Dispenser" = false
 		#Can a repeater be crafted with the pattern for a redstone torch?
 		"Enable Repeater" = true
 		#Can you craft a minecart around blocks which can be placed inside?
@@ -596,7 +596,7 @@
 		#Does Dragon Breath return a bottle when used as a reagent or material?
 		"Effective Dragon Breath" = true
 		#Can torches can be used as fuel in furnaces?
-		"Torches Burn" = true
+		"Torches Burn" = false
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = false
 		#Can Charcoal be crafted into Black Dye?
@@ -645,7 +645,7 @@
 		#Allowed values: [0,1]
 		Leniency = 0.5
 		Whitelist = []
-		Blacklist = []
+		Blacklist = ["minecraft:sweet_berries", "minecraft:glow_berries", "additionaladditions:copper_patina", "supplementaries:cage"]
 		Display = "[  ]"
 		"Display Horizontal" = "<  >"
 
@@ -704,7 +704,7 @@
 		"Italic Tooltip" = true
 		"Display Baked Enchantments In Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = ["minecraft:trident+loyalty@3", "farmersdelight:golden_knife+looting@1", "minecraft:golden_axe+looting@1", "minecraft:leather_helmet+feather_falling@2", "minecraft:leather_chestplate+feather_falling@2", "minecraft:leather_leggings+feather_falling@2", "minecraft:leather_boots+feather_falling@2", "minecraft:turtle_helmet+aqua_affinity@1", "minecraft:golden_helmet+fire_protection@2", "minecraft:golden_chestplate+fire_protection@2", "minecraft:golden_leggings+fire_protection@2", "minecraft:golden_boots+fire_protection@2", "minecraft:chainmail_helmet+thorns@1", "minecraft:chainmail_chestplate+thorns@1", "minecraft:chainmail_leggings+thorns@1", "minecraft:chainmail_boots+thorns@1", "alloyed:steel_helmet+projectile_protection@2", "alloyed:steel_chestplate+projectile_protection@2", "alloyed:steel_leggings+projectile_protection@2", "alloyed:steel_boots+projectile_protection@2", "alloyed:steel_sword+knockback@1", "alloyed:steel_axe+knockback@1", "alloyed:steel_pickaxe+knockback@1", "alloyed:steel_hoe+knockback@1", "alloyed:steel_shovel+knockback@1", "alloyed:steel_knife+knockback@1", "mace_backport:mace+knockback@1", "additionaladditions:rose_gold_helmet+ensorcellation:magic_protection@2", "additionaladditions:rose_gold_chestplate+ensorcellation:magic_protection@2", "additionaladditions:rose_gold_leggings+ensorcellation:magic_protection@2", "additionaladditions:rose_gold_boots+ensorcellation:magic_protection@2", "additionaladditions:rose_gold_sword+silk_touch@1", "additionaladditions:rose_gold_shovel+silk_touch@1", "additionaladditions:rose_gold_pickaxe+silk_touch@1", "additionaladditions:rose_gold_axe+silk_touch@1", "additionaladditions:rose_gold_hoe+silk_touch@1", "kubejs:rose_gold_knife+silk_touch@1", "minecraft:netherite_helmet+fire_protection@3", "minecraft:netherite_chestplate+fire_protection@3", "minecraft:netherite_leggings+fire_protection@3", "minecraft:netherite_boots+fire_protection@3", "oreganized:electrum_sword+smite@1", "oreganized:electrum_axe+smite@1", "oreganized:electrum_knife+smite@1", "minecraft:netherite_sword+fire_aspect@2", "minecraft:netherite_axe+fire_aspect@2", "farmersdelight:netherite_knife+fire_aspect@2", "clash:swept_axe+fire_aspect@2", "clash:spear+smite@1", "clash:spear+clash:agility@1", "oreganized:silver_mirror+smite@6", "kubejs:rose_gold_rapier+kubejs:rose_lifesteal@1", "kubejs:electrum_horse_armor+allurement:obedience@1", "caverns_and_chasms:necromium_horse_armor+allurement:obedience@1", "caverns_and_chasms:netherite_horse_armor+allurement:obedience@1"]
+		"Baked Enchantments" = ["minecraft:trident+loyalty@2", "minecraft:trident+power@1", "minecraft:crossbow+power@2", "farmersdelight:golden_knife+looting@1", "minecraft:golden_axe+looting@1", "minecraft:leather_helmet+feather_falling@1", "minecraft:leather_chestplate+feather_falling@2", "minecraft:leather_leggings+feather_falling@3", "minecraft:leather_boots+feather_falling@4", "minecraft:turtle_helmet+aqua_affinity@1", "minecraft:golden_helmet+fire_protection@1", "minecraft:golden_chestplate+fire_protection@2", "minecraft:golden_leggings+fire_protection@2", "minecraft:golden_boots+fire_protection@1", "minecraft:chainmail_helmet+thorns@1", "minecraft:chainmail_chestplate+thorns@1", "minecraft:chainmail_leggings+thorns@1", "minecraft:chainmail_boots+thorns@1", "minecraft:diamond_helmet+projectile_protection@2", "minecraft:diamond_chestplate+projectile_protection@3", "minecraft:diamond_leggings+projectile_protection@3", "minecraft:diamond_boots+projectile_protection@2", "additionaladditions:rose_gold_sword+silk_touch@1", "additionaladditions:rose_gold_shovel+silk_touch@1", "additionaladditions:rose_gold_pickaxe+silk_touch@1", "additionaladditions:rose_gold_axe+silk_touch@1", "additionaladditions:rose_gold_hoe+silk_touch@1", "kubejs:rose_gold_knife+silk_touch@1", "minecraft:netherite_helmet+fire_protection@3", "minecraft:netherite_chestplate+fire_protection@4", "minecraft:netherite_leggings+fire_protection@4", "minecraft:netherite_boots+fire_protection@3", "minecraft:netherite_pickaxe+fire_aspect@1", "minecraft:netherite_pickaxe+miningmaster:smelting@1", "minecraft:netherite_shovel+fire_aspect@1", "minecraft:netherite_shovel+miningmaster:smelting@1", "minecraft:netherite_hoe+fire_aspect@1", "minecraft:netherite_hoe+miningmaster:smelting@1", "minecraft:netherite_axe+fire_aspect@2", "minecraft:netherite_axe+miningmaster:smelting@1", "minecraft:netherite_sword+fire_aspect@2", "minecraft:netherite_sword+miningmaster:smelting@1", "farmersdelight:netherite_knife+fire_aspect@2", "farmersdelight:netherite_knife+miningmaster:smelting@1", "clash:swept_axe+fire_aspect@2", "clash:swept_axe+miningmaster:smelting@1", "clash:spear+clash:agility@1", "oreganized:silver_mirror+smite@6", "kubejs:rose_gold_rapier+kubejs:rose_lifesteal@1", "kubejs:electrum_horse_armor+allurement:obedience@1", "kubejs:necromium_horse_armor+allurement:obedience@1", "kubejs:netherite_horse_armor+allurement:obedience@1", "clash:greatblade+clash:whirling@1"]
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -786,7 +786,7 @@
 	"Spiral Spires" = false
 	Permafrost = false
 	"No More Lava Pockets" = true
-	"New Stone Types" = true
+	"New Stone Types" = false
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
 	"Glimmering Weald" = true
@@ -853,7 +853,7 @@
 	[world.new_stone_types]
 		"Enable Limestone" = false
 		"Enable Jasper" = false
-		"Enable Shale" = true
+		"Enable Shale" = false
 		"Enable Myalite" = false
 
 		[world.new_stone_types.limestone]
@@ -1009,7 +1009,7 @@
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625
 		"Plains Chance" = 0.0025
-		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore"]
+		Ores = ["minecraft:diamond_ore", "minecraft:gold_ore"]
 
 		[world.fairy_rings.dimensions]
 			"Is Blacklist" = false
@@ -1366,7 +1366,7 @@
 					"Is Blacklist" = true
 
 				[mobs.wraith.spawn_config.biomes.biomes]
-					Biomes = ["minecraft:soul_sand_valley"]
+					Biomes = []
 					"Is Blacklist" = false
 
 	[mobs.toretoise]
@@ -1403,7 +1403,7 @@
 
 	[mobs.stonelings]
 		"Max Y Level" = 0
-		"Enable Diamond Heart" = true
+		"Enable Diamond Heart" = false
 		#When enabled, stonelings are much more aggressive in checking for players
 		"Cautious Stonelings" = false
 		"Tamable Stonelings" = true
@@ -1544,18 +1544,18 @@
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true
-		"Enable Pig" = false
+		"Enable Pig" = true
 		"Enable Chicken" = false
-		"Enable Shiny Rabbit" = true
-		"Enable Shiny Llama" = true
-		"Enable Shiny Dolphin" = true
-		"Enable Shiny Slime" = true
+		"Enable Shiny Rabbit" = false
+		"Enable Shiny Llama" = false
+		"Enable Shiny Dolphin" = false
+		"Enable Shiny Slime" = false
 		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
 		#If a shiny animal should emit occasional sparkles.
-		"Shiny Sparkles" = true
+		"Shiny Sparkles" = false
 
 	[client.uses_for_curses]
 		"Vanish Pumpkin Overlay" = true
@@ -1698,7 +1698,7 @@
 		"Disable Tripwire Hook Dupe" = true
 
 	[experimental.enchantments_begone]
-		"Enchantments To Begone" = ["minecraft:protection", "minecraft:fire_protection", "minecraft:blast_protection", "minecraft:feather_falling", "minecraft:aqua_affinity", "minecraft:fire_aspect", "minecraft:punch", "minecraft:thorns", "minecraft:looting", "minecraft:mending", "minecraft:infinity", "minecraft:flame", "minecraft:efficiency", "minecraft:fortune", "minecraft:power", "minecraft:sharpness", "minecraft:loyalty", "additionaladditions:precision", "additionaladditions:speed", "ensorcellation:magic_protection", "cofh_core:holding", "minecraft:unbreaking"]
+		"Enchantments To Begone" = ["minecraft:protection", "minecraft:fire_protection", "minecraft:blast_protection", "minecraft:feather_falling", "minecraft:aqua_affinity", "minecraft:fire_aspect", "minecraft:punch", "minecraft:thorns", "minecraft:looting", "minecraft:mending", "minecraft:infinity", "minecraft:flame", "minecraft:efficiency", "minecraft:fortune", "minecraft:power", "minecraft:sharpness", "minecraft:loyalty", "additionaladditions:precision", "additionaladditions:speed", "ensorcellation:magic_protection", "cofh_core:holding"]
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -1814,7 +1814,7 @@
 		#How long it takes for an item to cross a pipe. Bigger = slower.
 		"Pipe Speed" = 5
 		#Set to 0 if you don't want pipes to have a max amount of items
-		"Max Pipe Items" = 16
+		"Max Pipe Items" = 0
 		#When items eject or are absorbed by pipes, should they make sounds?
 		"Do Pipes Whoosh" = true
 		"Enable Encased Pipes" = true

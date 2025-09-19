@@ -129,7 +129,7 @@
 		health_threshold = 100
 
 	[functional.safe]
-		enabled = true
+		enabled = false
 		#Makes safes only breakable by their owner or by a player in creative
 		prevent_breaking = false
 		#Make safes simpler so they do not require keys:
@@ -198,7 +198,7 @@
 	blackstone_tile = true
 	sconce = true
 	sconce_lever = true
-	sconce_green = false
+	sconce_green = true
 	pancake = false
 	netherite_door = true
 	netherite_trapdoor = true
@@ -450,7 +450,7 @@
 
 	[tweaks.cake_tweaks]
 		#Allows you to place a cake on top of another
-		double_cake = true
+		double_cake = false
 		#Allows eating a cake from every side
 		directional_cake = false
 

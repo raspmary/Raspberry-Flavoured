@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:boots": {
+      "base_item": "minecraft:iron_boots",
+      "item_tag": "forge:armors/boots"
+    }
+  }
+}

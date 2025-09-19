@@ -1,0 +1,13 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:cobblestone",
+  "replaces_with": "minecraft:tuff",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_spruce",
+      "bettermineshafts:mineshaft_spruce_snowy"
+    ]
+  }
+}

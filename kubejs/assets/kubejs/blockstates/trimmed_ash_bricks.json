@@ -1,0 +1,41 @@
+{
+  "variants": {
+    "facing=down": [
+      {
+        "model": "kubejs:block/trimmed_ash_bricks"
+      }
+    ],
+    "facing=up": [
+      {
+        "model": "kubejs:block/trimmed_ash_bricks",
+        "x": 180
+      }
+    ],
+    "facing=north": [
+      {
+        "model": "kubejs:block/trimmed_ash_bricks",
+        "x": -90
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "kubejs:block/trimmed_ash_bricks",
+        "x": 90
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "kubejs:block/trimmed_ash_bricks",
+        "x": -90,
+        "y": 90
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "kubejs:block/trimmed_ash_bricks",
+        "x": 90,
+        "y": 90
+      }
+    ]
+  }
+}

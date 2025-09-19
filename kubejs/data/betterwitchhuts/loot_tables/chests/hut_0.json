@@ -116,9 +116,22 @@
       ]
     },
     {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spelunkery:portal_fluid_bottle"
+        }
+      ]
+    },
+    {
     "rolls": {
-      "min": 2.0,
-      "max": 4.0,
+      "min": 1.0,
+      "max": 3.0,
       "type": "minecraft:uniform"
     },
       "entries": [
@@ -135,7 +148,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -146,7 +159,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -157,7 +170,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -168,7 +181,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -179,7 +192,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -190,7 +203,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -198,6 +211,72 @@
             }
           ],
           "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"windswept:thorns\"}"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"caverns_and_chasms:rewind\"}"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"autumnity:extension\"}"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"kubejs:decay\"}"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"oreganized:stunning\"}"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"naturalist:forest_dasher\"}"
+            }
+          ],
+          "name": "minecraft:potion"
         }
       ]
     }

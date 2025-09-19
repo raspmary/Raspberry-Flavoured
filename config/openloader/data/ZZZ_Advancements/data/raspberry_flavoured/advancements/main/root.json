@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "title": {
+      "color": "#E8587C",
+      "translate": "advancements.rf.main.root.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.root.description"
+    },
+    "icon": {
+      "item": "minecraft:sweet_berries"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": false,
+    "background": "clayworks:textures/block/pink_terracotta_bricks.png",
+    "show_toast": false
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:gamerules"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

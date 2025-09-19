@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:lush_caves",
+  "spawners": [
+    {
+      "type": "minecraft:slime",
+      "maxCount": 6,
+      "minCount": 6,
+      "weight": 10
+    }
+  ]
+}

@@ -342,7 +342,7 @@
 		#Range: 1 ~ 10
 		"Max Level" = 4
 		#If TRUE, the Frost Walker Enchantment will also chill Lava into Glossed Magma.
-		"Freeze Lava" = true
+		"Freeze Lava" = false
 
 	[Overrides.Knockback]
 		#This option adjusts the maximum allowable level for the Enchantment.

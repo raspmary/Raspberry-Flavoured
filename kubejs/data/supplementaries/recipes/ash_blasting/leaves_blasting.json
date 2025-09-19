@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "cookingtime": 50,
-  "ingredient": {
-    "tag": "minecraft:leaves"
-  },
-  "result": "supplementaries:ash"
-}

@@ -1,0 +1,54 @@
+{
+  "parent": "raspberry_flavoured:farming/straw",
+  "criteria": {
+    "Obtain Ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:ham"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Smoked Ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:smoked_ham"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.ham.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.ham.description"
+    },
+    "icon": {
+      "item": "farmersdelight:ham"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Obtain Ham",
+      "Obtain Smoked Ham"
+    ]
+  ]
+}

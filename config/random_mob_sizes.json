@@ -1,18 +1,26 @@
 {
 	"keep_scaling_on_conversion": true,
-	"upgrade_aquatic:flare": {
-		"type": "uniform",
-		"min_scaling": 1.0,
-		"max_scaling": 1.25
-	},
+	"savage_and_ravage:creepie": 1.05,
+	"aquaculture:gar": 1.1,
 	"minecraft:rabbit": 1.1,
+	"aquaculture:boulti": 1.05,
+	"aquaculture:synodontis": 1.05,
+	"minecraft:bat": 1.2,
+	"aquaculture:tuna": 1.3,
+	"aquaculture:pollock": 1.1,
+	"aquaculture:tambaqui": 1.3,
+	"aquaculture:red_grouper": 1.2,
+	"aquaculture:carp": 1.2,
 	"minecraft:phantom": {
 		"type": "uniform",
 		"min_scaling": 1.0,
 		"max_scaling": 1.25
 	},
-	"minecraft:allay": 1.25,
-	"savage_and_ravage:creepie": 1.05,
 	"minecraft:vex": 1.45,
-	"minecraft:bat": 1.2
+	"minecraft:allay": 1.25,
+	"upgrade_aquatic:flare": {
+		"type": "uniform",
+		"min_scaling": 1.0,
+		"max_scaling": 1.25
+	}
 }

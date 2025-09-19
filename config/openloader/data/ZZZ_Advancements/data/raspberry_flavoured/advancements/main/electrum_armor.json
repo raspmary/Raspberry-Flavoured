@@ -1,0 +1,87 @@
+{
+  "parent": "raspberry_flavoured:main/diamond_armor",
+  "criteria": {
+    "Obtain Electrum Helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.electrum_armor.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.electrum_armor.description"
+    },
+    "icon": {
+      "item": "oreganized:electrum_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Electrum Helmet"
+    ],
+	[
+      "Obtain Electrum Chestplate"
+    ],
+	[
+      "Obtain Electrum Leggings"
+    ],
+	[
+      "Obtain Electrum Boots"
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:arid_sprouts_biomes",
+  "features": "kubejs:arid_sprouts",
+  "step": "vegetal_decoration"
+}

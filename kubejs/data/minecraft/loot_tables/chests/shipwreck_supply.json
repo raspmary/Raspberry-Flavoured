@@ -11,8 +11,24 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 24.0,
+                "min": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aquaculture:worm",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 12.0,
-                "min": 1.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -257,41 +273,21 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
           "name": "minecraft:leather_helmet",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
           "name": "minecraft:leather_chestplate",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
           "name": "minecraft:leather_leggings",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
           "name": "minecraft:leather_boots",
           "weight": 3
         }

@@ -4,9 +4,9 @@
   "spawners": [
     {
       "type": "minecraft:bat",
-      "maxCount": 14,
-      "minCount": 7,
-      "weight": 3
+      "maxCount": 12,
+      "minCount": 12,
+      "weight": 8
     }
   ]
 }

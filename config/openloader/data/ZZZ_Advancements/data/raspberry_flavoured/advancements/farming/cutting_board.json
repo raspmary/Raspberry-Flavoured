@@ -1,0 +1,33 @@
+{
+  "parent": "raspberry_flavoured:farming/shears",
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "farmersdelight:use_cutting_board"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.cutting_board.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.cutting_board.description"
+    },
+    "icon": {
+      "item": "farmersdelight:cutting_board"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

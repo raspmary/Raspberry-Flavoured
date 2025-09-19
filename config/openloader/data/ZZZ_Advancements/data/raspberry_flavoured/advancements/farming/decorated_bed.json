@@ -1,0 +1,42 @@
+{
+  "parent": "raspberry_flavoured:farming/sleep",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bedspreads:decorated_bed"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.decorated_bed.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.decorated_bed.description"
+    },
+    "icon": {
+      "item": "bedspreads:decorated_bed",
+      "nbt": "{BlockEntityTag: {BannerStack: {id: \"minecraft:lime_banner\", Count: 1b, tag: {BlockEntityTag: {Patterns: [{Pattern: \"cre\", Color: 15}], id: \"minecraft:banner\"}}}, BedStack: {id: \"minecraft:white_bed\", Count:1b}}}"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

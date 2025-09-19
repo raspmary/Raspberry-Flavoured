@@ -1,0 +1,274 @@
+{
+  "parent": "raspberry_flavoured:farming/keg",
+  "criteria": {
+    "Consume Beer": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:beer"
+          ]
+        }
+      }
+    },
+	"Consume Vodka": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:vodka"
+          ]
+        }
+      }
+    },
+	"Consume Mead": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:mead"
+          ]
+        }
+      }
+    },
+	"Consume Rice Wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:rice_wine"
+          ]
+        }
+      }
+    },
+	"Consume Egg Grog": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:egg_grog"
+          ]
+        }
+      }
+    },
+	"Consume Strongroot Ale": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:strongroot_ale"
+          ]
+        }
+      }
+    },
+	"Consume Saccharine Rum": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:saccharine_rum"
+          ]
+        }
+      }
+    },
+	"Consume Pale Jane": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:pale_jane"
+          ]
+        }
+      }
+    },
+	"Consume Salty Folly": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:salty_folly"
+          ]
+        }
+      }
+    },
+	"Consume Steel Toe Stout": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:steel_toe_stout"
+          ]
+        }
+      }
+    },
+	"Consume Glittering Grenadine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:glittering_grenadine"
+          ]
+        }
+      }
+    },
+	"Consume Bloody Mary": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:bloody_mary"
+          ]
+        }
+      }
+    },
+	"Consume Red Rum": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:red_rum"
+          ]
+        }
+      }
+    },
+	"Consume Withering Dross": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:withering_dross"
+          ]
+        }
+      }
+    },
+	"Consume Kombucha": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "brewinandchewin:kombucha"
+          ]
+        }
+      }
+    },
+	"Consume Soulstice Sake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:soulstice_sake"
+          ]
+        }
+      }
+    },
+	"Consume Buzzing Bourbon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:buzzing_bourbon"
+          ]
+        }
+      }
+    },
+	"Consume Prickly Gin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:prickly_gin"
+          ]
+        }
+      }
+    },
+	"Consume Foul Fernet": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:foul_fernet"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.happy_hour.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.happy_hour.description"
+    },
+    "icon": {
+      "item": "brewinandchewin:steel_toe_stout",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_happyhour"
+    },
+  "requirements": [
+    [
+      "Consume Beer"
+    ],
+	[
+      "Consume Vodka"
+    ],
+	[
+      "Consume Mead"
+    ],
+	[
+      "Consume Rice Wine"
+    ],
+	[
+      "Consume Egg Grog"
+    ],
+	[
+      "Consume Strongroot Ale"
+    ],
+	[
+      "Consume Saccharine Rum"
+    ],
+	[
+      "Consume Pale Jane"
+    ],
+	[
+      "Consume Salty Folly"
+    ],
+	[
+      "Consume Steel Toe Stout"
+    ],
+	[
+      "Consume Glittering Grenadine"
+    ],
+	[
+      "Consume Bloody Mary"
+    ],
+	[
+      "Consume Red Rum"
+    ],
+	[
+      "Consume Withering Dross"
+    ],
+	[
+      "Consume Kombucha"
+    ],
+	[
+      "Consume Soulstice Sake"
+    ],
+	[
+      "Consume Buzzing Bourbon"
+    ],
+	[
+      "Consume Prickly Gin"
+    ],
+	[
+      "Consume Foul Fernet"
+    ]
+  ]
+}

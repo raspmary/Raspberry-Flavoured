@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:ranged_weapons": {
+      "base_item": "minecraft:bow",
+      "item_tag": "raspberry_flavoured:ranged_weapons"
+    }
+  }
+}

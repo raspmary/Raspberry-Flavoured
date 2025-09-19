@@ -1,0 +1,12 @@
+{
+  "type": "dungeons_mobs:add_spawns",
+  "structures": "minecraft:jungle_pyramid",
+  "spawners": [
+    {
+      "type": "naturalist:caterpillar",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 3
+    }
+  ]
+}

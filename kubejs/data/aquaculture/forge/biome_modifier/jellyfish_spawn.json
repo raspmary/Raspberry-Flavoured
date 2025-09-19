@@ -1,0 +1,12 @@
+{
+  "type": "aquaculture:fish_spawn",
+  "spawn": {
+    "type": "aquaculture:jellyfish",
+    "weight": 0,
+    "minCount": 1,
+    "maxCount": 3
+  },
+  "includeBiomes": ["#minecraft:is_ocean", "#minecraft:is_beach"],
+  "excludeBiomes": ["#aquaculture:empty"],
+  "and": false
+}

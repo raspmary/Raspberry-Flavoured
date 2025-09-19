@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:dense_cheery_wildflowers_biomes",
+  "features": "kubejs:cheery_wildflowers_dense",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "spelunkery:huge_mushrooms",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.15,
+        "feature": {
+          "feature": "spelunkery:huge_inkcap_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.15,
+        "feature": {
+          "feature": "spelunkery:huge_white_inkcap_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": "spelunkery:huge_portabella",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": "spelunkery:huge_milly_bubcap_bonemeal",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

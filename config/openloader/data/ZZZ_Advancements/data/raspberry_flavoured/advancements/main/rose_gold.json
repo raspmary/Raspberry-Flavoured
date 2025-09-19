@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:main/bronze",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "additionaladditions:rose_gold_alloy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.rose_gold.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.rose_gold.description"
+    },
+    "icon": {
+      "item": "additionaladditions:rose_gold_alloy"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

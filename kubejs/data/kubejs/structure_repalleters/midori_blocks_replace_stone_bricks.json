@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stone_bricks",
+  "replaces_with": "quark:midori_block",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_lush"
+    ]
+  }
+}

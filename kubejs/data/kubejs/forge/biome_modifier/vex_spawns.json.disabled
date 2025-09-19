@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#raspberry_flavoured:vex_spawning_biomes",
+  "spawners": [
+    {
+      "type": "minecraft:vex",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 1
+    }
+  ]
+}

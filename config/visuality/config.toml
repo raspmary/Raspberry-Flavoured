@@ -9,7 +9,7 @@
 
 [waterCircle]
 	#Water Circles Enabled
-	enabled = true
+	enabled = false
 	#Water Circles Colored
 	colored = true
 	#Water Circles Density

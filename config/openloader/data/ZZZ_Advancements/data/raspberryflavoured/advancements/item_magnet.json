@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:mech_crafter",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:item_magnet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Obtain an item magnet - activating one via right-click will make it attract nearby items towards you!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "spelunkery:item_magnet"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Attractive"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+playsound kubejs:advancement.nether_alt master @s ~ ~ ~ 0.5

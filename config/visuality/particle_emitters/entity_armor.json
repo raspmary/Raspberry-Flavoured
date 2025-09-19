@@ -36,57 +36,6 @@
           0.93333334
         ]
       }
-    },
-    {
-      "armor": [
-        "additionaladditions:rose_gold_helmet",
-        "additionaladditions:rose_gold_chestplate",
-        "additionaladditions:rose_gold_leggings",
-        "additionaladditions:rose_gold_boots",
-        "kubejs:rose_gold_horse_armor"
-      ],
-      "particle": {
-        "type": "visuality:sparkle",
-        "value": [
-          0.99607843,
-          1.0,
-          0.7411765
-        ]
-      }
-    },
-    {
-      "armor": [
-        "oreganized:electrum_helmet",
-        "oreganized:electrum_chestplate",
-        "oreganized:electrum_leggings",
-        "oreganized:electrum_boots",
-        "kubejs:electrum_horse_armor"
-      ],
-      "particle": {
-        "type": "visuality:sparkle",
-        "value": [
-          0.99607843,
-          1.0,
-          0.7411765
-        ]
-      }
-    },
-    {
-      "armor": [
-        "alloyed:steel_helmet",
-        "alloyed:steel_chestplate",
-        "alloyed:steel_leggings",
-        "alloyed:steel_boots",
-        "kubejs:steel_horse_armor"
-      ],
-      "particle": {
-        "type": "visuality:sparkle",
-        "value": [
-          0.7058824,
-          0.99215686,
-          0.93333334
-        ]
-      }
     }
   ]
 }

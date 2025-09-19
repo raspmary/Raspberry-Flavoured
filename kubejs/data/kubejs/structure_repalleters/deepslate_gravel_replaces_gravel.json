@@ -1,0 +1,13 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:gravel",
+  "replaces_with": "kubejs:deepslate_gravel",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_spruce",
+      "bettermineshafts:mineshaft_spruce_snowy"
+    ]
+  }
+}

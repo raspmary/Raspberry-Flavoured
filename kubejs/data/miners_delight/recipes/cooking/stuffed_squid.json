@@ -30,7 +30,7 @@
       "tag": "forge:eggs"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "forge:crops/onion"
     }
   ],
   "recipe_book_tab": "meals",

@@ -1,0 +1,65 @@
+{
+	"credit": "Edited in Blockbench by ProbablyEkho",
+	"render_type": "cutout",
+	"textures": {
+		"0": "raspberry:block/wildflowers_stem",
+		"1": "raspberry:block/moody_wildflowers",
+		"particle": "raspberry:item/moody_wildflowers"
+	},
+	"elements": [
+		{
+			"from": [0, 2.99, 7],
+			"to": [8, 2.99, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 4]},
+			"faces": {
+				"up": {"uv": [0, 8, 8, 13], "texture": "#1"},
+				"down": {"uv": [0, 13, 8, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 1.99, 13],
+			"to": [8, 1.99, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 8]},
+			"faces": {
+				"up": {"uv": [0, 13, 8, 16], "texture": "#1"},
+				"down": {"uv": [0, 16, 8, 13], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.15, 0, 7.55],
+			"to": [8.15, 1.99, 8.55],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-1, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1},
+				"west": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1}
+			}
+		},
+		{
+			"from": [7.65, 0, 8.05],
+			"to": [8.65, 1.99, 8.05],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-1, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1},
+				"south": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1}
+			}
+		},
+		{
+			"from": [6.15, 0, 2.55],
+			"to": [6.15, 2.99, 3.55],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-3, 0, 3]},
+			"faces": {
+				"east": {"uv": [0, 4, 1, 6.99], "texture": "#0", "tintindex": 1},
+				"west": {"uv": [0, 4, 1, 6.99], "texture": "#0", "tintindex": 1}
+			}
+		},
+		{
+			"from": [5.65, 0, 3.05],
+			"to": [6.65, 2.99, 3.05],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-3, 0, 3]},
+			"faces": {
+				"north": {"uv": [0, 4, 1, 6.99], "texture": "#0", "tintindex": 1},
+				"south": {"uv": [0, 4, 1, 6.99], "texture": "#0", "tintindex": 1}
+			}
+		}
+	]
+}

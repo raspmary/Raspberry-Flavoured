@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:jungle\", targetBiomeColor: 2274816, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:bamboo_jungle\", targetBiomeColor: 4055575, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:savanna\", targetBiomeColor: 10200418, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:desert\", targetBiomeColor: 13416782, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:swamp\", targetBiomeColor: 2242319, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:mangrove_swamp\", targetBiomeColor: 3880719, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:ice_spikes\", targetBiomeColor: 8381695, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:taiga\", targetBiomeColor: 1724967, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"environmental:blossom_woods\", targetBiomeColor: 16745114, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"environmental:blossom_valleys\", targetBiomeColor: 13657738, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"atmospheric:rainforest\", targetBiomeColor: 3407985, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"atmospheric:dunes\", targetBiomeColor: 15767630, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

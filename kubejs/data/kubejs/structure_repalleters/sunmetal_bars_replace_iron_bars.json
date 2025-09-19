@@ -1,0 +1,15 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:iron_bars",
+  "replaces_with": "architects_palette:sunmetal_bars",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_desert",
+      "bettermineshafts:mineshaft_dripstone",
+      "bettermineshafts:mineshaft_mesa",
+      "bettermineshafts:mineshaft_maple"
+    ]
+  }
+}

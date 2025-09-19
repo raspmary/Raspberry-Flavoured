@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:ghast"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.5,
+      "looting_multiplier": 0.1
+    }
+  ],
+  "item": "mynethersdelight:ghasta",
+  "count": {
+    "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+    }
+}

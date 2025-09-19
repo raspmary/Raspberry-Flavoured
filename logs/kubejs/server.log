@@ -1,96 +1,80 @@
-[21:50:07] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
-[21:50:07] [INIT] Loaded plugins:
-[21:50:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[21:50:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[21:50:07] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[21:50:07] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[21:50:07] [INIT] - com.almostreliable.morejs.Plugin
-[21:50:07] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[21:50:07] [INIT] - com.probejs.ProbeJSPlugin
-[21:50:08] [INFO] Loaded script server_scripts:campfire_heal.js in 0.001 s
-[21:50:08] [INFO] Loaded script server_scripts:conversion_tags.js in 0.001 s
-[21:50:08] [INFO] Loaded script server_scripts:enchantfilter.js in 0.001 s
-[21:50:08] [INFO] Loaded script server_scripts:foodeaten_events.js in 0.001 s
-[21:50:08] [INFO] Loaded script server_scripts:interaction_events.js in 0.003 s
-[21:50:08] [INFO] Loaded script server_scripts:recipes.js in 0.018 s
-[21:50:08] [INFO] Loaded script server_scripts:remove_recipes.js in 0.003 s
-[21:50:08] [INFO] Loaded script server_scripts:spawned_entity_events.js in 0.001 s
-[21:50:08] [INFO] Loaded script server_scripts:stonecutter_compat.js in 0.003 s
-[21:50:08] [INFO] Loaded script server_scripts:tags.js in 0.008 s
-[21:50:08] [INFO] Loaded 10/10 KubeJS server scripts in 0.046 s
-[21:50:08] [INFO] Scripts loaded
-[21:50:08] [INFO] Initializing recipe event...
-[21:50:10] [INFO] [minecraft:worldgen/biome] Found 342 tags, added 0 objects, removed 12 objects
-[21:50:10] [INFO] [minecraft:worldgen/structure] Found 46 tags, added 7 objects, removed 1 objects
-[21:50:10] [INFO] [minecraft:painting_variant] Found 1 tags, added 10 objects, removed 5 objects
-[21:50:10] [INFO] [minecraft:block] Found 640 tags, added 889 objects, removed 208 objects
-[21:50:11] [INFO] [minecraft:item] Found 999 tags, added 804 objects, removed 39 objects
-[21:50:12] [INFO] Processing recipes...
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:trail_mix[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'woodworks:compat/bookshelves/ash_bookshelf[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:butterscotch_vanilla_ice_cream[create:filling]'! Falling back to vanilla: java.lang.IllegalStateException: Can't modify the empty stack.
-[21:50:12] [WARN] Failed to parse recipe 'oreganized:quark/glance_pillar_stonecutter[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'firesticks:fire_starter[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:butterscotch[create:mixing]'! Falling back to vanilla: {"amount":500,"fluid":"kubejs:butterscotch"} is not a valid fluid!
-[21:50:12] [WARN] Failed to parse recipe 'woodworks:compat/bookshelves/gourdrot_bookshelf[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:butterscotch_alt[create:mixing]'! Falling back to vanilla: {"amount":250,"fluid":"kubejs:butterscotch"} is not a valid fluid!
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:chevon_and_potatoes[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:clam_chowder[farmersdelight:cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'oreganized:quark/boltarang[minecraft:smithing]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'culturaldelights:cutting/avocado_log[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:bacon_and_fried_corn[farmersdelight:cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'oreganized:quark/glance_pillar[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:12] [WARN] Failed to parse recipe 'sob:upgrade_aquatic/mixing/mulberry_jam[create:mixing]'! Falling back to vanilla: {"fluid":"sob:mulberry_jam","amount":250} is not a valid fluid!
-[21:50:12] [WARN] Failed to parse recipe 'sob:upgrade_aquatic/mixing/mulberry_jam_from_block[create:mixing]'! Falling back to vanilla: {"fluid":"sob:mulberry_jam","amount":1000} is not a valid fluid!
-[21:50:12] [WARN] Failed to parse recipe 'culturaldelights:cutting/avocado_wood[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
-[21:50:12] [WARN] Failed to parse recipe 'create:filling/empty_maps[create:filling]'! Falling back to vanilla: java.lang.IllegalStateException: Can't modify the empty stack.
-[21:50:12] [WARN] Failed to parse recipe 'kubejs:prickly_pear_tart_manual_only[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[21:50:13] [WARN] Failed to parse recipe 'minecraft:ceramic_to_iron_shears[minecraft:smithing]'! Falling back to vanilla: Ingredient 'base' can't be empty!
-[21:50:13] [INFO] Found 12930 recipes in 559.7 ms
-[21:50:13] [INFO] Posted recipe events in 834.1 ms
-[21:50:13] [WARN] Error parsing recipe abnormals_delight:environmental/pine_cabinet[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["   ","   ","   "],"key":{},"result":{"item":"abnormals_delight:pine_cabinet"},"conditions":[{"type":"forge:mod_loaded","modid":"environmental"}]}: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-[21:50:13] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_sign[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_sign"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:laurel_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_sign'
-[21:50:13] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_trapdoor[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_trapdoor"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:laurel_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_trapdoor'
-[21:50:13] [WARN] Error parsing recipe create:milling/allium_bush[create:milling]: {"type":"create:milling","ingredients":[{"item":"overweight_farming:allium_bush"}],"processingTime":50,"results":[{"count":3,"item":"minecraft:magenta_dye"},{"chance":0.1,"count":3,"item":"minecraft:purple_dye"},{"chance":0.1,"count":2,"item":"minecraft:pink_dye"},{"chance":0.05,"count":2,"item":"minecraft:green_dye"}]}: com.google.gson.JsonSyntaxException: Unknown item 'overweight_farming:allium_bush'
-[21:50:13] [WARN] Error parsing recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:black_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:black_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
-[21:50:13] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_wood[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_wood"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_strip"},"result":[{"item":"atmospheric:stripped_laurel_wood"},{"item":"farmersdelight:tree_bark"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_wood'
-[21:50:13] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_door[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_door"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:laurel_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_door'
-[21:50:13] [WARN] Error parsing recipe farmersdelight:packed_mud_from_straw_and_cave_soil[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:straw"},{"item":"abundant_atmosphere:cave_soil"},{"item":"abundant_atmosphere:cave_soil"}],"result":{"count":2,"item":"minecraft:packed_mud"}}: com.google.gson.JsonSyntaxException: Unknown item 'abundant_atmosphere:cave_soil'
-[21:50:13] [WARN] Error parsing recipe kubejs:lettuce_cutting[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"babyfat:water_lettuce"}],"result":[{"count":1,"item":"kubejs:lettuce_leaf"},{"count":1,"chance":0.25,"item":"kubejs:lettuce_leaf"},{"count":1,"chance":0.75,"item":"minecraft:hanging_roots"}],"tool":{"tag":"forge:tools/knives"}}: com.google.gson.JsonSyntaxException: Unknown item 'babyfat:water_lettuce'
-[21:50:13] [WARN] Error parsing recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:white_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:white_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
-[21:50:13] [WARN] Error parsing recipe farmersdelight:cutting/clam[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"crittersandcompanions:clam"}],"result":[{"item":"crittersandcompanions:pearl","count":1,"chance":0.02}],"tool":{"tag":"forge:tools/knives"},"sound":"minecraft:entity.turtle.egg_crack"}: com.google.gson.JsonSyntaxException: Unknown item 'crittersandcompanions:clam'
-[21:50:13] [WARN] Error parsing recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:ruby_chocolate_brick_wall"}],"results":[{"fluid":"create_confectionery:ruby_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
-[21:50:13] [WARN] Error parsing recipe abnormals_delight:atmospheric/laurel_cabinet[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["   ","   ","   "],"key":{},"result":{"item":"abnormals_delight:laurel_cabinet"},"conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-[21:50:13] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_log[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_log"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:stripped_laurel_log"},{"item":"farmersdelight:tree_bark"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_log'
-[21:50:13] [WARN] Error parsing recipe create:splashing/crushed_copper_ore[create:splashing]: {"type":"create:splashing","ingredients":[{"item":"create:crushed_copper_ore"}],"results":[{"count":15,"item":"create:copper_nugget"},{"chance":0.5,"item":"minecraft:clay_ball"}]}: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_copper_ore'
-[21:50:13] [WARN] Error parsing recipe create_confectionery:chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:chocolate_bricks_wall"}],"results":[{"fluid":"create:chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
-[21:50:13] [WARN] Duplicate recipe for id culturaldelights:corn_dough! Using last one encountered.
-[21:50:13] [WARN] You might want to check your scripts for errors.
-[21:50:13] [WARN] Error parsing recipe kubejs:eggplant_burger_assembly[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"culturaldelights:eggplant_burger","count":1}],"ingredient":{"item":"minecraft:bread"},"sequence":[{"type":"create:deploying","results":[{"fluid":"kubejs:incomplete_eggplant_burger","amount":1000}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"tag":"culturaldelights:smoked_regular_eggplants"}]},{"type":"create:deploying","results":[{"fluid":"kubejs:incomplete_eggplant_burger","amount":1000}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"tag":"forge:salad_ingredients"}]},{"type":"create:deploying","results":[{"fluid":"kubejs:incomplete_eggplant_burger","amount":1000}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"item":"farmersdelight:tomato"}]}],"transitionalItem":{"item":"minecraft:air","count":0},"loops":1}: java.lang.IllegalStateException: Can't modify the empty stack.
-[21:50:13] [INFO] Added 1418 recipes, removed 2660 recipes, modified 90 recipes, with 17 failed recipes in 133.4 ms
-[21:50:59] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:51:03] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:51:07] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:51:11] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:03] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:07] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:18] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:22] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:26] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:30] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:34] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:38] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:42] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:46] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:50] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:54] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:52:58] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:53:02] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:53:18] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:53:22] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:53:26] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:54:09] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:54:47] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:55:07] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:55:11] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
-[21:55:15] [ERROR] ! campfire_heal.js#6: Error occurred while handling event 'PlayerEvents.tick': Cannot convert dev.latvian.mods.rhino.Undefined@0 to boolean
+[22:12:24] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
+[22:12:24] [INIT] Loaded plugins:
+[22:12:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:12:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:12:24] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[22:12:24] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[22:12:24] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:12:24] [INIT] - com.almostreliable.morejs.Plugin
+[22:12:24] [INIT] - com.common.keybindjs.kubejs.KeyBindJSPlugin
+[22:12:24] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[22:12:24] [INFO] Loaded script server_scripts:copper_brush_functionality.js in 0.009 s
+[22:12:24] [INFO] Loaded script server_scripts:conversion_tags.js in 0.023 s
+[22:12:24] [INFO] Loaded script server_scripts:copper_an_such_recipes.js in 0.002 s
+[22:12:24] [INFO] Loaded script server_scripts:copper_block_interactions.js in 0.002 s
+[22:12:24] [INFO] Loaded script server_scripts:eat_sounds.js in 0.001 s
+[22:12:24] [INFO] Loaded script server_scripts:entity_events.js in 0.008 s
+[22:12:24] [INFO] Loaded script server_scripts:foodeaten_events.js in 0.005 s
+[22:12:24] [INFO] Loaded script server_scripts:forging_enchanting.js in 0.011 s
+[22:12:24] [INFO] interaction_events.js#526: Loaded Java class 'net.minecraft.core.Registry'
+[22:12:24] [INFO] interaction_events.js#527: Loaded Java class 'net.minecraft.tags.TagKey'
+[22:12:24] [INFO] Loaded script server_scripts:interaction_events.js in 0.02 s
+[22:12:24] [INFO] Loaded script server_scripts:potion_recipes.js in 0.004 s
+[22:12:24] [INFO] Loaded script server_scripts:quark_pipes.js in 0.001 s
+[22:12:24] [INFO] Loaded script server_scripts:recipes.js in 0.079 s
+[22:12:24] [INFO] Loaded script server_scripts:recycling.js in 0.01 s
+[22:12:24] [INFO] Loaded script server_scripts:redstone_activator_recipes.js in 0.001 s
+[22:12:24] [INFO] Loaded script server_scripts:remove_mob_armour.js in 0.001 s
+[22:12:24] [INFO] Loaded script server_scripts:remove_recipes.js in 0.016 s
+[22:12:24] [INFO] Loaded script server_scripts:repair_materials.js in 0.0 s
+[22:12:24] [INFO] Loaded script server_scripts:sawmill_compat.js in 0.004 s
+[22:12:24] [INFO] Loaded script server_scripts:stonecutter_compat.js in 0.002 s
+[22:12:24] [INFO] storage_drawers.js#2: Loaded Java class 'com.jaquadro.minecraft.storagedrawers.api.storage.attribute.LockAttribute'
+[22:12:24] [INFO] Loaded script server_scripts:storage_drawers.js in 0.001 s
+[22:12:24] [INFO] Loaded script server_scripts:tags.js in 0.02 s
+[22:12:24] [INFO] Loaded 21/21 KubeJS server scripts in 0.228 s
+[22:12:24] [INFO] Scripts loaded
+[22:12:24] [INFO] Initializing recipe event...
+[22:12:24] [INFO] [minecraft:worldgen/structure] Found 49 tags, added 18 objects, removed 4 objects
+[22:12:24] [INFO] [minecraft:worldgen/biome] Found 414 tags, added 105 objects, removed 35 objects
+[22:12:24] [INFO] [minecraft:fluid] Found 16 tags, added 0 objects, removed 10 objects
+[22:12:24] [INFO] [minecraft:painting_variant] Found 1 tags, added 14 objects, removed 5 objects
+[22:12:24] [INFO] [minecraft:mob_effect] Found 4 tags, added 28 objects, removed 0 objects
+[22:12:24] [INFO] [minecraft:entity_type] Found 106 tags, added 1 objects, removed 0 objects
+[22:12:24] [INFO] [minecraft:block] Found 682 tags, added 1618 objects, removed 311 objects
+[22:12:25] [INFO] [minecraft:item] Found 1306 tags, added 2553 objects, removed 156 objects
+[22:12:25] [INFO] Processing recipes...
+[22:12:25] [WARN] Failed to parse recipe 'kubejs:butterscotch_vanilla_ice_cream[create:filling]'! Falling back to vanilla: java.lang.IllegalStateException: Can't modify the empty stack.
+[22:12:25] [WARN] Failed to parse recipe 'oreganized:quark/glance_pillar_stonecutter[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'modestmining:exposed_copper_ingot[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'modestmining:coke_from_blasting[minecraft:blasting]'! Falling back to vanilla: Ingredient 'ingredient' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'mynethersdelight:powdery_hanging_sign[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'modestmining:weathered_copper_ingot[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'oreganized:quark/boltarang[minecraft:smithing]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'oreganized:quark/glance_pillar[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'modestmining:oxidized_copper_ingot[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'create:filling/empty_maps[create:filling]'! Falling back to vanilla: java.lang.IllegalStateException: Can't modify the empty stack.
+[22:12:25] [WARN] Failed to parse recipe 'modestmining:remaining_dust[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:25] [WARN] Failed to parse recipe 'kubejs:prickly_pear_tart_manual_only[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:26] [WARN] Failed to parse recipe 'minecraft:ceramic_to_iron_shears[minecraft:smithing]'! Falling back to vanilla: Ingredient 'base' can't be empty!
+[22:12:26] [WARN] Failed to parse recipe 'modestmining:rocks[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:12:26] [INFO] Found 9884 recipes in 554.3 ms
+[22:12:27] [INFO] Posted recipe events in 998.0 ms
+[22:12:27] [WARN] Error parsing recipe modestmining:weathered_copper_block[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["   ","   ","   "],"key":{},"result":{"item":"minecraft:weathered_copper"}}: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[22:12:27] [WARN] Error parsing recipe modestmining:oxidized_copper_block[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["   ","   ","   "],"key":{},"result":{"item":"minecraft:oxidized_copper"}}: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[22:12:27] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_log[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_log"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:stripped_laurel_log"},{"item":"farmersdelight:tree_bark"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_log'
+[22:12:27] [WARN] Error parsing recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:black_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:black_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[22:12:27] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_door[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_door"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:laurel_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_door'
+[22:12:27] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_sign[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_sign"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:laurel_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_sign'
+[22:12:27] [WARN] Error parsing recipe create:splashing/crushed_copper_ore[create:splashing]: {"type":"create:splashing","ingredients":[{"item":"create:crushed_copper_ore"}],"results":[{"count":15,"item":"create:copper_nugget"},{"chance":0.5,"item":"minecraft:clay_ball"}]}: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_copper_ore'
+[22:12:27] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_trapdoor[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_trapdoor"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_dig"},"result":[{"item":"atmospheric:laurel_planks"}],"conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_trapdoor'
+[22:12:27] [WARN] Error parsing recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:white_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:white_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[22:12:27] [WARN] Error parsing recipe modestmining:cobblestone[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"modestmining:rocks"},{"item":"modestmining:rocks"},{"item":"modestmining:rocks"},{"item":"modestmining:rocks"}],"result":{"item":"minecraft:cobblestone"}}: com.google.gson.JsonSyntaxException: Unknown item 'modestmining:rocks'
+[22:12:27] [WARN] Error parsing recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:ruby_chocolate_brick_wall"}],"results":[{"fluid":"create_confectionery:ruby_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[22:12:27] [WARN] Error parsing recipe farmersdelight:packed_mud_from_straw_and_cave_soil[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:straw"},{"item":"abundant_atmosphere:cave_soil"},{"item":"abundant_atmosphere:cave_soil"}],"result":{"count":2,"item":"minecraft:packed_mud"}}: com.google.gson.JsonSyntaxException: Unknown item 'abundant_atmosphere:cave_soil'
+[22:12:27] [WARN] Error parsing recipe modestmining:exposed_copper_block[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["   ","   ","   "],"key":{},"result":{"item":"minecraft:exposed_copper"}}: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[22:12:27] [WARN] Error parsing recipe kubejs:lettuce_cutting[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"babyfat:water_lettuce"}],"result":[{"count":1,"item":"kubejs:lettuce_leaf"},{"count":1,"chance":0.25,"item":"kubejs:lettuce_leaf"},{"count":1,"chance":0.75,"item":"minecraft:hanging_roots"}],"tool":{"tag":"forge:tools/knives"}}: com.google.gson.JsonSyntaxException: Unknown item 'babyfat:water_lettuce'
+[22:12:27] [WARN] Error parsing recipe create_confectionery:chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:chocolate_bricks_wall"}],"results":[{"fluid":"create:chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[22:12:27] [WARN] Error parsing recipe abnormals_delight:atmospheric/cutting/laurel_wood[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"atmospheric:laurel_wood"}],"tool":{"type":"farmersdelight:tool_action","action":"axe_strip"},"result":[{"item":"atmospheric:stripped_laurel_wood"},{"item":"farmersdelight:tree_bark"}],"sound":"minecraft:item.axe.strip","conditions":[{"type":"forge:mod_loaded","modid":"atmospheric"}]}: com.google.gson.JsonSyntaxException: Unknown item 'atmospheric:laurel_wood'
+[22:12:27] [WARN] Error parsing recipe create:kjs_aewbuh3cp6no47t7iq1nsgzw[create:compacting]: {"type":"create:compacting","results":[{"item":"neapolitan:strawberry_scones","count":3}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"item":"farmersdelight:wheat_dough"},{"item":"cookscollection:lemon"},{"item":"minecraft:sugar"}],"heatRequirement":"heated"}: java.lang.IllegalStateException: Can't modify the empty stack.
+[22:12:27] [INFO] Added 5333 recipes, removed 2988 recipes, modified 152 recipes, with 17 failed recipes in 112.5 ms

@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:farming/harvest_honey",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "brewinandchewin:keg"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.keg.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.keg.description"
+    },
+    "icon": {
+      "item": "brewinandchewin:keg"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

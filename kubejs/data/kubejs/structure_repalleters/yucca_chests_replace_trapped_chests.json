@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:trapped_chest",
+  "replaces_with": "atmospheric:yucca_chest",
+  "selector": {
+    "type": "names",
+    "config": [
+      "explorify:desert_shrine"
+    ]
+  }
+}

@@ -17,7 +17,7 @@
 [general]
 	#The maximum number of Maps (Filled & Empty combined) allowed to be inside an Atlas (-1 to disable).
 	#Range: 0 ~ 10000
-	max_map_count = 512
+	max_map_count = 10000
 	#If enabled, you can increase the Empty Map count by inserting Paper
 	accept_paper_for_empty_maps = false
 	#If true, the Atlas is required to have spare Empty Maps stored to expand the Filled Map size

@@ -4,20 +4,119 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
-	    {
-          "type": "minecraft:item",
-          "name": "kubejs:raw_ammonite",
-          "weight": 25
+        {
+          "type": "minecraft:loot_table",
+          "name": "kubejs:pathfinders_quills"
         },
         {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+	    {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+		{
           "type": "minecraft:item",
-          "name": "minecraft:heart_of_the_sea",
-          "weight": 5
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:on_ocean_explorer_maps",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.ocean_monument"
+              }
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:globe"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
+        "max": 1.0,
+        "min": 0.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:message_in_a_bottle"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_egg",
+          "weight": 3
+        },
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:scute"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+	    {
+          "type": "minecraft:item",
+          "name": "kubejs:raw_ammonite"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
         "min": 1.0
       }
     },
@@ -39,30 +138,9 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 2.0,
-        "min": 1.0
+        "max": 3.0,
+        "min": 0.0
       }
-    },
-	{
-      "bonus_rolls": 0.0,
-      "entries": [
-	    {
-          "type": "minecraft:empty",
-          "weight": 2
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{zoomLevel: 2, targetStructure:\"minecraft:monument\", decoration: \"red_x\", maxSearchRadius: 100, display: {Name: '{\"translate\": \"filled_map.ocean_monument\"}'}}"
-            }
-          ],
-          "weight": 1,
-          "name": "supplementaries:cartographers_quill"
-        }
-      ],
-      "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
@@ -74,14 +152,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 32.0,
-                "min": 8.0
+                "max": 12.0,
+                "min": 6.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spelunkery:raw_iron_nugget",
-          "weight": 20
+          "name": "minecraft:raw_copper",
+          "weight": 16
         },
         {
           "type": "minecraft:item",
@@ -90,16 +168,32 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:raw_iron",
-          "weight": 10
+          "weight": 12
         },
-		{
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:raw_gold",
+          "weight": 8
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {
@@ -107,12 +201,28 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 4.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spelunkery:raw_gold_nugget",
+          "name": "minecraft:tnt",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "supplementaries:bomb",
           "weight": 10
         },
         {
@@ -122,14 +232,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:raw_gold",
-          "weight": 5
+          "name": "supplementaries:bomb_blue",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -138,36 +248,20 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:tnt",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "supplementaries:bomb",
-          "weight": 5
+          "name": "aquaculture:tin_can",
+          "weight": 10
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 8.0,
-        "min": 5.0
+        "min": 6.0
       }
     },
     {
@@ -208,52 +302,21 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:prismarine_shard",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:scute",
-          "weight": 1
+          "name": "minecraft:scute"
         },
         {
           "type": "minecraft:item",
-          "name": "additionaladditions:mysterious_bundle",
-          "weight": 1
+          "name": "kubejs:loot_bag",
+          "weight": 2
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 2.0,
-        "min": 0.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:leather_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate"
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:leather_leggings"
-        },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:leather_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_sword"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 2.0,
+        "max": 3.0,
         "min": 0.0
       }
     },
@@ -273,7 +336,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:cooked_cod"
+          "name": "minecraft:cod"
         },
         {
           "type": "minecraft:item",
@@ -288,7 +351,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:cooked_salmon"
+          "name": "minecraft:salmon"
         },
         {
           "type": "minecraft:item",
@@ -303,7 +366,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "upgrade_aquatic:cooked_pike"
+          "name": "upgrade_aquatic:pike"
         },
         {
           "type": "minecraft:item",
@@ -318,7 +381,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "upgrade_aquatic:cooked_perch"
+          "name": "upgrade_aquatic:perch"
         },
         {
           "type": "minecraft:item",
@@ -333,33 +396,158 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "naturalist:cooked_bass"
+          "name": "naturalist:bass"
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aquaculture:fish_bones"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aquaculture:atlantic_herring"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aquaculture:brown_trout"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aquaculture:tuna"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "upgrade_aquatic:lionfish"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aquaculture:goldfish"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "kubejs:crystalfish"
         }
       ],
-      "rolls": 2.0
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 2.0
+      }
     },
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion"
-        }
-      ],
-      "functions": [
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water_breathing"
+            }
+          ]
+        },
         {
-          "function": "minecraft:set_potion",
-          "id": "minecraft:water_breathing"
+          "type": "minecraft:item",
+          "name": "brewinandchewin:salty_folly",
+          "weight": 5
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 2.0,
-        "min": 0.0
+        "max": 3.0,
+        "min": 1.0
       }
     }
   ]

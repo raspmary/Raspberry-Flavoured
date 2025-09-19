@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:music_disc_items": {
+      "base_item": "minecraft:music_disc_otherside",
+      "item_tag": "raspberry_flavoured:music_disc_items"
+    }
+  }
+}

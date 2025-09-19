@@ -1,0 +1,60 @@
+{
+  "parent": "raspberry_flavoured:main/pickaxe_upgrade",
+  "criteria": {
+    "Obtain Rough Cinnabar, Rough Diamond or Rough Quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:rough_cinnabar",
+              "spelunkery:rough_diamond",
+              "minecraft:quartz"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Cinnabar, Diamond or Quartz": {
+      "conditions": {
+        "items": [
+		  {
+            "items": [
+              "spelunkery:cinnabar",
+              "minecraft:diamond",
+              "create:polished_rose_quartz"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.polishing.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.polishing.description"
+    },
+    "icon": {
+      "item": "spelunkery:cinnabar"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "Obtain Rough Cinnabar, Rough Diamond or Rough Quartz"
+    ],
+	[
+	  "Obtain Cinnabar, Diamond or Quartz"
+	]
+  ]
+}

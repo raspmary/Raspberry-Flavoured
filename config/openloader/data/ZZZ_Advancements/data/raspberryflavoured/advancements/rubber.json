@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:latex",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:rubber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Mix latex, gunpowder and zinc in a heated mixer to obtain rubber"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:rubber"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "It's a Ball!"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

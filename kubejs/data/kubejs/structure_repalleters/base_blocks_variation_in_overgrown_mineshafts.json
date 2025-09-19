@@ -1,0 +1,33 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "raspberry_flavoured:overgrown_mineshaft_base_blocks",
+  "replaces_with": [
+    {
+      "data": "paletteblocks:mossy_cobblestone_bricks",
+      "weight": 3
+    },
+    {
+      "data": "minecraft:mossy_stone_bricks",
+      "weight": 2
+    },
+    {
+      "data": "upgrade_aquatic:kelpy_stone_bricks",
+      "weight": 2
+    },
+    {
+      "data": "minecraft:infested_mossy_stone_bricks",
+      "weight": 1
+    },
+    {
+      "data": "minecraft:moss_block",
+      "weight": 2
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_overgrown"
+    ]
+  }
+}

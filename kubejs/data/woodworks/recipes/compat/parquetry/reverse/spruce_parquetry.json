@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "item": "architects_palette:spruce_boards"
-  },
-  "result": "minecraft:spruce_planks"
-}

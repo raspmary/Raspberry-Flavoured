@@ -1,0 +1,38 @@
+{
+  "compass_enable": true,
+  "compass_vertical_position": 115,
+  "compass_items": [
+    "minecraft:compass",
+    "minecraft:recovery_compass",
+    "spelunkery:magnetic_compass"
+  ],
+  "compass_depth_items": [
+    "spelunkery:depth_gauge",
+    "caverns_and_chasms:depth_gauge",
+    "additionaladditions:depth_meter",
+    "supplementaries:altimeter",
+    "depthmeter:depthmeter"
+  ],
+  "compass_hide_when_similar_mods_present": true,
+  "compass_x_colour": "Red",
+  "compass_y_colour": "Green",
+  "compass_z_colour": "Blue",
+  "clock_enable": true,
+  "clock_vertical_position": 100,
+  "clock_items": [
+    "minecraft:clock"
+  ],
+  "clock_weather_items": [
+    "caverns_and_chasms:barometer"
+  ],
+  "clock_24_hour": true,
+  "require_item_in_hand": false,
+  "search_containers": true,
+  "render_background": true,
+  "align_left": false,
+  "moved_by_effects": true,
+  "compat_playerlocatorplus": true,
+  "compat_xaeros": true,
+  "compat_map_atlases": false,
+  "compat_accessorify": true
+}

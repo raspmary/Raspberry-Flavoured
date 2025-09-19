@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:medium_clovers_biomes",
+  "features": "kubejs:clovers_medium",
+  "step": "vegetal_decoration"
+}

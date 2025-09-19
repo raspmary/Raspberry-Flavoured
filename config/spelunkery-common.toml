@@ -11,7 +11,7 @@
 	parachute_delay = 10
 
 [slimes]
-	increased_slime_spawn_rate = true
+	increased_slime_spawn_rate = false
 	slime_cauldrons = true
 	slimes_friendly_if_regen = true
 	slimes_always_friendly = false
@@ -28,11 +28,11 @@
 	hammer_chisel_charge_time = 20
 	sculk_drops_with_shears = true
 	#Range: 1 ~ 128
-	echo_fork_range = 16
+	echo_fork_range = 32
 	#Range: 1 ~ 72000
-	echo_cooldown = 600
+	echo_cooldown = 400
 	#Range: 1 ~ 72000
-	echo_glow_durration = 1200
+	echo_glow_durration = 600
 	#Range: 1 ~ 32
 	magnet_range = 8
 	#Range: 1 ~ 512
@@ -41,7 +41,7 @@
 [nether_portals]
 	flint_and_steel_portal_lighting = false
 	crying_obsidian_dimensional_tears = true
-	respawn_anchor_dimensional_tears = true
+	respawn_anchor_dimensional_tears = false
 	portal_destruction_crying_obsidian = false
 	piglins_give_crying_obsidian = true
 	portal_creation_sound = true
@@ -51,7 +51,7 @@
 [worldgen]
 	stone_stripe_features = true
 	enable_sporophytes = true
-	better_sculk_patches = true
-	dark_forest_portabellas = false
+	better_sculk_patches = false
+	dark_forest_portabellas = true
 	enable_mores = true
 

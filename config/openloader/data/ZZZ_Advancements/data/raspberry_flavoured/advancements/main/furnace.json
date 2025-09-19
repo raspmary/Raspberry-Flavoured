@@ -1,0 +1,49 @@
+{
+  "parent": "raspberry_flavoured:main/pickaxe",
+  "criteria": {
+    "Place down Furnace": {
+      "conditions": {
+        "block": "minecraft:furnace"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Blackstone Furnace": {
+      "conditions": {
+        "block": "quark:blackstone_furnace"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Deepslate Furnace": {
+      "conditions": {
+        "block": "quark:deepslate_furnace"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.furnace.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.furnace.description"
+    },
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Place down Furnace",
+	  "Place down Blackstone Furnace",
+	  "Place down Deepslate Furnace"
+    ]
+  ]
+}

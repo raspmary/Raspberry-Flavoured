@@ -7,7 +7,7 @@
 	#Range: 0.0 ~ 1.0
 	fogend = 0.9
 	#Defines if fog will darken and get more dense when underground.
-	usecavefog = true
+	usecavefog = false
 	#Defines the density of fog in caves. If cave fog is active, this will be multiplied with the current fog end.
 	#Range: 0.0 ~ 1.0
 	cavefogdensity = 0.2

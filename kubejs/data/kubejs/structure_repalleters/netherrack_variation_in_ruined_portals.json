@@ -1,0 +1,31 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "forge:netherrack",
+  "replaces_with": [
+    {
+      "data": "minecraft:netherrack",
+      "weight": 3
+    },
+    {
+      "data": "quark:netherrack_bricks",
+      "weight": 2
+    },
+    {
+      "data": "paletteblocks:polished_netherrack",
+      "weight": 1
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:ruined_portal",
+      "minecraft:ruined_portal_desert",
+      "minecraft:ruined_portal_jungle",
+      "minecraft:ruined_portal_mountain",
+      "minecraft:ruined_portal_nether",
+      "minecraft:ruined_portal_ocean",
+      "minecraft:ruined_portal_swamp"
+    ]
+  }
+}

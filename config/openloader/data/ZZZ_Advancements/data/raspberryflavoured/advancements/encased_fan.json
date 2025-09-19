@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:steel",
+  "parent": "raspberryflavoured:crushing_wheels",
   "criteria": {
     "0": {
       "conditions": {

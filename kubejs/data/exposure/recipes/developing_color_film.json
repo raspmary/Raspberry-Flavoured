@@ -12,7 +12,7 @@
     {
       "type": "forge:partial_nbt",
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:thick\"}"
+      "nbt": "{Potion:\"minecraft:awkward\"}"
     }
   ],
   "result": {

@@ -1,0 +1,17 @@
+{
+   "targets": [
+   "minecraft:wet_sponge",
+   "upgrade_aquatic:kelp_block",
+   "upgrade_aquatic:purple_pickerelweed_block",
+   "upgrade_aquatic:blue_pickerelweed_block"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.wetsponge.break",
+	  "place_sound": "kubejs:sound.wetsponge.place",
+      "hit_sound": "kubejs:sound.wetsponge.hit",
+      "fall_sound": "kubejs:sound.wetsponge.fall",
+      "step_sound": "kubejs:sound.wetsponge.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

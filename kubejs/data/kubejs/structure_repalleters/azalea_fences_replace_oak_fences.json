@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:oak_fence",
+  "replaces_with": "ecologics:azalea_fence",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_lush"
+    ]
+  }
+}

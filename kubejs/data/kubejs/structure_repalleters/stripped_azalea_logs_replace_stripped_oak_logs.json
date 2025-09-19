@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stripped_oak_log",
+  "replaces_with": "ecologics:stripped_azalea_log",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_lush"
+    ]
+  }
+}

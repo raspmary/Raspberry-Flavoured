@@ -1,0 +1,6 @@
+{
+  "target_block": {
+    "block": "minecraft:rail",
+    "predicate_type": "minecraft:block_match"
+  }
+}

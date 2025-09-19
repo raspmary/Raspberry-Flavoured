@@ -1,0 +1,13 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:oak_trapdoor",
+  "replaces_with": "atmospheric:yucca_trapdoor",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_desert",
+      "bettermineshafts:mineshaft_red_desert"
+    ]
+  }
+}

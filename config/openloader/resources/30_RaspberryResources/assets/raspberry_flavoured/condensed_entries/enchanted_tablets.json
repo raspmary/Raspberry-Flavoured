@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "brewing": {
+    "raspberry_flavoured:enchanted_tablets": {
+      "base_item": "kubejs:enduring_tablet",
+      "item_tag": "raspberry_flavoured:all_enchanted_tablets"
+    }
+  }
+}

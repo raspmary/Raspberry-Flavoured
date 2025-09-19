@@ -71,18 +71,34 @@
             }
         ]
     },
-	"music.music_disc_halland_dalarna": {
+	"music.music_disc_fruitiger": {
         "sounds": [
             {
-                "name": "kubejs:discs/music_disc_halland_dalarna",
+                "name": "kubejs:discs/music_disc_fruitiger",
                 "stream": true
             }
         ]
     },
-	"music.music_disc_whatll_it_be": {
+	"music.music_disc_redstone_baby": {
         "sounds": [
             {
-                "name": "kubejs:discs/music_disc_whatll_it_be",
+                "name": "kubejs:discs/music_disc_redstone_baby",
+                "stream": true
+            }
+        ]
+    },
+	"music.music_disc_raveyard": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_raveyard",
+                "stream": true
+            }
+        ]
+    },
+	"music.music_disc_exostep": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_exostep",
                 "stream": true
             }
         ]
@@ -112,6 +128,11 @@
             "kubejs:advancement_sounds/nether_advancement"
         ]
     },
+	"advancement.nether_alt": {
+        "sounds": [
+            "kubejs:advancement_sounds/nether_advancement_alt"
+        ]
+    },
 	"advancement.mystery": {
         "sounds": [
             "kubejs:advancement_sounds/mysterious_advancement"
@@ -131,6 +152,41 @@
         "sounds": [
             "kubejs:advancement_sounds/happyhour_advancement"
         ]
+    },
+	"spawner.spawn": {
+        "sounds": [
+            "kubejs:spawning/spawn1",
+			"kubejs:spawning/spawn2",
+			"kubejs:spawning/spawn3",
+			"kubejs:spawning/spawn4"
+        ],
+        "subtitle": "subtitles.kubejs.spawner.spawn"
+    },
+	"copper_brush.brush": {
+        "sounds": [
+            "kubejs:brushing/brush1",
+			"kubejs:brushing/brush2",
+			"kubejs:brushing/brush3",
+			"kubejs:brushing/brush4"
+        ],
+        "subtitle": "subtitles.kubejs.copper_brush.brush"
+    },
+	"copper_patina.apply": {
+        "sounds": [
+            "kubejs:brushing/brush1",
+			"kubejs:brushing/brush2",
+			"kubejs:brushing/brush3",
+			"kubejs:brushing/brush4"
+        ],
+        "subtitle": "subtitles.kubejs.copper_patina.apply"
+    },
+	"sound.swing": {
+        "sounds": [
+            "kubejs:swinging/swing1",
+			"kubejs:swinging/swing2",
+			"kubejs:swinging/swing3"
+        ],
+        "subtitle": "subtitles.kubejs.sound.swing"
     },
 	"crowbar.hit": {
         "sounds": [
@@ -512,51 +568,129 @@
     },
 	"sound.blackstone.break": {
         "sounds": [
-            "kubejs:blackstone/break1",
-			"kubejs:blackstone/break2",
-			"kubejs:blackstone/break3",
-			"kubejs:blackstone/break4"
+		  {
+		    "name": "kubejs:blackstone/break1",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/break2",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/break3",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/break4",
+			"pitch": 1.5
+		  }
         ],
         "subtitle": "subtitles.block.generic.break"
     },
 	"sound.blackstone.place": {
         "sounds": [
-            "kubejs:blackstone/break1",
-			"kubejs:blackstone/break2",
-			"kubejs:blackstone/break3",
-			"kubejs:blackstone/break4"
+		  {
+		    "name": "kubejs:blackstone/break1",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/break2",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/break3",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/break4",
+			"pitch": 1.5
+		  }
         ],
         "subtitle": "subtitles.block.generic.place"
     },
 	"sound.blackstone.fall": {
         "sounds": [
-            "kubejs:blackstone/hit1",
-			"kubejs:blackstone/hit2",
-			"kubejs:blackstone/hit3",
-			"kubejs:blackstone/hit4",
-			"kubejs:blackstone/hit5",
-			"kubejs:blackstone/hit6"
+		  {
+		    "name": "kubejs:blackstone/hit1",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit2",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit3",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit4",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit5",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit6",
+			"pitch": 1.5
+		  }
         ]
     },
 	"sound.blackstone.step": {
         "sounds": [
-            "kubejs:blackstone/hit1",
-			"kubejs:blackstone/hit2",
-			"kubejs:blackstone/hit3",
-			"kubejs:blackstone/hit4",
-			"kubejs:blackstone/hit5",
-			"kubejs:blackstone/hit6"
+		  {
+		    "name": "kubejs:blackstone/hit1",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit2",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit3",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit4",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit5",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit6",
+			"pitch": 1.5
+		  }
         ],
         "subtitle": "subtitles.block.generic.footsteps"
     },
 	"sound.blackstone.hit": {
         "sounds": [
-            "kubejs:blackstone/hit1",
-			"kubejs:blackstone/hit2",
-			"kubejs:blackstone/hit3",
-			"kubejs:blackstone/hit4",
-			"kubejs:blackstone/hit5",
-			"kubejs:blackstone/hit6"
+		  {
+		    "name": "kubejs:blackstone/hit1",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit2",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit3",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit4",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit5",
+			"pitch": 1.5
+		  },
+		  {
+		    "name": "kubejs:blackstone/hit6",
+			"pitch": 1.5
+		  }
         ],
         "subtitle": "subtitles.block.generic.hit"
     },
@@ -967,7 +1101,9 @@
             "kubejs:gravel/break1",
 			"kubejs:gravel/break2",
 			"kubejs:gravel/break3",
-			"kubejs:gravel/break4"
+			"kubejs:gravel/break4",
+			"kubejs:gravel/break5",
+			"kubejs:gravel/break6"
         ],
         "subtitle": "subtitles.block.generic.break"
     },
@@ -976,7 +1112,9 @@
             "kubejs:gravel/break1",
 			"kubejs:gravel/break2",
 			"kubejs:gravel/break3",
-			"kubejs:gravel/break4"
+			"kubejs:gravel/break4",
+			"kubejs:gravel/break5",
+			"kubejs:gravel/break6"
         ],
         "subtitle": "subtitles.block.generic.place"
     },
@@ -985,7 +1123,13 @@
             "kubejs:gravel/hit1",
 			"kubejs:gravel/hit2",
 			"kubejs:gravel/hit3",
-			"kubejs:gravel/hit4"
+			"kubejs:gravel/hit4",
+			"kubejs:gravel/hit5",
+			"kubejs:gravel/hit6",
+			"kubejs:gravel/hit7",
+			"kubejs:gravel/hit8",
+			"kubejs:gravel/hit9",
+			"kubejs:gravel/hit10"
         ]
     },
 	"sound.gravel.step": {
@@ -993,7 +1137,13 @@
             "kubejs:gravel/hit1",
 			"kubejs:gravel/hit2",
 			"kubejs:gravel/hit3",
-			"kubejs:gravel/hit4"
+			"kubejs:gravel/hit4",
+			"kubejs:gravel/hit5",
+			"kubejs:gravel/hit6",
+			"kubejs:gravel/hit7",
+			"kubejs:gravel/hit8",
+			"kubejs:gravel/hit9",
+			"kubejs:gravel/hit10"
         ],
     "subtitle": "subtitles.block.generic.footsteps"
     },
@@ -1002,7 +1152,13 @@
             "kubejs:gravel/hit1",
 			"kubejs:gravel/hit2",
 			"kubejs:gravel/hit3",
-			"kubejs:gravel/hit4"
+			"kubejs:gravel/hit4",
+			"kubejs:gravel/hit5",
+			"kubejs:gravel/hit6",
+			"kubejs:gravel/hit7",
+			"kubejs:gravel/hit8",
+			"kubejs:gravel/hit9",
+			"kubejs:gravel/hit10"
         ],
         "subtitle": "subtitles.block.generic.hit"
     },
@@ -1149,6 +1305,764 @@
 			"kubejs:wetsponge/hit2",
 			"kubejs:wetsponge/hit3",
 			"kubejs:wetsponge/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.rubber.break": {
+        "sounds": [
+            "kubejs:rubber/break1",
+			"kubejs:rubber/break2",
+			"kubejs:rubber/break3",
+			"kubejs:rubber/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.rubber.place": {
+        "sounds": [
+            "kubejs:rubber/break1",
+			"kubejs:rubber/break2",
+			"kubejs:rubber/break3",
+			"kubejs:rubber/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.rubber.fall": {
+        "sounds": [
+            "kubejs:rubber/step1",
+			"kubejs:rubber/step2",
+			"kubejs:rubber/step3",
+			"kubejs:rubber/step4"
+        ]
+    },
+	"sound.rubber.step": {
+        "sounds": [
+            "kubejs:rubber/step1",
+			"kubejs:rubber/step2",
+			"kubejs:rubber/step3",
+			"kubejs:rubber/step4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.rubber.hit": {
+        "sounds": [
+            "kubejs:rubber/hit1",
+			"kubejs:rubber/hit2",
+			"kubejs:rubber/hit3",
+			"kubejs:rubber/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.sandstone.break": {
+        "sounds": [
+            "kubejs:sandstone/break1",
+			"kubejs:sandstone/break2",
+			"kubejs:sandstone/break3",
+			"kubejs:sandstone/break4",
+			"kubejs:sandstone/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.sandstone.place": {
+        "sounds": [
+            "kubejs:sandstone/break1",
+			"kubejs:sandstone/break2",
+			"kubejs:sandstone/break3",
+			"kubejs:sandstone/break4",
+			"kubejs:sandstone/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.sandstone.fall": {
+        "sounds": [
+            "kubejs:sandstone/hit1",
+			"kubejs:sandstone/hit2",
+			"kubejs:sandstone/hit3",
+			"kubejs:sandstone/hit4",
+			"kubejs:sandstone/hit5",
+			"kubejs:sandstone/hit6"
+        ]
+    },
+	"sound.sandstone.step": {
+        "sounds": [
+            "kubejs:sandstone/hit1",
+			"kubejs:sandstone/hit2",
+			"kubejs:sandstone/hit3",
+			"kubejs:sandstone/hit4",
+			"kubejs:sandstone/hit5",
+			"kubejs:sandstone/hit6"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.sandstone.hit": {
+        "sounds": [
+            "kubejs:sandstone/hit1",
+			"kubejs:sandstone/hit2",
+			"kubejs:sandstone/hit3",
+			"kubejs:sandstone/hit4",
+			"kubejs:sandstone/hit5",
+			"kubejs:sandstone/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.soul_sandstone.break": {
+        "sounds": [
+            "kubejs:soul_sandstone/break1",
+			"kubejs:soul_sandstone/break2",
+			"kubejs:soul_sandstone/break3",
+			"kubejs:soul_sandstone/break4",
+			"kubejs:soul_sandstone/break5",
+			"kubejs:soul_sandstone/break6",
+			"kubejs:soul_sandstone/break7",
+			"kubejs:soul_sandstone/break8",
+			"kubejs:soul_sandstone/break9",
+			"kubejs:soul_sandstone/break10"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.soul_sandstone.place": {
+        "sounds": [
+            "kubejs:soul_sandstone/break1",
+			"kubejs:soul_sandstone/break2",
+			"kubejs:soul_sandstone/break3",
+			"kubejs:soul_sandstone/break4",
+			"kubejs:soul_sandstone/break5",
+			"kubejs:soul_sandstone/break6",
+			"kubejs:soul_sandstone/break7",
+			"kubejs:soul_sandstone/break8",
+			"kubejs:soul_sandstone/break9",
+			"kubejs:soul_sandstone/break10"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.soul_sandstone.fall": {
+        "sounds": [
+            "kubejs:soul_sandstone/hit1",
+			"kubejs:soul_sandstone/hit2",
+			"kubejs:soul_sandstone/hit3",
+			"kubejs:soul_sandstone/hit4",
+			"kubejs:soul_sandstone/hit5",
+			"kubejs:soul_sandstone/hit6"
+        ]
+    },
+	"sound.soul_sandstone.step": {
+        "sounds": [
+            "kubejs:soul_sandstone/hit1",
+			"kubejs:soul_sandstone/hit2",
+			"kubejs:soul_sandstone/hit3",
+			"kubejs:soul_sandstone/hit4",
+			"kubejs:soul_sandstone/hit5",
+			"kubejs:soul_sandstone/hit6"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.soul_sandstone.hit": {
+        "sounds": [
+            "kubejs:soul_sandstone/hit1",
+			"kubejs:soul_sandstone/hit2",
+			"kubejs:soul_sandstone/hit3",
+			"kubejs:soul_sandstone/hit4",
+			"kubejs:soul_sandstone/hit5",
+			"kubejs:soul_sandstone/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.brick_variant.break": {
+        "sounds": [
+            "kubejs:brick_variant/break1",
+			"kubejs:brick_variant/break2",
+			"kubejs:brick_variant/break3",
+			"kubejs:brick_variant/break4",
+			"kubejs:brick_variant/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.brick_variant.place": {
+        "sounds": [
+            "kubejs:brick_variant/break1",
+			"kubejs:brick_variant/break2",
+			"kubejs:brick_variant/break3",
+			"kubejs:brick_variant/break4",
+			"kubejs:brick_variant/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.brick_variant.fall": {
+        "sounds": [
+            "kubejs:brick_variant/hit1",
+			"kubejs:brick_variant/hit2",
+			"kubejs:brick_variant/hit3",
+			"kubejs:brick_variant/hit4",
+			"kubejs:brick_variant/hit5",
+			"kubejs:brick_variant/hit6"
+        ]
+    },
+	"sound.brick_variant.step": {
+        "sounds": [
+            "kubejs:brick_variant/hit1",
+			"kubejs:brick_variant/hit2",
+			"kubejs:brick_variant/hit3",
+			"kubejs:brick_variant/hit4",
+			"kubejs:brick_variant/hit5",
+			"kubejs:brick_variant/hit6"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.brick_variant.hit": {
+        "sounds": [
+            "kubejs:brick_variant/hit1",
+			"kubejs:brick_variant/hit2",
+			"kubejs:brick_variant/hit3",
+			"kubejs:brick_variant/hit4",
+			"kubejs:brick_variant/hit5",
+			"kubejs:brick_variant/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.pot.break": {
+        "sounds": [
+            "kubejs:pot/break1",
+			"kubejs:pot/break2",
+			"kubejs:pot/break3",
+			"kubejs:pot/break4",
+			"kubejs:pot/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.pot.place": {
+        "sounds": [
+            "kubejs:pot/place1",
+			"kubejs:pot/place2",
+			"kubejs:pot/place3",
+			"kubejs:pot/place4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.pot.fall": {
+        "sounds": [
+            "kubejs:pot/hit1",
+			"kubejs:pot/hit2",
+			"kubejs:pot/hit3",
+			"kubejs:pot/hit4",
+			"kubejs:pot/hit5"
+        ]
+    },
+	"sound.pot.step": {
+        "sounds": [
+            "kubejs:pot/hit1",
+			"kubejs:pot/hit2",
+			"kubejs:pot/hit3",
+			"kubejs:pot/hit4",
+			"kubejs:pot/hit5"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.pot.hit": {
+        "sounds": [
+            "kubejs:pot/hit1",
+			"kubejs:pot/hit2",
+			"kubejs:pot/hit3",
+			"kubejs:pot/hit4",
+			"kubejs:pot/hit5"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.prismarine.break": {
+        "sounds": [
+            "kubejs:prismarine/break1",
+			"kubejs:prismarine/break2",
+			"kubejs:prismarine/break3",
+			"kubejs:prismarine/break4",
+			"kubejs:prismarine/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.prismarine.place": {
+        "sounds": [
+            "kubejs:prismarine/place1",
+			"kubejs:prismarine/place2",
+			"kubejs:prismarine/place3",
+			"kubejs:prismarine/place4",
+			"kubejs:prismarine/place5",
+			"kubejs:prismarine/place6"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.prismarine.fall": {
+        "sounds": [
+            "kubejs:prismarine/hit1",
+			"kubejs:prismarine/hit2",
+			"kubejs:prismarine/hit3",
+			"kubejs:prismarine/hit4",
+			"kubejs:prismarine/hit5",
+			"kubejs:prismarine/hit6"
+        ]
+    },
+	"sound.prismarine.step": {
+        "sounds": [
+            "kubejs:prismarine/hit1",
+			"kubejs:prismarine/hit2",
+			"kubejs:prismarine/hit3",
+			"kubejs:prismarine/hit4",
+			"kubejs:prismarine/hit5",
+			"kubejs:prismarine/hit6"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.prismarine.hit": {
+        "sounds": [
+            "kubejs:prismarine/hit1",
+			"kubejs:prismarine/hit2",
+			"kubejs:prismarine/hit3",
+			"kubejs:prismarine/hit4",
+			"kubejs:prismarine/hit5",
+			"kubejs:prismarine/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.bookshelf.break": {
+        "sounds": [
+            "kubejs:bookshelf/break1",
+			"kubejs:bookshelf/break2",
+			"kubejs:bookshelf/break3",
+			"kubejs:bookshelf/break4",
+			"kubejs:bookshelf/break5",
+			"kubejs:bookshelf/break6"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.bookshelf.place": {
+        "sounds": [
+            "kubejs:bookshelf/break1",
+			"kubejs:bookshelf/break2",
+			"kubejs:bookshelf/break3",
+			"kubejs:bookshelf/break4",
+			"kubejs:bookshelf/break5",
+			"kubejs:bookshelf/break6"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.bookshelf.fall": {
+        "sounds": [
+            "kubejs:bookshelf/hit1",
+			"kubejs:bookshelf/hit2",
+			"kubejs:bookshelf/hit3",
+			"kubejs:bookshelf/hit4",
+			"kubejs:bookshelf/hit5"
+        ]
+    },
+	"sound.bookshelf.step": {
+        "sounds": [
+            "kubejs:bookshelf/hit1",
+			"kubejs:bookshelf/hit2",
+			"kubejs:bookshelf/hit3",
+			"kubejs:bookshelf/hit4",
+			"kubejs:bookshelf/hit5"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.bookshelf.hit": {
+        "sounds": [
+            "kubejs:bookshelf/hit1",
+			"kubejs:bookshelf/hit2",
+			"kubejs:bookshelf/hit3",
+			"kubejs:bookshelf/hit4",
+			"kubejs:bookshelf/hit5"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.book.break": {
+        "sounds": [
+            "kubejs:book/break1",
+			"kubejs:book/break2",
+			"kubejs:book/break3"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.book.place": {
+        "sounds": [
+            "kubejs:book/place1",
+			"kubejs:book/place2",
+			"kubejs:book/place3",
+			"kubejs:book/place4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.book.fall": {
+        "sounds": [
+            "kubejs:book/place1",
+			"kubejs:book/place2",
+			"kubejs:book/place3",
+			"kubejs:book/place4"
+        ]
+    },
+	"sound.book.step": {
+        "sounds": [
+            "kubejs:book/place1",
+			"kubejs:book/place2",
+			"kubejs:book/place3",
+			"kubejs:book/place4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.book.hit": {
+        "sounds": [
+            "kubejs:book/place1",
+			"kubejs:book/place2",
+			"kubejs:book/place3",
+			"kubejs:book/place4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.hanging_sign.break": {
+        "sounds": [
+            "kubejs:hanging_sign/break1",
+			"kubejs:hanging_sign/break2",
+			"kubejs:hanging_sign/break3",
+			"kubejs:hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.hanging_sign.place": {
+        "sounds": [
+            "kubejs:hanging_sign/break1",
+			"kubejs:hanging_sign/break2",
+			"kubejs:hanging_sign/break3",
+			"kubejs:hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.hanging_sign.fall": {
+        "sounds": [
+            "kubejs:hanging_sign/hit1",
+			"kubejs:hanging_sign/hit2",
+			"kubejs:hanging_sign/hit3",
+			"kubejs:hanging_sign/hit4"
+        ]
+    },
+	"sound.hanging_sign.step": {
+        "sounds": [
+            "kubejs:hanging_sign/hit1",
+			"kubejs:hanging_sign/hit2",
+			"kubejs:hanging_sign/hit3",
+			"kubejs:hanging_sign/hit4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.hanging_sign.hit": {
+        "sounds": [
+            "kubejs:hanging_sign/hit1",
+			"kubejs:hanging_sign/hit2",
+			"kubejs:hanging_sign/hit3",
+			"kubejs:hanging_sign/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.alt_hanging_sign.break": {
+        "sounds": [
+            "kubejs:alt_hanging_sign/break1",
+			"kubejs:alt_hanging_sign/break2",
+			"kubejs:alt_hanging_sign/break3",
+			"kubejs:alt_hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.alt_hanging_sign.place": {
+        "sounds": [
+            "kubejs:alt_hanging_sign/break1",
+			"kubejs:alt_hanging_sign/break2",
+			"kubejs:alt_hanging_sign/break3",
+			"kubejs:alt_hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.alt_hanging_sign.fall": {
+        "sounds": [
+            "kubejs:alt_hanging_sign/hit1",
+			"kubejs:alt_hanging_sign/hit2",
+			"kubejs:alt_hanging_sign/hit3",
+			"kubejs:alt_hanging_sign/hit4"
+        ]
+    },
+	"sound.alt_hanging_sign.step": {
+        "sounds": [
+            "kubejs:alt_hanging_sign/hit1",
+			"kubejs:alt_hanging_sign/hit2",
+			"kubejs:alt_hanging_sign/hit3",
+			"kubejs:alt_hanging_sign/hit4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.alt_hanging_sign.hit": {
+        "sounds": [
+            "kubejs:alt_hanging_sign/hit1",
+			"kubejs:alt_hanging_sign/hit2",
+			"kubejs:alt_hanging_sign/hit3",
+			"kubejs:alt_hanging_sign/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.bamboo_hanging_sign.break": {
+        "sounds": [
+            "kubejs:bamboo_hanging_sign/break1",
+			"kubejs:bamboo_hanging_sign/break2",
+			"kubejs:bamboo_hanging_sign/break3",
+			"kubejs:bamboo_hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.bamboo_hanging_sign.place": {
+        "sounds": [
+            "kubejs:bamboo_hanging_sign/break1",
+			"kubejs:bamboo_hanging_sign/break2",
+			"kubejs:bamboo_hanging_sign/break3",
+			"kubejs:bamboo_hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.bamboo_hanging_sign.fall": {
+        "sounds": [
+            "kubejs:bamboo_hanging_sign/hit1",
+			"kubejs:bamboo_hanging_sign/hit2",
+			"kubejs:bamboo_hanging_sign/hit3",
+			"kubejs:bamboo_hanging_sign/hit4"
+        ]
+    },
+	"sound.bamboo_hanging_sign.step": {
+        "sounds": [
+            "kubejs:bamboo_hanging_sign/hit1",
+			"kubejs:bamboo_hanging_sign/hit2",
+			"kubejs:bamboo_hanging_sign/hit3",
+			"kubejs:bamboo_hanging_sign/hit4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.bamboo_hanging_sign.hit": {
+        "sounds": [
+            "kubejs:bamboo_hanging_sign/hit1",
+			"kubejs:bamboo_hanging_sign/hit2",
+			"kubejs:bamboo_hanging_sign/hit3",
+			"kubejs:bamboo_hanging_sign/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.nether_hanging_sign.break": {
+        "sounds": [
+            "kubejs:nether_hanging_sign/break1",
+			"kubejs:nether_hanging_sign/break2",
+			"kubejs:nether_hanging_sign/break3",
+			"kubejs:nether_hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.nether_hanging_sign.place": {
+        "sounds": [
+            "kubejs:nether_hanging_sign/break1",
+			"kubejs:nether_hanging_sign/break2",
+			"kubejs:nether_hanging_sign/break3",
+			"kubejs:nether_hanging_sign/break4"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.nether_hanging_sign.fall": {
+        "sounds": [
+            "kubejs:nether_hanging_sign/hit1",
+			"kubejs:nether_hanging_sign/hit2",
+			"kubejs:nether_hanging_sign/hit3",
+			"kubejs:nether_hanging_sign/hit4"
+        ]
+    },
+	"sound.nether_hanging_sign.step": {
+        "sounds": [
+            "kubejs:nether_hanging_sign/hit1",
+			"kubejs:nether_hanging_sign/hit2",
+			"kubejs:nether_hanging_sign/hit3",
+			"kubejs:nether_hanging_sign/hit4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.nether_hanging_sign.hit": {
+        "sounds": [
+            "kubejs:nether_hanging_sign/hit1",
+			"kubejs:nether_hanging_sign/hit2",
+			"kubejs:nether_hanging_sign/hit3",
+			"kubejs:nether_hanging_sign/hit4"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.tnt.break": {
+        "sounds": [
+            "kubejs:tnt/break1",
+			"kubejs:tnt/break2",
+			"kubejs:tnt/break3",
+			"kubejs:tnt/break4",
+			"kubejs:tnt/break5",
+			"kubejs:tnt/break6"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.tnt.place": {
+        "sounds": [
+            "kubejs:tnt/break1",
+			"kubejs:tnt/break2",
+			"kubejs:tnt/break3",
+			"kubejs:tnt/break4",
+			"kubejs:tnt/break5",
+			"kubejs:tnt/break6"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.tnt.fall": {
+        "sounds": [
+            "kubejs:tnt/hit1",
+			"kubejs:tnt/hit2",
+			"kubejs:tnt/hit3",
+			"kubejs:tnt/hit4",
+			"kubejs:tnt/hit5"
+        ]
+    },
+	"sound.tnt.step": {
+        "sounds": [
+            "kubejs:tnt/hit1",
+			"kubejs:tnt/hit2",
+			"kubejs:tnt/hit3",
+			"kubejs:tnt/hit4",
+			"kubejs:tnt/hit5"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.tnt.hit": {
+        "sounds": [
+            "kubejs:tnt/hit1",
+			"kubejs:tnt/hit2",
+			"kubejs:tnt/hit3",
+			"kubejs:tnt/hit4",
+			"kubejs:tnt/hit5"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.small.break": {
+        "sounds": [
+            "kubejs:small/break1",
+			"kubejs:small/break2",
+			"kubejs:small/break3",
+			"kubejs:small/break4",
+			"kubejs:small/break5"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.small.place": {
+        "sounds": [
+            "kubejs:small/break1",
+			"kubejs:small/break2",
+			"kubejs:small/break3",
+			"kubejs:small/break4",
+			"kubejs:small/break5"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.obsidian.break": {
+        "sounds": [
+            "kubejs:obsidian/break1",
+			"kubejs:obsidian/break2",
+			"kubejs:obsidian/break3",
+			"kubejs:obsidian/break4",
+			"kubejs:obsidian/break5",
+			"kubejs:obsidian/break6"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.obsidian.place": {
+        "sounds": [
+            "kubejs:obsidian/place1",
+			"kubejs:obsidian/place2",
+			"kubejs:obsidian/place3",
+			"kubejs:obsidian/place4",
+			"kubejs:obsidian/place5",
+			"kubejs:obsidian/place6"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.obsidian.fall": {
+        "sounds": [
+            "kubejs:obsidian/hit1",
+			"kubejs:obsidian/hit2",
+			"kubejs:obsidian/hit3",
+			"kubejs:obsidian/hit4",
+			"kubejs:obsidian/hit5",
+			"kubejs:obsidian/hit6"
+        ]
+    },
+	"sound.obsidian.step": {
+        "sounds": [
+            "kubejs:obsidian/hit1",
+			"kubejs:obsidian/hit2",
+			"kubejs:obsidian/hit3",
+			"kubejs:obsidian/hit4",
+			"kubejs:obsidian/hit5",
+			"kubejs:obsidian/hit6"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.obsidian.hit": {
+        "sounds": [
+            "kubejs:obsidian/hit1",
+			"kubejs:obsidian/hit2",
+			"kubejs:obsidian/hit3",
+			"kubejs:obsidian/hit4",
+			"kubejs:obsidian/hit5",
+			"kubejs:obsidian/hit6"
+        ],
+        "subtitle": "subtitles.block.generic.hit"
+    },
+	"sound.iron.break": {
+        "sounds": [
+            "kubejs:iron/break1",
+			"kubejs:iron/break2",
+			"kubejs:iron/break3",
+			"kubejs:iron/break4",
+			"kubejs:iron/break5",
+			"kubejs:iron/break6",
+			"kubejs:iron/break7",
+			"kubejs:iron/break8"
+        ],
+        "subtitle": "subtitles.block.generic.break"
+    },
+	"sound.iron.place": {
+        "sounds": [
+            "kubejs:iron/break1",
+			"kubejs:iron/break2",
+			"kubejs:iron/break3",
+			"kubejs:iron/break4",
+			"kubejs:iron/break5",
+			"kubejs:iron/break6",
+			"kubejs:iron/break7",
+			"kubejs:iron/break8"
+        ],
+        "subtitle": "subtitles.block.generic.place"
+    },
+	"sound.iron.fall": {
+        "sounds": [
+            "kubejs:iron/hit1",
+			"kubejs:iron/hit2",
+			"kubejs:iron/hit3",
+			"kubejs:iron/hit4"
+        ]
+    },
+	"sound.iron.step": {
+        "sounds": [
+            "kubejs:iron/hit1",
+			"kubejs:iron/hit2",
+			"kubejs:iron/hit3",
+			"kubejs:iron/hit4"
+        ],
+    "subtitle": "subtitles.block.generic.footsteps"
+    },
+	"sound.iron.hit": {
+        "sounds": [
+            "kubejs:iron/hit1",
+			"kubejs:iron/hit2",
+			"kubejs:iron/hit3",
+			"kubejs:iron/hit4"
         ],
         "subtitle": "subtitles.block.generic.hit"
     }

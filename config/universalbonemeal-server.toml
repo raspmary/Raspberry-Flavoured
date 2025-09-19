@@ -12,7 +12,7 @@ allow_vines = true
 #The algorithm searches upwards for connected chorus flowers and has a range limit of 48 blocks.
 allow_chorus = true
 #Allow bone meal to work on small flowers making them spread around.
-allow_small_flowers = true
+allow_small_flowers = false
 #Allow bone meal to work on coral turning it into coral reef tree structures for farming coral blocks.
 #This does only work when inside of a warm ocean biome and requires a fair bit of open space above the coral.
 allow_corals = true

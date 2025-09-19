@@ -1,0 +1,131 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:glow_berries",
+        "count": 24
+      },
+      "offer_item": {
+        "item": "minecraft:golden_carrot",
+        "count": 1
+      },
+      "max_trades": 8
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:glow_berries",
+        "count": 32
+      },
+      "offer_item": {
+        "item": "minecraft:glistering_melon_slice",
+        "count": 2
+      },
+      "max_trades": 8
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:glow_berries",
+        "count": 48
+      },
+      "offer_item": {
+        "item": "minecraft:golden_apple",
+        "count": 1
+      },
+      "max_trades": 8
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:glow_berries",
+        "count": 64
+      },
+      "offer_item": {
+        "item": "kubejs:golden_strawberries",
+        "count": 2
+      },
+      "max_trades": 8
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:rotten_flesh",
+        "count": 24
+      },
+      "offer_item": {
+        "item": "minecraft:torch",
+        "count": 24
+      },
+      "max_trades": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:rotten_flesh",
+        "count": 24
+      },
+      "offer_item": {
+        "item": "supplementaries:bomb",
+        "count": 3
+      },
+      "max_trades": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:rotten_flesh",
+        "count": 24
+      },
+      "offer_item": {
+        "item": "supplementaries:rope",
+        "count": 48
+      },
+      "max_trades": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:rotten_flesh",
+        "count": 32
+      },
+      "offer_item": {
+        "item": "minecraft:slime_ball",
+        "count": 1
+      },
+      "max_trades": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:rotten_flesh",
+        "count": 24
+      },
+      "offer_item": {
+        "item": "minecraft:disc_fragment_5",
+        "count": 1
+      },
+      "max_trades": 16
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:rotten_flesh",
+        "count": 48
+      },
+      "offer_item": {
+        "item": "spelunkery:raw_magnetite_nugget",
+        "count": 1
+      },
+      "max_trades": 16
+    }
+  ]
+}
+
+
+
+
+
+

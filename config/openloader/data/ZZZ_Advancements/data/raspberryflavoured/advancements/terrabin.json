@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:sack",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:shulker_boxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Craft a terrabin to carry up to 27 extra slots of items!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cute Scute"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

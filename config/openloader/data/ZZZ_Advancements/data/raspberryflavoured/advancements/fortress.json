@@ -1,7 +1,7 @@
 {
   "parent": "raspberryflavoured:nether",
   "criteria": {
-    "0": {
+    "Find a Nether Fortress": {
       "conditions": {
         "player": [
           {
@@ -17,7 +17,7 @@
       },
       "trigger": "minecraft:location"
     },
-	"1": {
+    "Find a Molten Fortress": {
       "conditions": {
         "player": [
           {
@@ -25,7 +25,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "betterfortresses:fortress"
+                "structure": "kubejs:molten_fortress"
               }
             }
           }
@@ -55,7 +55,7 @@
     },
   "requirements": [
     [
-      "0", "1"
+      "Find a Nether Fortress", "Find a Molten Fortress"
     ]
   ]
 }

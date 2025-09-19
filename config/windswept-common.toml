@@ -15,11 +15,11 @@
 #Tweaks to Windswept Worldgen
 [worldgen]
 	#Roots will grow under the dirt block below a tree, chestnut trees overhanging logs will grow roots
-	"Tree Roots" = true
+	"Tree Roots" = false
 
 #Windswept Content Tweaks
 [content]
 	#How much durability Wooden Buckets should have
 	#Range: 1 ~ 1000
-	"Wooden Bucket Durability" = 24
+	"Wooden Bucket Durability" = 8
 

@@ -2,10 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "farmersdelight:cod_slice"
-    },
-    {
-      "item": "farmersdelight:cod_slice"
+      "tag": "raspberry_flavoured:white_fish"
     },
     {
       "item": "farmersdelight:cooked_rice"

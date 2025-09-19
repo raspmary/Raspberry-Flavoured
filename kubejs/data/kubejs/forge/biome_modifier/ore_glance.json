@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:large_lead_vein_biomes",
+  "features": [
+    "kubejs:ore_glance_lower",
+    "kubejs:ore_glance_upper"
+  ],
+  "step": "underground_ores"
+}

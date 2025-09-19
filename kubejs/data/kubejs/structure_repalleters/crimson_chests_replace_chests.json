@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:chest",
+  "replaces_with": "woodworks:crimson_chest",
+  "selector": {
+    "type": "names",
+    "config": [
+      "hearths:crimson_tower"
+    ]
+  }
+}

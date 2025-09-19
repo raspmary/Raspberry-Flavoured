@@ -63,26 +63,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
-        {
-          "chance": 0.1,
-          "condition": "minecraft:random_chance_with_looting",
-          "looting_multiplier": 0.03
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit_foot"
-        }
-      ],
-      "rolls": 1.0
     }
   ]
 }

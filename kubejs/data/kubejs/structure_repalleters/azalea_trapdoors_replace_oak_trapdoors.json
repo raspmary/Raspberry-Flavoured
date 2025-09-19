@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:oak_trapdoor",
+  "replaces_with": "ecologics:azalea_trapdoor",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_lush"
+    ]
+  }
+}

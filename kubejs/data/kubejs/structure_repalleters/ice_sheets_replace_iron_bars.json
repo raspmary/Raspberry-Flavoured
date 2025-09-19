@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:iron_bars",
+  "replaces_with": "windswept:ice_sheet",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_ice"
+    ]
+  }
+}

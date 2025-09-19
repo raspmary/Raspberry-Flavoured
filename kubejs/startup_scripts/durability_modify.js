@@ -1,155 +1,257 @@
 ItemEvents.modification(event => {
-	function maxDura(x, q) {
-		event.modify(x, item => {item.maxDamage = q})
+	function maxDura(modifiedItem, modifiedAmount) {
+		event.modify(modifiedItem, item => {item.maxDamage = modifiedAmount})
 	}
-	maxDura('minecraft:flint_and_steel', 128)
-	maxDura('minecraft:shears', 384)
-	maxDura('alloyed:steel_shears', 1568)
-	maxDura('minecraft:fishing_rod', 128)
-	maxDura('minecraft:carrot_on_a_stick', 128)
-	maxDura('minecraft:warped_fungus_on_a_stick', 128)
-	maxDura('alloyed:steel_fishing_rod', 512)
-	maxDura('create:sand_paper', 128)
-	maxDura('create:red_sand_paper', 128)
-	maxDura('supplementaries:wrench', 384)
-	maxDura('minecraft:shield', 384)
-	maxDura('sullysmod:jade_shield', 576)
-	maxDura('minecraft:turtle_helmet', 480)
-	maxDura('autumnity:snail_shell_chestplate', 360)
-	maxDura('environmental:yak_pants', 160)
-	maxDura('windswept:snow_boots', 160)
-	maxDura('savage_and_ravage:mask_of_dishonesty', 320)
-	maxDura('savage_and_ravage:conch_of_conjuring', 750)
-	maxDura('savage_and_ravage:cleaver_of_beheading', 750)
-	maxDura('savage_and_ravage:wand_of_freezing', 750)
-	maxDura('minecraft:trident', 750)
-	maxDura('create:copper_diving_helmet', 160)
-	maxDura('create:copper_diving_boots', 160)
-	maxDura('create:potato_cannon', 384)
-	maxDura('create:extendo_grip', 500)
-	maxDura('create:super_glue', 64)
-	maxDura('ecologics:crab_claw', 80)
-	maxDura('farmersdelight:skillet', 640)
-	maxDura('supplementaries:flute', 128)
-	maxDura('naturalist:bug_net', 128)
-	maxDura('vc_gliders:paraglider_wood', 256)
-	maxDura('webasemod:diamond_bat', 512)
-	maxDura('minecraft:wooden_pickaxe', 128)
-	maxDura('minecraft:wooden_axe', 128)
-	maxDura('minecraft:wooden_shovel', 128)
-	maxDura('minecraft:wooden_hoe', 128)
-	maxDura('minecraft:wooden_sword', 128)
-	maxDura('farmersdelight:flint_knife', 128)
-	maxDura('minecraft:stone_pickaxe', 256)
-	maxDura('minecraft:stone_axe', 256)
-	maxDura('minecraft:stone_shovel', 256)
-	maxDura('minecraft:stone_hoe', 256)
-	maxDura('minecraft:stone_sword', 256)
-	maxDura('minecraft:golden_pickaxe', 128)
-	maxDura('minecraft:golden_axe', 128)
-	maxDura('minecraft:golden_shovel', 128)
-	maxDura('minecraft:golden_hoe', 128)
-	maxDura('minecraft:golden_sword', 128)
-	maxDura('farmersdelight:golden_knife', 128)
-	maxDura('minecraft:iron_pickaxe', 512)
-	maxDura('minecraft:iron_axe', 512)
-	maxDura('minecraft:iron_shovel', 512)
-	maxDura('minecraft:iron_hoe', 512)
-	maxDura('minecraft:iron_sword', 512)
-	maxDura('farmersdelight:iron_knife', 512)
-	maxDura('additionaladditions:rose_gold_pickaxe', 896)
-	maxDura('additionaladditions:rose_gold_axe', 896)
-	maxDura('additionaladditions:rose_gold_shovel', 896)
-	maxDura('additionaladditions:rose_gold_hoe', 896)
-	maxDura('additionaladditions:rose_gold_sword', 896)
-	maxDura('alloyed:steel_pickaxe', 5488)
-	maxDura('alloyed:steel_axe', 5488)
-	maxDura('alloyed:steel_shovel', 5488)
-	maxDura('alloyed:steel_hoe', 5488)
-	maxDura('alloyed:steel_sword', 5488)
-	maxDura('alloyed:steel_knife', 5488)
-	maxDura('mace_backport:mace', 5488)
-	maxDura('minecraft:diamond_pickaxe', 1920)
-	maxDura('minecraft:diamond_axe', 1920)
-	maxDura('minecraft:diamond_shovel', 1920)
-	maxDura('minecraft:diamond_hoe', 1920)
-	maxDura('minecraft:diamond_sword', 1920)
-	maxDura('farmersdelight:diamond_knife', 1920)
-	maxDura('oreganized:electrum_pickaxe', 3156)
-	maxDura('oreganized:electrum_axe', 3156)
-	maxDura('oreganized:electrum_shovel', 3156)
-	maxDura('oreganized:electrum_hoe', 3156)
-	maxDura('oreganized:electrum_sword', 3156)
-	maxDura('oreganized:electrum_knife', 3156)
-	maxDura('clash:spear', 3156)
-	maxDura('caverns_and_chasms:necromium_pickaxe', 4665)
-	maxDura('caverns_and_chasms:necromium_axe', 4665)
-	maxDura('caverns_and_chasms:necromium_shovel', 4665)
-	maxDura('caverns_and_chasms:necromium_hoe', 4665)
-	maxDura('caverns_and_chasms:necromium_sword', 4665)
-	maxDura('abnormals_delight:necromium_knife', 4665)
-	maxDura('clash:greatblade', 4665)
-	maxDura('minecraft:netherite_pickaxe', 6174)
-	maxDura('minecraft:netherite_axe', 6174)
-	maxDura('minecraft:netherite_shovel', 6174)
-	maxDura('minecraft:netherite_hoe', 6174)
-	maxDura('minecraft:netherite_sword', 6174)
-	maxDura('farmersdelight:netherite_knife', 6174)
-	maxDura('clash:swept_axe', 6174)
-	maxDura('minecraft:leather_helmet', 100)
-	maxDura('minecraft:leather_chestplate', 100)
-	maxDura('minecraft:leather_leggings', 100)
-	maxDura('minecraft:leather_boots', 100)
-	maxDura('minecraft:chainmail_helmet', 160)
-	maxDura('minecraft:chainmail_chestplate', 160)
-	maxDura('minecraft:chainmail_leggings', 160)
-	maxDura('minecraft:chainmail_boots', 160)
-	maxDura('copperized:copper_helmet', 160)
-	maxDura('copperized:copper_chestplate', 160)
-	maxDura('copperized:copper_leggings', 160)
-	maxDura('copperized:copper_boots', 160)
-	maxDura('minecraft:golden_helmet', 160)
-	maxDura('minecraft:golden_chestplate', 160)
-	maxDura('minecraft:golden_leggings', 160)
-	maxDura('minecraft:golden_boots', 160)
-	maxDura('minecraft:iron_helmet', 320)
-	maxDura('minecraft:iron_chestplate', 320)
-	maxDura('minecraft:iron_leggings', 320)
-	maxDura('minecraft:iron_boots', 320)
-	maxDura('additionaladditions:rose_gold_helmet', 480)
-	maxDura('additionaladditions:rose_gold_chestplate', 480)
-	maxDura('additionaladditions:rose_gold_leggings', 480)
-	maxDura('additionaladditions:rose_gold_boots', 480)
-	maxDura('alloyed:steel_helmet', 1000)
-	maxDura('alloyed:steel_chestplate', 1000)
-	maxDura('alloyed:steel_leggings', 1000)
-	maxDura('alloyed:steel_boots', 1000)
-	maxDura('minecraft:diamond_helmet', 600)
-	maxDura('minecraft:diamond_chestplate', 600)
-	maxDura('minecraft:diamond_leggings', 600)
-	maxDura('minecraft:diamond_boots', 600)
-	maxDura('oreganized:electrum_helmet', 825)
-	maxDura('oreganized:electrum_chestplate', 825)
-	maxDura('oreganized:electrum_leggings', 825)
-	maxDura('oreganized:electrum_boots', 825)
-	maxDura('caverns_and_chasms:necromium_helmet', 950)
-	maxDura('caverns_and_chasms:necromium_chestplate', 950)
-	maxDura('caverns_and_chasms:necromium_leggings', 950)
-	maxDura('caverns_and_chasms:necromium_boots', 950)
-	maxDura('minecraft:netherite_helmet', 1175)
-	maxDura('minecraft:netherite_chestplate', 1175)
-	maxDura('minecraft:netherite_leggings', 1175)
-	maxDura('minecraft:netherite_boots', 1175)
-	maxDura('savage_and_ravage:griefer_helmet', 750)
-	maxDura('savage_and_ravage:griefer_chestplate', 750)
-	maxDura('savage_and_ravage:griefer_leggings', 750)
-	maxDura('savage_and_ravage:griefer_boots', 750)
-	maxDura('caverns_and_chasms:sanguine_helmet', 750)
-	maxDura('caverns_and_chasms:sanguine_chestplate', 750)
-	maxDura('caverns_and_chasms:sanguine_leggings', 750)
-	maxDura('caverns_and_chasms:sanguine_boots', 750)
-	maxDura('environmental:thief_hood', 320)
-	maxDura('environmental:healer_pouch', 320)
-	maxDura('environmental:architect_belt', 320)
-	maxDura('environmental:wanderer_boots', 320)
+
+// Misc
+	maxDura('supplementaries:flute', 200)
+	maxDura('naturalist:bug_net', 200)
+	maxDura('minecraft:fishing_rod', 350)
+	maxDura('minecraft:carrot_on_a_stick', 350)
+	maxDura('minecraft:warped_fungus_on_a_stick', 350)
+	maxDura('minecraft:bow', 350)
+	maxDura('supplementaries:slingshot', 350)
+	maxDura('supplementaries:wrench', 500)
+	maxDura('another_furniture:furniture_hammer', 500)
+	maxDura('aquaculture:iron_fishing_rod', 900)
+	maxDura('farmersdelight:skillet', 900)
+	maxDura('minecraft:crossbow', 900)
+	
+	maxDura('minecraft:trident', 2000)
+	
+	maxDura('savage_and_ravage:mask_of_dishonesty', 1000)
+	maxDura('savage_and_ravage:conch_of_conjuring', 1000)
+	maxDura('savage_and_ravage:wand_of_freezing', 1500)
+	
+	maxDura('create:potato_cannon', 750)
+	maxDura('create:extendo_grip', 750)
+	maxDura('vc_gliders:paraglider_wood', 700)
+	maxDura('create:super_glue', 100)
+	maxDura('ecologics:crab_claw', 150)
+	maxDura('create:sand_paper', 150)
+	
+	maxDura('minecraft:turtle_helmet', 650)
+	maxDura('autumnity:snail_shell_chestplate', 800)
+	maxDura('environmental:yak_pants', 250)
+	maxDura('windswept:snow_boots', 350)
+	
+// Main tools & weapons
+	// Wood or flint
+	event.modify([
+	'minecraft:wooden_pickaxe',
+	'minecraft:wooden_axe',
+	'minecraft:wooden_shovel',
+	'minecraft:wooden_hoe',
+	'minecraft:wooden_sword',
+	'farmersdelight:flint_knife',
+	'minecraft:flint_and_steel'
+	], item => {item.maxDamage = 150})
+	
+	// Gold
+	event.modify([
+	'minecraft:golden_pickaxe',
+	'minecraft:golden_axe',
+	'minecraft:golden_shovel',
+	'minecraft:golden_hoe',
+	'minecraft:golden_sword',
+	'farmersdelight:golden_knife'
+	], item => {item.maxDamage = 200})
+	
+	// Copper
+	event.modify([
+	'minecraft:stone_pickaxe',
+	'minecraft:stone_axe',
+	'minecraft:stone_shovel',
+	'minecraft:stone_hoe',
+	'minecraft:stone_sword',
+	'minecraft:shears'
+	], item => {item.maxDamage = 350})
+	
+	// Iron
+	event.modify([
+	'minecraft:iron_pickaxe',
+	'minecraft:iron_axe',
+	'minecraft:iron_shovel',
+	'minecraft:iron_hoe',
+	'minecraft:iron_sword',
+	'farmersdelight:iron_knife'
+	], item => {item.maxDamage = 700})
+	
+	// Rose gold
+	event.modify([
+	'additionaladditions:rose_gold_pickaxe',
+	'additionaladditions:rose_gold_axe',
+	'additionaladditions:rose_gold_shovel',
+	'additionaladditions:rose_gold_hoe',
+	'additionaladditions:rose_gold_sword'
+	], item => {item.maxDamage = 1000})
+	
+	// Steel
+	event.modify([
+	'alloyed:steel_pickaxe',
+	'alloyed:steel_axe',
+	'alloyed:steel_shovel',
+	'alloyed:steel_hoe',
+	'alloyed:steel_sword',
+	'alloyed:steel_knife',
+	'mace_backport:mace'
+	], item => {item.maxDamage = 3000})
+	
+	// Diamond
+	event.modify([
+	'minecraft:diamond_pickaxe',
+	'minecraft:diamond_axe',
+	'minecraft:diamond_shovel',
+	'minecraft:diamond_hoe',
+	'minecraft:diamond_sword',
+	'farmersdelight:diamond_knife',
+	'alloyed:steel_shears'
+	], item => {item.maxDamage = 2200})
+	
+	// Electrum
+	event.modify([
+	'oreganized:electrum_pickaxe',
+	'oreganized:electrum_axe',
+	'oreganized:electrum_shovel',
+	'oreganized:electrum_hoe',
+	'oreganized:electrum_sword',
+	'oreganized:electrum_knife',
+	'clash:spear'
+	], item => {item.maxDamage = 4000})
+	
+	// Necromium
+	event.modify([
+	'caverns_and_chasms:necromium_pickaxe',
+	'caverns_and_chasms:necromium_axe',
+	'caverns_and_chasms:necromium_shovel',
+	'caverns_and_chasms:necromium_hoe',
+	'caverns_and_chasms:necromium_sword',
+	'abnormals_delight:necromium_knife',
+	'clash:greatblade'
+	], item => {item.maxDamage = 6000})
+	
+	// Netherite
+	event.modify([
+	'minecraft:netherite_pickaxe',
+	'minecraft:netherite_axe',
+	'minecraft:netherite_shovel',
+	'minecraft:netherite_hoe',
+	'minecraft:netherite_sword',
+	'farmersdelight:netherite_knife',
+	'clash:swept_axe'
+	], item => {item.maxDamage = 8000})
+	
+	
+	
+// Armour
+	// Leather
+	event.modify([
+	'minecraft:leather_helmet',
+	'minecraft:leather_chestplate',
+	'minecraft:leather_leggings',
+	'minecraft:leather_boots',
+	'shieldexp:wooden_shield'
+	], item => {item.maxDamage = 125})
+
+	// Gold
+	event.modify([
+	'minecraft:golden_helmet',
+	'minecraft:golden_chestplate',
+	'minecraft:golden_leggings',
+	'minecraft:golden_boots'
+	], item => {item.maxDamage = 175})
+
+	// Chainmail
+	event.modify([
+	'minecraft:chainmail_helmet',
+	'minecraft:chainmail_chestplate',
+	'minecraft:chainmail_leggings',
+	'minecraft:chainmail_boots'
+	], item => {item.maxDamage = 200})
+
+	// Copper
+	event.modify([
+	'copperized:copper_helmet',
+	'copperized:copper_chestplate',
+	'copperized:copper_leggings',
+	'copperized:copper_boots',
+	'create:copper_diving_helmet',
+	'create:copper_diving_boots',
+	'shieldexp:golden_shield'
+	], item => {item.maxDamage = 250})
+
+	// Iron
+	event.modify([
+	'minecraft:iron_helmet',
+	'minecraft:iron_chestplate',
+	'minecraft:iron_leggings',
+	'minecraft:iron_boots',
+	'minecraft:shield'
+	], item => {item.maxDamage = 500})
+
+	// Rose gold
+	event.modify([
+	'additionaladditions:rose_gold_helmet',
+	'additionaladditions:rose_gold_chestplate',
+	'additionaladditions:rose_gold_leggings',
+	'additionaladditions:rose_gold_boots'
+	], item => {item.maxDamage = 625})
+
+	// Steel
+	event.modify([
+	'alloyed:steel_helmet',
+	'alloyed:steel_chestplate',
+	'alloyed:steel_leggings',
+	'alloyed:steel_boots'
+	], item => {item.maxDamage = 850})
+
+	// Diamond
+	event.modify([
+	'minecraft:diamond_helmet',
+	'minecraft:diamond_chestplate',
+	'minecraft:diamond_leggings',
+	'minecraft:diamond_boots'
+	], item => {item.maxDamage = 800})
+
+	// Electrum
+	event.modify([
+	'oreganized:electrum_helmet',
+	'oreganized:electrum_chestplate',
+	'oreganized:electrum_leggings',
+	'oreganized:electrum_boots'
+	], item => {item.maxDamage = 1125})
+
+	// Necromium
+	event.modify([
+	'caverns_and_chasms:necromium_helmet',
+	'caverns_and_chasms:necromium_chestplate',
+	'caverns_and_chasms:necromium_leggings',
+	'caverns_and_chasms:necromium_boots'
+	], item => {item.maxDamage = 1425})
+
+	// Netherite
+	event.modify([
+	'minecraft:netherite_helmet',
+	'minecraft:netherite_chestplate',
+	'minecraft:netherite_leggings',
+	'minecraft:netherite_boots'
+	], item => {item.maxDamage = 1750})
+
+	// Griefer
+	event.modify([
+	'savage_and_ravage:griefer_helmet',
+	'savage_and_ravage:griefer_chestplate',
+	'savage_and_ravage:griefer_leggings',
+	'savage_and_ravage:griefer_boots',
+	'shieldexp:griefer_shield'
+	], item => {item.maxDamage = 1000})
+
+	// Sanguine
+	event.modify([
+	'caverns_and_chasms:sanguine_helmet',
+	'caverns_and_chasms:sanguine_chestplate',
+	'caverns_and_chasms:sanguine_leggings',
+	'caverns_and_chasms:sanguine_boots',
+	'shieldexp:iron_shield'
+	], item => {item.maxDamage = 1000})
 })

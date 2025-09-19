@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 6,
-        "max": 8
+        "min": 4,
+        "max": 5
       },
       "entries": [
         {
@@ -20,54 +20,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3,
-          "name": "minecraft:prismarine_crystals"
-        },
-		{
-          "type": "minecraft:item",
-		  "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "weight": 3,
-          "name": "minecraft:prismarine_shard"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:cake"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "farmersdelight:apple_pie"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "kubejs:prickly_pear_pie"
-        },
-        {
-          "type": "minecraft:item",
-		  "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "weight": 10,
+          "weight": 20,
           "name": "minecraft:pumpkin_seeds"
         },
         {
@@ -83,13 +36,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 10,
+          "weight": 20,
           "name": "minecraft:melon_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 6,
-          "name": "autumnity:pumpkin_bread"
         },
         {
           "type": "minecraft:item",
@@ -104,7 +52,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 10,
+          "weight": 20,
+          "name": "culturaldelights:corn_kernels"
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 20,
           "name": "supplementaries:flax_seeds"
         },
         {
@@ -114,16 +78,16 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2,
-          "name": "minecraft:ender_pearl"
+          "weight": 10,
+          "name": "farmersdelight:tomato_seeds"
         },
-		{
+        {
           "type": "minecraft:item",
 		  "functions": [
             {
@@ -137,6 +101,26 @@
             }
           ],
           "weight": 10,
+          "name": "farmersdelight:cabbage_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "culturaldelights:eggplant_seeds"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 14.0,
+                "min": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 20,
           "name": "minecraft:string"
         },
         {
@@ -152,7 +136,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 10,
+          "weight": 20,
           "name": "minecraft:feather"
         },
         {
@@ -162,13 +146,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 10,
+          "weight": 20,
           "name": "minecraft:gunpowder"
         },
         {
@@ -184,28 +168,144 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 9,
+          "weight": 20,
           "name": "kubejs:oatmeal"
         },
 		{
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "kubejs:cinnamon_roll"
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 20,
+          "name": "farmersdelight:wheat_dough"
         },
 		{
           "type": "minecraft:item",
-          "weight": 8,
-          "name": "incubation:chicken_egg_crate"
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 24.0,
+                "min": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 20,
+          "name": "aquaculture:worm"
         },
 		{
           "type": "minecraft:item",
-          "weight": 7,
-          "name": "environmental:duck_egg_crate"
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 16,
+          "name": "minecraft:egg"
         },
 		{
           "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 14,
+          "name": "environmental:duck_egg"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 12,
+          "name": "autumnity:turkey_egg"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 6,
-          "name": "autumnity:turkey_egg_crate"
+          "name": "minecraft:prismarine_shard"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 8,
+          "name": "supplementaries:antique_ink"
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4,
+          "name": "minecraft:ender_pearl"
         },
         {
           "type": "minecraft:item",
@@ -220,7 +320,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 7,
+          "weight": 14,
           "name": "minecraft:raw_copper"
         },
         {
@@ -236,7 +336,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 5,
+          "weight": 10,
           "name": "create:raw_zinc"
         },
         {
@@ -252,7 +352,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 5,
+          "weight": 10,
           "name": "oreganized:raw_lead"
         },
         {
@@ -268,7 +368,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 6,
+          "weight": 12,
           "name": "minecraft:raw_iron"
         },
         {
@@ -284,28 +384,24 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 5,
+          "weight": 10,
           "name": "minecraft:raw_gold"
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
-          "name": "farmersdelight:egg_sandwich"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 6,
-          "name": "culturaldelights:mutton_sandwich"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 6,
-          "name": "kubejs:kipper_sandwich"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 7,
-          "name": "create:sweet_roll"
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10,
+          "name": "spelunkery:rough_cinnabar"
         },
         {
           "type": "minecraft:item",
@@ -320,7 +416,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1,
+          "weight": 2,
           "name": "spelunkery:rough_diamond_shard"
         },
         {
@@ -336,28 +432,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1,
+          "weight": 2,
           "name": "spelunkery:raw_silver_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:spyglass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 6,
-          "name": "minecraft:compass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:clock"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 7,
-          "name": "caverns_and_chasms:depth_gauge"
         },
         {
           "type": "minecraft:item",
@@ -372,7 +448,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 4,
+          "weight": 8,
           "name": "minecraft:slime_ball"
         },
 		{
@@ -382,18 +458,66 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 8,
+          "name": "autumnity:snail_goo"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "weight": 4,
-          "name": "autumnity:snail_goo"
+          "name": "minecraft:golden_carrot"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4,
+          "name": "minecraft:glistering_melon_slice"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4,
+          "name": "kubejs:golden_strawberries"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:golden_apple"
         },
         {
@@ -409,8 +533,59 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1,
+          "weight": 2,
           "name": "kubejs:raw_ammonite"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "caverns_and_chasms:depth_gauge"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:spyglass"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ecologics:music_disc_coconut"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "trickytrialspaintingsplusmusic:music_disc_precipice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "trickytrialspaintingsplusmusic:music_disc_creator"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
         }
       ]
     }

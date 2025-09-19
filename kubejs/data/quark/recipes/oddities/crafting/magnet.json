@@ -16,10 +16,10 @@
       "tag": "forge:ingots/copper"
     },
     "B": {
-      "item": "oreganized:lead_block"
+      "item": "oreganized:lead_ingot"
     },
     "R": {
-      "item": "spelunkery:cinnabar_block"
+      "item": "spelunkery:cinnabar"
     },
     "F": {
       "item": "spelunkery:magnetite_chunk"

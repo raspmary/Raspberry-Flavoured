@@ -19,16 +19,16 @@
 	max_night_vision_modifier = 5.0
 	#Max level for Multishot enchantment
 	#Range: 1 ~ 7
-	max_multishot_level = 3
+	max_multishot_level = 1
 	#Max speed Minecarts can reach
 	#Range: 0.0 ~ 64.0
-	max_minecart_speed = 1.6
+	max_minecart_speed = 6.4
 	#Drop rate of Tridents from Drowned
 	#Range: 0.0 ~ 1.0
 	trident_drop_rate = 1.0
 	#Chance for Eyes of Enders to break
 	#Range: 0.0 ~ 1.0
-	eye_of_ender_break_chance = 0.1
+	eye_of_ender_break_chance = 0.85
 	#Horses struck by lightning become Zombie Horses
 	zombie_horse_transmutation = true
 	#Zombie Horses are rideable
@@ -66,9 +66,9 @@
 	#Spawners will spawn regardless of how many mobs are nearby
 	unrestricted_spawners = false
 	#/enchant allows any level of enchantment
-	unbound_enchant = true
+	unbound_enchant = false
 	#Boats do not collide with Lily Pads, but they still break them
-	boats_ignore_waterlilies = true
+	boats_ignore_waterlilies = false
 	#Chance for Polar Bears to spawn with a Stray on their back
 	#Range: 0.0 ~ 1.0
 	polar_bear_cavalry_chance = 0.11

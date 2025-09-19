@@ -1,7 +1,7 @@
 {
-  "parent": "raspberryflavoured:hunting_root",
+  "parent": "raspberryflavoured:exopearls",
   "criteria": {
-    "0": {
+    "Find a Skeleton Fortress": {
       "conditions": {
         "player": [
           {
@@ -17,7 +17,7 @@
       },
       "trigger": "minecraft:location"
     },
-	"1": {
+	"Find a Dungeon": {
       "conditions": {
         "player": [
           {
@@ -33,7 +33,7 @@
       },
       "trigger": "minecraft:location"
     },
-	"2": {
+	"Find a Nether Dungeon": {
       "conditions": {
         "player": [
           {
@@ -49,23 +49,7 @@
       },
       "trigger": "minecraft:location"
     },
-	"3": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structure": "betterdungeons:spider_dungeon"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
-	"4": {
+	"Find a Zombie Catacomb": {
       "conditions": {
         "player": [
           {
@@ -86,7 +70,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Stumble upon any dungeon"
+      "text": "Find any type of dungeon - spirited exopearls can locate them!"
     },
     "frame": "task",
     "hidden": false,
@@ -103,7 +87,7 @@
     },
   "requirements": [
     [
-      "0", "1", "2", "3", "4"
+      "Find a Skeleton Fortress", "Find a Dungeon", "Find a Nether Dungeon", "Find a Zombie Catacomb"
     ]
   ]
 }

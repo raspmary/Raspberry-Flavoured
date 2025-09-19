@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 2,
-  "ingredient": {
-    "item": "upgrade_aquatic:driftwood_planks"
-  },
-  "result": "everycomp:af/upgrade_aquatic/driftwood_shutter"
-}

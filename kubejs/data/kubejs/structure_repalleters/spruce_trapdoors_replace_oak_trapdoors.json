@@ -1,0 +1,14 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:oak_trapdoor",
+  "replaces_with": "minecraft:spruce_trapdoor",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_ice",
+      "bettermineshafts:mineshaft_spruce",
+      "bettermineshafts:mineshaft_spruce_snowy"
+    ]
+  }
+}

@@ -50,6 +50,9 @@
 	#.
 	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
 	ignoreFabulousWarning = false
+	#.
+	#Disable to prevent being rotated while seated on a Moving Contraption
+	rotateWhenSeated = true
 
 	#.
 	#Settings for the Goggle Overlay
@@ -57,14 +60,14 @@
 		#.
 		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
-		overlayOffsetX = 20
+		overlayOffsetX = 0
 		#.
 		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
-		overlayOffsetY = 0
+		overlayOffsetY = -20
 		#.
 		#Enable this to use your custom colors for the Goggle- and Hover- Overlay
-		customColorsOverlay = false
+		customColorsOverlay = true
 		#.
 		#The custom background color to use for the Goggle- and Hover- Overlays, if enabled
 		#[in Hex: #AaRrGgBb]

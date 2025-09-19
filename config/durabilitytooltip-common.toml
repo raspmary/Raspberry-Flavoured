@@ -1,5 +1,5 @@
 [Client]
-    # What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [███▒▒▒▒▒▒▒]'
+    # What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [â–ˆâ–ˆâ–ˆâ–’â–’â–’â–’â–’â–’â–’]'
     # Allowed values: BAR, NUMBERS, TEXT - Default: NUMBERS
     tooltipStyle = "NUMBERS"
 
@@ -25,5 +25,5 @@
 
     # Which mods should be blacklisted? Items from blacklisted mods won't show the durability tooltip.
     # Allowed length: 0 ~ 100 - Default: 'tconstruct,supplementaries'
-    blackListedMods = "tconstruct,supplementaries"
+    blackListedMods = "tconstruct,supplementaries,aquaculture"
 

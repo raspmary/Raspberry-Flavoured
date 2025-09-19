@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Craft or find some TNT - all deepslate ores and both silver ores are blast resistant, so explosives may come in handy for your next mining expedition!"
+      "text": "Craft or find some TNT - all ores are blast resistant, so some explosives may come in handy for your next mining expedition!"
     },
     "frame": "task",
     "hidden": false,

@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:nether_brick_fence",
+  "replaces_with": "caverns_and_chasms:golden_bars",
+  "selector": {
+    "type": "names",
+    "config": [
+      "kubejs:molten_fortress"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "raspberry_flavoured:main/iron",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "oreganized:stunning": {}
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.lead_poisoning.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.lead_poisoning.description"
+    },
+    "icon": {
+      "item": "oreganized:raw_lead"
+    },
+    "frame": "task",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_joke"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

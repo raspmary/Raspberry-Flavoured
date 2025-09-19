@@ -1,0 +1,24 @@
+{
+   "targets": [
+   "supplementaries:hanging_sign_oak",
+   "supplementaries:hanging_sign_spruce",
+   "supplementaries:hanging_sign_dark_oak",
+   "supplementaries:hanging_sign_mangrove",
+   "supplementaries:ecologics/hanging_sign_coconut",
+   "supplementaries:windswept/hanging_sign_chestnut",
+   "supplementaries:environmental/hanging_sign_willow",
+   "supplementaries:environmental/hanging_sign_wisteria",
+   "supplementaries:upgrade_aquatic/hanging_sign_driftwood",
+   "supplementaries:autumnity/hanging_sign_maple",
+   "supplementaries:atmospheric/hanging_sign_morado"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.hanging_sign.break",
+	  "place_sound": "kubejs:sound.hanging_sign.place",
+      "hit_sound": "kubejs:sound.hanging_sign.hit",
+      "fall_sound": "kubejs:sound.hanging_sign.fall",
+      "step_sound": "kubejs:sound.hanging_sign.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

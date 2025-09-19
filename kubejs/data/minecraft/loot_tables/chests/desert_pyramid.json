@@ -5,20 +5,54 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "name": "kubejs:pathfinders_quills"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:ancient_city",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.ancient_city"
+              }
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 10
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 12.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "spelunkery:rough_diamond",
-          "weight": 5
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -27,14 +61,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:raw_iron",
-          "weight": 15
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -43,14 +77,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:raw_gold",
-          "weight": 15
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -59,14 +93,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 4.0
+                "max": 24.0,
+                "min": 12.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bone",
-          "weight": 25
+          "name": "spelunkery:rough_cinnabar",
+          "weight": 32
         },
         {
           "type": "minecraft:item",
@@ -81,53 +115,43 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:spider_eye",
-          "weight": 25
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 25
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "architects_palette:rotten_flesh_block",
           "weight": 25
         },
         {
           "type": "minecraft:item",
           "name": "additionaladditions:rose_gold_alloy",
-          "weight": 7
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
           "weight": 10
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:glistering_melon_slice",
           "weight": 20
         },
@@ -138,7 +162,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 4.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -154,7 +178,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -186,14 +210,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "supplementaries:antique_ink",
-          "weight": 4
+          "name": "atmospheric:aloe_kernels",
+          "weight": 15
         },
         {
           "type": "minecraft:item",
@@ -202,24 +226,35 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 18.0,
-                "min": 6.0
+                "max": 8.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "supplementaries:antique_ink",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 30.0,
+                "min": 10.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:tnt",
-          "weight": 4
+          "weight": 8
         },
         {
           "type": "minecraft:item",
-          "name": "additionaladditions:mysterious_bundle",
+          "name": "kubejs:loot_bag",
           "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "buzzier_bees:four_leaf_clover",
-          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -228,11 +263,10 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 15
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "functions": [
 			{
               "add": false,
@@ -244,13 +278,19 @@
               "function": "minecraft:set_damage"
             }
           ],
-          "name": "savage_and_ravage:mask_of_dishonesty"
+          "name": "savage_and_ravage:mask_of_dishonesty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trickytrialspaintingsplusmusic:music_disc_precipice",
+          "weight": 5
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 2.0
+        "max": 5.0,
+        "min": 3.0
       }
     },
     {
@@ -263,8 +303,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "max": 15.0,
+                "min": 5.0
               },
               "function": "minecraft:set_count"
             }
@@ -279,13 +319,29 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "max": 15.0,
+                "min": 5.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:gunpowder",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spider_eye",
           "weight": 10
         },
         {
@@ -311,8 +367,40 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersdelight:tomato_seeds",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersdelight:tomato",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -327,8 +415,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -344,7 +432,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8.0,
-                "min": 1.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -359,33 +447,17 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "max": 12.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:string",
           "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:sand",
-          "weight": 10
         }
       ],
-      "rolls": 4.0
+      "rolls": 6.0
     },
     {
       "bonus_rolls": 0.0,
@@ -396,7 +468,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 7
+          "weight": 6
         }
       ],
       "rolls": 1.0

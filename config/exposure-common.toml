@@ -48,7 +48,7 @@
 			#Film can be developed with create Spout Filling. Default: true
 			Enabled = true
 			#Fluid spouting sequence required to develop color film.
-			ColorFilmSequence = ["{FluidName:\"create:potion\",Amount:250,Tag:{Potion:\"minecraft:awkward\"}}", "{FluidName:\"create:potion\",Amount:250,Tag:{Potion:\"minecraft:thick\"}}"]
+			ColorFilmSequence = ["{FluidName:\"create:potion\",Amount:250,Tag:{Potion:\"minecraft:awkward\"}}"]
 			#Fluid spouting sequence required to develop black and white film.
-			BlackAndWhiteFilmSequence = ["{FluidName:\"minecraft:water\",Amount:250}", "{FluidName:\"minecraft:water\",Amount:250}"]
+			BlackAndWhiteFilmSequence = ["{FluidName:\"minecraft:water\",Amount:250}"]
 

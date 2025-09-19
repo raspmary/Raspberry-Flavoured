@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:feast",
+  "criteria": {
+    "00": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "ecologics:surface_moss"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Consume a lump of moss"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "ecologics:surface_moss"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Delta-ruined Appetite"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_joke"
+    },
+  "requirements": [
+    [
+      "00"
+    ]
+  ]
+}

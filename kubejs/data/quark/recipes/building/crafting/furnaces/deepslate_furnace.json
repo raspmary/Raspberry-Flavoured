@@ -2,15 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "DDD",
-    "DCD",
+    "D D",
     "DDD"
   ],
   "key": {
 	"D": {
       "item": "minecraft:cobbled_deepslate"
-    },
-	"C": {
-      "tag": "minecraft:coals"
     }
   },
   "result": {

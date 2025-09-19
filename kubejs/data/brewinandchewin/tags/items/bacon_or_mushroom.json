@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-	"farmersdelight:cooked_bacon",
-	"minecraft:brown_mushroom"
+	"#forge:cooked_pork",
+	"#forge:cooked_fishes",
+	"#raspberry_flavoured:edible_mushrooms"
 	  ]
 }

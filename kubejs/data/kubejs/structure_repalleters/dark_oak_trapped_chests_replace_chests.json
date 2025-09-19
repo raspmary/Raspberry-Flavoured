@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:trapped_chest",
+  "replaces_with": "woodworks:dark_oak_trapped_chest",
+  "selector": {
+    "type": "names",
+    "config": [
+      "explorify:badlands_pyramid"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:iron_bars",
+  "replaces_with": "caverns_and_chasms:waxed_weathered_copper_bars",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_overgrown"
+    ]
+  }
+}

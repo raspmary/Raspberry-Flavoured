@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:witch_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dungeons_mobs:icy_creeper_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dungeons_mobs:frozen_zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dungeons_mobs:mossy_skeleton_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "caverns_and_chasms:mime_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "dungeons_mobs:jungle_zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:creeper_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:vex_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:zombie_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+type = menu
+
+customization-meta {
+  identifier = rfplayerselection
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.worldselection.SelectWorldScreen%btnaction_splitter_fm%
+  x = -88
+  width = 86
+  action = addbutton
+  actionid = ea123a62-9be7-47c2-9d88-3338ef0cc6261726770270850
+  y = 44
+  label = Singleplayer
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = ea123a62-9be7-47c2-9d88-3338ef0cc6261726770270850
+  buttonaction = opengui;net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen%btnaction_splitter_fm%
+  x = 90
+  width = 86
+  action = addbutton
+  actionid = 733fac14-0438-4ac9-b47a-bb58d4a4670a1726770300128
+  y = 0
+  label = Multiplayer
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = ea123a62-9be7-47c2-9d88-3338ef0cc6261726770270850
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = 0
+  width = 176
+  action = addbutton
+  actionid = 34fd7c46-0c3c-4a29-ac7a-3f463eedd6661726770548148
+  y = 23
+  label = Cancel
+  height = 20
+}
+

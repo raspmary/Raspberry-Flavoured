@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:mossy_cobblestone_stairs",
+  "replaces_with": "quark:tuff_stairs",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterdungeons:zombie_dungeon"
+    ]
+  }
+}

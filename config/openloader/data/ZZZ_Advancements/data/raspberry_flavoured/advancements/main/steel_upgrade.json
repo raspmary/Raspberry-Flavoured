@@ -1,0 +1,52 @@
+{
+  "parent": "raspberry_flavoured:main/rose_gold_upgrade",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_helmet",
+			  "alloyed:steel_chestplate",
+			  "alloyed:steel_leggings",
+			  "alloyed:steel_boots",
+			  "alloyed:steel_pickaxe",
+			  "alloyed:steel_shovel",
+			  "alloyed:steel_axe",
+			  "alloyed:steel_hoe",
+			  "alloyed:steel_sword",
+			  "alloyed:steel_knife",
+			  "kubejs:steel_horse_armor",
+			  "mace_backport:mace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.steel_upgrade.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.steel_upgrade.description"
+    },
+    "icon": {
+      "item": "alloyed:steel_pickaxe"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

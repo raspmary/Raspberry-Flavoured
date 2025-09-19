@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "item": "autumnity:maple_planks"
-  },
-  "result": "everycomp:af/autumnity/maple_bench"
-}

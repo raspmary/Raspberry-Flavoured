@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 3000,
+  "fermentingtime": 1200,
   "fluiditem": {
     "item": "brewinandchewin:strongroot_ale"
   },
@@ -16,10 +16,10 @@
       "tag": "forge:ingots/steel"
     },
 	{
-      "item": "minecraft:crimson_fungus"
+      "item": "environmental:truffle"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "create:cinder_flour"
     }
   ],
   "recipe_book_tab": "drinks",

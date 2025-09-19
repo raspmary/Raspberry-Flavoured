@@ -1,0 +1,14 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "aquaculture:brown_trout_bucket"
+    }
+  ],
+  "processingTime": 1,
+  "results": [
+    {
+      "item": "minecraft:frogspawn"
+    }
+  ]
+}

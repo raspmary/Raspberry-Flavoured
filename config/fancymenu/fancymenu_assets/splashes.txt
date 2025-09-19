@@ -26,6 +26,60 @@ Made on Java... I think?
 Better than Quake...?
 Slightly fewer cubes!
 Knows where you live... probably!
+Mine deep. This you will not smelt.
+...
+Your personal storyteller!
+Creepin' Creepy Creepers
+o diable...
+Will replace arcades!
+Highly Responsive to Players!
+:wq
+Paul Minetreides
+Thou shalt pass!
+Mine & Craft
+Order of the Rock
+Set in the world of Rubydung!
+.... . .-.. .-.. --- -.-.--
+Mind over Matter!
+Could be a Roguelike!
+Oh, Shiny!
+From the Secret Garden of the Shrine!
+Heroes, Heroines, Celestial Warriors!
+A Block In Which A Creeper Lives And Gnaws!
+One Ore to Rule them All.
+It's Quality of Life We're talking about here!
+How?
+Block Sabbath
+I teleported bread!
+<(*_*)>
+Made with some foreign characters
+*Blows up pancakes with mind*
+Cyclone!
+Don't go into the woods at night!
+Fastest thing alive!
+Doesn't exist!
+An ultimate weapon!
+You're going into orbit!
+Not on the radio!
+You can be a saint!
+Holding onto anything at the end of everything!
+Send us your floppy!
+Not your relative "Chin"!
+Everything sucks forever!
+I want 5 character = 1000$
+Hello, Risugami!
+Smooth jazz!
+Pianos are nice.
+*steals your diamonds and leaves*
+One sandwich coming up!
+Why?-... Why are there...
+Ailuride roam your location.
+Send the squids!
+Good morning!
+We hope you're doing alright.
+golf
+Surplus to Requirement.
+OMELETTE.EXE
 The Raven is watching!
 Don't look at the moon!
 Herobrine was here!
@@ -33,7 +87,6 @@ Entity 303 was here!
 null was here!
 fractureiser was here!
 JTE deserved better!
-Ironwood deserved better!
 Technoblade never dies!
 According to all known laws of aviation,
 I walk in eternity!
@@ -54,6 +107,7 @@ Flameo, hotman!
 Will you go penguin sledding with me?
 No, &lyou &rmiscalculated!
 Who is down there?!
+This is Katara, my flying sister!
 No, my only weakness - dying!
 Knock, knock, knocking on the owl door!
 Oh... wow, sports!
@@ -112,7 +166,7 @@ Beware of the man who speaks in hands!
 On days like this, kids like you should be playing &lRaspberry Flavoured!
 &l[Hyperlink Blocked]
 [Press F1 for] HELP
-EVERY BUDDY'S FAVOURITE [Number 1 Rated Modpack2024]
+EVERY BUDDY'S FAVORITE [Number 1 Rated Modpack2025]
 MY EYES ARE [Burning] LIKE [Campfire Kindling]!
 [this splash text is now] [3 Easy Payments of $9.99]
 Who are you talking to?
@@ -211,7 +265,7 @@ Don't feel threatened!
 Absolutely nothing to worry about!
 Everything's fine!
 Contains 50% less sodium!
-New and improved flavour!
+New and improved flavor!
 Full of your daily minerals!
 New 25% larger package!
 New 50% larger package!
@@ -243,7 +297,7 @@ Inspect to protect!
 The children yearn for Red-40!
 &o&nFunky Action!
 Welcome to the next level!
-Burning salt, my favourite!
+Burning salt, my favorite!
 It's very safe!
 It's very human!
 Dog goes bjork!
@@ -364,7 +418,7 @@ I always hit my mark!
 Live strong, as the mountains!
 Sugar rush crush!
 I am not a bug - I am a &ofeature!
-At least &l1 FPS &rguarenteed!
+At least &l1 FPS &rguaranteed!
 I'm &owaaaaitiiiing!
 Made with love and neutronium-carbon alloy!
 I find you guilty... &oof nothing!
@@ -406,28 +460,28 @@ I'm a giant sandwich man!
 Intentionally good!
 It is NOT iron pick!
 &lBig yellow grin!
-If Bails says so, it must be true!
+If Baisylia says so, it must be true!
 My child will play Raspberry Flavoured!
 My child will also do that!
-&oHighly Responsive to Prayers
-&oStory of Eastern Wonderland
-&oPhantasmagoria of Dim.Dream
-&oLotus Land Story
-&oMystic Square
-&oEmbodiment of Scarlet Devil
-&oPerfect Cherry Blossom
-&oImperishable Night
-&oPhantasmagoria of Flower View
-&oMountain of Faith
-&oSubterranean Animism
-&oUndefined Fantastic Object
-&oTen Desires
-&oDouble Dealing Character
-&oLegacy of Lunatic Kingdom
-&oHidden Star in Four Seasons
-&oWily Beast and Weakest Creature
-&oUnconnected Marketeers
-&oUnfinished Dream of All Living Ghost
+Highly Responsive to Players!
+Story of Eastern Wonderland!
+Phantasmagoria of Dim.Dream!
+Lotus Land Story!
+Mystic Square!
+Embodiment of Scarlet Devil!
+Perfect Cherry Blossom!
+Imperishable Night!
+Phantasmagoria of Flower View!
+Mountain of Faith!
+Subterranean Animism!
+Undefined Fantastic Object!
+Ten Desires!
+Double Dealing Character!
+Legacy of Lunatic Kingdom!
+Hidden Star in Four Seasons!
+Wily Beast and Weakest Creature!
+Unconnected Marketeers!
+Unfinished Dream of All Living Ghost!
 Everything shall be a splash!
 I haven't seen a bed in six days!
 &oMight &rbe AI-generated!
@@ -445,7 +499,7 @@ It's nice and easy... but not too easy!
 A steal of a deal with a steely feel!
 Everything must go!
 Check out what's in store!
-Pink is the colour of pink!
+Pink is the color of pink!
 Inspired by Pac-Man... apparently??
 Bagels-endorsed!
 Recommended on vacations!
@@ -499,6 +553,8 @@ I would walk 500 chunks, and I would walk 500 more!
 Not on &lRisugami's Modloader!
 Make your toads battle!
 Bring back cyan roses!
+Banner? I hardly know 'er!
+Coder? I hardly know 'er!
 Fodder? I hardly know 'er!
 Fan maid? Shouldn't the maid fan me?
 The sun is a deadly laser!
@@ -666,20 +722,25 @@ New Soup 2!
 U Eat Soup!
 Your face is good!
 Memphis, Tennessee!
-Love is pointless!
+Love is NOT pointless!
 Boohoo, my wife is dead!
 Mah wiife!
 Et cetera, ad infinitum!
 I'm-a going to fly for you!
 No one - and I mean no one - hurts the smoothie!
 Brown bricks!
-Let's make it a thousand!
+We've made it to a thousand!
 Fine!
+:)
 :3
+:D
+;3
+:O
+:T
+:P
 Raspmary ate this feature!
 Hey, I don't have much time, the server pack is- ACK!
 &lS P L A S H !
-Banner? I hardly know 'er!
 Get this man a &lTrue!
 You will die in the next 5 minutes!
 5 MONTHS?
@@ -750,7 +811,7 @@ Chest deez nuts!
 The dust? The dust!
 Nether lore, also known as &lunder tale!
 koo bay jay ess!
-Super Mario 64 &owishes &rit was this personalised!
+Super Mario 64 &owishes &rit was this personalized!
 Horse Update 2.0!
 He's faster than Sonic! He's faster than Sonic!
 &oIce and water, steak and cow!
@@ -775,9 +836,12 @@ Nothing gets past my bow!
 Aw, seriously?!
 Don't call me Needy!
 Bulleh!
-This splash text was brought to you by Blocky's Funny Doings International!
+This splash was brought to you by Blocky's Funny Doings International!
 Cake at Stake!
+Brake at Flake!
+Yeah, who? I wanna know!
 You know what that means!
+Tragic and full of betrayal and heartbreak!
 Fish!
 Dead!
 I am one in a krillion!
@@ -794,14 +858,852 @@ Total misplay!
 Back on the board!
 &c&lTOO FAST. TOO SOON.
 A beeper, perhaps?
-01110000011010010111001101110011
+01110000 01101001 01110011 01110011
+Story of Undertale!
+I... am Steve!
+This guy's such a toolbag!
+Pfft, okay!
+You were supposed to be a hero, Brian!
+I'm thinkin' I like that name!
+In raspmary we trust! (I hope)
+strobbie :3
+bloobie :3
+Broom closet!
+Stanley was fat and ugly, and really, really stupid!
+&oUNFUNNY?!
+She rasp on my berry 'til I flavour!
+There it is!
+Electrum tools will!
+Minecraft, but fruity!
+Do not the milly bubcap!
+How do I craft stone tools?!
+Kinda vanilla+!
+Killing Notch!
+Killing John Lennon!
+Does NOT contain Jenny!
+Tantivy!
+Tally-ho!
+Geronimo!
+No pomegranates!
+Jeepers peepers!
+:yummy_lead:!
+Chestnut-heads, rise up!
+&oLights out, Guerrilla Radio!
+None of the above!
+It's my radio dial!
+Call me fragile stone the way I crumble when I come into contact with anything!
+She Peeper on my Deeper till I Freeper the Creeper!
+Leading cause of lead poisoning!
+Quack!
+I'm-a tire!
+Here we go now, on the offense!
+Let's go to a place, where everything is made of blocks!
+&6The Exodus will rise.
+&6There is no End. Only Exodus.
+Little to no traces of code!
+Consume disc fragments!
+Peep this, stupid!
+Miners allowed!
+Kachow!
+No merch... yet!
+Never calling 'em "game drops"!
+Creaking out!
+Feelin' hounded!
+Um... bitchin'?
+Only a little tupid!
+Say that... again!
+And Creeper... you just be Creeper!
+2.3 when?
+I am placing blocks!
+Removed the infinite Shrek shitters!
+You've gotta be squiddin' me!
+And that's a choice, not a curse!
+Atmospheric!
+Environmental!
+Autumnal!
+My nation is surrounded by wasps and thorny spirits!
+See that heart? No shit!
+Why friend shaped?
+Painfully hard to translate!
+Peachboy, peachboy!
+Bröther, may I have söme öats?
+Now's your chance!
+&oIt's so Flyday, Flyday Chinatown!
+Literally 1984!
+Brains over brawn!
+Nascent!
+Nugget in a biscuit!
+One of every splash text vs. one billion lions!
+Herkese merhaba, ben Fake_Dead!
+https://discord.gg/jxNe26WNYh!
+It would be so awesome!
+It would be so cool!
+A thousand splash texts and you haven't read a single one!
+Trains no longer explode!
+Does NOT contain role icons!
+The chicken or the beef?
+Unlimited games, but no games!
+Car-pet! Car-pet!
+Don't you wanna battle to win a prize?
+I don't have a favourite number, I really don't!
+Arm fluttery thing!
+I'm like, the star of the show!
+Oh no Firey, you lit my fuse!
+Yoylecake!
+There's no one quite like you!
+Get digging!
+The ingredients are probably underground!
+Which iiiiis?!
+There isn't enough room up here!
+I want revenge!
+No one tells me what to do!
+Mechanical minds stick together!
+Budget cuts!
+Budget uts- uh, budget downsizings!
+I do have power... but not enough!
+Yeah, I know!
+Out of my way, I need my space!
+No more screechy, please!
+What? That's crazy!
+What? That's lazy!
+Ohmygoshohmygoshohmygoshohmygoshohmygoshohmygosh!
+Team Ice Cube, all the way, yay!
+You're a loser, but you're my loser!
+David and Dora?!
+I hate you!
+I hate legs!
+I hate flying!
+I hate this!
+I hate to live in a world where recovery is impossible!
+I hate it!
+I hate jumping!
+I hate fulcrums!
+I hate her!
+I hate them!
+I hate digging!
+I hate lassos!
+I hate broken elevators!
+I hate stairs!
+I hate everything in there!
+I hate cake!
+I hate this idea!
+I hate this stack!
+I hate rollercoasters!
+I hate jungles!
+I hate you being here!
+I hate the ability to fly!
+I hate water!
+I hate reading!
+I hate dancing!
+I hate thieves!
+I hate wasting time!
+I hate Tree death prevention!
+I hate when people betray a pact! Within reason... I'm complicated!
+I hate your team!
+I hate my mouth being left over here!
+I hate moving around independently as a mouth!
+I hate driving!
+I hate cliffs!
+I hate your deals!
+I hate helping other teams!
+I hate smiling!
+I hate whoever's hand that is!
+I hate waiting!
+I hate nonsense... but this is anything but!
+I hate arms!
+I hate scams!
+I hate awkward silence!
+I hate CloudYAY!
+I hate animals!
+I hate you too, Pencil!
+I hate crossovers!
+I hate fan wars!
+I hate Raspberry Flavoured!
+I have non-slip shoes, so ha!
+I'm Grassy!
+Don't you think I look beautiful?
+The chances of you quitting the game are 3.014 purrcent!
+I'm the new BTA!
+Please please please, can you play the modpack?!
+Why is there a bush here?
+Wasn't there a bush here?
+2763!
+Come host now!
+I was on my way to grape flying class...
+See you in post-production!
+Looks like someone's got the munchies!
+Hork-glorp-gloop-doot!
+OMG, there's points now!
+Dab it, my boyonocerus!
+Oobily goobily weezer beezers!
+Holy roly poly crawling in my guacamole!
+As canon as a cannon in a canyon!
+Green Needle!
+John Madden John Madden John Madden John Madden John Madden!
+&oThis was a triumph!
+&oI'm still alive!
+&oNow I only want you gone!
+Two plus two is... ten. IN BASE FOUR! I'M FINE!
+When life gives you lemons, don't make lemonade!
+Hello! This is the part where I kill you!
+I AM NOT! A MORON!
+How are you holding up? BECAUSE I'M A POTATO!
+You might have a minor case of serious brain damage!
+I'm in space, I'm in space!
+The Weighted Companion Cube will never threaten to stab you!
+Are you still there?
+Cave Johnson, we're done here!
+You're a horrible person... we weren't even testing for that!
+You will be baked... and then there will be... cake!
+Say apple!
+I'm definitionally challenged! Leave me alone!
+Oh, come on!
+And I'm NOT pink! I'm SALMON!
+That's the exact number of legs it takes to frighten me!
+Yep, those are the words of an independent thinker, alright!
+I took no breaks while yelling that!
+Need a hand? I've got zero!
+Baby host! Baby host! Wah wah!
+Now with 0 grams of added sugar!
+Made from concentrate!
+Not made from concentrate!
+Raspberries and raspberry accessories!
+All right everyone, let's mosey!
+dude stop being a fucking loser and use better splashes
+May contain tungsten dioxide!
+Nya! :3
+This is a strawberry-free establishment!
+They keep making me write these splashes. I've been stuck here for days. This is my only way to communicate. Please he
+A rubber room!
+Featuring Your Mother!
+This is just a tribute!
+Absolute Cinema!
+Don't be evil!
+The patient needs mouse bites to live!
+Now with Worms!
+Now without Worms!
+Follow Freeman!
+Potato Knishes!
+... from Wikipedia, the free encyclopedia!
+O P T I M I Z E D!
+Experience was bloat!
+Horse react this man!
+Me? Gongaga!
+Featuring Dante from the Devil May Cry series!
+do you mind im fucking transgender
+Never stay neutral!
+Let's take ibuprofen together!
+Your journey ends here, Pilot!
+Nowhere to run, nowhere to hide!
+Tell 'em Viper sent you!
+All or nothing!
+Mojang will remove your skin!
+&oA Dream More Scarlet than Violet!
+&oA Soul as Scarlet as a Ground Raspberry!
+&oCrabbaritions Stalk the Night!
+&oLunate Elf!
+&oBeloved Tomboyish Girl!
+&oShanghai Teahouse ~ Chinese Tea!
+&oShanghai Alice of Meiji 17!
+&oVoile, the Magic Library!
+&oLocked Girl ~ The Girl's Secret Room!
+&oThe Maid and the Pocket Watch of Blood!
+&oLunar Clock ~ Luna Dial!
+&oThe Young Descendant of Tepes!
+&oSeptette for the Dead Princess!
+&oThe Centennial Festival for Magical Girls!
+&oU.N. Owen Was Her?
+&oAn Eternity More Transgender than Scarlet!
+&oScarlet Chamber ~ Eastern Dream!
+Speed is key!
+'ticky bomb!
+Thread the needle!
+Vanilla style!
+I'll take a double triple MCreator Deluxe, sixteen by sixteen Vanilla Style, extra mixels with a Farmer and a Delight, make it AI, publish it, and let it slop!
+Make a new instance, don't update!
+It's time to ask someone who's actually smart!
+I've been sleepin' in a cardboard box!
+Every shape is a different flavour!
+Every flavour is a different shape!
+I turn little black worms into centipedes!
+For his neutral special, he wields a gun!
+The narwhal bacons at midnight!
+I'm dying because I'm so surprised!
+I'm dying because I'm an asparagus!
+Mine, you fools!
+As a large language model...
+Has working fletching tables! (No it doesn't)
+Craftable Mines!
+Secret Tuesday update!
+Now with magic!
+You RAM is the limit!
+Now with sphere-like objects!
+Working as intended!
+Talent trees!
+Clearly not made with AI!
+Unlockable!
+Participation awards!
+Copyright Mojang AB. Do not distribute!
+The sum of its parts!
+Slow acting portals!
+Download more RAM!
+Enter The Mine!
+Craft mines in Minecraft!
+Check out this mine of mine!
+Infinity 2.0: Now more finite!
+Minecraftlike!
+Deleting Overworld!
+Now with even less realism!
+How do I dig for mine?
+Contains collectibles!
+Famously unfinished!
+Reduced quality!
+Craft the Earth! In Minecraft!
+Minecraft À La Carte!
+Comparable with leading brands!
+Screens full of excitement!
+<loud portal sounds>
+Programmer Art without extra packs!
+Now with many more Mines!
+Unlock ALL the things!
+We joked every other year, but this time we are FOR REAL!
+Over 3 new items!
+Is that... is that a sphere!?
+99% less starch!
+And they call it a Mine? A MINE!
+Mine your own business!
+Do you Mine?
+Craft a Mine and then Mine and Craft!
+Just one more Mine
+We'll win the fight and then go out for pizzas!
+At least people like jokes!
+He's a frozen treat with an all-new taste!
+He left his family behind!
+It's like a Dad Museum!
+That's unusual!
+I just turned all my fingers into cats!
+Definitely always never do it!
+Welcome to a wonderland of funtronic gameventions!
+This is why I get up in the morning!
+I'll save you, television!
+They don't have any arms!
+Steven bomb!
+My mind is the internet!
+I know every continuity mistake ever made on television!
+Pizza rain!
+Wow, I want four legs too!
+Have a great weekend!
+You're like an angry little slice of pie!
+I was so wrong about being so wrong about you!
+Don't mess with his funky flow!
+We kept Amethyst!
+The ketchup... is inside the fries?!
+Call me... Lasagna!
+Your age isn't real and your body's an illusion!
+A big fat meanie zucchini!
+Strong in the real way!
+I can't deny that I'm a raging lesbian!
+Ash Ketchum is a boy from Pallet Town!
+Sometimes I dream about cheese!
+I could eat a horse, hooves and all!
+Eating an iron golem!
+The sky isn't real!
+You have died of dysentery... again!
+I can be your cheery wildflower or your moody wildflower!
+A worthless bum alone on a pile of bricks!
+Call 811 before you dig straight down!
+Enhanced with Mojang FastPlay!
+Over seven realms!
+When Cook's Collection gives you lemons!
+1, 2, Oatmeal!
+Terrabins all the way down!
+Rose Gold Peach!
+Patient zero for Woke Mind Virus!
+Manager Esquire!
+Diamond armour, full set!
+Comin' in hot!
+Hot lava and chicken!
+Slime cube!
+This pig is mine!
+You got yourself a sweet blade!
+I think this is Wyoming!
+Pink house!
+Swing kick!
+The Overworld!
+Buck-chuckets!
+They love crushin' a loaf!
+They're a bunch of big softies!
+Water bucket, release!
+This... is a crafting table!
+Welcome to the stash!
+The Nether!
+Flint and Steel!
+Chicken Jockey!
+First we mine, then we craft!
+Furnaces? Furni?
+YOUR TAKING TOO LONG
+YOUR        LONG
+YOUR TAKING TOO LONG IS TAKING TOO LONG
+YOUR        TOO TOO
+YOUR TOO BRIGHT
+I'm old!
+Rebuild my kids!
+HOW THE WHAT THE MAMA WHAT THE HECK THE WOH MAMMA WOAH MAMMA
+And now a WORM from our sponsors!
+MIKE, the BOARD, please!
+I'm bleedin' Banana Blood!
+All of your thoughts and feelings are wrong!
+I am the Millipede! I am Amazing!
+What are you doing inside of my house!
+How can you be sure that you are you?
+Put a banana in your ear!
+The dreaded letter Y!
+Grand Slamwich!
+Don't tell them about the owls!
+Magic City: The City of Magic has fallen!
+My father is Dead!
+When I see that booty, baby!
+Tell me that is not an upsetting looking bat!
+So here we are at the scene of the crime!
+Blblblb!
+Drum solo! Pa pa ta pata pa pa pata pa!
+Starfish loves you!
+That was a perfectly natural heart attack!
+Be fueled by mollusc magic!
+Mucus from the enchanted flesh orb!
+It's a magic foot and now it's my foot!
+You've got a friend inside me!
+It goes in the square hole!
+Ah shit, here we go again...
+What do you mean you're "at Soup"?!
+English or Spanish?
+It's Muffin Time!
+More milk per milk!
+Zeeky Boogy Doog!
+Good guys, bad guys and explosions as far as the eye can see!
+100 terabytes of KubeJS!
+20X6!!!
+45 to 90 minutes!
+632146 heavy slash!
+A measured response!
+A very quick stabbing!
+Accent Core Plus R!
+Are you less than?
+At your local library!
+Bakyuun!
+Ballos deserved better!
+Big iron!
+Bite and kill! Bite and kill!
+Blue key moment!
+Bootleg hunting!
+Boxes of knives!
+Breaking new ground!
+Bricked up!
+Bricky, stony things!
+Bright copper kettles!
+Bring the temperature probe!
+Briny lovers!
+Call Apogee, say Aardwolf!
+Can you make it to Safe Haven?
+Canvas bags!
+Cascading Stylesheets!
+Charge shots!
+Chew your ethernet cable!
+Chrome boy!
+Climax Cancel!
+Cloth gown gridlock!
+... Cookies?
+Copper's useful!
+Craft the Macguffin!
+Crocomire hates plasma!
+Custom textures!
+Deep storage unit!
+Deluxe! Premium!
+Don't fear the reaper!
+Don't run with scissors!
+Double shrunkled!
+Dress fancy, and be discreet!
+Drillbert!
+Eh, good enough!
+Embrace the void!
+Extreme slide!
+Everybody wants to see this happen!
+Fact batteries!
+Fish can roll!
+Free online multiplayer!
+Free public transport!
+Frantic dodge rolling!
+Frickin' lazor beams!
+Froggy poggy!
+Get my package!
+Go, Helo, go!
+Go into the dark!
+Going all in!
+Gotta get out, gotta get gone!
+Gungun!
+Gyro-enabled!
+Heaven or Hell!
+Hell is back on the menu!
+Huzzah!
+I came back haunted!
+I can't, I'm practicing me monologues!
+I can't see a thing!
+I drift tonight, carried by the waves!
+I got the picture!
+I have seen the amateur and it is YOU!
+I was up above it!
+I'm a tank, I'm a tank!
+Immediately fast!
+Incoming quad!
+Insert credit to start!
+Insomnia!
+Intentional missing textures!
+It was never not a cow, Gary!
+It's a beautiful day!
+It's a goo sack!
+It's always Joey!
+It's big, and it's dangerous!
+It's just the plot of Army of Darkness!
+It's like a fortress with legs!
+Despite everything, it's still you!
+Jam Handy's damn handy!
+Jesus is goth!
+Judith the Steampunker has arrived!
+Keepers in Iron!
+Last time I had this much fun, I got deactivated!
+Let my Cameron go!
+LOBBO!!
+Love, magic, feminism!
+Luxury apartments!
+Make peace with the leaf lovers!
+Marcel and Judith!
+Marshmallow bearings!
+Maximum impact!
+Maybe I'm all messed up!
+Microwave your enemies!
+Migrated from Fandom!
+Miners, not minors!
+"Mockball" has infinite spellings!
+Morkite!
+§4MORTIS
+My man was thinking about grails!
+Mystery Biscuits!
+Needs more dragons!
+Netbooks were good!
+Never submit! There WILL be more!
+No generative AI!
+No more beveling!
+No one said it would feel this good!
+No weapons at the bar, please!
+Not made in Unity!
+Not on Ouya!
+Not on Windows Store!
+Nothing quite like the feel of something new!
+Now I'm down in it!
+Oh, she got jaws!
+Onions have layers!
+Oops! You bwoke it.
+Orbs of infinite power!
+Panthers?
+Peep the horror!
+peggle master LFG
+Plus-size clothing!
+Polychrome jokers!
+Pocket rockets!
+Potion of explode your boss!
+Powered by the apocalypse!
+Press X to JSON!
+Pride and arrogance have found their prey!
+Quesadilla!
+Quite the opposite!
+Raise some hell with you!
+Read the ingredients!
+Refill those canisters!
+Repost to pet this isopod!
+Remove two warriors!
+Sacred Blossoms!
+Sad gay ghost!
+Scorched black mausoleums!
+Secret chests!
+Send in the fish!
+Sequence breaking!
+Sever flesh and bone!
+Silt and blowbugs!
+Skeleton tables!
+Slacktivism!
+Somebody stop me!
+Someone say stop!
+Spaceman Spiff!
+Spooty McMuffin!
+Steam Deck Verified!
+Stitched the seams, pulled the lever, strange desire!
+Styles upon styles!
+Suitless Maridia!
+T-Spin Double!
+Take some Pepto-Bismol and come on over!
+Take your meds!
+Taste the flesh!
+Teal!
+The Bean!
+The big box!
+The final challengers!
+The need for blood is rising!
+The only warrior you'd trust your back to!
+The Past still haunts you!
+The sequel nobody asked for!
+The void is harsh!
+Their pronouns are §kshe§r/§kher§r!
+There are many cyber sins!
+There is no you, there is only me!
+There was no hope of survival!
+There's no time to explain!
+These controls suck!
+That doesn't how boats is!
+Third Warfleet of the K'Flaarghs!
+This campaign takes weeks!
+This is the beginning!
+Too heavy to use!
+Traffikrab!
+Trinkets!
+Two rails! Impressive!
+Type-C charging!
+Ultimate match!
+Unionize!
+Upgrade your kernel!
+Use antibiotics!
+UT Translocator!
+#VerifyVenuz!
+Visit Falldown Mall!
+Walk up and grab!
+Walked back with a zombie bite!
+Warmup is over!
+Welcome to Jasondows!
+What do YOU fear is hiding in the dark?
+What &ois&r Rotten Flesh, anyway?
+Where's tater?
+Where's the roof?
+Without Tumblr's bot problem!
+Wizard, all your powers will be lost!
+X-rated content!
+XRD Revelator 2!
+Yeah, that makes sense!
+Yonic!
+Your test results are: &cNEEDS LLAMA HEAD
+Yummy burger!
+@raspmary, is this true?
+Cheese!
+Footprints!
+Bananas!
+Toeshoes!
+Mah brewskis!
+Bicycle build for two!
+My canoe!
+Content!
+Those pesky modders!
+License-free mappings!
+Those VHS!
+Pre-mixed coctails!
+Quasi-connectivity!
+Mice raft!
+Why do you always act like you're 6 years old?!
+I love a good Hot Dog!
+It took me 9 yeareals to collect those cereals!
+Nyum nyum nyum!
+Nyumph!
+Nyummers!
+Go, Hog Rider!
+Go, Battle Ram!
+Inspired a marriage!
+Colon three!
+Where's that DAMN fourth Chaos Emerald?!
+I'm sure glad I'm not &othat guy!
+hehwehwhwehhhewehe
+heeeeeeeee
+yaayayaaayyayayayaya
+haiiiii
+For whom the bell tolls!
+Ooo!
+Pin's Ooze On Pig Yum!
+Allen wrenches!
+Gerbil feeders!
+Toilet seats!
+Electric heaters!
+Trash compactors!
+Juice extractors!
+Shower rods!
+Water meters!
+Walkie-talkies!
+Copper wires!
+Safety goggles!
+Radial tires!
+BB pellets!
+Rubber mallets!
+Fans!
+Dehumidifiers!
+Picture hangers!
+Paper cutters!
+Waffle irons!
+Window shutters!
+Paint removers!
+Window louvres!
+Masking tape!
+Plastic gutters!
+Kitchen faucets!
+Folding tables!
+Weather stripping!
+Jumper cables!
+Hooks and tackle!
+Grout and spackle!
+Power foggers!
+Spoons and ladles!
+Pesticides for fumigation!
+High-performance lubrication!
+Metal roofing!
+Water proofing!
+Multi-purpose insulation!
+Air compressors!
+Brass connectors!
+Wrecking chisels!
+Smoke detectors!
+Tire gauges!
+Hamster cages!
+Thermostats!
+Bug deflectors!
+Trailer hitch demagnetizers!
+Automatic circumcisers!
+Tennis rackets!
+Angle brackets!
+Duracells and Energizers!
+Soffit panels!
+Circuit brakers!
+Vacuum cleaners!
+Coffee makers!
+Calculators!
+Generators!
+Matching salt and pepper shakers!
+You can have a splash, as a treat!
+Only a spoonful!
+Said you'd keep me safe, now you're tearing me down!
+Bee Yah!
+Cheese Bees!
+Watch out for that tree!
+Out after Silksong!
+That's more socializing than I've done in my entire life!
+The future is so yesterday!
+I can't believe &oshe forgot &rthat one!
+&oRaise up your bat for the burning fight!
+&oRaise up your bat and face the fright!
+&oLet's knock 'em dead into the night!
+&oRaise up your hat for a funny sight!
+&oMake sure to check your mat for mites!
+&oLet's get your friends and fly a kite!
+&oRaise up your bat for baseball delight!
+&oBring extra smores to the campsite!
+&oI bet my friends still want a bite!
+&oDon't forget, I'm with you in the dark!
+You Aced it!
+You dealt with that pretty well!
+Looks like you weren't bluffing!
+Too bad these chips are all virtual...
+Looks like I've taught you well!
+You made some heads up plays!
+Good thing I didn't bet against you!
+Life is a drag, life is a chore!
+Frightfully sad, so mindless a bore!
+Good heavens, you're bitter!
+You simply haven't had the fun of watching number go up!
+Raft Avoured!
+You are one giant lump of coal!
+Green is not a creative colour!
+My thing that I did!
+There's a worm in your brain!
+And we live in an actual NIGHTMARE!
+Get away from me Duncan!
+What's your favourite idea?
+Scrub scrub scrub 'til the water's brown!
+All the world's PIZZA keeps us in line!
+Too much yeast makes your teeth go gray!
+Wow, look - nothing!
+Rat eyes!
+AUGHGH
+I will burn down my orchard tonight!
+I'm the cool guy I guess, laidback and sad!
+I am a file and you put documents in me!
+Freelancers deserve to die!
+I always knew I deserved to be dead!
+Pesky bee!
+Do it healthy!
+Everybody hates you and no one cares!
+Listen to the voices in your brain!
+Such is the way of the woarm!
+That's pretty sorry right there!
+Tragically, the subject is nuanced!
+What about my shredder?!
+Every copy of Raspberry Flavoured is personalized!
+Girl, we've been knowing how to draw!
+I'm the beatboxing puppy!
+Everything's a splash at this point!
 Justice for seagulls!
 Justice for crabs!
-Justice for copper golems!
+Justice for tuff golems!
 Rest in peace, wild berries!
+Rest in peace, mulberries!
 Rest in peace, ceramic tools!
 Rest in peace, stone tools!
 Rest in peace, holly trees!
+Rest in peace, removed wood types!
+Rest in peace, experience!
+Rest in peace, End!
+Rest in peace, waxed lightly weathered cut copper stairs!
+Has &lAnother Furniture!
+Has &lAtmospheric!
+Has &lAutumnity!
+Has &lBagels' Palette Blocks!
+Has &lBrewin' and Chewin'!
+Has &lCaverns & Chasms!
+Has &lComfortable Campfires!
+Has &lCreate!
+Has &lCreate: Alloyed!
+Has &lCultural Delights!
+Has &lDomestication Innovation!
+Has &lEmbeddium!
+Has &lEMI!
+Has &lThe Endergetic Expansion &rfor some reason!
+Has &lEnvironmental!
+Has &lEvery Compat!
+Has &lExposure!
+Has &lFarmer's Delight!
+Has &lFarmer's Respite!
+Has &lFermion!
+Has &lForgery!
+Has &lFrame Changer!
+Has &lHourglass!
+Has &lImmersive Overlays!
+Has &lItem Obliterator!
+Has &lKubeJS!
+Has &lKubeJS Delight!
+Has &lMap Atlases!
+Has &lModest Mining!
+Has &lMouse Tweaks!
+Has &lMy Nether's Delight!
+Has &lNaturalist!
+Has &lNeapolitan!
+Has &lNether's Delight!
+Has &lNostalgic Tweaks!
+Has &lOnion Onion!
+Has &lOreganized!
+Has &lPeeping Angels!
+Has &lPolytone!
+Has &lProperty Modifier!
+Has &lQuark!
+Has &lRaspberry Core!
+Has &lSavage & Ravage!
+Has &lSpelunkery!
+Has &lSupplementaries!
+Has &lTwigs!
+Has &lUpgrade Aquatic!
+Has &lWindswept!
+Doesn't have Create 6... sorry!
 &oDon't &rtry &lMCreator!
 &oDon't &rtry &lSonic Origins!
 &oDon't &rtry &lSonic Omens!
@@ -809,102 +1711,143 @@ Rest in peace, holly trees!
 &oDon't &rtry &lBetter Minecraft!
 &oDon't &rtry &lRLCraft!
 &oDon't &rtry &lPoopSMP!
-Also try &lPlayful!
-Also try &lVanilla Extract!
-Also try &lMinecraft 2: The Alternate Timeline!
-Also try &lMusketeer!
-Also try &lZenia!
-Also try &lSonic Rust!
-Also try &lSonic Spinball!
-Also try &lSonic Colours!
-Also try &lSonic Sunventure!
-Also try &lBig's Big Fishing Derby!
-Also try &lDonkey Kong: Barrel Blast!
+&oDon't &rtry &lAI!
+&oDon't &rtry &lOptiFine!
+Also try &lANTONBLAST!
 Also try &lAnimal Crossing: Amiibo Festival!
-Also try &lMario Tennis: Ultra Smash!
+Also try &lBFDIA 5b!
+Also try &lBalatro!
+Also try &lBetter than Adventure!
+Also try &lBig's Big Fishing Derby!
+Also try &lBloons TD 6!
+Also try &lCave Story!
 Also try &lChibi-Robo: Zip-Lash!
-Also try &lPheasants Forever: Wingshooter!
-Also try &lOMORI!
-Also try &lLilypad!
-Also try &lGold Mine!
-Also try &lRaspberry Unlimited!
-Also try &lFlaspberry Ravoured!
-Also try &lBlasferry Varpoured!
-Also try &lRbepayrsr Frdveoaul!
-Also try &lYrpsrbrea Edruoavfl!
-Also try &lByeaprsrr Auolrvdef!
-Also try &lFoul Berry Flavoured!
-Also try &lOverflavoured!
-Also try &lFlavourless!
-Also try &lBailberry Flavoured!
+Also try &lCook's Collection!
 Also try &lCreate: Broken Bad!
 Also try &lCreate: Estrogen!
-Also try &lCursed Delights!
-Also try &lCook's Collection!
-Also try &lModest Mining!
-Also try &lPisciculture!
-Also try &lMuddy Routes!
-Also try &lQin's Artificery!
-Also try &lBetter than Adventure!
-Also try &lSurvivalcraft!
-Also try &lHard Time!
-Also try &lSignal Simulator!
-Also try &lBloons TD 6!
-Also try &lHarvestella!
-Also try &lYIIK: A Post-Modern RPG!
-Also try &lCrab Champions!
-Also try &lSlay the Spire!
-Also try &lHades!
-Also try &lHades II!
+Also try &lDB3K!
+Also try &lDonkey Kong: Barrel Blast!
 Also try &lEmber Knights!
-Also try &lInscryption!
-Also try &lVerditen!
-Also try &lGrimbly Schmeggle!
+Also try &lFactorio!
+Also try &lFlaspberry Ravoured!
+Also try &lForager!
+Also try &lGentle Brew!
+Also try &lGold Mine!
+Also try &lGrimbly Garden!
 Also try &lGrimbly Schmeggle 2!
+Also try &lGrimbly Schmeggle 3: Ultimate Grimble!
+Also try &lGrimbly Schmeggle!
+Also try &lHades II!
+Also try &lHades!
+Also try &lInfinity Plus!
+Also try &lInscryption!
+Also try &lLand Ahoy!
 Also try &lLast Card!
-Also try &lSonic Robo Blast 2!
+Also try &lLilypad!
+Also try &lMantle!
+Also try &lMario Tennis: Ultra Smash!
+Also try &lMinecraft 2: The Alternate Timeline!
+Also try &lMinecraft 3D: Lost Floppies!
+Also try &lModest Mining!
+Also try &lMuddy Routes!
+Also try &lMusketeer!
+Also try &lOMORI!
+Also try &lPheasants Forever: Wingshooter!
+Also try &lPisciculture!
+Also try &lPizza Tower!
+Also try &lPlayful!
+Also try &lPlug Cembuin!
+Also try &lPortal 2!
+Also try &lPortal!
+Also try &lPotion Craft!
+Also try &lPyrite!
+Also try &lQin's Artificery!
+Also try &lRaspberry Flavoured: Full Flavour - Digital Deluxe!
+Also try &lReminiscence!
+Also try &lRose's Reimagined Minecraft!
+Also try &lShattered Depths!
+Also try &lSimply Craftmine!
+Also try &lSimply Infinite!
+Also try &lSlay the Spire!
+Also try &lSlime Rancher 2!
+Also try &lSlime Rancher!
 Also try &lSonic 1 Forever!
 Also try &lSonic 2 Absolute!
 Also try &lSonic 3 A.I.R.!
-Also try &lPizza Tower!
-Also try &lANTONBLAST!
-Also try &lFactorio!
-Also try &lThe Impossible Quiz!
+Also try &lSonic Colors!
+Also try &lSonic Racing: Crossworlds!
+Also try &lSonic Robo Blast 2!
+Also try &lSonic Spinball!
+Also try &lSonic Sunventure!
+Also try &lSteven Universe: Attack the Light!
+Also try &lSteven Universe: Save the Light!
+Also try &lSteven Universe: Unleash the Light!
 Also try &lSuper Mario Bros. Wonder!
-Also try &lForager!
+Also try &lSurvivalcraft!
+Also try &lTerralink!
+Also try &lThe Henry Stickmin Collection!
+Also try &lThe Impossible Quiz!
+Also try &lThe Stanley Parable!
+Also try &lThe Stanley Parable: Ultra Deluxe!
+Also try &lTherapy!
+Also try &lTouching Grass!
 Also try &lUndertale Yellow!
-&lSubscribe to raspmary! &r... please?
-MadRaz forever!
-love you bailey :3
+Also try &lVanilla Extract!
+Also try &lVerditen!
+Also try &lVintage Story!
+Also try &lViva Piñata!
+Also try &lViva Piñata: Party Animals!
+Also try &lViva Piñata: Trouble in Paradise!
+Also try &lWorm 64!
+Also try &lYIIK: A Post-Modern RPG!
 Now Tio Flavoured! Mmm, spicy.
-Shoutout to &lSonicBoss1991!
-Shoutout to &lNCP Bails!
-Shoutout to &lQinomeD!
-Shoutout to &lChad!
-Shoutout to &lNive!
-Shoutout to &lCrabbarition!
-Shoutout to &lnöelle!
-Bye &lDolt!
-Shoutout to &lWaterOre!
-Shoutout to &lculling!
-Shoutout to &lMythrilBagels!
+&lSubscribe to raspmary! &r... please?
+love you bailey <3
+Shoutout to &lBaisylia! <3
+Shoutout to &lcassiancc!
 Shoutout to &lDavigJ!
+Shoutout to &lnöelle!
+Shoutout to &lNive!
+Shoutout to &lQinomeD!
+Shoutout to &lCrabbarition!
+Shoutout to &lasof!
+Shoutout to &lDerb!
+Shoutout to &lProbablyEkho!
+Shoutout to &lKayla_the_Bee!
+Shoutout to &lChad!
+Shoutout to &lKiroto!
 Shoutout to &lMehVahdJukaar!
+Shoutout to &lDoltHHaven!
+Shoutout to &lMythrilBagels!
 Shoutout to &lJamiscus!
-Shoutout to &lFreshah!
-Shoutout to &lVazkii!
-Shoutout to &lKelpiesaurus!
+Shoutout to &lCW!
+Shoutout to &lKobber!
 Shoutout to &lnoodleman!
-Shoutout to &lmurao.kun!
 Shoutout to &lbeb!
 Shoutout to &lJameslice!
-Shoutout to &lProbablyEkho!
+Shoutout to &ljaybees!
+Shoutout to &lSarahIsWeird!
+Shoutout to &lGrom PE!
+Shoutout to &lWaterOre!
 Shoutout to &lAkhillLikesMinecraft!
+Shoutout to &lculling!
+Shoutout to &lKelpiesaurus!
+Shoutout to &ldb3k!
+Shoutout to &lVazkii!
+Shoutout to &lFreshah!
+Shoutout to &lmurao.kun!
+Shoutout to &lZeera the Zesty!
+Shoutout to &lThe Bottom Dweller!
+Shoutout to &lWestoro!
+Shoutout to &lCosmonautic!
+Shoutout to &lIceMcFall!
+Shoutout to &lMisty Rio Strider!
 Shoutout to &lChef's Delights!
+Shoutout to &lSonicBoss1991!
 Shoutout to &lPalm!
 Shoutout to &lScrap Sorra!
 Shoutout to &lSpncr!
 Shoutout to &lThe Sonic Hangout!
 Shoutout to &lthe RF Discord server!
-211 mods!
-&oThis splash has a 1 in 841 chance of showing up!
+238 mods!
+This splash has a &l1 &rin &l1846 &rchance of showing up!

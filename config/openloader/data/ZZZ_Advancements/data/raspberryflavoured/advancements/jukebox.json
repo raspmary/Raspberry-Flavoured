@@ -1,0 +1,35 @@
+{
+  "parent": "raspberryflavoured:dungeon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "etched:album_jukebox"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Place down a jukebox and get musical!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "etched:album_jukebox"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Musical Mayhem"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

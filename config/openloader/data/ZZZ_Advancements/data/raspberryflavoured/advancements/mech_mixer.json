@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Place down a mechanical mixer over a basin to start mixing ingredients or materials - this is the most resource efficient way to get andesite alloy, and is also the only way to brew your own potions!"
+      "text": "Place down a mechanical mixer over a basin to start mixing ingredients and materials"
     },
     "frame": "task",
     "hidden": false,

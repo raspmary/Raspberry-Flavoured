@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"description": " §c│§r  §fʙʏ:§r §6zanderest§r §fꜰᴏʀ: ≥1.20§r\n §c∙§r  §7Translucent Glass (mod)§r",
+		"name": "Crude Glass",
+		"pack_format": 16,
+		"supported_formats": {
+			"min_inclusive": 16,
+			"max_inclusive": 37
+		}
+	}
+}

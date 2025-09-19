@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "cookingtime": 50,
-  "ingredient": {
-    "tag": "minecraft:small_flowers"
-  },
-  "result": "supplementaries:ash"
-}

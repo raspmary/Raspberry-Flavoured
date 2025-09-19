@@ -1,0 +1,12 @@
+{
+  "type": "aquaculture:fish_spawn",
+  "spawn": {
+    "type": "aquaculture:atlantic_cod",
+    "weight": 0,
+    "minCount": 1,
+    "maxCount": 1
+  },
+  "includeBiomes": ["#forge:is_cold", "#minecraft:is_ocean"],
+  "excludeBiomes": ["#aquaculture:empty"],
+  "and": true
+}

@@ -9,7 +9,7 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "create:wheat_flour"
+      "tag": "farmersdelight:wheat_or_flour"
     },
     {
       "fluid": "create:honey",
@@ -19,7 +19,7 @@
   "results": [
     {
       "item": "create_confectionery:honey_candy",
-      "count": 4
+      "count": 6
     }
   ],
   "heatRequirement": "heated"

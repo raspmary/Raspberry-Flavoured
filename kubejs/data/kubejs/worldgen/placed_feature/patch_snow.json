@@ -1,0 +1,36 @@
+{
+  "feature": "kubejs:patch_snow",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "noise_level": 3.14159,
+      "below_noise": 5,
+      "above_noise": 7
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -3,
+          "max_inclusive": 3
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

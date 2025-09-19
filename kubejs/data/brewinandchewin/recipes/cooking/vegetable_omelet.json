@@ -13,10 +13,10 @@
       "tag": "forge:eggs"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "forge:crops/onion"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:vegetables"
     }
   ],
   "recipe_book_tab": "meals",

@@ -2,6 +2,8 @@
   "values": [
     "savage_and_ravage:creepie",
 	"minecraft:piglin",
+	"minecraft:piglin_brute",
+	"piglinproliferation:piglin_alchemist",
 	"minecraft:enderman",
 	"minecraft:warden"
   ]

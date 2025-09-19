@@ -28,7 +28,19 @@
             }
           ],
           "name": "minecraft:netherite_ingot",
-          "weight": 15
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "caverns_and_chasms:necromium_ingot",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -65,111 +77,6 @@
           ],
           "name": "minecraft:ancient_debris",
           "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.7
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "alloyed:steel_sword",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.7
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "alloyed:steel_chestplate",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.7
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "alloyed:steel_helmet",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.7
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "alloyed:steel_leggings",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.7
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "alloyed:steel_boots",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alloyed:steel_sword",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alloyed:steel_chestplate",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alloyed:steel_helmet",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alloyed:steel_boots",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alloyed:steel_leggings",
-          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -227,28 +134,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 4.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:raw_gold_block"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:raw_iron_block"
         },
         {
           "type": "minecraft:item",
@@ -272,13 +164,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 9.0,
-                "min": 3.0
+                "max": 24.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:raw_iron"
+          "name": "oreganized:raw_lead"
         },
         {
           "type": "minecraft:item",
@@ -317,8 +209,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 5.0
+                "max": 12.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -332,13 +224,43 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 3.0
+                "max": 10.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mynethersdelight:bullet_pepper"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersrespite:coffee_beans"
         }
       ],
       "rolls": {

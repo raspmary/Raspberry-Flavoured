@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:block/rubber_tire_top",
+    "side": "kubejs:block/rubber_tire"
+  }
+}

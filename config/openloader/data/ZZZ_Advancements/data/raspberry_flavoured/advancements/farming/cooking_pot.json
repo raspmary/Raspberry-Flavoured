@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:farming/oven",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "farmersdelight:cooking_pot"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.cooking_pot.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.cooking_pot.description"
+    },
+    "icon": {
+      "item": "farmersdelight:cooking_pot"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

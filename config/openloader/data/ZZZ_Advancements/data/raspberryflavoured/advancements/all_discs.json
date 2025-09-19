@@ -1,7 +1,7 @@
 {
   "parent": "raspberryflavoured:eleven",
   "criteria": {
-    "01": {
+    "C418 - 13": {
       "conditions": {
         "items": [
           {
@@ -13,7 +13,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"02": {
+	"C418 - cat": {
       "conditions": {
         "items": [
           {
@@ -25,7 +25,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"03": {
+	"C418 - blocks": {
       "conditions": {
         "items": [
           {
@@ -37,7 +37,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"04": {
+	"C418 - chirp": {
       "conditions": {
         "items": [
           {
@@ -49,7 +49,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"05": {
+	"C418 - far": {
       "conditions": {
         "items": [
           {
@@ -61,7 +61,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"06": {
+	"C418 - mall": {
       "conditions": {
         "items": [
           {
@@ -73,7 +73,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"07": {
+	"C418 - mellohi": {
       "conditions": {
         "items": [
           {
@@ -85,7 +85,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"08": {
+	"C418 - stal": {
       "conditions": {
         "items": [
           {
@@ -97,7 +97,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"09": {
+	"C418 - strad": {
       "conditions": {
         "items": [
           {
@@ -109,7 +109,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"10": {
+	"C418 - ward": {
       "conditions": {
         "items": [
           {
@@ -121,7 +121,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"11": {
+	"C418 - 11": {
       "conditions": {
         "items": [
           {
@@ -133,7 +133,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"12": {
+	"C418 - wait": {
       "conditions": {
         "items": [
           {
@@ -145,7 +145,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"13": {
+	"Lena Raine - otherside": {
       "conditions": {
         "items": [
           {
@@ -157,7 +157,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"14": {
+	"Samuel Åberg - 5": {
       "conditions": {
         "items": [
           {
@@ -169,7 +169,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"15": {
+	"Lena Raine - Pigstep": {
       "conditions": {
         "items": [
           {
@@ -181,7 +181,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"16": {
+	"RENREN - Fox": {
       "conditions": {
         "items": [
           {
@@ -193,7 +193,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"17": {
+	"Firch - structure": {
       "conditions": {
         "items": [
           {
@@ -205,7 +205,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"18": {
+	"BooWho - coconut": {
       "conditions": {
         "items": [
           {
@@ -217,7 +217,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"19": {
+	"RENREN - Slabrave": {
       "conditions": {
         "items": [
           {
@@ -229,7 +229,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"20": {
+	"RENREN - Hullabaloo": {
       "conditions": {
         "items": [
           {
@@ -241,7 +241,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"21": {
+	"hatsondogs - Atlantis": {
       "conditions": {
         "items": [
           {
@@ -253,7 +253,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"22": {
+	"rose - rain": {
       "conditions": {
         "items": [
           {
@@ -265,7 +265,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"23": {
+	"rose - snow": {
       "conditions": {
         "items": [
           {
@@ -277,7 +277,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"24": {
+	"rose - bumblebee": {
       "conditions": {
         "items": [
           {
@@ -289,7 +289,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"25": {
+	"C418 - eleven": {
       "conditions": {
         "items": [
           {
@@ -301,7 +301,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"26": {
+	"C418 - dog": {
       "conditions": {
         "items": [
           {
@@ -313,7 +313,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"30": {
+	"raspmary & Crabbarition - frontier": {
       "conditions": {
         "items": [
           {
@@ -325,7 +325,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"31": {
+	"Crabbarition - shimmer": {
       "conditions": {
         "items": [
           {
@@ -337,7 +337,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"32": {
+	"raspmary - origin": {
       "conditions": {
         "items": [
           {
@@ -349,7 +349,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"33": {
+	"raspmary - savour": {
       "conditions": {
         "items": [
           {
@@ -361,7 +361,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"34": {
+	"C418 - death": {
       "conditions": {
         "items": [
           {
@@ -373,7 +373,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"35": {
+	"C418 - face": {
       "conditions": {
         "items": [
           {
@@ -385,12 +385,96 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"36": {
+	"C418 - ricochet": {
       "conditions": {
         "items": [
           {
             "items": [
               "kubejs:music_disc_droopy2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"LudoCrypt - scour": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sullysmod:music_disc_scour"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Lena Raine - Creator": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trickytrialspaintingsplusmusic:music_disc_creator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Aaron Cherof - Precipice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trickytrialspaintingsplusmusic:music_disc_precipice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Aaron Cherof - Relic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trickytrialspaintingsplusmusic:music_disc_relic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"nöelle - fruitiger": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_fruitiger"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Antimo & Welles - Redstone Baby": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_redstone_baby"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"raspmary - Raveyard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_raveyard"
             ]
           }
         ]
@@ -405,9 +489,10 @@
       "text": "Collect every single music disc"
     },
     "frame": "challenge",
-    "hidden": true,
+    "hidden": false,
     "icon": {
-      "item": "kubejs:music_disc_origin"
+      "item": "kubejs:music_disc_origin",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
     },
     "show_toast": true,
     "title": {
@@ -419,103 +504,124 @@
     },
   "requirements": [
     [
-      "01"
+      "C418 - 13"
     ],
 	[
-      "02"
+      "C418 - cat"
     ],
 	[
-      "03"
+      "C418 - blocks"
     ],
 	[
-      "04"
+      "C418 - chirp"
     ],
     [
-      "05"
+      "C418 - far"
     ],
 	[
-      "06"
+      "C418 - mall"
     ],
 	[
-      "07"
+      "C418 - mellohi"
     ],
 	[
-      "08"
+      "C418 - stal"
     ],
 	[
-      "09"
+      "C418 - strad"
     ],
 	[
-      "10"
+      "C418 - ward"
     ],
 	[
-      "11"
+      "C418 - 11"
     ],
 	[
-      "12"
+      "C418 - wait"
     ],
 	[
-      "13"
+      "Lena Raine - otherside"
     ],
 	[
-      "14"
+      "Samuel Åberg - 5"
     ],
 	[
-      "15"
+      "Lena Raine - Pigstep"
     ],
 	[
-      "16"
+      "RENREN - Fox"
     ],
 	[
-      "17"
+      "Firch - structure"
     ],
 	[
-      "18"
+      "BooWho - coconut"
     ],
 	[
-      "19"
+      "RENREN - Slabrave"
     ],
 	[
-      "20"
+      "RENREN - Hullabaloo"
     ],
 	[
-      "21"
+      "hatsondogs - Atlantis"
     ],
 	[
-      "22"
+      "rose - rain"
     ],
 	[
-      "23"
+      "rose - snow"
     ],
 	[
-      "24"
+      "rose - bumblebee"
     ],
 	[
-      "25"
+      "C418 - eleven"
     ],
 	[
-      "26"
+      "C418 - dog"
     ],
 	[
-      "30"
+      "raspmary & Crabbarition - frontier"
     ],
 	[
-      "31"
+      "Crabbarition - shimmer"
     ],
 	[
-      "32"
+      "raspmary - origin"
     ],
 	[
-      "33"
+      "raspmary - savour"
     ],
 	[
-      "34"
+      "C418 - death"
     ],
 	[
-      "35"
+      "C418 - face"
     ],
 	[
-      "36"
+      "C418 - ricochet"
+    ],
+	[
+      "LudoCrypt - scour"
+    ],
+	[
+      "Lena Raine - Creator"
+    ],
+	[
+      "Aaron Cherof - Precipice"
+    ],
+	[
+      "Aaron Cherof - Relic"
+    ],
+	[
+      "nöelle - fruitiger"
+    ],
+	[
+      "Antimo & Welles - Redstone Baby"
+    ],
+	[
+      "raspmary - Raveyard"
     ]
   ]
 }

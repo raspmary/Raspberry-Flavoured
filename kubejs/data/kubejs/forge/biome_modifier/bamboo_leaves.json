@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:bamboo_leaves_biomes",
+  "features": "kubejs:bamboo_leaves",
+  "step": "vegetal_decoration"
+}

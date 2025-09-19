@@ -8,13 +8,13 @@
       "item": "farmersdelight:cooked_rice"
     },
     {
-      "item": "farmersdelight:cooked_rice"
+      "item": "spelunkery:salt"
     },
     {
       "item": "minecraft:sweet_berries"
     },
     {
-      "tag": "forge:raw_fishes/salmon"
+      "tag": "raspberry_flavoured:raw_fish"
     }
   ],
   "result": {

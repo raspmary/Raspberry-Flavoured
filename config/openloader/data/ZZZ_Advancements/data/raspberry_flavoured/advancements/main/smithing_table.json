@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:main/pickaxe_upgrade",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "minecraft:smithing_table"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.smithing_table.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.smithing_table.description"
+    },
+    "icon": {
+      "item": "minecraft:smithing_table"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "forge:chests/wooden",
+  "replaces_with": [
+    {
+      "data": "woodworks:oak_chest",
+      "weight": 1
+    },
+    {
+      "data": "woodworks:spruce_chest",
+      "weight": 1
+    },
+    {
+      "data": "woodworks:birch_chest",
+      "weight": 1
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:shipwreck",
+      "minecraft:shipwreck_beached",
+      "explorify:mausoleum",
+      "betterdungeons:skeleton_dungeon",
+      "betterdungeons:small_dungeon",
+      "betterdungeons:zombie_dungeon"
+    ]
+  }
+}

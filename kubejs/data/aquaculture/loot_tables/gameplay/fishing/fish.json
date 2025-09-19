@@ -1,0 +1,237 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "aquaculture:biome_tag_check",
+                  "predicate": {
+                    "include": ["forge:is_cold", "minecraft:is_ocean"],
+                    "and": true
+                  }
+                },
+                {
+                  "condition": "aquaculture:biome_tag_check",
+                  "predicate": {
+                    "include": ["forge:is_cold", "minecraft:is_beach"],
+                    "and": true
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 40,
+          "name": "aquaculture:blackfish"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["minecraft:is_ocean", "minecraft:is_beach"],
+                "exclude": ["forge:is_hot"]
+              }
+            }
+          ],
+          "weight": 60,
+          "name": "aquaculture:atlantic_herring"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "aquaculture:biome_tag_check",
+                  "predicate": {
+                    "include": ["forge:is_cold", "minecraft:is_ocean"],
+                    "and": true
+                  }
+                },
+                {
+                  "condition": "aquaculture:biome_tag_check",
+                  "predicate": {
+                    "include": ["forge:is_cold", "minecraft:is_beach"],
+                    "and": true
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 25,
+          "name": "aquaculture:pollock"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["forge:is_dry"],
+                "exclude": ["forge:is_cold"]
+              }
+            }
+          ],
+          "weight": 20,
+          "name": "aquaculture:bayad"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["forge:is_dry"],
+                "exclude": ["forge:is_cold"]
+              }
+            }
+          ],
+          "weight": 30,
+          "name": "aquaculture:boulti"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["forge:is_dry"],
+                "exclude": ["forge:is_cold"]
+              }
+            }
+          ],
+          "weight": 5,
+          "name": "aquaculture:capitaine"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["forge:is_dry"],
+                "exclude": ["forge:is_cold"]
+              }
+            }
+          ],
+          "weight": 60,
+          "name": "aquaculture:synodontis"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_dry", "minecraft:is_jungle"]
+              }
+            }
+          ],
+          "weight": 60,
+          "name": "aquaculture:bluegill"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_hot", "forge:is_dry", "minecraft:is_jungle"]
+              }
+            }
+          ],
+          "weight": 30,
+          "name": "aquaculture:brown_trout"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_dry", "minecraft:is_jungle"]
+              }
+            }
+          ],
+          "weight": 30,
+          "name": "aquaculture:carp"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_dry", "forge:is_snowy", "minecraft:is_jungle"]
+              }
+            }
+          ],
+          "weight": 20,
+          "name": "aquaculture:gar"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_hot", "forge:is_dry", "minecraft:is_jungle"]
+              }
+            }
+          ],
+          "weight": 60,
+          "name": "upgrade_aquatic:perch"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["minecraft:is_jungle"]
+              }
+            }
+          ],
+          "weight": 20,
+          "name": "aquaculture:tambaqui"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["minecraft:is_ocean", "minecraft:is_beach"]
+              }
+            }
+          ],
+          "weight": 20,
+          "name": "aquaculture:red_grouper"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "aquaculture:biome_tag_check",
+              "predicate": {
+                "include": ["minecraft:is_ocean", "minecraft:is_beach"]
+              }
+            }
+          ],
+          "weight": 5,
+          "name": "aquaculture:tuna"
+        }
+      ]
+    }
+  ]
+}

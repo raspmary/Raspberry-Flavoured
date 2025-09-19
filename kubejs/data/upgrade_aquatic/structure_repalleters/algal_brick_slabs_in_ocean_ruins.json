@@ -1,0 +1,13 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stone_brick_slab",
+  "replaces_with": "architects_palette:algal_brick_slab",
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:ocean_ruin_warm",
+      "minecraft:ocean_ruin_cold"
+    ]
+  }
+}

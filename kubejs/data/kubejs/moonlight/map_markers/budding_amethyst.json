@@ -1,0 +1,6 @@
+{
+  "target_block": {
+    "block": "minecraft:budding_amethyst",
+    "predicate_type": "minecraft:block_match"
+  }
+}

@@ -16,7 +16,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
+                "min": 2.0,
                 "max": 4.0,
                 "type": "minecraft:uniform"
               }
@@ -24,37 +24,27 @@
           ]
         },
         {
-          "name": "minecraft:rotten_flesh",
+          "name": "architects_palette:rotten_flesh_block",
           "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 8.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 10
         },
         {
-          "name": "minecraft:quartz",
+          "name": "spelunkery:rough_quartz_block",
           "type": "minecraft:item",
           "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 7.0,
+                "min": 1.0,
+                "max": 2.0,
                 "type": "minecraft:uniform"
               }
             }
           ]
         },
         {
-          "name": "minecraft:raw_iron",
+          "name": "oreganized:raw_lead",
           "type": "minecraft:item",
           "weight": 10,
           "functions": [
@@ -99,207 +89,83 @@
           ]
         },
         {
-          "name": "minecraft:nether_wart",
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 10.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
           "name": "nethersdelight:hoglin_hide",
           "type": "minecraft:item",
           "weight": 3
         },
         {
-          "name": "minecraft:golden_horse_armor",
-          "type": "minecraft:item"
-        },
-        {
           "name": "minecraft:golden_sword",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:golden_boots",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:golden_chestplate",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:golden_leggings",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:golden_helmet",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:iron_sword",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 10.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:chainmail_boots",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 10.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:chainmail_chestplate",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 10.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:chainmail_leggings",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 10.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "name": "minecraft:chainmail_helmet",
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 10.0,
-                "max": 25.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
+          "weight": 3
         }
       ]
     },
     {
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0,
-        "type": "minecraft:uniform"
-      },
+      "rolls": 1.0,
       "entries": [
         {
-          "name": "minecraft:saddle",
-          "type": "minecraft:item",
-          "weight": 20
+          "type": "minecraft:empty",
+          "weight": 12
         },
         {
           "name": "minecraft:music_disc_13",
           "type": "minecraft:item",
-          "weight": 15
+          "weight": 10
         },
         {
-          "name": "minecraft:music_disc_blocks",
+          "name": "minecraft:music_disc_ward",
           "type": "minecraft:item",
-          "weight": 15
+          "weight": 7
         },
         {
-          "name": "minecraft:music_disc_chirp",
+          "name": "oreganized:music_disc_structure",
           "type": "minecraft:item",
-          "weight": 15
+          "weight": 4
         },
         {
           "name": "minecraft:music_disc_pigstep",
@@ -307,24 +173,9 @@
           "weight": 1
         },
         {
-          "name": "minecraft:name_tag",
-          "type": "minecraft:item",
-          "weight": 20
-        },
-        {
           "name": "minecraft:enchanted_golden_apple",
           "type": "minecraft:item",
-          "weight": 2
-        },
-        {
-          "name": "minecraft:book",
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ]
+          "weight": 1
         }
       ]
     },
@@ -336,15 +187,15 @@
       },
       "entries": [
         {
-          "name": "minecraft:coal",
+          "name": "spelunkery:coal_lump",
           "type": "minecraft:item",
           "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 9.0,
+                "min": 6.0,
+                "max": 24.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -358,8 +209,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
+                "min": 2.0,
+                "max": 7.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -374,7 +225,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 2.0,
-                "max": 9.0,
+                "max": 12.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -389,7 +240,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 4.0,
-                "max": 8.0,
+                "max": 18.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -403,7 +254,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
+                "min": 2.0,
                 "max": 9.0,
                 "type": "minecraft:uniform"
               }
@@ -420,21 +271,6 @@
               "count": {
                 "min": 2.0,
                 "max": 9.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "name": "minecraft:nether_wart",
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 6.0,
-                "max": 10.0,
                 "type": "minecraft:uniform"
               }
             }

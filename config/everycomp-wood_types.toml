@@ -49,6 +49,10 @@
 			willow = true
 			cherry = true
 
+		[types.leaves_type.cookscollection]
+			lemon = true
+			fruiting_lemon = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -95,6 +99,9 @@
 
 		[types.wood_type.endergetic]
 			poise = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
 
 [entries]
 
@@ -152,4 +159,16 @@
 
 		[entries.wood_type.twigs]
 			table = false
+
+		[entries.wood_type.friendsandfoes]
+			beehive = true
+
+		[entries.wood_type.storagedrawers]
+			trim = false
+			full_drawers_2 = false
+			half_drawers_1 = false
+			full_drawers_4 = false
+			half_drawers_4 = false
+			half_drawers_2 = false
+			full_drawers_1 = false
 

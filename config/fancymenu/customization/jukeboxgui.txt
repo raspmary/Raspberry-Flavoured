@@ -16,16 +16,16 @@ customization {
 customization {
   identifier = %id=428450%
   orientation = mid-centered
-  x = -51
+  x = -55
   action = movebutton
-  y = -49
+  y = -51
 }
 
 customization {
   identifier = %id=428450%
-  width = 11
+  width = 14
   action = resizebutton
-  height = 17
+  height = 22
 }
 
 customization {
@@ -47,16 +47,16 @@ customization {
   identifier = %id=536450%
   orientation = element
   orientation_element = vanillabtn:428450
-  x = 91
+  x = 96
   action = movebutton
-  y = 0
+  y = -1
 }
 
 customization {
   identifier = %id=536450%
-  width = 11
+  width = 14
   action = resizebutton
-  height = 17
+  height = 22
 }
 
 customization {

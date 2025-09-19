@@ -1,0 +1,121 @@
+{
+  "parent": "raspberry_flavoured:farming/root",
+  "criteria": {
+    "Light Campfire Kindling on fire": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge",
+			"twigs:twig"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+	"Light Soul Campfire Kindling on fire": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge",
+			"twigs:twig"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:soul_campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+	"Light Cupric Campfire Kindling on fire": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge",
+			"twigs:twig"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "caverns_and_chasms:cupric_campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+	"Light Exodic Campfire Kindling on fire": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+			"minecraft:fire_charge",
+			"twigs:twig"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "endergetic:ender_campfire"
+            ],
+            "state": {
+              "lit": "true"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.campfire.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.campfire.description"
+    },
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Light Campfire Kindling on fire",
+      "Light Soul Campfire Kindling on fire",
+      "Light Cupric Campfire Kindling on fire",
+      "Light Exodic Campfire Kindling on fire"
+    ]
+  ]
+}
+    

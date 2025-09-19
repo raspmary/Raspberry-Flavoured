@@ -529,7 +529,8 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "minecraft:swamp"
+                        "minecraft:swamp",
+                        "kubejs:mudflats"
                       ]
                     },
                     "then_run": {
@@ -581,7 +582,8 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "minecraft:mangrove_swamp"
+                        "minecraft:mangrove_swamp",
+                        "kubejs:mudflats"
                       ]
                     },
                     "then_run": {
@@ -1682,7 +1684,8 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
-                              "minecraft:mangrove_swamp"
+                              "minecraft:mangrove_swamp",
+                              "kubejs:mudflats"
                             ]
                           },
                           "then_run": {
@@ -2344,7 +2347,8 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
-                              "minecraft:mangrove_swamp"
+                              "minecraft:mangrove_swamp",
+                              "kubejs:mudflats"
                             ]
                           },
                           "then_run": {

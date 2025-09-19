@@ -14,12 +14,13 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Construct a maximum level beacon"
+      "text": "Construct a maximum level beacon, with 5 layers of resource blocks"
     },
     "frame": "challenge",
-    "hidden": true,
+    "hidden": false,
     "icon": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:beacon",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
     },
     "show_toast": true,
     "title": {

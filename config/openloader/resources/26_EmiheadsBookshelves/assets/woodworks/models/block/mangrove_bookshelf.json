@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "woodworks:block/mangrove_bookshelf_top",
+    "side": "woodworks:block/mangrove_bookshelf"
+  }
+}

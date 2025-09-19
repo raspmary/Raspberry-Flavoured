@@ -1,7 +1,19 @@
 {
-  "parent": "raspberryflavoured:dungeon",
+  "parent": "raspberryflavoured:totem_of_undying",
   "criteria": {
-    "0": {
+    "Obtain Totem of Undying": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Mask of Dishonesty": {
       "conditions": {
         "items": [
           {
@@ -13,7 +25,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"1": {
+	"Obtain Conch of Conjuring": {
       "conditions": {
         "items": [
           {
@@ -25,7 +37,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"3": {
+	"Obtain Wand of Freezing": {
       "conditions": {
         "items": [
           {
@@ -42,12 +54,13 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Collect the three ancient relics scattered around the world"
+      "text": "Collect the four ancient relics scattered around the world"
     },
     "frame": "challenge",
-    "hidden": true,
+    "hidden": false,
     "icon": {
-      "item": "savage_and_ravage:mask_of_dishonesty"
+      "item": "savage_and_ravage:mask_of_dishonesty",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
     },
     "show_toast": true,
     "title": {
@@ -59,13 +72,16 @@
     },
   "requirements": [
     [
-      "0"
+      "Obtain Totem of Undying"
+    ],
+    [
+      "Obtain Mask of Dishonesty"
     ],
 	[
-      "1"
+      "Obtain Conch of Conjuring"
     ],
 	[
-      "3"
+      "Obtain Wand of Freezing"
     ]
   ]
 }

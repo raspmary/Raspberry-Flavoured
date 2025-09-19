@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+	{
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "type": "neapolitan:chimpanzee"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:piglin_brute"
+      }
+    }
+  ],
+  "item": "neapolitan:music_disc_hullabaloo"
+}

@@ -1,0 +1,222 @@
+{
+  "parent": "raspberry_flavoured:farming/all_cookies",
+  "criteria": {
+    "Obtain Sweet Berry Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Vanilla Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:vanilla_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Chocolate Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:chocolate_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Strawberry Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:strawberry_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Banana Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:banana_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Mint Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:mint_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Cherry Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:cherry_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Green Tea Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:green_tea_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Yellow Tea Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:yellow_tea_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Black Tea Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:black_tea_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Coffee Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:coffee_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Magma Cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raspberry:magma_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Yucca Gateau": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atmospheric:yucca_gateau"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.all_cakes.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.all_cakes.description"
+    },
+    "icon": {
+      "item": "minecraft:cake",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Sweet Berry Cake"
+    ],
+    [
+      "Obtain Vanilla Cake"
+    ],
+    [
+      "Obtain Chocolate Cake"
+    ],
+    [
+      "Obtain Strawberry Cake"
+    ],
+    [
+      "Obtain Banana Cake"
+    ],
+    [
+      "Obtain Mint Cake"
+    ],
+    [
+      "Obtain Cherry Cake"
+    ],
+    [
+      "Obtain Green Tea Cake"
+    ],
+    [
+      "Obtain Yellow Tea Cake"
+    ],
+    [
+      "Obtain Black Tea Cake"
+    ],
+    [
+      "Obtain Coffee Cake"
+    ],
+    [
+      "Obtain Magma Cake"
+    ],
+    [
+      "Obtain Yucca Gateau"
+	]
+  ]
+}

@@ -34,7 +34,7 @@ customization {
   action = addbutton
   actionid = 4acdb80e-1497-4370-a50f-ac7f8b06e1c21707075409220
   y = 83
-  label = Got it!
+  label = Got it - let's play!
   height = 20
 }
 
@@ -43,7 +43,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 2.0
-  source = &o&nBefore you play!
+  source = &oImportant, please read!
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -63,7 +63,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = It's very important that you know, that you're currently playing a%n%version of Raspberry Flavoured that is in the &ltesting phase %n%AND IS THEREFORE &lNOT&r FINALIZED.%n%%n%There's a very good chance things may change, especially%n%world breaking things such as world and structure generation.%n%PLEASE, do NOT use this build to play in an existing world,%n%&lit will NOT work.%n%%n%Additionally, this specific version is an early test build to get feedback%n%and get to the bottom of some critical issues. It's not very polished,%n%and there will more than likely be some problems/rough spots.%n%&lDon't make long-term worlds on this build.
+  source = Welcome to &dRaspberry Flavoured&r, the Minecraft modpack%n%designed to encourage people to take things easy...%n%but not &otoo &reasy!%n%%n%Before you jump in, it's imperative for you to know that%n%&ladvancements are an important part of this pack &fand%n%you should regularly check them whenever you're%n%unsure about how you can progress!%n%You can open the advancements menu by clicking the%n%gilded pink book icon in the pause menu, or by pressing%n%the advancements menu keybind, which is &lG &rby default.%n%%n%Additionally, many items have descriptions which you can%n%read by hovering over them and pressing &lR, &rthen looking%n%at the tab with the book and quill icon. %n%The other tabs will show you all the recipes from which %n%you can obtain said item.%n%You can also alternatively press &lU &rto see what recipes%n%an item is used in.%n%If these keybinds aren't doing anything, make sure you've%n%enabled the item browser by clicking the green book in%n%your inventory or pressing &lLeft Shift + R.%n%%n%Oh and, if you'd like to have as few performance issues%n%and graphical issues as possible, try running either%n%&l/flywheel backend instancing %n%&ror %n%&l/flywheel backend batching%n%to see which Flywheel rendering setting works for you best.%n%%n%May your experiences be plenty flavourful!
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -72,8 +72,8 @@ customization {
   width = 387
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 0ec7570b-50c6-4c26-b451-6598fa0d84961707075532629
-  y = -66
+  y = -75
   alignment = centered
-  height = 134
+  height = 149
 }
 

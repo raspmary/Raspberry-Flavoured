@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:magma_cube"
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.1,
+      "looting_multiplier": 0.07
+    }
+  ],
+  "item": "kubejs:blackstone_dwarf_geode",
+  "count": 1
+}

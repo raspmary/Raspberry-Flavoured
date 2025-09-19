@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#atmospheric:is_dunes",
+  "features": "kubejs:prickly_pear_dunes",
+  "step": "vegetal_decoration"
+}

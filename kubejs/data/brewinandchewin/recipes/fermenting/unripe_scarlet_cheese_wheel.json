@@ -4,7 +4,7 @@
     "item": "minecraft:honeycomb"
   },
   "experience": 1.6,
-  "fermentingtime": 8000,
+  "fermentingtime": 4800,
   "fluiditem": {
     "tag": "forge:milk"
   },
@@ -16,7 +16,7 @@
       "item": "minecraft:crimson_fungus"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "spelunkery:salt"
     }
   ],
   "recipe_book_tab": "misc",

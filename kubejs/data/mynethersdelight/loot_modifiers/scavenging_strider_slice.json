@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:ender_dragon"
+      }
+    }
+  ],
+  "item": "mynethersdelight:strider_slice",
+  "count": 2.0
+}

@@ -1,0 +1,21 @@
+{
+   "targets": [
+   "minecraft:glowstone", 
+   "architects_palette:polished_glowstone", 
+   "architects_palette:polished_glowstone_slab", 
+   "architects_palette:polished_glowstone_wall", 
+   "architects_palette:runic_glowstone", 
+   "architects_palette:wither_lamp",
+   "minecraft:sea_lantern",
+   "quark:blaze_lantern"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.glowstone.break",
+	  "place_sound": "kubejs:sound.glowstone.place",
+      "hit_sound": "block.stone.hit",
+      "fall_sound": "block.stone.fall",
+      "step_sound": "block.stone.step",
+      "pitch": 1.2,
+      "volume": 1
+   } 
+}

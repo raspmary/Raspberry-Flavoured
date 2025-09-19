@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "caverns_and_chasms:item/netherite_horse_armor"
+  }
+}

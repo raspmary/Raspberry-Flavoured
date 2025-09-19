@@ -1,0 +1,25 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "raspberry_flavoured:nether_bricks",
+  "replaces_with": [
+    {
+      "data": "minecraft:nether_bricks",
+      "weight": 60
+    },
+    {
+      "data": "minecraft:cracked_nether_bricks",
+      "weight": 20
+    },
+    {
+      "data": "minecraft:chiseled_nether_bricks",
+      "weight": 1
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:fortress"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:dungeon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "raspberry_flavoured:geodes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Obtain a dwarf geode - crack them open with a hammer on a cutting board, or grind them up in a millstone or a pair of crushing wheels for some ore nuggets!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:dwarf_geode"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "There's a Prize Inside!"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

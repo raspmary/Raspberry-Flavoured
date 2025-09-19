@@ -1,0 +1,33 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "raspberry_flavoured:nether_bricks",
+  "replaces_with": [
+    {
+      "data": "minecraft:cracked_nether_bricks",
+      "weight": 64
+    },
+    {
+      "data": "minecraft:nether_bricks",
+      "weight": 96
+    },
+    {
+      "data": "architects_palette:molten_nether_bricks",
+      "weight": 15
+    },
+    {
+      "data": "minecraft:magma_block",
+      "weight": 35
+    },
+    {
+      "data": "minecraft:chiseled_nether_bricks",
+      "weight": 2
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "kubejs:molten_fortress"
+    ]
+  }
+}

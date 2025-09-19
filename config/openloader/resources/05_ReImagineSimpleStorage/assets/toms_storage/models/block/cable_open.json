@@ -1,0 +1,19 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"textures": {
+		"0": "toms_storage:block/inventory_cable"
+	},
+	"elements": [
+		{
+			"name": "cable_open",
+			"from": [5, 5, 0],
+			"to": [11, 11, 6],
+			"faces": {
+				"east": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"west": {"uv": [10, 0, 16, 6], "texture": "#0"},
+				"up": {"uv": [0, 10, 6, 16], "texture": "#0"},
+				"down": {"uv": [0, 6, 6, 12], "texture": "#0"}
+			}
+		}
+	]
+}

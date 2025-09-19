@@ -1,0 +1,83 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=580972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = element
+  orientation_element = vanillabtn:346948
+  x = 158
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=504972%
+  width = 72
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = element
+  orientation_element = vanillabtn:346948
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=346972%
+  width = 72
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=426972%
+  orientation = element
+  orientation_element = vanillabtn:346948
+  x = 78
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=426972%
+  width = 72
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:346948
+  buttonaction = closegui;net.minecraft.client.gui.screens.worldselection.SelectWorldScreen%btnaction_splitter_fm%
+  x = 236
+  width = 72
+  action = addbutton
+  actionid = 3664e73e-4a77-4a97-b391-5440e8c74b8e1714649063498
+  y = 24
+  label = Cancel
+  height = 20
+}
+

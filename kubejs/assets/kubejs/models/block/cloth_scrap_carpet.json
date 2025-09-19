@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "kubejs:block/cloth/cloth_scrap_block"
+  }
+}

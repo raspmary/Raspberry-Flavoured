@@ -1,0 +1,222 @@
+{
+  "parent": "raspberry_flavoured:main/netherite",
+  "criteria": {
+    "Obtain Iron Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Copper Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Gold Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Netherite Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Rose Gold Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "additionaladditions:rose_gold_alloy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Bronze Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:bronze_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Steel Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Zinc Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:zinc_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Brass Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:brass_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Silver Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:silver_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Lead Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:lead_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Necromium Ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.all_metals.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.all_metals.description"
+    },
+    "icon": {
+      "item": "minecraft:gold_ingot",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Iron Ingot"
+    ],
+    [
+      "Obtain Copper Ingot"
+    ],
+    [
+      "Obtain Gold Ingot"
+    ],
+    [
+      "Obtain Netherite Ingot"
+    ],
+    [
+      "Obtain Rose Gold Ingot"
+    ],
+    [
+      "Obtain Bronze Ingot"
+    ],
+    [
+      "Obtain Steel Ingot"
+    ],
+    [
+      "Obtain Zinc Ingot"
+    ],
+    [
+      "Obtain Brass Ingot"
+    ],
+    [
+      "Obtain Silver Ingot"
+    ],
+    [
+      "Obtain Lead Ingot"
+    ],
+    [
+      "Obtain Electrum Ingot"
+    ],
+    [
+      "Obtain Necromium Ingot"
+    ]
+  ]
+}

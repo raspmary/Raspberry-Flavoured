@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+	{
+	  "bonus_rolls": 0,
+	  "entries": [
+		{
+		  "type": "minecraft:alternatives",
+		  "children": [
+			{
+			  "type": "minecraft:item",
+			  "functions": [
+				{
+				  "function": "minecraft:set_count",
+				  "count": 1,
+				  "conditions": [
+					{
+					  "condition": "minecraft:block_state_property",
+					  "block": "raspberry:clovers",
+					  "properties": {
+						"flower_amount": "1"
+					  }
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:set_count",
+				  "count": 2,
+				  "conditions": [
+					{
+					  "condition": "minecraft:block_state_property",
+					  "block": "raspberry:clovers",
+					  "properties": {
+						"flower_amount": "2"
+					  }
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:set_count",
+				  "count": 3,
+				  "conditions": [
+					{
+					  "condition": "minecraft:block_state_property",
+					  "block": "raspberry:clovers",
+					  "properties": {
+						"flower_amount": "3"
+					  }
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:set_count",
+				  "count": 4,
+				  "conditions": [
+					{
+					  "condition": "minecraft:block_state_property",
+					  "block": "raspberry:clovers",
+					  "properties": {
+						"flower_amount": "4"
+					  }
+					}
+				  ]
+				}
+			  ],
+			  "conditions": [
+				{
+				  "condition": "minecraft:match_tool",
+				  "predicate": {
+					"tag": "forge:shears"
+				  }
+				}
+			  ],
+			  "name": "raspberry:clovers"
+			}
+		  ]
+		}
+	  ],
+	  "rolls": 1
+	}
+  ]
+}

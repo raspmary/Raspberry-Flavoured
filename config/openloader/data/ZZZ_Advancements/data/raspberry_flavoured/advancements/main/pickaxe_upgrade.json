@@ -1,0 +1,48 @@
+{
+  "parent": "raspberry_flavoured:main/forge",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_pickaxe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe",
+              "alloyed:steel_pickaxe",
+              "caverns_and_chasms:necromium_pickaxe",
+              "additionaladditions:rose_gold_pickaxe",
+              "oreganized:electrum_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.pickaxe_upgrade.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.pickaxe_upgrade.description"
+    },
+    "icon": {
+      "item": "minecraft:iron_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

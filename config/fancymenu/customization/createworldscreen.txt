@@ -14,6 +14,37 @@ customization {
 }
 
 customization {
+  identifier = %id=505120%
+  orientation = element
+  orientation_element = vanillabtn:5051001
+  x = 150
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=505120%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505120%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505120%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/fancymenu_assets/settingsbuttonhover.png
+  backgroundnormal = config/fancymenu/fancymenu_assets/settingsbutton.png
+}
+
+customization {
   identifier = %id=5059751%
   orientation = element
   orientation_element = vanillabtn:425236
@@ -61,7 +92,16 @@ customization {
 customization {
   identifier = %id=345151%
   action = setbuttondescription
-  description = If enabled, will generate%n%a chest with some helpful%n%items near your spawn point.
+  description = If enabled, will generate%n%a chest with some helpful%n%items near your spawn point,%n%including a guaranteed compass%n%for easier navigation.
+}
+
+customization {
+  identifier = %id=345182%
+  orientation = element
+  orientation_element = vanillabtn:345158
+  x = 0
+  action = movebutton
+  y = 24
 }
 
 customization {
@@ -73,49 +113,55 @@ customization {
   orientation = bottom-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
+  buttonaction = closegui;net.minecraft.client.gui.screens.worldselection.CreateWorldScreen:5059751%btnaction_splitter_fm%
   x = 5
   width = 150
   action = addbutton
-  actionid = ed1cda04-dfa2-4e3a-abb6-85954cada31f1713615136465
+  actionid = 0e2d4b9c-2063-4549-a98c-8b90f6360b141740420767794
   y = -25
   label = Cancel
   height = 20
 }
 
 customization {
-  identifier = %id=505120%
-  orientation = element
-  orientation_element = vanillabtn:5051001
-  x = 150
-  action = movebutton
-  y = 0
+  identifier = %id=505158%
+  action = setbuttondescription
+  description = Modifying data packs is NOT%n%recommended. Proceed with caution.
 }
 
 customization {
-  identifier = %id=505120%
-  width = 20
-  action = resizebutton
-  height = 20
+  identifier = %id=345158%
+  action = setbuttondescription
+  description = &l&nDifficulty Settings%n%%n%&b&lPeaceful: &rHostile mobs will not spawn,%n%neutral mobs will become passive%n%&a&lEasy: &rMost hostile mobs will become%n%neutral, mobs' attack damage is lowered%n%&e&lNormal: &rNo adjustments to gameplay%n%behaviour or values%n%&c&lHard: &rMobs' attack damage is increased,%n%certain mobs will behave slightly differently,%n%starvation will lead to death
 }
 
 customization {
-  identifier = %id=505120%
-  action = setbuttonlabel
-  value = 
+  identifier = %id=35588%
+  action = setbuttondescription
+  description = &6&l&nSurvival Mode%n%%n%Explore a mysterious world %n%where you build, collect, craft, %n%and fight monsters.
 }
 
 customization {
-  identifier = %id=505120%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/fancymenu_assets/settingsbuttonhover.png
-  backgroundnormal = config/fancymenu/fancymenu_assets/settingsbutton.png
+  identifier = %id=55588%
+  action = setbuttondescription
+  description = &4&l&nHardcore Mode%n%%n%Same as Survival Mode but locked %n%to Hard difficulty, and if you die%n%even once, it's &lgame over!
 }
 
 customization {
   identifier = %id=345100%
   action = setbuttondescription
   description = If enabled, structures such as%n%dungeons and mineshafts%n%will generate in the world.
+}
+
+customization {
+  identifier = %id=5051001%
+  action = setbuttondescription
+  description = WARNING: It is not recommended%n%to use world types other than%n%Default, as this modpack has%n%custom terrain generation that%n%does not function well with%n%other world types.
+}
+
+customization {
+  identifier = %id=45588%
+  action = setbuttondescription
+  description = &d&l&nCreative Mode%n%%n%Create, build, and explore without limits. %n%You can fly, have endless materials, %n%and can't be hurt by monsters.
 }
 

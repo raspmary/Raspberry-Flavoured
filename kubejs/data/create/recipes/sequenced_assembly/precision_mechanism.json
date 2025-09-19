@@ -1,9 +1,9 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "forge:plates/gold"
+    "tag": "forge:plates/brass"
   },
-  "loops": 5,
+  "loops": 3,
   "results": [
     {
       "item": "create:precision_mechanism"

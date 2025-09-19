@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_snowy",
+  "spawners": {
+    "type": "windswept:chilled",
+    "maxCount": 0,
+    "minCount": 0,
+    "weight": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:bundle",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:quiver"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Obtain a quiver - it can hold up to 6 stacks of arrows and will let you carry multiple arrow types in one slot"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:quiver"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "To the Knee"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

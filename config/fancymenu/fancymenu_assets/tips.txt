@@ -1,113 +1,153 @@
-Found an issue? Talk about it in the Raspberry Flavoured Discord!
-Got a suggestion? Talk about it in the Raspberry Flavoured Discord!
-Wanna chat with other RF players? Join the Raspberry Flavoured Discord!
+Found an issue? Talk about it in the RF Discord!
+Got a suggestion? Talk about it in the RF Discord!
+Wanna chat with other RF players? Join the RF Discord!
 Sleeping won't skip nights instantly.
 Sleeping will speed up various processes.
-Zombies drop cloth scraps, used for making beds... but you know that already.
-Having an atlas in your hotbar will display a minimap.
+Zombies drop Cloth Scraps, used for making Beds... but you know that already.
+Having an Atlas in your hotbar will display a minimap.
 There's many ways to automate many things.
-Bellows can make fires last longer and speed up furnaces.
+Bellows can make fires last longer and speed up Furnaces.
 Bombs will damage mobs, but not blocks.
-Campfires grant the &lComfort &reffect when lit.
-Crushing cinnabar will yield redstone dust.
-Cooking pots can cook big meals that grant helpful effects.
-Blaze burners with cooking guides can cook automatically.
-There are no stone tools in RF - only copper tools.
-Chainmail armour, horse armour, saddles and name tags are craftable in RF.
-Creeper spores can be thrown to spawn a horde of friendly Creepies.
+Campfires grant the Comfort effect when lit and stood near.
+Crushing Cinnabar will yield Redstone Dust.
+Cooking Pots can make meals and drinks that grant helpful effects.
+Ovens can cook meals and pastries that grant helpful effects.
+Blaze Burners with Cooking Guides can cook automatically.
+There are no Stone tools in RF - only Copper tools.
+Chainmail armor, Horse armor, Saddles and Name Tags are craftable in RF.
+Creeper Spores can be thrown to spawn a horde of friendly Creepies.
 Creepers won't damage terrain, but they will spawn Creepies.
 The crosshair indicates your tool's effectiveness on the block in front of you.
-Use bottles on crying obsidian to obtain dimensional tears.
+Use bottles on Crying Obsidian to obtain Dimensional Tears.
 Upon death, a totem will appear at your death point which holds your items.
 Discs can be smashed into fragments, which can be crafted into other discs.
-Diving gear and backtanks will let you traverse underwater more easily.
-Dunes are rare luscious deserts with yucca trees and various other fauna.
-Leather armour protects against fall damage.
-Chainmail armour damages attackers.
+Diving gear and Backtanks will let you traverse underwater more easily.
+Dunes are rare luscious deserts with Yucca trees and various other flora.
+Leather armor protects against fall damage.
+Chainmail armor damages attackers.
+Copper armor has a unique effect when struck by lightning.
 Golden tools increase drops from certain blocks and mobs.
-Golden armour lightly protects against fire.
-Rose gold tools dig quickly and cause blocks to drop in their purest form.
-Rose gold armour protects against magic.
+Golden armor lightly protects against fire.
+Rose Gold tools dig quickly and cause blocks to drop in their purest form.
+Rose Gold armor protects against magic.
 Steel tools dig slowly, but are durable and knock targets further away.
-Steel armour protects against projectiles and getting knocked back.
-Electrum tools dig very quickly and deal more damage to undead mobs.
-Electrum armour grants a movement speed boost.
-Netherite tools light targets on fire.
-Netherite armour protects against fire and getting knocked back.
+Steel armor protects against projectiles and getting knocked back.
+Diamond armor requires Mechanical Crafters to obtain.
+Electrum tools dig very quickly and deal extra damage when sprinting.
+Electrum armor grants a movement speed boost.
+Netherite tools light targets on fire & auto-smelt blocks.
+Netherite armor protects against fire and getting knocked back.
 Necromium tools slow down targets.
-Necromium armour weakens nearby entities.
-Various enchants you may be used to no longer exist in RF.
-Etching tables allow you to make your own music discs.
-Animals can eat out of feeding troughs and breed by themselves.
-Banners can be applied to beds.
-Flags can be placed on sticks and moved up and down.
+Necromium armor weakens attackers.
+Various enchantments you may be used to no longer exist in RF.
+Etching Tables allow you to make your own music discs.
+Animals can eat out of Feeding Troughs and breed by themselves.
+Banners can be applied to Beds.
+Flags can be placed on Sticks and then moved up and down.
 Don't leave trees floating!
-Item vaults can combine into bigger vaults when placed next to each other.
-Fluid tanks can combine into bigger tanks when placed next to each other.
+Item Vaults can combine into bigger Vaults when placed next to each other.
+Fluid Tanks can combine into bigger Tanks when placed next to each other.
 Flutes can be assigned to tamed mobs and will call them from far away.
-Mushrooms and nether fungi on rich soil will grow into colonies.
-Furnaces require one piece of coal to craft.
-Furnace boats can be fueled with coal to go faster.
-Lighting copper-related blocks on fire will create green cupric fire.
-Hollow logs will let you crawl inside them by sneaking next to them.
-Ice will drop ice cubes when mined with a pickaxe. They're crunchy.
-Kilns smelt everything smokers & blast furnaces can't, and twice as quickly as a furnace.
-Killing various mobs with knives may cause them to drop extra items.
-Large boats can carry four passengers.
-Holding a light source in your offhand will light up the area around you.
+Some fungi planted on Rich Soil will grow into colonies.
+Furnace Boats can be fueled with Coal to go faster.
+Furnace Minecarts will load chunks when fueled.
+Lighting Copper-related blocks on fire will create green Cupric fire.
+Hollow Logs will let you crawl inside them by sneaking next to them.
+Ice will drop Ice Cubes when mined with a Pickaxe. They're crunchy.
+Kilns smelt what Smokers & Blast furnaces can't, and 2x quicker than a Furnace.
+Killing various mobs with Knives may cause them to drop extra items.
 Days and nights are longer in RF.
-Stripping maple logs will sometimes reveal sap that you can bottle.
+Stripping Maple Logs will sometimes reveal Sap that you can bottle.
+Stripping Jungle Logs will sometimes reveal Latex that you can bottle.
+Stripping Rosewood Logs will sometimes reveal Latex that you can bottle.
 Stressometers will visualise the stress level of your machines.
 Speedometers will visualise the speed of your machines.
-Minecart couplings will allow you to link minecarts together.
+Minecart Couplings will allow you to link Minecarts together.
 Melons will cause you to spit seeds when consumed.
-Piglin brutes will drop ancient scrap.
-Piglins and hoglins can be made immune to zombification with a golden apple.
-Zombified piglins and zoglins can be cured with weakness and a golden apple.
-Pikes come in various sizes and colours.
-Rough gems can be polished with sand paper or a grindstone.
-Potato cannons use various foods as ammo.
-Presents allow you to gift a stack of items to a player. The gift of giving!
-Trapped presents will instantly release their contents when opened.
-Redstone links can transmit redstone signals wirelessly.
+Wildfires will drop Ancient Scrap.
+Piglin Brutes will drop Ancient Scrap.
+Piglins and Hoglins can be made immune to zombification with a Golden Apple.
+Zombified Piglins and Zoglins can be cured with Weakness and a Golden Apple.
+Pikes come in various sizes and colors.
+Rough gems can be polished with Sand Paper or a Grindstone.
+Potato Cannons use various foods as ammo.
+Presents allow you to gift a stack of items to a player.
+Trapped Presents will instantly release their contents when opened.
+Redstone Links can transmit Redstone signals wirelessly.
 Rerack your trees!
-Bundles and sacks will let you carry more items.
+Bundles and Sacks will let you carry more items.
 Schematicannons can build for you when provided with blueprints and materials.
 Skillets can be held/placed over fire to cook food on the go.
-Skillets and cooking pots always drop items or containers to their right.
+Skillets and Cooking Pots always drop items or containers to their right.
 All hail the Slabfish.
-Baby snails will drop snail shell pieces when they grow into adults.
-Snow boots will allow you to move faster over snowy blocks.
-Soul soap can clean dye off blocks.
-Stoves are like campfires, except they have 6 spaces instead of 4.
+Baby Snails will drop Snail Shell Pieces when they grow into adults.
+Snow Boots will allow you to move faster over snowy blocks.
+Soap can clean dye off blocks.
+Stoves are like Campfires, except they have 6 spaces instead of 4.
 Too many machines attached to a single power source may cause overstress.
-Suspicious stews can only be obtained from loot and brown mooshrooms.
-You can find wild tea in swamps and wild coffee in basalt deltas.
-You can find eggplants in jungles and rainforests.
-Thrashers roam deep frozen oceans and will attack if they locate you.
-Torch arrows place torches where they land or light mobs they hit on fire.
+Suspicious Stews can only be obtained from loot and Shiitake Mooshrooms.
+You can find Wild Tea in Swamps and Wild Coffee in Basalt Deltas.
+You can find Eggplants in Jungles and Rainforests.
+Thrashers roam Deep Frozen Oceans and will attack if they locate you.
+Torch Arrows place Torches where they land or light mobs they hit on fire.
 Trains allow for mass item transport and highly stylish travel.
-Both types of water wheels are cheap sources of rotational power.
-The wood type of water wheels can be changed by right-clicking with planks.
-There are numerous wood types in RF. Which one's your favourite?
-Shearing yaks will yield yak hair, but it'll also make them angry at you.
-Shearing bears will yield bear fur, but it'll also make them angry at you.
-Shearing mooblooms will yield a few buttercups and turn them into regular cows.
-Hand a heartstone to another player to always be able to locate them.
-Using scaffolding can make building easier.
-Withered may occasionally wield better weapons.
-Lead can be used as an alternative to iron in various recipes.
-Compasses, depth gauges, atlases and spyglasses are always helpful to bring along.
+Both types of Water Wheels are cheap sources of Rotational Power.
+The wood type of Water Wheels can be changed by right-clicking with Planks.
+There are numerous wood types in RF. Which one's your favorite?
+Shearing Yaks will yield Yak Hair, but it'll also make them angry at you.
+Shearing Bears will yield Bear Fur, but it'll also make them angry at you.
+Shearing Mooblooms will yield a few Buttercups and turn them into regular Cows.
+Awoken Exopearls will fly towards ruined structures.
+Spirited Exopearls will fly towards structures with spawners.
+Hand a Binding Exopearl to another player to easily locate them.
+Using Scaffolding can make building easier.
+Lead can be used as an alternative to Iron in various recipes.
+Compasses, Depth Gauges, Atlases and Spyglasses are helpful to bring along.
 Paragliders allow for slower descension.
+Smoke from fires will boost you up when using a Paraglider.
 Koi fish will reduce hostile mob spawns in an area.
-Large obsidian spikes in the Nether are easy sources of blazes.
-Blaze spawners will also fill empty blaze burners when right-clicked.
+Large Obsidian spikes in the Nether are easy sources of Blazes.
+Blaze spawners will also fill empty Blaze Burners when right-clicked.
 Cages allow you to capture small to medium-sized mobs.
 The Nether is a lot taller and denser than normal.
 Bronze has musical properties.
-Use display boards to display specific information about your machinery.
-Steam engines can provide large amounts of stress capacity, but require hefty maintenance.
+Use Display Boards to display specific information about your machinery.
+Steam Engines can provide large amounts of stress capacity.
 Lava oceans in the Nether are big enough to pump an infinite amount of lava.
-Trains can go through Nether portals as long as there's a track on the other side.
-Deepers will destroy terrain when they explode, but can only be found underground.
-Unstable spawners spawn a single wave of monsters which will drop extra goodies.
+Trains can go through Nether Portals if there's a track on the other side.
+Unstable Spawners spawn a horde of mobs which will drop extra goodies.
+Craft Lightning Rods to redirect lightning, or to create a helpful buddy.
+Large Boats can carry higher amounts of passengers or larger ones.
+Crawling through tight spaces can be useful in sticky situations.
+Various recipes have the potential to leave byproducts.
+Sculk Shriekers will give you three warnings before releasing the beast.
+Ancient Cities contain major loot - a high risk, high reward adventure.
+Deep in underwater caves, you may find groups of Nautili swimming around.
+Hostile mobs become neutral on Easy difficulty.
+Mimes will copy your held item - and worn armor, if they hit you.
+Deepers will explode and destroy terrain, but are only found underground.
+While Creepers don't blow up blocks, Deepers do.
+Peepers only move when you're not looking.
+Cameras will allow you to capture precious moments.
+Leather can be cut into scraps and used more efficiently.
+Bundles and Sacks can be dyed.
+Glow Ink Sacs can heal Dead Coral.
+Cattails grow best on Mud.
+Brushes will allow you to brush some animals for drops.
+Glue Brushes can glue blocks together.
+Wax Brushes can wax loads of blocks at once.
+Shift + T while hovering over an item will share it in chat.
+Tackle Boxes can customise Reinforced Fishing Rods.
+Worms will shorten the time it takes to catch a fish.
+Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find worms.
+Different Hooks have a different impact on the fishing experience.
+Holding a Bucket of Water in the offhand will make caught fish go in it.
+Copper and Gold can be hammered into Sheets, with a chance of breaking.
+A Storage Interface and Terminal allow for a more unified storage system.
+Fortresses have received reinforcements and a refreshed layout.
+Copper Golems can be created with a Carved Pumpkin and a Lightning Rod.
+Tuff Golems can be created with a Carved Pumpkin, any Wool and a Tuff block.
+Crops can be harvested by right-clicking them.
+Ores cannot be destroyed by explosions.
+Some Mechanical Crafting recipes require Slot Covers for empty slots.
+Some Mechanical Crafting recipes require a redstone pulse to activate.

@@ -1,0 +1,39 @@
+{
+  "parent": "raspberryflavoured:feast",
+  "criteria": {
+    "00": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "neapolitan:ice_cubes"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Consume ice cubes"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "neapolitan:ice_cubes"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Pencil"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_joke"
+    },
+  "requirements": [
+    [
+      "00"
+    ]
+  ]
+}

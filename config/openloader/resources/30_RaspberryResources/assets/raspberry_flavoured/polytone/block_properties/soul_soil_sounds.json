@@ -1,0 +1,7 @@
+{
+   "targets": [
+	"minecraft:end_stone",
+	"mynethersdelight:resurgent_soil_farmland"
+   ],
+   "sound_type": "soul_soil"
+}

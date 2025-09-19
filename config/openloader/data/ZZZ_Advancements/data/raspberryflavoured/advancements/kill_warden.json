@@ -1,0 +1,43 @@
+{
+  "parent": "raspberryflavoured:ancient_city",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Against all odds, overpower the Warden"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Slay the Sculk"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_mystery"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

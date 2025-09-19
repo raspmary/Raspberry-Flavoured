@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:farming/plant_seed",
+  "criteria": {
+    "00": {
+      "conditions": {
+        "block": "farmersdelight:organic_compost"
+	  },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.organic_compost.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.organic_compost.description"
+    },
+    "icon": {
+      "item": "farmersdelight:organic_compost"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "00"
+    ]
+  ]
+}

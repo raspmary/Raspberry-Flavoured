@@ -1,0 +1,15 @@
+{
+  "type": "tactical_fishing:fishing",
+  "rod": {
+    "tag": "tactical_fishing:fishing_rods"
+  },
+  "ingredient": {
+    "item": "minecraft:water_bucket"
+  },
+  "catch": {
+    "item": "miners_delight:glow_squid"
+  },
+  "result": {
+    "item": "upgrade_aquatic:glow_squid_bucket"
+  }
+}

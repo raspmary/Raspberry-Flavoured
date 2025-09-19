@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:leggings": {
+      "base_item": "minecraft:iron_leggings",
+      "item_tag": "forge:armors/leggings"
+    }
+  }
+}

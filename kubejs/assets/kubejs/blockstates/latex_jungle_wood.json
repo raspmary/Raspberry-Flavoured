@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kubejs:block/latex_jungle_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kubejs:block/latex_jungle_wood"
+    },
+    "axis=z": {
+      "model": "kubejs:block/latex_jungle_wood",
+      "x": 90
+    }
+  }
+}

@@ -21,7 +21,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "additionaladditions:mysterious_bundle"
+          "name": "kubejs:loot_bag"
         },
         {
           "type": "minecraft:item",

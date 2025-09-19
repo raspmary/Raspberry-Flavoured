@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:jungle_trapdoor",
+  "replaces_with": "atmospheric:yucca_trapdoor",
+  "selector": {
+    "type": "names",
+    "config": [
+      "explorify:desert_shrine"
+    ]
+  }
+}

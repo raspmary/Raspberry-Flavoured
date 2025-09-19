@@ -1,0 +1,45 @@
+{
+  "parent": "raspberry_flavoured:farming/questionable_diet",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "effects": {
+          "neapolitan:vanilla_scent": {},
+          "neapolitan:agility": {},
+          "neapolitan:berserking": {},
+          "neapolitan:sugar_rush": {},
+          "neapolitan:harmony": {},
+          "respiteful:vitality": {},
+          "respiteful:tenacity": {},
+          "respiteful:maturity": {},
+          "farmersrespite:caffeinated": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.flavors.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.flavors.description"
+    },
+    "icon": {
+      "item": "neapolitan:neapolitan_ice_cream"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

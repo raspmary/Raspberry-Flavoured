@@ -1,0 +1,43 @@
+{
+  "parent": "raspberryflavoured:sack",
+  "criteria": {
+    "Summon Tuff Golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "friendsandfoes:tuff_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Summon a tuff golem with a wool block and carved pumpkin on top of tuff"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:tuff"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Pedestalive"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Summon Tuff Golem"
+    ]
+  ]
+}

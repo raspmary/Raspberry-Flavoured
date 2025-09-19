@@ -1,0 +1,163 @@
+{
+  "type": "bettermineshafts:mineshaft",
+  "biomes": "#bettermineshafts:has_structure/better_mineshaft_ice",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "config": {
+    "flammableLegs": false,
+    "replacementRate": 0.95,
+    "legVariant": "edge",
+    "decorationChances": {
+      "vineChance": 0,
+      "snowChance": 0,
+      "cactusChance": 0,
+      "deadBushChance": 0,
+      "mushroomChance": 0,
+      "gravelPileChance": 0.1,
+      "lushDecorations": false,
+      "dripstoneDecorations": false
+    },
+    "blockStates": {
+      "mainBlockState": {
+        "Name": "windswept:packed_ice_bricks"
+      },
+      "supportBlockState": {
+        "Name": "architects_palette:polished_packed_ice_wall"
+      },
+      "slabBlockState": {
+        "Name": "windswept:packed_ice_brick_slab"
+      },
+      "gravelBlockState": {
+        "Name": "minecraft:snow",
+        "Properties": {
+          "layers": "8"
+        }
+      },
+      "stoneWallBlockState": {
+        "Name": "architects_palette:polished_packed_ice_wall"
+      },
+      "stoneSlabBlockState": {
+        "Name": "architects_palette:polished_packed_ice_slab"
+      },
+      "trapdoorBlockState": {
+        "Name": "minecraft:spruce_trapdoor"
+      },
+      "smallLegBlockState": {
+        "Name": "architects_palette:packed_ice_pillar",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "blockStateRandomizers": {
+      "mainRandomizer": {
+        "defaultBlockState": {
+          "Name": "minecraft:packed_ice"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "windswept:packed_ice_bricks"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:snow_block"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "architects_palette:coarse_snow"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "windswept:snow_bricks"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:cave_air"
+            },
+            "probability": 0.2
+          }
+        ]
+      },
+      "floorRandomizer": {
+        "defaultBlockState": {
+          "Name": "minecraft:packed_ice"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "windswept:packed_ice_bricks"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:snow_block"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "architects_palette:coarse_snow"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "windswept:snow_bricks"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:cave_air"
+            },
+            "probability": 0.2
+          }
+        ]
+      },
+      "brickRandomizer": {
+        "defaultBlockState": {
+          "Name": "windswept:blue_ice_bricks"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "minecraft:blue_ice"
+            },
+            "probability": 0.3
+          },
+          {
+            "blockState": {
+              "Name": "windswept:blue_ice_bricks"
+            },
+            "probability": 0.3
+          },
+          {
+            "blockState": {
+              "Name": "windswept:chiseled_blue_ice_bricks"
+            },
+            "probability": 0.1
+          }
+        ]
+      },
+      "legRandomizer": {
+        "defaultBlockState": {
+          "Name": "architects_palette:packed_ice_pillar",
+          "Properties": {
+            "axis": "y"
+          }
+        },
+        "entries": []
+      }
+    }
+  }
+}

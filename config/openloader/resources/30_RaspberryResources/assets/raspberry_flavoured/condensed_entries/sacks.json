@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "tools": {
+    "raspberry_flavoured:sacks": {
+      "base_item": "supplementaries:sack",
+      "item_tag": "supplementaries:sacks"
+    }
+  }
+}

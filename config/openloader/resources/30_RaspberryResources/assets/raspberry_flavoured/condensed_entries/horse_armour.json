@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:horse_armour": {
+      "base_item": "minecraft:iron_horse_armor",
+      "item_tag": "raspberry_flavoured:horse_armour"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_snowy",
+  "features": "kubejs:snowy_sprouts",
+  "step": "vegetal_decoration"
+}

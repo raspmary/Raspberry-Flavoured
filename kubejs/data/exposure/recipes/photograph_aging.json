@@ -1,0 +1,14 @@
+{
+  "type": "exposure:photograph_aging",
+  "photograph": {
+    "item": "exposure:photograph"
+  },
+  "ingredients": [
+    {
+      "item": "supplementaries:antique_ink"
+    }
+  ],
+  "result": {
+    "item": "exposure:aged_photograph"
+  }
+}

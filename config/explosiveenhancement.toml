@@ -1,0 +1,57 @@
+
+["Config file for Explosive Enhancement"]
+	#Show blast wave effects
+	showBlastWave = true
+	#Show fireball effects
+	showFireball = true
+	#Show mushroom cloud effects
+	showMushroomCloud = true
+	#Show sparks effects
+	showSparks = true
+	#Size of sparks
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sparkSize = 5.3
+	#Opacity of sparks
+	#Range: 0.0 ~ 1.0
+	sparkOpacity = 0.7
+	#Show default explosion effects
+	showDefaultExplosion = true
+	#Enable underwater explosions
+	underwaterExplosions = true
+	#Show shockwave effects
+	showShockwave = true
+	#Show underwater blast wave effects
+	showUnderwaterBlastWave = true
+	#Number of bubbles for underwater explosions
+	#Range: > 0
+	bubbleAmount = 50
+	#Show underwater sparks effects
+	showUnderwaterSparks = false
+	#Size of underwater sparks
+	#Range: 0.0 ~ 1.7976931348623157E308
+	underwaterSparkSize = 4.0
+	#Opacity of underwater sparks
+	#Range: 0.0 ~ 1.0
+	underwaterSparkOpacity = 0.3
+	#Show default explosion effects underwater
+	showDefaultExplosionUnderwater = true
+	#Enable dynamic explosion size
+	dynamicSize = true
+	#Enable dynamic underwater explosion size
+	dynamicUnderwater = true
+	#Attempt better small explosion effects
+	attemptBetterSmallExplosions = true
+	#Y offset for small explosions
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	smallExplosionYOffset = -0.5
+	#Enable the mod
+	modEnabled = true
+	#Enable emissive explosion effects
+	emissiveExplosion = true
+	#Enable emissive water explosion effects
+	emissiveWaterExplosion = true
+	#Always show explosion effects
+	alwaysShow = false
+	#Enable debug logs
+	debugLogs = false
+

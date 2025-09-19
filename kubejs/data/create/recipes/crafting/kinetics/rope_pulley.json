@@ -9,11 +9,14 @@
     },
     "I": {
       "tag": "forge:plates/iron"
+    },
+    "S": {
+      "item": "create:shaft"
     }
   },
   "pattern": [
     " B ",
-    "CCC",
+    "CSC",
     " I "
   ],
   "result": {

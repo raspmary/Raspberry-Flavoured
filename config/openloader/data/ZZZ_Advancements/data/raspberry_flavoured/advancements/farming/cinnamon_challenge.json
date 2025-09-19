@@ -1,0 +1,39 @@
+{
+  "parent": "raspberry_flavoured:farming/tree_bark",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:cinnamon"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.cinnamon_challenge.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.cinnamon_challenge.description"
+    },
+    "icon": {
+      "item": "kubejs:cinnamon"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_joke"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

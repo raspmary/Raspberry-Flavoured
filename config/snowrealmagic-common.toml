@@ -1,5 +1,5 @@
-placeSnowInBlock = true
-placeSnowInBlockNaturally = true
+placeSnowInBlock = false
+placeSnowInBlockNaturally = false
 snowGravity = true
 snowAlwaysReplaceable = true
 snowAccumulationDuringSnowstorm = false
@@ -11,10 +11,10 @@ snowNeverMelt = false
 snowAndIceMeltInWarmBiomes = true
 snowNaturalMelt = true
 snowReduceFallDamage = true
-replaceWorldFeature = true
+replaceWorldFeature = false
 sustainGrassIfLayerMoreThanOne = true
 retainOriginalBlocks = false
-sneakSnowball = true
+sneakSnowball = false
 mobSpawningMaxLayers = 8
 
 [integration]

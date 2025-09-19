@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "kubejs:block/blackstone_gravel_brick_slab" },
+        "type=top": { "model": "kubejs:block/blackstone_gravel_brick_slab_top" },
+        "type=double": { "model": "kubejs:block/blackstone_gravel_bricks" }
+    }
+}

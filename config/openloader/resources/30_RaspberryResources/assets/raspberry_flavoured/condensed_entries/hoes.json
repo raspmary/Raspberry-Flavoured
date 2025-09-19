@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "tools": {
+    "raspberry_flavoured:hoes": {
+      "base_item": "minecraft:iron_hoe",
+      "item_tag": "forge:tools/hoes"
+    }
+  }
+}

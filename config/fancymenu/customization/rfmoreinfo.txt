@@ -43,7 +43,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.5
-  source = &o"Where is the Resource Packs %n%&oor Languages menu?"
+  source = Frequently Asked Questions%n%Regarding Raspberry Flavoured
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -55,7 +55,7 @@ customization {
   y = -105
   alignment = centered
   base_color = E8587C
-  height = 44
+  height = 33
 }
 
 customization {
@@ -63,7 +63,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = If that's the question you're asking, here's a quick answer:%n%%n%The resource packs menu is disabled in-game due to some issues%n%with FancyMenu (the mod used to change and create new menus, like%n%the one you're on right now) and additionally because attempting to %n%add or remove resource packs may cause inconsistencies%n%with various textures, models and item names.%n%%n%And on the note of item names, that's why the language menu is%n%also disabled - the way a lot of items have been renamed is through%n%the language files and there's no conceivable way to add support%n%for every language, thus, the language menu is disabled for the time being.%n%%n%If you'd still like to fiddle around with resource packs,%n%head to the &lconfig > openloader > resources &rfolder.
+  source = &6&lQ1: &f&lWhere is the Languages menu?%n%%n%The way a lot of items have been renamed is through%n%the language files and there's no conceivable way to add support%n%for every language - thus, the language menu is %n%disabled for the time being.%n%%n%&6&lQ2: &f&lWhy are a bunch of major features (such as villagers, %n%&lthe End, certain enchantments, etc.) disabled in this pack?%n%%n%A variety of reasons - mainly to maintain game/pack balance and also%n%because of personal taste and opinions. %n%Raspberry Flavoured was never meant to strictly try to %n%"improve" the game, rather just make a bunch of opinionated changes %n%and add fun stuff while trying to evoke the feelings people got from %n%older versions of Minecraft without completely ditching modern versions %n%and all of the improvements they've made to the game.%n%%n%So, it's likely most changes you'll see, even small ones, are just a result %n%of trying some things out and experimenting.%n%It's entirely possible some of these features may even make their way%n%back into the pack in some different form at some point.%n%%n%&6&lQ3: &f&lWhat's the goal of this modpack?%n%%n%There isn't a concrete goal (like beating the Ender Dragon) to achieve%n%in Raspberry Flavoured. Call it a bit of laziness if you will, and perhaps%n%it is to some degree, but ultimately I do believe Minecraft works best%n%when there is no end-all-be-all goal to work towards and you're%n%left to your own devices to make your own goals.%n%%n%That being said, the pack does have a fully new set of advancements%n%that you can follow to not only learn about various changes but also%n%track your progression, as there still is plenty of that.
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -73,7 +73,7 @@ customization {
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 1c5d23de-51d4-4a02-8c86-85ea14732a571713558272691
   y = -70
-  alignment = centered
+  alignment = left
   height = 138
 }
 

@@ -1,0 +1,21 @@
+{
+  "target_type": "menu_class",
+    "target": "fuzs.echochest.world.inventory.EchoChestMenu",
+    "slot_modifiers": [
+	  {
+	    "slots": 0,
+        "x_offset": -1000,
+        "y_offset": -1000
+	  },
+	  {
+	    "slots": "1->24",
+        "x_offset": -16,
+        "y_offset": 0
+	  },
+	  {
+	    "slots": "25->60",
+        "x_offset": 0,
+        "y_offset": -2
+	  }
+	]
+}

@@ -2,15 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#C#",
+    "# #",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:blackstone"
-    },
-	"C": {
-      "tag": "minecraft:coals"
+      "item": "kubejs:cobbled_blackstone"
     }
   },
   "result": {

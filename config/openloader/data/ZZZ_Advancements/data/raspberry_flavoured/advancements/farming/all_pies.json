@@ -1,0 +1,177 @@
+{
+  "parent": "raspberry_flavoured:farming/all_cakes",
+  "criteria": {
+    "Obtain Pumpkin Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:pumpkin_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Apple Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:apple_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Chocolate Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:chocolate_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Glow Berry Cheesecake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:sweet_berry_cheesecake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Rose Hip Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersrespite:rose_hip_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Butterscotch Cinnamon Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:butterscotch_cinnamon_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Prickly Pear Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:prickly_pear_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Cherry Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmental:cherry_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Truffle Pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmental:truffle_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Quiche": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewinandchewin:quiche"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.all_pies.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.all_pies.description"
+    },
+    "icon": {
+      "item": "farmersdelight:apple_pie",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Pumpkin Pie"
+    ],
+    [
+      "Obtain Apple Pie"
+    ],
+    [
+      "Obtain Chocolate Pie"
+    ],
+    [
+      "Obtain Glow Berry Cheesecake"
+    ],
+    [
+      "Obtain Rose Hip Pie"
+    ],
+    [
+      "Obtain Butterscotch Cinnamon Pie"
+    ],
+    [
+      "Obtain Prickly Pear Pie"
+    ],
+    [
+      "Obtain Cherry Pie"
+    ],
+    [
+      "Obtain Truffle Pie"
+    ],
+    [
+      "Obtain Quiche"
+	]
+  ]
+}

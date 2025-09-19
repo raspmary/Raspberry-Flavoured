@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:farming/campfire",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "cookscollection:oven"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.oven.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.oven.description"
+    },
+    "icon": {
+      "item": "cookscollection:oven"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "keybind.additional_enchantments.category": "Unused",
+  "keybind.additional_enchantments.cycle_tipped": "Unused Keybind",
+  "keybind.additional_enchantments.cycle_homing": "Unused Keybind",
+  "keybind.additional_enchantments.cycle_explosive_tip": "Unused Keybind",
+  "keybind.additional_enchantments.cycle_perception": "Unused Keybind",
+  "keybind.additional_enchantments.ore_sight": "Unused Keybind",
+  "keybind.additional_enchantments.voiding": "Unused Keybind",
+
+  "message.additional_enchantments.cycled_configuration": "Enchantment [%1$s] configuration changed to [%2$s]",
+
+  "item.additional_enchantments.shard_arrow": "Shard Arrow",
+  "item.additional_enchantments.shard_arrow.description": "This is a dummy item with no use, which should not be obtainable",
+
+  "enchantment.additional_enchantments.explosive_tip": "Explosive Tip",
+  "enchantment.additional_enchantments.explosive_tip.desc": "Causes an explosion on projectile impact",
+  "enchantment.additional_enchantments.faster_attacks": "Swiftstrike",
+  "enchantment.additional_enchantments.faster_attacks.desc": "Increases the attack speed of weapons",
+  "enchantment.additional_enchantments.homing": "Soul Chaser",
+  "enchantment.additional_enchantments.homing.desc": "Projectiles home in to their target",
+  "enchantment.additional_enchantments.plague": "Plague",
+  "enchantment.additional_enchantments.plague.desc": "Attacks inflict the target with Plague",
+  "enchantment.additional_enchantments.shatter": "Shatter",
+  "enchantment.additional_enchantments.shatter.desc": "Allows the usage of Amethyst Shard as arrows which may explode on impact, dealing area damage",
+  "enchantment.additional_enchantments.straight_shot": "Stasis",
+  "enchantment.additional_enchantments.straight_shot.desc": "Projectiles are not affected by gravity and have a chance to hit Enderman",
+  "enchantment.additional_enchantments.tipped": "Tipped",
+  "enchantment.additional_enchantments.tipped.desc": "Projectiles apply random effects",
+  "enchantment.additional_enchantments.wither": "Wither",
+  "enchantment.additional_enchantments.wither.desc": "Attacks inflict the target with Wither",
+  "enchantment.additional_enchantments.perception": "Perception",
+  "enchantment.additional_enchantments.perception.desc": "Outlines nearby entities and distinguishes them by color",
+  "enchantment.additional_enchantments.confusion": "Confusion",
+  "enchantment.additional_enchantments.confusion.desc": "Has a chance to cause the attacked target to retaliate against a nearby entity, dropping you as a target",
+  "enchantment.additional_enchantments.ore_sight": "Ore Sight",
+  "enchantment.additional_enchantments.ore_sight.desc": "Outlines nearby ore blocks and distinguishes them by color based on their rarity group",
+
+  "effect.additional_enchantments.poison": "Plague",
+  "effect.additional_enchantments.poison.description": "Deals Magic damage and afflicted targets may spread this debuff - damage, tick rate and spread chance scale with level",
+  "effect.additional_enchantments.wither": "Wither",
+  "effect.additional_enchantments.wither.description": "Deals Wither damage - damage and tick rate scale with level"
+}

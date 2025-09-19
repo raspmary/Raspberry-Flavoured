@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Mix iron and fire charges in a heated mixer to get steel"
+      "text": "Mix iron, lead and blaze powder in a heated mixer to obtain steel"
     },
     "frame": "goal",
     "hidden": false,

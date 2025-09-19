@@ -1,0 +1,13 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stone_brick_wall",
+  "replaces_with": "architects_palette:tuff_brick_wall",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_spruce",
+      "bettermineshafts:mineshaft_spruce_snowy"
+    ]
+  }
+}

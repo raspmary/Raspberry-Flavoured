@@ -1,7 +1,7 @@
 {
   "parent": "raspberryflavoured:lodestone",
   "criteria": {
-    "0": {
+    "Obtain Spyglass": {
       "conditions": {
         "items": [
           {
@@ -13,7 +13,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"1": {
+	"Obtain Atlas": {
       "conditions": {
         "items": [
           {
@@ -32,7 +32,7 @@
       "color": "#CE3131",
       "text": "Obtain a spyglass and atlas - they'll come in handy on long expeditions!"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "map_atlases:atlas"
@@ -43,14 +43,14 @@
     }
   },
   "rewards": {
-      "function": "raspberryflavoured:sound_task"
+      "function": "raspberryflavoured:sound_goal"
     },
   "requirements": [
     [
-      "0"
+      "Obtain Spyglass"
     ],
 	[
-      "1"
+      "Obtain Atlas"
     ]
   ]
 }

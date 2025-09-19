@@ -1,6 +1,6 @@
 #How many marks you can draw with a single chalk. Default: 64
 #Range: > 0
-ChalkUses = 128
+ChalkUses = 100
 #How much light glowing mark produces. Default: 5
 #Range: 0 ~ 15
 GlowingMarkLightLevel = 5

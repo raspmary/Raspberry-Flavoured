@@ -42,6 +42,31 @@
           0.9019608
         ]
       }
+    },
+    {
+      "block": [
+		"minecraft:magma_block",
+		"kubejs:heating_cask"
+	  ],
+      "particle": {
+        "type": "minecraft:smoke"
+      }
+    },
+    {
+      "block": [
+		"kubejs:ice_crate"
+	  ],
+      "particle": {
+        "type": "farmersdelight:steam"
+      }
+    },
+    {
+      "block": [
+		"raspberry:magma_cake"
+	  ],
+      "particle": {
+        "type": "minecraft:flame"
+      }
     }
   ]
 }

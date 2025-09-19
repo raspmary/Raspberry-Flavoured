@@ -18,12 +18,12 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Using a glass bottle, obtain dimensional tears from a block of crying obsidian"
+      "text": "Using a glass bottle, obtain dimensional tears from a block of crying obsidian... or get lucky in a bewitched encounter"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:crying_obsidian"
+      "item": "spelunkery:portal_fluid_bottle"
     },
     "show_toast": true,
     "title": {

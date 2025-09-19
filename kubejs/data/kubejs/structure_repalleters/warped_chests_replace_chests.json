@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:chest",
+  "replaces_with": "woodworks:warped_chest",
+  "selector": {
+    "type": "names",
+    "config": [
+      "hearths:warped_tower"
+    ]
+  }
+}

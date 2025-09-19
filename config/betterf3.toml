@@ -149,6 +149,8 @@
 		misc = true
 		"caverns_and_chasms:lost_goat" = false
 		"endergetic:end_creature" = false
+		glares = false
+		rascals = false
 
 [[modules_left]]
 	name = "sound"

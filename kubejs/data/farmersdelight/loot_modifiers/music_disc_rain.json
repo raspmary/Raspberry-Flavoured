@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+	{
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "type": "#minecraft:skeletons"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:drowned"
+      }
+    }
+  ],
+  "item": "windswept:music_disc_rain"
+}

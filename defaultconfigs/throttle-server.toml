@@ -1,0 +1,4 @@
+#The minecart speed cap in m/s. In vanilla value is 8.0 m/s.
+#Range: 0.0 ~ 1.7976931348623157E308
+maxSpeed = 16.0
+

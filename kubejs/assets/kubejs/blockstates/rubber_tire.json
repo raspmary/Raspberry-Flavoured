@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kubejs:block/rubber_tire_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kubejs:block/rubber_tire"
+    },
+    "axis=z": {
+      "model": "kubejs:block/rubber_tire_horizontal",
+      "x": 90
+    }
+  }
+}

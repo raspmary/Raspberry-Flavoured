@@ -1,0 +1,33 @@
+{
+   "targets": [
+	"architects_palette:dripstone_bricks",
+	"architects_palette:dripstone_brick_slab",
+	"architects_palette:dripstone_brick_stairs",
+	"architects_palette:dripstone_brick_wall",
+	"architects_palette:dripstone_pillar",
+	"architects_palette:chiseled_dripstone",
+	"architects_palette:heavy_dripstone_bricks",
+	"create:cut_dripstone_bricks",
+	"create:cut_dripstone_brick_stairs",
+	"create:cut_dripstone_brick_slab",
+	"create:cut_dripstone_brick_wall",
+	"create:small_dripstone_bricks",
+	"create:small_dripstone_brick_stairs",
+	"create:small_dripstone_brick_slab",
+	"create:small_dripstone_brick_wall",
+	"quark:dripstone_bricks",
+	"quark:dripstone_bricks_slab",
+	"quark:dripstone_bricks_stairs",
+	"quark:dripstone_bricks_wall",
+	"quark:chiseled_dripstone_bricks"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.brick_variant.break",
+	  "place_sound": "kubejs:sound.brick_variant.place",
+      "hit_sound": "kubejs:sound.brick_variant.hit",
+      "fall_sound": "kubejs:sound.brick_variant.fall",
+      "step_sound": "kubejs:sound.brick_variant.step",
+      "pitch": 0.8,
+      "volume": 1
+   } 
+}

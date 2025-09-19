@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:potato_cannon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:extendo_grip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Obtain an extendo grip to increase your reach"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:extendo_grip"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Get a Grip"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

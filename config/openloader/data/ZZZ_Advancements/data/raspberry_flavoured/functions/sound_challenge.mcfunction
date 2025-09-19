@@ -1,0 +1,1 @@
+playsound kubejs:advancement.challenge master @s ~ ~ ~ 0.5

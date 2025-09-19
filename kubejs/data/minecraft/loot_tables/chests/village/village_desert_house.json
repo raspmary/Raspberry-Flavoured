@@ -11,8 +11,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -26,8 +26,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -72,7 +72,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread"
+          "name": "farmersdelight:wheat_dough",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -100,7 +101,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "spelunkery:rough_emerald"
+          "name": "kubejs:cactus_juice",
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -109,13 +111,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spelunkery:rough_emerald_shard"
+          "name": "ecologics:prickly_pear",
+          "weight": 6
         }
       ],
       "rolls": {

@@ -1,0 +1,14 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:brewing_stand",
+  "replaces_with": "minecraft:barrel",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterwitchhuts:witch_hut",
+      "explorify:mangrove_hut",
+      "autumnity:maple_hut"
+    ]
+  }
+}

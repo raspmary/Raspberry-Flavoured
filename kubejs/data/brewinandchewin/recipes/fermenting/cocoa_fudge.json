@@ -1,7 +1,7 @@
 {
   "type": "brewinandchewin:fermenting",
   "experience": 0.3,
-  "fermentingtime": 750,
+  "fermentingtime": 1200,
   "fluiditem": {
     "tag": "forge:milk"
   },

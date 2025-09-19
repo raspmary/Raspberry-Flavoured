@@ -1,0 +1,112 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat_seeds",
+              "minecraft:pumpkin_seeds",
+              "minecraft:melon_seeds",
+              "minecraft:beetroot_seeds",
+              "farmersrespite:tea_seeds",
+              "farmersdelight:cabbage_seeds",
+              "farmersdelight:tomato_seeds",
+              "culturaldelights:cucumber_seeds",
+              "culturaldelights:eggplant_seeds",
+              "culturaldelights:corn_kernels",
+              "supplementaries:flax_seeds",
+              "minecraft:carrot",
+              "minecraft:potato",
+              "minecraft:beetroot",
+              "farmersdelight:onion",
+              "farmersdelight:cabbage",
+              "farmersdelight:tomato",
+              "farmersdelight:rice",
+              "culturaldelights:eggplant",
+              "culturaldelights:corn_cob",
+              "minecraft:flint",
+              "minecraft:clay_ball",
+              "minecraft:campfire",
+              "minecraft:soul_campfire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"1": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"2": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:beds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"3": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "upgrade_aquatic:bedrolls"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"4": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "oreganized:lead_source"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"5": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "farmersdelight:tools/knives"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.root.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.root.description"
+    },
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "frame": "task",
+    "hidden": true,
+    "announce_to_chat": false,
+    "background": "farmersdelight:textures/block/rich_soil.png",
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "0", "1", "2", "3", "4", "5"
+    ]
+  ]
+}

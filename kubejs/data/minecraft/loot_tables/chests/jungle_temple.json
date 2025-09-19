@@ -5,20 +5,64 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "name": "kubejs:pathfinders_quills"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:ancient_city",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.ancient_city"
+              }
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 7
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 10.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "spelunkery:rough_diamond",
-          "weight": 2
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "trickytrialspaintingsplusmusic:music_disc_precipice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "sullysmod:music_disc_scour"
         },
         {
           "type": "minecraft:item",
@@ -27,14 +71,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "max": 15.0,
+                "min": 5.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:raw_iron",
-          "weight": 10
+          "weight": 15
         },
         {
           "type": "minecraft:item",
@@ -43,8 +87,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "max": 15.0,
+                "min": 5.0
               },
               "function": "minecraft:set_count"
             }
@@ -59,8 +103,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "max": 18.0,
+                "min": 7.0
               },
               "function": "minecraft:set_count"
             }
@@ -75,8 +119,87 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 24.0,
-                "min": 6.0
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glistering_melon_slice",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:disc_fragment_5",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "quark:blank_rune",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:loot_bag",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+			{
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.6
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "savage_and_ravage:conch_of_conjuring"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 54.0,
+                "min": 18.0
               },
               "function": "minecraft:set_count"
             }
@@ -123,54 +246,6 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:glistering_melon_slice",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:disc_fragment_5",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "quark:blank_rune",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 15.0,
                 "min": 5.0
               },
@@ -187,8 +262,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 9.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -198,39 +273,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "additionaladditions:mysterious_bundle",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "buzzier_bees:four_leaf_clover",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-			{
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.6
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "savage_and_ravage:conch_of_conjuring"
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -317,11 +366,6 @@
           ],
           "name": "architects_palette:rotten_flesh_block",
           "weight": 16
-        },
-        {
-          "type": "minecraft:item",
-          "name": "supplementaries:quiver",
-          "weight": 1
         }
       ],
       "rolls": {

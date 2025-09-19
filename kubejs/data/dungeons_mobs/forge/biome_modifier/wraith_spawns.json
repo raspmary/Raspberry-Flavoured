@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#raspberry_flavoured:wraith_spawning_biomes",
+  "spawners": {
+    "type": "dungeons_mobs:wraith",
+    "weight": 1,
+    "minCount": 0,
+    "maxCount": 1
+  }
+}

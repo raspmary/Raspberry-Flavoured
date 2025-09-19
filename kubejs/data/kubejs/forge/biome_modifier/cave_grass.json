@@ -1,0 +1,9 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#minecraft:is_overworld",
+  "denied_biomes": ["minecraft:the_end"],
+  "min_temperature": 0.4,
+  "max_temperature": 0.9,
+  "features": "kubejs:patch_cave_grass",
+  "step": "vegetal_decoration"
+}

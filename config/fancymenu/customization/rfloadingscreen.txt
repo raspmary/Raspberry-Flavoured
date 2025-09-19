@@ -9,7 +9,8 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/fancymenu_assets/bg_straight.png
+  path = config/fancymenu/fancymenu_assets/bg_anim.png
+  wideformat = true
   action = texturizebackground
 }
 
@@ -54,33 +55,6 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/fancymenu_assets/bbc_team_logo_oh_god_thats_not_a_great_abbreviation.png
-  orientation = mid-centered
-  x = -149
-  width = 298
-  action = addtexture
-  actionid = 6f6629fd-8116-4b08-8cd1-fb1293b7097d1717410979165
-  y = -78
-  height = 114
-}
-
-customization {
-  orientation = mid-centered
-  background_texture = config/fancymenu/fancymenu_assets/loadbar.png
-  bar_texture = config/fancymenu/fancymenu_assets/loadbar_loaded.png
-  progress_for_element_orientation = false
-  background_color = 8F1D4F
-  x = -150
-  width = 300
-  bar_color = DF467E
-  action = custom_layout_element:drippy_custom_loading_bar
-  actionid = c37dc917-cc42-41f4-a455-06dfa43a4cba1717411024168
-  y = 39
-  direction = right
-  height = 10
-}
-
-customization {
   orientation = mid-centered
   enable_scrolling = true
   shadow = true
@@ -94,13 +68,30 @@ customization {
   width = 275
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = fae086cb-94f8-4d8d-a1e8-43cd26268df21722779632401
-  y = 51
+  y = 89
   alignment = left
   height = 40
 }
 
 customization {
-  orientation = mid-centered
+  orientation = element
+  background_texture = config/fancymenu/fancymenu_assets/loadbar.png
+  bar_texture = config/fancymenu/fancymenu_assets/loadbar_loaded.png
+  progress_for_element_orientation = false
+  background_color = 8F1D4F
+  orientation_element = fae086cb-94f8-4d8d-a1e8-43cd26268df21722779632401
+  x = -1
+  width = 300
+  bar_color = DF467E
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = c37dc917-cc42-41f4-a455-06dfa43a4cba1717411024168
+  y = -11
+  direction = right
+  height = 10
+}
+
+customization {
+  orientation = element
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -109,12 +100,29 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 126
+  orientation_element = fae086cb-94f8-4d8d-a1e8-43cd26268df21722779632401
+  x = 275
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 7167b721-287f-4406-83b0-23018253fd8c1722782407847
-  y = 51
+  y = 1
   alignment = left
   height = 40
+}
+
+customization {
+  orientation = mid-centered
+  background_texture = config/fancymenu/fancymenu_assets/raspberry_flavoured_newest_logo_white.png
+  bar_texture = config/fancymenu/fancymenu_assets/raspberry_flavoured_newest_logo.png
+  progress_for_element_orientation = false
+  background_color = #ABC8F7
+  x = -124
+  width = 249
+  bar_color = #5295FF
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = f3ac0082-ea59-4041-8f30-3d50afec70ec1736041741716
+  y = -106
+  direction = right
+  height = 62
 }
 

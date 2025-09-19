@@ -8,69 +8,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "enchantments": [
-                "minecraft:soul_speed"
-              ],
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "enchantments": [
-                "minecraft:soul_speed"
-              ],
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:iron_boots",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:fire_resistance"
-            }
-          ],
-          "name": "minecraft:potion",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:water"
-            }
-          ],
-          "name": "minecraft:potion",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "nethersdelight:hoglin_hide",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 36.0,
-                "min": 10.0
+                "max": 18.0,
+                "min": 6.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spelunkery:raw_iron_nugget",
+          "name": "spelunkery:raw_lead_nugget",
           "weight": 10
         },
         {
@@ -80,24 +27,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:ender_pearl",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -112,8 +43,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 35.0,
-                "min": 5.0
+                "max": 16.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -128,56 +59,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 48.0,
-                "min": 12.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:raw_copper_nugget",
-          "weight": 30
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:obsidian",
-          "weight": 30
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:crying_obsidian",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
@@ -198,6 +81,70 @@
               "function": "minecraft:set_count"
             }
           ],
+          "name": "minecraft:bone",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mynethersdelight:bullet_pepper",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mynethersdelight:ghasta",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "architects_palette:withered_bone",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:rabbit_hide",
           "weight": 40
         },
@@ -208,7 +155,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 6.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
@@ -224,14 +171,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 32.0,
-                "min": 8.0
+                "max": 24.0,
+                "min": 6.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:soul_sand",
-          "weight": 40
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -247,23 +194,7 @@
             }
           ],
           "name": "minecraft:nether_brick",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:spectral_arrow",
-          "weight": 40
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -278,8 +209,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gravel",
-          "weight": 40
+          "name": "raspberry:blackstone_gravel",
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -288,14 +219,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 32.0,
-                "min": 8.0
+                "max": 56.0,
+                "min": 18.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:blackstone",
-          "weight": 40
+          "weight": 30
         }
       ],
       "rolls": 1.0

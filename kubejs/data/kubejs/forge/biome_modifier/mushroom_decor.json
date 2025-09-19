@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:mushroom_decor_biomes",
+  "features": [
+    "kubejs:portabella",
+    "kubejs:inkcap_mushrooms",
+    "kubejs:huge_mushrooms",
+	"spelunkery:conk_fungus",
+	"spelunkery:conk_fungus_surface"
+  ],
+  "step": "vegetal_decoration"
+}

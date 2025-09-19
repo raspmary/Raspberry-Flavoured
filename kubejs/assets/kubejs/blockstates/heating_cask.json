@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/heating_cask"
+    },
+    "facing=south": {
+      "model": "kubejs:block/heating_cask",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/heating_cask",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "kubejs:block/heating_cask",
+      "y": 90
+    }
+  }
+}

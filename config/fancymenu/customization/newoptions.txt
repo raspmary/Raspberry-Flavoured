@@ -34,22 +34,18 @@ customization {
 
 customization {
   identifier = %id=345280%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=345280%
   orientation = element
   orientation_element = vanillabtn:400334
-  x = -55
+  x = 0
   action = movebutton
-  y = -50
+  y = -71
 }
 
 customization {
   identifier = %id=345280%
-  action = setbuttondescription
-  description = Warning: adding/removing resource packs is not recommended
+  width = 200
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -97,6 +93,15 @@ customization {
   x = -100
   action = movebutton
   y = 77
+}
+
+customization {
+  identifier = %id=635154%
+  orientation = element
+  orientation_element = vanillabtn:400334
+  x = 236
+  action = movebutton
+  y = -154
 }
 
 customization {
@@ -198,17 +203,8 @@ customization {
   width = 200
   action = addbutton
   actionid = 2853c624-0646-474f-8cf9-b2fbfdbd41e61713556086922
-  y = -71
+  y = -45
   label = More Settings...
   height = 20
-}
-
-customization {
-  identifier = %id=635154%
-  orientation = element
-  orientation_element = vanillabtn:400334
-  x = 236
-  action = movebutton
-  y = -154
 }
 

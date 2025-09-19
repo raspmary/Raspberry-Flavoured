@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:ladder",
+  "replaces_with": "quark:mangrove_ladder",
+  "selector": {
+    "type": "names",
+    "config": [
+      "explorify:mangrove_hut"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"credit": " zanderest ",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#pane"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 9],
+			"to": [9, 16, 16],
+			"faces": {
+				"east":  {"uv": [ 0, 0,  7, 16], "texture": "#pane"},
+				"south": {"uv": [10, 0, 12, 16], "texture": "#edge", "cullface": "south"},
+				"west":  {"uv": [ 7, 0,  0, 16], "texture": "#pane"},
+				"up":    {"uv": [ 4, 9,  6, 16], "texture": "#edge"},
+				"down":  {"uv": [ 8, 0, 10,  7], "texture": "#edge"}
+			}
+		}
+	]
+}

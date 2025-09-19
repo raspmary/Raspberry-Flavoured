@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = top.theillusivec4.curios.client.gui.CuriosScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  tick_delay = 0
+  tickeraction_0_opengui = net.minecraft.client.gui.screens.inventory.InventoryScreen
+  is_async = false
+  x = 251
+  width = 70
+  action = custom_layout_element:fancymenu_customization_item_ticker
+  actionid = 8276ac4b-d0cb-4c13-9178-95518ce5ef0b1725234943970
+  y = 166
+  tick_mode = on_menu_load
+  height = 70
+}
+

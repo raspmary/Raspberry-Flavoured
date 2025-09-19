@@ -4,9 +4,9 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 4,
-  "fermentingtime": 6000,
+  "fermentingtime": 2400,
   "fluiditem": {
-    "item": "brewinandchewin:salty_folly"
+    "item": "brewinandchewin:vodka"
   },
   "ingredients": [
     {

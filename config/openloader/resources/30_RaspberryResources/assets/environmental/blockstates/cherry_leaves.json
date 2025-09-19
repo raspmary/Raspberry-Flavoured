@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "environmental:block/cherry_leaves"
+      },
+      {
+        "model": "environmental:block/cherry_leaves_empty"
+      },
+      {
+        "model": "environmental:block/cherry_leaves_notempty_1"
+      },
+      {
+        "model": "environmental:block/cherry_leaves_notempty_2"
+      },
+      {
+        "model": "environmental:block/cherry_leaves_notempty_3"
+      },
+      {
+        "model": "environmental:block/cherry_leaves_notfull_1"
+      },
+      {
+        "model": "environmental:block/cherry_leaves_notfull_2"
+      },
+      {
+        "model": "environmental:block/cherry_leaves_notfull_3"
+      }
+    ]
+  }
+}

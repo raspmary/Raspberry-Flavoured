@@ -1,566 +1,1300 @@
 // priority: 0
 
-// Item tags
 ServerEvents.tags('item', event => {
-	event.removeAllTagsFrom('create_enchantment_industry:hyper_experience_bottle')
-	event.removeAllTagsFrom('farmersdelight:milk_bottle')
-	event.removeAllTagsFrom('windswept:wooden_milk_bucket')
-	event.removeAllTagsFrom('naturalist:catfish')
-	event.removeAllTagsFrom('naturalist:cooked_catfish')
-	event.removeAllTagsFrom('windswept:bluebells')
-	event.removeAllTagsFrom('windswept:holly_sapling')
-	event.removeAllTagsFrom('windswept:holly_leaves')
-	event.removeAllTagsFrom('miners_delight:wild_cave_carrots')
-	event.removeAllTagsFrom('quark:jasper')
-	event.removeAllTagsFrom('quark:limestone')
-	event.removeAllTagsFrom('quark:permafrost')
-	event.removeAllTagsFrom('quark:shale')
-	event.removeAllTagsFrom('quark:myalite')
-	event.removeAllTagsFrom('quark:polished_jasper')
-	event.removeAllTagsFrom('quark:polished_limestone')
-	event.removeAllTagsFrom('quark:polished_permafrost')
-	event.removeAllTagsFrom('quark:polished_shale')
-	event.removeAllTagsFrom('quark:polished_myalite')
-	event.removeAllTagsFrom('quark:blue_blossom_sapling')
-	event.removeAllTagsFrom('quark:lavender_blossom_sapling')
-	event.removeAllTagsFrom('quark:orange_blossom_sapling')
-	event.removeAllTagsFrom('quark:pink_blossom_sapling')
-	event.removeAllTagsFrom('quark:yellow_blossom_sapling')
-	event.removeAllTagsFrom('quark:red_blossom_sapling')
-	event.removeAllTagsFrom('quark:ancient_sapling')
-	event.removeAllTagsFrom('quark:oak_chest')
-	event.removeAllTagsFrom('quark:spruce_chest')
-	event.removeAllTagsFrom('quark:birch_chest')
-	event.removeAllTagsFrom('quark:jungle_chest')
-	event.removeAllTagsFrom('quark:acacia_chest')
-	event.removeAllTagsFrom('quark:dark_oak_chest')
-	event.removeAllTagsFrom('quark:mangrove_chest')
-	event.removeAllTagsFrom('quark:crimson_chest')
-	event.removeAllTagsFrom('quark:warped_chest')
-	event.removeAllTagsFrom('quark:azalea_chest')
-	event.removeAllTagsFrom('quark:blossom_chest')
-	event.removeAllTagsFrom('quark:ancient_chest')
-	event.removeAllTagsFrom('quark:oak_trapped_chest')
-	event.removeAllTagsFrom('quark:spruce_trapped_chest')
-	event.removeAllTagsFrom('quark:birch_trapped_chest')
-	event.removeAllTagsFrom('quark:jungle_trapped_chest')
-	event.removeAllTagsFrom('quark:acacia_trapped_chest')
-	event.removeAllTagsFrom('quark:dark_oak_trapped_chest')
-	event.removeAllTagsFrom('quark:mangrove_trapped_chest')
-	event.removeAllTagsFrom('quark:crimson_trapped_chest')
-	event.removeAllTagsFrom('quark:warped_trapped_chest')
-	event.removeAllTagsFrom('quark:azalea_trapped_chest')
-	event.removeAllTagsFrom('quark:blossom_trapped_chest')
-	event.removeAllTagsFrom('quark:ancient_trapped_chest')
-	event.removeAllTagsFrom('quark:azalea_planks')
-	event.removeAllTagsFrom('quark:vertical_oak_planks')
-	event.removeAllTagsFrom('quark:vertical_spruce_planks')
-	event.removeAllTagsFrom('quark:vertical_birch_planks')
-	event.removeAllTagsFrom('quark:vertical_jungle_planks')
-	event.removeAllTagsFrom('quark:vertical_acacia_planks')
-	event.removeAllTagsFrom('quark:vertical_dark_oak_planks')
-	event.removeAllTagsFrom('quark:vertical_mangrove_planks')
-	event.removeAllTagsFrom('quark:vertical_crimson_planks')
-	event.removeAllTagsFrom('quark:vertical_warped_planks')
-	event.removeAllTagsFrom('quark:vertical_azalea_planks')
-	event.removeAllTagsFrom('quark:azalea_log')
-	event.removeAllTagsFrom('quark:azalea_wood')
-	event.removeAllTagsFrom('quark:stripped_azalea_log')
-	event.removeAllTagsFrom('quark:stripped_azalea_wood')
-	event.removeAllTagsFrom('quark:ancient_log')
-	event.removeAllTagsFrom('quark:ancient_wood')
-	event.removeAllTagsFrom('quark:stripped_ancient_log')
-	event.removeAllTagsFrom('quark:stripped_ancient_wood')
-	event.removeAllTagsFrom('quark:blossom_log')
-	event.removeAllTagsFrom('quark:blossom_wood')
-	event.removeAllTagsFrom('quark:stripped_blossom_log')
-	event.removeAllTagsFrom('quark:stripped_blossom_wood')
-	event.removeAllTagsFrom('oreganized:lead_ore')
-	event.removeAllTagsFrom('additionaladditions:music_disc_0308')
-	event.removeAllTagsFrom('additionaladditions:music_disc_1007')
-	event.removeAllTagsFrom('additionaladditions:music_disc_1507')
-	event.removeAllTagsFrom('environmental:music_disc_leaving_home')
-	event.removeAllTagsFrom('alloyed:steel_shears')
-	event.removeAllTagsFrom('copperized:copper_nugget')
-	event.removeAllTagsFrom('copperized:copper_helmet')
-	event.removeAllTagsFrom('copperized:copper_chestplate')
-	event.removeAllTagsFrom('copperized:copper_leggings')
-	event.removeAllTagsFrom('copperized:copper_boots')
-	event.removeAllTagsFrom('copperized:copper_sword')
-	event.removeAllTagsFrom('copperized:copper_pickaxe')
-	event.removeAllTagsFrom('copperized:copper_axe')
-	event.removeAllTagsFrom('copperized:copper_hoe')
-	event.removeAllTagsFrom('copperized:copper_shovel')
-	event.removeAllTagsFrom('copperized:copper_horse_armor')
-	event.removeAllTagsFrom('culturaldelights:avocado_log')
-	event.removeAllTagsFrom('culturaldelights:avocado_wood')
-	event.removeAllTagsFrom('windswept:wild_berries')
-	event.removeAllTagsFrom('windswept:wooden_powder_snow_bucket')
-	event.removeAllTagsFrom('create:shadow_steel_casing')
-	event.removeAllTagsFrom('create:refined_radiance_casing')
-	event.removeAllTagsFrom('create:crushed_raw_osmium')
-	event.removeAllTagsFrom('create:crushed_raw_platinum')
-	event.removeAllTagsFrom('create:crushed_raw_tin')
-	event.removeAllTagsFrom('create:crushed_raw_quicksilver')
-	event.removeAllTagsFrom('create:crushed_raw_aluminum')
-	event.removeAllTagsFrom('create:crushed_raw_uranium')
-	event.removeAllTagsFrom('create:crushed_raw_nickel')
-	event.removeAllTagsFrom('minecraft:chorus_fruit')
-	event.removeAllTagsFrom('windswept:holly_cabinet')
-	event.removeAllTagsFrom('abnormals_delight:kousa_cabinet')
-	event.removeAllTagsFrom('abnormals_delight:laurel_cabinet')
-	event.removeAllTagsFrom('abnormals_delight:grimwood_cabinet')
-	event.removeAllTagsFrom('abnormals_delight:azalea_cabinet')
-	event.removeAllTagsFrom('abnormals_delight:poise_cabinet')
-	event.removeAllTagsFrom('abnormals_delight:pine_cabinet')
-	event.removeAllTagsFrom('abnormals_delight:silver_knife')
-	event.removeAllTagsFrom('create:netherite_backtank')
-	event.removeAllTagsFrom('create:netherite_diving_helmet')
-	event.removeAllTagsFrom('quark:forgotten_hat')
-	event.removeAllTagsFrom('create:bar_of_chocolate')
-	event.removeAllTagsFrom('minecraft:enchanted_book')
-	event.removeAllTagsFrom('windswept:holly_bookshelf')
-	event.removeAllTagsFrom('atmospheric:kousa_bookshelf')
-	event.removeAllTagsFrom('atmospheric:grimwood_bookshelf')
-	event.removeAllTagsFrom('quark:azalea_bookshelf')
-	event.removeAllTagsFrom('quark:blossom_bookshelf')
-	event.removeAllTagsFrom('quark:ancient_bookshelf')
-	event.removeAllTagsFrom('windswept:wooden_bucket')
-	event.removeAllTagsFrom('windswept:wooden_water_bucket')
-	event.removeAllTagsFrom('minecraft:elytra')
-	event.removeAllTagsFrom('windswept:holly_chest')
-	event.removeAllTagsFrom('windswept:holly_trapped_chest')
-	event.removeAllTagsFrom('atmospheric:grimwood_chest')
-	event.removeAllTagsFrom('atmospheric:grimwood_trapped_chest')
-	event.removeAllTagsFrom('atmospheric:kousa_fence_gate')
-	event.removeAllTagsFrom('atmospheric:grimwood_fence_gate')
-	event.removeAllTagsFrom('quark:azalea_fence_gate')
-	event.removeAllTagsFrom('quark:blossom_fence_gate')
-	event.removeAllTagsFrom('quark:ancient_fence_gate')
-	event.removeAllTagsFrom('windswept:holly_fence')
-	event.removeAllTagsFrom('ecologics:walnut_fence')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_fence')
-	event.removeAllTagsFrom('atmospheric:kousa_fence')
-	event.removeAllTagsFrom('atmospheric:grimwood_fence')
-	event.removeAllTagsFrom('quark:azalea_fence')
-	event.removeAllTagsFrom('quark:blossom_fence')
-	event.removeAllTagsFrom('quark:ancient_fence')
-	event.removeAllTagsFrom('minecraft:emerald')
-	event.removeAllTagsFrom('miningmaster:fire_ruby')
-	event.removeAllTagsFrom('miningmaster:ice_sapphire')
-	event.removeAllTagsFrom('miningmaster:spirit_garnet')
-	event.removeAllTagsFrom('miningmaster:lucky_citrine')
-	event.removeAllTagsFrom('miningmaster:haste_peridot')
-	event.removeAllTagsFrom('miningmaster:dive_aquamarine')
-	event.removeAllTagsFrom('miningmaster:divine_beryl')
-	event.removeAllTagsFrom('miningmaster:spider_kunzite')
-	event.removeAllTagsFrom('miningmaster:unbreaking_iolite')
-	event.removeAllTagsFrom('miningmaster:power_pyrite')
-	event.removeAllTagsFrom('miningmaster:heart_rhodonite')
-	event.removeAllTagsFrom('miningmaster:kinetic_opal')
-	event.removeAllTagsFrom('miningmaster:air_malachite')
-	event.removeAllTagsFrom('create:experience_nugget')
-	event.removeAllTagsFrom('minecraft:emerald_ore')
-	event.removeAllTagsFrom('minecraft:deepslate_emerald_ore')
-	event.removeAllTagsFrom('minecraft:lapis_ore')
-	event.removeAllTagsFrom('minecraft:deepslate_lapis_ore')
-	event.removeAllTagsFrom('miningmaster:fire_ruby_ore')
-	event.removeAllTagsFrom('miningmaster:ice_sapphire_ore')
-	event.removeAllTagsFrom('miningmaster:spirit_garnet_ore')
-	event.removeAllTagsFrom('miningmaster:lucky_citrine_ore')
-	event.removeAllTagsFrom('miningmaster:haste_peridot_ore')
-	event.removeAllTagsFrom('miningmaster:dive_aquamarine_ore')
-	event.removeAllTagsFrom('miningmaster:divine_beryl_ore')
-	event.removeAllTagsFrom('miningmaster:spider_kunzite_ore')
-	event.removeAllTagsFrom('miningmaster:unbreaking_iolite_ore')
-	event.removeAllTagsFrom('miningmaster:heart_rhodonite_ore')
-	event.removeAllTagsFrom('miningmaster:power_pyrite_ore')
-	event.removeAllTagsFrom('miningmaster:kinetic_opal_ore')
-	event.removeAllTagsFrom('miningmaster:air_malachite_ore')
-	event.removeAllTagsFrom('windswept:wild_berry_pips')
-	event.removeAllTagsFrom('culturaldelights:cucumber_seeds')
-	event.removeAllTagsFrom('minecraft:lapis_block')
-	event.removeAllTagsFrom('create:experience_block')
-	event.removeAllTagsFrom('quark:chorus_fruit_block')
-	event.removeAllTagsFrom('quark:potato_crate')
-	event.removeAllTagsFrom('quark:carrot_crate')
-	event.removeAllTagsFrom('quark:beetroot_crate')
-	event.removeAllTagsFrom('quark:bonded_rabbit_hide')
-	event.removeAllTagsFrom('quark:flamerang')
-	event.removeAllTagsFrom('quark:echorang')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_chest_boat')
-	event.removeAllTagsFrom('atmospheric:kousa_chest_boat')
-	event.removeAllTagsFrom('atmospheric:grimwood_chest_boat')
-	event.removeAllTagsFrom('ecologics:walnut_boat')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_boat')
-	event.removeAllTagsFrom('atmospheric:kousa_boat')
-	event.removeAllTagsFrom('atmospheric:grimwood_boat')
-	event.removeAllTagsFrom('ecologics:walnut_button')
-	event.removeAllTagsFrom('windswept:holly_button')
-	event.removeAllTagsFrom('quark:ancient_button')
-	event.removeAllTagsFrom('quark:blossom_button')
-	event.removeAllTagsFrom('quark:azalea_button')
-	event.removeAllTagsFrom('atmospheric:grimwood_button')
-	event.removeAllTagsFrom('atmospheric:kousa_button')
-	event.removeAllTagsFrom('atmospheric:crustose')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_door')
-	event.removeAllTagsFrom('ecologics:walnut_door')
-	event.removeAllTagsFrom('windswept:holly_door')
-	event.removeAllTagsFrom('atmospheric:kousa_door')
-	event.removeAllTagsFrom('atmospheric:grimwood_door')
-	event.removeAllTagsFrom('quark:azalea_door')
-	event.removeAllTagsFrom('quark:blossom_door')
-	event.removeAllTagsFrom('quark:ancient_door')
-	event.removeAllTagsFrom('upgrade_aquatic:glass_door')
-	event.removeAllTagsFrom('ecologics:walnut_fence_gate')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_fence_gate')
-	event.removeAllTagsFrom('quark:azalea_fence_gate')
-	event.removeAllTagsFrom('quark:blossom_fence_gate')
-	event.removeAllTagsFrom('quark:ancient_fence_gate')
-	event.removeAllTagsFrom('ecologics:walnut_leaves')
-	event.removeAllTagsFrom('atmospheric:kousa_leaves')
-	event.removeAllTagsFrom('atmospheric:grimwood_leaves')
-	event.removeAllTagsFrom('quark:blue_blossom_leaves')
-	event.removeAllTagsFrom('quark:lavender_blossom_leaves')
-	event.removeAllTagsFrom('quark:orange_blossom_leaves')
-	event.removeAllTagsFrom('quark:pink_blossom_leaves')
-	event.removeAllTagsFrom('quark:yellow_blossom_leaves')
-	event.removeAllTagsFrom('quark:red_blossom_leaves')
-	event.removeAllTagsFrom('quark:ancient_leaves')
-	event.removeAllTagsFrom('windswept:holly_log')
-	event.removeAllTagsFrom('windswept:holly_wood')
-	event.removeAllTagsFrom('windswept:stripped_holly_log')
-	event.removeAllTagsFrom('windswept:stripped_holly_wood')
-	event.removeAllTagsFrom('ecologics:walnut_log')
-	event.removeAllTagsFrom('ecologics:walnut_wood')
-	event.removeAllTagsFrom('ecologics:stripped_walnut_log')
-	event.removeAllTagsFrom('ecologics:stripped_walnut_wood')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_log')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_wood')
-	event.removeAllTagsFrom('atmospheric:crustose_log')
-	event.removeAllTagsFrom('atmospheric:crustose_wood')
-	event.removeAllTagsFrom('atmospheric:kousa_log')
-	event.removeAllTagsFrom('atmospheric:kousa_wood')
-	event.removeAllTagsFrom('atmospheric:stripped_kousa_log')
-	event.removeAllTagsFrom('atmospheric:stripped_kousa_wood')
-	event.removeAllTagsFrom('atmospheric:grimwood_log')
-	event.removeAllTagsFrom('atmospheric:grimwood')
-	event.removeAllTagsFrom('atmospheric:stripped_grimwood_log')
-	event.removeAllTagsFrom('atmospheric:stripped_grimwood')
-	event.removeAllTagsFrom('quark:music_disc_endermosh')
-	event.removeAllTagsFrom('quark:music_disc_drips')
-	event.removeAllTagsFrom('quark:music_disc_ocean')
-	event.removeAllTagsFrom('quark:music_disc_rain')
-	event.removeAllTagsFrom('quark:music_disc_wind')
-	event.removeAllTagsFrom('quark:music_disc_fire')
-	event.removeAllTagsFrom('quark:music_disc_clock')
-	event.removeAllTagsFrom('quark:music_disc_crickets')
-	event.removeAllTagsFrom('quark:music_disc_chatter')
-	event.removeAllTagsFrom('savage_and_ravage:blast_proof_vertical_slab')
-	event.removeAllTagsFrom('nethersdelight:raw_stuffed_hoglin')
-	event.removeAllTagsFrom('nethersdelight:golden_machete')
-	event.removeAllTagsFrom('quark:raw_gold_bricks')
-	event.removeAllTagsFrom('quark:raw_gold_bricks_slab')
-	event.removeAllTagsFrom('quark:raw_gold_bricks_stairs')
-	event.removeAllTagsFrom('quark:raw_gold_bricks_vertical_slab')
-	event.removeAllTagsFrom('windswept:vertical_holly_planks')
-	event.removeAllTagsFrom('windswept:vertical_chestnut_planks')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_planks')
-	event.removeAllTagsFrom('environmental:vertical_willow_planks')
-	event.removeAllTagsFrom('environmental:vertical_wisteria_planks')
-	event.removeAllTagsFrom('environmental:vertical_cherry_planks')
-	event.removeAllTagsFrom('upgrade_aquatic:vertical_driftwood_planks')
-	event.removeAllTagsFrom('upgrade_aquatic:vertical_river_planks')
-	event.removeAllTagsFrom('autumnity:vertical_maple_planks')
-	event.removeAllTagsFrom('atmospheric:kousa_planks')
-	event.removeAllTagsFrom('atmospheric:grimwood_planks')
-	event.removeAllTagsFrom('atmospheric:vertical_rosewood_planks')
-	event.removeAllTagsFrom('atmospheric:vertical_morado_planks')
-	event.removeAllTagsFrom('atmospheric:vertical_yucca_planks')
-	event.removeAllTagsFrom('atmospheric:vertical_kousa_planks')
-	event.removeAllTagsFrom('atmospheric:vertical_aspen_planks')
-	event.removeAllTagsFrom('atmospheric:vertical_grimwood_planks')
-	event.removeAllTagsFrom('quark:blossom_planks')
-	event.removeAllTagsFrom('quark:vertical_bamboo_planks')
-	event.removeAllTagsFrom('quark:vertical_blossom_planks')
-	event.removeAllTagsFrom('quark:ancient_planks')
-	event.removeAllTagsFrom('quark:vertical_ancient_planks')
-	event.removeAllTagsFrom('ecologics:walnut_sapling')
-	event.removeAllTagsFrom('atmospheric:kousa_sapling')
-	event.removeAllTagsFrom('atmospheric:grimwood_sapling')
-	event.removeAllTagsFrom('windswept:holly_sign')
-	event.removeAllTagsFrom('ecologics:walnut_sign')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_sign')
-	event.removeAllTagsFrom('atmospheric:kousa_sign')
-	event.removeAllTagsFrom('atmospheric:grimwood_sign')
-	event.removeAllTagsFrom('quark:azalea_sign')
-	event.removeAllTagsFrom('quark:blossom_sign')
-	event.removeAllTagsFrom('quark:ancient_sign')
-	event.removeAllTagsFrom('windswept:holly_slab')
-	event.removeAllTagsFrom('ecologics:walnut_slab')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_slab')
-	event.removeAllTagsFrom('atmospheric:kousa_slab')
-	event.removeAllTagsFrom('atmospheric:grimwood_slab')
-	event.removeAllTagsFrom('quark:azalea_planks_slab')
-	event.removeAllTagsFrom('quark:blossom_planks_slab')
-	event.removeAllTagsFrom('quark:ancient_planks_slab')
-	event.removeAllTagsFrom('minecraft:end_stone_brick_slab')
-	event.removeAllTagsFrom('ecologics:snow_brick_slab')
-	event.removeAllTagsFrom('architects_palette:coal_ore_brick_slab')
-	event.removeAllTagsFrom('architects_palette:lapis_ore_brick_slab')
-	event.removeAllTagsFrom('architects_palette:iron_ore_brick_slab')
-	event.removeAllTagsFrom('architects_palette:redstone_ore_brick_slab')
-	event.removeAllTagsFrom('architects_palette:gold_ore_brick_slab')
-	event.removeAllTagsFrom('architects_palette:emerald_ore_brick_slab')
-	event.removeAllTagsFrom('architects_palette:diamond_ore_brick_slab')
-	event.removeAllTagsFrom('architects_palette:nether_brass_slab')
-	event.removeAllTagsFrom('architects_palette:cut_nether_brass_slab')
-	event.removeAllTagsFrom('architects_palette:smooth_nether_brass_slab')
-	event.removeAllTagsFrom('architects_palette:oracle_slab')
-	event.removeAllTagsFrom('architects_palette:oracle_brick_slab')
-	event.removeAllTagsFrom('architects_palette:dark_oracle_brick_slab')
-	event.removeAllTagsFrom('architects_palette:oracle_tile_slab')
-	event.removeAllTagsFrom('twigs:schist_slab')
-	event.removeAllTagsFrom('twigs:polished_schist_slab')
-	event.removeAllTagsFrom('twigs:polished_schist_brick_slab')
-	event.removeAllTagsFrom('twigs:rhyolite_slab')
-	event.removeAllTagsFrom('twigs:polished_rhyolite_slab')
-	event.removeAllTagsFrom('twigs:polished_rhyolite_brick_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:polar_kelpy_cobblestone_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:thorny_kelpy_cobblestone_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:ochre_kelpy_cobblestone_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:tongue_kelpy_cobblestone_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:polar_kelpy_stone_brick_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:thorny_kelpy_stone_brick_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:ochre_kelpy_stone_brick_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:tongue_kelpy_stone_brick_slab')
-	event.removeAllTagsFrom('upgrade_aquatic:beachgrass_thatch_slab')
-	event.removeAllTagsFrom('atmospheric:ivory_travertine_slab')
-	event.removeAllTagsFrom('atmospheric:peach_travertine_slab')
-	event.removeAllTagsFrom('atmospheric:persimmon_travertine_slab')
-	event.removeAllTagsFrom('atmospheric:saffron_travertine_slab')
-	event.removeAllTagsFrom('quark:cobblestone_bricks_slab')
-	event.removeAllTagsFrom('quark:jasper_bricks_slab')
-	event.removeAllTagsFrom('quark:jasper_slab')
-	event.removeAllTagsFrom('quark:limestone_bricks_slab')
-	event.removeAllTagsFrom('quark:limestone_slab')
-	event.removeAllTagsFrom('quark:mossy_cobblestone_bricks_slab')
-	event.removeAllTagsFrom('quark:myalite_bricks_slab')
-	event.removeAllTagsFrom('quark:myalite_slab')
-	event.removeAllTagsFrom('quark:polished_jasper_slab')
-	event.removeAllTagsFrom('quark:polished_limestone_slab')
-	event.removeAllTagsFrom('quark:polished_myalite_slab')
-	event.removeAllTagsFrom('quark:polished_shale_slab')
-	event.removeAllTagsFrom('quark:raw_copper_bricks_slab')
-	event.removeAllTagsFrom('quark:raw_iron_bricks_slab')
-	event.removeAllTagsFrom('quark:raw_gold_bricks_slab')
-	event.removeAllTagsFrom('quark:shale_bricks_slab')
-	event.removeAllTagsFrom('quark:shale_slab')
-	event.removeAllTagsFrom('twigs:azalea_flowers')
-	event.removeAllTagsFrom('windswept:holly_stairs')
-	event.removeAllTagsFrom('ecologics:walnut_stairs')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_stairs')
-	event.removeAllTagsFrom('atmospheric:kousa_stairs')
-	event.removeAllTagsFrom('atmospheric:grimwood_stairs')
-	event.removeAllTagsFrom('quark:azalea_planks_stairs')
-	event.removeAllTagsFrom('quark:blossom_planks_stairs')
-	event.removeAllTagsFrom('quark:ancient_planks_stairs')
-	event.removeAllTagsFrom('minecraft:end_stone_brick_stairs')
-	event.removeAllTagsFrom('ecologics:snow_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:coal_ore_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:lapis_ore_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:iron_ore_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:redstone_ore_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:gold_ore_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:emerald_ore_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:diamond_ore_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:nether_brass_stairs')
-	event.removeAllTagsFrom('architects_palette:cut_nether_brass_stairs')
-	event.removeAllTagsFrom('architects_palette:smooth_nether_brass_stairs')
-	event.removeAllTagsFrom('architects_palette:oracle_stairs')
-	event.removeAllTagsFrom('architects_palette:oracle_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:dark_oracle_brick_stairs')
-	event.removeAllTagsFrom('architects_palette:oracle_tile_stairs')
-	event.removeAllTagsFrom('twigs:schist_stairs')
-	event.removeAllTagsFrom('twigs:polished_schist_stairs')
-	event.removeAllTagsFrom('twigs:polished_schist_brick_stairs')
-	event.removeAllTagsFrom('twigs:rhyolite_stairs')
-	event.removeAllTagsFrom('twigs:polished_rhyolite_stairs')
-	event.removeAllTagsFrom('twigs:polished_rhyolite_brick_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:polar_kelpy_cobblestone_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:thorny_kelpy_cobblestone_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:ochre_kelpy_cobblestone_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:tongue_kelpy_cobblestone_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:polar_kelpy_stone_brick_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:thorny_kelpy_stone_brick_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:ochre_kelpy_stone_brick_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:tongue_kelpy_stone_brick_stairs')
-	event.removeAllTagsFrom('upgrade_aquatic:beachgrass_thatch_stairs')
-	event.removeAllTagsFrom('atmospheric:ivory_travertine_stairs')
-	event.removeAllTagsFrom('atmospheric:peach_travertine_stairs')
-	event.removeAllTagsFrom('atmospheric:persimmon_travertine_stairs')
-	event.removeAllTagsFrom('atmospheric:saffron_travertine_stairs')
-	event.removeAllTagsFrom('quark:cobblestone_bricks_stairs')
-	event.removeAllTagsFrom('quark:jasper_bricks_stairs')
-	event.removeAllTagsFrom('quark:jasper_stairs')
-	event.removeAllTagsFrom('quark:limestone_bricks_stairs')
-	event.removeAllTagsFrom('quark:limestone_stairs')
-	event.removeAllTagsFrom('quark:mossy_cobblestone_bricks_stairs')
-	event.removeAllTagsFrom('quark:myalite_bricks_stairs')
-	event.removeAllTagsFrom('quark:myalite_stairs')
-	event.removeAllTagsFrom('quark:polished_jasper_stairs')
-	event.removeAllTagsFrom('quark:polished_limestone_stairs')
-	event.removeAllTagsFrom('quark:polished_myalite_stairs')
-	event.removeAllTagsFrom('quark:polished_shale_stairs')
-	event.removeAllTagsFrom('quark:raw_copper_bricks_stairs')
-	event.removeAllTagsFrom('quark:raw_iron_bricks_stairs')
-	event.removeAllTagsFrom('quark:raw_gold_bricks_stairs')
-	event.removeAllTagsFrom('quark:shale_bricks_stairs')
-	event.removeAllTagsFrom('quark:shale_stairs')
-	event.removeAllTagsFrom('windswept:holly_trapdoor')
-	event.removeAllTagsFrom('ecologics:flowering_azalea_trapdoor')
-	event.removeAllTagsFrom('atmospheric:kousa_trapdoor')
-	event.removeAllTagsFrom('atmospheric:grimwood_trapdoor')
-	event.removeAllTagsFrom('quark:azalea_trapdoor')
-	event.removeAllTagsFrom('quark:blossom_trapdoor')
-	event.removeAllTagsFrom('quark:ancient_trapdoor')
-	event.removeAllTagsFrom('upgrade_aquatic:glass_trapdoor')
-	event.removeAllTagsFrom('minecraft:end_stone_brick_wall')
-	event.removeAllTagsFrom('ecologics:snow_brick_wall')
-	event.removeAllTagsFrom('architects_palette:coal_ore_brick_wall')
-	event.removeAllTagsFrom('architects_palette:lapis_ore_brick_wall')
-	event.removeAllTagsFrom('architects_palette:iron_ore_brick_wall')
-	event.removeAllTagsFrom('architects_palette:redstone_ore_brick_wall')
-	event.removeAllTagsFrom('architects_palette:gold_ore_brick_wall')
-	event.removeAllTagsFrom('architects_palette:emerald_ore_brick_wall')
-	event.removeAllTagsFrom('architects_palette:diamond_ore_brick_wall')
-	event.removeAllTagsFrom('architects_palette:nether_brass_wall')
-	event.removeAllTagsFrom('architects_palette:cut_nether_brass_wall')
-	event.removeAllTagsFrom('architects_palette:smooth_nether_brass_wall')
-	event.removeAllTagsFrom('architects_palette:oracle_wall')
-	event.removeAllTagsFrom('architects_palette:oracle_brick_wall')
-	event.removeAllTagsFrom('architects_palette:dark_oracle_brick_wall')
-	event.removeAllTagsFrom('architects_palette:oracle_tile_wall')
-	event.removeAllTagsFrom('architects_palette:sheet_metal_wall')
-	event.removeAllTagsFrom('twigs:schist_wall')
-	event.removeAllTagsFrom('twigs:polished_schist_brick_wall')
-	event.removeAllTagsFrom('twigs:rhyolite_wall')
-	event.removeAllTagsFrom('twigs:polished_rhyolite_brick_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:polar_kelpy_cobblestone_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:thorny_kelpy_cobblestone_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:ochre_kelpy_cobblestone_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:tongue_kelpy_cobblestone_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:polar_kelpy_stone_brick_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:thorny_kelpy_stone_brick_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:ochre_kelpy_stone_brick_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:tongue_kelpy_stone_brick_wall')
-	event.removeAllTagsFrom('upgrade_aquatic:beachgrass_thatch_wall')
-	event.removeAllTagsFrom('atmospheric:ivory_travertine_wall')
-	event.removeAllTagsFrom('atmospheric:peach_travertine_wall')
-	event.removeAllTagsFrom('atmospheric:persimmon_travertine_wall')
-	event.removeAllTagsFrom('atmospheric:saffron_travertine_wall')
-	event.removeAllTagsFrom('quark:cobblestone_bricks_wall')
-	event.removeAllTagsFrom('quark:jasper_bricks_wall')
-	event.removeAllTagsFrom('quark:jasper_wall')
-	event.removeAllTagsFrom('quark:limestone_bricks_wall')
-	event.removeAllTagsFrom('quark:limestone_wall')
-	event.removeAllTagsFrom('quark:mossy_cobblestone_bricks_wall')
-	event.removeAllTagsFrom('quark:myalite_bricks_wall')
-	event.removeAllTagsFrom('quark:myalite_wall')
-	event.removeAllTagsFrom('quark:polished_jasper_wall')
-	event.removeAllTagsFrom('quark:polished_limestone_wall')
-	event.removeAllTagsFrom('quark:polished_myalite_wall')
-	event.removeAllTagsFrom('quark:polished_shale_wall')
-	event.removeAllTagsFrom('quark:raw_copper_bricks_wall')
-	event.removeAllTagsFrom('quark:raw_iron_bricks_wall')
-	event.removeAllTagsFrom('quark:raw_gold_bricks_wall')
-	event.removeAllTagsFrom('quark:shale_bricks_wall')
-	event.removeAllTagsFrom('quark:shale_wall')
-	event.removeAllTagsFrom('quark:permafrost_bricks_wall')
-	event.removeAllTagsFrom('quark:permafrost_wall')
-	event.removeAllTagsFrom('windswept:holly_pressure_plate')
-	event.removeAllTagsFrom('ecologics:walnut_pressure_plate')
-	event.removeAllTagsFrom('atmospheric:kousa_pressure_plate')
-	event.removeAllTagsFrom('atmospheric:grimwood_pressure_plate')
-	event.removeAllTagsFrom('quark:azalea_pressure_plate')
-	event.removeAllTagsFrom('quark:blossom_pressure_plate')
-	event.removeAllTagsFrom('quark:ancient_pressure_plate')
-	event.removeAllTagsFrom('oreganized:bush_hammer')
-	event.removeAllTagsFrom('everycomp:q/ecologics/walnut_hedge')
-	event.removeAllTagsFrom('atmospheric:kousa_hedge')
-	event.removeAllTagsFrom('atmospheric:grimwood_hedge')
-	event.removeAllTagsFrom('quark:flowering_azalea_hedge')
-	event.removeAllTagsFrom('quark:ancient_hedge')
-	event.removeAllTagsFrom('quark:blue_blossom_hedge')
-	event.removeAllTagsFrom('quark:lavender_blossom_hedge')
-	event.removeAllTagsFrom('quark:orange_blossom_hedge')
-	event.removeAllTagsFrom('quark:pink_blossom_hedge')
-	event.removeAllTagsFrom('quark:yellow_blossom_hedge')
-	event.removeAllTagsFrom('quark:red_blossom_hedge')
-	event.removeAllTagsFrom('quark:hollow_blossom_log')
-	event.removeAllTagsFrom('quark:hollow_azalea_log')
-	event.removeAllTagsFrom('quark:hollow_ancient_log')
-	event.removeAllTagsFrom('windswept:holly_ladder')
-	event.removeAllTagsFrom('atmospheric:kousa_ladder')
-	event.removeAllTagsFrom('atmospheric:grimwood_ladder')
-	event.removeAllTagsFrom('quark:azalea_ladder')
-	event.removeAllTagsFrom('quark:blossom_ladder')
-	event.removeAllTagsFrom('quark:ancient_ladder')
-	event.removeAllTagsFrom('woodworks:spruce_ladder')
-	event.removeAllTagsFrom('woodworks:birch_ladder')
-	event.removeAllTagsFrom('woodworks:jungle_ladder')
-	event.removeAllTagsFrom('woodworks:acacia_ladder')
-	event.removeAllTagsFrom('woodworks:dark_oak_ladder')
-	event.removeAllTagsFrom('woodworks:mangrove_ladder')
-	event.removeAllTagsFrom('woodworks:crimson_ladder')
-	event.removeAllTagsFrom('woodworks:warped_ladder')
-	event.removeAllTagsFrom('woodworks:spruce_ladder')
-	event.removeAllTagsFrom('quark:ancient_post')
-	event.removeAllTagsFrom('quark:blossom_post')
-	event.removeAllTagsFrom('quark:azalea_post')
-	event.removeAllTagsFrom('quark:stripped_ancient_post')
-	event.removeAllTagsFrom('quark:stripped_blossom_post')
-	event.removeAllTagsFrom('quark:stripped_azalea_post')
-	event.removeAllTagsFrom('supplementaries:quark/hanging_sign_azalea')
-	event.removeAllTagsFrom('supplementaries:quark/hanging_sign_ancient')
-	event.removeAllTagsFrom('supplementaries:quark/hanging_sign_blossom')
-	event.removeAllTagsFrom('supplementaries:ecologics/hanging_sign_flowering_azalea')
-	event.removeAllTagsFrom('supplementaries:ecologics/hanging_sign_walnut')
-	event.removeAllTagsFrom('supplementaries:windswept/hanging_sign_holly')
-	event.removeAllTagsFrom('supplementaries:atmospheric/hanging_sign_kousa')
-	event.removeAllTagsFrom('supplementaries:atmospheric/hanging_sign_grimwood')
-	event.removeAllTagsFrom('supplementaries:sconce_green')
-	event.removeAllTagsFrom('supplementaries:sconce_ender')
-	event.removeAllTagsFrom('supplementaries:sconce_glow')
-	event.removeAllTagsFrom('supplementaries:quark/sign_post_azalea')
-	event.removeAllTagsFrom('supplementaries:quark/sign_post_ancient')
-	event.removeAllTagsFrom('supplementaries:quark/sign_post_blossom')
-	event.removeAllTagsFrom('supplementaries:ecologics/sign_post_flowering_azalea')
-	event.removeAllTagsFrom('supplementaries:ecologics/sign_post_walnut')
-	event.removeAllTagsFrom('supplementaries:windswept/sign_post_holly')
-	event.removeAllTagsFrom('supplementaries:atmospheric/sign_post_kousa')
-	event.removeAllTagsFrom('supplementaries:atmospheric/sign_post_grimwood')
-	event.removeAllTagsFrom('minecraft:lapis_lazuli')
-	event.removeAllTagsFrom('quark:acacia_bookshelf')
-	event.removeAllTagsFrom('quark:birch_bookshelf')
-	event.removeAllTagsFrom('quark:dark_oak_bookshelf')
-	event.removeAllTagsFrom('quark:jungle_bookshelf')
-	event.removeAllTagsFrom('quark:spruce_bookshelf')
-	event.removeAllTagsFrom('quark:warped_bookshelf')
-	event.removeAllTagsFrom('quark:crimson_bookshelf')
-	event.removeAllTagsFrom('quark:mangrove_bookshelf')
+// Removing all tags from unobtainable items
+	event.removeAllTagsFrom([
+	"farmersdelight:milk_bottle",
+	"windswept:wooden_milk_bucket",
+	"naturalist:catfish",
+	"naturalist:cooked_catfish",
+	"windswept:bluebells",
+	"windswept:holly_sapling",
+	"windswept:holly_leaves",
+	"miners_delight:wild_cave_carrots",
+	"quark:jasper",
+	"quark:limestone",
+	"quark:permafrost",
+	"quark:shale",
+	"quark:myalite",
+	"quark:polished_jasper",
+	"quark:polished_limestone",
+	"quark:polished_permafrost",
+	"quark:polished_shale",
+	"quark:polished_myalite",
+	"quark:blue_blossom_sapling",
+	"quark:lavender_blossom_sapling",
+	"quark:orange_blossom_sapling",
+	"quark:pink_blossom_sapling",
+	"quark:yellow_blossom_sapling",
+	"quark:red_blossom_sapling",
+	"quark:ancient_sapling",
+	"quark:oak_chest",
+	"quark:spruce_chest",
+	"quark:birch_chest",
+	"quark:jungle_chest",
+	"quark:acacia_chest",
+	"quark:dark_oak_chest",
+	"quark:mangrove_chest",
+	"quark:crimson_chest",
+	"quark:warped_chest",
+	"quark:azalea_chest",
+	"quark:blossom_chest",
+	"quark:ancient_chest",
+	"quark:oak_trapped_chest",
+	"quark:spruce_trapped_chest",
+	"quark:birch_trapped_chest",
+	"quark:jungle_trapped_chest",
+	"quark:acacia_trapped_chest",
+	"quark:dark_oak_trapped_chest",
+	"quark:mangrove_trapped_chest",
+	"quark:crimson_trapped_chest",
+	"quark:warped_trapped_chest",
+	"quark:azalea_trapped_chest",
+	"quark:blossom_trapped_chest",
+	"quark:ancient_trapped_chest",
+	"quark:azalea_planks",
+	"quark:vertical_oak_planks",
+	"quark:vertical_spruce_planks",
+	"quark:vertical_birch_planks",
+	"quark:vertical_jungle_planks",
+	"quark:vertical_acacia_planks",
+	"quark:vertical_dark_oak_planks",
+	"quark:vertical_mangrove_planks",
+	"quark:vertical_crimson_planks",
+	"quark:vertical_warped_planks",
+	"quark:vertical_azalea_planks",
+	"quark:azalea_log",
+	"quark:azalea_wood",
+	"quark:stripped_azalea_log",
+	"quark:stripped_azalea_wood",
+	"quark:ancient_log",
+	"quark:ancient_wood",
+	"quark:stripped_ancient_log",
+	"quark:stripped_ancient_wood",
+	"quark:blossom_log",
+	"quark:blossom_wood",
+	"quark:stripped_blossom_log",
+	"quark:stripped_blossom_wood",
+	"oreganized:lead_ore",
+	"additionaladditions:music_disc_0308",
+	"additionaladditions:music_disc_1007",
+	"additionaladditions:music_disc_1507",
+	"environmental:music_disc_leaving_home",
+	"copperized:copper_nugget",
+	"copperized:copper_helmet",
+	"copperized:copper_chestplate",
+	"copperized:copper_leggings",
+	"copperized:copper_boots",
+	"copperized:copper_sword",
+	"copperized:copper_pickaxe",
+	"copperized:copper_axe",
+	"copperized:copper_hoe",
+	"copperized:copper_shovel",
+	"copperized:copper_horse_armor",
+	"culturaldelights:avocado_log",
+	"culturaldelights:avocado_wood",
+	"windswept:wild_berries",
+	"windswept:wooden_powder_snow_bucket",
+	"create:shadow_steel_casing",
+	"create:refined_radiance_casing",
+	"create:crushed_raw_osmium",
+	"create:crushed_raw_platinum",
+	"create:crushed_raw_tin",
+	"create:crushed_raw_quicksilver",
+	"create:crushed_raw_aluminum",
+	"create:crushed_raw_uranium",
+	"create:crushed_raw_nickel",
+	"minecraft:chorus_fruit",
+	"windswept:holly_cabinet",
+	"abnormals_delight:kousa_cabinet",
+	"abnormals_delight:laurel_cabinet",
+	"abnormals_delight:grimwood_cabinet",
+	"abnormals_delight:azalea_cabinet",
+	"abnormals_delight:poise_cabinet",
+	"abnormals_delight:pine_cabinet",
+	"abnormals_delight:silver_knife",
+	"create:netherite_backtank",
+	"create:netherite_diving_helmet",
+	"quark:forgotten_hat",
+	"create:bar_of_chocolate",
+	"minecraft:enchanted_book",
+	"windswept:holly_bookshelf",
+	"atmospheric:kousa_bookshelf",
+	"atmospheric:grimwood_bookshelf",
+	"quark:azalea_bookshelf",
+	"quark:blossom_bookshelf",
+	"quark:ancient_bookshelf",
+	"windswept:wooden_bucket",
+	"windswept:wooden_water_bucket",
+	"minecraft:elytra",
+	"windswept:holly_chest",
+	"windswept:holly_trapped_chest",
+	"atmospheric:grimwood_chest",
+	"atmospheric:grimwood_trapped_chest",
+	"atmospheric:kousa_fence_gate",
+	"atmospheric:grimwood_fence_gate",
+	"quark:azalea_fence_gate",
+	"quark:blossom_fence_gate",
+	"quark:ancient_fence_gate",
+	"windswept:holly_fence",
+	"ecologics:walnut_fence",
+	"ecologics:flowering_azalea_fence",
+	"atmospheric:kousa_fence",
+	"atmospheric:grimwood_fence",
+	"quark:azalea_fence",
+	"quark:blossom_fence",
+	"quark:ancient_fence",
+	"minecraft:emerald",
+	"miningmaster:fire_ruby",
+	"miningmaster:ice_sapphire",
+	"miningmaster:spirit_garnet",
+	"miningmaster:lucky_citrine",
+	"miningmaster:haste_peridot",
+	"miningmaster:dive_aquamarine",
+	"miningmaster:divine_beryl",
+	"miningmaster:spider_kunzite",
+	"miningmaster:unbreaking_iolite",
+	"miningmaster:power_pyrite",
+	"miningmaster:heart_rhodonite",
+	"miningmaster:kinetic_opal",
+	"miningmaster:air_malachite",
+	"create:experience_nugget",
+	"minecraft:emerald_ore",
+	"minecraft:deepslate_emerald_ore",
+	"minecraft:lapis_ore",
+	"minecraft:deepslate_lapis_ore",
+	"miningmaster:fire_ruby_ore",
+	"miningmaster:ice_sapphire_ore",
+	"miningmaster:spirit_garnet_ore",
+	"miningmaster:lucky_citrine_ore",
+	"miningmaster:haste_peridot_ore",
+	"miningmaster:dive_aquamarine_ore",
+	"miningmaster:divine_beryl_ore",
+	"miningmaster:spider_kunzite_ore",
+	"miningmaster:unbreaking_iolite_ore",
+	"miningmaster:heart_rhodonite_ore",
+	"miningmaster:power_pyrite_ore",
+	"miningmaster:kinetic_opal_ore",
+	"miningmaster:air_malachite_ore",
+	"windswept:wild_berry_pips",
+	"culturaldelights:cucumber_seeds",
+	"culturaldelights:cucumber",
+	"culturaldelights:cut_cucumber",
+	"minecraft:lapis_block",
+	"create:experience_block",
+	"quark:chorus_fruit_block",
+	"quark:potato_crate",
+	"quark:carrot_crate",
+	"quark:beetroot_crate",
+	"quark:bonded_rabbit_hide",
+	"quark:flamerang",
+	"quark:echorang",
+	"ecologics:flowering_azalea_chest_boat",
+	"atmospheric:kousa_chest_boat",
+	"atmospheric:grimwood_chest_boat",
+	"ecologics:walnut_boat",
+	"ecologics:flowering_azalea_boat",
+	"atmospheric:kousa_boat",
+	"atmospheric:grimwood_boat",
+	"ecologics:walnut_button",
+	"windswept:holly_button",
+	"quark:ancient_button",
+	"quark:blossom_button",
+	"quark:azalea_button",
+	"atmospheric:grimwood_button",
+	"atmospheric:kousa_button",
+	"atmospheric:crustose",
+	"ecologics:flowering_azalea_door",
+	"ecologics:walnut_door",
+	"windswept:holly_door",
+	"atmospheric:kousa_door",
+	"atmospheric:grimwood_door",
+	"quark:azalea_door",
+	"quark:blossom_door",
+	"quark:ancient_door",
+	"upgrade_aquatic:glass_door",
+	"ecologics:walnut_fence_gate",
+	"ecologics:flowering_azalea_fence_gate",
+	"quark:azalea_fence_gate",
+	"quark:blossom_fence_gate",
+	"quark:ancient_fence_gate",
+	"ecologics:walnut_leaves",
+	"atmospheric:kousa_leaves",
+	"atmospheric:grimwood_leaves",
+	"quark:blue_blossom_leaves",
+	"quark:lavender_blossom_leaves",
+	"quark:orange_blossom_leaves",
+	"quark:pink_blossom_leaves",
+	"quark:yellow_blossom_leaves",
+	"quark:red_blossom_leaves",
+	"quark:ancient_leaves",
+	"windswept:holly_log",
+	"windswept:holly_wood",
+	"windswept:stripped_holly_log",
+	"windswept:stripped_holly_wood",
+	"ecologics:walnut_log",
+	"ecologics:walnut_wood",
+	"ecologics:stripped_walnut_log",
+	"ecologics:stripped_walnut_wood",
+	"ecologics:flowering_azalea_log",
+	"ecologics:flowering_azalea_wood",
+	"atmospheric:crustose_log",
+	"atmospheric:crustose_wood",
+	"atmospheric:kousa_log",
+	"atmospheric:kousa_wood",
+	"atmospheric:stripped_kousa_log",
+	"atmospheric:stripped_kousa_wood",
+	"atmospheric:grimwood_log",
+	"atmospheric:grimwood",
+	"quark:music_disc_endermosh",
+	"quark:music_disc_drips",
+	"quark:music_disc_ocean",
+	"quark:music_disc_rain",
+	"quark:music_disc_wind",
+	"quark:music_disc_fire",
+	"quark:music_disc_clock",
+	"quark:music_disc_crickets",
+	"quark:music_disc_chatter",
+	"savage_and_ravage:blast_proof_vertical_slab",
+	"nethersdelight:raw_stuffed_hoglin",
+	"nethersdelight:golden_machete",
+	"quark:raw_gold_bricks",
+	"quark:raw_gold_bricks_slab",
+	"quark:raw_gold_bricks_stairs",
+	"quark:raw_gold_bricks_vertical_slab",
+	"windswept:vertical_holly_planks",
+	"windswept:vertical_chestnut_planks",
+	"ecologics:flowering_azalea_planks",
+	"environmental:vertical_willow_planks",
+	"environmental:vertical_wisteria_planks",
+	"environmental:vertical_cherry_planks",
+	"upgrade_aquatic:vertical_driftwood_planks",
+	"upgrade_aquatic:vertical_river_planks",
+	"autumnity:vertical_maple_planks",
+	"atmospheric:kousa_planks",
+	"atmospheric:grimwood_planks",
+	"atmospheric:vertical_rosewood_planks",
+	"atmospheric:vertical_morado_planks",
+	"atmospheric:vertical_yucca_planks",
+	"atmospheric:vertical_kousa_planks",
+	"atmospheric:vertical_aspen_planks",
+	"atmospheric:vertical_grimwood_planks",
+	"quark:blossom_planks",
+	"quark:vertical_bamboo_planks",
+	"quark:vertical_blossom_planks",
+	"quark:ancient_planks",
+	"quark:vertical_ancient_planks",
+	"ecologics:walnut_sapling",
+	"atmospheric:kousa_sapling",
+	"atmospheric:grimwood_sapling",
+	"windswept:holly_sign",
+	"ecologics:walnut_sign",
+	"ecologics:flowering_azalea_sign",
+	"atmospheric:kousa_sign",
+	"atmospheric:grimwood_sign",
+	"quark:azalea_sign",
+	"quark:blossom_sign",
+	"quark:ancient_sign",
+	"windswept:holly_slab",
+	"ecologics:walnut_slab",
+	"ecologics:flowering_azalea_slab",
+	"atmospheric:kousa_slab",
+	"atmospheric:grimwood_slab",
+	"quark:azalea_planks_slab",
+	"quark:blossom_planks_slab",
+	"quark:ancient_planks_slab",
+	"minecraft:end_stone_brick_slab",
+	"ecologics:snow_brick_slab",
+	"architects_palette:coal_ore_brick_slab",
+	"architects_palette:lapis_ore_brick_slab",
+	"architects_palette:iron_ore_brick_slab",
+	"architects_palette:redstone_ore_brick_slab",
+	"architects_palette:gold_ore_brick_slab",
+	"architects_palette:emerald_ore_brick_slab",
+	"architects_palette:diamond_ore_brick_slab",
+	"architects_palette:nether_brass_slab",
+	"architects_palette:cut_nether_brass_slab",
+	"architects_palette:smooth_nether_brass_slab",
+	"architects_palette:oracle_slab",
+	"architects_palette:oracle_brick_slab",
+	"architects_palette:dark_oracle_brick_slab",
+	"architects_palette:oracle_tile_slab",
+	"twigs:schist_slab",
+	"twigs:polished_schist_slab",
+	"twigs:polished_schist_brick_slab",
+	"twigs:rhyolite_slab",
+	"twigs:polished_rhyolite_slab",
+	"twigs:polished_rhyolite_brick_slab",
+	"upgrade_aquatic:polar_kelpy_cobblestone_slab",
+	"upgrade_aquatic:thorny_kelpy_cobblestone_slab",
+	"upgrade_aquatic:ochre_kelpy_cobblestone_slab",
+	"upgrade_aquatic:tongue_kelpy_cobblestone_slab",
+	"upgrade_aquatic:polar_kelpy_stone_brick_slab",
+	"upgrade_aquatic:thorny_kelpy_stone_brick_slab",
+	"upgrade_aquatic:ochre_kelpy_stone_brick_slab",
+	"upgrade_aquatic:tongue_kelpy_stone_brick_slab",
+	"atmospheric:ivory_travertine_slab",
+	"atmospheric:peach_travertine_slab",
+	"atmospheric:persimmon_travertine_slab",
+	"atmospheric:saffron_travertine_slab",
+	"quark:cobblestone_bricks_slab",
+	"quark:jasper_bricks_slab",
+	"quark:jasper_slab",
+	"quark:limestone_bricks_slab",
+	"quark:limestone_slab",
+	"quark:mossy_cobblestone_bricks_slab",
+	"quark:myalite_bricks_slab",
+	"quark:myalite_slab",
+	"quark:polished_jasper_slab",
+	"quark:polished_limestone_slab",
+	"quark:polished_myalite_slab",
+	"quark:polished_shale_slab",
+	"quark:raw_copper_bricks_slab",
+	"quark:raw_iron_bricks_slab",
+	"quark:raw_gold_bricks_slab",
+	"quark:shale_bricks_slab",
+	"quark:shale_slab",
+	"twigs:azalea_flowers",
+	"windswept:holly_stairs",
+	"ecologics:walnut_stairs",
+	"ecologics:flowering_azalea_stairs",
+	"atmospheric:kousa_stairs",
+	"atmospheric:grimwood_stairs",
+	"quark:azalea_planks_stairs",
+	"quark:blossom_planks_stairs",
+	"quark:ancient_planks_stairs",
+	"minecraft:end_stone_brick_stairs",
+	"ecologics:snow_brick_stairs",
+	"architects_palette:coal_ore_brick_stairs",
+	"architects_palette:lapis_ore_brick_stairs",
+	"architects_palette:iron_ore_brick_stairs",
+	"architects_palette:redstone_ore_brick_stairs",
+	"architects_palette:gold_ore_brick_stairs",
+	"architects_palette:emerald_ore_brick_stairs",
+	"architects_palette:diamond_ore_brick_stairs",
+	"architects_palette:nether_brass_stairs",
+	"architects_palette:cut_nether_brass_stairs",
+	"architects_palette:smooth_nether_brass_stairs",
+	"architects_palette:oracle_stairs",
+	"architects_palette:oracle_brick_stairs",
+	"architects_palette:dark_oracle_brick_stairs",
+	"architects_palette:oracle_tile_stairs",
+	"twigs:schist_stairs",
+	"twigs:polished_schist_stairs",
+	"twigs:polished_schist_brick_stairs",
+	"twigs:rhyolite_stairs",
+	"twigs:polished_rhyolite_stairs",
+	"twigs:polished_rhyolite_brick_stairs",
+	"upgrade_aquatic:polar_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:thorny_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:ochre_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:tongue_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:polar_kelpy_stone_brick_stairs",
+	"upgrade_aquatic:thorny_kelpy_stone_brick_stairs",
+	"upgrade_aquatic:ochre_kelpy_stone_brick_stairs",
+	"upgrade_aquatic:tongue_kelpy_stone_brick_stairs",
+	"atmospheric:ivory_travertine_stairs",
+	"atmospheric:peach_travertine_stairs",
+	"atmospheric:persimmon_travertine_stairs",
+	"atmospheric:saffron_travertine_stairs",
+	"quark:cobblestone_bricks_stairs",
+	"quark:jasper_bricks_stairs",
+	"quark:jasper_stairs",
+	"quark:limestone_bricks_stairs",
+	"quark:limestone_stairs",
+	"quark:mossy_cobblestone_bricks_stairs",
+	"quark:myalite_bricks_stairs",
+	"quark:myalite_stairs",
+	"quark:polished_jasper_stairs",
+	"quark:polished_limestone_stairs",
+	"quark:polished_myalite_stairs",
+	"quark:polished_shale_stairs",
+	"quark:raw_copper_bricks_stairs",
+	"quark:raw_iron_bricks_stairs",
+	"quark:raw_gold_bricks_stairs",
+	"quark:shale_bricks_stairs",
+	"quark:shale_stairs",
+	"windswept:holly_trapdoor",
+	"ecologics:flowering_azalea_trapdoor",
+	"atmospheric:kousa_trapdoor",
+	"atmospheric:grimwood_trapdoor",
+	"quark:azalea_trapdoor",
+	"quark:blossom_trapdoor",
+	"quark:ancient_trapdoor",
+	"upgrade_aquatic:glass_trapdoor",
+	"minecraft:end_stone_brick_wall",
+	"ecologics:snow_brick_wall",
+	"architects_palette:coal_ore_brick_wall",
+	"architects_palette:lapis_ore_brick_wall",
+	"architects_palette:iron_ore_brick_wall",
+	"architects_palette:redstone_ore_brick_wall",
+	"architects_palette:gold_ore_brick_wall",
+	"architects_palette:emerald_ore_brick_wall",
+	"architects_palette:diamond_ore_brick_wall",
+	"architects_palette:nether_brass_wall",
+	"architects_palette:cut_nether_brass_wall",
+	"architects_palette:smooth_nether_brass_wall",
+	"architects_palette:oracle_wall",
+	"architects_palette:oracle_brick_wall",
+	"architects_palette:dark_oracle_brick_wall",
+	"architects_palette:oracle_tile_wall",
+	"architects_palette:sheet_metal_wall",
+	"twigs:schist_wall",
+	"twigs:polished_schist_brick_wall",
+	"twigs:rhyolite_wall",
+	"twigs:polished_rhyolite_brick_wall",
+	"upgrade_aquatic:polar_kelpy_cobblestone_wall",
+	"upgrade_aquatic:thorny_kelpy_cobblestone_wall",
+	"upgrade_aquatic:ochre_kelpy_cobblestone_wall",
+	"upgrade_aquatic:tongue_kelpy_cobblestone_wall",
+	"upgrade_aquatic:polar_kelpy_stone_brick_wall",
+	"upgrade_aquatic:thorny_kelpy_stone_brick_wall",
+	"upgrade_aquatic:ochre_kelpy_stone_brick_wall",
+	"upgrade_aquatic:tongue_kelpy_stone_brick_wall",
+	"atmospheric:ivory_travertine_wall",
+	"atmospheric:peach_travertine_wall",
+	"atmospheric:persimmon_travertine_wall",
+	"atmospheric:saffron_travertine_wall",
+	"quark:cobblestone_bricks_wall",
+	"quark:jasper_bricks_wall",
+	"quark:jasper_wall",
+	"quark:limestone_bricks_wall",
+	"quark:limestone_wall",
+	"quark:mossy_cobblestone_bricks_wall",
+	"quark:myalite_bricks_wall",
+	"quark:myalite_wall",
+	"quark:polished_jasper_wall",
+	"quark:polished_limestone_wall",
+	"quark:polished_myalite_wall",
+	"quark:polished_shale_wall",
+	"quark:raw_copper_bricks_wall",
+	"quark:raw_iron_bricks_wall",
+	"quark:raw_gold_bricks_wall",
+	"quark:shale_bricks_wall",
+	"quark:shale_wall",
+	"quark:permafrost_bricks_wall",
+	"quark:permafrost_wall",
+	"windswept:holly_pressure_plate",
+	"ecologics:walnut_pressure_plate",
+	"atmospheric:kousa_pressure_plate",
+	"atmospheric:grimwood_pressure_plate",
+	"quark:azalea_pressure_plate",
+	"quark:blossom_pressure_plate",
+	"quark:ancient_pressure_plate",
+	"oreganized:bush_hammer",
+	"everycomp:q/ecologics/walnut_hedge",
+	"atmospheric:kousa_hedge",
+	"atmospheric:grimwood_hedge",
+	"quark:flowering_azalea_hedge",
+	"quark:ancient_hedge",
+	"quark:blue_blossom_hedge",
+	"quark:lavender_blossom_hedge",
+	"quark:orange_blossom_hedge",
+	"quark:pink_blossom_hedge",
+	"quark:yellow_blossom_hedge",
+	"quark:red_blossom_hedge",
+	"quark:hollow_blossom_log",
+	"quark:hollow_azalea_log",
+	"quark:hollow_ancient_log",
+	"windswept:holly_ladder",
+	"atmospheric:kousa_ladder",
+	"atmospheric:grimwood_ladder",
+	"quark:azalea_ladder",
+	"quark:blossom_ladder",
+	"quark:ancient_ladder",
+	"woodworks:spruce_ladder",
+	"woodworks:birch_ladder",
+	"woodworks:jungle_ladder",
+	"woodworks:acacia_ladder",
+	"woodworks:dark_oak_ladder",
+	"woodworks:mangrove_ladder",
+	"woodworks:crimson_ladder",
+	"woodworks:warped_ladder",
+	"woodworks:spruce_ladder",
+	"quark:ancient_post",
+	"quark:blossom_post",
+	"quark:azalea_post",
+	"quark:stripped_ancient_post",
+	"quark:stripped_blossom_post",
+	"quark:stripped_azalea_post",
+	"supplementaries:quark/hanging_sign_azalea",
+	"supplementaries:quark/hanging_sign_ancient",
+	"supplementaries:quark/hanging_sign_blossom",
+	"supplementaries:ecologics/hanging_sign_flowering_azalea",
+	"supplementaries:ecologics/hanging_sign_walnut",
+	"supplementaries:windswept/hanging_sign_holly",
+	"supplementaries:atmospheric/hanging_sign_kousa",
+	"supplementaries:atmospheric/hanging_sign_grimwood",
+	"supplementaries:sconce_green",
+	"supplementaries:sconce_ender",
+	"supplementaries:sconce_glow",
+	"supplementaries:quark/sign_post_azalea",
+	"supplementaries:quark/sign_post_ancient",
+	"supplementaries:quark/sign_post_blossom",
+	"supplementaries:ecologics/sign_post_flowering_azalea",
+	"supplementaries:ecologics/sign_post_walnut",
+	"supplementaries:windswept/sign_post_holly",
+	"supplementaries:atmospheric/sign_post_kousa",
+	"supplementaries:atmospheric/sign_post_grimwood",
+	"minecraft:lapis_lazuli",
+	"quark:acacia_bookshelf",
+	"quark:birch_bookshelf",
+	"quark:dark_oak_bookshelf",
+	"quark:jungle_bookshelf",
+	"quark:spruce_bookshelf",
+	"quark:warped_bookshelf",
+	"quark:crimson_bookshelf",
+	"quark:mangrove_bookshelf",
+	"caverns_and_chasms:silver_ingot",
+	"caverns_and_chasms:silver_nugget",
+	"everycomp:q/endergetic/hollow_poise_log",
+	"everycomp:af/endergetic/poise_bench",
+	"everycomp:af/caverns_and_chasms/azalea_bench",
+	"everycomp:af/endergetic/poise_chair",
+	"everycomp:af/caverns_and_chasms/azalea_chair",
+	"everycomp:af/endergetic/poise_drawer",
+	"everycomp:af/caverns_and_chasms/azalea_drawer",
+	"everycomp:af/endergetic/poise_shelf",
+	"everycomp:af/caverns_and_chasms/azalea_shelf",
+	"everycomp:af/endergetic/poise_shutter",
+	"everycomp:af/caverns_and_chasms/azalea_shutter",
+	"everycomp:af/endergetic/poise_table",
+	"everycomp:af/caverns_and_chasms/azalea_table",
+	"everycomp:af/endergetic/poise_bench",
+	"everycomp:af/caverns_and_chasms/azalea_bench",
+	"supplementaries:endergetic/sign_post_poise",
+	"supplementaries:caverns_and_chasms/sign_post_azalea",
+	"endergetic:poise_furnace_boat",
+	"caverns_and_chasms:azalea_furnace_boat",
+	"endergetic:poise_bookshelf",
+	"caverns_and_chasms:azalea_bookshelf",
+	"endergetic:poise_trapped_chest",
+	"caverns_and_chasms:azalea_trapped_chest",
+	"endergetic:poise_chest",
+	"caverns_and_chasms:azalea_chest",
+	"endergetic:poise_fence_gate",
+	"caverns_and_chasms:azalea_fence_gate",
+	"endergetic:poise_fence",
+	"caverns_and_chasms:azalea_fence",
+	"endergetic:poise_door",
+	"caverns_and_chasms:azalea_door",
+	"endergetic:poise_slab",
+	"caverns_and_chasms:azalea_slab",
+	"endergetic:poise_stairs",
+	"caverns_and_chasms:azalea_stairs",
+	"endergetic:poise_trapdoor",
+	"caverns_and_chasms:azalea_trapdoor",
+	"endergetic:poise_ladder",
+	"caverns_and_chasms:azalea_ladder",
+	"mynethersdelight:hoglin_loin",
+	"mynethersdelight:cooked_loin",
+	"windswept:goat",
+	"windswept:goat_shanks",
+	"windswept:cooked_goat",
+	"windswept:cooked_goat_shanks",
+	"mynethersdelight:strider_egg",
+	"caverns_and_chasms:silver_boots",
+	"caverns_and_chasms:silver_chestplate",
+	"caverns_and_chasms:silver_leggings",
+	"caverns_and_chasms:silver_helmet",
+	"caverns_and_chasms:silver_pickaxe",
+	"caverns_and_chasms:silver_axe",
+	"caverns_and_chasms:silver_shovel",
+	"caverns_and_chasms:silver_hoe",
+	"caverns_and_chasms:silver_sword",
+	"caverns_and_chasms:golden_water_bucket",
+	"caverns_and_chasms:golden_lava_bucket",
+	"caverns_and_chasms:golden_milk_bucket",
+	"caverns_and_chasms:golden_powder_snow_bucket",
+	"caverns_and_chasms:golden_bucket",
+	"everycomp:abnww/ecologics/coconut_trapped_chest",
+	"everycomp:abnww/ecologics/azalea_trapped_chest",
+	"everycomp:abnww/architects_palette/twisted_trapped_chest",
+	"everycomp:abnww/ecologics/coconut_chest",
+	"everycomp:abnww/ecologics/azalea_chest",
+	"everycomp:abnww/architects_palette/twisted_chest",
+	"mynethersdelight:boiled_egg",
+	"mynethersdelight:ghast_dough",
+	"caverns_and_chasms:copper_nugget",
+	"oreganized:netherite_nugget",
+	"sullysmod:jade_ore",
+	"sullysmod:deepslate_jade_ore",
+	"caverns_and_chasms:spinel_ore",
+	"caverns_and_chasms:deepslate_spinel_ore",
+	"caverns_and_chasms:silver_ore",
+	"caverns_and_chasms:deepslate_silver_ore",
+	"caverns_and_chasms:soul_silver_ore",
+	"caverns_and_chasms:raw_silver",
+	"caverns_and_chasms:raw_silver_block",
+	"caverns_and_chasms:silver_block",
+	"atmospheric:passionfruit",
+	"atmospheric:passionfruit_crate",
+	"atmospheric:shimmering_passionfruit",
+	"atmospheric:shimmering_passionfruit_crate",
+	"sullysmod:rough_jade_block",
+	"caverns_and_chasms:spinel_block",
+	"copperized:copper_door",
+	"copperized:exposed_copper_door",
+	"copperized:weathered_copper_door",
+	"copperized:oxidized_copper_door",
+	"copperized:waxed_copper_door",
+	"copperized:waxed_exposed_copper_door",
+	"copperized:waxed_weathered_copper_door",
+	"copperized:waxed_oxidized_copper_door",
+	"copperized:copper_trapdoor",
+	"copperized:exposed_copper_trapdoor",
+	"copperized:weathered_copper_trapdoor",
+	"copperized:oxidized_copper_trapdoor",
+	"copperized:waxed_copper_trapdoor",
+	"copperized:waxed_exposed_copper_trapdoor",
+	"copperized:waxed_weathered_copper_trapdoor",
+	"copperized:waxed_oxidized_copper_trapdoor",
+	"architects_palette:twisted_leaves",
+	"nethersdelight:stuffed_hoglin",
+	"dungeons_mobs:gold_piglin_helmet",
+	"dungeons_mobs:cracked_gold_piglin_helmet",
+	"nethersdelight:soul_compost",
+	"nethersdelight:rich_soul_soil",
+	"nethersdelight:propelpearl",
+	"mynethersdelight:crimson_fungus_colony",
+	"mynethersdelight:warped_fungus_colony",
+	"mynethersdelight:hoglin_hide",
+	"minecraft:nether_wart",
+	"nethersdelight:strider_slice",
+	"nethersdelight:ground_strider",
+	"supplementaries:sconce_nether_brass",
+	"mynethersdelight:ghasmati",
+	"minecraft:nether_wart",
+	"caverns_and_chasms:music_disc_epilogue",
+	"endergetic:music_disc_kilobyte",
+	"nethersdelight:propelplant_cane",
+	"everycomp:q/mynethersdelight/hollow_powdery_log",
+	"everycomp:af/atmospheric/aspen_shutter",
+	"everycomp:af/atmospheric/aspen_table",
+	"everycomp:af/atmospheric/aspen_chair",
+	"everycomp:af/atmospheric/aspen_shelf",
+	"everycomp:af/atmospheric/aspen_drawer",
+	"everycomp:af/atmospheric/aspen_bench",
+	"everycomp:c/atmospheric/aspen_window",
+	"everycomp:c/atmospheric/aspen_window_pane",
+	"atmospheric:stripped_aspen_wood",
+	"atmospheric:stripped_aspen_log",
+	"everycomp:ap/atmospheric/aspen_board_stairs",
+	"everycomp:ap/atmospheric/aspen_boards",
+	"everycomp:ap/atmospheric/aspen_board_wall",
+	"everycomp:ap/atmospheric/aspen_board_slab",
+	"everycomp:ap/atmospheric/aspen_railing",
+	"everycomp:q/atmospheric/hollow_aspen_log",
+	"atmospheric:aspen_log",
+	"atmospheric:aspen_wood",
+	"atmospheric:watchful_aspen_log",
+	"atmospheric:watchful_aspen_wood",
+	"atmospheric:aspen_leaves",
+	"atmospheric:aspen_planks",
+	"atmospheric:aspen_stairs",
+	"atmospheric:aspen_sapling",
+	"atmospheric:aspen_sign",
+	"atmospheric:aspen_trapdoor",
+	"atmospheric:aspen_door",
+	"atmospheric:aspen_fence_gate",
+	"atmospheric:aspen_fence",
+	"atmospheric:aspen_button",
+	"atmospheric:aspen_pressure_plate",
+	"atmospheric:aspen_slab",
+	"atmospheric:aspen_boards",
+	"atmospheric:aspen_bookshelf",
+	"atmospheric:aspen_ladder",
+	"atmospheric:aspen_beehive",
+	"atmospheric:aspen_leaf_pile",
+	"atmospheric:aspen_chest",
+	"atmospheric:aspen_trapped_chest",
+	"atmospheric:stripped_aspen_post",
+	"supplementaries:atmospheric/sign_post_aspen",
+	"supplementaries:atmospheric/hanging_sign_aspen",
+	"atmospheric:aspen_hedge",
+	"atmospheric:aspen_post",
+	"abnormals_delight:aspen_cabinet",
+	"everycomp:af/upgrade_aquatic/river_shutter",
+	"everycomp:af/upgrade_aquatic/river_table",
+	"everycomp:af/upgrade_aquatic/river_chair",
+	"everycomp:af/upgrade_aquatic/river_shelf",
+	"everycomp:af/upgrade_aquatic/river_drawer",
+	"everycomp:af/upgrade_aquatic/river_bench",
+	"everycomp:c/upgrade_aquatic/river_window",
+	"everycomp:c/upgrade_aquatic/river_window_pane",
+	"upgrade_aquatic:stripped_river_wood",
+	"upgrade_aquatic:stripped_river_log",
+	"everycomp:ap/upgrade_aquatic/river_board_stairs",
+	"everycomp:ap/upgrade_aquatic/river_boards",
+	"everycomp:ap/upgrade_aquatic/river_board_wall",
+	"everycomp:ap/upgrade_aquatic/river_board_slab",
+	"everycomp:ap/upgrade_aquatic/river_railing",
+	"everycomp:q/upgrade_aquatic/hollow_river_log",
+	"upgrade_aquatic:river_log",
+	"upgrade_aquatic:river_wood",
+	"upgrade_aquatic:river_leaves",
+	"upgrade_aquatic:river_sapling",
+	"upgrade_aquatic:river_planks",
+	"upgrade_aquatic:river_stairs",
+	"upgrade_aquatic:river_slab",
+	"upgrade_aquatic:river_pressure_plate",
+	"upgrade_aquatic:river_bookshelf",
+	"upgrade_aquatic:river_boards",
+	"upgrade_aquatic:river_sign",
+	"upgrade_aquatic:river_trapdoor",
+	"upgrade_aquatic:river_door",
+	"upgrade_aquatic:river_fence_gate",
+	"upgrade_aquatic:river_fence",
+	"upgrade_aquatic:river_button",
+	"upgrade_aquatic:river_ladder",
+	"upgrade_aquatic:river_beehive",
+	"upgrade_aquatic:river_leaf_pile",
+	"upgrade_aquatic:river_chest",
+	"upgrade_aquatic:river_trapped_chest",
+	"upgrade_aquatic:stripped_river_post",
+	"upgrade_aquatic:river_post",
+	"upgrade_aquatic:river_hedge",
+	"supplementaries:upgrade_aquatic/sign_post_river",
+	"abnormals_delight:river_cabinet",
+	"supplementaries:upgrade_aquatic/hanging_sign_river",
+	"upgrade_aquatic:large_river_boat",
+	"upgrade_aquatic:river_furnace_boat",
+	"upgrade_aquatic:river_chest_boat",
+	"upgrade_aquatic:river_boat",
+	"upgrade_aquatic:mulberry",
+	"endergetic:eumus",
+	"endergetic:eumus_poismoss",
+	"endergetic:poismoss",
+	"supplementaries:lead_door",
+	"supplementaries:lead_trapdoor",
+    "aquaculturedelight:cooked_small_turtle_meat",
+    "aquaculturedelight:small_turtle_meat",
+    "aquaculturedelight:turtle_meat_dish",
+    "aquaculture:neptunium_fishing_rod",
+    "aquaculture:neptunium_nugget",
+    "aquaculture:neptunium_ingot",
+    "aquaculture:neptunium_pickaxe",
+    "aquaculture:neptunium_shovel",
+    "aquaculture:neptunium_axe",
+    "aquaculture:neptunium_hoe",
+    "aquaculture:neptunium_sword",
+    "aquaculture:neptunium_bow",
+    "aquaculture:neptunium_helmet",
+    "aquaculture:neptunium_chestplate",
+    "aquaculture:neptunium_boots",
+    "aquaculture:neptunium_leggings",
+    "aquaculture:wooden_fillet_knife",
+    "aquaculture:stone_fillet_knife",
+    "aquaculture:iron_fillet_knife",
+    "aquaculture:gold_fillet_knife",
+    "aquaculture:diamond_fillet_knife",
+    "aquaculture:neptunium_fillet_knife",
+    "aquaculture:driftwood",
+    "aquaculture:box",
+    "aquaculture:lockbox",
+    "aquaculture:treasure_chest",
+    "aquaculture:turtle_soup",
+    "aquaculture:sushi",
+    "aquaculture:box_turtle_spawn_egg",
+    "aquaculture:arrau_turtle_spawn_egg",
+    "aquaculture:starshell_turtle_spawn_egg",
+    "aquaculture:atlantic_cod_bucket",
+    "aquaculture:atlantic_cod",
+    "aquaculture:atlantic_halibut_bucket",
+    "aquaculture:atlantic_halibut",
+    "aquaculture:pink_salmon_bucket",
+    "aquaculture:pink_salmon",
+    "aquaculture:rainbow_trout_bucket",
+    "aquaculture:rainbow_trout",
+    "aquaculture:smallmouth_bass_bucket",
+    "aquaculture:smallmouth_bass",
+    "aquaculture:catfish_bucket",
+    "aquaculture:catfish",
+    "aquaculture:perch_bucket",
+    "aquaculture:perch",
+    "aquaculture:box_turtle",
+    "aquaculture:arrau_turtle",
+    "aquaculture:starshell_turtle",
+    "aquaculture:oak_fish_mount",
+    "aquaculture:spruce_fish_mount",
+    "aquaculture:birch_fish_mount",
+    "aquaculture:jungle_fish_mount",
+    "aquaculture:acacia_fish_mount",
+    "aquaculture:dark_oak_fish_mount",
+    "aquaculture:neptunium_block",
+    "aquaculture:neptunes_bounty",
+    "aquaculture:worm_farm",
+    "aquaculturedelight:neptunium_knife",
+    "aquaculture:jellyfish_bucket",
+    "aquaculture:jellyfish",
+    "aquaculturedelight:jellyfish_jelly",
+    "aquaculture:gold_fishing_rod",
+    "aquaculture:diamond_fishing_rod",
+    "aquaculture:leech",
+    "aquaculture:pacific_halibut_bucket",
+    "aquaculture:pacific_halibut",
+    "aquaculture:brown_shrooma_bucket",
+    "aquaculture:brown_shrooma",
+    "aquaculture:red_shrooma_bucket",
+    "aquaculture:red_shrooma",
+    "aquaculture:piranha_bucket",
+    "aquaculture:piranha",
+    "aquaculture:minnow_bucket",
+    "aquaculture:minnow",
+    "alloyed:steel_fishing_rod",
+    "aquaculture:arapaima",
+    "aquaculture:arapaima_bucket",
+    "aquaculture:muskellunge",
+    "aquaculture:muskellunge_bucket",
+    "abnormals_delight:laurel_cabinet",
+    "abnormals_delight:pine_cabinet",
+    "everycomp:abnww/mynethersdelight/powdery_chest",
+    "everycomp:abnww/mynethersdelight/powdery_trapped_chest",
+    "architects_palette:ancient_plating",
+    "architects_palette:ancient_plating_slab",
+    "architects_palette:ancient_plating_stairs",
+    "architects_palette:ancient_plating_wall",
+    "architects_palette:ancient_plating_fence",
+    "architects_palette:heliodor_rod",
+    "architects_palette:ekanite_rod",
+    "architects_palette:monazite_rod",
+    "architects_palette:warpstone",
+    "architects_palette:warpstone_slab",
+    "architects_palette:warpstone_stairs",
+    "architects_palette:warpstone_wall",
+    "architects_palette:olivestone_bricks",
+    "architects_palette:olivestone_brick_slab",
+    "architects_palette:olivestone_brick_stairs",
+    "architects_palette:olivestone_brick_wall",
+    "architects_palette:olivestone_tiles",
+    "architects_palette:olivestone_tile_slab",
+    "architects_palette:olivestone_tile_stairs",
+    "architects_palette:olivestone_tile_wall",
+    "architects_palette:olivestone_pillar",
+    "architects_palette:cracked_olivestone_bricks",
+    "architects_palette:cracked_olivestone_tiles",
+    "architects_palette:chiseled_olivestone",
+    "architects_palette:illuminated_olivestone",
+    "architects_palette:myonite",
+    "architects_palette:myonite_bricks",
+    "spelunkery:granite_jade_ore",
+    "spelunkery:andesite_jade_ore",
+    "spelunkery:diorite_jade_ore",
+    "spelunkery:tuff_jade_ore",
+    "minecraft:cooked_cod", 
+    "farmersdelight:cod_slice", 
+    "farmersdelight:cooked_cod_slice", 
+    "minecraft:cooked_salmon", 
+    "farmersdelight:salmon_slice", 
+    "farmersdelight:cooked_salmon_slice", 
+    "naturalist:cooked_bass", 
+    "upgrade_aquatic:cooked_lionfish", 
+    "upgrade_aquatic:cooked_perch", 
+    "abnormals_delight:perch_slice", 
+    "abnormals_delight:cooked_perch_slice", 
+    "upgrade_aquatic:cooked_pike", 
+    "abnormals_delight:pike_slice", 
+    "abnormals_delight:cooked_pike_slice", 
+    "sullysmod:cooked_lanternfish", 
+    "sullysmod:lanternfish_slice", 
+    "sullysmod:cooked_lanternfish_slice", 
+    "culturaldelights:white_eggplant",
+	"friendsandfoes:copper_golem_spawn_egg",
+	"friendsandfoes:crab_spawn_egg",
+	"friendsandfoes:glare_spawn_egg",
+	"friendsandfoes:iceologer_spawn_egg",
+	"friendsandfoes:illusioner_spawn_egg",
+	"friendsandfoes:mauler_spawn_egg",
+	"friendsandfoes:moobloom_spawn_egg",
+	"friendsandfoes:wildfire_spawn_egg",
+	"friendsandfoes:buttercup",
+	"friendsandfoes:crab_claw",
+	"friendsandfoes:crab_egg",
+	"friendsandfoes:acacia_beehive",
+	"friendsandfoes:birch_beehive",
+	"friendsandfoes:crimson_beehive",
+	"friendsandfoes:dark_oak_beehive",
+	"friendsandfoes:jungle_beehive",
+	"friendsandfoes:mangrove_beehive",
+	"friendsandfoes:spruce_beehive",
+	"friendsandfoes:warped_beehive",
+	"friendsandfoes:copper_button",
+	"friendsandfoes:exposed_copper_button",
+	"friendsandfoes:weathered_copper_button",
+	"friendsandfoes:oxidized_copper_button",
+	"friendsandfoes:waxed_copper_button",
+	"friendsandfoes:waxed_exposed_copper_button",
+	"friendsandfoes:waxed_weathered_copper_button",
+	"friendsandfoes:waxed_oxidized_copper_button",
+	"friendsandfoes:exposed_lightning_rod",
+	"friendsandfoes:weathered_lightning_rod",
+	"friendsandfoes:oxidized_lightning_rod",
+	"friendsandfoes:waxed_lightning_rod",
+	"friendsandfoes:waxed_exposed_lightning_rod",
+	"friendsandfoes:waxed_weathered_lightning_rod",
+	"friendsandfoes:waxed_oxidized_lightning_rod",
+	"friendsandfoes:wildfire_crown",
+	"friendsandfoes:wildfire_crown_fragment",
+	"friendsandfoes:totem_of_freezing",
+	"friendsandfoes:totem_of_illusion",
+	"mynethersdelight:letios_compost",
+	"mynethersdelight:resurgent_soil",
+	"mynethersdelight:resurgent_soil_farmland",
+	"everycomp:faf/ecologics/coconut_beehive",
+	"everycomp:faf/architects_palette/twisted_beehive",
+	"everycomp:faf/ecologics/azalea_beehive",
+	"everycomp:faf/quark/bamboo_beehive",
+	"everycomp:faf/mynethersdelight/powdery_beehive",
+	"alloyed:bronze_block",
+	"alloyed:exposed_bronze_block",
+	"alloyed:weathered_bronze_block",
+	"alloyed:oxidized_bronze_block",
+	"alloyed:waxed_bronze_block",
+	"alloyed:waxed_exposed_bronze_block",
+	"alloyed:waxed_weathered_bronze_block",
+	"alloyed:waxed_oxidized_bronze_block",
+	"architects_palette:sunmetal_brick",
+	"shieldexp:diamond_shield",
+	"shieldexp:netherite_shield",
+	"shieldexp:paragon_shield",
+	"sullysmod:jade_shield",
+	"create:netherite_diving_boots",
+	"cookscollection:salt",
+	"cookscollection:salted_dripstone_block",
+	"cookscollection:lemon_log",
+	"cookscollection:lemon_wood",
+	"everycomp:q/cookscollection/fruiting_lemon_hedge",
+	"everycomp:abnww/cookscollection/fruiting_lemon_leaf_pile",
+	"create:red_sand_paper",
+	"oreganized:electrum_machete",
+	"toms_storage:ts.trim",
+	"toms_storage:ts.painted_trim",
+	"everycomp:faf/quark/ancient_beehive",
+	"everycomp:af/caverns_and_chasms/azalea_planter_box",
+	"everycomp:af/mynethersdelight/powdery_planter_box",
+	"everycomp:af/endergetic/poise_planter_box",
+	"everycomp:tw/caverns_and_chasms/azalea_table",
+	"everycomp:tw/mynethersdelight/powdery_table",
+	"everycomp:tw/endergetic/poise_table",
+	"everycomp:faf/ecologics/flowering_azalea_beehive",
+	"everycomp:q/mynethersdelight/vertical_powdery_planks",
+	"everycomp:abnww/mynethersdelight/powdery_bookshelf",
+	"everycomp:abnww/mynethersdelight/powdery_ladder",
+	"everycomp:abnww/ecologics/flowering_azalea_chest",
+	"everycomp:abnww/ecologics/walnut_chest",
+	"everycomp:abnww/ecologics/flowering_azalea_trapped_chest",
+	"everycomp:abnww/ecologics/walnut_trapped_chest",
+	"everycomp:ap/caverns_and_chasms/azalea_board_stairs",
+	"everycomp:faf/ecologics/walnut_beehive",
+	"everycomp:faf/quark/azalea_beehive",
+	"everycomp:q/cookscollection/lemon_leaf_carpet",
+	"everycomp:q/cookscollection/fruiting_lemon_leaf_carpet",
+	"everycomp:sd/environmental/willow_full_drawers_1",
+	"everycomp:sd/atmospheric/aspen_full_drawers_1",
+	"everycomp:sd/quark/bamboo_full_drawers_1",
+	"everycomp:sd/endergetic/poise_full_drawers_1",
+	"everycomp:sd/atmospheric/yucca_full_drawers_1",
+	"everycomp:sd/upgrade_aquatic/river_full_drawers_1",
+	"everycomp:faf/quark/blossom_beehive",
+	"everycomp:sd/architects_palette/twisted_full_drawers_1",
+	"everycomp:sd/atmospheric/rosewood_full_drawers_1",
+	"everycomp:sd/windswept/chestnut_full_drawers_1",
+	"everycomp:sd/autumnity/maple_full_drawers_1",
+	"everycomp:sd/ecologics/walnut_full_drawers_1",
+	"everycomp:sd/atmospheric/kousa_full_drawers_1",
+	"everycomp:sd/windswept/holly_full_drawers_1",
+	"everycomp:sd/caverns_and_chasms/azalea_full_drawers_1",
+	"everycomp:sd/quark/azalea_full_drawers_1",
+	"everycomp:sd/quark/blossom_full_drawers_1",
+	"everycomp:sd/mynethersdelight/powdery_full_drawers_1",
+	"everycomp:sd/atmospheric/morado_full_drawers_1",
+	"everycomp:sd/ecologics/coconut_full_drawers_1",
+	"everycomp:sd/environmental/wisteria_full_drawers_1",
+	"everycomp:sd/ecologics/flowering_azalea_full_drawers_1",
+	"everycomp:sd/ecologics/azalea_full_drawers_1",
+	"everycomp:sd/quark/ancient_full_drawers_1",
+	"everycomp:sd/environmental/cherry_full_drawers_1",
+	"everycomp:sd/upgrade_aquatic/driftwood_full_drawers_1",
+	"everycomp:sd/atmospheric/grimwood_full_drawers_1",
+	"everycomp:sd/environmental/willow_full_drawers_2",
+	"everycomp:sd/atmospheric/aspen_full_drawers_2",
+	"everycomp:sd/quark/bamboo_full_drawers_2",
+	"everycomp:sd/endergetic/poise_full_drawers_2",
+	"everycomp:sd/upgrade_aquatic/river_full_drawers_2",
+	"everycomp:sd/atmospheric/yucca_full_drawers_2",
+	"everycomp:sd/architects_palette/twisted_full_drawers_2",
+	"everycomp:sd/atmospheric/rosewood_full_drawers_2",
+	"everycomp:sd/windswept/chestnut_full_drawers_2",
+	"everycomp:sd/autumnity/maple_full_drawers_2",
+	"everycomp:sd/ecologics/walnut_full_drawers_2",
+	"everycomp:sd/atmospheric/kousa_full_drawers_2",
+	"everycomp:sd/windswept/holly_full_drawers_2",
+	"everycomp:sd/caverns_and_chasms/azalea_full_drawers_2",
+	"everycomp:sd/quark/blossom_full_drawers_2",
+	"everycomp:sd/quark/azalea_full_drawers_2",
+	"everycomp:sd/mynethersdelight/powdery_full_drawers_2",
+	"everycomp:sd/atmospheric/morado_full_drawers_2",
+	"everycomp:sd/ecologics/coconut_full_drawers_2",
+	"everycomp:sd/environmental/wisteria_full_drawers_2",
+	"everycomp:sd/ecologics/flowering_azalea_full_drawers_2",
+	"everycomp:sd/ecologics/azalea_full_drawers_2",
+	"everycomp:sd/quark/ancient_full_drawers_2",
+	"everycomp:sd/environmental/cherry_full_drawers_2",
+	"everycomp:sd/upgrade_aquatic/driftwood_full_drawers_2",
+	"everycomp:sd/atmospheric/grimwood_full_drawers_2",
+	"everycomp:sd/environmental/willow_full_drawers_4",
+	"everycomp:sd/atmospheric/aspen_full_drawers_4",
+	"everycomp:sd/autumnity/maple_full_drawers_4",
+	"everycomp:sd/architects_palette/twisted_full_drawers_4",
+	"everycomp:sd/atmospheric/yucca_full_drawers_4",
+	"everycomp:sd/upgrade_aquatic/river_full_drawers_4",
+	"everycomp:sd/endergetic/poise_full_drawers_4",
+	"everycomp:sd/quark/bamboo_full_drawers_4",
+	"everycomp:sd/ecologics/walnut_full_drawers_4",
+	"everycomp:sd/atmospheric/kousa_full_drawers_4",
+	"everycomp:sd/windswept/holly_full_drawers_4",
+	"everycomp:sd/caverns_and_chasms/azalea_full_drawers_4",
+	"everycomp:sd/quark/azalea_full_drawers_4",
+	"everycomp:sd/quark/blossom_full_drawers_4",
+	"everycomp:sd/atmospheric/rosewood_full_drawers_4",
+	"everycomp:sd/windswept/chestnut_full_drawers_4",
+	"everycomp:sd/mynethersdelight/powdery_full_drawers_4",
+	"everycomp:sd/atmospheric/morado_full_drawers_4",
+	"everycomp:sd/atmospheric/grimwood_full_drawers_4",
+	"everycomp:sd/upgrade_aquatic/driftwood_full_drawers_4",
+	"everycomp:sd/quark/ancient_full_drawers_4",
+	"everycomp:sd/ecologics/flowering_azalea_full_drawers_4",
+	"everycomp:sd/ecologics/azalea_full_drawers_4",
+	"everycomp:sd/environmental/wisteria_full_drawers_4",
+	"everycomp:sd/ecologics/coconut_full_drawers_4",
+	"everycomp:sd/environmental/willow_half_drawers_1",
+	"everycomp:sd/atmospheric/aspen_half_drawers_1",
+	"everycomp:sd/endergetic/poise_half_drawers_1",
+	"everycomp:sd/upgrade_aquatic/river_half_drawers_1",
+	"everycomp:sd/atmospheric/yucca_half_drawers_1",
+	"everycomp:sd/environmental/cherry_full_drawers_4",
+	"everycomp:sd/quark/bamboo_half_drawers_1",
+	"everycomp:sd/architects_palette/twisted_half_drawers_1",
+	"everycomp:sd/atmospheric/rosewood_half_drawers_1",
+	"everycomp:sd/quark/blossom_half_drawers_1",
+	"everycomp:sd/quark/azalea_half_drawers_1",
+	"everycomp:sd/caverns_and_chasms/azalea_half_drawers_1",
+	"everycomp:sd/windswept/holly_half_drawers_1",
+	"everycomp:sd/atmospheric/kousa_half_drawers_1",
+	"everycomp:sd/ecologics/walnut_half_drawers_1",
+	"everycomp:sd/autumnity/maple_half_drawers_1",
+	"everycomp:sd/windswept/chestnut_half_drawers_1",
+	"everycomp:sd/mynethersdelight/powdery_half_drawers_1",
+	"everycomp:sd/atmospheric/morado_half_drawers_1",
+	"everycomp:sd/ecologics/coconut_half_drawers_1",
+	"everycomp:sd/environmental/wisteria_half_drawers_1",
+	"everycomp:sd/ecologics/flowering_azalea_half_drawers_1",
+	"everycomp:sd/ecologics/azalea_half_drawers_1",
+	"everycomp:sd/quark/ancient_half_drawers_1",
+	"everycomp:sd/environmental/cherry_half_drawers_1",
+	"everycomp:sd/upgrade_aquatic/driftwood_half_drawers_1",
+	"everycomp:sd/atmospheric/grimwood_half_drawers_1",
+	"everycomp:sd/environmental/willow_half_drawers_2",
+	"everycomp:sd/atmospheric/aspen_half_drawers_2",
+	"everycomp:sd/quark/bamboo_half_drawers_2",
+	"everycomp:sd/endergetic/poise_half_drawers_2",
+	"everycomp:sd/upgrade_aquatic/river_half_drawers_2",
+	"everycomp:sd/atmospheric/yucca_half_drawers_2",
+	"everycomp:sd/caverns_and_chasms/azalea_half_drawers_2",
+	"everycomp:sd/windswept/holly_half_drawers_2",
+	"everycomp:sd/atmospheric/kousa_half_drawers_2",
+	"everycomp:sd/autumnity/maple_half_drawers_2",
+	"everycomp:sd/ecologics/walnut_half_drawers_2",
+	"everycomp:sd/windswept/chestnut_half_drawers_2",
+	"everycomp:sd/atmospheric/rosewood_half_drawers_2",
+	"everycomp:sd/architects_palette/twisted_half_drawers_2",
+	"everycomp:sd/quark/azalea_half_drawers_2",
+	"everycomp:sd/quark/blossom_half_drawers_2",
+	"everycomp:sd/mynethersdelight/powdery_half_drawers_2",
+	"everycomp:sd/atmospheric/morado_half_drawers_2",
+	"everycomp:sd/ecologics/coconut_half_drawers_2",
+	"everycomp:sd/environmental/wisteria_half_drawers_2",
+	"everycomp:sd/ecologics/flowering_azalea_half_drawers_2",
+	"everycomp:sd/ecologics/azalea_half_drawers_2",
+	"everycomp:sd/endergetic/poise_half_drawers_4",
+	"everycomp:sd/quark/bamboo_half_drawers_4",
+	"everycomp:sd/atmospheric/aspen_half_drawers_4",
+	"everycomp:sd/environmental/willow_half_drawers_4",
+	"everycomp:sd/atmospheric/grimwood_half_drawers_2",
+	"everycomp:sd/upgrade_aquatic/driftwood_half_drawers_2",
+	"everycomp:sd/environmental/cherry_half_drawers_2",
+	"everycomp:sd/quark/ancient_half_drawers_2",
+	"everycomp:sd/upgrade_aquatic/river_half_drawers_4",
+	"everycomp:sd/atmospheric/yucca_half_drawers_4",
+	"everycomp:sd/architects_palette/twisted_half_drawers_4",
+	"everycomp:sd/atmospheric/rosewood_half_drawers_4",
+	"everycomp:sd/windswept/chestnut_half_drawers_4",
+	"everycomp:sd/autumnity/maple_half_drawers_4",
+	"everycomp:sd/ecologics/walnut_half_drawers_4",
+	"everycomp:sd/atmospheric/kousa_half_drawers_4",
+	"everycomp:sd/environmental/wisteria_half_drawers_4",
+	"everycomp:sd/ecologics/coconut_half_drawers_4",
+	"everycomp:sd/atmospheric/morado_half_drawers_4",
+	"everycomp:sd/quark/blossom_half_drawers_4",
+	"everycomp:sd/mynethersdelight/powdery_half_drawers_4",
+	"everycomp:sd/quark/azalea_half_drawers_4",
+	"everycomp:sd/caverns_and_chasms/azalea_half_drawers_4",
+	"everycomp:sd/windswept/holly_half_drawers_4",
+	"everycomp:sd/ecologics/flowering_azalea_half_drawers_4",
+	"everycomp:sd/ecologics/azalea_half_drawers_4",
+	"everycomp:sd/quark/ancient_half_drawers_4",
+	"everycomp:sd/environmental/cherry_half_drawers_4",
+	"everycomp:sd/upgrade_aquatic/driftwood_half_drawers_4",
+	"everycomp:sd/atmospheric/grimwood_half_drawers_4",
+	"everycomp:sd/environmental/willow_trim",
+	"everycomp:sd/atmospheric/aspen_trim",
+	"everycomp:sd/quark/bamboo_trim",
+	"everycomp:sd/endergetic/poise_trim",
+	"everycomp:sd/upgrade_aquatic/river_trim",
+	"everycomp:sd/atmospheric/yucca_trim",
+	"everycomp:sd/architects_palette/twisted_trim",
+	"everycomp:sd/atmospheric/rosewood_trim",
+	"everycomp:sd/autumnity/maple_trim",
+	"everycomp:sd/windswept/chestnut_trim",
+	"everycomp:sd/ecologics/walnut_trim",
+	"everycomp:sd/ecologics/coconut_trim",
+	"everycomp:sd/atmospheric/kousa_trim",
+	"everycomp:sd/environmental/wisteria_trim",
+	"everycomp:sd/windswept/holly_trim",
+	"everycomp:sd/ecologics/flowering_azalea_trim",
+	"everycomp:sd/caverns_and_chasms/azalea_trim",
+	"everycomp:sd/ecologics/azalea_trim",
+	"everycomp:sd/quark/azalea_trim",
+	"everycomp:sd/quark/ancient_trim",
+	"everycomp:sd/quark/blossom_trim",
+	"everycomp:sd/environmental/cherry_trim",
+	"everycomp:sd/mynethersdelight/powdery_trim",
+	"everycomp:sd/upgrade_aquatic/driftwood_trim",
+	"everycomp:sd/atmospheric/morado_trim",
+	"everycomp:sd/atmospheric/grimwood_trim",
+	"storagedrawers:obsidian_storage_upgrade",
+	"storagedrawers:creative_vending_upgrade",
+	"storagedrawers:iron_storage_upgrade",
+	"storagedrawers:conversion_upgrade",
+	"storagedrawers:gold_storage_upgrade",
+	"storagedrawers:redstone_upgrade",
+	"storagedrawers:diamond_storage_upgrade",
+	"storagedrawers:min_redstone_upgrade",
+	"storagedrawers:emerald_storage_upgrade",
+	"storagedrawers:max_redstone_upgrade",
+	"storagedrawers:one_stack_upgrade",
+	"storagedrawers:illumination_upgrade",
+	"storagedrawers:void_upgrade",
+	"storagedrawers:fill_level_upgrade",
+	"storagedrawers:creative_storage_upgrade",
+	"storagedrawers:upgrade_template",
+	"storagedrawers:quantify_key",
+	"storagedrawers:shroud_key",
+	"storagedrawers:keyring",
+	"storagedrawers:oak_full_drawers_2",
+	"storagedrawers:oak_full_drawers_4",
+	"storagedrawers:oak_half_drawers_1",
+	"storagedrawers:oak_half_drawers_2",
+	"storagedrawers:birch_full_drawers_1",
+	"storagedrawers:oak_half_drawers_4",
+	"storagedrawers:birch_full_drawers_2",
+	"storagedrawers:spruce_full_drawers_1",
+	"storagedrawers:birch_full_drawers_4",
+	"storagedrawers:spruce_full_drawers_2",
+	"storagedrawers:birch_half_drawers_1",
+	"storagedrawers:spruce_full_drawers_4",
+	"storagedrawers:birch_half_drawers_2",
+	"storagedrawers:spruce_half_drawers_1",
+	"storagedrawers:birch_half_drawers_4",
+	"storagedrawers:spruce_half_drawers_2",
+	"storagedrawers:jungle_full_drawers_1",
+	"storagedrawers:spruce_half_drawers_4",
+	"storagedrawers:jungle_full_drawers_2",
+	"storagedrawers:jungle_full_drawers_4",
+	"storagedrawers:acacia_half_drawers_2",
+	"storagedrawers:jungle_half_drawers_1",
+	"storagedrawers:acacia_half_drawers_4",
+	"storagedrawers:jungle_half_drawers_2",
+	"storagedrawers:dark_oak_full_drawers_1",
+	"storagedrawers:jungle_half_drawers_4",
+	"storagedrawers:dark_oak_full_drawers_2",
+	"storagedrawers:acacia_full_drawers_1",
+	"storagedrawers:dark_oak_full_drawers_4",
+	"storagedrawers:acacia_full_drawers_2",
+	"storagedrawers:dark_oak_half_drawers_1",
+	"storagedrawers:acacia_full_drawers_4",
+	"storagedrawers:dark_oak_half_drawers_2",
+	"storagedrawers:acacia_half_drawers_1",
+	"storagedrawers:dark_oak_half_drawers_4",
+	"storagedrawers:mangrove_full_drawers_1",
+	"storagedrawers:crimson_full_drawers_4",
+	"storagedrawers:mangrove_full_drawers_2",
+	"storagedrawers:crimson_half_drawers_1",
+	"storagedrawers:mangrove_full_drawers_4",
+	"storagedrawers:crimson_half_drawers_2",
+	"storagedrawers:mangrove_half_drawers_1",
+	"storagedrawers:crimson_half_drawers_4",
+	"storagedrawers:mangrove_half_drawers_2",
+	"storagedrawers:warped_full_drawers_1",
+	"storagedrawers:mangrove_half_drawers_4",
+	"storagedrawers:warped_full_drawers_2",
+	"storagedrawers:crimson_full_drawers_1",
+	"storagedrawers:warped_full_drawers_4",
+	"storagedrawers:crimson_full_drawers_2",
+	"storagedrawers:warped_half_drawers_1",
+	"storagedrawers:warped_half_drawers_2",
+	"storagedrawers:warped_half_drawers_4",
+	"storagedrawers:compacting_drawers_3",
+	"storagedrawers:oak_trim",
+	"storagedrawers:spruce_trim",
+	"storagedrawers:birch_trim",
+	"storagedrawers:jungle_trim",
+	"storagedrawers:acacia_trim",
+	"storagedrawers:dark_oak_trim",
+	"storagedrawers:mangrove_trim",
+	"storagedrawers:crimson_trim",
+	"storagedrawers:warped_trim",
+	"storagedrawers:controller_slave",
+	"storagedrawers:keybutton_drawer",
+	"storagedrawers:keybutton_quantify",
+	"storagedrawers:keybutton_concealment"
+	])
 	
 	event.removeAll('createaddition:plant_foods')
 	event.removeAll('createaddition:plants')
 	event.removeAll('caverns_and_chasms:experience_boost_items')
+	event.removeAll('caverns_and_chasms:slowness_inflicting_items')
+	event.removeAll('atmospheric:aspen_logs')
+	event.removeAll('caverns_and_chasms:additional_toolbox_tools')
+	event.removeAll('caverns_and_chasms:azalea_logs')
+	event.removeAll('curios:artifact')
+	event.removeAll('curios:charm')
+	event.removeAll('endergetic:poise_stems')
+	event.removeAll('sullysmod:tortoise_food')
+	event.removeAll('trinkets:chest/cape')
+	event.removeAll('trinkets:chest/back')
+	event.removeAll('aquaculture:tooltip')
+	event.removeAll('aquaculture:tackle_box_green')
+	event.removeAll('aquaculture:turtle_edible')
+	event.removeAll('aquaculturedelight:fillet_one')
+	event.removeAll('aquaculturedelight:fillet_two')
+	event.removeAll('aquaculturedelight:fillet_three')
+	event.removeAll('aquaculturedelight:fillet_four')
+	event.removeAll('aquaculturedelight:fillet_ten')
+	event.removeAll('aquaculturedelight:neptunium_knives')
+	event.removeAll('aquaculturedelight:fish_rolls')
+	event.removeAll('culturaldelights:cucumbers')
+	event.removeAll('spelunkery:nuggets')
+	event.removeAll('create:create_ingots')
+	event.removeAll('onion_onion:motley_mushrooms')
+})
 
-	event.get('webasemod:throwable_items')
-		.add('twigs:pebble')
-		.remove('#minecraft:coals')
-		.remove('#forge:gems')
-		.remove('#forge:nuggets')
-		.remove('#forge:ingots')
-
+// Item tags
+ServerEvents.tags('item', event => {
+	event.get('c:hidden_from_recipe_viewers')
+		.add('minecraft:enchanted_book')
+		.add('toms_storage:ts.crafting_terminal')
+		
 	event.get('create:ignored_in_automatic_shapeless')
 		.add('minecraft:cookie')
 		.add('farmersdelight:sweet_berry_cookie')
@@ -578,7 +1312,1093 @@ ServerEvents.tags('item', event => {
 		.add('architects_palette:algal_blend')
 		.add('supplementaries:candy')
 		.add('kubejs:oat_bar')
+		.add('minecraft:ender_eye')
+		.add('kubejs:spirited_exopearl')
 		.add('minecraft:fire_charge')
+		.add('alloyed:bronze_ingot')
+		.add('farmersdelight:pie_crust')
+		.add('create_confectionery:cocoa_butter')
+		.add('minecraft:white_carpet')
+		.add('minecraft:orange_carpet')
+		.add('minecraft:magenta_carpet')
+		.add('minecraft:light_blue_carpet')
+		.add('minecraft:yellow_carpet')
+		.add('minecraft:lime_carpet')
+		.add('minecraft:pink_carpet')
+		.add('minecraft:gray_carpet')
+		.add('minecraft:light_gray_carpet')
+		.add('minecraft:cyan_carpet')
+		.add('minecraft:purple_carpet')
+		.add('minecraft:blue_carpet')
+		.add('minecraft:brown_carpet')
+		.add('minecraft:green_carpet')
+		.add('minecraft:red_carpet')
+		.add('minecraft:black_carpet')
+		.add('kubejs:white_canvas_rug')
+		.add('kubejs:orange_canvas_rug')
+		.add('kubejs:magenta_canvas_rug')
+		.add('kubejs:light_blue_canvas_rug')
+		.add('kubejs:yellow_canvas_rug')
+		.add('kubejs:lime_canvas_rug')
+		.add('kubejs:pink_canvas_rug')
+		.add('kubejs:gray_canvas_rug')
+		.add('kubejs:light_gray_canvas_rug')
+		.add('kubejs:cyan_canvas_rug')
+		.add('kubejs:purple_canvas_rug')
+		.add('kubejs:blue_canvas_rug')
+		.add('kubejs:brown_canvas_rug')
+		.add('kubejs:green_canvas_rug')
+		.add('kubejs:red_canvas_rug')
+		.add('kubejs:black_canvas_rug')
+		.add('kubejs:white_cloth_scrap_carpet')
+		.add('kubejs:orange_cloth_scrap_carpet')
+		.add('kubejs:magenta_cloth_scrap_carpet')
+		.add('kubejs:light_blue_cloth_scrap_carpet')
+		.add('kubejs:yellow_cloth_scrap_carpet')
+		.add('kubejs:lime_cloth_scrap_carpet')
+		.add('kubejs:pink_cloth_scrap_carpet')
+		.add('kubejs:gray_cloth_scrap_carpet')
+		.add('kubejs:light_gray_cloth_scrap_carpet')
+		.add('kubejs:cyan_cloth_scrap_carpet')
+		.add('kubejs:purple_cloth_scrap_carpet')
+		.add('kubejs:blue_cloth_scrap_carpet')
+		.add('kubejs:brown_cloth_scrap_carpet')
+		.add('kubejs:green_cloth_scrap_carpet')
+		.add('kubejs:red_cloth_scrap_carpet')
+		.add('kubejs:black_cloth_scrap_carpet')
+		.add('farmersdelight:organic_compost')
+		.add('minecraft:golden_apple')
+		.add('minecraft:golden_carrot')
+		.add('minecraft:glistering_melon_slice')
+		.add('kubejs:golden_strawberries')
+		.add('caverns_and_chasms:bejeweled_apple')
+		.add('create:chocolate_glazed_berries')
+		.add('create_confectionery:chocolate_glazed_marshmallow')
+
+	event.get('raspberry_flavoured:work_in_progress')
+		.add('minecraft:evoker_spawn_egg')
+
+	event.get('raspberry_flavoured:cave_seafood')
+		.add('miners_delight:glow_squid')
+		.add('sullysmod:lanternfish')
+
+	event.get('supplementaries:statue_swords')
+		.add('clash:spear')
+		.add('clash:greatblade')
+		.add('clash:swept_axe')
+
+	event.get('supplementaries:pedestal_upright')
+		.add('clash:spear')
+		.add('kubejs:rose_gold_rapier')
+
+	event.get('supplementaries:pedestal_downright')
+		.add('#farmersdelight:tools/knives')
+		.add('clash:greatblade')
+		.add('clash:swept_axe')
+
+	event.get('raspberry:bad_bait')
+		.add('minecraft:spider_eye')
+
+	event.get('raspberry:good_bait')
+		.add('naturalist:caterpillar')
+
+	event.get('mynethersdelight:hot_spice').removeAll()
+		.add('mynethersdelight:bullet_pepper')
+		.add('minecraft:blaze_powder')
+
+	event.get('raspberry_flavoured:foul_ingredients')
+		.add('minecraft:rotten_flesh')
+		.add('minecraft:spider_eye')
+		.add('minecraft:poisonous_potato')
+		.add('kubejs:spoiled_carrot')
+		.add('aquaculture:fish_bones')
+
+	event.get('raspberry_flavoured:furnaces')
+		.add('minecraft:furnace')
+		.add('quark:deepslate_furnace')
+		.add('quark:blackstone_furnace')
+
+	event.get('minecraft:gold_ores')
+		.add('minecraft:gilded_blackstone')
+
+//	event.get('supplementaries:shulker_blacklist')
+//		.add('storagedrawers:oak_full_drawers_1')
+
+	event.get('minecraft:pressure_plates')
+		.add('minecraft:acacia_pressure_plate')
+		.add('minecraft:jungle_pressure_plate')
+		.add('minecraft:birch_pressure_plate')
+		.add('minecraft:spruce_pressure_plate')
+		.add('minecraft:oak_pressure_plate')
+		.add('minecraft:heavy_weighted_pressure_plate')
+		.add('minecraft:light_weighted_pressure_plate')
+		.add('minecraft:polished_blackstone_pressure_plate')
+		.add('minecraft:stone_pressure_plate')
+		.add('moreconcrete:green_concrete_pressure_plate')
+		.add('moreconcrete:brown_concrete_pressure_plate')
+		.add('moreconcrete:blue_concrete_pressure_plate')
+		.add('moreconcrete:purple_concrete_pressure_plate')
+		.add('moreconcrete:cyan_concrete_pressure_plate')
+		.add('moreconcrete:light_gray_concrete_pressure_plate')
+		.add('moreconcrete:gray_concrete_pressure_plate')
+		.add('moreconcrete:pink_concrete_pressure_plate')
+		.add('moreconcrete:lime_concrete_pressure_plate')
+		.add('moreconcrete:yellow_concrete_pressure_plate')
+		.add('moreconcrete:light_blue_concrete_pressure_plate')
+		.add('moreconcrete:magenta_concrete_pressure_plate')
+		.add('moreconcrete:orange_concrete_pressure_plate')
+		.add('moreconcrete:white_concrete_pressure_plate')
+		.add('minecraft:warped_pressure_plate')
+		.add('minecraft:crimson_pressure_plate')
+		.add('minecraft:mangrove_pressure_plate')
+		.add('minecraft:dark_oak_pressure_plate')
+		.add('environmental:cherry_pressure_plate')
+		.add('environmental:willow_pressure_plate')
+		.add('architects_palette:twisted_pressure_plate')
+		.add('ecologics:azalea_pressure_plate')
+		.add('ecologics:coconut_pressure_plate')
+		.add('windswept:polished_deepslate_pressure_plate')
+		.add('windswept:chestnut_pressure_plate')
+		.add('moreconcrete:black_concrete_pressure_plate')
+		.add('moreconcrete:red_concrete_pressure_plate')
+		.add('mynethersdelight:powdery_pressure_plate')
+		.add('quark:obsidian_pressure_plate')
+		.add('quark:bamboo_pressure_plate')
+		.add('atmospheric:yucca_pressure_plate')
+		.add('atmospheric:morado_pressure_plate')
+		.add('atmospheric:rosewood_pressure_plate')
+		.add('caverns_and_chasms:medium_weighted_pressure_plate')
+		.add('autumnity:maple_pressure_plate')
+		.add('upgrade_aquatic:driftwood_pressure_plate')
+		.add('environmental:wisteria_pressure_plate')
+
+	event.get('minecraft:buttons')
+		.add('moreconcrete:white_concrete_button')
+		.add('moreconcrete:orange_concrete_button')
+		.add('moreconcrete:magenta_concrete_button')
+		.add('moreconcrete:light_blue_concrete_button')
+		.add('moreconcrete:yellow_concrete_button')
+		.add('moreconcrete:lime_concrete_button')
+		.add('moreconcrete:pink_concrete_button')
+		.add('moreconcrete:gray_concrete_button')
+		.add('moreconcrete:light_gray_concrete_button')
+		.add('moreconcrete:cyan_concrete_button')
+		.add('moreconcrete:purple_concrete_button')
+		.add('moreconcrete:blue_concrete_button')
+		.add('moreconcrete:brown_concrete_button')
+		.add('moreconcrete:green_concrete_button')
+		.add('moreconcrete:red_concrete_button')
+		.add('moreconcrete:black_concrete_button')
+
+	event.get('mynethersdelight:chili_meats').removeAll()
+		.add('#forge:raw_beef')
+		.add('#mynethersdelight:strider_meats')
+
+	event.get('raspberry_flavoured:dumpling_fillings')
+		.add('#forge:raw_beef')
+		.add('#forge:raw_chicken')
+		.add('#forge:raw_pork')
+		.add('#raspberry_flavoured:edible_mushrooms')
+
+	event.get('forge:fruits')
+		.add('#raspberry_flavoured:apples')
+		.add('#raspberry_flavoured:prickly_pears')
+		.add('minecraft:sweet_berries')
+		.add('minecraft:glow_berries')
+		.add('minecraft:melon_slice')
+		.add('farmersdelight:pumpkin_slice')
+		.add('environmental:cherries')
+		.add('neapolitan:strawberries')
+		.add('neapolitan:white_strawberries')
+		.add('neapolitan:banana')
+		.add('cookscollection:lemon')
+
+	event.get('onion_onion:onion_proof_helmets')
+		.add('minecraft:carved_pumpkin')
+		.add('caverns_and_chasms:necromium_helmet')
+		.add('savage_and_ravage:mask_of_dishonesty')
+
+	event.get('neapolitan:ice_cream')
+		.add('kubejs:prismatic_ice_cream')
+
+	event.get('raspberry_flavoured:corn')
+		.add('culturaldelights:corn_cob')
+		.add('culturaldelights:corn_kernels')
+		.add('kubejs:corn_flour')
+	
+	event.get('minecraft:dampens_vibrations')
+		.add('kubejs:cloth_scrap_block')
+		.add('kubejs:white_cloth_scrap_block')
+		.add('kubejs:orange_cloth_scrap_block')
+		.add('kubejs:magenta_cloth_scrap_block')
+		.add('kubejs:light_blue_cloth_scrap_block')
+		.add('kubejs:yellow_cloth_scrap_block')
+		.add('kubejs:lime_cloth_scrap_block')
+		.add('kubejs:pink_cloth_scrap_block')
+		.add('kubejs:gray_cloth_scrap_block')
+		.add('kubejs:light_gray_cloth_scrap_block')
+		.add('kubejs:cyan_cloth_scrap_block')
+		.add('kubejs:purple_cloth_scrap_block')
+		.add('kubejs:blue_cloth_scrap_block')
+		.add('kubejs:brown_cloth_scrap_block')
+		.add('kubejs:green_cloth_scrap_block')
+		.add('kubejs:red_cloth_scrap_block')
+		.add('kubejs:black_cloth_scrap_block')
+		.add('caverns_and_chasms:echo_block')
+		.add('echochest:echo_chest')
+		.add('minecraft:echo_shard')
+		.add('minecraft:music_disc_5')
+		.add('spelunkery:echo_fork')
+		.add('quark:echorang')
+
+	event.get('raspberry_flavoured:feasts')
+		.add('farmersdelight:roast_chicken_block')
+		.add('farmersdelight:stuffed_pumpkin_block')
+		.add('farmersdelight:honey_glazed_ham_block')
+		.add('farmersdelight:shepherds_pie_block')
+		.add('farmersdelight:rice_roll_medley_block')
+		.add('kubejs:eggplant_parmesan_block')
+		.add('miners_delight:stuffed_squid')
+		.add('brewinandchewin:fiery_fondue_pot')
+		.add('mynethersdelight:roast_stuffed_hoglin')
+		.add('mynethersdelight:ghasta_with_cream')
+		.add('mynethersdelight:striderloaf')
+		.add('onion_onion:motley_grill_block')
+
+	event.get('raspberry_flavoured:glowing_mushrooms')
+		.add('quark:glow_shroom')
+		.add('spelunkery:mushgloom')
+
+	event.get('raspberry_flavoured:expensive_ingots')
+		.add('oreganized:electrum_ingot')
+		.add('caverns_and_chasms:necromium_ingot')
+		.add('minecraft:netherite_ingot')
+
+	event.get('forge:raw_pork')
+		.add('nethersdelight:hoglin_loin')
+		.add('mynethersdelight:hoglin_sausage')
+
+	event.get('forge:cooked_pork')
+		.add('nethersdelight:hoglin_sirloin')
+		.add('mynethersdelight:roasted_sausage')
+
+	event.get('ecologics:penguin_tempt_items')
+		.add('#raspberry_flavoured:full_raw_fish')
+
+	event.get('raspberry_flavoured:geodes')
+		.add('kubejs:dwarf_geode')
+		.add('kubejs:deepslate_dwarf_geode')
+		.add('kubejs:blackstone_dwarf_geode')
+
+	event.get('raspberry_flavoured:potions')
+		.add('minecraft:potion')
+		.add('minecraft:splash_potion')
+		.add('minecraft:lingering_potion')
+
+	event.get('raspberry_flavoured:cinnamon_logs')
+		.add('minecraft:jungle_log')
+		.add('minecraft:jungle_wood')
+		.add('ecologics:azalea_log')
+		.add('ecologics:azalea_wood')
+		.add('atmospheric:rosewood_log')
+		.add('atmospheric:rosewood')
+		.add('atmospheric:yucca_log')
+		.add('atmospheric:yucca_wood')
+
+	event.get('raspberry_flavoured:regular_logs')
+		.add('minecraft:dark_oak_log')
+		.add('minecraft:dark_oak_wood')
+		.add('minecraft:oak_log')
+		.add('minecraft:oak_wood')
+		.add('minecraft:acacia_log')
+		.add('minecraft:acacia_wood')
+		.add('minecraft:birch_log')
+		.add('minecraft:birch_wood')
+		.add('minecraft:spruce_log')
+		.add('minecraft:spruce_wood')
+		.add('minecraft:mangrove_log')
+		.add('minecraft:mangrove_wood')
+		.add('windswept:chestnut_log')
+		.add('windswept:chestnut_wood')
+		.add('ecologics:coconut_log')
+		.add('ecologics:coconut_wood')
+		.add('architects_palette:twisted_log')
+		.add('architects_palette:twisted_wood')
+		.add('environmental:willow_log')
+		.add('environmental:willow_wood')
+		.add('environmental:wisteria_log')
+		.add('environmental:wisteria_wood')
+		.add('environmental:cherry_log')
+		.add('environmental:cherry_wood')
+		.add('upgrade_aquatic:driftwood_log')
+		.add('upgrade_aquatic:driftwood')
+		.add('autumnity:maple_log')
+		.add('autumnity:maple_wood')
+		.add('atmospheric:morado_log')
+		.add('atmospheric:morado_wood')
+		.add('minecraft:crimson_stem')
+		.add('minecraft:crimson_hyphae')
+		.add('minecraft:warped_stem')
+		.add('minecraft:warped_hyphae')
+
+	event.get('raspberry_flavoured:full_raw_squid')
+		.add('miners_delight:squid')
+		.add('miners_delight:glow_squid')
+
+	event.get('raspberry_flavoured:raw_squid')
+		.add('miners_delight:squid')
+		.add('miners_delight:glow_squid')
+		.add('miners_delight:tentacles')
+
+	event.get('raspberry_flavoured:cooked_squid')
+		.add('miners_delight:baked_squid')
+		.add('miners_delight:baked_tentacles')
+
+	event.get('raspberry_flavoured:soul_blocks')
+		.add('minecraft:soul_sand')
+		.add('minecraft:soul_soil')
+
+	event.get('raspberry_flavoured:prickly_pears')
+		.add('ecologics:prickly_pear')
+		.add('ecologics:cooked_prickly_pear')
+
+	event.get('raspberry_flavoured:edible_nether_fungi')
+		.add('minecraft:crimson_fungus')
+		.add('minecraft:warped_fungus')
+
+	event.get('raspberry_flavoured:edible_mushrooms')
+		.add('minecraft:brown_mushroom')
+		.add('spelunkery:milly_bubcap')
+		.add('spelunkery:portabella')
+		.add('spelunkery:grilled_portabella')
+		.add('quark:glow_shroom')
+
+	event.get('raspberry_flavoured:photography')
+		.add('exposure:camera')
+		.add('exposure:black_and_white_film')
+		.add('exposure:color_film')
+		.add('exposure:developed_black_and_white_film')
+		.add('exposure:developed_color_film')
+		.add('exposure:photograph')
+		.add('exposure:aged_photograph')
+		.add('exposure:stacked_photographs')
+		.add('exposure:album')
+
+	event.get('raspberry_flavoured:special_weapons')
+		.add('mace_backport:mace')
+		.add('clash:spear')
+		.add('clash:swept_axe')
+		.add('clash:greatblade')
+		.add('kubejs:rose_gold_rapier')
+		.add('savage_and_ravage:wand_of_freezing')
+		.add('savage_and_ravage:conch_of_conjuring')
+		.add('savage_and_ravage:mask_of_dishonesty')
+		.add('oreganized:silver_mirror')
+
+	event.get('raspberry_flavoured:horse_armour')
+		.add('minecraft:leather_horse_armor')
+		.add('#raspberry_flavoured:non_leather_horse_armour')
+
+	event.get('raspberry_flavoured:ranged_weapons')
+		.add('minecraft:bow')
+		.add('minecraft:arrow')
+		.add('minecraft:spectral_arrow')
+		.add('caverns_and_chasms:large_arrow')
+		.add('neapolitan:bananarrow')
+		.add('savage_and_ravage:mischief_arrow')
+		.add('minecraft:trident')
+		.add('minecraft:crossbow')
+		.add('create:potato_cannon')
+		.add('caverns_and_chasms:kunai')
+		.add('quark:torch_arrow')
+		.add('supplementaries:bomb')
+		.add('supplementaries:bomb_blue')
+		.add('supplementaries:bomb_spiky')
+		.add('supplementaries:rope_arrow')
+		.add('supplementaries:quiver')
+
+	event.get('raspberry_flavoured:material_items')
+		.add('minecraft:leather')
+		.add('minecraft:flint')
+		.add('minecraft:wheat')
+		.add('minecraft:feather')
+		.add('minecraft:string')
+		.add('minecraft:stick')
+		.add('minecraft:scute')
+		.add('minecraft:turtle_egg')
+		.add('farmersrespite:rose_hips')
+		.add('farmersrespite:black_tea_leaves')
+		.add('farmersrespite:yellow_tea_leaves')
+		.add('farmersrespite:green_tea_leaves')
+		.add('minecraft:echo_shard')
+		.add('minecraft:heart_of_the_sea')
+		.add('minecraft:nautilus_shell')
+		.add('minecraft:phantom_membrane')
+		.add('minecraft:rabbit_hide')
+		.add('minecraft:prismarine_crystals')
+		.add('minecraft:prismarine_shard')
+		.add('minecraft:nether_brick')
+		.add('minecraft:firework_star')
+		.add('minecraft:nether_star')
+		.add('minecraft:magma_cream')
+		.add('minecraft:ghast_tear')
+		.add('minecraft:blaze_rod')
+		.add('minecraft:ender_pearl')
+		.add('minecraft:bone')
+		.add('minecraft:glow_ink_sac')
+		.add('minecraft:ink_sac')
+		.add('minecraft:egg')
+		.add('minecraft:slime_ball')
+		.add('minecraft:book')
+		.add('minecraft:paper')
+		.add('minecraft:clay_ball')
+		.add('minecraft:brick')
+		.add('twigs:twig')
+		.add('architects_palette:wardstone_brick')
+		.add('architects_palette:unobtanium')
+		.add('architects_palette:entwine_rod')
+		.add('architects_palette:withered_bone')
+		.add('architects_palette:algal_brick')
+		.add('architects_palette:algal_blend')
+		.add('naturalist:bear_fur')
+		.add('ecologics:coconut_husk')
+		.add('supplementaries:ash_brick')
+		.add('supplementaries:flax')
+		.add('supplementaries:antique_ink')
+		.add('quark:soul_bead')
+		.add('atmospheric:yellow_blossoms')
+		.add('nethersdelight:hoglin_hide')
+		.add('autumnity:turkey_egg')
+		.add('autumnity:snail_shell_piece')
+		.add('autumnity:snail_goo')
+		.add('upgrade_aquatic:thrasher_tooth')
+		.add('upgrade_aquatic:prismarine_rod')
+		.add('environmental:yak_hair')
+		.add('environmental:duck_egg')
+		.add('create_confectionery:cocoa_butter')
+		.add('create:precision_mechanism')
+		.add('create:electron_tube')
+		.add('create:sturdy_sheet')
+		.add('kubejs:rubber')
+		.add('kubejs:cloth_scrap')
+		.add('kubejs:raw_ammonite')
+		.add('farmersdelight:rice_panicle')
+		.add('farmersdelight:tree_bark')
+		.add('farmersdelight:canvas')
+		.add('farmersdelight:straw')
+		.add('twigs:silt_brick')
+		.add('twigs:silt_ball')
+		.add('twigs:pebble')
+		.add('aquaculture:fish_bones')
+		.add('aquaculture:tin_can')
+		.add('aquaculture:worm')
+
+	event.get('raspberry_flavoured:glass_shard_items')
+		.add('quark:clear_shard')
+		.add('quark:dirty_shard')
+		.add('quark:white_shard')
+		.add('quark:orange_shard')
+		.add('quark:magenta_shard')
+		.add('quark:light_blue_shard')
+		.add('quark:yellow_shard')
+		.add('quark:lime_shard')
+		.add('quark:pink_shard')
+		.add('quark:gray_shard')
+		.add('quark:light_gray_shard')
+		.add('quark:cyan_shard')
+		.add('quark:purple_shard')
+		.add('quark:blue_shard')
+		.add('quark:brown_shard')
+		.add('quark:green_shard')
+		.add('quark:red_shard')
+		.add('quark:black_shard')
+
+	event.get('raspberry_flavoured:granular_items')
+		.add('minecraft:gunpowder')
+		.add('savage_and_ravage:creeper_spores')
+		.add('minecraft:glowstone_dust')
+		.add('minecraft:bone_meal')
+		.add('minecraft:sugar')
+		.add('minecraft:blaze_powder')
+		.add('farmersdelight:rice')
+		.add('kubejs:stardust')
+		.add('kubejs:oats')
+		.add('kubejs:corn_flour')
+		.add('create:wheat_flour')
+		.add('create:cinder_flour')
+		.add('create:powdered_obsidian')
+		.add('supplementaries:ash')
+
+	event.get('raspberry_flavoured:seed_items')		
+		.add('minecraft:wheat_seeds')
+		.add('minecraft:cocoa_beans')
+		.add('minecraft:pumpkin_seeds')
+		.add('minecraft:melon_seeds')
+		.add('minecraft:beetroot_seeds')
+		.add('farmersrespite:tea_seeds')
+		.add('farmersrespite:coffee_beans')
+		.add('farmersdelight:cabbage_seeds')
+		.add('farmersdelight:tomato_seeds')
+		.add('culturaldelights:corn_kernels')
+		.add('culturaldelights:eggplant_seeds')
+		.add('culturaldelights:avocado_pit')
+		.add('environmental:cattail_seeds')
+		.add('neapolitan:vanilla_pods')
+		.add('neapolitan:strawberry_pips')
+		.add('neapolitan:mint_sprout')
+		.add('autumnity:foul_berry_pips')
+		.add('berry_good:sweet_berry_pips')
+		.add('berry_good:glow_berry_pips')
+		.add('atmospheric:aloe_kernels')
+		.add('supplementaries:flax_seeds')
+
+	event.get('raspberry_flavoured:dye_items')
+		.add('minecraft:white_dye')
+		.add('minecraft:orange_dye')
+		.add('minecraft:magenta_dye')
+		.add('minecraft:light_blue_dye')
+		.add('minecraft:yellow_dye')
+		.add('minecraft:lime_dye')
+		.add('minecraft:pink_dye')
+		.add('minecraft:gray_dye')
+		.add('minecraft:light_gray_dye')
+		.add('minecraft:cyan_dye')
+		.add('minecraft:purple_dye')
+		.add('minecraft:blue_dye')
+		.add('minecraft:brown_dye')
+		.add('minecraft:green_dye')
+		.add('minecraft:red_dye')
+		.add('minecraft:black_dye')
+
+	event.get('raspberry_flavoured:mineral_items')
+		.add('minecraft:copper_ingot')
+		.add('minecraft:raw_copper')
+		.add('minecraft:iron_ingot')
+		.add('minecraft:raw_iron')
+		.add('minecraft:amethyst_shard')
+		.add('minecraft:quartz')
+		.add('minecraft:diamond')
+		.add('minecraft:charcoal')
+		.add('minecraft:coal')
+		.add('create:zinc_nugget')
+		.add('create:copper_nugget')
+		.add('create:brass_ingot')
+		.add('create:zinc_ingot')
+		.add('create:andesite_alloy')
+		.add('create:raw_zinc')
+		.add('kubejs:charcoal_lump')
+		.add('alloyed:steel_sheet')
+		.add('alloyed:steel_nugget')
+		.add('alloyed:bronze_nugget')
+		.add('alloyed:steel_ingot')
+		.add('alloyed:bronze_ingot')
+		.add('minecraft:iron_nugget')
+		.add('oreganized:lead_nugget')
+		.add('oreganized:silver_nugget')
+		.add('minecraft:gold_nugget')
+		.add('minecraft:netherite_scrap')
+		.add('caverns_and_chasms:necromium_ingot')
+		.add('oreganized:electrum_ingot')
+		.add('minecraft:netherite_ingot')
+		.add('oreganized:silver_ingot')
+		.add('oreganized:raw_silver')
+		.add('minecraft:gold_ingot')
+		.add('minecraft:raw_gold')
+		.add('oreganized:lead_ingot')
+		.add('oreganized:raw_lead')
+		.add('create:crushed_raw_zinc')
+		.add('create:crushed_raw_copper')
+		.add('create:crushed_raw_gold')
+		.add('create:crushed_raw_iron')
+		.add('create:golden_sheet')
+		.add('create:iron_sheet')
+		.add('create:brass_sheet')
+		.add('create:copper_sheet')
+		.add('create:brass_nugget')
+		.add('oreganized:electrum_nugget')
+		.add('additionaladditions:rose_gold_alloy')
+		.add('kubejs:rose_gold_nugget')
+		.add('spelunkery:cinnabar')
+		.add('spelunkery:diamond_shard')
+		.add('spelunkery:cinnabar_shard')
+		.add('spelunkery:rough_diamond')
+		.add('spelunkery:rough_cinnabar')
+		.add('spelunkery:rough_diamond_shard')
+		.add('spelunkery:rough_cinnabar_shard')
+		.add('spelunkery:coal_lump')
+		.add('spelunkery:raw_magnetite_nugget')
+		.add('spelunkery:raw_silver_nugget')
+		.add('spelunkery:raw_lead_nugget')
+		.add('spelunkery:raw_zinc_nugget')
+		.add('spelunkery:raw_gold_nugget')
+		.add('spelunkery:raw_copper_nugget')
+		.add('spelunkery:raw_iron_nugget')
+		.add('spelunkery:magnetite_chunk')
+		.add('caverns_and_chasms:sanguine_plating')
+		.add('caverns_and_chasms:necromium_nugget')
+		.add('caverns_and_chasms:netherite_nugget')
+		.add('savage_and_ravage:blast_proof_plating')
+		.add('create:crushed_raw_lead')
+		.add('create:crushed_raw_silver')
+
+	event.get('raspberry_flavoured:banner_pattern_items')
+		.add('minecraft:flower_banner_pattern')
+		.add('minecraft:creeper_banner_pattern')
+		.add('minecraft:skull_banner_pattern')
+		.add('minecraft:mojang_banner_pattern')
+		.add('minecraft:globe_banner_pattern')
+		.add('minecraft:piglin_banner_pattern')
+		.add('windswept:snow_golem_banner_pattern')
+		.add('windswept:snow_charge_banner_pattern')
+		.add('windswept:rose_flower_banner_pattern')
+		.add('neapolitan:chimpanzee_banner_pattern')
+		.add('autumnity:maple_leaf_banner_pattern')
+		.add('autumnity:swirl_banner_pattern')
+		.add('buzzier_bees:honeycomb_banner_pattern')
+
+	event.get('raspberry_flavoured:bucket_items')
+		.add('minecraft:tropical_fish_bucket')
+		.add('minecraft:cod_bucket')
+		.add('minecraft:salmon_bucket')
+		.add('minecraft:pufferfish_bucket')
+		.add('minecraft:milk_bucket')
+		.add('minecraft:powder_snow_bucket')
+		.add('minecraft:lava_bucket')
+		.add('minecraft:water_bucket')
+		.add('minecraft:bucket')
+		.add('spelunkery:portal_fluid_bucket')
+		.add('create_central_kitchen:mulberry_jam_bucket')
+		.add('create_central_kitchen:aloe_gel_bucket')
+		.add('create_central_kitchen:tomato_sauce_bucket')
+		.add('create_central_kitchen:syrup_bucket')
+		.add('create_central_kitchen:sap_bucket')
+		.add('upgrade_aquatic:glow_squid_bucket')
+		.add('upgrade_aquatic:squid_bucket')
+		.add('upgrade_aquatic:perch_bucket')
+		.add('upgrade_aquatic:lionfish_bucket')
+		.add('upgrade_aquatic:pike_bucket')
+		.add('upgrade_aquatic:nautilus_bucket')
+		.add('environmental:koi_bucket')
+		.add('environmental:slabfish_bucket')
+		.add('create:chocolate_bucket')
+		.add('create:honey_bucket')
+		.add('sullysmod:lanternfish_bucket')
+		.add('naturalist:bass_bucket')
+		.add('kubejs:latex_bucket')
+		.add('kubejs:ink_bucket')
+		.add('kubejs:scarlet_cheese_bucket')
+		.add('kubejs:flaxen_cheese_bucket')
+		.add('kubejs:batter_bucket')
+		.add('kubejs:cooking_oil_bucket')
+		.add('minecraft:tadpole_bucket')
+		.add('minecraft:axolotl_bucket')
+		.add('aquaculture:synodontis_bucket')
+		.add('aquaculture:capitaine_bucket')
+		.add('aquaculture:boulti_bucket')
+		.add('aquaculture:bayad_bucket')
+		.add('aquaculture:pollock_bucket')
+		.add('aquaculture:atlantic_herring_bucket')
+		.add('aquaculture:blackfish_bucket')
+		.add('quark:slime_in_a_bucket')
+		.add('oreganized:molten_lead_bucket')
+		.add('aquaculture:tuna_bucket')
+		.add('aquaculture:red_grouper_bucket')
+		.add('aquaculture:tambaqui_bucket')
+		.add('aquaculture:gar_bucket')
+		.add('aquaculture:carp_bucket')
+		.add('aquaculture:brown_trout_bucket')
+		.add('aquaculture:bluegill_bucket')
+
+	event.get('raspberry_flavoured:music_disc_items')
+		.add('etched:music_label')
+		.add('etched:album_cover')
+		.add('minecraft:disc_fragment_5')
+		.add('etched:blank_music_disc')
+		.add('#minecraft:music_discs')
+
+	event.get('raspberry_flavoured:spawning_items')
+		.add('minecraft:spawner')
+		.add('quark:monster_box')
+		.add('minecraft:cod_spawn_egg')
+		.add('minecraft:chicken_spawn_egg')
+		.add('minecraft:cave_spider_spawn_egg')
+		.add('minecraft:cat_spawn_egg')
+		.add('minecraft:blaze_spawn_egg')
+		.add('minecraft:bee_spawn_egg')
+		.add('minecraft:bat_spawn_egg')
+		.add('minecraft:axolotl_spawn_egg')
+		.add('minecraft:allay_spawn_egg')
+		.add('minecraft:piglin_spawn_egg')
+		.add('minecraft:pig_spawn_egg')
+		.add('minecraft:phantom_spawn_egg')
+		.add('minecraft:parrot_spawn_egg')
+		.add('minecraft:panda_spawn_egg')
+		.add('minecraft:ocelot_spawn_egg')
+		.add('minecraft:mule_spawn_egg')
+		.add('minecraft:mooshroom_spawn_egg')
+		.add('minecraft:magma_cube_spawn_egg')
+		.add('minecraft:llama_spawn_egg')
+		.add('minecraft:husk_spawn_egg')
+		.add('minecraft:horse_spawn_egg')
+		.add('minecraft:hoglin_spawn_egg')
+		.add('minecraft:guardian_spawn_egg')
+		.add('minecraft:goat_spawn_egg')
+		.add('minecraft:glow_squid_spawn_egg')
+		.add('minecraft:ghast_spawn_egg')
+		.add('minecraft:frog_spawn_egg')
+		.add('minecraft:fox_spawn_egg')
+		.add('minecraft:endermite_spawn_egg')
+		.add('minecraft:enderman_spawn_egg')
+		.add('minecraft:elder_guardian_spawn_egg')
+		.add('minecraft:drowned_spawn_egg')
+		.add('minecraft:donkey_spawn_egg')
+		.add('minecraft:dolphin_spawn_egg')
+		.add('minecraft:creeper_spawn_egg')
+		.add('minecraft:cow_spawn_egg')
+		.add('minecraft:skeleton_horse_spawn_egg')
+		.add('minecraft:skeleton_spawn_egg')
+		.add('minecraft:silverfish_spawn_egg')
+		.add('minecraft:sheep_spawn_egg')
+		.add('minecraft:salmon_spawn_egg')
+		.add('minecraft:rabbit_spawn_egg')
+		.add('minecraft:pufferfish_spawn_egg')
+		.add('minecraft:polar_bear_spawn_egg')
+		.add('minecraft:piglin_brute_spawn_egg')
+		.add('naturalist:robin_spawn_egg')
+		.add('naturalist:canary_spawn_egg')
+		.add('naturalist:cardinal_spawn_egg')
+		.add('naturalist:bluejay_spawn_egg')
+		.add('naturalist:firefly_spawn_egg')
+		.add('naturalist:butterfly_spawn_egg')
+		.add('naturalist:bear_spawn_egg')
+		.add('ecologics:penguin_spawn_egg')
+		.add('ecologics:camel_spawn_egg')
+		.add('ecologics:coconut_crab_spawn_egg')
+		.add('minecraft:zombified_piglin_spawn_egg')
+		.add('minecraft:zombie_horse_spawn_egg')
+		.add('minecraft:zombie_spawn_egg')
+		.add('minecraft:zoglin_spawn_egg')
+		.add('minecraft:wolf_spawn_egg')
+		.add('minecraft:wither_skeleton_spawn_egg')
+		.add('minecraft:witch_spawn_egg')
+		.add('minecraft:warden_spawn_egg')
+		.add('minecraft:vex_spawn_egg')
+		.add('minecraft:turtle_spawn_egg')
+		.add('minecraft:tropical_fish_spawn_egg')
+		.add('minecraft:tadpole_spawn_egg')
+		.add('minecraft:strider_spawn_egg')
+		.add('minecraft:stray_spawn_egg')
+		.add('minecraft:squid_spawn_egg')
+		.add('minecraft:spider_spawn_egg')
+		.add('minecraft:slime_spawn_egg')
+		.add('dungeons_mobs:jungle_zombie_spawn_egg')
+		.add('sullysmod:lanternfish_spawn_egg')
+		.add('piglinproliferation:piglin_alchemist_spawn_egg')
+		.add('naturalist:bass_spawn_egg')
+		.add('naturalist:boar_spawn_egg')
+		.add('naturalist:zebra_spawn_egg')
+		.add('naturalist:snake_spawn_egg')
+		.add('naturalist:rhino_spawn_egg')
+		.add('naturalist:caterpillar_spawn_egg')
+		.add('buzzier_bees:moobloom_spawn_egg')
+		.add('caverns_and_chasms:glare_spawn_egg')
+		.add('caverns_and_chasms:mime_spawn_egg')
+		.add('caverns_and_chasms:peeper_spawn_egg')
+		.add('caverns_and_chasms:deeper_spawn_egg')
+		.add('autumnity:turkey_spawn_egg')
+		.add('autumnity:snail_spawn_egg')
+		.add('neapolitan:plantain_spider_spawn_egg')
+		.add('neapolitan:chimpanzee_spawn_egg')
+		.add('upgrade_aquatic:flare_spawn_egg')
+		.add('upgrade_aquatic:great_thrasher_spawn_egg')
+		.add('upgrade_aquatic:thrasher_spawn_egg')
+		.add('upgrade_aquatic:lionfish_spawn_egg')
+		.add('upgrade_aquatic:pike_spawn_egg')
+		.add('upgrade_aquatic:perch_spawn_egg')
+		.add('upgrade_aquatic:nautilus_spawn_egg')
+		.add('environmental:koi_spawn_egg')
+		.add('environmental:yak_spawn_egg')
+		.add('environmental:deer_spawn_egg')
+		.add('environmental:duck_spawn_egg')
+		.add('environmental:slabfish_spawn_egg')
+		.add('dungeons_mobs:wildfire_spawn_egg')
+		.add('dungeons_mobs:sunken_skeleton_spawn_egg')
+		.add('dungeons_mobs:wraith_spawn_egg')
+		.add('dungeons_mobs:icy_creeper_spawn_egg')
+		.add('dungeons_mobs:mossy_skeleton_spawn_egg')
+		.add('dungeons_mobs:frozen_zombie_spawn_egg')
+		.add('friendsandfoes:tuff_golem_spawn_egg')
+		.add('friendsandfoes:rascal_spawn_egg')
+
+	event.get('raspberry_flavoured:prickly_fruit')
+		.add('minecraft:sweet_berries')
+		.add('ecologics:prickly_pear')
+
+	event.get('raspberry_flavoured:breakfast_condiments')
+		.add('minecraft:honey_bottle')
+		.add('autumnity:syrup_bottle')
+		.add('upgrade_aquatic:mulberry_jam_bottle')
+
+	event.get('raspberry_flavoured:apples')
+		.add('minecraft:apple')
+		.add('kubejs:apple_slices')
+
+	event.get('raspberry_flavoured:raw_nuggets')
+		.add('spelunkery:raw_iron_nugget')
+		.add('spelunkery:raw_copper_nugget')
+		.add('spelunkery:raw_gold_nugget')
+		.add('spelunkery:raw_zinc_nugget')
+		.add('spelunkery:raw_lead_nugget')
+		.add('spelunkery:raw_silver_nugget')
+		.add('spelunkery:raw_magnetite_nugget')
+
+	event.get('raspberry_flavoured:balloons')
+		.add('endergetic:bolloom_balloon')
+		.add('endergetic:red_bolloom_balloon')
+		.add('endergetic:orange_bolloom_balloon')
+		.add('endergetic:yellow_bolloom_balloon')
+		.add('endergetic:lime_bolloom_balloon')
+		.add('endergetic:green_bolloom_balloon')
+		.add('endergetic:light_blue_bolloom_balloon')
+		.add('endergetic:cyan_bolloom_balloon')
+		.add('endergetic:blue_bolloom_balloon')
+		.add('endergetic:pink_bolloom_balloon')
+		.add('endergetic:magenta_bolloom_balloon')
+		.add('endergetic:purple_bolloom_balloon')
+		.add('endergetic:brown_bolloom_balloon')
+		.add('endergetic:gray_bolloom_balloon')
+		.add('endergetic:light_gray_bolloom_balloon')
+		.add('endergetic:white_bolloom_balloon')
+		.add('endergetic:black_bolloom_balloon')
+
+	event.get('minecraft:compasses')
+		.add('spelunkery:magnetic_compass')
+
+	event.get('raspberry:shows_xz')
+		.add('minecraft:recovery_compass')
+		.add('spelunkery:magnetic_compass')
+
+	event.get('raspberry:worm_seeker_items').removeAll()
+		.add('culturaldelights:corn_kernels')
+
+	event.get('environmental:deer_food')
+		.add('kubejs:apple_slices')
+		.add('brewinandchewin:scarlet_cheese_wedge')
+
+	event.get('environmental:deer_tempt_items')
+		.add('kubejs:apple_slices')
+		.add('brewinandchewin:scarlet_cheese_wedge')
+
+	event.get('aquaculture:tackle_box').removeAll()
+		.add('#raspberry_flavoured:raw_fish')
+		.add('#raspberry_flavoured:exotic_fish')
+		.add('#raspberry_flavoured:aquarium_fish')
+		.add('aquaculture:goldfish')
+		.add('miners_delight:squid')
+		.add('miners_delight:glow_squid')
+		.add('kubejs:crystalfish')
+
+	event.get('raspberry_flavoured:hooks')
+		.add('aquaculture:gold_hook')
+		.add('aquaculture:light_hook')
+		.add('aquaculture:heavy_hook')
+		.add('aquaculture:double_hook')
+		.add('aquaculture:redstone_hook')
+
+	event.get('raspberry_flavoured:full_raw_fish')
+		.add('#raspberry_flavoured:white_fish')
+		.add('#raspberry_flavoured:red_fish')
+		.add('sullysmod:lanternfish')
+
+	event.get('raspberry_flavoured:raw_fish')
+		.add('#raspberry_flavoured:white_fish')
+		.add('#raspberry_flavoured:red_fish')
+		.add('sullysmod:lanternfish')
+		.add('aquaculture:fish_fillet_raw')
+
+	event.get('raspberry_flavoured:exotic_fish')
+		.add('minecraft:pufferfish')
+		.add('upgrade_aquatic:lionfish')
+
+	event.get('raspberry_flavoured:aquarium_fish')
+		.add('minecraft:tropical_fish')
+		.add('environmental:koi')
+
+	event.get('raspberry_flavoured:red_fish')
+		.add('minecraft:salmon')
+		.add('upgrade_aquatic:perch')
+		.add('upgrade_aquatic:pike')
+		.add('aquaculture:brown_trout')
+		.add('aquaculture:carp')
+		.add('aquaculture:tambaqui')
+		.add('aquaculture:tuna')
+		.add('aquaculture:atlantic_herring')
+		.add('aquaculture:bluegill')
+
+	event.get('raspberry_flavoured:white_fish')
+		.add('minecraft:cod')
+		.add('naturalist:bass')
+		.add('aquaculture:gar')
+		.add('aquaculture:red_grouper')
+		.add('aquaculture:blackfish')
+		.add('aquaculture:pollock')
+		.add('aquaculture:bayad')
+		.add('aquaculture:capitaine')
+		.add('aquaculture:boulti')
+		.add('aquaculture:synodontis')
+
+	event.get('minecraft:slabs')
+		.add('twigs:bamboo_thatch_slab')
+
+	event.get('forge:milk')
+		.add('ecologics:coconut_slice')
+
+	event.get('forge:bread/wheat')
+		.add('cookscollection:rustic_loaf')
+		.add('cookscollection:rustic_loaf_slice')
+
+	event.get('culturaldelights:all_eggplants')
+		.add('culturaldelights:smoked_eggplant')
+		.add('culturaldelights:smoked_cut_eggplant')
+
+	event.get('forge:ingots')
+		.add('additionaladditions:rose_gold_alloy')
+
+	event.get('forge:ingots/rose_gold')
+		.add('additionaladditions:rose_gold_alloy')
+
+	event.get('forge:plates')
+		.add('alloyed:steel_sheet')
+
+	event.get('forge:ingots/brick')
+		.add('minecraft:nether_brick')
+		.add('architects_palette:algal_brick')
+		.add('architects_palette:wardstone_brick')
+		.add('twigs:silt_brick')
+
+	event.get('minecraft:logs')
+		.add('spelunkery:conk_fungus_block')
+		.add('quark:bamboo_block')
+		.add('quark:stripped_bamboo_block')
+		.add('mynethersdelight:powdery_block')
+		.add('mynethersdelight:stripped_powdery_block')
+
+	event.get('forge:vegetables')
+		.add('culturaldelights:eggplant')
+		.add('culturaldelights:cut_eggplant')
+
+	event.get('forge:cobblestone')
+		.add('kubejs:cobbled_blackstone')
+
+	event.get('forge:cobblestone/blackstone')
+		.add('kubejs:cobbled_blackstone')
+
+	event.get('minecraft:stone_tool_materials')
+		.add('kubejs:cobbled_blackstone')
+		.remove('minecraft:blackstone')
+
+	event.get('minecraft:stone_crafting_materials')
+		.add('kubejs:cobbled_blackstone')
+		.remove('minecraft:blackstone')
+
+	event.get('oreganized:stone_types/glance')
+		.add('oreganized:glance')
+		.add('oreganized:glance_wall')
+		.add('oreganized:glance_stairs')
+		.add('oreganized:polished_glance_stairs')
+		.add('kubejs:glance_pillar')
+
+	event.get('mynethersdelight:powdery_logs')
+		.add('mynethersdelight:powdery_block')
+		.add('mynethersdelight:stripped_powdery_block')
+
+	event.get('minecraft:jungle_logs')
+		.add('kubejs:latex_jungle_log')
+		.add('kubejs:latex_jungle_wood')
+
+	event.get('atmospheric:rosewood_logs')
+		.add('kubejs:latex_rosewood_log')
+		.add('kubejs:latex_rosewood')
+
+	event.get('atmospheric:grimwood_logs')
+		.remove('atmospheric:stripped_grimwood_log')
+		.remove('atmospheric:stripped_grimwood')
+		
+	event.get('chalk:glowings')
+		.add('naturalist:glow_goop')
+
+	event.get('autumnity:snail_snacks')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('autumnity:snail_speed_snacks')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('autumnity:snail_tempt_items')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('supplementaries:flower_box_plantable')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('minecraft:wart_blocks')
+		.add('kubejs:choral_cap')
+
+	event.get('miningmaster:stonebreaker_items')
+		.add('raspberry:deepslate_gravel')
+		.add('raspberry:blackstone_gravel')
+		.add('kubejs:cobbled_blackstone')
+
+	event.get('forge:gravel')
+		.add('minecraft:gravel')
+		.add('raspberry:deepslate_gravel')
+		.add('raspberry:blackstone_gravel')
+
+	event.get('raspberry_flavoured:dough')
+		.add('farmersdelight:wheat_dough')
+		.add('culturaldelights:corn_dough')
+
+	event.get('raspberry_flavoured:cave_scrap_ingredients')
+	    .add('#raspberry_flavoured:edible_mushrooms')
+	    .add('spelunkery:mushgloom')
+		.add('minecraft:hanging_roots')
+		.add('minecraft:glow_lichen')
+		.add('quark:glow_lichen_growth')
+		.add('minecraft:glow_berries')
+		.add('aquaculture:algae')
+	    .add('spelunkery:tangle_roots')
+
+	event.get('raspberry_flavoured:campfires')
+		.add('minecraft:campfire')
+		.add('minecraft:soul_campfire')
+		.add('caverns_and_chasms:cupric_campfire')
+		.add('endergetic:ender_campfire')
+
+	event.get('raspberry_flavoured:stone_crafting_slabs')
+		.add('minecraft:cobblestone_slab')
+		.add('minecraft:blackstone_slab')
+		.add('minecraft:cobbled_deepslate_slab')
+
+	event.get('raspberry_flavoured:cloth_blocks')
+		.add('kubejs:cloth_scrap_block')
+		.add('kubejs:white_cloth_scrap_block')
+		.add('kubejs:orange_cloth_scrap_block')
+		.add('kubejs:magenta_cloth_scrap_block')
+		.add('kubejs:light_blue_cloth_scrap_block')
+		.add('kubejs:yellow_cloth_scrap_block')
+		.add('kubejs:lime_cloth_scrap_block')
+		.add('kubejs:pink_cloth_scrap_block')
+		.add('kubejs:gray_cloth_scrap_block')
+		.add('kubejs:light_gray_cloth_scrap_block')
+		.add('kubejs:cyan_cloth_scrap_block')
+		.add('kubejs:purple_cloth_scrap_block')
+		.add('kubejs:blue_cloth_scrap_block')
+		.add('kubejs:brown_cloth_scrap_block')
+		.add('kubejs:green_cloth_scrap_block')
+		.add('kubejs:red_cloth_scrap_block')
+		.add('kubejs:black_cloth_scrap_block')
+
+	event.get('raspberry_flavoured:cactus_blocks')
+		.add('quark:cactus_block')
+		.add('atmospheric:barrel_cactus_batch')
 
 	event.get('raspberry_flavoured:saplings_with_twigs')		
 		.add('minecraft:oak_sapling')
@@ -590,8 +2410,8 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:azalea')
 		.add('minecraft:flowering_azalea')
 		.add('windswept:chestnut_sapling')
-		.add('architects_palette:twisted_sapling')
 		.add('culturaldelights:avocado_sapling')
+		.add('cookscollection:lemon_sapling')
 		.add('environmental:willow_sapling')
 		.add('environmental:cherry_sapling')
 		.add('environmental:pink_wisteria_sapling')
@@ -613,8 +2433,8 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:golden_strawberries')
 
 	event.get('raspberry_flavoured:shears')
-		.add('#farmersdelight:tools/knives')
 		.add('ecologics:crab_claw')
+		.add('alloyed:steel_shears')
 
 	event.get('raspberry_flavoured:cat_prey')
 		.add('#forge:raw_chicken')
@@ -629,12 +2449,13 @@ ServerEvents.tags('item', event => {
 	event.get('raspberry_flavoured:sturdy_stone')
 		.add('quark:sturdy_stone')
 		.add('dolt_mod_how:sturdy_deepslate')
+		.add('kubejs:sturdy_blackstone')
 
 	event.get('raspberry_flavoured:moss')
-		.add('minecraft:vine')
-		.add('minecraft:moss_block')
 		.add('ecologics:surface_moss')
-		.add('quark:moss_paste')
+		.add('minecraft:moss_carpet')
+		.add('aquaculture:algae')
+		.add('minecraft:vine')
 
 	event.get('raspberry_flavoured:corn_dough_ingredients')
 		.add('culturaldelights:corn_cob')
@@ -643,68 +2464,108 @@ ServerEvents.tags('item', event => {
 	event.get('raspberry_flavoured:raw_vegetables')
 		.add('minecraft:carrot')
 		.add('minecraft:beetroot')
-		.add('farmersdelight:onion')
 		.add('farmersdelight:tomato')
-		
-	event.get('raspberry_flavoured:wooden_tools')
-		.add('minecraft:wooden_pickaxe')
-		.add('minecraft:wooden_axe')
-		.add('minecraft:wooden_hoe')
-		.add('minecraft:wooden_shovel')
-		.add('minecraft:wooden_sword')
-		.add('minecraft:bow')
-		.add('minecraft:crossbow')
-		.add('minecraft:fishing_rod')
-		.add('minecraft:carrot_on_a_stick')
-		.add('minecraft:warped_fungus_on_a_stick')
-		.add('supplementaries:slingshot')
+		.add('#forge:crops/onion')
+		.add('#culturaldelights:regular_eggplants')
+
+	event.get('raspberry_flavoured:all_enchanted_tablets')
+		.add('kubejs:blank_tablet')
+		.add('kubejs:aquatic_tablet')
+		.add('kubejs:beastly_tablet')
+		.add('kubejs:cyclic_tablet')
+		.add('kubejs:enduring_tablet')
+		.add('kubejs:everlasting_tablet')
+		.add('kubejs:flinging_tablet')
+		.add('kubejs:glacial_tablet')
+		.add('kubejs:hallowed_tablet')
+		.add('kubejs:haunted_tablet')
+		.add('kubejs:heavy_tablet')
+		.add('kubejs:infested_tablet')
+		.add('kubejs:otherworldly_tablet')
+		.add('kubejs:piercing_tablet')
+		.add('kubejs:pulling_tablet')
+		.add('kubejs:silent_tablet')
+		.add('kubejs:swift_tablet')
 
 	event.get('raspberry_flavoured:smithing_templates')
-		.add('kubejs:smithing_template_1')
-		.add('kubejs:smithing_template_2')
-		.add('kubejs:smithing_template_3')
-		.add('kubejs:smithing_template_4')
-		.add('kubejs:smithing_template_5')
-		.add('kubejs:smithing_template_6')
-		.add('kubejs:smithing_template_7')
-		.add('kubejs:smithing_template_8')
-		.add('kubejs:smithing_template_9')
-		.add('kubejs:smithing_template_10')
-		.add('kubejs:smithing_template_11')
-		.add('kubejs:smithing_template_12')
-		.add('kubejs:smithing_template_13')
-		.add('kubejs:smithing_template_14')
-		.add('kubejs:smithing_template_15')
-		.add('kubejs:smithing_template_16')
-		.add('kubejs:smithing_template_17')
-		.add('kubejs:smithing_template_18')
-		.add('kubejs:smithing_template_19')
-		.add('kubejs:smithing_template_20')
-		.add('kubejs:smithing_template_21')
-		.add('kubejs:smithing_template_22')
-		.add('kubejs:smithing_template_23')
-		.add('kubejs:smithing_template_24')
+		.add('kubejs:blank_tablet')
+		.add('kubejs:aquatic_tablet')
+		.add('kubejs:beastly_tablet')
+		.add('kubejs:cyclic_tablet')
+		.add('kubejs:enduring_tablet')
+		.add('kubejs:flinging_tablet')
+		.add('kubejs:glacial_tablet')
+		.add('kubejs:hallowed_tablet')
+		.add('kubejs:haunted_tablet')
+		.add('kubejs:heavy_tablet')
+		.add('kubejs:infested_tablet')
+		.add('kubejs:otherworldly_tablet')
+		.add('kubejs:piercing_tablet')
+		.add('kubejs:pulling_tablet')
+		.add('kubejs:silent_tablet')
+		.add('kubejs:swift_tablet')
 
 	event.get('raspberry_flavoured:non_leather_horse_armour')
+		.add('kubejs:copper_horse_armor')
 		.add('minecraft:iron_horse_armor')
 		.add('minecraft:golden_horse_armor')
 		.add('kubejs:rose_gold_horse_armor')
 		.add('kubejs:steel_horse_armor')
 		.add('minecraft:diamond_horse_armor')
 		.add('kubejs:electrum_horse_armor')
-		.add('caverns_and_chasms:netherite_horse_armor')
-		.add('caverns_and_chasms:necromium_horse_armor')
+		.add('kubejs:netherite_horse_armor')
+		.add('kubejs:necromium_horse_armor')
+		
+	event.get('forge:armors/helmets')
+        .add('savage_and_ravage:griefer_helmet')
+        .add('oreganized:electrum_helmet')
+        .add('copperized:copper_helmet')
+        .add('alloyed:steel_helmet')
+        .add('additionaladditions:rose_gold_helmet')
+
+    event.get('forge:armors/chestplates')
+        .add('savage_and_ravage:griefer_chestplate')
+        .add('oreganized:electrum_chestplate')
+        .add('copperized:copper_chestplate')
+        .add('alloyed:steel_chestplate')
+        .add('additionaladditions:rose_gold_chestplate')
+        .add('autumnity:snail_shell_chestplate')
+
+    event.get('forge:armors/leggings')
+        .add('savage_and_ravage:griefer_leggings')
+        .add('oreganized:electrum_leggings')
+        .add('copperized:copper_leggings')
+        .add('alloyed:steel_leggings')
+        .add('additionaladditions:rose_gold_leggings')
+        .add('environmental:yak_pants')
+    
+    event.get('forge:armors/boots')
+        .add('savage_and_ravage:griefer_boots')
+        .add('oreganized:electrum_boots')
+        .add('copperized:copper_boots')
+        .add('alloyed:steel_boots')
+        .add('additionaladditions:rose_gold_boots')
 
 	event.get('forge:gems')
 		.add('spelunkery:cinnabar')
 
+	event.get('forge:gems/quartz')
+		.remove('minecraft:quartz')
+		.add('create:polished_rose_quartz')
+
 	event.get('forge:nuggets')
 		.remove('oreganized:electrum_ingot')
 		.add('oreganized:electrum_nugget')
+		.add('alloyed:bronze_nugget')
+		.add('alloyed:steel_nugget')
+		.add('kubejs:rose_gold_nugget')
 
 	event.get('forge:nuggets/electrum')
 		.remove('oreganized:electrum_ingot')
 		.add('oreganized:electrum_nugget')
+
+	event.get('forge:nuggets/rose_gold')
+		.add('kubejs:rose_gold_nugget')
 
 	event.get('forge:stone')
 		.add('minecraft:calcite')
@@ -717,6 +2578,10 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:basalt')
 		.add('minecraft:smooth_basalt')
 		.add('paletteblocks:polished_basalt')
+		.add('spelunkery:rough_lazurite_block')
+		.add('minecraft:emerald_block')
+		.add('twigs:bloodstone')
+		.add('twigs:polished_bloodstone')
 		.add('oreganized:glance')
 		.add('oreganized:polished_glance')
 		.add('create:cut_granite')
@@ -754,18 +2619,24 @@ ServerEvents.tags('item', event => {
 		.add('create:veridium')
 		.add('create:cut_veridium')
 		.add('create:polished_cut_veridium')
-	
+		.add('kubejs:exolite')
+		.add('architects_palette:cerebral_block')
+		.remove('architects_palette:myonite')
+
 	event.get('forge:raw_fishes')
-		.add('kubejs:bass_slice')
+		.add('aquaculture:fish_fillet_raw')
+		.remove('minecraft:pufferfish')
+		.remove('upgrade_aquatic:lionfish')
 
 	event.get('forge:raw_fishes/bass')
-		.add('kubejs:bass_slice')
-	
+		.add('naturalist:bass')
+
 	event.get('forge:cooked_fishes')
-		.add('kubejs:cooked_bass_slice')
+		.add('kubejs:cooked_fish')
+		.add('aquaculture:fish_fillet_cooked')
 
 	event.get('forge:cooked_fishes/bass')
-		.add('kubejs:cooked_bass_slice')
+		.add('naturalist:cooked_bass')
 	
 	event.get('forge:foods/meat/raw')
 		.add('kubejs:crab_meat')
@@ -774,15 +2645,22 @@ ServerEvents.tags('item', event => {
 		.add('ecologics:crab_meat')
 
 	event.get('farmersdelight:cabbage_roll_ingredients')
+		.remove('#forge:raw_fishes')
 		.add('kubejs:crab_meat')
+		.add('#raspberry_flavoured:raw_fish')
+		.add('#raspberry_flavoured:edible_mushrooms')
 
 	event.get('farmersdelight:barbecue_meats')
 		.add('ecologics:crab_meat')
+		.add('kubejs:cooked_fish')
+		.add('aquaculture:fish_fillet_cooked')
+		.add('nethersdelight:hoglin_sirloin')
+		.add('mynethersdelight:roasted_sausage')
 		
 	event.get('brewinandchewin:raw_meats')
 		.add('#forge:raw_goat')
 		.add('kubejs:crab_meat')
-			
+
 	event.get('boatload:large_boats')
 		.add('atmospheric:large_kousa_boat')
 		
@@ -798,12 +2676,9 @@ ServerEvents.tags('item', event => {
 	    .add('spelunkery:button_mushroom')
 	    .add('spelunkery:crimini')
 	    .add('spelunkery:portabella')
-	    .add('spelunkery:inkcap_mushroom')
-	    .add('spelunkery:white_inkcap_mushroom')
 	
 	event.get('quark:seed_pouch_holdable')
 		.add('quark:glow_shroom')
-	    .add('spelunkery:phosphor_fungus')
 	    .add('spelunkery:mushgloom')
 	    .add('neapolitan:mint_sprout')
 	
@@ -823,52 +2698,37 @@ ServerEvents.tags('item', event => {
 		.add('additionaladditions:rose_gold_shovel')
 		.add('oreganized:electrum_shovel')
 		.add('alloyed:steel_shovel')
-		.add('kubejs:lead_sword')
-		.add('kubejs:lead_shovel')
-		.add('kubejs:lead_pickaxe')
-		.add('kubejs:lead_axe')
-		.add('kubejs:lead_hoe')
-		.add('kubejs:lead_knife')
 	
 	event.get('forge:tools/swords')
-		.add('kubejs:lead_sword')
+        .add('oreganized:electrum_sword')
+        .add('alloyed:steel_sword')
+        .add('additionaladditions:rose_gold_sword')
 	
 	event.get('forge:tools/shovels')
 		.add('additionaladditions:rose_gold_shovel')
 		.add('oreganized:electrum_shovel')
 		.add('alloyed:steel_shovel')
-		.add('kubejs:lead_shovel')
 	
 	event.get('forge:tools/pickaxes')
 		.add('additionaladditions:rose_gold_pickaxe')
 		.add('oreganized:electrum_pickaxe')
 		.add('alloyed:steel_pickaxe')
-		.add('kubejs:lead_pickaxe')
 	
 	event.get('forge:tools/axes')
 		.add('additionaladditions:rose_gold_axe')
 		.add('oreganized:electrum_axe')
 		.add('alloyed:steel_axe')
-		.add('kubejs:lead_axe')
-	
-	event.get('forge:tools/hoes')
-		.add('kubejs:lead_hoe')
 	
 	event.get('forge:tools/knives')
 		.add('kubejs:rose_gold_knife')
 		.add('kubejs:copper_knife')
 		.add('kubejs:bone_knife')
-		.add('kubejs:lead_knife')
-	
-	event.get('forge:tools/fishing_rods')
-		.add('alloyed:steel_fishing_rod')
 	
 	event.get('minecraft:cluster_max_harvestables')
 		.add('caverns_and_chasms:necromium_pickaxe')
 		.add('alloyed:steel_pickaxe')
 		.add('additionaladditions:rose_gold_pickaxe')
 		.add('oreganized:electrum_pickaxe')
-		.add('kubejs:lead_pickaxe')
 	
 	event.get('forge:stripped_logs')
 		.add('environmental:stripped_willow_log')
@@ -882,6 +2742,8 @@ ServerEvents.tags('item', event => {
 		.add('atmospheric:stripped_morado_log')
 		.add('atmospheric:stripped_yucca_log')
 		.add('atmospheric:stripped_aspen_log')
+		.add('kubejs:latex_jungle_log')
+		.add('kubejs:latex_rosewood_log')
 	
 	event.get('forge:stripped_wood')
 		.add('environmental:stripped_willow_wood')
@@ -895,6 +2757,8 @@ ServerEvents.tags('item', event => {
 		.add('atmospheric:stripped_morado_wood')
 		.add('atmospheric:stripped_yucca_wood')
 		.add('atmospheric:stripped_aspen_wood')
+		.add('kubejs:latex_jungle_wood')
+		.add('kubejs:latex_rosewood')
 	
 	event.get('forge:cooked_eggs')
 		.remove('farmersdelight:fried_egg')
@@ -932,10 +2796,23 @@ ServerEvents.tags('item', event => {
 		.remove('create:dough')
 	
 	event.get('minecraft:piglin_loved')
+		.add('aquaculture:goldfish')
+		.remove('aquaculture:gold_hook')
 		.remove('minecraft:enchanted_golden_apple')
+		.remove('caverns_and_chasms:golden_bars')
+		.remove('savage_and_ravage:griefer_helmet')
+		.remove('savage_and_ravage:griefer_chestplate')
+		.remove('savage_and_ravage:griefer_leggings')
+		.remove('savage_and_ravage:griefer_boots')
+		.remove('savage_and_ravage:blast_proof_plating')
+		.remove('savage_and_ravage:blast_proof_plates')
+		.remove('savage_and_ravage:blast_proof_stairs')
+		.remove('savage_and_ravage:blast_proof_slab')
+		.remove('savage_and_ravage:blast_proof_vertical_slab')
 
 	event.get('minecraft:saplings')
 		.add('culturaldelights:avocado_sapling')
+		.add('cookscollection:lemon_sapling')
 		.remove('quark:blue_blossom_sapling')
 		.remove('quark:lavender_blossom_sapling')
 		.remove('quark:orange_blossom_sapling')
@@ -943,9 +2820,23 @@ ServerEvents.tags('item', event => {
 		.remove('quark:yellow_blossom_sapling')
 		.remove('quark:red_blossom_sapling')
 		.remove('quark:ancient_sapling')
+		.remove('architects_palette:twisted_sapling')
 	
 	event.get('create:upright_on_belt')
 		.add('neapolitan:milk_bottle')
+		.add('raspberry:cake')
+		.add('raspberry:vanilla_cake')
+		.add('raspberry:chocolate_cake')
+		.add('raspberry:strawberry_cake')
+		.add('raspberry:banana_cake')
+		.add('raspberry:mint_cake')
+		.add('raspberry:cherry_cake')
+		.add('raspberry:green_tea_cake')
+		.add('raspberry:yellow_tea_cake')
+		.add('raspberry:black_tea_cake')
+		.add('raspberry:coffee_cake')
+		.add('raspberry:magma_cake')
+		.add('atmospheric:yucca_gateau')
 	
 	event.get('naturalist:bear_tempt_items')
 		.add('environmental:venison')
@@ -973,25 +2864,14 @@ ServerEvents.tags('item', event => {
 		.add('alloyed:bronze_ingot')
 		.add('minecraft:amethyst_shard')
 		.add('spelunkery:cinnabar')
+		.add('minecraft:echo_shard')
+		.add('minecraft:ender_pearl')
+		.add('additionaladditions:rose_gold_alloy')
+		.add('create:polished_rose_quartz')
 		
 	event.get('savage_and_ravage:beheaders')
 		.add('savage_and_ravage:cleaver_of_beheading')
 		.add('clash:greatblade')
-		
-	event.get('raspberry_flavoured:copper_gear')
-		.add('minecraft:stone_sword')
-		.add('minecraft:stone_pickaxe')
-		.add('minecraft:stone_shovel')
-		.add('minecraft:stone_hoe')
-		.add('minecraft:stone_axe')
-		.add('minecraft:spyglass')
-		.add('supplementaries:wrench')
-		.add('kubejs:copper_knife')
-		.add('minecraft:shears')
-		.add('create:copper_backtank')
-		.add('create:copper_diving_helmet')
-		.add('create:copper_diving_boots')
-		.add('another_furniture:furniture_hammer')
 		
 	event.get('minecraft:music_discs')
 		.add('upgrade_aquatic:music_disc_atlantis')
@@ -1005,16 +2885,28 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:music_disc_frontier')
 		.add('kubejs:music_disc_origin')
 		.add('kubejs:music_disc_savour')
+		.add('kubejs:music_disc_fruitiger')
+		.add('kubejs:music_disc_redstone_baby')
+		.add('kubejs:music_disc_raveyard')
+		.add('sullysmod:music_disc_scour')
+		.add('trickytrialspaintingsplusmusic:music_disc_creator')
+		.add('trickytrialspaintingsplusmusic:music_disc_precipice')
+		.add('trickytrialspaintingsplusmusic:music_disc_relic')
 		
 	event.get('supplementaries:throwable_bricks')
 		.add('architects_palette:wardstone_brick')
 		.add('twigs:silt_brick')
+		.remove('architects_palette:sunmetal_brick')
 		
 	event.get('forge:ores_in_ground/stone')
 		.add('kubejs:lead_ore')	
 		
 	event.get('forge:ores_in_ground/netherrack')
-		.add('kubejs:nether_lead_ore')	
+		.add('kubejs:nether_lead_ore')
+		.add('kubejs:lead_ore')	
+		
+	event.get('forge:ores_in_ground/blackstone')
+		.add('minecraft:gilded_blackstone')
 		
 	event.get('forge:ores')
 		.add('kubejs:lead_ore')
@@ -1025,9 +2917,18 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:nether_lead_ore')
 		
 	event.get('naturalist:bird_food_items')
+		.add('farmersdelight:tomato_seeds')
+		.add('farmersdelight:cabbage_seeds')
 		.add('supplementaries:flax_seeds')
 		.add('farmersrespite:tea_seeds')
 		.add('culturaldelights:eggplant_seeds')
+        .add('berry_good:sweet_berry_pips')
+        .add('berry_good:glow_berry_pips')
+        .add('neapolitan:strawberry_pips')
+        .add('autumnity:foul_berry_pips')
+		
+	event.get('blueprint:chicken_food')
+        .add('#naturalist:bird_food_items')
 		
 	event.get('raspberry_flavoured:cacti')
 		.add('minecraft:cactus')
@@ -1042,15 +2943,24 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:emerald_block')
 		.add('kubejs:lapis_stairs')
 		.add('kubejs:lapis_wall')
-		.add('supplementaries:lapis_bricks')
-		.add('supplementaries:lapis_bricks_stairs')
-		.add('supplementaries:lapis_bricks_wall')
+		.add('caverns_and_chasms:lapis_bricks')
+		.add('caverns_and_chasms:lapis_brick_stairs')
+		.add('caverns_and_chasms:lapis_brick_wall')
+		.add('caverns_and_chasms:lapis_pillar')
 	
 	event.get('forge:storage_blocks')
 		.remove('minecraft:copper_block')
 		.add('copperandtuffbackport:chiseled_copper')
 		.add('copperandtuffbackport:waxed_chiseled_copper')
 		.add('twigs:polished_amethyst')
+		.add('kubejs:bronze_block')
+		.add('kubejs:rose_gold_block')
+	
+	event.get('forge:storage_blocks/bronze')
+		.add('kubejs:bronze_block')
+	
+	event.get('forge:storage_blocks/rose_gold')
+		.add('kubejs:rose_gold_block')
 	
 	event.get('forge:storage_blocks/copper')
 		.remove('minecraft:copper_block')
@@ -1066,12 +2976,17 @@ ServerEvents.tags('item', event => {
 		
 	event.get('forge:heads')
 		.add('supplementaries:enderman_head')
+		.add('piglinproliferation:piglin_head')
+		.add('piglinproliferation:piglin_brute_head')
+		.add('piglinproliferation:piglin_alchemist_head')
+		.add('piglinproliferation:zombified_piglin_head')
 		.remove('neapolitan:chimpanzee_head')
 		.remove('minecraft:dragon_head')
 		
 	event.get('caverns_and_chasms:magic_damage_items')
 		.add('additionaladditions:rose_gold_pickaxe')
 		.add('additionaladditions:rose_gold_axe')
+		.add('additionaladditions:rose_gold_hoe')
 		.add('additionaladditions:rose_gold_shovel')
 		.add('additionaladditions:rose_gold_sword')
 		.add('kubejs:rose_gold_knife')
@@ -1092,32 +3007,490 @@ ServerEvents.tags('item', event => {
 		.add('environmental:architect_belt')
 		.add('environmental:wanderer_boots')
 		.add('environmental:yak_pants')
+		.add('windswept:snow_boots')
+	
+	event.get('minecraft:soul_fire_base_blocks')
+		.add('minecraft:sculk_vein')
+	
+	event.get('endergetic:ender_fire_base_blocks')
+		.add('minecraft:ender_pearl')
 })
 
 // Block tags
 
 ServerEvents.tags('block', event => {
-	event.removeAllTagsFrom('windswept:bluebells')
-	event.removeAllTagsFrom('oreganized:lead_ore')
+	event.removeAllTagsFrom([
+	'windswept:bluebells',
+	'oreganized:lead_ore',
+	'minecraft:nether_wart'
+	])
 	
 	event.removeAll('auditory:obsidian_sounds')
+	event.removeAll('sullysmod:projectiles_bounce_on')
+	event.removeAll('spelunkery:can_boil_water')
+
+	event.get('raspberry_flavoured:zombie_dungeon_blocks')
+		.add('minecraft:coarse_dirt')
+		.add('minecraft:cobblestone')
+		.add('minecraft:mossy_cobblestone')
+
+	event.get('raspberry_flavoured:overgrown_mineshaft_walls')
+		.add('paletteblocks:mossy_cobblestone_brick_wall')
+
+	event.get('raspberry_flavoured:overgrown_mineshaft_moss_blocks')
+		.add('minecraft:moss_block')
+
+	event.get('raspberry_flavoured:overgrown_mineshaft_base_blocks')
+		.add('minecraft:mossy_stone_bricks')
+		.add('paletteblocks:mossy_cobblestone_bricks')
+
+	event.get('supplementaries:hang_from_ropes')
+		.add('quark:paper_lantern')
+		.add('quark:paper_lantern_sakura')
+		.add('#supplementaries:sacks')
+
+	event.get('supplementaries:bellows_tickable')
+		.add('modestmining:forge')
+		.add('cookscollection:oven')
+
+	event.get('minecraft:infiniburn_overworld')
+		.remove('quark:charcoal_block')
+		.add('kubejs:sturdy_netherrack')
+		.add('modestmining:coke_block')
+
+	event.get('minecraft:infiniburn_nether')
+		.remove('quark:charcoal_block')
+		.add('kubejs:sturdy_netherrack')
+		.add('modestmining:coke_block')
+
+	event.get('minecraft:infiniburn_end')
+		.remove('quark:charcoal_block')
+		.add('kubejs:sturdy_netherrack')
+		.add('modestmining:coke_block')
+
+	event.get('frame_changer:portal_frames')
+		.add('minecraft:crying_obsidian')
+		.add('frame_changer:crying_chiseled_obsidian')
+		.add('frame_changer:crying_obsidian_pillar')
+		.add('frame_changer:crying_polished_obsidian')
+		.add('frame_changer:crying_obsidian_bricks')
+
+	event.get('raspberry:mineable/shears')
+		.add('spelunkery:crimini')
+		.add('spelunkery:portabella')
+	    .add('miners_delight:wild_cave_carrots')
+
+	event.get('raspberry_flavoured:snowy_sprouts_replaceables')
+		.add('minecraft:air')
+		.add('minecraft:snow')
+		.add('raspberry:snow')
+
+	event.get('raspberry_flavoured:snow_replaceables')
+		.add('#minecraft:dirt')
+		.add('#minecraft:sand')
+		.add('#forge:gravel')
+
+	event.get('raspberry_flavoured:surface_moss_coverables')
+		.add('minecraft:stone')
+		.add('minecraft:andesite')
+		.add('minecraft:diorite')
+		.add('minecraft:granite')
+		.add('minecraft:dripstone_block')
+		.add('minecraft:calcite')
+		.add('minecraft:tuff')
+		.add('minecraft:deepslate')
+		.add('minecraft:gravel')
+		.add('raspberry:deepslate_gravel')
+		.add('raspberry:blackstone_gravel')
+
+	event.get('raspberry:useable/knives')
+		.add('raspberry:cake')
+		.add('raspberry:vanilla_cake')
+		.add('raspberry:chocolate_cake')
+		.add('raspberry:strawberry_cake')
+		.add('raspberry:banana_cake')
+		.add('raspberry:mint_cake')
+		.add('raspberry:cherry_cake')
+		.add('raspberry:green_tea_cake')
+		.add('raspberry:yellow_tea_cake')
+		.add('raspberry:black_tea_cake')
+		.add('raspberry:coffee_cake')
+		.add('raspberry:magma_cake')
+		.add('atmospheric:yucca_gateau')
+
+	event.get('create:brittle')
+		.add('raspberry:cake')
+		.add('raspberry:vanilla_cake')
+		.add('raspberry:chocolate_cake')
+		.add('raspberry:strawberry_cake')
+		.add('raspberry:banana_cake')
+		.add('raspberry:mint_cake')
+		.add('raspberry:cherry_cake')
+		.add('raspberry:green_tea_cake')
+		.add('raspberry:yellow_tea_cake')
+		.add('raspberry:black_tea_cake')
+		.add('raspberry:coffee_cake')
+		.add('raspberry:magma_cake')
+		.add('atmospheric:yucca_gateau')
+
+	event.get('minecraft:slabs')
+		.add('twigs:bamboo_thatch_slab')
+
+	event.get('create:fan_transparent')
+		.add('quark:gold_bars')
+		.add('quark:grate')
+		.add('quark:mud_brick_lattice')
+		.add('architects_palette:sunmetal_bars')
+		.add('architects_palette:entwine_bars')
+		.add('caverns_and_chasms:silver_bars')
+		.add('caverns_and_chasms:golden_bars')
+		.add('caverns_and_chasms:copper_bars')
+		.add('caverns_and_chasms:exposed_copper_bars')
+		.add('caverns_and_chasms:weathered_copper_bars')
+		.add('caverns_and_chasms:oxidized_copper_bars')
+		.add('caverns_and_chasms:waxed_copper_bars')
+		.add('caverns_and_chasms:waxed_exposed_copper_bars')
+		.add('caverns_and_chasms:waxed_weathered_copper_bars')
+		.add('caverns_and_chasms:waxed_oxidized_copper_bars')
+		.add('copperandtuffbackport:copper_grate')
+		.add('copperandtuffbackport:exposed_copper_grate')
+		.add('copperandtuffbackport:weathered_copper_grate')
+		.add('copperandtuffbackport:oxidized_copper_grate')
+		.add('copperandtuffbackport:waxed_copper_grate')
+		.add('copperandtuffbackport:waxed_exposed_copper_grate')
+		.add('copperandtuffbackport:waxed_weathered_copper_grate')
+		.add('copperandtuffbackport:waxed_oxidized_copper_grate')
+		.add('raspberry:lead_grate')
+
+	event.get('farmersdelight:compost_activators')
+		.add('minecraft:crimson_fungus')
+		.add('minecraft:warped_fungus')
+		.add('nethersdelight:crimson_fungus_colony')
+		.add('nethersdelight:warped_fungus_colony')
+		.add('architects_palette:twisted_sapling')
+		.add('spelunkery:conk_fungus')
+		.add('spelunkery:button_mushroom')
+		.add('spelunkery:crimini')
+		.add('spelunkery:portabella')
+		.add('spelunkery:mushgloom')
+		.add('spelunkery:inkcap_mushroom')
+		.add('spelunkery:white_inkcap_mushroom')
+		.add('spelunkery:milly_bubcap')
+		.add('quark:glow_shroom')
+		.add('dolt_compat:glowshroom_colony')
+
+	event.get('raspberry:interactable_metal_doors')
+		.add('copperandtuffbackport:copper_door')
+		.add('copperandtuffbackport:exposed_copper_door')
+		.add('copperandtuffbackport:weathered_copper_door')
+		.add('copperandtuffbackport:oxidized_copper_door')
+		.add('copperandtuffbackport:waxed_copper_door')
+		.add('copperandtuffbackport:waxed_exposed_copper_door')
+		.add('copperandtuffbackport:waxed_weathered_copper_door')
+		.add('copperandtuffbackport:waxed_oxidized_copper_door')
+
+	event.get('minecraft:wart_blocks')
+		.add('minecraft:brown_mushroom_block')
+		.add('minecraft:red_mushroom_block')
+		.add('minecraft:nether_wart_block')
+		.add('minecraft:warped_wart_block')
+		.add('kubejs:choral_cap')
+		.add('spelunkery:conk_fungus_block')
+		.add('spelunkery:portabella_block')
+		.add('spelunkery:inkcap_mushroom_block')
+		.add('spelunkery:white_inkcap_mushroom_block')
+		.add('spelunkery:milly_bubcap_block')
+		.add('quark:glow_shroom_block')
+
+	event.get('minecraft:replaceable_plants')
+		.add('spelunkery:sporophyte')
+		.add('spelunkery:tall_sporophyte')
+		.add('miners_delight:wild_cave_carrots')
+
+	event.get('caverns_and_chasms:glare_spawnable_near')
+		.add('spelunkery:sporophyte')
+		.add('spelunkery:tall_sporophyte')
+
+	event.get('minecraft:mushroom_grow_block')
+		.add('minecraft:end_stone')
+		.add('kubejs:exolite')
+
+	event.get('raspberry_flavoured:jungle_temple_blocks')
+		.add('minecraft:cobblestone')
+		.add('minecraft:mossy_cobblestone')
+
+	event.get('raspberry_flavoured:nether_bricks')
+		.add('minecraft:nether_bricks')
+
+	event.get('create:passive_boiler_heaters')
+		.add('#caverns_and_chasms:braziers')
+		.add('kubejs:heating_cask')
+
+	event.get('supplementaries:un_rotatable')
+		.add('minecraft:deepslate')
+
+	event.get('vc_gliders:updraft')
+		.add('#farmersdelight:heat_sources')
+
+	event.get('forge:cobblestone')
+		.add('kubejs:cobbled_blackstone')
+
+	event.get('forge:cobblestone/blackstone')
+		.add('kubejs:cobbled_blackstone')
+
+	event.get('minecraft:sculk_replaceable')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('minecraft:sculk_replaceable_world_gen')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('minecraft:overworld_carver_replaceables')
+		.add('raspberry:deepslate_gravel')
+		.add('raspberry:blackstone_gravel')
+
+	event.get('minecraft:nether_carver_replaceables')
+		.add('raspberry:blackstone_gravel')
+		.add('minecraft:end_stone')
+		.add('kubejs:exolite')
+
+	event.get('spelunkery:river_target')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('spelunkery:ocean_target')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('minecraft:azalea_root_replaceable')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('minecraft:lush_ground_replaceable')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('mynethersdelight:powdery_cannon_plantable_on')
+		.add('raspberry:blackstone_gravel')
+		.remove('minecraft:gravel')
+
+	event.get('minecraft:bamboo_plantable_on')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('caverns_and_chasms:deeper_spawnable_on')
+		.add('raspberry:deepslate_gravel')
+
+	event.get('forge:gravel')
+		.add('minecraft:gravel')
+		.add('raspberry:deepslate_gravel')
+		.add('raspberry:blackstone_gravel')
+
+	event.get('raspberry_flavoured:overworld_not_deep_stones')
+		.add('minecraft:stone')
+		.add('minecraft:granite')
+		.add('minecraft:diorite')
+		.add('minecraft:andesite')
+		.add('minecraft:tuff')
+
+	event.get('supplementaries:bomb_breakable')
+		.add('ecologics:pot')
+		.add('twigs:silt_pot')
+		.add('twigs:white_silt_pot')
+		.add('twigs:orange_silt_pot')
+		.add('twigs:magenta_silt_pot')
+		.add('twigs:light_blue_silt_pot')
+		.add('twigs:yellow_silt_pot')
+		.add('twigs:lime_silt_pot')
+		.add('twigs:pink_silt_pot')
+		.add('twigs:gray_silt_pot')
+		.add('twigs:light_gray_silt_pot')
+		.add('twigs:cyan_silt_pot')
+		.add('twigs:purple_silt_pot')
+		.add('twigs:blue_silt_pot')
+		.add('twigs:brown_silt_pot')
+		.add('twigs:green_silt_pot')
+		.add('twigs:red_silt_pot')
+		.add('twigs:black_silt_pot')
+
+	event.get('minecraft:logs')
+		.add('kubejs:latex_jungle_log')
+		.add('kubejs:latex_jungle_wood')
+		.add('kubejs:latex_rosewood_log')
+		.add('kubejs:latex_rosewood')
+		.add('minecraft:mushroom_stem')
+		.add('quark:glow_shroom_stem')
+		.add('spelunkery:conk_fungus_block')
+		.add('quark:bamboo_block')
+		.add('quark:stripped_bamboo_block')
+		.add('mynethersdelight:powdery_block')
+		.add('mynethersdelight:stripped_powdery_block')
+
+	event.get('minecraft:jungle_logs')
+		.add('kubejs:latex_jungle_log')
+		.add('kubejs:latex_jungle_wood')
+
+	event.get('atmospheric:rosewood_logs')
+		.add('kubejs:latex_rosewood_log')
+		.add('kubejs:latex_rosewood')
+
+	event.get('mynethersdelight:showcase_activators')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('mynethersdelight:letios_activators')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('minecraft:enderman_holdable')
+		.add('architects_palette:twisted_sapling')
+		.add('oreganized:shrapnel_bomb')
+		.add('kubejs:cobbled_exolite')
+		.add('kubejs:exolite')
+		.add('minecraft:end_stone')
+		.add('raspberry:deepslate_gravel')
+		.add('raspberry:blackstone_gravel')
+		.remove('miners_delight:wild_cave_carrots')
+
+	event.get('autumnity:snail_snacks')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('minecraft:hoglin_repellents')
+		.add('architects_palette:twisted_sapling')
+
+	event.get('minecraft:saplings')
+		.add('culturaldelights:avocado_sapling')
+		.add('cookscollection:lemon_sapling')
+		.remove('quark:blue_blossom_sapling')
+		.remove('quark:lavender_blossom_sapling')
+		.remove('quark:orange_blossom_sapling')
+		.remove('quark:pink_blossom_sapling')
+		.remove('quark:yellow_blossom_sapling')
+		.remove('quark:red_blossom_sapling')
+		.remove('quark:ancient_sapling')
+		.remove('architects_palette:twisted_sapling')
+		
+	event.get('create:fan_processing_catalysts/blasting')
+		.add('caverns_and_chasms:lava_lamp')
+		
+	event.get('minecraft:occludes_vibration_signals')
+		.add('kubejs:cloth_scrap_block')
+		.add('kubejs:white_cloth_scrap_block')
+		.add('kubejs:orange_cloth_scrap_block')
+		.add('kubejs:magenta_cloth_scrap_block')
+		.add('kubejs:light_blue_cloth_scrap_block')
+		.add('kubejs:yellow_cloth_scrap_block')
+		.add('kubejs:lime_cloth_scrap_block')
+		.add('kubejs:pink_cloth_scrap_block')
+		.add('kubejs:gray_cloth_scrap_block')
+		.add('kubejs:light_gray_cloth_scrap_block')
+		.add('kubejs:cyan_cloth_scrap_block')
+		.add('kubejs:purple_cloth_scrap_block')
+		.add('kubejs:blue_cloth_scrap_block')
+		.add('kubejs:brown_cloth_scrap_block')
+		.add('kubejs:green_cloth_scrap_block')
+		.add('kubejs:red_cloth_scrap_block')
+		.add('kubejs:black_cloth_scrap_block')
+	
+	event.get('minecraft:dampens_vibrations')
+		.add('kubejs:cloth_scrap_block')
+		.add('kubejs:white_cloth_scrap_block')
+		.add('kubejs:orange_cloth_scrap_block')
+		.add('kubejs:magenta_cloth_scrap_block')
+		.add('kubejs:light_blue_cloth_scrap_block')
+		.add('kubejs:yellow_cloth_scrap_block')
+		.add('kubejs:lime_cloth_scrap_block')
+		.add('kubejs:pink_cloth_scrap_block')
+		.add('kubejs:gray_cloth_scrap_block')
+		.add('kubejs:light_gray_cloth_scrap_block')
+		.add('kubejs:cyan_cloth_scrap_block')
+		.add('kubejs:purple_cloth_scrap_block')
+		.add('kubejs:blue_cloth_scrap_block')
+		.add('kubejs:brown_cloth_scrap_block')
+		.add('kubejs:green_cloth_scrap_block')
+		.add('kubejs:red_cloth_scrap_block')
+		.add('kubejs:black_cloth_scrap_block')
+		.add('caverns_and_chasms:echo_block')
+		.add('echochest:echo_chest')
+	
+	event.get('create:windmill_sails')
+		.add('kubejs:cloth_scrap_block')
+		.add('kubejs:white_cloth_scrap_block')
+		.add('kubejs:orange_cloth_scrap_block')
+		.add('kubejs:magenta_cloth_scrap_block')
+		.add('kubejs:light_blue_cloth_scrap_block')
+		.add('kubejs:yellow_cloth_scrap_block')
+		.add('kubejs:lime_cloth_scrap_block')
+		.add('kubejs:pink_cloth_scrap_block')
+		.add('kubejs:gray_cloth_scrap_block')
+		.add('kubejs:light_gray_cloth_scrap_block')
+		.add('kubejs:cyan_cloth_scrap_block')
+		.add('kubejs:purple_cloth_scrap_block')
+		.add('kubejs:blue_cloth_scrap_block')
+		.add('kubejs:brown_cloth_scrap_block')
+		.add('kubejs:green_cloth_scrap_block')
+		.add('kubejs:red_cloth_scrap_block')
+		.add('kubejs:black_cloth_scrap_block')
+	
+	event.get('minecraft:guarded_by_piglins')
+		.remove('caverns_and_chasms:golden_bars')
+	
+	event.get('mynethersdelight:letios_flames')
+		.add('caverns_and_chasms:cupric_torch')
+		.add('caverns_and_chasms:cupric_wall_torch')
+		.add('endergetic:ender_torch')
+		.add('endergetic:ender_wall_torch')
+	
+	event.get('raspberry_flavoured:cakes')
+		.add('minecraft:cake')
+		.add('farmersrespite:coffee_cake')
+		.add('neapolitan:vanilla_cake')
+		.add('neapolitan:chocolate_cake')
+		.add('neapolitan:strawberry_cake')
+		.add('neapolitan:banana_cake')
+		.add('neapolitan:mint_cake')
+		.add('neapolitan:adzuki_cake')
+		.add('respiteful:green_tea_cake')
+		.add('respiteful:yellow_tea_cake')
+		.add('respiteful:black_tea_cake')
 	
 	event.get('endergetic:chorus_plantable')
-		.add('kubejs:end_soil')
 		.add('endergetic:poismoss')
+	
+	event.get('endergetic:ender_fire_base_blocks')
+		.add('kubejs:chiseled_exolite')
+		.add('kubejs:cobbled_exolite')
+		.add('kubejs:exolite')
+		.add('kubejs:chiseled_exolite_tiles')
+		.add('architects_palette:mushy_myonite_bricks')
+		.add('architects_palette:myonite_slab')
+		.add('architects_palette:myonite_stairs')
+		.add('architects_palette:myonite_wall')
+		.add('architects_palette:myonite_brick_slab')
+		.add('architects_palette:myonite_brick_stairs')
+		.add('architects_palette:myonite_brick_wall')
+		.add('architects_palette:mushy_myonite_brick_slab')
+		.add('architects_palette:mushy_myonite_brick_stairs')
+		.add('architects_palette:mushy_myonite_brick_wall')
+		.add('architects_palette:ender_pearl_block')
+		.add('architects_palette:cerebral_block')
+		.add('architects_palette:cerebral_slab')
+		.add('architects_palette:cerebral_stairs')
+		.add('architects_palette:cerebral_wall')
+		.add('architects_palette:cerebral_pillar')
+		.add('architects_palette:cerebral_tiles')
+		.add('architects_palette:cerebral_tile_slab')
+		.add('architects_palette:cerebral_tile_wall')
+		.add('architects_palette:cerebral_tile_stairs')
+		.add('quark:ender_watcher')
+		.add('minecraft:purpur_slab')
+		.add('minecraft:purpur_block')
+		.add('minecraft:purpur_pillar')
+		.add('minecraft:purpur_stairs')
+		.add('endergetic:cracked_purpur_block')
+		.add('quark:duskbound_block')
+		.add('quark:duskbound_block_slab')
+		.add('quark:duskbound_block_stairs')
+		.add('quark:duskbound_lantern')
 
 	event.get('minecraft:beacon_base_blocks')
 		.add('oreganized:lead_block')
 		.add('oreganized:silver_block')
 		.add('alloyed:steel_block')
-		.add('alloyed:bronze_block')
-		.add('alloyed:exposed_bronze_block')
-		.add('alloyed:weathered_bronze_block')
-		.add('alloyed:oxidized_bronze_block')
-		.add('alloyed:waxed_bronze_block')
-		.add('alloyed:waxed_exposed_bronze_block')
-		.add('alloyed:waxed_weathered_bronze_block')
-		.add('alloyed:waxed_oxidized_bronze_block')
+		.add('kubejs:bronze_block')
+		.add('kubejs:rose_gold_block')
 		.add('copperandtuffbackport:chiseled_copper')
 		.add('copperandtuffbackport:waxed_chiseled_copper')
 		.add('copperandtuffbackport:exposed_chiseled_copper')
@@ -1128,6 +3501,9 @@ ServerEvents.tags('block', event => {
 		.add('copperandtuffbackport:waxed_oxidized_chiseled_copper')
 		.add('twigs:polished_amethyst')
 		.add('spelunkery:cinnabar_block')
+		.add('create:rose_quartz_tiles')
+		.add('architects_palette:ender_pearl_block')
+		.add('caverns_and_chasms:echo_block')
 		.remove('minecraft:emerald_block')
 		.remove('minecraft:copper_block')
 		.remove('minecraft:exposed_copper')
@@ -1160,29 +3536,110 @@ ServerEvents.tags('block', event => {
 		.remove('miningmaster:kinetic_opal_block')
 		.remove('miningmaster:air_malachite_block')
 		.remove('create:experience_block')
+		.remove('caverns_and_chasms:silver_block')
 	
 	event.get('forge:storage_blocks')
 		.remove('minecraft:copper_block')
 		.add('copperandtuffbackport:chiseled_copper')
 		.add('copperandtuffbackport:waxed_chiseled_copper')
+		.add('kubejs:bronze_block')
+		.add('kubejs:rose_gold_block')
+	
+	event.get('forge:storage_blocks/bronze')
+		.add('kubejs:bronze_block')
+	
+	event.get('forge:storage_blocks/rose_gold')
+		.add('kubejs:rose_gold_block')
 	
 	event.get('forge:storage_blocks/copper')
 		.remove('minecraft:copper_block')
 		.add('copperandtuffbackport:chiseled_copper')
 		.add('copperandtuffbackport:waxed_chiseled_copper')
 	
+	event.get('auditory:shulker_box_sounds')
+		.add('architects_palette:scute_block')
+		.add('upgrade_aquatic:scute_block')
+		.add('upgrade_aquatic:scute_shingles')
+		.add('upgrade_aquatic:scute_shingle_stairs')
+		.add('upgrade_aquatic:scute_shingle_slab')
+		.add('upgrade_aquatic:scute_shingle_wall')
+		.add('upgrade_aquatic:chiseled_scute_shingles')
+		.add('upgrade_aquatic:scute_pavement')
+		.add('upgrade_aquatic:scute_pavement_stairs')
+		.add('upgrade_aquatic:scute_pavement_slab')
+		.add('upgrade_aquatic:scute_pavement_wall')
+		.add('autumnity:snail_shell_block')
+		.add('autumnity:snail_shell_bricks')
+		.add('autumnity:snail_shell_brick_stairs')
+		.add('autumnity:snail_shell_brick_slab')
+		.add('autumnity:snail_shell_brick_wall')
+		.add('autumnity:chiseled_snail_shell_bricks')
+		.add('autumnity:snail_shell_tiles')
+		.add('autumnity:snail_shell_tile_stairs')
+		.add('autumnity:snail_shell_tile_slab')
+		.add('autumnity:snail_shell_tile_wall')
+	
+	event.get('auditory:sand_sounds')
+		.add('spelunkery:salt')
+	
 	event.get('auditory:string_sounds')
-		.remove('minecraft:cobweb')
+		.add('minecraft:target')
 		.add('minecraft:hay_block')
+		.add('minecraft:dead_bush')
 		.add('farmersdelight:rice_bale')
 		.add('farmersdelight:straw_bale')
 		.add('supplementaries:flax_block')
 		.add('incubation:hay_nest')
 		.add('incubation:twig_nest')
 		.add('quark:cut_vine')
+		.add('farmersdelight:canvas_rug')
+	    .add('farmersdelight:sandy_shrub')
+	    .add('farmersrespite:wild_coffee_bush')
+	    .add('farmersrespite:wither_roots_plant')
+	    .add('farmersrespite:wither_roots')
+	    .add('atmospheric:arid_sprouts')
+		.add('neapolitan:vanilla_pod_block')
+		.add('neapolitan:dried_vanilla_pod_block')
+		.add('environmental:tall_dead_bush')
+		.add('environmental:grass_thatch')
+		.add('environmental:grass_thatch_slab')
+		.add('environmental:grass_thatch_stairs')
+		.add('environmental:cattail_thatch')
+		.add('environmental:cattail_thatch_slab')
+		.add('environmental:cattail_thatch_stairs')
+		.add('environmental:duckweed_thatch')
+		.add('environmental:duckweed_thatch_slab')
+		.add('environmental:duckweed_thatch_stairs')
+		.add('upgrade_aquatic:beachgrass_thatch')
+		.add('upgrade_aquatic:beachgrass_thatch_slab')
+		.add('upgrade_aquatic:beachgrass_thatch_stairs')
+		.add('kubejs:straw_thatch')
+		.add('kubejs:straw_thatch_slab')
+		.add('kubejs:straw_thatch_stairs')
+		.add('kubejs:flax_thatch')
+		.add('kubejs:flax_thatch_slab')
+		.add('kubejs:flax_thatch_stairs')
+		.add('kubejs:paper_block')
+		.add('kubejs:white_canvas_rug')
+		.add('kubejs:orange_canvas_rug')
+		.add('kubejs:magenta_canvas_rug')
+		.add('kubejs:light_blue_canvas_rug')
+		.add('kubejs:yellow_canvas_rug')
+		.add('kubejs:lime_canvas_rug')
+		.add('kubejs:pink_canvas_rug')
+		.add('kubejs:gray_canvas_rug')
+		.add('kubejs:light_gray_canvas_rug')
+		.add('kubejs:cyan_canvas_rug')
+		.add('kubejs:purple_canvas_rug')
+		.add('kubejs:blue_canvas_rug')
+		.add('kubejs:brown_canvas_rug')
+		.add('kubejs:green_canvas_rug')
+		.add('kubejs:red_canvas_rug')
+		.add('kubejs:black_canvas_rug')
+	    .add('miners_delight:wild_cave_carrots')
+		.remove('minecraft:cobweb')
 	
 	event.get('auditory:basalt_sounds')
-		.add('create:andesite_alloy_block')
 	    .add('create:cut_granite')
 	    .add('create:cut_granite_stairs')
 	    .add('create:cut_granite_slab')
@@ -1241,6 +3698,10 @@ ServerEvents.tags('block', event => {
 	    .add('autumnity:snail_shell_brick_wall')
 	    .add('autumnity:chiseled_snail_shell_bricks')
 	    .add('farmersdelight:stove')
+	    .add('raspberry:silt_stove')
+	    .add('raspberry:ash_stove')
+	    .add('twigs:mixed_bricks')
+	    .add('twigs:mixed_silt_bricks')
 	    .add('twigs:chiseled_bricks')
 	    .add('twigs:cracked_bricks')
 	    .add('twigs:mossy_bricks')
@@ -1253,6 +3714,9 @@ ServerEvents.tags('block', event => {
 	    .add('twigs:silt_brick_wall')
 	    .add('twigs:chiseled_silt_bricks')
 	    .add('twigs:cracked_silt_bricks')
+		.add('kubejs:chiseled_silt_bricks')
+		.add('kubejs:chiseled_ash_bricks')
+		.add('kubejs:trimmed_ash_bricks')
 	    .add('quark:shingles')
 	    .add('quark:shingles_slab')
 	    .add('quark:shingles_stairs')
@@ -1389,6 +3853,7 @@ ServerEvents.tags('block', event => {
 	    .add('clayworks:green_terracotta_brick_wall')
 	    .add('clayworks:red_terracotta_brick_wall')
 	    .add('clayworks:black_terracotta_brick_wall')
+		.add('cookscollection:oven')
 	
 	event.get('auditory:stone_brick_sounds')
 	    .add('architects_palette:abyssaline_bricks')
@@ -1425,26 +3890,6 @@ ServerEvents.tags('block', event => {
 	    .add('paletteblocks:mossy_cobblestone_brick_stairs')
 	    .add('paletteblocks:mossy_cobblestone_brick_slab')
 	    .add('paletteblocks:mossy_cobblestone_brick_wall')
-	    .add('quark:sandstone_bricks')
-	    .add('quark:sandstone_bricks_stairs')
-	    .add('quark:sandstone_bricks_slab')
-	    .add('quark:sandstone_bricks_wall')
-	    .add('quark:red_sandstone_bricks')
-	    .add('quark:red_sandstone_bricks_stairs')
-	    .add('quark:red_sandstone_bricks_slab')
-	    .add('quark:red_sandstone_bricks_wall')
-	    .add('quark:soul_sandstone_bricks')
-	    .add('quark:soul_sandstone_bricks_stairs')
-	    .add('quark:soul_sandstone_bricks_slab')
-	    .add('quark:soul_sandstone_bricks_wall')
-	    .add('atmospheric:arid_sandstone_bricks')
-	    .add('atmospheric:arid_sandstone_brick_stairs')
-	    .add('atmospheric:arid_sandstone_brick_slab')
-	    .add('atmospheric:arid_sandstone_brick_wall')
-	    .add('atmospheric:red_arid_sandstone_bricks')
-	    .add('atmospheric:red_arid_sandstone_brick_stairs')
-	    .add('atmospheric:red_arid_sandstone_brick_slab')
-	    .add('atmospheric:red_arid_sandstone_brick_wall')
 	    .add('quark:granite_bricks')
 	    .add('quark:granite_bricks_stairs')
 	    .add('quark:granite_bricks_slab')
@@ -1536,7 +3981,6 @@ ServerEvents.tags('block', event => {
 	    .add('clayworks:green_terracotta_wall')
 	    .add('clayworks:red_terracotta_wall')
 	    .add('clayworks:black_terracotta_wall')
-	    .add('ecologics:pot')
 	
 	event.get('auditory:netherrack_sounds')
 		.add('architects_palette:molten_nether_bricks')
@@ -1554,28 +3998,32 @@ ServerEvents.tags('block', event => {
 		.add('architects_palette:mushy_myonite_brick_slab')
 		.add('architects_palette:mushy_myonite_brick_stairs')
 		.add('architects_palette:mushy_myonite_brick_wall')
+		.add('kubejs:sturdy_netherrack')
+		.add('modestmining:coke_block')
 	
 	event.get('auditory:dirt_sounds')
 		.add('environmental:podzol_path')
+		.add('raspberry:wormy_dirt')
 		.remove('minecraft:gravel')
 	
 	event.get('auditory:small_object_sounds')
+		.remove('#minecraft:flower_pots')
+		.remove('minecraft:torch')
+		.remove('minecraft:soul_torch')
+		.remove('minecraft:redstone_torch')
+		.remove('minecraft:wall_torch')
+		.remove('minecraft:soul_wall_torch')
+		.remove('minecraft:redstone_wall_torch')
+		.remove('minecraft:tripwire_hook')
 		.add('minecraft:cocoa')
 		.add('minecraft:turtle_egg')
-		.add('architects_palette:nether_brass_torch')
-		.add('architects_palette:nether_brass_wall_torch')
-		.add('twigs:twig')
-		.add('twigs:pebble')
 	
 	event.get('auditory:gold_sounds')
 		.add('minecraft:beacon')
-		.add('minecraft:conduit')
 	    .add('create:blaze_burner')
-	    .add('create_enchantment_industry:blaze_enchanter')
+	    .add('create:lit_blaze_burner')
 	    .add('create_central_kitchen:blaze_stove')
 	    .add('create:track')
-	    .add('create:copycat_panel')
-	    .add('create:copycat_step')
 	    .add('quark:magnet')
 	    .add('minecraft:powered_rail')
 	    .add('minecraft:detector_rail')
@@ -1583,6 +4031,9 @@ ServerEvents.tags('block', event => {
 	    .add('minecraft:activator_rail')
 	    .add('create:controller_rail')
 		.add('suppsquared:gold_plaque')
+		.add('suppsquared:metal_frame')
+		.add('suppsquared:metal_brace')
+		.add('suppsquared:metal_cross_brace')
 		.add('savage_and_ravage:blast_proof_plates')
 		.add('savage_and_ravage:blast_proof_stairs')
 		.add('savage_and_ravage:blast_proof_slab')
@@ -1594,32 +4045,16 @@ ServerEvents.tags('block', event => {
 		.add('caverns_and_chasms:silver_bars')
 		.add('caverns_and_chasms:silver_button')
 		.add('oreganized:silver_block')
-	
-	event.get('auditory:metal_sounds')
-	    .add('alloyed:steel_door')
-	    .add('alloyed:locked_steel_door')
-		.add('suppsquared:iron_plaque')
-		.add('minecraft:water_cauldron')
-		.add('minecraft:lava_cauldron')
-		.add('minecraft:powder_snow_cauldron')
-		.add('spelunkery:portal_cauldron')
-		.add('neapolitan:milk_cauldron')
-		.add('neapolitan:vanilla_milkshake_cauldron')
-		.add('neapolitan:chocolate_milkshake_cauldron')
-		.add('neapolitan:strawberry_milkshake_cauldron')
-		.add('neapolitan:banana_milkshake_cauldron')
-		.add('neapolitan:mint_milkshake_cauldron')
-		.add('neapolitan:adzuki_milkshake_cauldron')
-	    .remove('minecraft:piston')
-	    .remove('minecraft:sticky_piston')
-	    .remove('minecraft:dispenser')
-	    .remove('minecraft:dropper')
-	    .remove('minecraft:observer')
+		.add('oreganized:electrum_block')
+		.add('aquaculture:tackle_box')
+		.add('kubejs:rose_gold_block')
+		.add('onion_onion:motley_grill_block')
 	
 	event.get('auditory:raw_ore_block_sounds')
 		.add('spelunkery:magnetite')
 		.add('minecraft:coal_block')
 		.add('supplementaries:flint_block')
+		.add('quark:charcoal_block')
 	
 	event.get('auditory:spawner_sounds')
 		.add('quark:monster_box')
@@ -1629,6 +4064,12 @@ ServerEvents.tags('block', event => {
 		.add('quark:purpur_trapped_chest')
 		.add('atmospheric:kousa_chest')
 		.add('atmospheric:kousa_trapped_chest')
+		.add('endergetic:cracked_purpur_block')
+		.add('kubejs:cracked_midori_block')
+		.add('quark:duskbound_block')
+		.add('quark:duskbound_block_slab')
+		.add('quark:duskbound_block_stairs')
+		.add('quark:duskbound_lantern')
 	
 	event.get('auditory:gourd_sounds')
 		.add('farmersdelight:stuffed_pumpkin_block')
@@ -1640,6 +4081,10 @@ ServerEvents.tags('block', event => {
 	    .add('nethersdelight:stuffed_hoglin')
 	    .add('miners_delight:stuffed_squid')
 	    .add('kubejs:eggplant_parmesan_block')
+	    .add('mynethersdelight:stuffed_hoglin')
+	    .add('mynethersdelight:striderloaf_block')
+	    .add('mynethersdelight:cold_striderloaf_block')
+	    .add('mynethersdelight:ghasta_with_cream_block')
 	    .add('ecologics:coconut')
 	    .add('neapolitan:banana_bundle')
 	    .add('atmospheric:yucca_bundle')
@@ -1647,14 +4092,6 @@ ServerEvents.tags('block', event => {
 
 	event.get('create:copycat_allow')
 		.add('kubejs:wheat_flour_bag')
-		.add('kubejs:dark_chocolate_block')
-		.add('kubejs:dark_chocolate_pavement')
-		.add('kubejs:chiseled_dark_chocolate_pavement')
-		.add('kubejs:dark_chocolate_tiles')
-		.add('kubejs:white_chocolate_block')
-		.add('kubejs:white_chocolate_pavement')
-		.add('kubejs:chiseled_white_chocolate_pavement')
-		.add('kubejs:white_chocolate_tiles')
 		.add('minecraft:crafting_table')
 		.add('minecraft:furnace')
 		.add('minecraft:jukebox')
@@ -1677,10 +4114,16 @@ ServerEvents.tags('block', event => {
 		.add('woodworks:sawmill')
 	
 	event.get('minecraft:soul_fire_base_blocks')
-		.add('spelunkery:rock_salt_block')
-	
-	event.get('minecraft:soul_fire_base_blocks')
 		.add('supplementaries:soap_block')
+		.add('minecraft:sculk')
+		.add('minecraft:sculk_catalyst')
+		.add('caverns_and_chasms:echo_block')
+	
+	event.get('minecraft:soul_speed_blocks')
+		.add('supplementaries:soap_block')
+		.add('minecraft:sculk')
+		.add('minecraft:sculk_catalyst')
+		.add('caverns_and_chasms:echo_block')
 	
 	event.get('minecraft:flowers')
 		.add('culturaldelights:wild_corn')
@@ -1689,63 +4132,47 @@ ServerEvents.tags('block', event => {
 		.add('farmersrespite:wild_tea_bush')
 		.add('farmersrespite:wild_coffee_bush')
 		.remove('nethersdelight:mimicarnation')
+		.remove('miners_delight:wild_cave_carrots')
 	
 	event.get('minecraft:small_flowers')
 		.remove('nethersdelight:mimicarnation')
+		.remove('miners_delight:wild_cave_carrots')
 	
 	event.removeAll('auditory:leaf_sounds')
 	event.removeAll('auditory:plant_sounds')
+	event.removeAll('auditory:metal_sounds')
 	
 	event.get('auditory:plant_sounds')
-	    .add('#minecraft:flowers')
 	    .add('minecraft:grass')
-	    .add('minecraft:fern')
-	    .add('minecraft:dead_bush')
-	    .add('minecraft:sunflower')
-	    .add('minecraft:lilac')
-	    .add('minecraft:rose_bush')
-	    .add('minecraft:peony')
 	    .add('minecraft:tall_grass')
-	    .add('minecraft:large_fern')
-	    .add('windswept:red_rose_bush')
-	    .add('windswept:pink_rose_bush')
-	    .add('windswept:blue_rose_bush')
-	    .add('windswept:white_rose_bush')
-	    .add('windswept:yellow_rose_bush')
-	    .add('windswept:wither_rose_bush')
 	    .add('environmental:giant_tall_grass')
-	    .add('environmental:tall_dead_bush')
-	    .add('environmental:pink_delphinium')
-	    .add('environmental:blue_delphinium')
-	    .add('environmental:purple_delphinium')
-	    .add('environmental:white_delphinium')
-	    .add('environmental:bird_of_paradise')
-	    .add('farmersdelight:sandy_shrub')
+	    .add('upgrade_aquatic:beachgrass')
+	    .add('upgrade_aquatic:tall_beachgrass')
+	    .add('minecraft:fern')
+	    .add('minecraft:large_fern')
+	    .add('farmersdelight:wild_carrots')
+	    .add('farmersdelight:wild_potatoes')
+	    .add('farmersdelight:wild_beetroots')
+	    .add('farmersdelight:wild_cabbages')
+	    .add('farmersdelight:wild_tomatoes')
+	    .add('farmersdelight:wild_onions')
+	    .add('supplementaries:wild_flax')
+	    .add('farmersdelight:wild_rice')   
+	    .add('culturaldelights:wild_corn')
+	    .add('culturaldelights:wild_cucumbers')
+	    .add('culturaldelights:wild_eggplants')
+	    .add('farmersrespite:wild_tea_bush')
+	    .add('spelunkery:tangle_roots')
+	    .add('spelunkery:tangle_roots_plant')
+		
+	event.get('auditory:leaf_sounds')
+	    .add('#minecraft:leaves')
+	    .add('#woodworks:leaf_piles')
 	    .add('environmental:hanging_willow_leaves')
 	    .add('environmental:pink_hanging_wisteria_leaves')
 	    .add('environmental:blue_hanging_wisteria_leaves')
 	    .add('environmental:purple_hanging_wisteria_leaves')
 	    .add('environmental:white_hanging_wisteria_leaves')
-	    .add('minecraft:brown_mushroom')
-	    .add('minecraft:red_mushroom')
-	    .add('quark:glow_shroom')
-	    .add('farmersdelight:brown_mushroom_colony')
-	    .add('farmersdelight:red_mushroom_colony')
-	    .add('dolt_compat:glowshroom_colony')
-	    .add('minecraft:sugar_cane')
-	    .add('nethersdelight:propelplant_cane')
-	    .add('nethersdelight:propelplant_berry_stem')
-	    .add('nethersdelight:propelplant_berry_cane')
-	    .add('nethersdelight:propelplant_stem')
-	    .add('farmersrespite:small_tea_bush')
-	    .add('farmersrespite:tea_bush')
-		
-	event.get('auditory:leaf_sounds')
-	    .add('#minecraft:leaves')
-	    .add('#woodworks:leaf_piles')
-		
-	event.get('minecraft:saplings')
-		.add('culturaldelights:avocado_sapling')
 		
 	event.get('minecraft:flowers')
 		.remove('minecraft:mangrove_propagule')
@@ -1754,14 +4181,29 @@ ServerEvents.tags('block', event => {
 	event.get('auditory:ice_sounds')
 		.add('ecologics:thin_ice')
 		
-	event.get('brewinandchewin:freeze_sources')
-		.add('#auditory:ice_sounds')
-		
 	event.get('auditory:chorus_plant_sounds')
 		.add('minecraft:cactus')
 		.add('atmospheric:barrel_cactus')
 		.add('quark:cactus_block')
 		.add('atmospheric:barrel_cactus_batch')
+		
+	event.get('auditory:mushroom_stem_sounds')
+		.add('everycomp:q/mynethersdelight/powdery_post')
+		.add('everycomp:q/mynethersdelight/stripped_powdery_post')
+		.add('#architects_palette:twisted_logs')
+		.add('everycomp:q/architects_palette/hollow_twisted_log')
+		
+	event.get('farmersdelight:tray_heat_sources')
+		.add('raspberry:magma_cake')
+		
+	event.get('farmersdelight:heat_sources')
+		.add('kubejs:heating_cask')
+		.add('raspberry:magma_cake')
+		.add('architects_palette:molten_nether_bricks')
+		
+	event.get('brewinandchewin:freeze_sources')
+		.add('#auditory:ice_sounds')
+		.add('kubejs:ice_crate')
 	
 	event.get('create:wrench_pickup')
 	    .add('oreganized:exposer')
@@ -1789,6 +4231,15 @@ ServerEvents.tags('block', event => {
 	    .add('supplementaries:faucet')
 	    .add('additionaladditions:amethyst_lamp')
 		.add('supplementaries:crank')
+		.add('quark:red_crystal_lamp')
+		.add('quark:orange_crystal_lamp')
+		.add('quark:yellow_crystal_lamp')
+		.add('quark:green_crystal_lamp')
+		.add('quark:blue_crystal_lamp')
+		.add('quark:indigo_crystal_lamp')
+		.add('quark:violet_crystal_lamp')
+		.add('quark:white_crystal_lamp')
+		.add('quark:black_crystal_lamp')
 	
 	event.get('forge:chests/wooden')
 		.remove('atmospheric:kousa_chest')
@@ -1800,14 +4251,48 @@ ServerEvents.tags('block', event => {
 		.add('twigs:gravel_brick_stairs')
 		.add('twigs:gravel_brick_wall')
 		.add('minecraft:end_stone')
+		.add('minecraft:powder_snow')
+		.add('raspberry:wormy_dirt')
+		.add('raspberry:deepslate_gravel')
+		.add('raspberry:blackstone_gravel')
 		
 	event.get('minecraft:mineable/axe')
 		.add('#minecraft:beds')
 		.add('minecraft:cactus')
+		.add('minecraft:muddy_mangrove_roots')
 		.add('woodworks:sawmill')
 		.add('atmospheric:barrel_cactus')
+		.add('architects_palette:twisted_sapling')
+		.add('kubejs:rubber_block')
+		.add('kubejs:rubber_tire')
+		.add('culturaldelights:avocado_crate')
+		.add('culturaldelights:corn_cob_crate')
+		.add('culturaldelights:eggplant_crate')
+		.add('environmental:cherry_crate')
+		.add('supplementaries:book_pile')
+		.add('supplementaries:book_pile_horizontal')
+		.add('kubejs:paper_block')
+		.add('kubejs:latex_jungle_log')
+		.add('kubejs:latex_jungle_wood')
+		.add('kubejs:heating_cask')
+		.add('kubejs:ice_crate')
+		.add('quark:berry_sack')
+		.add('quark:glowberry_sack')
+		.add('cookscollection:lemon_crate')
+		.add('twigs:bamboo_mat')
+		.add('neapolitan:banana_stalk')
+		.add('neapolitan:carved_banana_stalk')
 		.remove('atmospheric:kousa_chest')
 		.remove('atmospheric:kousa_trapped_chest')
+		.remove('minecraft:brown_mushroom_block')
+		.remove('minecraft:red_mushroom_block')
+		.remove('spelunkery:conk_fungus_block')
+		.remove('spelunkery:portabella_block')
+		.remove('spelunkery:inkcap_mushroom_block')
+		.remove('spelunkery:white_inkcap_mushroom_block')
+		.remove('spelunkery:milly_bubcap_block')
+		.remove('quark:glow_shroom_block')
+		.remove('storagedrawers:oak_full_drawers_1')
 		
 	event.get('minecraft:mineable/hoe')
 		.add('minecraft:pumpkin')
@@ -1838,16 +4323,65 @@ ServerEvents.tags('block', event => {
 		.add('minecraft:cactus')
 		.add('atmospheric:barrel_cactus')
 		.add('minecraft:cocoa')
+		.add('atmospheric:kousa_chest')
+		.add('atmospheric:kousa_trapped_chest')
+		.add('minecraft:brown_mushroom_block')
+		.add('minecraft:red_mushroom_block')
+		.add('spelunkery:conk_fungus_block')
+		.add('spelunkery:portabella_block')
+		.add('spelunkery:inkcap_mushroom_block')
+		.add('spelunkery:white_inkcap_mushroom_block')
+		.add('spelunkery:milly_bubcap_block')
+		.add('quark:glow_shroom_block')
+		.add('kubejs:straw_thatch')
+		.add('kubejs:straw_thatch_slab')
+		.add('kubejs:straw_thatch_stairs')
+		.add('kubejs:flax_thatch')
+		.add('kubejs:flax_thatch_slab')
+		.add('kubejs:flax_thatch_stairs')
+		.add('twigs:bamboo_thatch')
+		.add('twigs:bamboo_thatch_slab')
+		.add('kubejs:bamboo_thatch_stairs')
+		.add('ecologics:moss_layer')
+		.remove('quark:berry_sack')
+		.remove('quark:glowberry_sack')
+		.remove('quark:gunpowder_sack')
+		.remove('quark:cocoa_beans_sack')
+		.remove('neapolitan:banana_stalk')
+		.remove('neapolitan:carved_banana_stalk')
+		.remove('environmental:cattail_seed_sack')
 		
 	event.get('minecraft:mineable/pickaxe')
 		.add('atmospheric:kousa_chest')
 		.add('atmospheric:kousa_trapped_chest')
 		.add('oreganized:lead_ore')
+		.add('minecraft:player_head')
+		.add('minecraft:player_wall_head')
 		.add('minecraft:zombie_head')
+		.add('minecraft:zombie_wall_head')
 		.add('minecraft:creeper_head')
+		.add('minecraft:creeper_wall_head')
 		.add('minecraft:skeleton_skull')
+		.add('minecraft:skeleton_wall_skull')
 		.add('minecraft:wither_skeleton_skull')
+		.add('minecraft:wither_skeleton_wall_skull')
 		.add('supplementaries:enderman_head')
+		.add('supplementaries:enderman_wall_head')
+		.add('supplementaries:skull_pile')
+		.add('caverns_and_chasms:deeper_head')
+		.add('caverns_and_chasms:deeper_wall_head')
+		.add('caverns_and_chasms:peeper_head')
+		.add('caverns_and_chasms:peeper_wall_head')
+		.add('caverns_and_chasms:mime_head')
+		.add('caverns_and_chasms:mime_wall_head')
+		.add('piglinproliferation:piglin_head')
+		.add('piglinproliferation:piglin_wall_head')
+		.add('piglinproliferation:piglin_brute_head')
+		.add('piglinproliferation:piglin_brute_wall_head')
+		.add('piglinproliferation:piglin_alchemist_head')
+		.add('piglinproliferation:piglin_alchemist_wall_head')
+		.add('piglinproliferation:zombified_piglin_head')
+		.add('piglinproliferation:zombified_piglin_wall_head')
 		.add('minecraft:lever')
 		.add('#forge:glass')
 		.add('#forge:glass_panes')
@@ -1871,10 +4405,63 @@ ServerEvents.tags('block', event => {
 		.add('quark:dirt_bricks_slab')
 		.add('quark:dirt_bricks_stairs')
 		.add('quark:dirt_bricks_wall')
+		.add('kubejs:glance_pillar')
+		.add('oreganized:glance')
+		.add('oreganized:polished_glance')
+		.add('oreganized:glance_bricks')
+		.add('oreganized:chiseled_glance')
+		.add('oreganized:glance_slab')
+		.add('oreganized:polished_glance_slab')
+		.add('oreganized:glance_brick_slab')
+		.add('oreganized:glance_stairs')
+		.add('oreganized:polished_glance_stairs')
+		.add('oreganized:glance_brick_stairs')
+		.add('oreganized:glance_wall')
+		.add('oreganized:glance_brick_wall')
+		.add('kubejs:sturdy_blackstone')
+		.add('kubejs:sturdy_netherrack')
+		.add('toms_storage:ts.storage_terminal')
+		.add('toms_storage:ts.inventory_connector')
+		.add('kubejs:smooth_stone_stairs')
+		.add('kubejs:smooth_stone_wall')
+		.add('suppsquared:metal_frame')
+		.add('kubejs:chiseled_silt_bricks')
+		.add('kubejs:chiseled_ash_bricks')
+		.add('kubejs:trimmed_ash_bricks')
+		.add('quark:red_crystal_lamp')
+		.add('quark:orange_crystal_lamp')
+		.add('quark:yellow_crystal_lamp')
+		.add('quark:green_crystal_lamp')
+		.add('quark:blue_crystal_lamp')
+		.add('quark:indigo_crystal_lamp')
+		.add('quark:violet_crystal_lamp')
+		.add('quark:white_crystal_lamp')
+		.add('quark:black_crystal_lamp')
+		.add('kubejs:bronze_block')
+		.add('kubejs:rose_gold_block')
+		.add('kubejs:polished_steel')
+		.add('storagedrawers:oak_full_drawers_1')
+		.add('kubejs:deposit')
+		.add('kubejs:deepslate_deposit')
+		.add('kubejs:blackstone_deposit')
 		.remove('minecraft:end_stone')
 		.remove('woodworks:sawmill')
 		
 	event.get('farmersdelight:mineable/knife')
+		.add('minecraft:grass')
+		.add('minecraft:tall_grass')
+		.add('minecraft:wheat')
+		.add('minecraft:dead_bush')
+		.add('upgrade_aquatic:beachgrass')
+		.add('upgrade_aquatic:tall_beachgrass')
+		.add('farmersdelight:sandy_shrub')
+		.add('farmersdelight:rice_panicles')
+		.add('environmental:giant_tall_grass')
+		.add('environmental:tall_dead_bush')
+		.add('culturaldelights:wild_corn')
+		.add('culturaldelights:corn_upper')
+		.add('spelunkery:sporophyte')
+		.add('spelunkery:tall_sporophyte')
 		.add('minecraft:pumpkin')
 		.add('minecraft:carved_pumpkin')
 		.add('autumnity:large_pumpkin_slice')
@@ -1911,10 +4498,73 @@ ServerEvents.tags('block', event => {
 		.add('upgrade_aquatic:red_bedroll')
 		.add('upgrade_aquatic:black_bedroll')
 		.add('naturalist:teddy_bear')
+		.add('minecraft:bamboo')
+		.add('minecraft:bamboo_sapling')
+		.add('supplementaries:book_pile')
+		.add('supplementaries:book_pile_horizontal')
+		.add('kubejs:butterscotch_cinnamon_pie')
+		.add('kubejs:prickly_pear_pie')
+		.add('kubejs:pumpkin_pie')
+		.add('kubejs:rubber_block')
+		.add('kubejs:rubber_tire')
+		.add('kubejs:paper_block')
+		.add('architects_palette:bread_block')
+		.add('architects_palette:bread_slab')
+		.add('architects_palette:crustless_bread_block')
+		.add('cookscollection:rustic_loaf')
+		.add('quark:bonded_leather')
+		.add('atmospheric:yucca_bundle')
+		.add('atmospheric:roasted_yucca_bundle')
+		.add('supplementaries:doormat')
+		.add('twigs:bamboo_mat')
+		.add('kubejs:white_canvas_rug')
+		.add('kubejs:orange_canvas_rug')
+		.add('kubejs:magenta_canvas_rug')
+		.add('kubejs:light_blue_canvas_rug')
+		.add('kubejs:yellow_canvas_rug')
+		.add('kubejs:lime_canvas_rug')
+		.add('kubejs:pink_canvas_rug')
+		.add('kubejs:gray_canvas_rug')
+		.add('kubejs:light_gray_canvas_rug')
+		.add('kubejs:cyan_canvas_rug')
+		.add('kubejs:purple_canvas_rug')
+		.add('kubejs:blue_canvas_rug')
+		.add('kubejs:brown_canvas_rug')
+		.add('kubejs:green_canvas_rug')
+		.add('kubejs:red_canvas_rug')
+		.add('kubejs:black_canvas_rug')
+		.add('kubejs:wheat_flour_bag')
+		.add('kubejs:cinder_flour_bag')
+		.add('kubejs:corn_flour_bag')
+		.add('kubejs:cinnamon_bag')
+		.add('kubejs:oat_bag')
+		.add('quark:gunpowder_sack')
+		.add('quark:cocoa_beans_sack')
+		.add('raspberry:cake')
+		.add('raspberry:vanilla_cake')
+		.add('raspberry:chocolate_cake')
+		.add('raspberry:strawberry_cake')
+		.add('raspberry:banana_cake')
+		.add('raspberry:mint_cake')
+		.add('raspberry:cherry_cake')
+		.add('raspberry:green_tea_cake')
+		.add('raspberry:yellow_tea_cake')
+		.add('raspberry:black_tea_cake')
+		.add('raspberry:coffee_cake')
+		.add('raspberry:magma_cake')
+		.add('atmospheric:yucca_gateau')
+		.add('environmental:cattail_seed_sack')
+		.add('savage_and_ravage:creeper_spore_sack')
+		.add('miners_delight:wild_cave_carrots')
 	
 	event.get('minecraft:needs_stone_tool')
 		.add('create_confectionery:candy_cane_block')
 		.add('kubejs:lead_ore')
+		.add('create:zinc_ore')
+	    .add('create:deepslate_zinc_ore')
+	    .add('create:zinc_block')
+	    .add('create:raw_zinc_block')
+		.add('kubejs:polished_steel')
 		.remove('minecraft:copper_ore')
 		.remove('minecraft:deepslate_copper_ore')
 		.remove('minecraft:raw_copper_block')
@@ -2024,6 +4674,23 @@ ServerEvents.tags('block', event => {
 		.remove('copperandtuffbackport:waxed_weathered_copper_grate')
 		.remove('copperandtuffbackport:oxidized_copper_grate')
 		.remove('copperandtuffbackport:waxed_oxidized_copper_grate')
+		.remove('copperandtuffbackport:copper_trapdoor')
+		.remove('copperandtuffbackport:waxed_copper_trapdoor')
+		.remove('copperandtuffbackport:exposed_copper_trapdoor')
+		.remove('copperandtuffbackport:waxed_exposed_copper_trapdoor')
+		.remove('copperandtuffbackport:weathered_copper_trapdoor')
+		.remove('copperandtuffbackport:waxed_weathered_copper_trapdoor')
+		.remove('copperandtuffbackport:oxidized_copper_trapdoor')
+		.remove('copperandtuffbackport:waxed_oxidized_copper_trapdoor')
+		.remove('minecraft:lightning_rod')
+		.remove('caverns_and_chasms:exposed_lightning_rod')
+		.remove('caverns_and_chasms:weathered_lightning_rod')
+		.remove('caverns_and_chasms:oxidized_lightning_rod')
+		.remove('caverns_and_chasms:waxed_lightning_rod')
+		.remove('caverns_and_chasms:waxed_exposed_lightning_rod')
+		.remove('caverns_and_chasms:waxed_weathered_lightning_rod')
+		.remove('caverns_and_chasms:waxed_oxidized_lightning_rod')
+		.remove('spelunkery:rough_quartz_block')
 	
 	event.get('minecraft:needs_iron_tool')
 		.remove('create:zinc_ore')
@@ -2031,12 +4698,29 @@ ServerEvents.tags('block', event => {
 		.remove('create:zinc_block')
 		.remove('create:raw_zinc_block')
 	    .remove('minecraft:emerald_block')
+	    .remove('sullysmod:polished_jade_block')
+	    .remove('sullysmod:polished_jade_bricks')
+	    .remove('sullysmod:polished_small_jade_bricks')
+	    .remove('sullysmod:polished_jade_shingles')
+	    .remove('sullysmod:polished_jade_tiles')
+	    .remove('sullysmod:polished_chiseled_jade')
+	    .remove('sullysmod:jade_totem')
+	    .remove('sullysmod:polished_jade_pillar')
+	    .remove('sullysmod:polished_jade_brick_stairs')
+	    .remove('sullysmod:polished_small_jade_brick_stairs')
+	    .remove('sullysmod:polished_jade_shingle_stairs')
+	    .remove('sullysmod:polished_jade_tile_stairs')
+	    .remove('sullysmod:polished_jade_brick_slab')
+	    .remove('sullysmod:polished_small_jade_brick_slab')
+	    .remove('sullysmod:polished_jade_shingle_slab')
+	    .remove('sullysmod:polished_jade_tile_slab')
+	    .remove('sullysmod:jade_flinger_totem')
+	    .remove('architects_palette:hazard_sign')
 	
-	event.get('minecraft:needs_stone_tool')
-		.add('create:zinc_ore')
-	    .add('create:deepslate_zinc_ore')
-	    .add('create:zinc_block')
-	    .add('create:raw_zinc_block')
+	event.get('minecraft:needs_diamond_tool')
+		.remove('supplementaries:safe')
+		.remove('supplementaries:netherite_door')
+		.remove('supplementaries:netherite_trapdoor')
 		
 	event.get('caverns_and_chasms:cupric_fire_base_blocks')
 		.add('minecraft:copper_ore')
@@ -2127,14 +4811,13 @@ ServerEvents.tags('block', event => {
 	    .add('create:brass_block')
 	    .add('create:brass_casing')
 	    .add('create:brass_scaffolding')
-	    .add('alloyed:bronze_block')
-	    .add('alloyed:exposed_bronze_block')
-	    .add('alloyed:weathered_bronze_block')
-	    .add('alloyed:oxidized_bronze_block')
-	    .add('alloyed:waxed_bronze_block')
-	    .add('alloyed:waxed_exposed_bronze_block')
-	    .add('alloyed:waxed_weathered_bronze_block')
-	    .add('alloyed:waxed_oxidized_bronze_block')
+	    .add('kubejs:rose_gold_block')
+	    .add('kubejs:bronze_block')
+	    .add('architects_palette:sunmetal_block')
+	    .add('architects_palette:sunmetal_slab')
+	    .add('architects_palette:sunmetal_stairs')
+	    .add('architects_palette:chiseled_sunmetal_block')
+	    .add('architects_palette:sunmetal_pillar')
 	    .add('alloyed:bronze_bell')
 	    .add('additionaladditions:patina_block')
 		.add('copperandtuffbackport:chiseled_copper')
@@ -2153,6 +4836,17 @@ ServerEvents.tags('block', event => {
 		.add('copperandtuffbackport:waxed_weathered_copper_bulb')
 		.add('copperandtuffbackport:oxidized_copper_bulb')
 		.add('copperandtuffbackport:waxed_oxidized_copper_bulb')
+		.add('quark:midori_block')
+		.add('quark:midori_block_slab')
+		.add('quark:midori_block_stairs')
+		.add('quark:midori_pillar')
+		.add('kubejs:cracked_midori_block')
+		.add('architects_palette:entwine_block')
+		.add('architects_palette:entwine_slab')
+		.add('architects_palette:entwine_stairs')
+		.add('architects_palette:entwine_pillar')
+		.add('architects_palette:chiseled_entwine')
+		.add('architects_palette:entwine_bars')
 		
 	event.get('minecraft:wall_post_override')
 		.add('architects_palette:nether_brass_torch')
@@ -2181,20 +4875,9 @@ ServerEvents.tags('block', event => {
 		.add('kubejs:lead_ore')
 		
 	event.get('sullysmod:projectiles_bounce_on')
-		.add('minecraft:amethyst_block')
-		.add('minecraft:budding_amethyst')
-		.add('minecraft:small_amethyst_bud')
-		.add('minecraft:medium_amethyst_bud')
-		.add('minecraft:large_amethyst_bud')
-		.add('minecraft:amethyst_cluster')
-		.add('twigs:polished_amethyst')
-		.add('twigs:cut_amethyst')
-		.add('caverns_and_chasms:amethyst_block')
-		.add('caverns_and_chasms:cut_amethyst_bricks')
-		.add('caverns_and_chasms:cut_amethyst')
-		.add('caverns_and_chasms:cut_amethyst_brick_stairs')
-		.add('caverns_and_chasms:cut_amethyst_brick_slab')
-		.add('caverns_and_chasms:cut_amethyst_brick_wall')
+		.add('kubejs:rubber_block')
+		.add('kubejs:rubber_tire')
+		.add('sullysmod:jade_flinger_totem')
 		
 	event.get('minecraft:crystal_sound_blocks')
 		.add('sullysmod:polished_jade_block')
@@ -2213,7 +4896,29 @@ ServerEvents.tags('block', event => {
 		.add('sullysmod:polished_small_jade_brick_slab')
 		.add('sullysmod:polished_jade_shingle_slab')
 		.add('sullysmod:polished_jade_tile_slab')
-		.add('sullysmod:jade_flinger_totem')
+})
+
+// Fluid tags
+
+ServerEvents.tags('fluid', event => {
+	event.get('minecraft:water')
+		.remove('create_confectionery:black_chocolate')
+		.remove('create_confectionery:flowing_black_chocolate')
+		.remove('create_confectionery:white_chocolate')
+		.remove('create_confectionery:flowing_white_chocolate')
+		.remove('create_confectionery:hot_chocolate')
+		.remove('create_confectionery:flowing_hot_chocolate')
+		.remove('create_confectionery:caramel')
+		.remove('create_confectionery:flowing_caramel')
+		.remove('create_confectionery:ruby_chocolate')
+		.remove('create_confectionery:flowing_ruby_chocolate')
+})
+
+// Entity type tags
+
+ServerEvents.tags('entity_type', event => {
+	event.get('spelunkery:hurt_by_salt')
+		.add('autumnity:snail')
 })
 
 // Painting tags
@@ -2235,15 +4940,265 @@ ServerEvents.tags('worldgen/biome', event => {
 	event.get('caverns_and_chasms:has_feature/soul_silver_ore').removeAll()
 	event.get('caverns_and_chasms:has_feature/spinel_ore').removeAll()
 	event.get('sullysmod:tortoises_spawn_in').removeAll()
+		
+	event.get('upgrade_aquatic:has_feature/pickerelweed_extra')
+		.add('#upgrade_aquatic:has_feature/pickerelweed')
+		
+	event.get('upgrade_aquatic:has_feature/pickerelweed')
+		.add('#minecraft:is_beach')
+		
+	event.get('forge:is_swamp')
+		.add('environmental:marsh')
+		.add('kubejs:mudflats')
+		
+	event.get('minecraft:is_overworld')
+		.add('windswept:chestnut_forest')
+		.add('windswept:snowy_chestnut_forest')
+		.add('kubejs:tropical_beach')
+		.add('kubejs:mudflats')
+		
+	event.get('forge:is_mushroom')
+		.remove('quark:glimmering_weald')
+		
+	event.get('autumnity:has_feature/spotted_maple_tree/yellow')
+		.add('minecraft:birch_forest')
+		
+	event.get('autumnity:has_feature/spotted_maple_tree/red')
+		.add('windswept:chestnut_forest')
+		
+	event.get('spelunkery:has_salt_noise')
+		.add('minecraft:dripstone_caves')
+		.add('environmental:blossom_woods')
+		.add('environmental:blossom_valleys')
+		
+	event.get('bettermineshafts:has_structure/better_mineshaft_maple')
+		.add('autumnity:maple_forest')
+		.add('autumnity:pumpkin_fields')
+		
+	event.get('betterwitchhuts:has_structure/better_witch_hut').removeAll()
+		.add('minecraft:swamp')
+		
+	event.get('yungsextras:has_structure/desert_decorations').removeAll()
+		.add('minecraft:desert')
+		
+	event.get('yungsextras:has_structure/vanilla_desert_well').removeAll()
+		.add('minecraft:desert')
+		
+	event.get('geophilic_reforged:wood_type/mc/oak')
+		.remove('minecraft:swamp')
+		
+	event.get('environmental:has_feature/cattails').removeAll()
+		.add('#minecraft:is_overworld')
+		
+	event.get('moremobvariants:wolf_ashen_spawns')
+		.remove('minecraft:snowy_taiga')
+		.add('minecraft:taiga')
+		.add('minecraft:old_growth_pine_taiga')
+		
+	event.get('moremobvariants:wolf_black_spawns')
+		.add('minecraft:old_growth_spruce_taiga')
+		.add('minecraft:grove')
+		
+	event.get('moremobvariants:wolf_chestnut_spawns')
+		.add('windswept:chestnut_forest')
+		.add('windswept:snowy_chestnut_forest')
+		
+	event.get('moremobvariants:wolf_pale_spawns')
+		.add('minecraft:grove')
+		
+	event.get('moremobvariants:wolf_rusty_spawns')
+		.add('#minecraft:is_jungle')
+		
+	event.get('moremobvariants:wolf_snowy_spawns')
+		.add('minecraft:snowy_taiga')
+		.add('windswept:snowy_chestnut_forest')
+		
+	event.get('moremobvariants:wolf_spotted_spawns')
+		.add('minecraft:windswept_hills')
+		
+	event.get('moremobvariants:wolf_woods_spawns')
+		.add('#minecraft:is_forest')
+	
+	event.get('raspberry_flavoured:wraith_spawning_biomes')
+		.add('minecraft:soul_sand_valley')
+	
+	event.get('raspberry_flavoured:vex_high_spawning_biomes')
+		.add('minecraft:dark_forest')
+		
+	event.get('raspberry_flavoured:large_lead_vein_biomes')
+		.add('minecraft:savanna')
+		.add('minecraft:savanna_plateau')
+		.add('minecraft:windswept_savanna')
+		.add('minecraft:badlands')
+		.add('minecraft:eroded_badlands')
+		.add('minecraft:wooded_badlands')
+		.add('autumnity:maple_forest')
+		.add('autumnity:pumpkin_fields')
+		
+	event.get('raspberry_flavoured:arid_sprouts_biomes')
+		.add('minecraft:badlands')
+		.add('minecraft:eroded_badlands')
+		.add('minecraft:wooded_badlands')
+		.add('minecraft:savanna')
+		.add('minecraft:savanna_plateau')
+		.add('minecraft:windswept_savanna')
+		.add('atmospheric:dunes')
+		.add('atmospheric:flourishing_dunes')
+		.add('atmospheric:hot_springs')
+		.add('atmospheric:petrified_dunes')
+		.add('atmospheric:rocky_dunes')
+		
+	event.get('raspberry_flavoured:dry_grass_biomes')
+		.add('minecraft:beach')
+		.add('minecraft:desert')
+		.add('minecraft:stony_peaks')
+		.add('minecraft:stony_shore')
+		.add('kubejs:tropical_beach')
+		
+	event.get('raspberry_flavoured:dense_grass_biomes')
+		.add('minecraft:river')
+		.add('minecraft:swamp')
+		.add('minecraft:dark_forest')
+		.add('minecraft:flower_forest')
+		.add('minecraft:savanna')
+		.add('minecraft:savanna_plateau')
+		.add('minecraft:windswept_savanna')
+		.add('autumnity:maple_forest')
+		.add('autumnity:pumpkin_fields')
+		
+	event.get('raspberry_flavoured:dense_pink_petals_biomes')
+		.add('environmental:blossom_woods')
+		
+	event.get('raspberry_flavoured:pink_petals_biomes')
+		.add('environmental:blossom_valleys')
+		
+	event.get('raspberry_flavoured:dense_cheery_wildflowers_biomes')
+		.add('minecraft:birch_forest')
+		.add('minecraft:old_growth_birch_forest')
+		
+	event.get('raspberry_flavoured:cheery_wildflowers_biomes')
+		.add('minecraft:flower_forest')
+		.add('minecraft:meadow')
+		.add('minecraft:sunflower_plains')
+		.add('minecraft:sparse_jungle')
+		.add('atmospheric:sparse_rainforest')
+		.add('atmospheric:sparse_rainforest_basin')
+		
+	event.get('raspberry_flavoured:dense_moody_wildflowers_biomes')
+		.add('windswept:chestnut_forest')
+		.add('minecraft:taiga')
+		.add('minecraft:old_growth_pine_taiga')
+		.add('minecraft:old_growth_spruce_taiga')
+		
+	event.get('raspberry_flavoured:moody_wildflowers_biomes')
+		.add('minecraft:flower_forest')
+		.add('minecraft:windswept_hills')
+		.add('minecraft:windswept_forest')
+		.add('minecraft:snowy_taiga')
+		
+	event.get('raspberry_flavoured:dense_clovers_biomes')
+		.add('minecraft:bamboo_jungle')
+		.add('minecraft:windswept_forest')
+		.add('minecraft:old_growth_pine_taiga')
+		.add('minecraft:old_growth_spruce_taiga')
+		.add('minecraft:dark_forest')
+		.add('atmospheric:rainforest')
+		.add('atmospheric:rainforest_basin')
+		.add('atmospheric:sparse_rainforest')
+		.add('atmospheric:sparse_rainforest_basin')
+		
+	event.get('raspberry_flavoured:medium_clovers_biomes')
+		.add('environmental:marsh')
+		
+	event.get('raspberry_flavoured:clovers_biomes')
+		.add('minecraft:plains')
+		.add('minecraft:sunflower_plains')
+		.add('minecraft:meadow')
+		.add('minecraft:swamp')
+		.add('environmental:blossom_woods')
+		.add('environmental:blossom_valleys')
+		
+	event.get('raspberry_flavoured:bamboo_leaves_biomes')
+		.add('minecraft:bamboo_jungle')
+		
+	event.get('raspberry_flavoured:mushroom_decor_biomes')
+		.add('minecraft:mushroom_fields')
+	
+	event.get('raspberry_flavoured:fallen_maple_biomes')
+		.add('minecraft:forest')
+		.add('autumnity:maple_forest')
+	
+	event.get('raspberry_flavoured:fallen_willow_biomes')
+		.add('minecraft:swamp')
 })
 
 ServerEvents.tags('worldgen/structure', event => {
 	event.get('minecraft:eye_of_ender_located').removeAll()
-		.add('minecraft:ruined_portal_desert')
-		.add('minecraft:ruined_portal_jungle')
-		.add('minecraft:ruined_portal_mountain')
-		.add('minecraft:ruined_portal_nether')
-		.add('minecraft:ruined_portal_ocean')
-		.add('minecraft:ruined_portal')
-		.add('minecraft:ruined_portal_swamp')
+		.add('#minecraft:ruined_portal')
+		.add('#minecraft:bastion_remnant')
+		.add('#minecraft:dolphin_located')
+		.add('#minecraft:ocean_ruin')
+		
+	event.get('raspberry_flavoured:spirited_exopearl_located')
+		.add('minecraft:fortress')
+		.add('kubejs:molten_fortress')
+		.add('minecraft:ancient_city')
+		.add('#betterdungeons:better_dungeons')
+		.add('#bettermineshafts:better_mineshafts')
+		.add('hearths:crimson_tower')
+		.add('hearths:warped_tower')
+		
+	event.get('quark:soul_bead_target').removeAll()
+		
+	event.get('betterdungeons:better_dungeons')
+		.remove('betterdungeons:spider_dungeon')
+		
+	event.get('minecraft:mineshaft')
+		.add('bettermineshafts:mineshaft_maple')
+		
+	event.get('bettermineshafts:better_mineshafts')
+		.add('bettermineshafts:mineshaft_maple')
+		
+	event.get('raspberry_flavoured:pyramids')
+		.add('minecraft:desert_pyramid')
+		.add('minecraft:jungle_pyramid')
+		.add('explorify:badlands_pyramid')
+		
+	event.get('raspberry_flavoured:nether_fortress')
+		.add('minecraft:fortress')
+		.add('kubejs:molten_fortress')
+})
+
+// Effect tags
+
+ServerEvents.tags('mob_effect', event => {
+	event.get('caverns_and_chasms:bejeweled_apple_cannot_inflict')
+		.add('kubejs:satiation')
+		.add('kubejs:coughing')
+		.add('dungeons_mobs:ensnared')
+		.add('farmersdelight:nourishment')
+		.add('clash:staggered')
+		.add('clash:retaliation')
+		.add('clash:rampaging')
+		.add('additional_enchantments:wither')
+		.add('additional_enchantments:plague')
+		.add('better_beacons:patrol_nullifier')
+		.add('better_beacons:phantom_bane')
+		.add('create_confectionery:stimulation')
+		.add('create_confectionery:rest')
+		.add('ecologics:slippery')
+		.add('cofh_core:clarity')
+		.add('cofh_core:supercharge')
+		.add('cofh_core:love')
+		.add('cofh_core:true_invisibility')
+		.add('supplementaries:overencumbered')
+		.add('atmospheric:spitting')
+		.add('minecraft:conduit_power')
+		.add('minecraft:luck')
+		.add('minecraft:unluck')
+		.add('brewinandchewin:tipsy')
+		.add('brewinandchewin:satisfaction')
+		.add('friendsandfoes:reach')
+		.add('modestmining:prismarite_speed')
+		.add('modestmining:prismarite_strength')
 })

@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:seed_items": {
+      "base_item": "minecraft:wheat_seeds",
+      "item_tag": "raspberry_flavoured:seed_items"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:andesite_alloy",
+  "parent": "raspberryflavoured:water_wheel",
   "criteria": {
     "0": {
       "conditions": {
@@ -21,7 +21,7 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Press Goes Bonk!"
+      "text": "Impressive"
     }
   },
   "rewards": {

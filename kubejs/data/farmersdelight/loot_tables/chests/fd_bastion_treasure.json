@@ -4,21 +4,6 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.1
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "alloyed:steel_knife"
-        },
-        {
           "type": "minecraft:empty",
           "weight": 10
         }

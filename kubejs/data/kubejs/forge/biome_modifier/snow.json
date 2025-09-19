@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_snowy",
+  "features": "kubejs:patch_snow",
+  "step": "fluid_springs"
+}

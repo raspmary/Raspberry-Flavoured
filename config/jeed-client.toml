@@ -3,7 +3,7 @@ effect_color = false
 #Draw a black box behind effect icons
 effect_box = true
 #A list of effects that should not be registered nor shown in JEI
-hidden_effects = ["minecraft:hero_of_the_village", "cofh_core:supercharge", "cofh_core:clarity", "ecologics:slippery", "create_confectionery:rest", "create_confectionery:stimulation", "better_beacons:phantom_bane", "better_beacons:patrol_nullifier", "createaddition:shocking", "additional_enchantments:plague", "additional_enchantments:wither", "clash:rampaging", "clash:retaliation", "clash:staggered", "farmersdelight:nourishment"]
+hidden_effects = ["minecraft:hero_of_the_village", "cofh_core:supercharge", "cofh_core:clarity", "ecologics:slippery", "create_confectionery:rest", "create_confectionery:stimulation", "better_beacons:phantom_bane", "better_beacons:patrol_nullifier", "additional_enchantments:plague", "additional_enchantments:wither", "clash:rampaging", "clash:retaliation", "clash:staggered", "farmersdelight:nourishment", "brewinandchewin:satisfaction", "dungeons_mobs:ensnared", "supplementaries:overencumbered", "friendsandfoes:reach", "minecraft:luck", "minecraft:unluck", "modestmining:prismarite_speed", "modestmining:prismarite_strength"]
 #Show ingredients list along with an effect description
 ingredients_list = false
 #Renders individual slots instead of a big one. Only works for REI

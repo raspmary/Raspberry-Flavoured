@@ -1,0 +1,39 @@
+{
+  "parent": "raspberry_flavoured:farming/questionable_diet",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "neapolitan:ice_cubes"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.ice_cubes.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.ice_cubes.description"
+    },
+    "icon": {
+      "item": "neapolitan:ice_cubes"
+    },
+    "frame": "task",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_joke"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

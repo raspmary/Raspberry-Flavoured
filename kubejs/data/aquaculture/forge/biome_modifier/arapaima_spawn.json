@@ -1,0 +1,12 @@
+{
+  "type": "aquaculture:fish_spawn",
+  "spawn": {
+    "type": "aquaculture:arapaima",
+    "weight": 0,
+    "minCount": 1,
+    "maxCount": 1
+  },
+  "includeBiomes": ["#minecraft:is_jungle"],
+  "excludeBiomes": ["#aquaculture:empty"],
+  "and": false
+}

@@ -20,24 +20,24 @@
   },
   "regions": {
     "suspense": {
-      "overall": 1,
-      "nether": 1
+      "overall": 0.5018450021743774,
+      "nether": 0.49815496802330017
     },
     "unknown": {
-      "overall": 1,
-      "suspense": 1
+      "overall": 0.49815496802330017,
+      "suspense": 0.49815496802330017
     },
     "dark": {
-      "overall": 1,
-      "suspense": 1
+      "overall": 0.5018450021743774,
+      "suspense": 0.5018450021743774
     },
     "deep": {
-      "overall": 1,
-      "cave": 1
+      "overall": 0.5018450021743774,
+      "cave": 0.49815496802330017
     },
     "wind": {
-      "overall": 1,
-      "wind": 1
+      "overall": 0.49815496802330017,
+      "wind": 0.5018450021743774
     },
     "underwater": {
       "overall": 1,
@@ -59,23 +59,23 @@
       "howling-wind": 1
     },
     "underworld": {
-      "overall": 1,
-      "underworld": 1
+      "overall": 0.5018450021743774,
+      "underworld": 0.49815496802330017
     },
     "cave": {
-      "overall": 1
+      "overall": 0.5018450021743774
     },
     "cave_ambience": {
-      "overall": 1,
-      "cave": 1,
-      "cave-water": 1,
-      "cave-deep": 1,
-      "cave-large": 1
+      "overall": 0.5018450021743774,
+      "cave": 0.49815496802330017,
+      "cave-water": 0.49815496802330017,
+      "cave-deep": 0.49815496802330017,
+      "cave-large": 0.49815496802330017
     },
     "cave_lush": {
-      "overall": 1,
-      "cave-lush": 1,
-      "frog": 1
+      "overall": 0.5018450021743774,
+      "cave-lush": 0.49815496802330017,
+      "frog": 0.24723246693611145
     },
     "surface": {
       "overall": 1
@@ -89,16 +89,16 @@
     },
     "forest": {
       "overall": 1,
-      "bird-ambience": 1,
-      "owl": 1
+      "bird-ambience": 0.15129151940345764,
+      "owl": 0.254612535238266
     },
     "forest_cold": {
       "overall": 1,
-      "crow": 1
+      "crow": 0.19557195901870728
     },
     "taiga": {
       "overall": 1,
-      "bird-ambience-huge": 1
+      "bird-ambience-huge": 0.09963099658489227
     },
     "highland": {
       "overall": 1,
@@ -111,56 +111,56 @@
     },
     "forest_roofed": {
       "overall": 1,
-      "bird-ambience-spooky": 1
+      "bird-ambience-spooky": 0.12915128469467163
     },
     "grass": {
       "overall": 1,
-      "cricket": 1,
-      "cricket-night": 1,
-      "cicadas-night": 1
+      "cricket": 0.10332103073596954,
+      "cricket-night": 0.19926199316978455,
+      "cicadas-night": 0.19926199316978455
     },
     "plains": {
       "overall": 1,
-      "cricket": 1,
-      "cricket-night": 1,
-      "cicadas-night": 1
+      "cricket": 0.095940962433815,
+      "cricket-night": 0.19557195901870728,
+      "cicadas-night": 0.19557195901870728
     },
     "savanna": {
       "overall": 1,
-      "cricket": 1,
-      "cicadas": 1,
-      "cicadas-desert": 1,
-      "cricket-warm-night": 1,
-      "wolf": 1,
-      "bird-warm": 1
+      "cricket": 0.09963099658489227,
+      "cicadas": 0.20295202732086182,
+      "cicadas-desert": 0.19926199316978455,
+      "cricket-warm-night": 0.19926199316978455,
+      "wolf": 0.19926199316978455,
+      "bird-warm": 0.15129151940345764
     },
     "desert": {
       "overall": 1,
-      "cicadas-desert": 1,
+      "cicadas-desert": 0.2509225010871887,
       "light-wind": 1
     },
     "swamp": {
       "overall": 1,
-      "cricket-swamp": 1,
-      "cricket-warm-night": 1,
-      "frog": 1
+      "cricket-swamp": 0.09963099658489227,
+      "cricket-warm-night": 0.20295202732086182,
+      "frog": 0.3468634784221649
     },
     "jungle": {
       "overall": 1,
-      "cricket-jungle": 1,
-      "cricket-jungle-night": 1,
-      "bird-ambience-jungle": 1,
-      "bird-ambience-jungle-night": 1
+      "cricket-jungle": 0.10332103073596954,
+      "cricket-jungle-night": 0.19926199316978455,
+      "bird-ambience-jungle": 0.20295202732086182,
+      "bird-ambience-jungle-night": 0.20295202732086182
     },
     "cold": {
       "overall": 1,
-      "light-wind": 1
+      "light-wind": 0.7490774989128113
     },
     "beach": {
       "overall": 1,
       "beach": 1,
-      "seagull": 1,
-      "seagull-long": 1
+      "seagull": 0.2509225010871887,
+      "seagull-long": 0.24723246693611145
     },
     "ocean": {
       "overall": 1,

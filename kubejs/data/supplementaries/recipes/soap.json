@@ -12,7 +12,7 @@
             "item": "supplementaries:ash"
         },
 		"S": {
-            "item": "kubejs:soul_salt"
+            "item": "spelunkery:salt"
         },
         "H": {
             "tag": "minecraft:small_flowers"
@@ -20,7 +20,7 @@
     },
   "result": {
     "item": "supplementaries:soap",
-    "count": 6
+    "count": 8
   },
   "conditions": [
     {

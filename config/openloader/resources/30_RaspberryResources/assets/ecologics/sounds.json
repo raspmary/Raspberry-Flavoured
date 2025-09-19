@@ -1,0 +1,68 @@
+{
+  "entity.camel.ambient": {
+	"replace": true,
+    "sounds": [
+      "ecologics:camel/ambient1",
+      "ecologics:camel/ambient2",
+      "ecologics:camel/ambient3",
+      "ecologics:camel/ambient4",
+      "ecologics:camel/ambient5",
+      "ecologics:camel/ambient6",
+      "ecologics:camel/ambient7",
+      "ecologics:camel/ambient8"
+    ],
+    "subtitle": "ecologics.subtitles.entity.camel.ambient"
+  },
+  "entity.camel.death": {
+	"replace": true,
+    "sounds": [
+      "ecologics:camel/death1",
+      "ecologics:camel/death2"
+    ],
+    "subtitle": "ecologics.subtitles.entity.camel.death"
+  },
+  "entity.camel.hurt": {
+	"replace": true,
+    "sounds": [
+      "ecologics:camel/hurt1",
+      "ecologics:camel/hurt2",
+      "ecologics:camel/hurt3",
+      "ecologics:camel/hurt4"
+    ],
+    "subtitle": "ecologics.subtitles.entity.camel.hurt"
+  },
+  "entity.camel.angry": {
+	"replace": true,
+    "sounds": [
+      "ecologics:camel/stand1",
+      "ecologics:camel/stand2",
+      "ecologics:camel/stand3",
+      "ecologics:camel/stand4",
+      "ecologics:camel/stand5"
+    ],
+    "subtitle": "ecologics.subtitles.entity.camel.angry"
+  },
+  "entity.camel.eat": {
+	"replace": true,
+    "sounds": [
+      "ecologics:camel/eat1",
+      "ecologics:camel/eat2",
+      "ecologics:camel/eat3",
+      "ecologics:camel/eat4",
+      "ecologics:camel/eat5"
+    ],
+    "subtitle": "ecologics.subtitles.entity.camel.eat"
+  },
+  "entity.camel.step": {
+	"replace": true,
+    "sounds": [
+      "ecologics:camel/step1",
+      "ecologics:camel/step2",
+      "ecologics:camel/step3",
+      "ecologics:camel/step4",
+      "ecologics:camel/step5",
+      "ecologics:camel/step6"
+    ],
+    "subtitle": "ecologics.subtitles.entity.camel.step"
+  }
+}

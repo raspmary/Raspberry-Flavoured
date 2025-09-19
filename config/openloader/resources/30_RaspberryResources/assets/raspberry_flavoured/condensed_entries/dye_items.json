@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:dye_items": {
+      "base_item": "minecraft:red_dye",
+      "item_tag": "raspberry_flavoured:dye_items"
+    }
+  }
+}

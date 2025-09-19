@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stone_brick_slab",
+  "replaces_with": "architects_palette:dripstone_brick_slab",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_dripstone"
+    ]
+  }
+}

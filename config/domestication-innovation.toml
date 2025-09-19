@@ -19,7 +19,7 @@
 	#true if mobs can respawn in pet beds the next morning after they die
 	pet_bed_respawns = true
 	#true if collar tag functionality are enabled. If this is disabled, there is no way to enchant mobs!
-	collar_tags = false
+	collar_tags = true
 	#true if rabbits scare ravagers like they used to do
 	rabbits_scare_ravagers = true
 	#true if animal tamer villagers are enabled. Their work station is a pet bed
@@ -55,13 +55,13 @@
 
 [enchantments]
 	#true if health boost enchant is enabled, false if disabled
-	health_boost_enabled = false
+	health_boost_enabled = true
 	#true if fireproof enchant is enabled, false if disabled
 	fireproof_enabled = false
 	#true if immunity frame enchant is enabled, false if disabled
 	immunity_frame_enabled = false
 	#true if deflection enchant is enabled, false if disabled
-	deflection_enabled = false
+	deflection_enabled = true
 	#true if poison resistance enchant is enabled, false if disabled
 	poison_resistance_enabled = false
 	#true if chain lightning enchant is enabled, false if disabled
@@ -69,13 +69,13 @@
 	#true if speedster enchant is enabled, false if disabled
 	speedster_enabled = false
 	#true if frost fang enchant is enabled, false if disabled
-	frost_fang_enabled = false
+	frost_fang_enabled = true
 	#true if magnetic enchant is enabled, false if disabled
 	magnetic_enabled = false
 	#true if linked inventory enchant is enabled, false if disabled
 	linked_inventory_enabled = false
 	#true if total recall enchant is enabled, false if disabled
-	total_recall_enabled = false
+	total_recall_enabled = true
 	#true if health siphon enchant is enabled, false if disabled
 	health_siphon_enabled = false
 	#true if bubbling enchant is enabled, false if disabled
@@ -83,7 +83,7 @@
 	#true if herding enchant is enabled, false if disabled
 	herding_enabled = false
 	#true if amphibious enchant is enabled, false if disabled
-	amphibious_enabled = false
+	amphibious_enabled = true
 	#true if vampire enchant is enabled, false if disabled
 	vampire_enabled = false
 	#true if void cloud enchant is enabled, false if disabled
@@ -105,11 +105,11 @@
 	#true if psychic wall enchant is enabled, false if disabled
 	psychic_wall_enabled = false
 	#true if intimidation enchant is enabled, false if disabled
-	intimidation_enabled = false
+	intimidation_enabled = true
 	#true if tethered teleport enchant is enabled, false if disabled
-	tethered_teleport_enabled = false
+	tethered_teleport_enabled = true
 	#true if muffled enchant is enabled, false if disabled
-	muffled_enabled = false
+	muffled_enabled = true
 	#true if blazing protection enchant is enabled, false if disabled
 	blazing_protection_enabled = false
 	#true if healing aura enchant is enabled, false if disabled

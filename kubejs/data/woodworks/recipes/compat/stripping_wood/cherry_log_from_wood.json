@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "item": "environmental:cherry_wood"
-  },
-  "result": "environmental:cherry_log"
-}

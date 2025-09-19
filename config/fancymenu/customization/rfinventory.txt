@@ -14,27 +14,23 @@ customization {
 }
 
 customization {
-  identifier = %id=516478%
+  identifier = %id=570488%
   orientation = mid-centered
-  x = 15
+  x = 72
   action = movebutton
-  y = -74
+  y = -14
 }
 
 customization {
-  orientation = element
-  restartbackgroundanimations = true
-  buttonaction = opengui;net.minecraft.client.gui.screens.advancements.AdvancementsScreen%btnaction_splitter_fm%
-  backgroundhovered = config/fancymenu/fancymenu_assets/advancementsbuttonhover.png
-  label = 
-  loopbackgroundanimations = true
-  orientation_element = vanillabtn:516478
-  x = 25
-  width = 20
-  action = addbutton
-  actionid = 13454479-646c-4d17-a3d2-aa94cb0fed6f1707515158996
-  y = 0
-  backgroundnormal = config/fancymenu/fancymenu_assets/advancementsbutton.png
-  height = 18
+  identifier = %id=516478%
+  orientation = mid-centered
+  x = 53
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=438425%
+  action = hidebutton
 }
 

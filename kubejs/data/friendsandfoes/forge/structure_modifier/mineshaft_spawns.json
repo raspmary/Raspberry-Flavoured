@@ -1,0 +1,10 @@
+{
+  "type": "dungeons_mobs:add_spawns",
+  "structures": "#bettermineshafts:better_mineshafts",
+  "spawners": {
+    "type": "friendsandfoes:rascal",
+    "weight": 1,
+    "minCount": 0,
+    "maxCount": 1
+  }
+}

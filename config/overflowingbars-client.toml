@@ -4,7 +4,7 @@
 	#Having only this option active will make the toughness bar behave just like vanilla's armor bar without any colorful stacking or so.
 	armor_toughness_bar = true
 	#Render row count to indicate total amount of rows since not all may be visible at once due to the stacked rendering.
-	allow_count = false
+	allow_count = true
 	#Show colorful icons on the front row, not just on all subsequent rows.
 	colorize_first_row = false
 	#Shift toughness bar up or down by specified number of icon rows. Allows for better mod compat on Fabric, has no effect on Forge.
@@ -37,7 +37,7 @@
 	#Don't draw empty armor points, this will make the armor bar potentially shorter.
 	skip_empty_armor_points = false
 	#Render row count to indicate total amount of rows since not all may be visible at once due to the stacked rendering.
-	allow_count = true
+	allow_count = false
 	#Use vanilla's icons on all front rows, use custom colored icons on the background row.
 	inverse_coloring = false
 

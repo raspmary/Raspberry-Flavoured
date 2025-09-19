@@ -1,0 +1,6 @@
+{
+  "target_block": {
+    "block": "bedspreads:decorated_bed",
+    "predicate_type": "minecraft:block_match"
+  }
+}

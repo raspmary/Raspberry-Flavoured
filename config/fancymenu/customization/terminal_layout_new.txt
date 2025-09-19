@@ -1,0 +1,56 @@
+type = menu
+
+customization-meta {
+  identifier = com.tom.storagemod.gui.StorageTerminalScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=385476%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=385494%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=385440%
+  orientation = element
+  orientation_element = vanillabtn:385404
+  x = 38
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=385458%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=385404%
+  orientation = mid-centered
+  x = -91
+  action = movebutton
+  y = -118
+}
+
+customization {
+  identifier = %id=385422%
+  orientation = element
+  orientation_element = vanillabtn:385404
+  x = 19
+  action = movebutton
+  y = 0
+}
+

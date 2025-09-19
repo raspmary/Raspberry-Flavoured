@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "woodworks:block/warped_bookshelf_top",
+    "side": "woodworks:block/warped_bookshelf"
+  }
+}

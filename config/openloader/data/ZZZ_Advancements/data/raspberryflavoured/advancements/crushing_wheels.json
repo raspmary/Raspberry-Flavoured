@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:mech_crafter",
+  "parent": "raspberryflavoured:steel",
   "criteria": {
     "0": {
       "conditions": {

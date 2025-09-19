@@ -1,7 +1,7 @@
 {
   "type": "brewinandchewin:fermenting",
   "experience": 0.4,
-  "fermentingtime": 800,
+  "fermentingtime": 1200,
   "fluiditem": {
     "item": "minecraft:honey_bottle"
   },
@@ -14,6 +14,9 @@
     },
     {
       "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "spelunkery:salt"
     }
   ],
   "recipe_book_tab": "misc",

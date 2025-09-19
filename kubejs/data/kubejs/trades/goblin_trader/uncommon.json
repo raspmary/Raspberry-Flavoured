@@ -1,0 +1,95 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 24
+      },
+      "offer_item": {
+        "item": "minecraft:compass",
+        "count": 1
+      },
+      "max_trades": 1
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 24
+      },
+      "offer_item": {
+        "item": "caverns_and_chasms:depth_gauge",
+        "count": 1
+      },
+      "max_trades": 1
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 12
+      },
+      "offer_item": {
+        "item": "minecraft:clock",
+        "count": 1
+      },
+      "max_trades": 1
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 12
+      },
+      "offer_item": {
+        "item": "aquaculture:iron_fishing_rod",
+        "count": 1
+      },
+      "max_trades": 1
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 12
+      },
+      "offer_item": {
+        "item": "minecraft:lodestone",
+        "count": 4
+      },
+      "max_trades": 1
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 8
+      },
+      "offer_item": {
+        "item": "minecraft:bundle",
+        "count": 1
+      },
+      "max_trades": 1
+    },
+    {
+      "type": "goblintraders:basic",
+      "payment_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 8
+      },
+      "offer_item": {
+        "item": "minecraft:bucket",
+        "count": 1
+      },
+      "max_trades": 1
+    }
+  ]
+}
+
+
+
+
+
+

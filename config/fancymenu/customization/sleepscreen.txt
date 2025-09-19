@@ -16,14 +16,14 @@ customization {
 customization {
   identifier = %id=400960%
   orientation = bottom-centered
-  x = -37
+  x = -75
   action = movebutton
-  y = -67
+  y = -39
 }
 
 customization {
   identifier = %id=400960%
-  width = 75
+  width = 150
   action = resizebutton
   height = 20
 }
@@ -31,7 +31,7 @@ customization {
 customization {
   identifier = %id=400960%
   seconds = 0.5
-  onlyfirsttime = false
+  onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
   action = hidebuttonfor
@@ -43,10 +43,10 @@ customization {
   shadow = true
   scale = 1.0
   source = {"placeholder":"randomtext","values":{"path":"config/fancymenu/fancymenu_assets/tips.txt","interval":"15"}}
-  text_border = 0
+  text_border = 1
   case_mode = normal
   source_mode = direct
-  line_spacing = 1
+  line_spacing = 0
   x = -210
   width = 420
   action = custom_layout_element:fancymenu_customization_item_text
@@ -61,7 +61,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = &lGood night, {"placeholder":"playername"}! Here's a tip:
+  source = &nGood night, {"placeholder":"playername"}! Here's a tip:
   text_border = 0
   case_mode = normal
   source_mode = direct

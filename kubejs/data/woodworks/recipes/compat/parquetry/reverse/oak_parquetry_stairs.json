@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "item": "architects_palette:oak_board_stairs"
-  },
-  "result": "minecraft:oak_planks"
-}

@@ -1,0 +1,3 @@
+#Enables the Swept Axe to drop its head upon breaking.
+enableSweptAxeHeadDrop = false
+

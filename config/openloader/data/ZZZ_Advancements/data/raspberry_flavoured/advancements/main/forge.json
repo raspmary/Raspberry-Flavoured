@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:main/iron",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "modestmining:forge"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.forge.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.forge.description"
+    },
+    "icon": {
+      "item": "modestmining:forge"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

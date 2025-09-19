@@ -1,7 +1,7 @@
 {
   "parent": "raspberryflavoured:mech_press",
   "criteria": {
-    "0": {
+    "Obtain Engineer's Wrench": {
       "conditions": {
         "items": [
           {
@@ -13,7 +13,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"1": {
+	"Obtain Engineer's Goggles": {
       "conditions": {
         "items": [
           {
@@ -25,7 +25,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"2": {
+	"Obtain any Engineer's Toolbox": {
       "conditions": {
         "items": [
           {
@@ -57,13 +57,13 @@
     },
   "requirements": [
     [
-      "0"
+      "Obtain Engineer's Wrench"
     ],
 	[
-	  "1"
+	  "Obtain Engineer's Goggles"
 	],
 	[
-	  "2"
+	  "Obtain any Engineer's Toolbox"
 	]
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:large_lead_vein_biomes",
+  "features": "kubejs:large_lead_vein",
+  "step": "raw_generation"
+}

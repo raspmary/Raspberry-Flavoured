@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "kubejs:item/wooden_pickaxe_bucket"
+    "layer0": "kubejs:item/unused/wooden_pickaxe_bucket"
   }
 }

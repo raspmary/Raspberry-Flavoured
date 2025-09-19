@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "everycomp:block/q/architects_palette/twisted_bookshelf_top",
+    "side": "everycomp:block/q/architects_palette/twisted_bookshelf"
+  }
+}

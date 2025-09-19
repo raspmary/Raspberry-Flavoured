@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stone_brick_wall",
+  "replaces_with": "quark:sandstone_bricks_wall",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_desert"
+    ]
+  }
+}

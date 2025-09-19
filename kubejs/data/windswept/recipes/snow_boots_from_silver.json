@@ -15,7 +15,7 @@
         "type": "minecraft:crafting_shaped",
         "key": {
           "#": {
-            "tag": "brewinandchewin:iron_or_lead"
+            "item": "minecraft:chain"
           },
           "L": {
             "tag": "minecraft:leather_cuts"

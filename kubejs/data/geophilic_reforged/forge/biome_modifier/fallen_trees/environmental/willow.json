@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:fallen_willow_biomes",
+  "features": "geophilic_reforged:fallen_trees/environmental/willow",
+  "step": "fluid_springs"
+}

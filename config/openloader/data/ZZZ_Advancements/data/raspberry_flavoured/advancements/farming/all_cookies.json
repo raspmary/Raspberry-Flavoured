@@ -1,0 +1,162 @@
+{
+  "parent": "raspberry_flavoured:farming/oven",
+  "criteria": {
+    "Obtain Chocolate Chip Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Green Tea Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersrespite:green_tea_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Honey Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:honey_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Sweet Berry Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:sweet_berry_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Cherry Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abnormals_delight:cherry_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Maple Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abnormals_delight:maple_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Sugar Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:sugar_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Oat Cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:oat_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Cinnamon Cracker": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:cinnamon_cracker"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.all_cookies.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.all_cookies.description"
+    },
+    "icon": {
+      "item": "kubejs:sugar_cookie",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "Obtain Chocolate Chip Cookie"
+    ],
+    [
+      "Obtain Green Tea Cookie"
+    ],
+    [
+      "Obtain Honey Cookie"
+    ],
+    [
+      "Obtain Sweet Berry Cookie"
+    ],
+    [
+      "Obtain Cherry Cookie"
+    ],
+    [
+      "Obtain Maple Cookie"
+    ],
+    [
+      "Obtain Sugar Cookie"
+    ],
+    [
+      "Obtain Oat Cookie"
+    ],
+    [
+      "Obtain Cinnamon Cracker"
+	]
+  ]
+}

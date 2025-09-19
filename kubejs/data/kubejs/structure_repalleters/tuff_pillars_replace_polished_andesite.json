@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:polished_andesite",
+  "replaces_with": "create:tuff_pillar",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterdungeons:zombie_dungeon"
+    ]
+  }
+}

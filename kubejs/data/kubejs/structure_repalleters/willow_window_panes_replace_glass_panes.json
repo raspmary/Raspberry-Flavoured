@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:glass_pane",
+  "replaces_with": "everycomp:c/environmental/willow_window_pane",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterwitchhuts:witch_hut"
+    ]
+  }
+}

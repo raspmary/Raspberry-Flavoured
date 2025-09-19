@@ -1,3 +1,11 @@
-#If enabled, block image and name will be displayed
+#If enabled, block image and name will be displayed.
 "Display blocks" = true
+#If enabled, information on entities will be displayed.
+"Display entities" = true
+#Change the horizontal position of the HUD (center alignment). Default 0.09.
+#Range: 0.0 ~ 1.0
+"Horizontal position" = 0.5
+#Change the horizontal position of the HUD. Default 0.09.
+#Range: 0.0 ~ 1.0
+"Vertical position" = 0.05
 

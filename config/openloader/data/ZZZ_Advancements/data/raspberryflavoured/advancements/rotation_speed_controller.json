@@ -1,0 +1,35 @@
+{
+  "parent": "raspberryflavoured:brass",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:rotation_speed_controller"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Place down rotation speed controllers to be able to precisely control and configure the rotation speed of your contraptions"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:rotation_speed_controller"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Control Freak"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

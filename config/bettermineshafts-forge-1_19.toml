@@ -19,35 +19,35 @@
 		# Chance of an ore deposit being cobblestone only.
 		# Default: 50
 		#Range: 0 ~ 100
-		"Cobble Spawn Chance (Empty Deposit)" = 50
+		"Cobble Spawn Chance (Empty Deposit)" = 35
 		# Chance of an ore deposit containing coal.
 		# Default: 20
 		#Range: 0 ~ 100
-		"Coal Spawn Chance" = 20
+		"Coal Spawn Chance" = 23
 		# Chance of an ore deposit containing iron.
 		# Default: 9
 		#Range: 0 ~ 100
-		"Iron Spawn Chance" = 9
+		"Iron Spawn Chance" = 13
 		# Chance of an ore deposit containing redstone.
 		# Default: 7
 		#Range: 0 ~ 100
-		"Redstone Spawn Chance" = 7
+		"Redstone Spawn Chance" = 16
 		# Chance of an ore deposit containing gold.
 		# Default: 7
 		#Range: 0 ~ 100
-		"Gold Spawn Chance" = 7
+		"Gold Spawn Chance" = 10
 		# Chance of an ore deposit containing lapis lazuli.
 		# Default: 3
 		#Range: 0 ~ 100
-		"Lapis Spawn Chance" = 3
+		"Lapis Spawn Chance" = 0
 		# Chance of an ore deposit containing emerald.
 		# Default: 3
 		#Range: 0 ~ 100
-		"Emerald Spawn Chance" = 3
+		"Emerald Spawn Chance" = 0
 		# Chance of an ore deposit containing diamond.
 		# Default: 1
 		#Range: 0 ~ 100
-		"Diamond Spawn Chance" = 1
+		"Diamond Spawn Chance" = 3
 
 	###########################################################################################################
 	## Spawn rates for various mineshaft parts and decorations.
@@ -96,7 +96,7 @@
 		# Percent chance of an Abandoned Miners' Outpost to spawn at the end of a small mineshaft tunnel.
 		# Default: 2
 		#Range: 0 ~ 100
-		"Abandoned Miners' Outpost Spawn Chance" = 2
+		"Abandoned Miners' Outpost Spawn Chance" = 0
 		# The number of "pieces" (e.g. straight, turn, ladder, intersection, etc.) in a single small shaft.
 		# This determines the overall length of small shafts.
 		# Default: 9

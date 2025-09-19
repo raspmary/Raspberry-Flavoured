@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mynethersdelight:block/nether_stove",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mynethersdelight:block/nether_stove"
+    },
+    "facing=south": {
+      "model": "mynethersdelight:block/nether_stove",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mynethersdelight:block/nether_stove",
+      "y": 270
+    }
+  }
+}

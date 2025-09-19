@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:ender_dragon"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.25,
+      "looting_multiplier": 0.25
+    }
+  ],
+  "item": "mynethersdelight:strider_slice",
+  "count": 2.0
+}

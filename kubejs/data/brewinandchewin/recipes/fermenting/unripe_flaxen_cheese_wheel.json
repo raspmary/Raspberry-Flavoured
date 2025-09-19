@@ -4,19 +4,19 @@
     "item": "minecraft:honeycomb"
   },
   "experience": 1,
-  "fermentingtime": 8000,
+  "fermentingtime": 4800,
   "fluiditem": {
     "tag": "forge:milk"
   },
   "ingredients": [
     {
-      "item": "minecraft:brown_mushroom"
+      "tag": "raspberry_flavoured:edible_mushrooms"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "tag": "raspberry_flavoured:edible_mushrooms"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "spelunkery:salt"
     }
   ],
   "recipe_book_tab": "misc",

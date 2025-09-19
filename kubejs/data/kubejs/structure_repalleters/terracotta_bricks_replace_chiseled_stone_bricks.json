@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:chiseled_stone_bricks",
+  "replaces_with": "clayworks:chiseled_terracotta_bricks",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_mesa"
+    ]
+  }
+}

@@ -15,52 +15,26 @@
                 "min": 0.1
               },
               "function": "minecraft:set_damage"
-            },
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "alloyed:steel_axe",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.1
-              },
-              "function": "minecraft:set_damage"
-            },
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "alloyed:steel_hoe",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.1
-              },
-              "function": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:crossbow",
           "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "oreganized:raw_lead",
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -481,8 +455,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 17.0,
-                "min": 5.0
+                "max": 18.0,
+                "min": 6.0
               },
               "function": "minecraft:set_count"
             }
@@ -503,7 +477,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "nethersdelight:hoglin_sirloin"
+          "name": "nethersdelight:hoglin_loin"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "farmersrespite:coffee_beans",
+          "weight": 2
         }
       ],
       "rolls": {

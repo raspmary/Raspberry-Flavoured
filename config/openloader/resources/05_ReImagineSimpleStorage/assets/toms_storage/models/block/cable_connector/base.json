@@ -1,0 +1,46 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"textures": {
+		"0": "toms_storage:block/inventory_block",
+		"1": "toms_storage:block/inv_cable_connector"
+	},
+	"elements": [
+		{
+			"name": "front",
+			"from": [0, 0, 0],
+			"to": [16, 16, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [2, 0, 0, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#1"},
+				"up": {"uv": [2, 0, 0, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "center",
+			"from": [3, 3, 2],
+			"to": [13, 13, 4],
+			"faces": {
+				"east": {"uv": [2, 0, 0, 10], "texture": "#1"},
+				"south": {"uv": [2, 0, 12, 10], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#1"},
+				"up": {"uv": [2, 0, 0, 10], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 10], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "center2",
+			"from": [5, 5, 4],
+			"to": [11, 11, 6],
+			"faces": {
+				"east": {"uv": [2, 0, 0, 5], "texture": "#1"},
+				"south": {"uv": [2, 10, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 6], "texture": "#1"},
+				"up": {"uv": [0, 9, 2, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [2, 10, 0, 16], "rotation": 90, "texture": "#1"}
+			}
+		}
+	]
+}

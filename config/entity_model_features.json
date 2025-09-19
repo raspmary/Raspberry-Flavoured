@@ -1,23 +1,8 @@
 {
   "logModelCreationData": false,
-  "debugOnRightClick": false,
   "renderModeChoice": "NORMAL",
-  "vanillaModelHologramRenderMode_2": "OFF",
+  "vanillaModelHologramRenderMode": "Off",
   "attemptRevertingEntityModelsAlteredByAnotherMod": true,
-  "modelExportMode": "NONE",
-  "attemptPhysicsModPatch_2": "CUSTOM",
-  "modelUpdateFrequency": "Average",
-  "entityRenderModeOverrides": {},
-  "entityPhysicsModPatchOverrides": {},
-  "entityVanillaHologramOverrides": {},
-  "modelsNamesDisabled": [
-    "heads:sheep_head",
-    "heads:sheep_fur_head"
-  ],
-  "allowEBEModConfigModify": true,
-  "animationLODDistance": 20,
-  "retainDetailOnLowFps": true,
-  "retainDetailOnLargerMobs": true,
-  "preventFirstPersonHandAnimating": false,
-  "onlyClientPlayerModel": false
+  "logUnknownOrModdedEntityModels": "NONE",
+  "attemptPhysicsModPatch_2": "CUSTOM"
 }

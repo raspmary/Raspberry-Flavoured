@@ -1,16 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": {
-      "tag": "minecraft:coals"
-    },
 	"S": {
       "item": "minecraft:cobblestone"
     }
   },
   "pattern": [
     "SSS",
-    "S#S",
+    "S S",
     "SSS"
   ],
   "result": {

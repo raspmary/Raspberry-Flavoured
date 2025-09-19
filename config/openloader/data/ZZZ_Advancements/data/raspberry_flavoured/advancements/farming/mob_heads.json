@@ -1,0 +1,51 @@
+{
+  "parent": "raspberry_flavoured:farming/ham",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull",
+			  "minecraft:creeper_head",
+			  "minecraft:zombie_head",
+			  "supplementaries:enderman_head",
+			  "caverns_and_chasms:deeper_head",
+			  "caverns_and_chasms:peeper_head",
+			  "caverns_and_chasms:mime_head",
+			  "piglinproliferation:piglin_head",
+			  "piglinproliferation:piglin_brute_head",
+			  "piglinproliferation:piglin_alchemist_head",
+			  "piglinproliferation:zombified_piglin_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.mob_heads.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.mob_heads.description"
+    },
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

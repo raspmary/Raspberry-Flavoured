@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stripped_jungle_log",
+  "replaces_with": "quark:mud_pillar",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_jungle"
+    ]
+  }
+}

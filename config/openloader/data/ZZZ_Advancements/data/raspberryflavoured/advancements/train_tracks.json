@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Through a sequenced assembly using deployers, create train tracks"
+      "text": "Through crafting or a sequenced assembly using deployers, create train tracks"
     },
     "frame": "task",
     "hidden": false,

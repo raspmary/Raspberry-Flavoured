@@ -1,7 +1,7 @@
 {
-  "parent": "raspberryflavoured:hunting_root",
+  "parent": "raspberryflavoured:atlas",
   "criteria": {
-    "00": {
+    "Obtain Coal Ore": {
       "conditions": {
         "items": [
           {
@@ -13,7 +13,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"01": {
+	"Obtain Deepslate Coal Ore": {
       "conditions": {
         "items": [
           {
@@ -25,7 +25,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"02": {
+	"Obtain Iron Ore": {
       "conditions": {
         "items": [
           {
@@ -37,7 +37,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"03": {
+	"Obtain Deepslate Iron Ore": {
       "conditions": {
         "items": [
           {
@@ -49,7 +49,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"04": {
+	"Obtain Copper Ore": {
       "conditions": {
         "items": [
           {
@@ -61,7 +61,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"05": {
+	"Obtain Deepslate Copper Ore": {
       "conditions": {
         "items": [
           {
@@ -73,7 +73,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"06": {
+	"Obtain Gold Ore": {
       "conditions": {
         "items": [
           {
@@ -85,7 +85,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"07": {
+	"Obtain Deepslate Gold Ore": {
       "conditions": {
         "items": [
           {
@@ -97,7 +97,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"08": {
+	"Obtain Redstone Ore": {
       "conditions": {
         "items": [
           {
@@ -109,7 +109,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"09": {
+	"Obtain Deepslate Redstone Ore": {
       "conditions": {
         "items": [
           {
@@ -121,31 +121,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"10": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:lapis_ore"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-	"11": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_lapis_ore"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-	"12": {
+	"Obtain Diamond Ore": {
       "conditions": {
         "items": [
           {
@@ -157,7 +133,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"13": {
+	"Obtain Deepslate Diamond Ore": {
       "conditions": {
         "items": [
           {
@@ -169,7 +145,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"14": {
+	"Obtain Nether Gold Ore": {
       "conditions": {
         "items": [
           {
@@ -181,7 +157,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"15": {
+	"Obtain Nether Quartz Ore": {
       "conditions": {
         "items": [
           {
@@ -193,7 +169,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"16": {
+	"Obtain Silver Ore": {
       "conditions": {
         "items": [
           {
@@ -205,7 +181,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"17": {
+	"Obtain Deepslate Silver Ore": {
       "conditions": {
         "items": [
           {
@@ -217,7 +193,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"18": {
+	"Obtain Lead Ore": {
       "conditions": {
         "items": [
           {
@@ -229,7 +205,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"19": {
+	"Obtain Deepslate Lead Ore": {
       "conditions": {
         "items": [
           {
@@ -241,7 +217,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"20": {
+	"Obtain Zinc Ore": {
       "conditions": {
         "items": [
           {
@@ -253,12 +229,36 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"21": {
+	"Obtain Deepslate Zinc Ore": {
       "conditions": {
         "items": [
           {
             "items": [
               "create:deepslate_zinc_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Nether Lead Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:nether_lead_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Blackstone Gold Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
             ]
           }
         ]
@@ -275,7 +275,8 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:diamond_ore",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
     },
     "show_toast": true,
     "title": {
@@ -287,70 +288,70 @@
     },
   "requirements": [
     [
-      "00"
+      "Obtain Coal Ore"
     ],
 	[
-      "01"
+      "Obtain Deepslate Coal Ore"
     ],
 	[
-      "02"
+      "Obtain Iron Ore"
     ],
 	[
-      "03"
+      "Obtain Deepslate Iron Ore"
     ],
 	[
-      "04"
+      "Obtain Copper Ore"
     ],
     [
-      "05"
+      "Obtain Deepslate Copper Ore"
     ],
 	[
-      "06"
+      "Obtain Gold Ore"
     ],
 	[
-      "07"
+      "Obtain Deepslate Gold Ore"
     ],
 	[
-      "08"
+      "Obtain Redstone Ore"
     ],
 	[
-      "09"
+      "Obtain Deepslate Redstone Ore"
     ],
 	[
-      "10"
+      "Obtain Diamond Ore"
     ],
 	[
-      "11"
+      "Obtain Deepslate Diamond Ore"
     ],
 	[
-      "12"
+      "Obtain Nether Gold Ore"
     ],
 	[
-      "13"
+      "Obtain Nether Quartz Ore"
     ],
 	[
-      "14"
+      "Obtain Silver Ore"
     ],
 	[
-      "15"
+      "Obtain Deepslate Silver Ore"
     ],
 	[
-      "16"
+      "Obtain Lead Ore"
     ],
 	[
-      "17"
+      "Obtain Deepslate Lead Ore"
     ],
 	[
-      "18"
+      "Obtain Zinc Ore"
     ],
 	[
-      "19"
+      "Obtain Deepslate Zinc Ore"
     ],
 	[
-      "20"
+      "Obtain Nether Lead Ore"
     ],
 	[
-      "21"
+      "Obtain Blackstone Gold Ore"
     ]
   ]
 }

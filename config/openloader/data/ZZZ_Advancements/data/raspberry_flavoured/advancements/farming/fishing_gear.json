@@ -1,0 +1,50 @@
+{
+  "parent": "raspberry_flavoured:farming/fishing_rod",
+  "criteria": {
+    "Obtain Reinforced Fishing Rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:iron_fishing_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Place down Tackle Box": {
+      "conditions": {
+        "block": "aquaculture:tackle_box"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.fishing_gear.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.fishing_gear.description"
+    },
+    "icon": {
+      "item": "aquaculture:iron_fishing_rod"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Obtain Reinforced Fishing Rod"
+    ],
+    [
+      "Place down Tackle Box"
+    ]
+  ]
+}

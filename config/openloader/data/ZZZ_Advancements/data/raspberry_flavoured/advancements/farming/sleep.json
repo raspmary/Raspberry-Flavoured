@@ -1,0 +1,33 @@
+{
+  "parent": "raspberry_flavoured:farming/cloth_scrap",
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.sleep.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.sleep.description"
+    },
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

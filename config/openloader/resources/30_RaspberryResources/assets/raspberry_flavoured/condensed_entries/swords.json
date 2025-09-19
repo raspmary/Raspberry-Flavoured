@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:swords": {
+      "base_item": "minecraft:iron_sword",
+      "item_tag": "forge:tools/swords"
+    }
+  }
+}

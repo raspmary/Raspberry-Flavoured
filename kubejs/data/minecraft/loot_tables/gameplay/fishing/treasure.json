@@ -6,11 +6,24 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:disc_fragment_5"
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:disc_fragment_5",
+		  "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "additionaladditions:mysterious_bundle"
+          "name": "kubejs:loot_bag",
+		  "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -19,17 +32,79 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 24.0,
+                "max": 16.0,
                 "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spelunkery:glowstick"
+          "name": "spelunkery:glowstick",
+		  "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:raw_ammonite"
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "kubejs:raw_ammonite",
+		  "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aquaculture:goldfish",
+		  "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "kubejs:crystalfish",
+		  "weight": 3
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.kubejs.supply_barrel"
+              }
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "minecraft:chests/shipwreck_supply"
+            }
+          ]
         }
       ],
       "rolls": 1.0

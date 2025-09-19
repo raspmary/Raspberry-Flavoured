@@ -1,0 +1,10 @@
+{
+  "type": "dungeons_mobs:add_spawns",
+  "structures": "minecraft:desert_pyramid",
+  "spawners": {
+    "type": "dungeons_mobs:skeleton_vanguard",
+    "weight": 0,
+    "minCount": 0,
+    "maxCount": 0
+  }
+}

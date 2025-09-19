@@ -1,0 +1,10 @@
+{
+  "type": "dungeons_mobs:add_spawns",
+  "structures": "#raspberry_flavoured:nether_fortress",
+  "spawners": {
+    "type": "dungeons_mobs:wildfire",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

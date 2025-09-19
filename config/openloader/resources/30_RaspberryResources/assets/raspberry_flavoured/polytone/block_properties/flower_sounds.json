@@ -1,0 +1,32 @@
+{
+   "targets": [
+   "minecraft:azalea",
+   "minecraft:flowering_azalea",
+   "minecraft:sunflower",
+   "minecraft:lilac",
+   "minecraft:rose_bush",
+   "minecraft:peony",
+   "windswept:red_rose_bush",
+   "windswept:pink_rose_bush",
+   "windswept:blue_rose_bush",
+   "windswept:white_rose_bush",
+   "windswept:yellow_rose_bush",
+   "windswept:wither_rose_bush",
+   "environmental:pink_delphinium",
+   "environmental:blue_delphinium",
+   "environmental:purple_delphinium",
+   "environmental:white_delphinium",
+   "environmental:bird_of_paradise",
+   "atmospheric:tall_yucca_flower",
+   "farmersrespite:tea_bush"
+   ],
+   "sound_type": {
+      "break_sound": "minecraft:block.azalea.break",
+	  "place_sound": "minecraft:block.azalea.place",
+      "hit_sound": "minecraft:block.azalea.hit",
+      "fall_sound": "minecraft:block.azalea.fall",
+      "step_sound": "minecraft:block.azalea.step",
+      "pitch": 0.9,
+      "volume": 1
+   } 
+}

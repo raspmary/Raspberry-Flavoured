@@ -6,10 +6,11 @@
     "environmental:truffle_pie",
     "upgrade_aquatic:mulberry_pie",
     "windswept:mutton_pie",
-    "kubejs:prickly_pear_tart",
+    "kubejs:prickly_pear_pie",
     "brewinandchewin:quiche",
     "farmersrespite:rose_hip_pie",
-    "kubejs:butterscotch_cinnamon_pie"
+    "kubejs:butterscotch_cinnamon_pie",
+    "kubejs:pumpkin_pie"
   ],
   "damage": 7,
   "reload_ticks": 15,

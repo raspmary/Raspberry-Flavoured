@@ -1,0 +1,28 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:chest",
+  "replaces_with": "woodworks:jungle_chest",
+  "selector": {
+    "type": "names",
+    "conditions": [
+      {
+        "type": "forge:and",
+        "values": [
+          {
+            "type": "woodworks:config",
+            "value": "wooden_chests"
+          },
+          {
+            "type": "woodworks:config",
+            "value": "wooden_chests_in_structures"
+          }
+        ]
+      }
+    ],
+    "config": [
+      "minecraft:village_desert",
+      "minecraft:jungle_pyramid"
+    ]
+  }
+}

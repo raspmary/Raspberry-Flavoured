@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:all_discs",
+  "criteria": {
+    "01": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_exostep"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Discover a hidden music disc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "kubejs:music_disc_exostep"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Exodus Will Rise"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_nether_alt"
+    },
+  "requirements": [
+    [
+      "01"
+    ]
+  ]
+}

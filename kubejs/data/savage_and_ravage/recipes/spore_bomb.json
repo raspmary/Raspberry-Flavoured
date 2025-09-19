@@ -6,20 +6,15 @@
     "X#X"
   ],
   "key": {
-    "#": [
-      {
-        "item": "minecraft:sand"
-      },
-      {
-        "item": "minecraft:red_sand"
-      }
-    ],
+    "#": {
+      "tag": "minecraft:sand"
+    },
     "X": {
       "item": "savage_and_ravage:creeper_spores"
     }
   },
   "result": {
     "item": "savage_and_ravage:spore_bomb",
-	"count": 3
+	"count": 4
   }
 }

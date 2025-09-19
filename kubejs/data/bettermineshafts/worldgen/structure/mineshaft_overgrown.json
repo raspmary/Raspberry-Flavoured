@@ -1,0 +1,136 @@
+{
+  "type": "bettermineshafts:mineshaft",
+  "biomes": "#bettermineshafts:has_structure/better_mineshaft_overgrown",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "config": {
+    "flammableLegs": true,
+    "replacementRate": 0.95,
+    "legVariant": "edge",
+    "decorationChances": {
+      "vineChance": 0.5,
+      "snowChance": 0,
+      "cactusChance": 0,
+      "deadBushChance": 0,
+      "mushroomChance": 0.6,
+      "gravelPileChance": 0.8,
+      "lushDecorations": false,
+      "dripstoneDecorations": false
+    },
+    "blockStates": {
+      "mainBlockState": {
+        "Name": "minecraft:mossy_cobblestone"
+      },
+      "supportBlockState": {
+        "Name": "paletteblocks:mossy_cobblestone_brick_wall"
+      },
+      "slabBlockState": {
+        "Name": "paletteblocks:mossy_cobblestone_brick_slab"
+      },
+      "gravelBlockState": {
+        "Name": "minecraft:moss_block"
+      },
+      "stoneWallBlockState": {
+        "Name": "minecraft:mossy_cobblestone_wall"
+      },
+      "stoneSlabBlockState": {
+        "Name": "minecraft:mossy_cobblestone_slab"
+      },
+      "trapdoorBlockState": {
+        "Name": "copperandtuffbackport:waxed_weathered_copper_trapdoor"
+      },
+      "smallLegBlockState": {
+        "Name": "quark:midori_pillar",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "blockStateRandomizers": {
+      "mainRandomizer": {
+        "defaultBlockState": {
+          "Name": "minecraft:cobblestone"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "paletteblocks:mossy_cobblestone_bricks"
+            },
+            "probability": 0.5
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:mossy_stone_bricks"
+            },
+            "probability": 0.4
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:infested_mossy_stone_bricks"
+            },
+            "probability": 0.1
+          }
+        ]
+      },
+      "floorRandomizer": {
+        "defaultBlockState": {
+          "Name": "architects_palette:algal_bricks"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "architects_palette:algal_bricks"
+            },
+            "probability": 0.3
+          },
+          {
+            "blockState": {
+              "Name": "architects_palette:overgrown_algal_bricks"
+            },
+            "probability": 0.4
+          },
+          {
+            "blockState": {
+              "Name": "architects_palette:cracked_algal_bricks"
+            },
+            "probability": 0.3
+          }
+        ]
+      },
+      "brickRandomizer": {
+        "defaultBlockState": {
+          "Name": "minecraft:cobblestone"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "paletteblocks:mossy_cobblestone_bricks"
+            },
+            "probability": 0.5
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:mossy_stone_bricks"
+            },
+            "probability": 0.4
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:infested_mossy_stone_bricks"
+            },
+            "probability": 0.1
+          }
+        ]
+      },
+      "legRandomizer": {
+        "defaultBlockState": {
+          "Name": "quark:midori_pillar",
+          "Properties": {
+            "axis": "y"
+          }
+        },
+        "entries": []
+      }
+    }
+  }
+}

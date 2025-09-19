@@ -1,0 +1,177 @@
+{
+  "parent": "raspberry_flavoured:farming/rich_soil",
+  "criteria": {
+    "Obtain Wooden Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Copper Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Golden Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Iron Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Diamond Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Netherite Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Necromium Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Steel Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Rose Gold Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "additionaladditions:rose_gold_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.all_hoes.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.all_hoes.description"
+    },
+    "icon": {
+      "item": "caverns_and_chasms:necromium_hoe",
+      "nbt": "{Damage:0}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_joke"
+    },
+  "requirements": [
+    [
+      "Obtain Wooden Hoe"
+    ],
+    [
+      "Obtain Copper Hoe"
+    ],
+    [
+      "Obtain Golden Hoe"
+    ],
+    [
+      "Obtain Iron Hoe"
+    ],
+    [
+      "Obtain Diamond Hoe"
+    ],
+    [
+      "Obtain Netherite Hoe"
+    ],
+    [
+      "Obtain Necromium Hoe"
+    ],
+    [
+      "Obtain Steel Hoe"
+    ],
+    [
+      "Obtain Rose Gold Hoe"
+    ],
+    [
+      "Obtain Electrum Hoe"
+    ]
+  ]
+}

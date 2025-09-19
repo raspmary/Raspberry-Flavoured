@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "tools": {
+    "raspberry_flavoured:photography": {
+      "base_item": "exposure:camera",
+      "item_tag": "raspberry_flavoured:photography"
+    }
+  }
+}

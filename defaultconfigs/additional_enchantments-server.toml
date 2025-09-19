@@ -1,18 +1,18 @@
 
 [straight_shot]
 	#Enable or disable the enchantment completely
-	is_enabled = false
+	is_enabled = true
 	#Determines if this enchantment can appear in loot / the enchantment table etc.
-	is_discoverable = true
+	is_discoverable = false
 	#Allow the enchantment to be applied to books
-	is_allowed_on_books = true
+	is_allowed_on_books = false
 	#Determines if the enchantment appears in trades
-	is_tradeable = true
+	is_tradeable = false
 	#Treasure enchantments usually do not appear in the enchantment table
 	is_treasure = false
 	#Maximum acquirable level of the enchantment
 	#Range: 1 ~ 15
-	max_level = 4
+	max_level = 1
 
 [faster_attacks]
 	#Enable or disable the enchantment completely
@@ -228,7 +228,7 @@
 	#Range: 1 ~ 15
 	max_level = 5
 	#Enable or disable the enchantment completely
-	is_enabled = true
+	is_enabled = false
 	#Determines if this enchantment can appear in loot / the enchantment table etc.
 	is_discoverable = true
 	#Allow the enchantment to be applied to books
@@ -240,20 +240,20 @@
 
 [voiding]
 	#Enable or disable the enchantment completely
-	is_enabled = true
+	is_enabled = false
 	#Determines if this enchantment can appear in loot / the enchantment table etc.
-	is_discoverable = true
+	is_discoverable = false
 	#Allow the enchantment to be applied to books
-	is_allowed_on_books = true
+	is_allowed_on_books = false
 	#Determines if the enchantment appears in trades
-	is_tradeable = true
+	is_tradeable = false
 	#Treasure enchantments usually do not appear in the enchantment table
 	is_treasure = false
 
 [bracewalk]
 	#Maximum acquirable level of the enchantment
 	#Range: 1 ~ 15
-	max_level = 4
+	max_level = 3
 	#Enable or disable the enchantment completely
 	is_enabled = true
 	#Determines if this enchantment can appear in loot / the enchantment table etc.
@@ -270,7 +270,7 @@
 	#Range: 1 ~ 15
 	max_level = 6
 	#Enable or disable the enchantment completely
-	is_enabled = true
+	is_enabled = false
 	#Determines if this enchantment can appear in loot / the enchantment table etc.
 	is_discoverable = true
 	#Allow the enchantment to be applied to books

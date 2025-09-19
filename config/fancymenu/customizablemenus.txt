@@ -21,9 +21,6 @@ betteradvancements.gui.BetterAdvancementsScreen {
 net.minecraft.client.gui.screens.DeathScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
-}
-
 net.minecraft.client.gui.screens.InBedChatScreen {
 }
 
@@ -42,12 +39,6 @@ net.minecraft.client.gui.screens.controls.ControlsScreen {
 gg.moonflower.etched.client.screen.AlbumJukeboxScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
-}
-
-net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
-}
-
 me.lizardofoz.inventorio.client.ui.InventorioScreen {
 }
 
@@ -55,5 +46,26 @@ net.minecraft.client.gui.screens.inventory.InventoryScreen {
 }
 
 net.minecraft.client.gui.screens.TitleScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+com.tom.storagemod.gui.StorageTerminalScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 

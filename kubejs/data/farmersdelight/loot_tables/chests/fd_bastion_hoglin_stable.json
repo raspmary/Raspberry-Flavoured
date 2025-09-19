@@ -5,19 +5,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "alloyed:steel_knife"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 2,
           "functions": [
             {

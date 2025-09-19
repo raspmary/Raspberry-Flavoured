@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:andesite_alloy",
+  "parent": "raspberryflavoured:water_wheel",
   "criteria": {
     "0": {
       "conditions": {

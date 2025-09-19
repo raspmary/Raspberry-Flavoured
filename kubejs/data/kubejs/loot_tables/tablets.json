@@ -6,99 +6,68 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_1"
+          "name": "kubejs:blank_tablet",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_2"
+          "name": "kubejs:aquatic_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_3"
+          "name": "kubejs:beastly_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_4"
+          "name": "kubejs:cyclic_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_5"
+          "name": "kubejs:enduring_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_6"
+          "name": "kubejs:flinging_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_7"
+          "name": "kubejs:glacial_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_8"
+          "name": "kubejs:hallowed_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_9"
+          "name": "kubejs:haunted_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_10"
+          "name": "kubejs:heavy_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_11"
+          "name": "kubejs:infested_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_12"
+          "name": "kubejs:otherworldly_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_13"
+          "name": "kubejs:piercing_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_14"
+          "name": "kubejs:pulling_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_15"
+          "name": "kubejs:silent_tablet"
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:smithing_template_16"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_17"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_18"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_19"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_20"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_21"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_22"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_23"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:smithing_template_24"
+          "name": "kubejs:swift_tablet"
         }
       ],
       "rolls": 1.0

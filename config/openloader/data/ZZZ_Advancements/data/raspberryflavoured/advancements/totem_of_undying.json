@@ -1,24 +1,22 @@
 {
-  "parent": "raspberryflavoured:cock",
+  "parent": "raspberryflavoured:ancient_city",
   "criteria": {
     "0": {
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:totem_of_undying"
-            ]
-          }
-        ]
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        }
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:used_totem"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Find a totem husk and power it with a life rune to obtain a totem of undying"
+      "text": "Use a Totem of Undying to cheat death"
     },
     "frame": "challenge",
     "hidden": false,
@@ -30,6 +28,9 @@
       "text": "Memento Mori"
     }
   },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
   "requirements": [
     [
       "0"

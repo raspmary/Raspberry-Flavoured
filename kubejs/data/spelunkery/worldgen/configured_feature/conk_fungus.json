@@ -1,0 +1,24 @@
+{
+  "type": "spelunkery:wall_mushroom",
+  "config": {
+    "block": "spelunkery:conk_fungus",
+    "can_place_on_floor": false,
+    "can_be_placed_on": [
+      "minecraft:dirt",
+      "minecraft:coarse_dirt",
+      "minecraft:mycelium",
+      "minecraft:oak_planks",
+      "minecraft:spruce_planks",
+      "minecraft:dark_oak_planks",
+      "minecraft:birch_planks",
+      "autumnity:maple_planks",
+      "windswept:chestnut_planks",
+      "minecraft:oak_log",
+      "minecraft:spruce_log",
+      "minecraft:dark_oak_log",
+      "minecraft:birch_log",
+      "autumnity:maple_log",
+      "windswept:chestnut_log"
+    ]
+  }
+}

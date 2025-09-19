@@ -1,0 +1,40 @@
+{
+   "targets": [
+	"minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:respawn_anchor",
+    "minecraft:enchanting_table",
+    "minecraft:ender_chest",
+    "quark:obsidian_pressure_plate",
+	"quark:ender_watcher",
+	"frame_changer:obsidian_bricks",
+	"frame_changer:obsidian_brick_slab",
+	"frame_changer:obsidian_brick_stairs",
+	"frame_changer:obsidian_brick_wall",
+	"frame_changer:crying_obsidian_bricks",
+	"frame_changer:crying_obsidian_brick_slab",
+	"frame_changer:crying_obsidian_brick_stairs",
+	"frame_changer:crying_obsidian_brick_wall",
+	"frame_changer:polished_obsidian",
+	"frame_changer:polished_obsidian_slab",
+	"frame_changer:polished_obsidian_stairs",
+	"frame_changer:polished_obsidian_wall",
+	"frame_changer:crying_polished_obsidian",
+	"frame_changer:crying_polished_obsidian_slab",
+	"frame_changer:crying_polished_obsidian_stairs",
+	"frame_changer:crying_polished_obsidian_wall",
+	"frame_changer:obsidian_pillar",
+	"frame_changer:crying_obsidian_pillar",
+	"frame_changer:chiseled_obsidian",
+	"frame_changer:crying_chiseled_obsidian"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.obsidian.break",
+	  "place_sound": "kubejs:sound.obsidian.place",
+      "hit_sound": "kubejs:sound.obsidian.hit",
+      "fall_sound": "kubejs:sound.obsidian.fall",
+      "step_sound": "kubejs:sound.obsidian.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

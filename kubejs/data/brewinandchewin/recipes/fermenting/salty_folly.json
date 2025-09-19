@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 3000,
+  "fermentingtime": 2400,
   "fluiditem": {
     "item": "brewinandchewin:vodka"
   },
@@ -16,7 +16,7 @@
       "item": "minecraft:dried_kelp"
     },
     {
-      "item": "kubejs:soul_salt"
+      "item": "spelunkery:salt"
     },
     {
       "item": "minecraft:seagrass"

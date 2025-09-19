@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:dwarf_geode",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:silver_mirror"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Obtain a silver mirror - it can detect nearby silver ore, and hitting undead with it will create a trail that leads to the nearest silver vein!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "oreganized:silver_mirror"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Mirror Mirror"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

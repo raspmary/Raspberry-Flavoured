@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 1,
-  "ingredient": {
-    "item": "ecologics:stripped_coconut_log"
-  },
-  "result": "ecologics:stripped_coconut_wood"
-}

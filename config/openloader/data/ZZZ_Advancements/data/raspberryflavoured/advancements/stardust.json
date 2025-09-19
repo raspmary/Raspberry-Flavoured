@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:kill_wither",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:stardust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Using crushing wheels, crush a Nether Star into stardust"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:stardust"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Starbreaker"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

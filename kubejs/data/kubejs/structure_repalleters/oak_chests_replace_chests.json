@@ -1,0 +1,13 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:chest",
+  "replaces_with": "woodworks:oak_chest",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_dripstone",
+      "bettermineshafts:mineshaft_oak"
+    ]
+  }
+}

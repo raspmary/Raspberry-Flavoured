@@ -1,0 +1,14 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:iron_bars",
+  "replaces_with": "caverns_and_chasms:waxed_copper_bars",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_acacia",
+      "bettermineshafts:mineshaft_red_desert",
+      "bettermineshafts:mineshaft_lush"
+    ]
+  }
+}

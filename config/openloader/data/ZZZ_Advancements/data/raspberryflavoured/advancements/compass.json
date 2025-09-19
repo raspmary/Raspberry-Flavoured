@@ -1,0 +1,56 @@
+{
+  "parent": "raspberryflavoured:sack",
+  "criteria": {
+    "Obtain Compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Depth Gauge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:depth_gauge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Obtain a compass and depth gauge - they'll display your latitude, altitude and longitude (your X, Y and Z coordinates)!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Navigation Station"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Obtain Compass"
+    ],
+	[
+      "Obtain Depth Gauge"
+    ]
+  ]
+}

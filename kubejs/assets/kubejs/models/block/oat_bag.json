@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "kubejs:block/bags/oat_bag_bottom",
+    "east": "kubejs:block/bags/oat_bag_side",
+    "north": "kubejs:block/bags/oat_bag_side_tied",
+    "particle": "kubejs:block/bags/oat_bag_top",
+    "south": "kubejs:block/bags/oat_bag_side_tied",
+    "up": "kubejs:block/bags/oat_bag_top",
+    "west": "kubejs:block/bags/oat_bag_side"
+  }
+}

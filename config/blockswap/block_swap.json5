@@ -76,7 +76,83 @@ to make editing this file much easier.
 	    	}
 	    ]
 	*/
-	"state_swapper": [],
+	"state_swapper": [
+			{
+	    		"new": {
+	    			"Name": "mynethersdelight:bullet_pepper",
+	    			"Properties": {
+	    				"age": "0"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:nether_wart",
+	    			"Properties": {
+	    				"age": "0"
+	    			}
+	    		}
+	    	},
+			{
+	    		"new": {
+	    			"Name": "mynethersdelight:bullet_pepper",
+	    			"Properties": {
+	    				"age": "1"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:nether_wart",
+	    			"Properties": {
+	    				"age": "1"
+	    			}
+	    		}
+	    	},
+			{
+	    		"new": {
+	    			"Name": "mynethersdelight:bullet_pepper",
+	    			"Properties": {
+	    				"age": "2"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:nether_wart",
+	    			"Properties": {
+	    				"age": "2"
+	    			}
+	    		}
+	    	},
+			{
+	    		"new": {
+	    			"Name": "mynethersdelight:powdery_chubby_sapling"
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:nether_wart",
+	    			"Properties": {
+	    				"age": "3"
+	    			}
+	    		}
+	    	},
+			{
+	    		"new": {
+	    			"Name": "farmersdelight:sandy_shrub"
+	    		},
+	    		"old": {
+	    			"Name": "upgrade_aquatic:tall_beachgrass",
+	    			"Properties": {
+	    				"half": "lower"
+	    			}
+	    		}
+	    	},
+			{
+	    		"new": {
+	    			"Name": "minecraft:air"
+	    		},
+	    		"old": {
+	    			"Name": "upgrade_aquatic:tall_beachgrass",
+	    			"Properties": {
+	    				"half": "upper"
+	    			}
+	    		}
+	    	}
+	],
 	/* A map of blocks that specifies what the "old" block is and what its "new" block is.
 	   Example:
 	   	"swapper": {
@@ -87,10 +163,13 @@ to make editing this file much easier.
 	"swapper": {
 	   		"farmersdelight:rope": "supplementaries:rope",
 	   		"upgrade_aquatic:beachgrass": "farmersdelight:sandy_shrub",
-	   		"upgrade_aquatic:tall_beachgrass": "minecraft:air",
-			"nethersdelight:mimicarnation": "minecraft:air",
-			"windswept:wild_berry_bush_pips": "minecraft:air",
-			"windswept:wild_berry_bush": "minecraft:air",
+	   		"mynethersdelight:letios_compost": "farmersdelight:organic_compost",
+	   		"mynethersdelight:resurgent_soil": "farmersdelight:rich_soil",
+	   		"mynethersdelight:resurgent_soil_farmland": "farmersdelight:rich_soil_farmland",
+	   		"mynethersdelight:crimson_fungus_colony": "nethersdelight:crimson_fungus_colony",
+	   		"mynethersdelight:warped_fungus_colony": "nethersdelight:warped_fungus_colony",
+			"windswept:wild_berry_bush_pips": "berry_good:sweet_berry_bush_pips",
+			"windswept:wild_berry_bush": "minecraft:sweet_berry_bush",
 			"windswept:holly_log": "minecraft:spruce_log",
 			"windswept:holly_wood": "minecraft:spruce_wood",
 			"windswept:stripped_holly_log": "minecraft:stripped_spruce_log",
@@ -110,9 +189,7 @@ to make editing this file much easier.
 			"windswept:holly_hedge": "quark:spruce_hedge",
 			"windswept:holly_leaf_pile": "woodworks:spruce_leaf_pile",
 			"ecologics:flowering_azalea_log": "ecologics:azalea_log",
-			"ecologics:thin_ice": "minecraft:ice",
-			"miners_delight:wild_cave_carrots": "minecraft:air",
-			"miners_delight:gossypium": "minecraft:air",
+			"miners_delight:gossypium": "miners_delight:wild_cave_carrots",
 			"brewinandchewin:unripe_flaxen_cheese_wheel": "brewinandchewin:flaxen_cheese_wheel",
 			"brewinandchewin:unripe_scarlet_cheese_wheel": "brewinandchewin:scarlet_cheese_wheel",
 			"spelunkery:raw_nephrite": "minecraft:sculk",
@@ -167,7 +244,6 @@ to make editing this file much easier.
 			"spelunkery:diorite_silver_ore": "oreganized:silver_ore",
 			"spelunkery:tuff_silver_ore": "oreganized:deepslate_silver_ore",
 			"minecraft:fletching_table": "minecraft:air",
-			"minecraft:brewing_stand": "minecraft:air",
 			"minecraft:emerald_ore": "minecraft:stone",
 			"minecraft:deepslate_emerald_ore": "minecraft:deepslate",
 			"windswept:bluebells": "environmental:bluebell",
@@ -182,8 +258,6 @@ to make editing this file much easier.
 			"neapolitan:adzuki_soil": "minecraft:grass_block",
 			"neapolitan:adzuki_sprouts": "minecraft:grass",
 			"minecraft:jukebox": "etched:album_jukebox",
-			"culturaldelights:cucumbers": "farmersdelight:cabbages",
-			"culturaldelights:wild_cucumbers": "minecraft:air",
 			"quark:shale": "oreganized:glance",
 			"quark:polished_shale": "oreganized:polished_glance",
 			"quark:shale_slab": "oreganized:glance_slab",
@@ -197,14 +271,83 @@ to make editing this file much easier.
 			"culturaldelights:avocado_log": "minecraft:jungle_log",
 			"culturaldelights:avocado_wood": "minecraft:jungle_wood",
 			"minecraft:lapis_block": "minecraft:emerald_block",
-			"architects_palette:twisted_leaves": "kubejs:packed_choral_nylium",
+			"architects_palette:twisted_leaves": "kubejs:choral_cap",
 			"atmospheric:passion_vine": "minecraft:vine",
 			"twigs:rocky_dirt": "caverns_and_chasms:rocky_dirt",
 			"caverns_and_chasms:azalea_log": "ecologics:azalea_log",
-			"mynethersdelight:crimson_fungus_colony": "nethersdelight:crimson_fungus_colony",
-			"mynethersdelight:warped_fungus_colony": "nethersdelight:warped_fungus_colony",
 			"create:copper_bars": "caverns_and_chasms:copper_bars",
 			"caverns_and_chasms:silver_ore": "minecraft:gold_ore",
-			"caverns_and_chasms:deepslate_silver_ore": "minecraft:deepslate_gold_ore"
+			"caverns_and_chasms:deepslate_silver_ore": "minecraft:deepslate_gold_ore",
+			"minecraft:end_portal_frame": "minecraft:air",
+			"minecraft:end_portal": "minecraft:air",
+			"supplementaries:lead_door": "supplementaries:netherite_door",
+			"supplementaries:lead_trapdoor": "supplementaries:netherite_trapdoor",
+			"copperized:copper_door": "copperandtuffbackport:copper_door",
+			"copperized:copper_trapdoor": "copperandtuffbackport:copper_trapdoor",
+			"copperized:exposed_copper_door": "copperandtuffbackport:exposed_copper_door",
+			"copperized:exposed_copper_trapdoor": "copperandtuffbackport:exposed_copper_trapdoor",
+			"copperized:weathered_copper_door": "copperandtuffbackport:weathered_copper_door",
+			"copperized:weathered_copper_trapdoor": "copperandtuffbackport:weathered_copper_trapdoor",
+			"copperized:oxidized_copper_door": "copperandtuffbackport:oxidized_copper_door",
+			"copperized:oxidized_copper_trapdoor": "copperandtuffbackport:oxidized_copper_trapdoor",
+			"copperized:waxed_copper_door": "copperandtuffbackport:waxed_copper_door",
+			"copperized:waxed_copper_trapdoor": "copperandtuffbackport:waxed_copper_trapdoor",
+			"copperized:waxed_exposed_copper_door": "copperandtuffbackport:waxed_exposed_copper_door",
+			"copperized:waxed_exposed_copper_trapdoor": "copperandtuffbackport:waxed_exposed_copper_trapdoor",
+			"copperized:waxed_weathered_copper_door": "copperandtuffbackport:waxed_weathered_copper_door",
+			"copperized:waxed_weathered_copper_trapdoor": "copperandtuffbackport:waxed_weathered_copper_trapdoor",
+			"copperized:waxed_oxidized_copper_door": "copperandtuffbackport:waxed_oxidized_copper_door",
+			"copperized:waxed_oxidized_copper_trapdoor": "copperandtuffbackport:waxed_oxidized_copper_trapdoor",
+			"twigs:copper_pillar": "kubejs:copper_pillar",
+			"twigs:exposed_copper_pillar": "kubejs:exposed_copper_pillar",
+			"twigs:weathered_copper_pillar": "kubejs:weathered_copper_pillar",
+			"twigs:oxidized_copper_pillar": "kubejs:oxidized_copper_pillar",
+			"twigs:waxed_copper_pillar": "kubejs:waxed_copper_pillar",
+			"twigs:waxed_exposed_copper_pillar": "kubejs:waxed_exposed_copper_pillar",
+			"twigs:waxed_weathered_copper_pillar": "kubejs:waxed_weathered_copper_pillar",
+			"twigs:waxed_oxidized_copper_pillar": "kubejs:waxed_oxidized_copper_pillar",
+			"spelunkery:rough_emerald_block": "minecraft:air",
+			"friendsandfoes:exposed_lightning_rod": "caverns_and_chasms:exposed_lightning_rod",
+			"friendsandfoes:weathered_lightning_rod": "caverns_and_chasms:weathered_lightning_rod",
+			"friendsandfoes:oxidized_lightning_rod": "caverns_and_chasms:oxidized_lightning_rod",
+			"friendsandfoes:waxed_lightning_rod": "caverns_and_chasms:waxed_lightning_rod",
+			"friendsandfoes:waxed_exposed_lightning_rod": "caverns_and_chasms:waxed_exposed_lightning_rod",
+			"friendsandfoes:waxed_weathered_lightning_rod": "caverns_and_chasms:waxed_weathered_lightning_rod",
+			"friendsandfoes:waxed_oxidized_lightning_rod": "caverns_and_chasms:waxed_oxidized_lightning_rod",
+			"quark:white_stool": "another_furniture:white_stool",
+			"create:rose_quartz_block": "minecraft:amethyst_block",
+			"create:small_rose_quartz_tiles": "sullysmod:polished_jade_shingles",
+			"alloyed:bronze_block": "kubejs:bronze_block",
+			"alloyed:exposed_bronze_block": "kubejs:bronze_block",
+			"alloyed:weathered_bronze_block": "kubejs:bronze_block",
+			"alloyed:oxidized_bronze_block": "kubejs:bronze_block",
+			"alloyed:waxed_bronze_block": "kubejs:bronze_block",
+			"alloyed:waxed_exposed_bronze_block": "kubejs:bronze_block",
+			"alloyed:waxed_weathered_bronze_block": "kubejs:bronze_block",
+			"alloyed:waxed_oxidized_bronze_block": "kubejs:bronze_block",
+			"cookscollection:salted_dripstone_block": "minecraft:dripstone_block",
+			"cookscollection:lemon_log": "minecraft:oak_log",
+			"cookscollection:lemon_wood": "minecraft:oak_wood",
+			"atmospheric:flowering_morado_leaf_pile": "atmospheric:morado_leaf_pile",
+			"atmospheric:flowering_morado_hedge": "atmospheric:morado_hedge",
+			"minecraft:cake": "raspberry:cake",
+			"neapolitan:vanilla_cake": "raspberry:vanilla_cake",
+			"neapolitan:chocolate_cake": "raspberry:chocolate_cake",
+			"neapolitan:strawberry_cake": "raspberry:strawberry_cake",
+			"neapolitan:banana_cake": "raspberry:banana_cake",
+			"neapolitan:mint_cake": "raspberry:mint_cake",
+			"neapolitan:adzuki_cake": "raspberry:cherry_cake",
+			"respiteful:green_tea_cake": "raspberry:green_tea_cake",
+			"respiteful:yellow_tea_cake": "raspberry:yellow_tea_cake",
+			"respiteful:black_tea_cake": "raspberry:black_tea_cake",
+			"farmersrespite:coffee_cake": "raspberry:coffee_cake",
+			"mynethersdelight:magma_cake": "raspberry:magma_cake",
+			"spelunkery:phosphor_fungus": "spelunkery:mushgloom",
+			"miningmaster:gem_forge": "modestmining:forge",
+			"minecraft:smoker": "minecraft:furnace",
+			"minecraft:blast_furnace": "minecraft:furnace",
+			"clayworks:kiln": "minecraft:furnace",
+			"nethersdelight:nether_brick_smoker": "quark:blackstone_furnace",
+			"nethersdelight:blackstone_blast_furnace": "quark:blackstone_furnace"
 	   	}
 }

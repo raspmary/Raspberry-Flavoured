@@ -12,9 +12,21 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "aquaculture:gameplay/fishing/fish",
+          "quality": 0,
+          "weight": 82
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "minecraft:gameplay/fishing/junk",
-          "quality": -1,
+          "quality": 1,
           "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "aquaculture:gameplay/fishing/junk",
+          "quality": 1,
+          "weight": 18
         },
         {
           "type": "minecraft:loot_table",
@@ -49,8 +61,7 @@
             }
           ],
           "name": "kubejs:tablets",
-          "quality": 1,
-          "weight": 3
+          "quality": 1
         }
       ],
       "rolls": 1.0

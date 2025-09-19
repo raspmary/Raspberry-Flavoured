@@ -1,0 +1,29 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "raspberry_flavoured:zombie_dungeon_blocks",
+  "replaces_with": [
+    {
+      "data": "minecraft:tuff",
+      "weight": 10
+    },
+    {
+      "data": "architects_palette:tuff_bricks",
+      "weight": 8
+    },
+    {
+      "data": "caverns_and_chasms:rocky_dirt",
+      "weight": 2
+    },
+    {
+      "data": "minecraft:coarse_dirt",
+      "weight": 1
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterdungeons:zombie_dungeon"
+    ]
+  }
+}

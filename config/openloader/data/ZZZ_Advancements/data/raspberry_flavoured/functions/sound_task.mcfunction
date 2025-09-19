@@ -1,0 +1,1 @@
+playsound kubejs:advancement.task master @s ~ ~ ~ 0.5

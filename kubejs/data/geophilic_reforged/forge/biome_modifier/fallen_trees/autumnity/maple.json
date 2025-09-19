@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:fallen_maple_biomes",
+  "features": "geophilic_reforged:fallen_trees/autumnity/maple",
+  "step": "fluid_springs"
+}

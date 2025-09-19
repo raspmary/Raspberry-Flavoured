@@ -4,7 +4,7 @@
 coyoteTimeEnabled = true
 #Determines how long (in ticks) the player has to jump with 'Coyote Time' after falling off a block.
 #Range: > 1
-coyoteTimeTicks = 5
+coyoteTimeTicks = 3
 #Determines if the 'Second Chance' feature is enabled.
 #'Second Chance' leaves the player at half a heart after taking fatal damage from a mob or explosion while at or above 7 hearts.
 secondChanceEnabled = true

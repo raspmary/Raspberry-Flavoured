@@ -1,0 +1,8 @@
+{
+  "added": [
+    {
+      "stack": "item:minecraft:end_stone",
+      "after": "item:kubejs:chiseled_exolite"
+    }
+  ]
+}

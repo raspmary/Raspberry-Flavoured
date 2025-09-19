@@ -1,0 +1,37 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "raspberry_flavoured:jungle_temple_blocks",
+  "replaces_with": [
+    {
+      "data": "minecraft:cobblestone",
+      "weight": 5
+    },
+    {
+      "data": "minecraft:mossy_cobblestone",
+      "weight": 5
+    },
+    {
+      "data": "paletteblocks:cobblestone_bricks",
+      "weight": 5
+    },
+    {
+      "data": "paletteblocks:mossy_cobblestone_bricks",
+      "weight": 5
+    },
+    {
+      "data": "paletteblocks:cracked_cobblestone_bricks",
+      "weight": 5
+    },
+    {
+      "data": "minecraft:infested_cobblestone",
+      "weight": 1
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:jungle_pyramid"
+    ]
+  }
+}

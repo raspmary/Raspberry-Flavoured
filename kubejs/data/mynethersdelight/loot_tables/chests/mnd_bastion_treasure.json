@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "mynethersdelight:hoglin_trophy"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "mynethersdelight:zoglin_trophy"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ]
+    }
+  ]
+}

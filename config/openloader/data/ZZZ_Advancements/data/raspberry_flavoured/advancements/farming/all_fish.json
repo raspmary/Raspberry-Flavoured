@@ -1,0 +1,417 @@
+{
+  "parent": "raspberry_flavoured:farming/fishing_gear",
+  "criteria": {
+    "Obtain Cod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Salmon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:salmon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Tropical Fish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Pufferfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pufferfish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Bass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "naturalist:bass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Perch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:perch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Pike": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:pike"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Lionfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:lionfish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Koi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmental:koi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Lanternfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sullysmod:lanternfish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Blackfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:blackfish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Herring": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:atlantic_herring"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Pollock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:pollock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Bayad": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:bayad"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Tilapia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:boulti"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Capitaine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:capitaine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Synodontis": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:synodontis"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Bluegill": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:bluegill"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Trout": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:brown_trout"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Carp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:carp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Gar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:gar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Tambaqui": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:tambaqui"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Grouper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:red_grouper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Tuna": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:tuna"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Goldfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:goldfish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Crystalfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:crystalfish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.all_fish.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.all_fish.description"
+    },
+    "icon": {
+      "item": "sullysmod:lanternfish",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Cod"
+    ],
+    [
+      "Obtain Salmon"
+    ],
+    [
+      "Obtain Tropical Fish"
+    ],
+    [
+      "Obtain Pufferfish"
+    ],
+    [
+      "Obtain Bass"
+    ],
+    [
+      "Obtain Perch"
+    ],
+    [
+      "Obtain Pike"
+    ],
+    [
+      "Obtain Lionfish"
+    ],
+    [
+      "Obtain Koi"
+    ],
+    [
+      "Obtain Lanternfish"
+    ],
+    [
+      "Obtain Blackfish"
+    ],
+    [
+      "Obtain Herring"
+    ],
+    [
+      "Obtain Pollock"
+    ],
+    [
+      "Obtain Bayad"
+    ],
+    [
+      "Obtain Tilapia"
+    ],
+    [
+      "Obtain Capitaine"
+    ],
+    [
+      "Obtain Synodontis"
+    ],
+    [
+      "Obtain Bluegill"
+    ],
+    [
+      "Obtain Trout"
+    ],
+    [
+      "Obtain Carp"
+    ],
+    [
+      "Obtain Gar"
+    ],
+    [
+      "Obtain Tambaqui"
+    ],
+    [
+      "Obtain Grouper"
+    ],
+    [
+      "Obtain Tuna"
+    ],
+    [
+      "Obtain Goldfish"
+    ],
+    [
+      "Obtain Crystalfish"
+    ]
+  ]
+}

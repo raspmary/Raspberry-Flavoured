@@ -1,0 +1,34 @@
+
+["Vanilla Changes"]
+	"Allow healing and Regeneration arrows to not do damage?" = true
+	#Weight is calculated by dividing the current value by the sum of all weights combined.
+	#Use https://minecraft.fandom.com/wiki/Bastion_Remnant?so=search#cite_ref-piglin_group_1-39 as a guide.
+	#The default weight for alchemists spawning is 4, giving them a 28% chance of spawning in bastions
+	#(Due to this, regular piglins have a spawn rate of 28% aswell, and brutes have a spawn rate of 7% spawn rate, changed values will have to account for this).
+	#To change the natural spawn rates, use a datapack that overrides add_alchemist.json file, located in data/piglinproliferation/data/forge/biome_modifier
+	#Range: > -2147483648
+	"Alchemist spawnrate weight in bastions" = 3
+	#Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with regular piglin clothing" = 0.8999999761581421
+	#Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with brute clothing (including items)" = 0.014999999664723873
+	#Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with alchemist clothing (including items" = 0.10000000149011612
+	#Range: 0.0 ~ 9000.0
+	"Chance of zombified piglin variants spawning from the list below" = 0.5
+	#List of variants a zombified piglin has a 50% of turning into when spawning.
+	#Keep in mind they will still spawn with golden swords, this will be changed in the future.
+	"List of piglin variants to use" = []
+
+["Piglin Alchemist"]
+	#Range: 0.0 ~ 9000.0
+	"Chance of alchemist potions not getting broken when killed" = 0.20000000298023224
+
+	["Piglin Alchemist"."Healing Arrow Chances"]
+		#Range: 0.0 ~ 100.0
+		"Chances of an alchemist getting healing arrows" = 0.30000001192092896
+		#Range: > -2147483648
+		"Minmium healing arrow stack size" = 1
+		#Range: > -2147483648
+		"Maximium healing arrow stack size" = 6
+

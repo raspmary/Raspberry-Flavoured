@@ -31,6 +31,21 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 3.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "kubejs:cloth_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
                 "max": 6.0,
                 "type": "minecraft:uniform"
               }
@@ -60,7 +75,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
+                "min": 1.0,
                 "max": 2.0,
                 "type": "minecraft:uniform"
               }
@@ -85,8 +100,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
-          "name": "architects_palette:withered_bone_block"
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "architects_palette:withered_bone"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "parent": "raspberryflavoured:all_ores",
   "criteria": {
-    "00": {
+    "Obtain Oak Log": {
       "conditions": {
         "items": [
           {
@@ -11,7 +11,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"01": {
+	"Obtain Spruce Log": {
       "conditions": {
         "items": [
           {
@@ -21,7 +21,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"02": {
+	"Obtain Birch Log": {
       "conditions": {
         "items": [
           {
@@ -31,7 +31,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"03": {
+	"Obtain Jungle Log": {
       "conditions": {
         "items": [
           {
@@ -41,7 +41,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"04": {
+	"Obtain Acacia Log": {
       "conditions": {
         "items": [
           {
@@ -51,7 +51,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"05": {
+	"Obtain Dark Oak Log": {
       "conditions": {
         "items": [
           {
@@ -61,7 +61,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"06": {
+	"Obtain Mangrove Log": {
       "conditions": {
         "items": [
           {
@@ -71,17 +71,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"07": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "architects_palette:twisted_logs"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-	"08": {
+	"Obtain Coconut Log": {
       "conditions": {
         "items": [
           {
@@ -91,7 +81,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"09": {
+	"Obtain Azalea Log": {
       "conditions": {
         "items": [
           {
@@ -101,7 +91,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"10": {
+	"Obtain Rosewood Log": {
       "conditions": {
         "items": [
           {
@@ -111,7 +101,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"11": {
+	"Obtain Morado Log": {
       "conditions": {
         "items": [
           {
@@ -121,7 +111,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"12": {
+	"Obtain Yucca Log": {
       "conditions": {
         "items": [
           {
@@ -131,7 +121,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"14": {
+	"Obtain Maple Log": {
       "conditions": {
         "items": [
           {
@@ -141,7 +131,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"15": {
+	"Obtain Willow Log": {
       "conditions": {
         "items": [
           {
@@ -151,7 +141,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"16": {
+	"Obtain Cherry Log": {
       "conditions": {
         "items": [
           {
@@ -161,7 +151,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"17": {
+	"Obtain Wisteria Log": {
       "conditions": {
         "items": [
           {
@@ -171,7 +161,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"18": {
+	"Obtain Driftwood Log": {
       "conditions": {
         "items": [
           {
@@ -181,17 +171,17 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"19": {
+	"Obtain Block of Bamboo": {
       "conditions": {
         "items": [
           {
-            "tag": "upgrade_aquatic:river_logs"
+            "tag": "quark:bamboo_logs"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"20": {
+	"Obtain Chestnut Log": {
       "conditions": {
         "items": [
           {
@@ -201,7 +191,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"21": {
+	"Obtain Crimson Stem": {
       "conditions": {
         "items": [
           {
@@ -211,11 +201,31 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"22": {
+	"Obtain Warped Stem": {
       "conditions": {
         "items": [
           {
             "tag": "minecraft:warped_stems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Choral Stem": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "architects_palette:twisted_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Block of Powdery Cane": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "mynethersdelight:block_of_powdery"
           }
         ]
       },
@@ -231,7 +241,8 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:oak_log",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
     },
     "show_toast": true,
     "title": {
@@ -243,70 +254,73 @@
     },
   "requirements": [
     [
-      "00"
+      "Obtain Oak Log"
     ],
 	[
-      "01"
+      "Obtain Spruce Log"
     ],
 	[
-      "02"
+      "Obtain Birch Log"
     ],
 	[
-      "03"
+      "Obtain Jungle Log"
     ],
 	[
-      "04"
+      "Obtain Acacia Log"
     ],
     [
-      "05"
+      "Obtain Dark Oak Log"
     ],
 	[
-      "06"
+      "Obtain Mangrove Log"
     ],
 	[
-      "07"
+      "Obtain Coconut Log"
     ],
 	[
-      "08"
+      "Obtain Azalea Log"
     ],
 	[
-      "09"
+      "Obtain Rosewood Log"
     ],
 	[
-      "10"
+      "Obtain Morado Log"
     ],
 	[
-      "11"
+      "Obtain Yucca Log"
     ],
 	[
-      "12"
+      "Obtain Maple Log"
     ],
 	[
-      "14"
+      "Obtain Willow Log"
     ],
 	[
-      "15"
+      "Obtain Cherry Log"
     ],
 	[
-      "16"
+      "Obtain Wisteria Log"
     ],
 	[
-      "17"
+      "Obtain Driftwood Log"
     ],
 	[
-      "18"
+      "Obtain Block of Bamboo"
     ],
 	[
-      "19"
+      "Obtain Chestnut Log"
     ],
 	[
-      "20"
+      "Obtain Crimson Stem"
     ],
 	[
-      "21"
+      "Obtain Warped Stem"
     ],
 	[
-      "22"
+      "Obtain Choral Stem"
+    ],
+	[
+      "Obtain Block of Powdery Cane"
     ]
   ]
 }

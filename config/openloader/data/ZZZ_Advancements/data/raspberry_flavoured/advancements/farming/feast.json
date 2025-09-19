@@ -1,0 +1,112 @@
+{
+  "parent": "raspberry_flavoured:farming/oven",
+  "criteria": {
+    "Place down Roast Chicken": {
+      "conditions": {
+        "block": "farmersdelight:roast_chicken_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Stuffed Pumpkin": {
+      "conditions": {
+        "block": "farmersdelight:stuffed_pumpkin_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Honey Glazed Ham": {
+      "conditions": {
+        "block": "farmersdelight:honey_glazed_ham_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Shepherd's Pie": {
+      "conditions": {
+        "block": "farmersdelight:shepherds_pie_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Rice Roll Medley": {
+      "conditions": {
+        "block": "farmersdelight:rice_roll_medley_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Stuffed Hoglin": {
+      "conditions": {
+        "block": "mynethersdelight:stuffed_hoglin"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Fiery Fondue Pot": {
+      "conditions": {
+        "block": "brewinandchewin:fiery_fondue_pot"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Eggplant Parmesan": {
+      "conditions": {
+        "block": "kubejs:eggplant_parmesan_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Stuffed Squid": {
+      "conditions": {
+        "block": "miners_delight:stuffed_squid"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Striderloaf": {
+      "conditions": {
+        "block": "mynethersdelight:striderloaf_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Ghasta with Cream": {
+      "conditions": {
+        "block": "mynethersdelight:ghasta_with_cream_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Motley Grill": {
+      "conditions": {
+        "block": "onion_onion:motley_grill_block"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.feast.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.feast.description"
+    },
+    "icon": {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+	"Place down Roast Chicken", 
+	"Place down Stuffed Pumpkin", 
+	"Place down Honey Glazed Ham", 
+	"Place down Shepherd's Pie", 
+	"Place down Rice Roll Medley", 
+	"Place down Stuffed Hoglin", 
+	"Place down Fiery Fondue Pot", 
+	"Place down Eggplant Parmesan", 
+	"Place down Stuffed Squid", 
+	"Place down Striderloaf", 
+	"Place down Ghasta with Cream", 
+	"Place down Motley Grill"
+	]
+  ]
+}

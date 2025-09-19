@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:precision_mechanism",
+  "parent": "raspberryflavoured:rotation_speed_controller",
   "criteria": {
     "0": {
       "conditions": {

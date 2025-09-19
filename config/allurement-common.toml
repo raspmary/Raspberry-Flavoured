@@ -20,10 +20,10 @@
 
 	[enchantments.reforming]
 		#Gear enchantment that very slowly repairs items over time
-		"Enable Reforming" = false
+		"Enable Reforming" = true
 		#How many ticks it takes a reforming item to repair
 		#Range: > 0
-		"Reforming tick rate" = 300
+		"Reforming tick rate" = 100
 
 	[enchantments.shockwave]
 		#Boots enchantment that creates a shockwave when taking fall damage

@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Place down a mechanical saw to cut blocks up or use it to chop down trees in one fell swoop - sawing andesite alloys is the most resource efficient way to make shafts!"
+      "text": "Place down a mechanical saw to cut blocks up or use it to chop down trees in one fell swoop - sawing sturdy alloy is the most resource efficient way to make shafts, by the way!"
     },
     "frame": "task",
     "hidden": false,

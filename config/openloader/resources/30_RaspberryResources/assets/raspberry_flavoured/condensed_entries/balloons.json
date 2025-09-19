@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "tools": {
+    "raspberry_flavoured:balloons": {
+      "base_item": "endergetic:bolloom_balloon",
+      "item_tag": "raspberry_flavoured:balloons"
+    }
+  }
+}

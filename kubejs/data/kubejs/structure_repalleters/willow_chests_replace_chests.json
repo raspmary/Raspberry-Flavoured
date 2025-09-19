@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:chest",
+  "replaces_with": "environmental:willow_chest",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterwitchhuts:witch_hut"
+    ]
+  }
+}

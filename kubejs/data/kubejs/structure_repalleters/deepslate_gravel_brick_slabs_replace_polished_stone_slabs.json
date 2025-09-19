@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:smooth_stone_slab",
+  "replaces_with": "kubejs:deepslate_gravel_brick_slab",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterdungeons:zombie_dungeon"
+    ]
+  }
+}

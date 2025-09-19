@@ -1,13 +1,17 @@
-[21:47:38] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
-[21:47:38] [INIT] Loaded plugins:
-[21:47:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[21:47:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[21:47:38] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[21:47:38] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[21:47:38] [INIT] - com.almostreliable.morejs.Plugin
-[21:47:38] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[21:47:38] [INIT] - com.probejs.ProbeJSPlugin
-[21:47:38] [INFO] Loaded script client_scripts:jei_tab_hide.js in 0.001 s
-[21:47:38] [INFO] Loaded script client_scripts:tooltips.js in 0.024 s
-[21:47:38] [INFO] Loaded 2/2 KubeJS client scripts in 0.05 s
-[21:50:25] [INFO] jei_tab_hide.js#4: [jei:information, minecraft:crafting, clayworks:baking, woodworks:sawing, farmersdelight:cutting, farmersdelight:cooking, brewinandchewin:fermenting, farmersdelight:decomposition, mynethersdelight:forgoting, fishermens_trap:fishtrap_fishing, create:sandpaper_polishing, sullysmod:grindstone_polishing, create:item_application, create:pressing, create:packing, create:automatic_packing, create:milling, create:mixing, create:automatic_shapeless, create:spout_filling, create:draining, create:fan_smoking, create:fan_washing, create:fan_blasting, create:deploying, create_central_kitchen:cutting_board_deploying, create:mechanical_crafting, create:automatic_shaped, create:sequenced_assembly, create:crushing, create:sawing, create:block_cutting, create:mystery_conversion, architects_palette:warping, jeed:effect_info, minecraft:anvil, brewinandchewin:flaxen_cheese_ripening, brewinandchewin:scarlet_cheese_ripening, pollen:grindstone, just_enough_beacons:beacon_base_block, just_enough_beacons:beacon_payment, just_enough_beacons:conduit_frame_block, copperized:axe_scraping, copperized:oxidation, copperized:waxing, miningmaster:forging, exposure:photograph_printing, exposure:photograph_stacking] [java.util.ArrayList]
+[22:05:51] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
+[22:05:51] [INIT] Loaded plugins:
+[22:05:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:05:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:05:51] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[22:05:51] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[22:05:51] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:05:51] [INIT] - com.almostreliable.morejs.Plugin
+[22:05:51] [INIT] - com.common.keybindjs.kubejs.KeyBindJSPlugin
+[22:05:51] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[22:05:51] [INFO] Loaded script client_scripts:copper_brush_appearance.js in 0.003 s
+[22:05:51] [INFO] Loaded script client_scripts:descriptions.js in 0.002 s
+[22:05:51] [INFO] Loaded script client_scripts:ench_tablet_tooltips.js in 0.003 s
+[22:05:51] [INFO] Loaded script client_scripts:repair_ingredient_tooltips.js in 0.001 s
+[22:05:51] [INFO] Loaded script client_scripts:tab_hide.js in 0.001 s
+[22:05:51] [INFO] Loaded script client_scripts:tooltips.js in 0.008 s
+[22:05:51] [INFO] Loaded 6/6 KubeJS client scripts in 0.027 s

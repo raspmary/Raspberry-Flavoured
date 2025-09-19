@@ -1,0 +1,227 @@
+{
+  "parent": "raspberry_flavoured:farming/hoe",
+  "criteria": {
+    "Plant Wheat Seeds on Farmland": {
+      "conditions": {
+        "block": "minecraft:wheat"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Cocoa Beans on Jungle Log": {
+      "conditions": {
+        "block": "minecraft:cocoa"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Vanilla Pods on Dirt, Logs or Leaves": {
+      "conditions": {
+        "block": "neapolitan:vanilla_vine"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant upwards facing Banana Frond on Sand": {
+      "conditions": {
+        "block": "neapolitan:small_banana_frond",
+        "state": {
+          "facing": "up"
+        }
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Flax Seeds on Farmland": {
+      "conditions": {
+        "block": "supplementaries:flax"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Pumpkin Seeds on Farmland": {
+      "conditions": {
+        "block": "minecraft:pumpkin_stem"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Watermelon Seeds on Farmland": {
+      "conditions": {
+        "block": "minecraft:melon_stem"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Carrot on Farmland": {
+      "conditions": {
+        "block": "minecraft:carrots"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Potato on Farmland": {
+      "conditions": {
+        "block": "minecraft:potatoes"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Beetroot Seeds on Farmland": {
+      "conditions": {
+        "block": "minecraft:beetroots"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Sweet Berry Pips on Dirt": {
+      "conditions": {
+        "block": "berry_good:sweet_berry_bush_pips"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Glow Berry Pips under Dirt, Stone or Moss": {
+      "conditions": {
+        "block": "berry_good:cave_vine_pips"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Strawberry Pips on Dirt": {
+      "conditions": {
+        "block": "neapolitan:strawberry_bush"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Mint Sprout on Dirt": {
+      "conditions": {
+        "block": "neapolitan:mint"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Sugar Cane on Dirt or Sand next to Water": {
+      "conditions": {
+        "block": "minecraft:sugar_cane"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Aloe Kernels on Sand": {
+      "conditions": {
+        "block": "atmospheric:aloe_vera"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Foul Berry Pips on Dirt": {
+      "conditions": {
+        "block": "autumnity:foul_berry_bush"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Tea Seeds on Dirt": {
+      "conditions": {
+        "block": "farmersrespite:small_tea_bush"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Coffee Beans on Basalt": {
+      "conditions": {
+        "block": "farmersrespite:coffee_bush"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Cabbage Seeds on Farmland": {
+      "conditions": {
+        "block": "farmersdelight:cabbages"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Tomato Seeds on Farmland": {
+      "conditions": {
+        "block": "farmersdelight:budding_tomatoes"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Onion on Farmland": {
+      "conditions": {
+        "block": "farmersdelight:onions"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Rice on Dirt submerged in Water": {
+      "conditions": {
+        "block": "farmersdelight:rice"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Avocado Pit on Dirt": {
+      "conditions": {
+        "block": "culturaldelights:avocado_pit"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Eggplant Seeds on Farmland": {
+      "conditions": {
+        "block": "culturaldelights:eggplants"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Corn Kernels on Dirt or Farmland": {
+      "conditions": {
+        "block": "culturaldelights:corn"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Bullet Pepper on Netherrack or Soul Soil": {
+      "conditions": {
+        "block": "mynethersdelight:bullet_pepper"
+	  },
+      "trigger": "minecraft:placed_block"
+    },
+    "Plant Kelp submerged in Water": {
+      "conditions": {
+        "block": "minecraft:kelp"
+	  },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.plant_seed.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.plant_seed.description"
+    },
+    "icon": {
+      "item": "supplementaries:flax_seeds"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Plant Wheat Seeds on Farmland",
+	  "Plant Cocoa Beans on Jungle Log",
+	  "Plant Vanilla Pods on Dirt, Logs or Leaves",
+	  "Plant upwards facing Banana Frond on Sand",
+	  "Plant Flax Seeds on Farmland",
+	  "Plant Pumpkin Seeds on Farmland",
+	  "Plant Watermelon Seeds on Farmland",
+	  "Plant Carrot on Farmland",
+	  "Plant Potato on Farmland",
+	  "Plant Beetroot Seeds on Farmland",
+	  "Plant Sweet Berry Pips on Dirt",
+	  "Plant Glow Berry Pips under Dirt, Stone or Moss",
+	  "Plant Strawberry Pips on Dirt",
+	  "Plant Mint Sprout on Dirt",
+	  "Plant Sugar Cane on Dirt or Sand next to Water",
+	  "Plant Aloe Kernels on Sand",
+	  "Plant Foul Berry Pips on Dirt",
+	  "Plant Tea Seeds on Dirt",
+	  "Plant Coffee Beans on Basalt",
+	  "Plant Cabbage Seeds on Farmland",
+	  "Plant Tomato Seeds on Farmland",
+	  "Plant Onion on Farmland",
+	  "Plant Rice on Dirt submerged in Water",
+	  "Plant Avocado Pit on Dirt",
+	  "Plant Eggplant Seeds on Farmland",
+	  "Plant Corn Kernels on Dirt or Farmland",
+	  "Plant Bullet Pepper on Netherrack or Soul Soil",
+	  "Plant Kelp submerged in Water"
+    ]
+  ]
+}

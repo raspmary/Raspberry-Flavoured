@@ -1,0 +1,83 @@
+type = menu
+
+customization-meta {
+  identifier = com.blamejared.controlling.client.NewKeyBindsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=581947%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=581947%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=423921%
+  orientation = bottom-centered
+  x = -77
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=505947%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=505947%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505971%
+  orientation = bottom-centered
+  x = 81
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=505971%
+  width = 74
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=581923%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=581923%
+  width = 74
+  action = resizebutton
+  height = 20
+}
+

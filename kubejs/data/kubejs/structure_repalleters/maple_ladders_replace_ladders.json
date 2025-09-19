@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:ladder",
+  "replaces_with": "autumnity:maple_ladder",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_maple"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "blueprint:weighted",
+  "priority": "normal",
+  "replaces_blocks": "raspberry_flavoured:overgrown_mineshaft_moss_blocks",
+  "replaces_with": [
+    {
+      "data": "minecraft:moss_block",
+      "weight": 4
+    },
+    {
+      "data": "additionaladditions:patina_block",
+      "weight": 1
+    }
+  ],
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_overgrown"
+    ]
+  }
+}

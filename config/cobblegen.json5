@@ -1,0 +1,150 @@
+{
+  "advanced": {
+    "minecraft:lava": {
+      "minecraft:water": {
+        "resultsFromTop": {
+            "*": [
+              {
+                "id": "minecraft:stone",
+                "weight": 100.0,
+                "minY": 0
+              }
+            ],
+            "*": [
+              {
+                "id": "minecraft:deepslate",
+                      "weight": 100.0,
+                      "maxY": 0
+              }
+            ]
+        },
+        "results": {
+			"additionaladditions:patina_block": [
+			  {
+                "id": "create:veridium",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:emerald_block": [
+			  {
+                "id": "create:asurine",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:red_sand": [
+			  {
+                "id": "minecraft:granite",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:calcite": [
+			  {
+                "id": "minecraft:diorite",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:gravel": [
+			  {
+                "id": "minecraft:andesite",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:packed_mud": [
+			  {
+                "id": "minecraft:dripstone_block",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:bone_block": [
+			  {
+                "id": "minecraft:calcite",
+                "weight": 100.0
+              }
+            ],
+			"raspberry:deepslate_gravel": [
+			  {
+                "id": "minecraft:tuff",
+                "weight": 100.0
+              }
+            ],
+            "*": [
+              {
+                "id": "minecraft:cobblestone",
+                "weight": 100.0,
+                "minY": 0
+              }
+            ],
+            "*": [
+              {
+                "id": "minecraft:cobbled_deepslate",
+                "weight": 100.0,
+                "maxY": 0
+              }
+            ]
+          }
+      },
+      "b:minecraft:blue_ice": {
+        "results": {
+          "minecraft:soul_soil": [
+            {
+              "id": "minecraft:smooth_basalt",
+              "weight": 100.0
+            }
+          ],
+          "minecraft:netherrack": [
+            {
+              "id": "kubejs:cobbled_blackstone",
+              "weight": 100.0
+            }
+          ],
+		  "architects_palette:ender_pearl_block": [
+			{
+              "id": "kubejs:cobbled_exolite",
+              "weight": 100.0
+            }
+          ]
+        }
+      },
+      "oreganized:molten_lead": {
+        "results": {
+          "*": [
+            {
+              "id": "oreganized:glance",
+              "weight": 100.0
+            }
+          ]
+        }
+      },
+      "create:honey": {
+        "results": {
+          "*": [
+            {
+              "id": "create:ochrum",
+              "weight": 100.0
+            }
+          ]
+        }
+      },
+      "kubejs:batter": {
+        "results": {
+          "*": [
+            {
+              "id": "create:limestone",
+              "weight": 100.0
+            }
+          ]
+        }
+      },
+      "kubejs:scarlet_cheese": {
+        "results": {
+          "*": [
+            {
+              "id": "create:crimsite",
+              "weight": 100.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

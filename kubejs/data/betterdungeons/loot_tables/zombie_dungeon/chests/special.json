@@ -3,30 +3,25 @@
   "pools": [
     {
       "rolls": {
-        "min": 0.0,
-        "max": 2.0,
+        "min": 2.0,
+        "max": 4.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
           "name": "minecraft:golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:golden_carrot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:bundle"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "quark:blank_rune"
         },
         {
           "type": "minecraft:item",
@@ -41,7 +36,7 @@
               }
             }
           ],
-          "name": "minecraft:apple"
+          "name": "minecraft:golden_carrot"
         },
         {
           "type": "minecraft:item",
@@ -50,13 +45,43 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
+                "min": 1.0,
                 "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:book"
+          "name": "minecraft:glistering_melon_slice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "kubejs:golden_strawberries"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "caverns_and_chasms:bejeweled_apple"
         },
         {
           "type": "minecraft:item",
@@ -67,228 +92,45 @@
     },
     {
       "rolls": {
-        "min": 1.0,
-        "max": 3.0,
+        "min": 4.0,
+        "max": 6.0,
         "type": "minecraft:uniform"
       },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 17,
-          "name": "minecraft:music_disc_ward"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 17,
-          "name": "minecraft:music_disc_mellohi"
-        },
-        {
+		{
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
+              "function": "minecraft:exploration_map",
+              "destination": "raspberry_flavoured:pyramids",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.pyramid"
+              }
             }
           ],
-          "weight": 15,
-          "name": "minecraft:fishing_rod"
+          "name": "minecraft:map",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
+          "weight": 8,
           "functions": [
             {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.5,
-                "min": 0.1
-              },
-              "function": "minecraft:set_damage"
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7.0,
+                "max": 14.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "weight": 13,
-          "name": "supplementaries:wrench"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.5,
-                "min": 0.1
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 13,
-          "name": "another_furniture:furniture_hammer"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 13,
-          "name": "minecraft:stone_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 13,
-          "name": "minecraft:stone_axe"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 13,
-          "name": "minecraft:stone_shovel"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 6,
-          "name": "minecraft:iron_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 6,
-          "name": "minecraft:iron_axe"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 6,
-          "name": "minecraft:iron_shovel"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 7,
-          "name": "copperized:copper_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 7,
-          "name": "copperized:copper_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 7,
-          "name": "copperized:copper_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.35
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 7,
-          "name": "copperized:copper_boots"
+          "name": "minecraft:raw_copper"
         },
         {
           "type": "minecraft:item",
@@ -297,8 +139,38 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 6.0,
+                "min": 6.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "create:raw_zinc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5.0,
+                "max": 10.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "oreganized:raw_lead"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -312,8 +184,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 6.0,
+                "min": 4.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -322,139 +194,22 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "spelunkery:raw_magnetite_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3.0,
-                "max": 9.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "supplementaries:bomb"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.45
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 2,
-          "name": "alloyed:steel_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.45
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 2,
-          "name": "alloyed:steel_axe"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.45
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "weight": 2,
-          "name": "alloyed:steel_shovel"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 3.0,
-        "max": 4.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 1.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "farmersdelight:apple_cider"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3.0,
-                "max": 6.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 4.0,
-                "max": 6.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:torch"
+          "name": "spelunkery:rough_cinnabar"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -465,11 +220,11 @@
               }
             }
           ],
-          "name": "minecraft:beetroot_seeds"
+          "name": "spelunkery:rough_diamond"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -480,22 +235,7 @@
               }
             }
           ],
-          "name": "minecraft:wheat_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "kubejs:oats"
+          "name": "spelunkery:raw_magnetite_nugget"
         },
         {
           "type": "minecraft:item",
@@ -510,75 +250,50 @@
               }
             }
           ],
-          "name": "minecraft:leather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:cornflower"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:mushroom_stew"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:beetroot_soup"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:brown_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:red_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:dead_bush"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:poppy"
+          "name": "oreganized:raw_silver"
         }
       ]
     },
     {
       "rolls": {
-        "min": 1.0,
-        "max": 3.0,
+        "min": 3.0,
+        "max": 5.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 4.0,
+                "min": 6.0,
+                "max": 12.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:rotten_flesh"
+          "name": "minecraft:coal"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "architects_palette:rotten_flesh_block"
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "supplementaries:antique_ink"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -589,11 +304,11 @@
               }
             }
           ],
-          "name": "minecraft:carrot"
+          "name": "kubejs:raw_ammonite"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -604,11 +319,11 @@
               }
             }
           ],
-          "name": "minecraft:potato"
+          "name": "minecraft:ender_pearl"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -619,22 +334,7 @@
               }
             }
           ],
-          "name": "kubejs:spoiled_carrot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:poisonous_potato"
+          "name": "quark:soul_bead"
         }
       ]
     }

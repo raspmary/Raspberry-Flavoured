@@ -22,7 +22,7 @@ customization {
   width = 200
   action = addbutton
   actionid = af6a7f33-711e-464a-bd47-6905541308051713556219345
-  y = -77
+  y = -75
   label = Chat Settings...
   height = 20
 }
@@ -88,7 +88,7 @@ customization {
   actionid = 8be58e21-d5db-46c4-82bd-0544302298a71713556768988
   y = 21
   alignment = centered
-  height = 40
+  height = 24
 }
 
 customization {
@@ -100,7 +100,7 @@ customization {
   width = 200
   action = addbutton
   actionid = 07b337d8-07f5-441f-a77d-ad87077384191713556845194
-  y = 77
+  y = 81
   label = Done
   height = 20
 }
@@ -115,8 +115,8 @@ customization {
   width = 200
   action = addbutton
   actionid = 3902f191-b670-46a0-9bff-2957c177c14c1713557093963
-  y = 116
-  label = Resource Packs/Languages? Where?
+  y = 115
+  label = Frequently Asked Questions...
   height = 20
 }
 

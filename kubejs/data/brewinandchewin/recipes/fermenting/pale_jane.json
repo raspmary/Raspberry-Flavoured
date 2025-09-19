@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 3000,
+  "fermentingtime": 2400,
   "fluiditem": {
     "item": "brewinandchewin:rice_wine"
   },

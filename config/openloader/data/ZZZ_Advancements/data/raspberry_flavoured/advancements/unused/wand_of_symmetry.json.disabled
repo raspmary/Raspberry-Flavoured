@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:extendo_grip",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:wand_of_symmetry"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Obtain a wand of symmetry to make symmetrical building a breeze"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "create:wand_of_symmetry"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Supersymmetry"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -17,14 +17,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
   orientation = mid-centered
-  x = -75
+  x = -90
   action = movebutton
-  y = 30
+  y = 31
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
-  width = 150
+  width = 180
   action = resizebutton
   height = 20
 }
@@ -49,7 +49,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
-  width = 150
+  width = 180
   action = resizebutton
   height = 20
 }
@@ -61,17 +61,6 @@ customization {
   fadein = true
   fadeinspeed = 2.0
   action = hidebuttonfor
-}
-
-customization {
-  path = config/fancymenu/fancymenu_assets/youdied.png
-  orientation = top-centered
-  x = -121
-  width = 243
-  action = addtexture
-  actionid = 7d3d4867-8e14-4895-b0bf-8e9c2d73521c1713306282269
-  y = 34
-  height = 45
 }
 
 customization {
@@ -88,5 +77,16 @@ customization {
   actionid = f4c08592-6402-4b2c-a1d8-762e6fa4e82f1714665559689
   action = addsplash
   y = 100
+}
+
+customization {
+  path = config/fancymenu/fancymenu_assets/youdied2.png
+  orientation = top-centered
+  x = -113
+  width = 227
+  action = addtexture
+  actionid = 08811767-1083-44e8-8d10-601da172254f1726772087987
+  y = 32
+  height = 49
 }
 

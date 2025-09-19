@@ -1,0 +1,49 @@
+{
+  "parent": "raspberry_flavoured:farming/campfire",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass_bottle",
+            "minecraft:shears",
+            "ecologics:crab_claw",
+            "alloyed:steel_shears"
+          ]
+        },
+        "location": {
+          "block": {
+            "tag": "minecraft:beehives"
+          },
+          "smokey": true
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.harvest_honey.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.harvest_honey.description"
+    },
+    "icon": {
+      "item": "minecraft:bee_nest"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}
+    

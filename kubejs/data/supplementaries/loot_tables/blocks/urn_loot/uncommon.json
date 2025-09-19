@@ -13,38 +13,6 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6.0,
-                "max": 18.0
-              },
-              "add": false
-            }
-          ],
-          "name": "supplementaries:ash"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 7.0,
-                "max": 28.0
-              },
-              "add": false
-            }
-          ],
-          "name": "farmersdelight:straw"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
                 "min": 8.0,
                 "max": 32.0
               },
@@ -71,7 +39,7 @@
         },
 		{
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -93,24 +61,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 9.0,
-                "max": 27.0
-              },
-              "add": false
-            }
-          ],
-          "name": "supplementaries:flax_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 16.0
+                "min": 6.0,
+                "max": 18.0
               },
               "add": false
             }
@@ -119,14 +71,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "min": 6.0,
+                "max": 12.0
               },
               "add": false
             }
@@ -141,8 +93,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6.0,
-                "max": 24.0
+                "min": 12.0,
+                "max": 48.0
               },
               "add": false
             }
@@ -151,13 +103,19 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
-          "name": "minecraft:skeleton_skull"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 12,
-          "name": "minecraft:zombie_head"
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ],
+          "name": "kubejs:dwarf_geode"
         }
       ]
     }

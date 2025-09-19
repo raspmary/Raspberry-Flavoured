@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:stone_brick_slab",
+  "replaces_with": "clayworks:terracotta_brick_slab",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_mesa"
+    ]
+  }
+}

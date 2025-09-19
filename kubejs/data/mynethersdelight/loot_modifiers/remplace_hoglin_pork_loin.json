@@ -1,0 +1,7 @@
+{
+  "type": "mynethersdelight:remplace_item",
+  "conditions": [],
+  "entity": "minecraft:hoglin",
+  "item": "nethersdelight:hoglin_loin",
+  "replaces": "minecraft:porkchop"
+}

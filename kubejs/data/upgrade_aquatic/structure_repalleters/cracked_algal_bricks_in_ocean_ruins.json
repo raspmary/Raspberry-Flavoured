@@ -1,0 +1,13 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:cracked_stone_bricks",
+  "replaces_with": "architects_palette:cracked_algal_bricks",
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:ocean_ruin_warm",
+      "minecraft:ocean_ruin_cold"
+    ]
+  }
+}

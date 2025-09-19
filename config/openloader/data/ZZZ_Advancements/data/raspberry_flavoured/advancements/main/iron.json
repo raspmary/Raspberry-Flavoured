@@ -1,0 +1,46 @@
+{
+  "parent": "raspberry_flavoured:main/copper_pickaxe",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron",
+              "minecraft:iron_ingot",
+              "create:crushed_raw_iron",
+              "create:iron_sheet",
+              "minecraft:iron_ore",
+              "minecraft:deepslate_iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.iron.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.iron.description"
+    },
+    "icon": {
+      "item": "minecraft:raw_iron"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

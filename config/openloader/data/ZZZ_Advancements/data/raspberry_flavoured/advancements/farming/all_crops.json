@@ -1,0 +1,567 @@
+{
+  "parent": "raspberry_flavoured:farming/truffle",
+  "criteria": {
+    "Obtain Wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Cocoa Beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cocoa_beans"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Vanilla Pods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "neapolitan:vanilla_pods"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Banana": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "neapolitan:banana"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Flax": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:flax"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Watermelon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potato"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Beetroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Sweet Berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sweet_berries"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Glow Berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_berries"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Strawberries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "neapolitan:strawberries"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Mint Leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "neapolitan:mint_leaves"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Sugar Cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Prickly Pear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecologics:prickly_pear"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Aloe Leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atmospheric:aloe_leaves"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Foul Berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "autumnity:foul_berries"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Green Tea Leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersrespite:green_tea_leaves"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Yellow Tea Leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersrespite:yellow_tea_leaves"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Black Tea Leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersrespite:black_tea_leaves"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Coffee Beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersrespite:coffee_beans"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Coconut Slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecologics:coconut_slice"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Cabbage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:cabbage"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Tomato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:tomato"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Onion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:onion"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Rice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:rice"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Avocado": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "culturaldelights:avocado"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Eggplant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "culturaldelights:eggplant"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Corn Cob": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "culturaldelights:corn_cob"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Bullet Pepper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mynethersdelight:bullet_pepper"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Yucca Fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atmospheric:yucca_fruit"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Cherries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmental:cherries"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:kelp"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Lemon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cookscollection:lemon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.all_crops.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.all_crops.description"
+    },
+    "icon": {
+      "item": "minecraft:carrot",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+	"Obtain Wheat"
+	],
+	[
+	"Obtain Cocoa Beans"
+	],
+	[
+	"Obtain Vanilla Pods"
+	],
+	[
+	"Obtain Banana"
+	],
+	[
+	"Obtain Flax"
+	],
+	[
+	"Obtain Apple"
+	],
+	[
+	"Obtain Pumpkin"
+	],
+	[
+	"Obtain Watermelon"
+	],
+	[
+	"Obtain Carrot"
+	],
+	[
+	"Obtain Potato"
+	],
+	[
+	"Obtain Beetroot"
+	],
+	[
+	"Obtain Sweet Berries"
+	],
+	[
+	"Obtain Glow Berries"
+	],
+	[
+	"Obtain Strawberries"
+	],
+	[
+	"Obtain Mint Leaves"
+	],
+	[
+	"Obtain Sugar Cane"
+	],
+	[
+	"Obtain Prickly Pear"
+	],
+	[
+	"Obtain Aloe Leaves"
+	],
+	[
+	"Obtain Foul Berries"
+	],
+	[
+	"Obtain Green Tea Leaves"
+	],
+	[
+	"Obtain Yellow Tea Leaves"
+	],
+	[
+	"Obtain Black Tea Leaves"
+	],
+	[
+	"Obtain Coffee Beans"
+	],
+	[
+	"Obtain Coconut Slice"
+	],
+	[
+	"Obtain Cabbage"
+	],
+	[
+	"Obtain Tomato"
+	],
+	[
+	"Obtain Onion"
+	],
+	[
+	"Obtain Rice"
+	],
+	[
+	"Obtain Avocado"
+	],
+	[
+	"Obtain Eggplant"
+	],
+	[
+	"Obtain Corn Cob"
+	],
+	[
+	"Obtain Bullet Pepper"
+	],
+	[
+	"Obtain Yucca Fruit"
+	],
+	[
+	"Obtain Cherries"
+	],
+	[
+	"Obtain Kelp"
+	],
+	[
+	"Obtain Lemon"
+	]
+  ]
+}

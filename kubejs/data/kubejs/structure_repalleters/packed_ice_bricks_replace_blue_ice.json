@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:blue_ice",
+  "replaces_with": "windswept:packed_ice_bricks",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_ice"
+    ]
+  }
+}

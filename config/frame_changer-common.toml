@@ -1,0 +1,19 @@
+
+[changes]
+
+	[changes."custom portal frames"]
+		#Nether portal frames can be made of anything in the blocktag frame_changer:portal_frames
+		"Nether portal frame variety" = true
+
+	[changes."custom exit portals"]
+		#Entering a portal causes the portal on the other side to be made of a custom block
+		"Custom exit portals" = false
+		#Define the block that exit portal frames are made of. Format should follow 'modid:blockID'. Ideally, the block should also be a valid portal frame.
+		"Exit portal frame" = "minecraft:obsidian"
+
+	[changes."portal break changes"]
+		#Breaking a portal causes obsidian blocks in the frame to possibly convert to their crying variants
+		"Contagious misery" = false
+		#Chance of broken portals turning obsidian blocks into their crying variants. Takes in a double value.
+		"Crying conversion chance" = 0.33
+

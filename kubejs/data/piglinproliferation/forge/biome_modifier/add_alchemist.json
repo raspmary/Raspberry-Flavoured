@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": ["minecraft:nether_wastes", "minecraft:crimson_forest"],
+  "spawners": {
+    "type": "piglinproliferation:piglin_alchemist",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 2
+  },
+  "category": "monster"
+}

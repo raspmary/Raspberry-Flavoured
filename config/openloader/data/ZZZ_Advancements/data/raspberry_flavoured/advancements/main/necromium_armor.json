@@ -1,0 +1,87 @@
+{
+  "parent": "raspberry_flavoured:main/electrum_armor",
+  "criteria": {
+    "Obtain Necromium Helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Necromium Chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Necromium Leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Necromium Boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:necromium_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.necromium_armor.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.necromium_armor.description"
+    },
+    "icon": {
+      "item": "caverns_and_chasms:necromium_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Necromium Helmet"
+    ],
+	[
+      "Obtain Necromium Chestplate"
+    ],
+	[
+      "Obtain Necromium Leggings"
+    ],
+	[
+      "Obtain Necromium Boots"
+    ]
+  ]
+}

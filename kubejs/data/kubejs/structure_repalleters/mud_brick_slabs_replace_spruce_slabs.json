@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:spruce_slab",
+  "replaces_with": "minecraft:mud_brick_slab",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterwitchhuts:witch_hut"
+    ]
+  }
+}

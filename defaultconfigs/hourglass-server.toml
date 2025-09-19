@@ -61,7 +61,7 @@
 	sleepSpeedMax = 10.0
 	#The minimum speed at which time passes when only 1 player is sleeping in a full server.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMin = 0.0
+	sleepSpeedMin = 1.5
 	#The speed at which time passes when all players are sleeping.
 	#Set to -1 to disable this feature (sleepSpeedMax will be used when all players are sleeping).
 	#Range: -1.0 ~ 24000.0
@@ -74,11 +74,11 @@
 	#Credit to Dino Dini for the function: https://dinodini.wordpress.com/2010/04/05/normalized-tunable-sigmoid-functions/
 	#Credit to SmoothSleep for the idea: https://www.spigotmc.org/resources/smoothsleep.32043/
 	#Range: 0.0 ~ 1.0
-	sleepSpeedCurve = 0.3
+	sleepSpeedCurve = 0.6
 	#Set to 'true' for the weather to clear when players wake up in the morning as it does in vanilla.
 	#Set to 'false' to force weather to pass naturally. Adds realism when accelerateWeather is enabled.
 	#Note: This setting is ignored if game rule doWeatherCycle is false.
-	clearWeatherOnWake = false
+	clearWeatherOnWake = true
 	#When true, players are allowed to sleep at all times of day in dimensions controlled by Hourglass.
 	#Note: Other mods may override this ability.
 	allowDaySleep = false

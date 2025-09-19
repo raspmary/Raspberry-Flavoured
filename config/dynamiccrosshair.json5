@@ -114,25 +114,25 @@
 		"modCorrectTool": {
 			"style": "Dot",
 			"color": {
-				"crosshairColor": "Unchanged",
-				"customColor": -5588020,
+				"crosshairColor": "Custom",
+				"customColor": -16711936,
 				"forceColor": false
 			}
 		},
 		"modIncorrectTool": {
 			"style": "DiagonalCross",
 			"color": {
-				"crosshairColor": "Unchanged",
-				"customColor": -5588020,
+				"crosshairColor": "Red",
+				"customColor": -65536,
 				"forceColor": false
 			}
 		}
 	},
-	"enableTweaks": false,
-	"additionalTools": "",
+	"enableTweaks": true,
+	"additionalTools": "\"minecraft:shears\"",
 	"additionalMeleeWeapons": "",
 	"additionalRangedWeapons": "",
 	"additionalThrowables": "",
 	"additionalUsableItems": "",
-	"additionalInteractableBlocks": null
+	"additionalInteractableBlocks": ""
 }

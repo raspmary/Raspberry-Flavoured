@@ -1,0 +1,14 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:ladder",
+  "replaces_with": "quark:spruce_ladder",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_ice",
+      "bettermineshafts:mineshaft_spruce",
+      "bettermineshafts:mineshaft_spruce_snowy"
+    ]
+  }
+}

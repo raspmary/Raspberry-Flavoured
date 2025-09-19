@@ -1,7 +1,7 @@
 {
-  "parent": "raspberryflavoured:hunting_root",
+  "parent": "raspberryflavoured:sack",
   "criteria": {
-    "0": {
+    "Summon Iron Golem": {
       "conditions": {
         "entity": [
           {
@@ -15,7 +15,7 @@
       },
       "trigger": "minecraft:summoned_entity"
     },
-    "1": {
+    "Summon Copper Golem": {
       "conditions": {
         "entity": [
           {
@@ -34,7 +34,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Summon your very own iron golem with four iron blocks in a T-shape and a carved pumpkin on top, or a copper golem with a lightning rod on top of a carved pumpkin"
+      "text": "Summon an iron golem with four iron blocks in a T-shape and a carved pumpkin on top, or a copper golem with a lightning rod on top of a carved pumpkin"
     },
     "frame": "task",
     "hidden": false,
@@ -43,7 +43,7 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Calling in Reinforcements"
+      "text": "Autobots, Roll Out!"
     }
   },
   "rewards": {
@@ -51,7 +51,7 @@
     },
   "requirements": [
     [
-      "0", "1"
+      "Summon Iron Golem", "Summon Copper Golem"
     ]
   ]
 }

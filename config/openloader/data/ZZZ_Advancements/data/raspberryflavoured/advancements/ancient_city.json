@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:hunting_root",
+  "parent": "raspberryflavoured:temple",
   "criteria": {
     "0": {
       "conditions": {

@@ -1,0 +1,17 @@
+{
+   "targets": [
+	"raspberry:deepslate_gravel",
+	"raspberry:blackstone_gravel",
+	"raspberry:raked_deepslate_gravel",
+	"raspberry:raked_blackstone_gravel"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.gravel.break",
+	  "place_sound": "kubejs:sound.gravel.place",
+      "hit_sound": "kubejs:sound.gravel.hit",
+      "fall_sound": "kubejs:sound.gravel.fall",
+      "step_sound": "kubejs:sound.gravel.step",
+      "pitch": 0.9,
+      "volume": 1
+   } 
+}

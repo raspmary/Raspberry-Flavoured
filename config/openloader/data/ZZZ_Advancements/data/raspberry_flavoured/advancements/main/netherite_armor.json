@@ -1,0 +1,87 @@
+{
+  "parent": "raspberry_flavoured:main/necromium_armor",
+  "criteria": {
+    "Obtain Netherite Helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Netherite Chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Netherite Leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Netherite Boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.netherite_armor.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.netherite_armor.description"
+    },
+    "icon": {
+      "item": "minecraft:netherite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Netherite Helmet"
+    ],
+	[
+      "Obtain Netherite Chestplate"
+    ],
+	[
+      "Obtain Netherite Leggings"
+    ],
+	[
+      "Obtain Netherite Boots"
+    ]
+  ]
+}

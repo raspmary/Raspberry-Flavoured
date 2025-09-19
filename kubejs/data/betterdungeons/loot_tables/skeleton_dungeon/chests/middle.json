@@ -3,11 +3,31 @@
   "pools": [
     {
       "rolls": {
-        "min": 2.0,
-        "max": 6.0,
+        "min": 6.0,
+        "max": 9.0,
         "type": "minecraft:uniform"
       },
       "entries": [
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "raspberry_flavoured:pyramids",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.pyramid"
+              }
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 6
+        },
         {
           "type": "minecraft:item",
           "weight": 5,
@@ -116,6 +136,21 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "name": "kubejs:flinging_tablet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "kubejs:piercing_tablet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "kubejs:swift_tablet"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 30,
           "functions": [
             {
@@ -131,7 +166,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 20,
           "name": "supplementaries:quiver"
         },
         {
@@ -142,8 +177,8 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.6
+                "max": 0.4,
+                "min": 0.2
               },
               "function": "minecraft:set_damage"
             }

@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:crimson_trapdoor",
+  "replaces_with": "environmental:willow_trapdoor",
+  "selector": {
+    "type": "names",
+    "config": [
+      "betterwitchhuts:witch_hut"
+    ]
+  }
+}

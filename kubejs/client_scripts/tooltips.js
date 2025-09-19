@@ -1,2077 +1,2891 @@
 // priority: 0
+// translatable parts of script by QinomeD
 
 ItemEvents.tooltip(tooltip => {
-  tooltip.add(['minecraft:glistering_melon_slice'], "§9Minor Instant Health")
-  tooltip.add(['abnormals_delight:vanilla_cake_slice'], "§9Vanilla Scent (0:05)")
-  tooltip.add(['abnormals_delight:chocolate_cake_slice'], "§9Sugar Rush (0:10)")
-  tooltip.add(['abnormals_delight:banana_cake_slice'], "§9Agility (0:10)")
-  tooltip.add(['abnormals_delight:mint_cake_slice'], "§9Berserking (0:15)")
-  tooltip.add(['abnormals_delight:adzuki_cake_slice'], "§9Harmony (0:10)")
-  tooltip.add(['abnormals_delight:yucca_gateau_slice'], "§9Persistence (0:15)")
-  tooltip.add(['abnormals_delight:strawberry_cake_slice'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:strawberries'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:white_strawberries'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:strawberry_scones'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:strawberry_ice_cream'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:chocolate_strawberries'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:strawberry_banana_smoothie'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:strawberry_bean_bonbons'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:strawberry_milkshake'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:neapolitan_ice_cream'], "§9Minor Instant Health")
-  tooltip.add(['neapolitan:neapolitan_ice_cream'], "§9Sugar Rush II (0:20)")
-  tooltip.add(['neapolitan:neapolitan_ice_cream'], "§9Vanilla Scent (0:10)")
-  tooltip.add(['neapolitan:neapolitan_ice_cream'], "§cChilled (0:07)")
-  tooltip.add(['neapolitan:vanilla_ice_cream'], "§9Vanilla Scent (0:20)")
-  tooltip.add(['neapolitan:vanilla_ice_cream'], "§cChilled (0:05)")
-  tooltip.add(['respiteful:black_tea_ice_cream'], "§9Maturity II (0:30)")
-  tooltip.add(['respiteful:black_tea_ice_cream'], "§cChilled (0:05)")
-  tooltip.add(['respiteful:respiteful_ice_cream'], "§9Vitality (0:45)")
-  tooltip.add(['respiteful:respiteful_ice_cream'], "§9Tenacity (0:45)")
-  tooltip.add(['respiteful:respiteful_ice_cream'], "§9Maturity (0:45)")
-  tooltip.add(['respiteful:respiteful_ice_cream'], "§cChilled (0:07)")
-  tooltip.add(['buzzier_bees:honey_apple'], "§9Clears Hunger & Levitation")
-  tooltip.add(['buzzier_bees:honey_bread'], "§9Clears Slowness & Weakness")
-  tooltip.add(['buzzier_bees:glazed_porkchop'], "§9Clears Fatigue & Nausea")
-  tooltip.add(['minecraft:honey_bottle'], "§9Clears Poison")
-  tooltip.add(['minecraft:golden_carrot'], "§9Clears Blindness")
-  tooltip.add(['minecraft:milk_bucket'], "§9Clears All Effects")
-  tooltip.add(['caverns_and_chasms:golden_milk_bucket'], "§9Clears All Effects")
-  tooltip.add(['neapolitan:milk_bottle'], "§9Clears 1 Effect")
-  tooltip.add(['ecologics:coconut_slice'], "§9Clears All Effects")
-  tooltip.add(['ecologics:tropical_stew'], "§9Clears All Effects")
-  tooltip.add(['minecraft:rabbit_stew'], "§9Jump Boost II (0:10)")
-  tooltip.add(['kubejs:mixed_oatmeal'], "§9Minor Instant Health")
-  tooltip.add(['farmersdelight:melon_popsicle'], "§9Extinguishes Fire")
-  tooltip.add(['atmospheric:aloe_gel_bottle'], "§9Extinguishes Fire")
-  tooltip.add(['kubejs:golden_strawberries'], "§9Instant Health")
+    tooltip.add(['minecraft:glistering_melon_slice'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['abnormals_delight:yucca_gateau_slice'], Text.translate("rf.tooltip.yucca_gateau_slice"))
+    tooltip.add(['abnormals_delight:strawberry_cake_slice'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:strawberries'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:white_strawberries'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:strawberry_scones'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:strawberry_ice_cream'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:chocolate_strawberries'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:strawberry_banana_smoothie'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:strawberry_bean_bonbons'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:strawberry_milkshake'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:neapolitan_ice_cream'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['neapolitan:neapolitan_ice_cream'], Text.translate("rf.tooltip.neapolitan_ice_cream_1"))
+    tooltip.add(['neapolitan:neapolitan_ice_cream'], Text.translate("rf.tooltip.neapolitan_ice_cream_2"))
+    tooltip.add(['neapolitan:neapolitan_ice_cream'], Text.translate("rf.tooltip.neapolitan_ice_cream_3"))
+    tooltip.add(['neapolitan:vanilla_ice_cream'], Text.translate("rf.tooltip.neapolitan_ice_cream_1"))
+    tooltip.add(['neapolitan:vanilla_ice_cream'], Text.translate("rf.tooltip.neapolitan_ice_cream_2"))
+    tooltip.add(['respiteful:black_tea_ice_cream'], Text.translate("rf.tooltip.black_tea_ice_cream_1"))
+    tooltip.add(['respiteful:black_tea_ice_cream'], Text.translate("rf.tooltip.black_tea_ice_cream_2)"))
+    tooltip.add(['respiteful:respiteful_ice_cream'], Text.translate("rf.tooltip.respiteful_ice_cream_1"))
+    tooltip.add(['respiteful:respiteful_ice_cream'], Text.translate("rf.tooltip.respiteful_ice_cream_2"))
+    tooltip.add(['respiteful:respiteful_ice_cream'], Text.translate("rf.tooltip.respiteful_ice_cream_3"))
+    tooltip.add(['respiteful:respiteful_ice_cream'], Text.translate("rf.tooltip.respiteful_ice_cream_4"))
+    tooltip.add(['buzzier_bees:honey_apple'], Text.translate("rf.tooltip.honey_apple"))
+    tooltip.add(['buzzier_bees:honey_bread'], Text.translate("rf.tooltip.honey_bread"))
+    tooltip.add(['buzzier_bees:glazed_porkchop'], Text.translate("rf.tooltip.glazed_porkchop"))
+    tooltip.add(['minecraft:honey_bottle'], Text.translate("rf.tooltip.honey_bottle"))
+    tooltip.add(['minecraft:golden_carrot'], Text.translate("rf.tooltip.golden_carrot"))
+    tooltip.add(['minecraft:milk_bucket'], Text.translate("rf.tooltip.clears_all_effects"))
+    tooltip.add(['caverns_and_chasms:golden_milk_bucket'], Text.translate("rf.tooltip.clears_all_effects"))
+    tooltip.add(['neapolitan:milk_bottle'], Text.translate("rf.tooltip.clears_1_effect"))
+    tooltip.add(['ecologics:coconut_slice'], Text.translate("rf.tooltip.clears_1_effect"))
+    tooltip.add(['ecologics:tropical_stew'], Text.translate("rf.tooltip.clears_all_effects"))
+    tooltip.add(['kubejs:mixed_oatmeal'], Text.translate("rf.tooltip.minor_instant_health"))
+    tooltip.add(['kubejs:golden_strawberries'], Text.translate("rf.tooltip.instant_health"))
+    tooltip.add(['kubejs:sporedough'], Text.translate("rf.tooltip.sporedough"))
+    tooltip.add(['caverns_and_chasms:bejeweled_apple'], Text.translate("rf.tooltip.bejeweled_apple"))
+  
+	tooltip.add([
+	'farmersdelight:melon_popsicle',
+	'atmospheric:aloe_gel_bottle',
+	'abnormals_delight:dune_platter',
+	'kubejs:prismatic_ice_cream',
+	'kubejs:neapolitan_ice_cream_sandwich',
+	'kubejs:respiteful_ice_cream_sandwich',
+	'kubejs:prismatic_ice_cream_sandwich',
+	'neapolitan:vanilla_ice_cream',
+	'neapolitan:vanilla_milkshake',
+	'neapolitan:banana_ice_cream',
+	'neapolitan:banana_milkshake',
+	'neapolitan:mint_ice_cream',
+	'neapolitan:mint_milkshake',
+	'neapolitan:adzuki_ice_cream',
+	'neapolitan:adzuki_milkshake',
+	'neapolitan:strawberry_ice_cream',
+	'neapolitan:strawberry_milkshake',
+	'neapolitan:chocolate_ice_cream',
+	'neapolitan:chocolate_milkshake',
+	'respiteful:green_tea_ice_cream',
+	'respiteful:yellow_tea_ice_cream',
+	'respiteful:black_tea_ice_cream',
+	'respiteful:coffee_ice_cream',
+	'respiteful:snow_top_green_tea',
+	'respiteful:snow_top_yellow_tea',
+	'respiteful:snow_top_black_tea',
+	'respiteful:snow_top_coffee'
+	], Text.translate("rf.tooltip.extinguishes_fire"))
 
-  tooltip.add(['create:bar_of_chocolate'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:chocolate_candy'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:black_chocolate_candy'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:ruby_chocolate_candy'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:full_chocolate_bar'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:full_black_chocolate_bar'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:full_white_chocolate_bar'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:full_ruby_chocolate_bar'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:golden_machete'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:iron_machete'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:diamond_machete'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:netherite_machete'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:white_chocolate_candy'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:bar_of_caramel'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:caramel_bucket'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:caramel_glazed_berries'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:rope'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:glow_stick'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_hoe'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_sword'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_axe'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_pickaxe'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_shovel'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_chestplate'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_leggings'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_boots'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gilded_netherite_helmet'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:chicken_nugget'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:pocket_jukebox'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:gold_ring'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:fried_egg'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:berry_pie'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:honeyed_apple'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:depth_meter'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:trident_shard'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:wrench'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:crossbow_with_spyglass'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:caramel_bricks'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:caramel_bricks_stairs'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:caramel_bricks_slab'], "§4Unobtainable")
-  tooltip.add(['farmersdelight:fried_egg'], "§4Unobtainable")
-  tooltip.add(['supplementaries:pancake'], "§4Unobtainable")
-  tooltip.add(['oreganized:electrum_machete'], "§4Unobtainable")
-  tooltip.add(['oreganized:bush_hammer'], "§4Unobtainable")
-  tooltip.add(['quark:beetroot_crate'], "§4Unobtainable")
-  tooltip.add(['quark:carrot_crate'], "§4Unobtainable")
-  tooltip.add(['quark:potato_crate'], "§4Unobtainable")
-  tooltip.add(['quark:chorus_fruit_block'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_lantern'], "§4Unobtainable")
-  tooltip.add(['architects_palette:charcoal_block'], "§4Unobtainable")
-  tooltip.add(['architects_palette:copper_nub'], "§4Unobtainable")
-  tooltip.add(['architects_palette:waxed_copper_nub'], "§4Unobtainable")
-  tooltip.add(['architects_palette:exposed_copper_nub'], "§4Unobtainable")
-  tooltip.add(['architects_palette:waxed_exposed_copper_nub'], "§4Unobtainable")
-  tooltip.add(['architects_palette:weathered_copper_nub'], "§4Unobtainable")
-  tooltip.add(['architects_palette:waxed_weathered_copper_nub'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oxidized_copper_nub'], "§4Unobtainable")
-  tooltip.add(['architects_palette:waxed_oxidized_copper_nub'], "§4Unobtainable")
-  tooltip.add(['ecologics:snow_bricks'], "§4Unobtainable")
-  tooltip.add(['ecologics:snow_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['ecologics:snow_brick_slab'], "§4Unobtainable")
-  tooltip.add(['ecologics:snow_brick_wall'], "§4Unobtainable")
-  tooltip.add(['create:dough'], "§4Unobtainable")
-  tooltip.add(['farmersdelight:milk_bottle'], "§4Unobtainable")
-  tooltip.add(['atmospheric:vertical_rosewood_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:rosewood_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:vertical_morado_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:morado_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:persimmon_travertine_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:saffron_travertine_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:vertical_yucca_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:yucca_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:arid_sandstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:cut_arid_sandstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:smooth_arid_sandstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:arid_sandstone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:red_arid_sandstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:cut_red_arid_sandstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:smooth_red_arid_sandstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:red_arid_sandstone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:vertical_kousa_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:vertical_aspen_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:aspen_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:vertical_grimwood_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['autumnity:snail_shell_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['autumnity:snail_shell_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['autumnity:vertical_maple_planks'], "§4Unobtainable")
-  tooltip.add(['autumnity:maple_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['buzzier_bees:honeycomb_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['buzzier_bees:honeycomb_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:white_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:orange_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:magenta_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:light_blue_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:yellow_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:lime_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:pink_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:gray_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:light_gray_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:cyan_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:purple_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:blue_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:brown_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:green_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:red_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:black_terracotta_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:white_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:orange_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:magenta_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:light_blue_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:yellow_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:lime_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:pink_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:gray_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:light_gray_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:cyan_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:purple_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:blue_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:brown_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:green_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:red_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['clayworks:black_terracotta_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['environmental:smooth_mud_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['environmental:grass_thatch_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['environmental:cattail_thatch_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['environmental:duckweed_thatch_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['environmental:vertical_willow_planks'], "§4Unobtainable")
-  tooltip.add(['environmental:willow_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['environmental:vertical_cherry_planks'], "§4Unobtainable")
-  tooltip.add(['environmental:cherry_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['environmental:vertical_wisteria_planks'], "§4Unobtainable")
-  tooltip.add(['environmental:wisteria_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['neapolitan:chocolate_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['neapolitan:chocolate_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['neapolitan:frond_thatch_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['quark:vertical_blossom_planks'], "§4Unobtainable")
-  tooltip.add(['quark:vertical_ancient_planks'], "§4Unobtainable")
-  tooltip.add(['quark:vertical_bamboo_planks'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:gloomy_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:blast_proof_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['supplementaries:checker_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['supplementaries:lapis_bricks_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['supplementaries:ash_bricks_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['supplementaries:stone_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['supplementaries:blackstone_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:beachgrass_thatch_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:luminous_prismarine_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tooth_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tooth_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:scute_shingle_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:scute_pavement_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:finger_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_stone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_cobblestone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:branch_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:fire_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:brain_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tube_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:moss_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:petal_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:rock_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:acan_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:pillow_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:silk_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:star_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:bubble_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:chrome_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:prismarine_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:elder_prismarine_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:dead_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:kelpy_cobblestone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:kelpy_stone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_cobblestone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_stone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_cobblestone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_stone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_cobblestone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_stone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:vertical_driftwood_planks'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:driftwood_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:vertical_river_planks'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:river_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:abyssaline_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:abyssaline_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:hadaline_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:hadaline_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:entrails_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:plating_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:myonite_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:myonite_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:mushy_myonite_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:olivestone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:olivestone_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:algal_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:overgrown_algal_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:coal_ore_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:lapis_ore_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:redstone_ore_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:iron_ore_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:gold_ore_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:emerald_ore_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:diamond_ore_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:flint_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:polished_packed_ice_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:sunmetal_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:osseous_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:withered_osseous_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:entwine_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:polished_glowstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:gilded_sandstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:warpstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:twisted_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:basalt_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oak_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:birch_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:spruce_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:jungle_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:dark_oak_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:dripstone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:twisted_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:mangrove_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:warped_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:crimson_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:acacia_board_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:calcite_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cut_nether_brass_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:smooth_nether_brass_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:esoterrack_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:esoterrack_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:onyx_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:onyx_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:wardstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:wardstone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:ancient_plating_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:horn_coralstone_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:tread_plate_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:hazard_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:dark_oracle_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cerebral_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cerebral_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['windswept:vertical_holly_planks'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['windswept:vertical_chestnut_planks'], "§4Unobtainable")
-  tooltip.add(['windswept:chestnut_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['windswept:snow_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['windswept:packed_ice_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['windswept:blue_ice_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:large_ice_chain'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:music_disc_0308'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:music_disc_1007'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:music_disc_1507'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:kousa_cabinet'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:grimwood_cabinet'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_planks'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_log'], "§4Unobtainable")
-  tooltip.add(['atmospheric:crustose_log'], "§4Unobtainable")
-  tooltip.add(['atmospheric:crustose_wood'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_log'], "§4Unobtainable")
-  tooltip.add(['atmospheric:stripped_kousa_log'], "§4Unobtainable")
-  tooltip.add(['atmospheric:stripped_grimwood_log'], "§4Unobtainable")
-  tooltip.add(['atmospheric:stripped_kousa_wood'], "§4Unobtainable")
-  tooltip.add(['atmospheric:stripped_grimwood'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_wood'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_bookshelf'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_bookshelf'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_stairs'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_stairs'], "§4Unobtainable")
-  tooltip.add(['atmospheric:ivory_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:peach_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:persimmon_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:saffron_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:cut_peach_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:chiseled_persimmon_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:chiseled_peach_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:chiseled_ivory_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:cut_persimmon_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:cut_saffron_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:ivory_travertine_stairs'], "§4Unobtainable")
-  tooltip.add(['atmospheric:peach_travertine_stairs'], "§4Unobtainable")
-  tooltip.add(['atmospheric:persimmon_travertine_stairs'], "§4Unobtainable")
-  tooltip.add(['atmospheric:cut_ivory_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:saffron_travertine_stairs'], "§4Unobtainable")
-  tooltip.add(['atmospheric:chiseled_saffron_travertine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:peach_travertine_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:persimmon_travertine_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:saffron_travertine_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:ivory_travertine_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_boards'], "§4Unobtainable")
-  tooltip.add(['atmospheric:stripped_kousa_post'], "§4Unobtainable")
-  tooltip.add(['atmospheric:ivory_travertine_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:peach_travertine_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_post'], "§4Unobtainable")
-  tooltip.add(['atmospheric:crustose'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_boards'], "§4Unobtainable")
-  tooltip.add(['atmospheric:stripped_grimwood_post'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_post'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_sapling'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_sapling'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_leaves'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_leaves'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_ladder'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_ladder'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_fence'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_fence'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_sign'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_sign'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_beehive'], "§4Unobtainable")
-  tooltip.add(['atmospheric:ivory_travertine_wall'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_beehive'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_hedge'], "§4Unobtainable")
-  tooltip.add(['atmospheric:peach_travertine_wall'], "§4Unobtainable")
-  tooltip.add(['atmospheric:persimmon_travertine_wall'], "§4Unobtainable")
-  tooltip.add(['atmospheric:crustose_path'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['atmospheric:saffron_travertine_wall'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_chest'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_pressure_plate'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_pressure_plate'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_door'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_hedge'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_door'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_trapdoor'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_button'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_button'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_trapdoor'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_fence_gate'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_fence_gate'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:kousa_chest_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_chest_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:grimwood_furnace_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:large_grimwood_boat'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelp_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelp_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelp_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelp_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_cobblestone'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_cobblestone_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_cobblestone_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_stone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_stone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_cobblestone'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_cobblestone_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_cobblestone_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_stone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_stone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_cobblestone'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_cobblestone_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_cobblestone_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_stone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_stone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_cobblestone'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_cobblestone_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_cobblestone_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_stone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_stone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelp'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelp'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelp'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelp'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:pink_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:purple_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:blue_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:green_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:yellow_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:orange_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:red_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:white_jelly_torch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_cobblestone_wall'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tongue_kelpy_stone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_stone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:polar_kelpy_cobblestone_wall'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_stone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:ochre_kelpy_cobblestone_wall'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_stone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:thorny_kelpy_cobblestone_wall'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:rusty_sheet_metal_treading_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:mini_padded_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:bolted_industrial_iron_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:cinder_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:smooth_cardboard_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:cast_iron_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:sheet_metal_plating_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:sheet_metal_treading_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:rusty_sheet_metal_plating_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['miners_delight:hot_cocoa_cup'], "§4Unobtainable")
-  tooltip.add(['woodworks:spruce_ladder'], "§4Unobtainable")
-  tooltip.add(['woodworks:birch_ladder'], "§4Unobtainable")
-  tooltip.add(['woodworks:jungle_ladder'], "§4Unobtainable")
-  tooltip.add(['woodworks:acacia_ladder'], "§4Unobtainable")
-  tooltip.add(['woodworks:dark_oak_ladder'], "§4Unobtainable")
-  tooltip.add(['woodworks:mangrove_ladder'], "§4Unobtainable")
-  tooltip.add(['woodworks:crimson_ladder'], "§4Unobtainable")
-  tooltip.add(['woodworks:warped_ladder'], "§4Unobtainable")
-  tooltip.add(['supplementaries:item_shelf'], "§4Unobtainable")
-  tooltip.add(['supplementaries:atmospheric/hanging_sign_kousa'], "§4Unobtainable")
-  tooltip.add(['supplementaries:atmospheric/sign_post_kousa'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/kousa_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/kousa_shelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/kousa_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/kousa_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/kousa_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/kousa_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/kousa_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/atmospheric/kousa_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/atmospheric/kousa_window_pane'], "§4Unobtainable")
-  tooltip.add(['supplementaries:atmospheric/hanging_sign_grimwood'], "§4Unobtainable")
-  tooltip.add(['supplementaries:atmospheric/sign_post_grimwood'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/grimwood_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/grimwood_shelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/grimwood_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/grimwood_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/grimwood_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/grimwood_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/grimwood_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/atmospheric/grimwood_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/atmospheric/grimwood_window_pane'], "§4Unobtainable")
-  tooltip.add(['create:honeyed_apple'], "§4Unobtainable")
-  tooltip.add(['ceramicshears:clay_shears_part'], "§4Unobtainable")
-  tooltip.add(['ceramicshears:ceramic_shears_part'], "§4Unobtainable")
-  tooltip.add(['architects_palette:tuff_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_dripstone'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_calcite'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_tuff'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_dripstone_slab'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_calcite_slab'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_tuff_slab'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:dripstone_slab'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:calcite_slab'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:tuff_slab'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_dripstone_stairs'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_calcite_stairs'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:polished_tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:dripstone_stairs'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:calcite_stairs'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:dripstone_wall'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:calcite_wall'], "§4Unobtainable")
-  tooltip.add(['paletteblocks:tuff_wall'], "§4Unobtainable")
-  tooltip.add(['create:tree_fertilizer'], "§4Unobtainable")
-  tooltip.add(['quark:cobblestone_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:cobblestone_bricks_slab'], "§4Unobtainable")
-  tooltip.add(['quark:cobblestone_bricks_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:mossy_cobblestone_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:mossy_cobblestone_bricks_slab'], "§4Unobtainable")
-  tooltip.add(['quark:mossy_cobblestone_bricks_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:cobblestone_bricks_wall'], "§4Unobtainable")
-  tooltip.add(['quark:mossy_cobblestone_bricks_wall'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:silver_knife'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:raw_stuffed_hoglin'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:mimicarnation'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:cardboard_helmet'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:cardboard_chestplate'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:cardboard_leggings'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:cardboard_boots'], "§4Unobtainable")
-  tooltip.add(['windswept:sweet_berry_bowl'], "§4Unobtainable")
-  tooltip.add(['windswept:wild_berry_bowl'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rough_jade_shard'], "§4Unobtainable")
-  tooltip.add(['spelunkery:jade_shard'], "§4Unobtainable")
-  tooltip.add(['spelunkery:flint_hammer_and_chisel'], "§4Unobtainable")
-  tooltip.add(['spelunkery:obsidian_hammer_and_chisel'], "§4Unobtainable")
-  tooltip.add(['spelunkery:copper_nugget'], "§4Unobtainable")
-  tooltip.add(['spelunkery:calcite_redstone_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:sandstone_lapis_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_emerald_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:smooth_basalt_diamond_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_coal_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_coal_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_coal_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_coal_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_iron_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_iron_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_iron_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_iron_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_copper_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_copper_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_copper_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_copper_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_gold_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_gold_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_gold_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_gold_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_redstone_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_redstone_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_redstone_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_redstone_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_lapis_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_lapis_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_lapis_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_lapis_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_emerald_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_emerald_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_emerald_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_diamond_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_diamond_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_diamond_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_diamond_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_zinc_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_zinc_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_zinc_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_zinc_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_lead_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_lead_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_lead_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_lead_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:granite_silver_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:andesite_silver_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diorite_silver_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:tuff_silver_ore'], "§4Unobtainable")
-  tooltip.add(['spelunkery:compression_blast_miner'], "§4Unobtainable")
-  tooltip.add(['spelunkery:diamond_grindstone'], "§4Unobtainable")
-  tooltip.add(['spelunkery:salt_lamp'], "§4Unobtainable")
-  tooltip.add(['spelunkery:salt_block'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rock_salt_slab'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rock_salt_stairs'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rock_salt_wall'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rock_salt_brick_slab'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rock_salt_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['spelunkery:polished_rock_salt'], "§4Unobtainable")
-  tooltip.add(['spelunkery:polished_rock_salt_slab'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rock_salt_brick_wall'], "§4Unobtainable")
-  tooltip.add(['spelunkery:polished_rock_salt_stairs'], "§4Unobtainable")
-  tooltip.add(['spelunkery:polished_rock_salt_wall'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rock_salt_bricks'], "§4Unobtainable")
-  tooltip.add(['spelunkery:salt_bucket'], "§4Unobtainable")
-  tooltip.add(['spelunkery:salt'], "§4Unobtainable")
-  tooltip.add(['spelunkery:grilled_portabella'], "§4Unobtainable")
-  tooltip.add(['environmental:large_lily_pad'], "§4Unobtainable")
-  tooltip.add(['environmental:giant_lily_pad'], "§4Unobtainable")
-  tooltip.add(['dustrial_decor:wrapped_ice_chains'], "§4Unobtainable")
-  tooltip.add(['miners_delight:beetroot_soup_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:rabbit_stew_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:baked_cod_stew_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:noodle_soup_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:beef_stew_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:chicken_soup_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:fish_stew_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:pumpkin_soup_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:vegetable_soup_cup'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:smoked_tomato'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:chocolate_candy_1'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:chocolate_candy_2'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:chocolate_candy_3'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:black_chocolate_candy_1'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:ruby_chocolate_candy_1'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:ruby_chocolate_candy_2'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:black_chocolate_candy_2'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:black_chocolate_candy_3'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:ruby_chocolate_candy_3'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:white_chocolate_candy_1'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:white_chocolate_candy_2'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:white_chocolate_candy_3'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:crushed_cocoa'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:the_bright_side'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:bar_of_ruby_chocolate'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:ruby_chocolate_glazed_berries'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:ruby_chocolate_glazed_marshmallow'], "§4Unobtainable")
-  tooltip.add(['windswept:wooden_bucket'], "§4Unobtainable")
-  tooltip.add(['windswept:wooden_water_bucket'], "§4Unobtainable")
-  tooltip.add(['windswept:wooden_milk_bucket'], "§4Unobtainable")
-  tooltip.add(['windswept:wooden_powder_snow_bucket'], "§4Unobtainable")
-  tooltip.add(['additionaladditions:watering_can'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:chocolate_cake_slice'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:black_chocolate_glazed_berries'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:white_chocolate_glazed_berries'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:black_chocolate_glazed_marshmallow'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:white_chocolate_glazed_marshmallow'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:bar_of_black_chocolate'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:bar_of_white_chocolate'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:glass_trapdoor'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:glass_door'], "§4Unobtainable")
-  tooltip.add(['windswept:frozen_flesh'], "§4Unobtainable")
-  tooltip.add(['windswept:wild_berry_sack'], "§4Unobtainable")
-  tooltip.add(['windswept:wild_berries'], "§4Unobtainable")
-  tooltip.add(['windswept:wild_berry_pips'], "§4Unobtainable")
-  tooltip.add(['windswept:wild_berry_cookie'], "§4Unobtainable")
-  tooltip.add(['atmospheric:rosewood_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['atmospheric:morado_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['atmospheric:flowering_morado_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['atmospheric:yucca_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['atmospheric:aspen_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['autumnity:maple_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['environmental:pink_wisteria_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['environmental:cherry_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['environmental:willow_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['autumnity:red_maple_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['autumnity:orange_maple_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['autumnity:yellow_maple_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['environmental:blue_wisteria_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['environmental:purple_wisteria_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['environmental:white_wisteria_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:river_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/coconut_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/walnut_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/culturaldelights/avocado_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/architects_palette/twisted_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/culturaldelights/fruiting_avocado_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['windswept:chestnut_leaf_carpet'], "§4Unobtainable")
-  tooltip.add(['environmental:mud_ball'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:cooked_squid'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:glow_squid'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:squid'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:raw_calamari'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:cooked_calamari'], "§4Unobtainable")
-  tooltip.add(['miners_delight:copper_pot'], "§4Unobtainable")
-  tooltip.add(['miners_delight:wild_cave_carrots'], "§4Unobtainable")
-  tooltip.add(['miners_delight:cave_carrot_crate'], "§4Unobtainable")
-  tooltip.add(['miners_delight:gossypium'], "§4Unobtainable")
-  tooltip.add(['miners_delight:copper_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:water_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:milk_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:powder_snow_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:cave_carrot'], "§4Unobtainable")
-  tooltip.add(['miners_delight:baked_cave_carrot'], "§4Unobtainable")
-  tooltip.add(['miners_delight:silverfish_eggs'], "§4Unobtainable")
-  tooltip.add(['miners_delight:weird_caviar'], "§4Unobtainable")
-  tooltip.add(['miners_delight:pasta_with_veggieballs'], "§4Unobtainable")
-  tooltip.add(['miners_delight:cave_soup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:mushroom_stew_cup'], "§4Unobtainable")
-  tooltip.add(['miners_delight:cave_soup_cup'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_planks'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_planks'], "§4Unobtainable")
-  tooltip.add(['quark:blossom_planks'], "§4Unobtainable")
-  tooltip.add(['quark:ancient_planks'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_planks'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_sign'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_fence_gate'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_door'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_trapdoor'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_boat'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_leaves'], "§4Unobtainable")
-  tooltip.add(['ecologics:stripped_walnut_wood'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_wood'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_fence'], "§4Unobtainable")
-  tooltip.add(['ecologics:stripped_walnut_log'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_stairs'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_slab'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_log'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_button'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_pressure_plate'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_sapling'], "§4Unobtainable")
-  tooltip.add(['supplementaries:ecologics/sign_post_walnut'], "§4Unobtainable")
-  tooltip.add(['supplementaries:ecologics/hanging_sign_walnut'], "§4Unobtainable")
-  tooltip.add(['ecologics:walnut_chest_boat'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/walnut_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/walnut_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/walnut_shelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/walnut_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/walnut_beehive'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/walnut_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/walnut_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/ecologics/walnut_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/walnut_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/walnut_ladder'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/walnut_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/walnut_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/stripped_walnut_post'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/walnut_post'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/walnut_hedge'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/walnut_board_stairs'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/walnut_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/walnut_board_wall'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/walnut_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/walnut_bookshelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:fd/ecologics/walnut_cabinet'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/walnut_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/walnut_board_slab'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/walnut_railing'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/ecologics/walnut_window_pane'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/hollow_walnut_log'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_log'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_wood'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_slab'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_stairs'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_fence'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_fence_gate'], "§4Unobtainable")
-  tooltip.add(['quark:flowering_azalea_hedge'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_chest_boat'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_boat'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_sign'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_trapdoor'], "§4Unobtainable")
-  tooltip.add(['ecologics:flowering_azalea_door'], "§4Unobtainable")
-  tooltip.add(['supplementaries:ecologics/hanging_sign_flowering_azalea'], "§4Unobtainable")
-  tooltip.add(['supplementaries:ecologics/sign_post_flowering_azalea'], "§4Unobtainable")
-  tooltip.add(['woodworks:flowering_azalea_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/flowering_azalea_beehive'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/flowering_azalea_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/flowering_azalea_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/flowering_azalea_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/flowering_azalea_shelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/flowering_azalea_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/flowering_azalea_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/flowering_azalea_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/ecologics/flowering_azalea_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/ecologics/flowering_azalea_window_pane'], "§4Unobtainable")
-  tooltip.add(['everycomp:fd/ecologics/flowering_azalea_cabinet'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/flowering_azalea_bookshelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/flowering_azalea_post'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/stripped_flowering_azalea_post'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/flowering_azalea_railing'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/flowering_azalea_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/flowering_azalea_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/flowering_azalea_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/hollow_flowering_azalea_log'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/ecologics/flowering_azalea_ladder'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/flowering_azalea_board_slab'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/flowering_azalea_board_wall'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/flowering_azalea_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/ecologics/flowering_azalea_board_stairs'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_chest_boat'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_boat'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_fence_gate'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_trapdoor'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_button'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_pressure_plate'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_door'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_post'], "§4Unobtainable")
-  tooltip.add(['windswept:stripped_holly_post'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_cabinet'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_beehive'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_sign'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_stairs'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_boards'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_ladder'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_fence'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_bookshelf'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_slab'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_wood'], "§4Unobtainable")
-  tooltip.add(['windswept:stripped_holly_wood'], "§4Unobtainable")
-  tooltip.add(['windswept:stripped_holly_log'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_log'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/windswept/holly_railing'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/windswept/holly_board_slab'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/windswept/holly_board_wall'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/windswept/holly_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/windswept/holly_board_stairs'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/windswept/holly_window_pane'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/windswept/hollow_holly_log'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/holly_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/holly_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/holly_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/windswept/holly_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/holly_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/holly_planter_box'], "§4Unobtainable")
-  tooltip.add(['supplementaries:windswept/sign_post_holly'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/holly_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/holly_shelf'], "§4Unobtainable")
-  tooltip.add(['supplementaries:windswept/hanging_sign_holly'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/ancient_board_stairs'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/ancient_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/ancient_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/ancient_railing'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/ancient_board_slab'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/ancient_board_wall'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/ancient_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:fd/quark/ancient_cabinet'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/ancient_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/ancient_table'], "§4Unobtainable")
-  tooltip.add(['supplementaries:quark/hanging_sign_ancient'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/quark/ancient_window_pane'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/quark/ancient_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/ancient_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/ancient_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/ancient_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/ancient_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/ancient_beehive'], "§4Unobtainable")
-  tooltip.add(['supplementaries:quark/sign_post_ancient'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/ancient_shelf'], "§4Unobtainable")
-  tooltip.add(['supplementaries:quark/hanging_sign_blossom'], "§4Unobtainable")
-  tooltip.add(['supplementaries:quark/sign_post_blossom'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/blossom_beehive'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/blossom_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/blossom_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/blossom_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/lavender_blossom_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/pink_blossom_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/orange_blossom_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/red_blossom_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/blue_blossom_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/yellow_blossom_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/blossom_railing'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/blossom_board_slab'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/blossom_board_stairs'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/blossom_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/quark/blossom_board_wall'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/quark/blossom_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/quark/blossom_window_pane'], "§4Unobtainable")
-  tooltip.add(['everycomp:fd/quark/blossom_cabinet'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/quark/blossom_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/blossom_shelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/blossom_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/blossom_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/blossom_shutter'], "§4Unobtainable")
-  tooltip.add(['brewinandchewin:unripe_flaxen_cheese_wheel'], "§4Unobtainable")
-  tooltip.add(['brewinandchewin:unripe_scarlet_cheese_wheel'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:miners_cooking_guide'], "§4Unobtainable")
-  tooltip.add(['quark:jasper_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:jasper_bricks_slab'], "§4Unobtainable")
-  tooltip.add(['quark:jasper_bricks_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:chiseled_jasper_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:jasper_pillar'], "§4Unobtainable")
-  tooltip.add(['quark:jasper_bricks_wall'], "§4Unobtainable")
-  tooltip.add(['quark:shale_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:shale_bricks_slab'], "§4Unobtainable")
-  tooltip.add(['quark:shale_bricks_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:chiseled_shale_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:shale_pillar'], "§4Unobtainable")
-  tooltip.add(['quark:shale_bricks_wall'], "§4Unobtainable")
-  tooltip.add(['quark:limestone_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:limestone_bricks_slab'], "§4Unobtainable")
-  tooltip.add(['quark:limestone_bricks_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:chiseled_limestone_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:limestone_pillar'], "§4Unobtainable")
-  tooltip.add(['quark:limestone_bricks_wall'], "§4Unobtainable")
-  tooltip.add(['quark:myalite_bricks_wall'], "§4Unobtainable")
-  tooltip.add(['quark:myalite_crystal'], "§4Unobtainable")
-  tooltip.add(['quark:dusky_myalite'], "§4Unobtainable")
-  tooltip.add(['quark:myalite_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:myalite_bricks_slab'], "§4Unobtainable")
-  tooltip.add(['quark:myalite_bricks_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:chiseled_myalite_bricks'], "§4Unobtainable")
-  tooltip.add(['quark:myalite_pillar'], "§4Unobtainable")
-  tooltip.add(['environmental:music_disc_leaving_home'], "§4Unobtainable")
-  tooltip.add(['kubejs:gingerbread_block'], "§4Unobtainable")
-  tooltip.add(['kubejs:gingerbread_bricks'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:gingerbread_stairs'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:gingerbread_slab'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:gingerbread_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:gingerbread_brick_slab'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:gingerbread'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:gingerbread_man'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:gingerdough'], "§4Unobtainable")
-  tooltip.add(['sob:strawberry_milk'], "§4Unobtainable")
-  tooltip.add(['sob:chocolate_milk'], "§4Unobtainable")
-  tooltip.add(['sob:vanilla_milk'], "§4Unobtainable")
-  tooltip.add(['sob:boba_tea'], "§4Unobtainable")
-  tooltip.add(['sob:slome_slush'], "§4Unobtainable")
-  tooltip.add(['sob:foul_berry_smoothie'], "§4Unobtainable")
-  tooltip.add(['sob:ambrosia'], "§4Unobtainable")
-  tooltip.add(['suppsquared:daub_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['suppsquared:daub_frame_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_spruce'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_birch'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_warped'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_crimson'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_dark_oak'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_acacia'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_mangrove'], "§4Unobtainable")
-  tooltip.add(['suppsquared:item_shelf_jungle'], "§4Unobtainable")
-  tooltip.add(['suppsquared:quark/item_shelf_bamboo'], "§4Unobtainable")
-  tooltip.add(['suppsquared:ecologics/item_shelf_azalea'], "§4Unobtainable")
-  tooltip.add(['suppsquared:ecologics/item_shelf_coconut'], "§4Unobtainable")
-  tooltip.add(['suppsquared:windswept/item_shelf_chestnut'], "§4Unobtainable")
-  tooltip.add(['suppsquared:architects_palette/item_shelf_twisted'], "§4Unobtainable")
-  tooltip.add(['suppsquared:environmental/item_shelf_willow'], "§4Unobtainable")
-  tooltip.add(['suppsquared:atmospheric/item_shelf_rosewood'], "§4Unobtainable")
-  tooltip.add(['suppsquared:autumnity/item_shelf_maple'], "§4Unobtainable")
-  tooltip.add(['suppsquared:upgrade_aquatic/item_shelf_river'], "§4Unobtainable")
-  tooltip.add(['suppsquared:upgrade_aquatic/item_shelf_driftwood'], "§4Unobtainable")
-  tooltip.add(['suppsquared:environmental/item_shelf_wisteria'], "§4Unobtainable")
-  tooltip.add(['suppsquared:environmental/item_shelf_cherry'], "§4Unobtainable")
-  tooltip.add(['suppsquared:atmospheric/item_shelf_morado'], "§4Unobtainable")
-  tooltip.add(['suppsquared:atmospheric/item_shelf_yucca'], "§4Unobtainable")
-  tooltip.add(['suppsquared:atmospheric/item_shelf_aspen'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_block'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cut_nether_brass'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cut_nether_brass_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cut_nether_brass_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_pillar'], "§4Unobtainable")
-  tooltip.add(['architects_palette:smooth_nether_brass'], "§4Unobtainable")
-  tooltip.add(['architects_palette:smooth_nether_brass_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:smooth_nether_brass_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cut_nether_brass_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_blend'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_ingot'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_nugget'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_sapling'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_leaves'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_hedge'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_berry_crate'], "§4Unobtainable")
-  tooltip.add(['windswept:holly_berries'], "§4Unobtainable")
-  tooltip.add(['create_enchantment_industry:experience_rotor'], "§4Unobtainable")
-  tooltip.add(['create:netherite_diving_helmet'], "§4Unobtainable")
-  tooltip.add(['create:netherite_diving_boots'], "§4Unobtainable")
-  tooltip.add(['create:netherite_backtank'], "§4Unobtainable")
-  tooltip.add(['sob:lava_top_cocktail'], "§4Unobtainable")
-  tooltip.add(['sob:vanilla_passion_soda'], "§4Unobtainable")
-  tooltip.add(['windswept:wild_berry_juice'], "§4Unobtainable")
-  tooltip.add(['create_enchantment_industry:printer'], "§4Unobtainable")
-  tooltip.add(['farmersdelight:rope'], "§4Unobtainable")
-  tooltip.add(['create:analog_lever'], "§4Unobtainable")
-  tooltip.add(['create:turntable'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:beachgrass_thatch'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:beachgrass_thatch_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:beachgrass_thatch_stairs'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:beachgrass'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:tall_beachgrass'], "§4Unobtainable")
-  tooltip.add(['architects_palette:sunmetal_blend'], "§4Unobtainable")
-  tooltip.add(['architects_palette:wardstone_blend'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:disc_fragment_atlantis'], "§4Unobtainable")
-  tooltip.add(['minecraft:end_portal_frame'], "§4Unobtainable")
-  tooltip.add(['minecraft:dragon_head'], "§4Unobtainable")
-  tooltip.add(['minecraft:elytra'], "§4Unobtainable")
-  tooltip.add(['minecraft:dragon_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:shulker_shell'], "§4Unobtainable")
-  tooltip.add(['minecraft:shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:white_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:orange_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:magenta_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:light_blue_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:yellow_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:lime_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:pink_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:gray_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:light_gray_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:cyan_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:purple_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:blue_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:brown_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:green_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:red_shulker_box'], "§4Unobtainable")
-  tooltip.add(['minecraft:black_shulker_box'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_end_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_end_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_block'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_lamp'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_pillar'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:dark_oracle_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:dark_oracle_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:dark_oracle_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_tiles'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_tile_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_tile_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:framed_oracle_block'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_brick_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:dark_oracle_brick_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_tile_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:oracle_jelly'], "§4Unobtainable")
-  tooltip.add(['spelunkery:sulfur_geyser'], "§4Unobtainable")
-  tooltip.add(['spelunkery:parachute'], "§4Unobtainable")
-  tooltip.add(['spelunkery:sulfur'], "§4Unobtainable")
-  tooltip.add(['spelunkery:saltpeter'], "§4Unobtainable")
-  tooltip.add(['spelunkery:eggplant'], "§4Unobtainable")
-  tooltip.add(['architects_palette:heavy_cracked_end_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:heavy_end_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['buzzier_bees:honey_lamp'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/culturaldelights/fruiting_avocado_leaf_pile'], "§4Unobtainable")
-  tooltip.add(['minecraft:emerald_ore'], "§4Unobtainable")
-  tooltip.add(['minecraft:deepslate_emerald_ore'], "§4Unobtainable")
-  tooltip.add(['minecraft:emerald'], "§4Unobtainable")
-  tooltip.add(['minecraft:emerald'], "§4Don't question why it looks like this")
-  tooltip.add(['architects_palette:emerald_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:emerald_ore_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:emerald_ore_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_emerald_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_emerald_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:emerald_ore_brick_wall'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rough_emerald_block'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rough_emerald_shard'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rough_emerald'], "§4Unobtainable")
-  tooltip.add(['spelunkery:emerald_shard'], "§4Unobtainable")
-  tooltip.add(['domesticationinnovation:collar_tag'], "§4Unobtainable")
-  tooltip.add(['domesticationinnovation:feather_on_a_stick'], "§4Unobtainable")
-  tooltip.add(['domesticationinnovation:rotten_apple'], "§4Unobtainable")
-  tooltip.add(['domesticationinnovation:sinister_carrot'], "§4Unobtainable")
-  tooltip.add(['domesticationinnovation:deed_of_ownership'], "§4Unobtainable")
-  tooltip.add(['minecraft:pillager_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:ravager_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:evoker_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:vindicator_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:villager_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:zombie_villager_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:skeleton_villager_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:trader_llama_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:wandering_trader_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:executioner_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:trickster_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:iceologer_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:griefer_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['minecraft:totem_of_undying'], "§4Unobtainable")
-  tooltip.add(['minecraft:brewing_stand'], "§4Unobtainable")
-  tooltip.add(['minecraft:fletching_table'], "§4Unobtainable")
-  tooltip.add(['ecologics:penguin_feather'], "§4Unobtainable")
-  tooltip.add(['naturalist:snail_eggs'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:blackstone_furnace'], "§4Unobtainable")
-  tooltip.add(['ecologics:thin_ice'], "§4Unobtainable")
-  tooltip.add(['oreganized:lead_ore'], "§4Unobtainable")
-  tooltip.add(['architects_palette:coal_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:coal_ore_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:coal_ore_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_coal_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_coal_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:lapis_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:lapis_ore_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:lapis_ore_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_lapis_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_lapis_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:redstone_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:redstone_ore_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:redstone_ore_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_redstone_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_redstone_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:iron_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:iron_ore_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:iron_ore_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_iron_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_iron_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:gold_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:gold_ore_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:gold_ore_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_gold_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_gold_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:diamond_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:diamond_ore_brick_slab'], "§4Unobtainable")
-  tooltip.add(['architects_palette:diamond_ore_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cracked_diamond_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:chiseled_diamond_ore_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:coal_ore_brick_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:lapis_ore_brick_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:redstone_ore_brick_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:iron_ore_brick_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:gold_ore_brick_wall'], "§4Unobtainable")
-  tooltip.add(['architects_palette:diamond_ore_brick_wall'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:aloe_cake_slice'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:passionfruit_cake_slice'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:pumpkin_cake_slice'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:sweet_berry_cake_slice'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:yucca_cake_slice'], "§4Unobtainable")
-  tooltip.add(['sob:wild_berry_smoothie'], "§4Unobtainable")
-  tooltip.add(['ecologics:squirrel_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['farmersrespite:kettle'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:brewing_guide'], "§4Unobtainable")
-  tooltip.add(['another_furniture:oak_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:spruce_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:birch_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:jungle_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:acacia_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:dark_oak_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:mangrove_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:crimson_planter_box'], "§4Unobtainable")
-  tooltip.add(['another_furniture:warped_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/azalea_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/autumnity/maple_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/morado_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/windswept/chestnut_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/environmental/cherry_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/environmental/willow_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/upgrade_aquatic/driftwood_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/upgrade_aquatic/river_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/ecologics/coconut_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/rosewood_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/quark/bamboo_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/environmental/wisteria_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/aspen_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/atmospheric/yucca_planter_box'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/architects_palette/twisted_planter_box'], "§4Unobtainable")
-  tooltip.add(['twigs:azalea_flowers'], "§4Unobtainable")
-  tooltip.add(['twigs:bronzed_seashell'], "§4Unobtainable")
-  tooltip.add(['twigs:opaline_seashell'], "§4Unobtainable")
-  tooltip.add(['twigs:roseate_seashell'], "§4Unobtainable")
-  tooltip.add(['twigs:tangerine_seashell'], "§4Unobtainable")
-  tooltip.add(['twigs:paper_lantern'], "§4Unobtainable")
-  tooltip.add(['twigs:allium_paper_lantern'], "§4Unobtainable")
-  tooltip.add(['twigs:blue_orchid_paper_lantern'], "§4Unobtainable")
-  tooltip.add(['twigs:crimson_roots_paper_lantern'], "§4Unobtainable")
-  tooltip.add(['twigs:dandelion_paper_lantern'], "§4Unobtainable")
-  tooltip.add(['twigs:oak_table'], "§4Unobtainable")
-  tooltip.add(['twigs:spruce_table'], "§4Unobtainable")
-  tooltip.add(['twigs:birch_table'], "§4Unobtainable")
-  tooltip.add(['twigs:jungle_table'], "§4Unobtainable")
-  tooltip.add(['twigs:acacia_table'], "§4Unobtainable")
-  tooltip.add(['twigs:dark_oak_table'], "§4Unobtainable")
-  tooltip.add(['twigs:mangrove_table'], "§4Unobtainable")
-  tooltip.add(['twigs:bamboo_table'], "§4Unobtainable")
-  tooltip.add(['twigs:crimson_table'], "§4Unobtainable")
-  tooltip.add(['twigs:warped_table'], "§4Unobtainable")
-  tooltip.add(['twigs:compacted_dripstone'], "§4Unobtainable")
-  tooltip.add(['twigs:cobblestone_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:cobblestone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:cobblestone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:cobblestone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:cracked_cobblestone_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:mossy_cobblestone_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:mossy_cobblestone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:mossy_cobblestone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:mossy_cobblestone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:tuff_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:tuff_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_tuff'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_tuff_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_tuff_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_tuff_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_tuff_brick_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_tuff_brick_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:cracked_polished_tuff_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:calcite_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:calcite_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:calcite_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_calcite'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_calcite_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_calcite_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_calcite_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_calcite_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_calcite_brick_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_calcite_brick_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:cracked_polished_calcite_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:schist'], "§4Unobtainable")
-  tooltip.add(['twigs:schist_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:schist_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:schist_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_schist'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_schist_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_schist_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_schist_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_schist_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_schist_brick_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_schist_brick_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:cracked_polished_schist_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:rhyolite'], "§4Unobtainable")
-  tooltip.add(['twigs:rhyolite_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:rhyolite_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:rhyolite_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_rhyolite'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_rhyolite_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_rhyolite_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_rhyolite_bricks'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_rhyolite_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_rhyolite_brick_slab'], "§4Unobtainable")
-  tooltip.add(['twigs:polished_rhyolite_brick_wall'], "§4Unobtainable")
-  tooltip.add(['twigs:cracked_polished_rhyolite_bricks'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/windswept/chestnut_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/autumnity/maple_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/environmental/cherry_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/architects_palette/twisted_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/atmospheric/rosewood_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/atmospheric/yucca_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/ecologics/coconut_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/atmospheric/morado_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/upgrade_aquatic/river_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/atmospheric/aspen_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/environmental/willow_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/environmental/wisteria_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/upgrade_aquatic/driftwood_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:tw/ecologics/azalea_table'], "§4Unobtainable")
-  tooltip.add(['spelunkery:depth_gauge'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/spirit_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/rose_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/smoked_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/spirit_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/rose_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/smoked_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['architects_palette:weeping_blackstone_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:twisting_blackstone_bricks'], "§4Unobtainable")
-  tooltip.add(['architects_palette:weeping_blackstone'], "§4Unobtainable")
-  tooltip.add(['architects_palette:twisting_blackstone'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:white_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:orange_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:magenta_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:light_blue_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:yellow_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:lime_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:pink_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:gray_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:light_gray_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:cyan_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:purple_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:blue_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:brown_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:green_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:red_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:black_concrete_fence'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:white_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:orange_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:magenta_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:light_blue_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:yellow_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:lime_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:pink_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:gray_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:light_gray_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:cyan_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:purple_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:blue_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:brown_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:green_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:red_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:black_concrete_lever'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:white_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:orange_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:magenta_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:light_blue_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:yellow_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:lime_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:pink_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:gray_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:light_gray_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:cyan_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:purple_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:blue_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:brown_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:green_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:red_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['moreconcrete:black_concrete_fence_gate'], "§4Unobtainable")
-  tooltip.add(['neapolitan:adzuki_soil'], "§4Unobtainable")
-  tooltip.add(['neapolitan:adzuki_crate'], "§4Unobtainable")
-  tooltip.add(['neapolitan:roasted_adzuki_crate'], "§4Unobtainable")
-  tooltip.add(['neapolitan:adzuki_beans'], "§4Unobtainable")
-  tooltip.add(['neapolitan:roasted_adzuki_beans'], "§4Unobtainable")
-  tooltip.add(['neapolitan:adzuki_stew'], "§4Unobtainable")
-  tooltip.add(['neapolitan:adzuki_curry'], "§4Unobtainable")
-  tooltip.add(['neapolitan:adzuki_bun'], "§4Unobtainable")
-  tooltip.add(['neapolitan:strawberry_bean_bonbons'], "§4Unobtainable")
-  tooltip.add(['neapolitan:magic_beans'], "§4Unobtainable")
-  tooltip.add(['minecraft:shulker_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['naturalist:crimson_froglass'], "§4Unobtainable")
-  tooltip.add(['naturalist:verdant_froglass'], "§4Unobtainable")
-  tooltip.add(['naturalist:azure_froglass'], "§4Unobtainable")
-  tooltip.add(['naturalist:crimson_froglass_pane'], "§4Unobtainable")
-  tooltip.add(['naturalist:verdant_froglass_pane'], "§4Unobtainable")
-  tooltip.add(['naturalist:azure_froglass_pane'], "§4Unobtainable")
-  tooltip.add(['create_dd:industrial_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:overburden_casing'], "§4Unobtainable")
-  tooltip.add(['architects_palette:sheet_metal_block'], "§4Unobtainable")
-  tooltip.add(['architects_palette:sheet_metal_wall'], "§4Unobtainable")
-  tooltip.add(['alloyed:steel_shears'], "§4Unobtainable")
-  tooltip.add(['create_dd:potassic'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_potassic'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_potassic_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_potassic_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_potassic_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic_bricks'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic_brick_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_potassic_brick_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_potassic_bricks'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_potassic_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_potassic_brick_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_potassic_brick_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:layered_potassic'], "§4Unobtainable")
-  tooltip.add(['create_dd:potassic_pillar'], "§4Unobtainable")
-  tooltip.add(['create_dd:copycat_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:copycat_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:ponder_stone_generation'], "§4Unobtainable")
-  tooltip.add(['create_dd:overcharged_alloy_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:blaze_gold_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:stargaze_singularity_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:tin_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:netherite_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:brick_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:nether_brick_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:overcharged_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:blaze_gold_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:stargaze_singularity_casing'], "§4Unobtainable")
-  tooltip.add(['create_dd:furnace_engine'], "§4Unobtainable")
-  tooltip.add(['create_dd:flywheel'], "§4Unobtainable")
-  tooltip.add(['create_dd:cog_crank'], "§4Unobtainable")
-  tooltip.add(['create_dd:tin_scaffolding'], "§4Unobtainable")
-  tooltip.add(['create_dd:steel_scaffolding'], "§4Unobtainable")
-  tooltip.add(['create_dd:stargaze_singularity_scaffolding'], "§4Unobtainable")
-  tooltip.add(['create_dd:blaze_gold_scaffolding'], "§4Unobtainable")
-  tooltip.add(['create_dd:overcharged_scaffolding'], "§4Unobtainable")
-  tooltip.add(['create_dd:netherite_scaffolding'], "§4Unobtainable")
-  tooltip.add(['create_dd:vertical_framed_split_glass'], "§4Unobtainable")
-  tooltip.add(['create_dd:vertical_framed_split_glass_pane'], "§4Unobtainable")
-  tooltip.add(['create_dd:horizontal_framed_split_glass'], "§4Unobtainable")
-  tooltip.add(['create_dd:horizontal_framed_split_glass_pane'], "§4Unobtainable")
-  tooltip.add(['create_dd:framed_split_glass'], "§4Unobtainable")
-  tooltip.add(['create_dd:framed_split_glass_pane'], "§4Unobtainable")
-  tooltip.add(['create_dd:ornate_iron_glass'], "§4Unobtainable")
-  tooltip.add(['create_dd:ornate_iron_glass_pane'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_sapling'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_leaves'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_log'], "§4Unobtainable")
-  tooltip.add(['create_dd:stripped_rubber_log'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_wood'], "§4Unobtainable")
-  tooltip.add(['create_dd:stripped_rubber_wood'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_planks'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_fence'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_fence_gate'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_door'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_trapdoor'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_button'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber_pressure_plate'], "§4Unobtainable")
-  tooltip.add(['create_dd:aethersite_asphalt_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:aethersite_mossy_bricks'], "§4Unobtainable")
-  tooltip.add(['create_dd:compound_base'], "§4Unobtainable")
-  tooltip.add(['create_dd:crystallized_sap'], "§4Unobtainable")
-  tooltip.add(['create_dd:raw_rubber'], "§4Unobtainable")
-  tooltip.add(['create_dd:rubber'], "§4Unobtainable")
-  tooltip.add(['create_dd:infastone'], "§4Unobtainable")
-  tooltip.add(['create_dd:infagranite'], "§4Unobtainable")
-  tooltip.add(['create_dd:infadiorite'], "§4Unobtainable")
-  tooltip.add(['create_dd:infaandesite'], "§4Unobtainable")
-  tooltip.add(['create_dd:infacobbled_deepslate'], "§4Unobtainable")
-  tooltip.add(['create_dd:infatuff'], "§4Unobtainable")
-  tooltip.add(['create_dd:infacalcite'], "§4Unobtainable")
-  tooltip.add(['create_dd:infadripstone_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:infadirt'], "§4Unobtainable")
-  tooltip.add(['create_dd:infacoarse_dirt'], "§4Unobtainable")
-  tooltip.add(['create_dd:infamud'], "§4Unobtainable")
-  tooltip.add(['create_dd:infacobblestone'], "§4Unobtainable")
-  tooltip.add(['create_dd:infasand'], "§4Unobtainable")
-  tooltip.add(['create_dd:infared_sand'], "§4Unobtainable")
-  tooltip.add(['create_dd:infagravel'], "§4Unobtainable")
-  tooltip.add(['create_dd:infaobsidian'], "§4Unobtainable")
-  tooltip.add(['create_dd:infaice'], "§4Unobtainable")
-  tooltip.add(['create_dd:infasnow_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:infasoul_sand'], "§4Unobtainable")
-  tooltip.add(['create_dd:infaend_stone'], "§4Unobtainable")
-  tooltip.add(['create_dd:infanetherrack'], "§4Unobtainable")
-  tooltip.add(['create_dd:infamagma_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:infamoss_block'], "§4Unobtainable")
-  tooltip.add(['create_dd:fallen_stargaze_singularity'], "§4Unobtainable")
-  tooltip.add(['create_dd:stargaze_singularity'], "§4Unobtainable")
-  tooltip.add(['create_dd:stargaze_singularity_sheet'], "§4Unobtainable")
-  tooltip.add(['create_dd:blaze_gold'], "§4Unobtainable")
-  tooltip.add(['create_dd:blaze_gold_sheet'], "§4Unobtainable")
-  tooltip.add(['create_dd:overcharge_alloy_sheet'], "§4Unobtainable")
-  tooltip.add(['create_dd:caramel_milkshake'], "§4Unobtainable")
-  tooltip.add(['create_dd:chocolate_milkshake'], "§4Unobtainable")
-  tooltip.add(['create_dd:glowberry_milkshake'], "§4Unobtainable")
-  tooltip.add(['create_dd:strawberry_milkshake'], "§4Unobtainable")
-  tooltip.add(['create_dd:vanilla_milkshake'], "§4Unobtainable")
-  tooltip.add(['create_dd:hot_chocolate'], "§4Unobtainable")
-  tooltip.add(['create_dd:chromatic_waste_bucket'], "§4Unobtainable")
-  tooltip.add(['create_dd:sap_bucket'], "§4Unobtainable")
-  tooltip.add(['create_dd:shimmer_bucket'], "§4Unobtainable")
-  tooltip.add(['create_dd:aethersite'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_aethersite'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_aethersite_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_aethersite_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:polished_cut_aethersite_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite_bricks'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite_brick_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:cut_aethersite_brick_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_aethersite_bricks'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_aethersite_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_aethersite_brick_slab'], "§4Unobtainable")
-  tooltip.add(['create_dd:small_aethersite_brick_wall'], "§4Unobtainable")
-  tooltip.add(['create_dd:layered_aethersite'], "§4Unobtainable")
-  tooltip.add(['create_dd:aethersite_pillar'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/rubber_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/create_dd/rubber_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['minecraft:jukebox'], "§4Unobtainable")
-  tooltip.add(['brewinandchewin:dread_nog'], "§4Unobtainable")
-  tooltip.add(['etched:jukebox_minecart'], "§4Unobtainable")
-  tooltip.add(['create_enchantment_industry:enchanting_guide'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:hot_chocolate_bottle'], "§4Unobtainable")
-  tooltip.add(['create_confectionery:soothing_hot_chocolate'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:wild_cucumbers'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:cucumber_crate'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:pickle_crate'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:cucumber_seeds'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:cucumber'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:pickle'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:cut_cucumber'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:cut_pickle'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:midori_roll'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:midori_roll_slice'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:white_eggplant_crate'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:smoked_white_eggplant'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:white_eggplant'], "§4Unobtainable")
-  tooltip.add(['windswept:mutton_pie'], "§4Unobtainable")
-  tooltip.add(['environmental:apple_pie'], "§4Unobtainable")
-  tooltip.add(['quark:shale'], "§4Unobtainable")
-  tooltip.add(['quark:polished_shale'], "§4Unobtainable")
-  tooltip.add(['quark:shale_slab'], "§4Unobtainable")
-  tooltip.add(['quark:shale_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:polished_shale_slab'], "§4Unobtainable")
-  tooltip.add(['quark:polished_shale_stairs'], "§4Unobtainable")
-  tooltip.add(['quark:shale_wall'], "§4Unobtainable")
-  tooltip.add(['spelunkery:handheld_compactor'], "§4Unobtainable")
-  tooltip.add(['create_central_kitchen:honey_cake_slice'], "§4Unobtainable")
-  tooltip.add(['spelunkery:mineomite'], "§4Unobtainable")
-  tooltip.add(['copperized:copper_nugget'], "§4Unobtainable")
-  tooltip.add(['copperized:copper_sword'], "§4Unobtainable")
-  tooltip.add(['copperized:copper_pickaxe'], "§4Unobtainable")
-  tooltip.add(['copperized:copper_axe'], "§4Unobtainable")
-  tooltip.add(['copperized:copper_hoe'], "§4Unobtainable")
-  tooltip.add(['copperized:copper_shovel'], "§4Unobtainable")
-  tooltip.add(['copperized:copper_horse_armor'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:avocado_log'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:avocado_wood'], "§4Unobtainable")
-  tooltip.add(['neapolitan:beanstalk'], "§4Unobtainable")
-  tooltip.add(['neapolitan:beanstalk_thorns'], "§4Unobtainable")
-  tooltip.add(['miningmaster:fire_ruby'], "§4Unobtainable")
-  tooltip.add(['miningmaster:ice_sapphire'], "§4Unobtainable")
-  tooltip.add(['miningmaster:spirit_garnet'], "§4Unobtainable")
-  tooltip.add(['miningmaster:haste_peridot'], "§4Unobtainable")
-  tooltip.add(['miningmaster:lucky_citrine'], "§4Unobtainable")
-  tooltip.add(['miningmaster:dive_aquamarine'], "§4Unobtainable")
-  tooltip.add(['miningmaster:divine_beryl'], "§4Unobtainable")
-  tooltip.add(['miningmaster:spider_kunzite'], "§4Unobtainable")
-  tooltip.add(['miningmaster:unbreaking_iolite'], "§4Unobtainable")
-  tooltip.add(['miningmaster:heart_rhodonite'], "§4Unobtainable")
-  tooltip.add(['miningmaster:power_pyrite'], "§4Unobtainable")
-  tooltip.add(['miningmaster:kinetic_opal'], "§4Unobtainable")
-  tooltip.add(['miningmaster:air_malachite'], "§4Unobtainable")
-  tooltip.add(['miningmaster:fire_ruby_sword'], "§4Unobtainable")
-  tooltip.add(['miningmaster:ice_sapphire_sword'], "§4Unobtainable")
-  tooltip.add(['miningmaster:spirit_garnet_sword'], "§4Unobtainable")
-  tooltip.add(['miningmaster:lucky_citrine_sword'], "§4Unobtainable")
-  tooltip.add(['miningmaster:power_pyrite_sword'], "§4Unobtainable")
-  tooltip.add(['miningmaster:ultima_sword'], "§4Unobtainable")
-  tooltip.add(['miningmaster:haste_peridot_axe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:power_pyrite_axe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:kinetic_opal_axe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:ultima_axe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:haste_peridot_pickaxe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:lucky_citrine_pickaxe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:unbreaking_iolite_pickaxe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:ultima_pickaxe'], "§4Unobtainable")
-  tooltip.add(['miningmaster:air_malachite_bow'], "§4Unobtainable")
-  tooltip.add(['miningmaster:paragon_helmet'], "§4Unobtainable")
-  tooltip.add(['miningmaster:paragon_chestplate'], "§4Unobtainable")
-  tooltip.add(['miningmaster:paragon_leggings'], "§4Unobtainable")
-  tooltip.add(['miningmaster:paragon_boots'], "§4Unobtainable")
-  tooltip.add(['miningmaster:fire_ruby_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:ice_sapphire_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:spirit_garnet_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:haste_peridot_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:lucky_citrine_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:dive_aquamarine_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:divine_beryl_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:spider_kunzite_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:unbreaking_iolite_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_fire_ruby_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_ice_sapphire_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_spirit_garnet_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_haste_peridot_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_lucky_citrine_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_dive_aquamarine_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_divine_beryl_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_spider_kunzite_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:deepslate_unbreaking_iolite_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:heart_rhodonite_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:power_pyrite_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:kinetic_opal_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:air_malachite_ore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:fire_ruby_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:ice_sapphire_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:spirit_garnet_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:haste_peridot_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:lucky_citrine_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:dive_aquamarine_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:divine_beryl_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:spider_kunzite_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:unbreaking_iolite_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:heart_rhodonite_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:power_pyrite_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:kinetic_opal_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:air_malachite_block'], "§4Unobtainable")
-  tooltip.add(['miningmaster:malacore'], "§4Unobtainable")
-  tooltip.add(['miningmaster:malacrust'], "§4Unobtainable")
-  tooltip.add(['create:experience_block'], "§4Unobtainable")
-  tooltip.add(['create:experience_nugget'], "§4Unobtainable")
-  tooltip.add(['minecraft:experience_bottle'], "§4Unobtainable")
-  tooltip.add(['minecraft:enchanting_table'], "§4Unobtainable")
-  tooltip.add(['savage_and_ravage:cleaver_of_beheading'], "§4Unobtainable")
-  tooltip.add(['quark:backpack'], "§4Unobtainable")
-  tooltip.add(['minecraft:enchanted_book'], "§4Unobtainable")
-  tooltip.add(['minecraft:lapis_ore'], "§4Unobtainable")
-  tooltip.add(['minecraft:deepslate_lapis_ore'], "§4Unobtainable")
-  tooltip.add(['minecraft:lapis_lazuli'], "§4Unobtainable")
-  tooltip.add(['minecraft:lapis_block'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rough_lazurite_shard'], "§4Unobtainable")
-  tooltip.add(['spelunkery:rough_lazurite'], "§4Unobtainable")
-  tooltip.add(['spelunkery:lapis_lazuli_shard'], "§4Unobtainable")
-  tooltip.add(['trickytrialspaintingsplusmusic:music_disc_creator_music_box'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:reinforced_paper_netherite'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:reinforced_paper_diamond'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:reinforced_paper_gold'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:reinforced_paper_iron'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:reinforced_paper'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:nether_upgrade'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:copper_upgrade'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:paraglider_netherite'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:paraglider_diamond'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:paraglider_gold'], "§4Unobtainable")
-  tooltip.add(['vc_gliders:paraglider_iron'], "§4Unobtainable")
-  tooltip.add(['endergetic:music_disc_kilobyte'], "§4Unobtainable")
-  tooltip.add(['endergetic:chiseled_end_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['endergetic:cracked_end_stone_bricks'], "§4Unobtainable")
-  tooltip.add(['endergetic:acidian_lantern'], "§4Unobtainable")
-  tooltip.add(['endergetic:crystal_holder'], "§4Unobtainable")
-  tooltip.add(['endergetic:mystical_obsidian_rune'], "§4Unobtainable")
-  tooltip.add(['endergetic:mystical_obsidian_activation_rune'], "§4Unobtainable")
-  tooltip.add(['endergetic:activated_mystical_obsidian_activation_rune'], "§4Unobtainable")
-  tooltip.add(['sullysmod:tortoise_spawn_egg'], "§4Unobtainable")
-  tooltip.add(['sullysmod:tortoise_shell'], "§4Unobtainable")
-  tooltip.add(['sullysmod:tortoise_scute'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade'], "§4Unobtainable")
-  tooltip.add(['sullysmod:polished_jade'], "§4Unobtainable")
-  tooltip.add(['sullysmod:jade_ore'], "§4Unobtainable")
-  tooltip.add(['sullysmod:deepslate_jade_ore'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_block'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_bricks'], "§4Unobtainable")
-  tooltip.add(['sullysmod:smoothed_rough_jade'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_tiles'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['sullysmod:smoothed_rough_jade_stairs'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_tile_stairs'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_brick_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:smoothed_rough_jade_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_tile_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:smoothed_rough_jade_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:rough_jade_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:polished_jade_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:polished_small_jade_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:polished_jade_shingle_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:polished_jade_tile_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['sullysmod:copper_button'], "§4Unobtainable")
-  tooltip.add(['sullysmod:exposed_copper_button'], "§4Unobtainable")
-  tooltip.add(['sullysmod:weathered_copper_button'], "§4Unobtainable")
-  tooltip.add(['sullysmod:oxidized_copper_button'], "§4Unobtainable")
-  tooltip.add(['sullysmod:waxed_copper_button'], "§4Unobtainable")
-  tooltip.add(['sullysmod:waxed_exposed_copper_button'], "§4Unobtainable")
-  tooltip.add(['sullysmod:waxed_weathered_copper_button'], "§4Unobtainable")
-  tooltip.add(['sullysmod:waxed_oxidized_copper_button'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:chiseled_tuff_bricks'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:tuff_brick_wall'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:tuff_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:tuff_brick_slab'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:tuff_bricks'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:chiseled_tuff'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:polished_tuff_wall'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:tuff_slab'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:tuff_wall'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:polished_tuff'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:polished_tuff_slab'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:polished_tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:golden_bucket'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:golden_water_bucket'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:golden_lava_bucket'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:golden_powder_snow_bucket'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:golden_milk_bucket'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:bejeweled_apple'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:abnormals_banner_pattern'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:copper_nugget'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:bejeweled_pearl'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_boots'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_leggings'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_chestplate'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_helmet'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_sword'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_shovel'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_pickaxe'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_axe'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_hoe'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_ingot'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_nugget'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_horse_armor'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:raw_silver'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:waxed_oxidized_toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:waxed_weathered_toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:waxed_exposed_toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:waxed_toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:exposed_toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:weathered_toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:oxidized_toolbox'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_beehive'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_sign'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_fence'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_ladder'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_fence_gate'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_hedge'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:flowering_azalea_hedge'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_button'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_chest'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:stripped_azalea_post'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_pressure_plate'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_door'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_trapdoor'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_brick_wall'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:cobblestone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:mossy_cobblestone_brick_wall'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_boards'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:vertical_azalea_planks'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:cut_amethyst_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:dripstone_shingle_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:flooded_dripstone_shingles'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:dripstone_shingles'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:dripstone_shingle_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:dripstone_shingle_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:chiseled_dripstone_shingles'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:calcite_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:calcite_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:calcite_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_calcite_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_calcite_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_calcite_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:tuff_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:tuff_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_tuff_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_tuff_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:tuff_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:calcite_wall'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:tuff_wall'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:dripstone_shingle_wall'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:cobblestone_bricks'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:cobblestone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:cobblestone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:cobblestone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:mossy_cobblestone_bricks'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:mossy_cobblestone_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:mossy_cobblestone_brick_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:mossy_cobblestone_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:lapis_lamp'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_lamp'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_ore'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:deepslate_spinel_ore'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_block'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_bricks'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_brick_stairs'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_brick_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_brick_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:spinel_pillar'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:rotten_flesh_block'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:sanguine_plate_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_bookshelf'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_slab'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_wood'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:stripped_azalea_wood'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:stripped_azalea_log'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_log'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_block'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:raw_silver_block'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:soul_silver_ore'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:deepslate_silver_ore'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:silver_ore'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_planks'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_calcite'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:polished_tuff'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:tether_potion'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/coconut_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/architects_palette/twisted_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/azalea_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/coconut_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/architects_palette/twisted_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:abnww/ecologics/azalea_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/caverns_and_chasms/azalea_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/caverns_and_chasms/azalea_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/caverns_and_chasms/azalea_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/caverns_and_chasms/azalea_shelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/caverns_and_chasms/azalea_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/caverns_and_chasms/azalea_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/caverns_and_chasms/azalea_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/caverns_and_chasms/azalea_window_pane'], "§4Unobtainable")
-  tooltip.add(['everycomp:fd/caverns_and_chasms/azalea_cabinet'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/caverns_and_chasms/azalea_railing'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/caverns_and_chasms/azalea_board_slab'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/caverns_and_chasms/azalea_board_wall'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/caverns_and_chasms/azalea_boards'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:soul_compost'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:rich_soul_soil'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:powdery_mosaic_stairs'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:powdery_mosaic_slab'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:flowering_rush'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:blue_pickerelweed_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:purple_pickerelweed_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:boiled_blue_pickerelweed_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:boiled_purple_pickerelweed_block'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:blue_pickerelweed'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:purple_pickerelweed'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:boiled_blue_pickerelweed'], "§4Unobtainable")
-  tooltip.add(['upgrade_aquatic:boiled_purple_pickerelweed'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:pickerelweed_juice'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:pike_with_beetroot'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:passion_fruit_glazed_duck'], "§4Unobtainable")
-  tooltip.add(['sob:passionfruit_smoothie'], "§4Unobtainable")
-  tooltip.add(['atmospheric:passion_vine'], "§4Unobtainable")
-  tooltip.add(['atmospheric:passion_vine_bundle'], "§4Unobtainable")
-  tooltip.add(['atmospheric:passionfruit_crate'], "§4Unobtainable")
-  tooltip.add(['atmospheric:shimmering_passionfruit_crate'], "§4Unobtainable")
-  tooltip.add(['atmospheric:passionfruit_tart'], "§4Unobtainable")
-  tooltip.add(['atmospheric:passionfruit_sorbet'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:passion_aloe_nectar'], "§4Unobtainable")
-  tooltip.add(['atmospheric:passion_vine_coil'], "§4Unobtainable")
-  tooltip.add(['atmospheric:passionfruit'], "§4Unobtainable")
-  tooltip.add(['atmospheric:shimmering_passionfruit'], "§4Unobtainable")
-  tooltip.add(['sob:exotic_fruit_salad'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:hoglin_mount'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:propelplant_cane'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:propelplant_torch'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:stuffed_hoglin'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:strider_slice'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:ground_strider'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:hoglin_ear'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:warped_moldy_meat'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:grilled_strider'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:strider_moss_stew'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:plate_of_stuffed_hoglin_snout'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:plate_of_stuffed_hoglin_ham'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:plate_of_stuffed_hoglin_roast'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:propelpearl'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:nether_skewer'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:magma_gelatin'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:warped_fungus_colony'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:crimson_fungus_colony'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:cooked_loin'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:hoglin_loin'], "§4Unobtainable")
-  tooltip.add(['sob:propelpearl_caviar'], "§4Unobtainable")
-  tooltip.add(['sob:nether_nectar'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:exposed_copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_exposed_copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:oxidized_copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_oxidized_copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:weathered_copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_weathered_copper_door'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:exposed_copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_exposed_copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:oxidized_copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_oxidized_copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:weathered_copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['copperandtuffbackport:waxed_weathered_copper_trapdoor'], "§4Unobtainable")
-  tooltip.add(['sullysmod:tortoise_egg'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_post'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:large_azalea_boat'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_boat'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_chest_boat'], "§4Unobtainable")
-  tooltip.add(['caverns_and_chasms:azalea_furnace_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:aspen_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:aspen_chest_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:aspen_furnace_boat'], "§4Unobtainable")
-  tooltip.add(['atmospheric:large_aspen_boat'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:strider_rock'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:nether_bricks_stove'], "§4Unobtainable")
-  tooltip.add(['supplementaries:sconce_nether_brass'], "§4Unobtainable")
-  tooltip.add(['architects_palette:nether_brass_torch'], "§4Unobtainable")
-  tooltip.add(['supplementaries:endergetic/hanging_sign_poise'], "§4Unobtainable")
-  tooltip.add(['supplementaries:endergetic/sign_post_poise'], "§4Unobtainable")
-  tooltip.add(['suppsquared:endergetic/item_shelf_poise'], "§4Unobtainable")
-  tooltip.add(['abnormals_delight:poise_cabinet'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/endergetic/poise_shutter'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/endergetic/poise_table'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/endergetic/poise_chair'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/endergetic/poise_shelf'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/endergetic/poise_drawer'], "§4Unobtainable")
-  tooltip.add(['everycomp:af/endergetic/poise_bench'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/endergetic/poise_window'], "§4Unobtainable")
-  tooltip.add(['everycomp:c/endergetic/poise_window_pane'], "§4Unobtainable")
-  tooltip.add(['everycomp:q/endergetic/hollow_poise_log'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/endergetic/poise_railing'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/endergetic/poise_board_slab'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/endergetic/poise_board_wall'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/endergetic/poise_boards'], "§4Unobtainable")
-  tooltip.add(['everycomp:ap/endergetic/poise_board_stairs'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_planks'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_stem'], "§4Unobtainable")
-  tooltip.add(['endergetic:glowing_poise_stem'], "§4Unobtainable")
-  tooltip.add(['endergetic:stripped_poise_stem'], "§4Unobtainable")
-  tooltip.add(['endergetic:stripped_poise_wood'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_wood'], "§4Unobtainable")
-  tooltip.add(['endergetic:glowing_poise_wood'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_slab'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_bookshelf'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_stairs'], "§4Unobtainable")
-  tooltip.add(['endergetic:vertical_poise_planks'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_vertical_slab'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_boards'], "§4Unobtainable")
-  tooltip.add(['endergetic:stripped_poise_post'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_post'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_ladder'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_fence'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_sign'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_beehive'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_button'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_chest'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_pressure_plate'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_door'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_trapdoor'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_fence_gate'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_trapped_chest'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_boat'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_chest_boat'], "§4Unobtainable")
-  tooltip.add(['endergetic:poise_furnace_boat'], "§4Unobtainable")
-  tooltip.add(['endergetic:large_poise_boat'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:strider_egg'], "§4Unobtainable")
-  tooltip.add(['supplementaries:altimeter'], "§4Unobtainable")
-  tooltip.add(['mynethersdelight:hoglin_hide'], "§4Unobtainable")
-  tooltip.add(['webasemod:netherite_bat'], "§4Unobtainable")
-  tooltip.add(['webasemod:iron_bat'], "§4Unobtainable")
-  tooltip.add(['webasemod:golden_bat'], "§4Unobtainable")
-  tooltip.add(['webasemod:stone_bat'], "§4Unobtainable")
-  tooltip.add(['webasemod:wooden_bat'], "§4Unobtainable")
-  tooltip.add(['webasemod:catcher_glove'], "§4Unobtainable")
-  tooltip.add(['webasemod:super_slimeball'], "§4Unobtainable")
-  tooltip.add(['webasemod:golfball'], "§4Unobtainable")
-  tooltip.add(['webasemod:stoneball'], "§4Unobtainable")
-  tooltip.add(['webasemod:dirtball'], "§4Unobtainable")
-  tooltip.add(['webasemod:baseball_half'], "§4Unobtainable")
-  tooltip.add(['webasemod:baseball_core'], "§4Unobtainable")
-  tooltip.add(['webasemod:cork'], "§4Unobtainable")
-  tooltip.add(['webasemod:basic_baseball'], "§4Unobtainable")
-  tooltip.add(['nethersdelight:blackstone_stove'], "§4Unobtainable")
-  tooltip.add(['culturaldelights:spicy_curry'], "§4Unobtainable")
-  tooltip.add(['oreganized:netherite_nugget'], "§4Unobtainable")
-  tooltip.add(['heads:axolotl_blue_head'], "§4Unobtainable")
-  tooltip.add(['heads:axolotl_cyan_head'], "§4Unobtainable")
-  tooltip.add(['heads:axolotl_gold_head'], "§4Unobtainable")
-  tooltip.add(['heads:axolotl_lucy_head'], "§4Unobtainable")
-  tooltip.add(['heads:axolotl_wild_head'], "§4Unobtainable")
-  tooltip.add(['heads:bat_head'], "§4Unobtainable")
-  tooltip.add(['heads:bee_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_all_black_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_black_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_british_shorthair_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_calico_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_jellie_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_persian_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_ragdoll_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_red_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_siamese_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_tabby_head'], "§4Unobtainable")
-  tooltip.add(['heads:cat_white_head'], "§4Unobtainable")
-  tooltip.add(['heads:cave_spider_head'], "§4Unobtainable")
-  tooltip.add(['heads:chicken_head'], "§4Unobtainable")
-  tooltip.add(['heads:cod_head'], "§4Unobtainable")
-  tooltip.add(['heads:cow_head'], "§4Unobtainable")
-  tooltip.add(['heads:dolphin_head'], "§4Unobtainable")
-  tooltip.add(['heads:donkey_head'], "§4Unobtainable")
-  tooltip.add(['heads:drowned_head'], "§4Unobtainable")
-  tooltip.add(['heads:enderman_head'], "§4Unobtainable")
-  tooltip.add(['heads:endermite_head'], "§4Unobtainable")
-  tooltip.add(['heads:evoker_head'], "§4Unobtainable")
-  tooltip.add(['heads:fox_head'], "§4Unobtainable")
-  tooltip.add(['heads:fox_snow_head'], "§4Unobtainable")
-  tooltip.add(['heads:ghast_head'], "§4Unobtainable")
-  tooltip.add(['heads:glow_squid_head'], "§4Unobtainable")
-  tooltip.add(['heads:goat_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_black_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_brown_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_chestnut_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_creamy_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_darkbrown_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_gray_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_skeleton_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_undead_head'], "§4Unobtainable")
-  tooltip.add(['heads:horse_white_head'], "§4Unobtainable")
-  tooltip.add(['heads:husk_head'], "§4Unobtainable")
-  tooltip.add(['heads:illusioner_head'], "§4Unobtainable")
-  tooltip.add(['heads:iron_golem_head'], "§4Unobtainable")
-  tooltip.add(['heads:magma_cube_head'], "§4Unobtainable")
-  tooltip.add(['heads:mule_head'], "§4Unobtainable")
-  tooltip.add(['heads:brown_mooshroom_head'], "§4Unobtainable")
-  tooltip.add(['heads:red_mooshroom_head'], "§4Unobtainable")
-  tooltip.add(['heads:ocelot_head'], "§4Unobtainable")
-  tooltip.add(['heads:pig_head'], "§4Unobtainable")
-  tooltip.add(['heads:piglin_brute_head'], "§4Unobtainable")
-  tooltip.add(['heads:pillager_head'], "§4Unobtainable")
-  tooltip.add(['heads:salmon_head'], "§4Unobtainable")
-  tooltip.add(['heads:black_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:blue_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:brown_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:cyan_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:gray_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:green_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:light_blue_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:light_gray_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:lime_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:magenta_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:orange_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:pink_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:purple_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:red_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:sheep_shaven_head'], "§4Unobtainable")
-  tooltip.add(['heads:sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:yellow_sheep_head'], "§4Unobtainable")
-  tooltip.add(['heads:silverfish_head'], "§4Unobtainable")
-  tooltip.add(['heads:slime_head'], "§4Unobtainable")
-  tooltip.add(['heads:snow_golem_head'], "§4Unobtainable")
-  tooltip.add(['heads:squid_head'], "§4Unobtainable")
-  tooltip.add(['heads:stray_head'], "§4Unobtainable")
-  tooltip.add(['heads:turtle_head'], "§4Unobtainable")
-  tooltip.add(['heads:villager_head'], "§4Unobtainable")
-  tooltip.add(['heads:vindicator_head'], "§4Unobtainable")
-  tooltip.add(['heads:wandering_trader_head'], "§4Unobtainable")
-  tooltip.add(['heads:witch_head'], "§4Unobtainable")
-  tooltip.add(['heads:wolf_head'], "§4Unobtainable")
-  tooltip.add(['heads:zombie_villager_head'], "§4Unobtainable")
-  tooltip.add(['quark:pickarang'], "§4Unobtainable")
-  tooltip.add(['create:copper_bars'], "§4Unobtainable")
-  tooltip.add(['architects_palette:cerebral_plate'], "§4Unobtainable")
-  tooltip.add(['windswept:foul_berry_bowl'], "§4Unobtainable")
-  tooltip.add(['minecraft:end_crystal'], "§4Unobtainable")
+	tooltip.add([
+	"create:bar_of_chocolate",
+	"create_confectionery:chocolate_candy",
+	"create_confectionery:black_chocolate_candy",
+	"create_confectionery:ruby_chocolate_candy",
+	"create_confectionery:full_chocolate_bar",
+	"create_confectionery:full_black_chocolate_bar",
+	"create_confectionery:full_white_chocolate_bar",
+	"create_confectionery:full_ruby_chocolate_bar",
+	"nethersdelight:golden_machete",
+	"nethersdelight:iron_machete",
+	"nethersdelight:diamond_machete",
+	"nethersdelight:netherite_machete",
+	"create_confectionery:white_chocolate_candy",
+	"create_confectionery:bar_of_caramel",
+	"create_confectionery:caramel_bucket",
+	"create_confectionery:caramel_glazed_berries",
+	"additionaladditions:rope",
+	"additionaladditions:glow_stick",
+	"additionaladditions:gilded_netherite_hoe",
+	"additionaladditions:gilded_netherite_sword",
+	"additionaladditions:gilded_netherite_axe",
+	"additionaladditions:gilded_netherite_pickaxe",
+	"additionaladditions:gilded_netherite_shovel",
+	"additionaladditions:gilded_netherite_chestplate",
+	"additionaladditions:gilded_netherite_leggings",
+	"additionaladditions:gilded_netherite_boots",
+	"additionaladditions:gilded_netherite_helmet",
+	"additionaladditions:chicken_nugget",
+	"additionaladditions:pocket_jukebox",
+	"additionaladditions:gold_ring",
+	"additionaladditions:fried_egg",
+	"additionaladditions:berry_pie",
+	"additionaladditions:honeyed_apple",
+	"additionaladditions:depth_meter",
+	"additionaladditions:trident_shard",
+	"additionaladditions:wrench",
+	"additionaladditions:crossbow_with_spyglass",
+	"create_confectionery:caramel_bricks",
+	"create_confectionery:caramel_bricks_stairs",
+	"create_confectionery:caramel_bricks_slab",
+	"farmersdelight:fried_egg",
+	"supplementaries:pancake",
+	"oreganized:electrum_machete",
+	"oreganized:bush_hammer",
+	"quark:beetroot_crate",
+	"quark:carrot_crate",
+	"quark:potato_crate",
+	"quark:chorus_fruit_block",
+	"architects_palette:nether_brass_lantern",
+	"architects_palette:charcoal_block",
+	"architects_palette:copper_nub",
+	"architects_palette:waxed_copper_nub",
+	"architects_palette:exposed_copper_nub",
+	"architects_palette:waxed_exposed_copper_nub",
+	"architects_palette:weathered_copper_nub",
+	"architects_palette:waxed_weathered_copper_nub",
+	"architects_palette:oxidized_copper_nub",
+	"architects_palette:waxed_oxidized_copper_nub",
+	"ecologics:snow_bricks",
+	"ecologics:snow_brick_stairs",
+	"ecologics:snow_brick_slab",
+	"ecologics:snow_brick_wall",
+	"create:dough",
+	"farmersdelight:milk_bottle",
+	"atmospheric:vertical_rosewood_planks",
+	"atmospheric:rosewood_vertical_slab",
+	"atmospheric:vertical_morado_planks",
+	"atmospheric:morado_vertical_slab",
+	"atmospheric:persimmon_travertine_vertical_slab",
+	"atmospheric:saffron_travertine_vertical_slab",
+	"atmospheric:vertical_yucca_planks",
+	"atmospheric:yucca_vertical_slab",
+	"atmospheric:arid_sandstone_vertical_slab",
+	"atmospheric:cut_arid_sandstone_vertical_slab",
+	"atmospheric:smooth_arid_sandstone_vertical_slab",
+	"atmospheric:arid_sandstone_brick_vertical_slab",
+	"atmospheric:red_arid_sandstone_vertical_slab",
+	"atmospheric:cut_red_arid_sandstone_vertical_slab",
+	"atmospheric:smooth_red_arid_sandstone_vertical_slab",
+	"atmospheric:red_arid_sandstone_brick_vertical_slab",
+	"atmospheric:vertical_kousa_planks",
+	"atmospheric:kousa_vertical_slab",
+	"atmospheric:vertical_aspen_planks",
+	"atmospheric:aspen_vertical_slab",
+	"atmospheric:vertical_grimwood_planks",
+	"atmospheric:grimwood_vertical_slab",
+	"autumnity:snail_shell_brick_vertical_slab",
+	"autumnity:snail_shell_tile_vertical_slab",
+	"autumnity:vertical_maple_planks",
+	"autumnity:maple_vertical_slab",
+	"buzzier_bees:honeycomb_brick_vertical_slab",
+	"buzzier_bees:honeycomb_tile_vertical_slab",
+	"clayworks:terracotta_vertical_slab",
+	"clayworks:white_terracotta_vertical_slab",
+	"clayworks:orange_terracotta_vertical_slab",
+	"clayworks:magenta_terracotta_vertical_slab",
+	"clayworks:light_blue_terracotta_vertical_slab",
+	"clayworks:yellow_terracotta_vertical_slab",
+	"clayworks:lime_terracotta_vertical_slab",
+	"clayworks:pink_terracotta_vertical_slab",
+	"clayworks:gray_terracotta_vertical_slab",
+	"clayworks:light_gray_terracotta_vertical_slab",
+	"clayworks:cyan_terracotta_vertical_slab",
+	"clayworks:purple_terracotta_vertical_slab",
+	"clayworks:blue_terracotta_vertical_slab",
+	"clayworks:brown_terracotta_vertical_slab",
+	"clayworks:green_terracotta_vertical_slab",
+	"clayworks:red_terracotta_vertical_slab",
+	"clayworks:black_terracotta_vertical_slab",
+	"clayworks:terracotta_brick_vertical_slab",
+	"clayworks:white_terracotta_brick_vertical_slab",
+	"clayworks:orange_terracotta_brick_vertical_slab",
+	"clayworks:magenta_terracotta_brick_vertical_slab",
+	"clayworks:light_blue_terracotta_brick_vertical_slab",
+	"clayworks:yellow_terracotta_brick_vertical_slab",
+	"clayworks:lime_terracotta_brick_vertical_slab",
+	"clayworks:pink_terracotta_brick_vertical_slab",
+	"clayworks:gray_terracotta_brick_vertical_slab",
+	"clayworks:light_gray_terracotta_brick_vertical_slab",
+	"clayworks:cyan_terracotta_brick_vertical_slab",
+	"clayworks:purple_terracotta_brick_vertical_slab",
+	"clayworks:blue_terracotta_brick_vertical_slab",
+	"clayworks:brown_terracotta_brick_vertical_slab",
+	"clayworks:green_terracotta_brick_vertical_slab",
+	"clayworks:red_terracotta_brick_vertical_slab",
+	"clayworks:black_terracotta_brick_vertical_slab",
+	"environmental:smooth_mud_vertical_slab",
+	"environmental:grass_thatch_vertical_slab",
+	"environmental:cattail_thatch_vertical_slab",
+	"environmental:duckweed_thatch_vertical_slab",
+	"environmental:vertical_willow_planks",
+	"environmental:willow_vertical_slab",
+	"environmental:vertical_cherry_planks",
+	"environmental:cherry_vertical_slab",
+	"environmental:vertical_wisteria_planks",
+	"environmental:wisteria_vertical_slab",
+	"neapolitan:chocolate_brick_vertical_slab",
+	"neapolitan:chocolate_tile_vertical_slab",
+	"neapolitan:frond_thatch_vertical_slab",
+	"quark:vertical_blossom_planks",
+	"quark:vertical_ancient_planks",
+	"quark:vertical_bamboo_planks",
+	"savage_and_ravage:gloomy_tile_vertical_slab",
+	"savage_and_ravage:blast_proof_vertical_slab",
+	"supplementaries:checker_vertical_slab",
+	"supplementaries:lapis_bricks_vertical_slab",
+	"supplementaries:ash_bricks_vertical_slab",
+	"supplementaries:stone_tile_vertical_slab",
+	"supplementaries:blackstone_tile_vertical_slab",
+	"upgrade_aquatic:beachgrass_thatch_vertical_slab",
+	"upgrade_aquatic:luminous_prismarine_vertical_slab",
+	"upgrade_aquatic:tooth_vertical_slab",
+	"upgrade_aquatic:tooth_brick_vertical_slab",
+	"upgrade_aquatic:scute_shingle_vertical_slab",
+	"upgrade_aquatic:scute_pavement_vertical_slab",
+	"upgrade_aquatic:coralstone_vertical_slab",
+	"upgrade_aquatic:finger_coralstone_vertical_slab",
+	"upgrade_aquatic:tongue_kelpy_stone_brick_vertical_slab",
+	"upgrade_aquatic:thorny_kelpy_cobblestone_vertical_slab",
+	"upgrade_aquatic:branch_coralstone_vertical_slab",
+	"upgrade_aquatic:fire_coralstone_vertical_slab",
+	"upgrade_aquatic:brain_coralstone_vertical_slab",
+	"upgrade_aquatic:tube_coralstone_vertical_slab",
+	"upgrade_aquatic:moss_coralstone_vertical_slab",
+	"upgrade_aquatic:petal_coralstone_vertical_slab",
+	"upgrade_aquatic:rock_coralstone_vertical_slab",
+	"upgrade_aquatic:acan_coralstone_vertical_slab",
+	"upgrade_aquatic:pillow_coralstone_vertical_slab",
+	"upgrade_aquatic:silk_coralstone_vertical_slab",
+	"upgrade_aquatic:star_coralstone_vertical_slab",
+	"upgrade_aquatic:bubble_coralstone_vertical_slab",
+	"upgrade_aquatic:chrome_coralstone_vertical_slab",
+	"upgrade_aquatic:prismarine_coralstone_vertical_slab",
+	"upgrade_aquatic:elder_prismarine_coralstone_vertical_slab",
+	"upgrade_aquatic:dead_coralstone_vertical_slab",
+	"upgrade_aquatic:kelpy_cobblestone_vertical_slab",
+	"upgrade_aquatic:kelpy_stone_brick_vertical_slab",
+	"upgrade_aquatic:tongue_kelpy_cobblestone_vertical_slab",
+	"upgrade_aquatic:thorny_kelpy_stone_brick_vertical_slab",
+	"upgrade_aquatic:ochre_kelpy_cobblestone_vertical_slab",
+	"upgrade_aquatic:ochre_kelpy_stone_brick_vertical_slab",
+	"upgrade_aquatic:polar_kelpy_cobblestone_vertical_slab",
+	"upgrade_aquatic:polar_kelpy_stone_brick_vertical_slab",
+	"upgrade_aquatic:vertical_driftwood_planks",
+	"upgrade_aquatic:driftwood_vertical_slab",
+	"upgrade_aquatic:vertical_river_planks",
+	"upgrade_aquatic:river_vertical_slab",
+	"architects_palette:abyssaline_brick_vertical_slab",
+	"architects_palette:abyssaline_tile_vertical_slab",
+	"architects_palette:hadaline_brick_vertical_slab",
+	"architects_palette:hadaline_tile_vertical_slab",
+	"architects_palette:entrails_vertical_slab",
+	"architects_palette:plating_vertical_slab",
+	"architects_palette:myonite_vertical_slab",
+	"architects_palette:myonite_brick_vertical_slab",
+	"architects_palette:mushy_myonite_brick_vertical_slab",
+	"architects_palette:olivestone_brick_vertical_slab",
+	"architects_palette:olivestone_tile_vertical_slab",
+	"architects_palette:algal_brick_vertical_slab",
+	"architects_palette:overgrown_algal_brick_vertical_slab",
+	"architects_palette:coal_ore_brick_vertical_slab",
+	"architects_palette:lapis_ore_brick_vertical_slab",
+	"architects_palette:redstone_ore_brick_vertical_slab",
+	"architects_palette:iron_ore_brick_vertical_slab",
+	"architects_palette:gold_ore_brick_vertical_slab",
+	"architects_palette:emerald_ore_brick_vertical_slab",
+	"architects_palette:diamond_ore_brick_vertical_slab",
+	"architects_palette:flint_tile_vertical_slab",
+	"architects_palette:polished_packed_ice_vertical_slab",
+	"architects_palette:sunmetal_vertical_slab",
+	"architects_palette:osseous_brick_vertical_slab",
+	"architects_palette:withered_osseous_brick_vertical_slab",
+	"architects_palette:entwine_vertical_slab",
+	"architects_palette:polished_glowstone_vertical_slab",
+	"architects_palette:gilded_sandstone_vertical_slab",
+	"architects_palette:warpstone_vertical_slab",
+	"architects_palette:twisted_vertical_slab",
+	"architects_palette:basalt_tile_vertical_slab",
+	"architects_palette:oak_board_vertical_slab",
+	"architects_palette:birch_board_vertical_slab",
+	"architects_palette:spruce_board_vertical_slab",
+	"architects_palette:jungle_board_vertical_slab",
+	"architects_palette:dark_oak_board_vertical_slab",
+	"architects_palette:dripstone_brick_vertical_slab",
+	"architects_palette:twisted_board_vertical_slab",
+	"architects_palette:mangrove_board_vertical_slab",
+	"architects_palette:warped_board_vertical_slab",
+	"architects_palette:crimson_board_vertical_slab",
+	"architects_palette:acacia_board_vertical_slab",
+	"architects_palette:calcite_brick_vertical_slab",
+	"architects_palette:nether_brass_vertical_slab",
+	"architects_palette:cut_nether_brass_vertical_slab",
+	"architects_palette:smooth_nether_brass_vertical_slab",
+	"architects_palette:esoterrack_vertical_slab",
+	"architects_palette:esoterrack_brick_vertical_slab",
+	"architects_palette:onyx_vertical_slab",
+	"architects_palette:onyx_brick_vertical_slab",
+	"architects_palette:wardstone_vertical_slab",
+	"architects_palette:wardstone_brick_vertical_slab",
+	"architects_palette:ancient_plating_vertical_slab",
+	"upgrade_aquatic:horn_coralstone_vertical_slab",
+	"architects_palette:tread_plate_vertical_slab",
+	"architects_palette:hazard_vertical_slab",
+	"architects_palette:oracle_vertical_slab",
+	"architects_palette:oracle_brick_vertical_slab",
+	"architects_palette:dark_oracle_brick_vertical_slab",
+	"architects_palette:oracle_tile_vertical_slab",
+	"architects_palette:cerebral_vertical_slab",
+	"architects_palette:cerebral_tile_vertical_slab",
+	"windswept:vertical_holly_planks",
+	"windswept:holly_vertical_slab",
+	"windswept:vertical_chestnut_planks",
+	"windswept:chestnut_vertical_slab",
+	"windswept:snow_brick_vertical_slab",
+	"windswept:packed_ice_brick_vertical_slab",
+	"windswept:blue_ice_brick_vertical_slab",
+	"additionaladditions:music_disc_0308",
+	"additionaladditions:music_disc_1007",
+	"additionaladditions:music_disc_1507",
+	"abnormals_delight:kousa_cabinet",
+	"abnormals_delight:grimwood_cabinet",
+	"atmospheric:kousa_planks",
+	"atmospheric:grimwood_planks",
+	"atmospheric:kousa_log",
+	"atmospheric:crustose_log",
+	"atmospheric:crustose_wood",
+	"atmospheric:grimwood_log",
+	"atmospheric:stripped_kousa_log",
+	"atmospheric:stripped_kousa_wood",
+	"atmospheric:kousa_wood",
+	"atmospheric:grimwood",
+	"atmospheric:kousa_slab",
+	"atmospheric:grimwood_slab",
+	"atmospheric:kousa_bookshelf",
+	"atmospheric:grimwood_bookshelf",
+	"atmospheric:kousa_stairs",
+	"atmospheric:grimwood_stairs",
+	"atmospheric:ivory_travertine",
+	"atmospheric:peach_travertine",
+	"atmospheric:persimmon_travertine",
+	"atmospheric:saffron_travertine",
+	"atmospheric:cut_peach_travertine",
+	"atmospheric:chiseled_persimmon_travertine",
+	"atmospheric:chiseled_peach_travertine",
+	"atmospheric:chiseled_ivory_travertine",
+	"atmospheric:cut_persimmon_travertine",
+	"atmospheric:cut_saffron_travertine",
+	"atmospheric:ivory_travertine_stairs",
+	"atmospheric:peach_travertine_stairs",
+	"atmospheric:persimmon_travertine_stairs",
+	"atmospheric:cut_ivory_travertine",
+	"atmospheric:saffron_travertine_stairs",
+	"atmospheric:chiseled_saffron_travertine",
+	"atmospheric:peach_travertine_slab",
+	"atmospheric:persimmon_travertine_slab",
+	"atmospheric:saffron_travertine_slab",
+	"atmospheric:ivory_travertine_slab",
+	"atmospheric:kousa_boards",
+	"atmospheric:stripped_kousa_post",
+	"atmospheric:ivory_travertine_vertical_slab",
+	"atmospheric:peach_travertine_vertical_slab",
+	"atmospheric:kousa_post",
+	"atmospheric:crustose",
+	"atmospheric:grimwood_boards",
+	"atmospheric:stripped_grimwood_post",
+	"atmospheric:grimwood_post",
+	"atmospheric:kousa_sapling",
+	"atmospheric:grimwood_sapling",
+	"atmospheric:kousa_leaves",
+	"atmospheric:grimwood_leaves",
+	"atmospheric:kousa_ladder",
+	"atmospheric:grimwood_ladder",
+	"atmospheric:kousa_fence",
+	"atmospheric:grimwood_fence",
+	"atmospheric:kousa_sign",
+	"atmospheric:grimwood_sign",
+	"atmospheric:kousa_beehive",
+	"atmospheric:ivory_travertine_wall",
+	"atmospheric:grimwood_beehive",
+	"atmospheric:kousa_leaf_carpet",
+	"atmospheric:kousa_hedge",
+	"atmospheric:peach_travertine_wall",
+	"atmospheric:persimmon_travertine_wall",
+	"atmospheric:crustose_path",
+	"atmospheric:grimwood_leaf_pile",
+	"atmospheric:saffron_travertine_wall",
+	"atmospheric:kousa_leaf_pile",
+	"atmospheric:grimwood_chest",
+	"atmospheric:grimwood_pressure_plate",
+	"atmospheric:kousa_pressure_plate",
+	"atmospheric:kousa_door",
+	"atmospheric:grimwood_leaf_carpet",
+	"atmospheric:grimwood_hedge",
+	"atmospheric:grimwood_door",
+	"atmospheric:kousa_trapdoor",
+	"atmospheric:kousa_button",
+	"atmospheric:grimwood_button",
+	"atmospheric:grimwood_trapdoor",
+	"atmospheric:kousa_fence_gate",
+	"atmospheric:grimwood_fence_gate",
+	"atmospheric:grimwood_trapped_chest",
+	"atmospheric:kousa_boat",
+	"atmospheric:kousa_chest_boat",
+	"atmospheric:grimwood_boat",
+	"atmospheric:grimwood_chest_boat",
+	"atmospheric:grimwood_furnace_boat",
+	"atmospheric:large_grimwood_boat",
+	"upgrade_aquatic:tongue_kelp_block",
+	"upgrade_aquatic:thorny_kelp_block",
+	"upgrade_aquatic:ochre_kelp_block",
+	"upgrade_aquatic:polar_kelp_block",
+	"upgrade_aquatic:tongue_kelpy_cobblestone",
+	"upgrade_aquatic:tongue_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:tongue_kelpy_cobblestone_slab",
+	"upgrade_aquatic:tongue_kelpy_stone_bricks",
+	"upgrade_aquatic:tongue_kelpy_stone_brick_stairs",
+	"upgrade_aquatic:tongue_kelpy_stone_brick_slab",
+	"upgrade_aquatic:thorny_kelpy_cobblestone",
+	"upgrade_aquatic:thorny_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:thorny_kelpy_cobblestone_slab",
+	"upgrade_aquatic:thorny_kelpy_stone_bricks",
+	"upgrade_aquatic:thorny_kelpy_stone_brick_stairs",
+	"upgrade_aquatic:thorny_kelpy_stone_brick_slab",
+	"upgrade_aquatic:ochre_kelpy_cobblestone",
+	"upgrade_aquatic:ochre_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:ochre_kelpy_cobblestone_slab",
+	"upgrade_aquatic:ochre_kelpy_stone_bricks",
+	"upgrade_aquatic:ochre_kelpy_stone_brick_stairs",
+	"upgrade_aquatic:ochre_kelpy_stone_brick_slab",
+	"upgrade_aquatic:polar_kelpy_cobblestone",
+	"upgrade_aquatic:polar_kelpy_cobblestone_stairs",
+	"upgrade_aquatic:polar_kelpy_cobblestone_slab",
+	"upgrade_aquatic:polar_kelpy_stone_bricks",
+	"upgrade_aquatic:polar_kelpy_stone_brick_stairs",
+	"upgrade_aquatic:polar_kelpy_stone_brick_slab",
+	"upgrade_aquatic:tongue_kelp",
+	"upgrade_aquatic:thorny_kelp",
+	"upgrade_aquatic:ochre_kelp",
+	"upgrade_aquatic:polar_kelp",
+	"upgrade_aquatic:pink_jelly_torch",
+	"upgrade_aquatic:purple_jelly_torch",
+	"upgrade_aquatic:blue_jelly_torch",
+	"upgrade_aquatic:green_jelly_torch",
+	"upgrade_aquatic:yellow_jelly_torch",
+	"upgrade_aquatic:orange_jelly_torch",
+	"upgrade_aquatic:red_jelly_torch",
+	"upgrade_aquatic:white_jelly_torch",
+	"upgrade_aquatic:tongue_kelpy_cobblestone_wall",
+	"upgrade_aquatic:tongue_kelpy_stone_brick_wall",
+	"upgrade_aquatic:polar_kelpy_stone_brick_wall",
+	"upgrade_aquatic:polar_kelpy_cobblestone_wall",
+	"upgrade_aquatic:ochre_kelpy_stone_brick_wall",
+	"upgrade_aquatic:ochre_kelpy_cobblestone_wall",
+	"upgrade_aquatic:thorny_kelpy_stone_brick_wall",
+	"upgrade_aquatic:thorny_kelpy_cobblestone_wall",
+	"miners_delight:hot_cocoa_cup",
+	"woodworks:spruce_ladder",
+	"woodworks:birch_ladder",
+	"woodworks:jungle_ladder",
+	"woodworks:acacia_ladder",
+	"woodworks:dark_oak_ladder",
+	"woodworks:mangrove_ladder",
+	"woodworks:crimson_ladder",
+	"woodworks:warped_ladder",
+	"supplementaries:item_shelf",
+	"supplementaries:atmospheric/hanging_sign_kousa",
+	"supplementaries:atmospheric/sign_post_kousa",
+	"everycomp:af/atmospheric/kousa_drawer",
+	"everycomp:af/atmospheric/kousa_shelf",
+	"everycomp:af/atmospheric/kousa_chair",
+	"everycomp:af/atmospheric/kousa_table",
+	"everycomp:af/atmospheric/kousa_shutter",
+	"everycomp:af/atmospheric/kousa_planter_box",
+	"everycomp:af/atmospheric/kousa_bench",
+	"everycomp:c/atmospheric/kousa_window",
+	"everycomp:c/atmospheric/kousa_window_pane",
+	"supplementaries:atmospheric/hanging_sign_grimwood",
+	"supplementaries:atmospheric/sign_post_grimwood",
+	"everycomp:af/atmospheric/grimwood_drawer",
+	"everycomp:af/atmospheric/grimwood_shelf",
+	"everycomp:af/atmospheric/grimwood_chair",
+	"everycomp:af/atmospheric/grimwood_table",
+	"everycomp:af/atmospheric/grimwood_shutter",
+	"everycomp:af/atmospheric/grimwood_planter_box",
+	"everycomp:af/atmospheric/grimwood_bench",
+	"everycomp:c/atmospheric/grimwood_window",
+	"everycomp:c/atmospheric/grimwood_window_pane",
+	"create:honeyed_apple",
+	"architects_palette:tuff_brick_vertical_slab",
+	"paletteblocks:polished_dripstone",
+	"paletteblocks:polished_calcite",
+	"paletteblocks:polished_tuff",
+	"paletteblocks:polished_dripstone_slab",
+	"paletteblocks:polished_calcite_slab",
+	"paletteblocks:polished_tuff_slab",
+	"paletteblocks:dripstone_slab",
+	"paletteblocks:calcite_slab",
+	"paletteblocks:tuff_slab",
+	"paletteblocks:polished_dripstone_stairs",
+	"paletteblocks:polished_calcite_stairs",
+	"paletteblocks:polished_tuff_stairs",
+	"paletteblocks:dripstone_stairs",
+	"paletteblocks:calcite_stairs",
+	"paletteblocks:tuff_stairs",
+	"paletteblocks:dripstone_wall",
+	"paletteblocks:calcite_wall",
+	"paletteblocks:tuff_wall",
+	"create:tree_fertilizer",
+	"quark:cobblestone_bricks",
+	"quark:cobblestone_bricks_slab",
+	"quark:cobblestone_bricks_stairs",
+	"quark:mossy_cobblestone_bricks",
+	"quark:mossy_cobblestone_bricks_slab",
+	"quark:mossy_cobblestone_bricks_stairs",
+	"quark:cobblestone_bricks_wall",
+	"quark:mossy_cobblestone_bricks_wall",
+	"abnormals_delight:silver_knife",
+	"nethersdelight:raw_stuffed_hoglin",
+	"nethersdelight:mimicarnation",
+	"windswept:sweet_berry_bowl",
+	"windswept:wild_berry_bowl",
+	"spelunkery:rough_jade_shard",
+	"spelunkery:jade_shard",
+	"spelunkery:flint_hammer_and_chisel",
+	"spelunkery:obsidian_hammer_and_chisel",
+	"spelunkery:copper_nugget",
+	"spelunkery:calcite_redstone_ore",
+	"spelunkery:sandstone_lapis_ore",
+	"spelunkery:andesite_emerald_ore",
+	"spelunkery:smooth_basalt_diamond_ore",
+	"spelunkery:granite_coal_ore",
+	"spelunkery:andesite_coal_ore",
+	"spelunkery:diorite_coal_ore",
+	"spelunkery:tuff_coal_ore",
+	"spelunkery:granite_iron_ore",
+	"spelunkery:andesite_iron_ore",
+	"spelunkery:diorite_iron_ore",
+	"spelunkery:tuff_iron_ore",
+	"spelunkery:granite_copper_ore",
+	"spelunkery:andesite_copper_ore",
+	"spelunkery:diorite_copper_ore",
+	"spelunkery:tuff_copper_ore",
+	"spelunkery:andesite_gold_ore",
+	"spelunkery:granite_gold_ore",
+	"spelunkery:diorite_gold_ore",
+	"spelunkery:tuff_gold_ore",
+	"spelunkery:granite_redstone_ore",
+	"spelunkery:andesite_redstone_ore",
+	"spelunkery:diorite_redstone_ore",
+	"spelunkery:tuff_redstone_ore",
+	"spelunkery:granite_lapis_ore",
+	"spelunkery:andesite_lapis_ore",
+	"spelunkery:diorite_lapis_ore",
+	"spelunkery:tuff_lapis_ore",
+	"spelunkery:granite_emerald_ore",
+	"spelunkery:diorite_emerald_ore",
+	"spelunkery:tuff_emerald_ore",
+	"spelunkery:granite_diamond_ore",
+	"spelunkery:andesite_diamond_ore",
+	"spelunkery:diorite_diamond_ore",
+	"spelunkery:tuff_diamond_ore",
+	"spelunkery:granite_zinc_ore",
+	"spelunkery:andesite_zinc_ore",
+	"spelunkery:diorite_zinc_ore",
+	"spelunkery:tuff_zinc_ore",
+	"spelunkery:granite_lead_ore",
+	"spelunkery:diorite_lead_ore",
+	"spelunkery:andesite_lead_ore",
+	"spelunkery:tuff_lead_ore",
+	"spelunkery:granite_silver_ore",
+	"spelunkery:andesite_silver_ore",
+	"spelunkery:diorite_silver_ore",
+	"spelunkery:tuff_silver_ore",
+	"spelunkery:compression_blast_miner",
+	"spelunkery:diamond_grindstone",
+	"spelunkery:salt_bucket",
+	"environmental:large_lily_pad",
+	"environmental:giant_lily_pad",
+	"miners_delight:beetroot_soup_cup",
+	"miners_delight:rabbit_stew_cup",
+	"miners_delight:baked_cod_stew_cup",
+	"miners_delight:noodle_soup_cup",
+	"miners_delight:beef_stew_cup",
+	"miners_delight:chicken_soup_cup",
+	"miners_delight:fish_stew_cup",
+	"miners_delight:pumpkin_soup_cup",
+	"miners_delight:vegetable_soup_cup",
+	"culturaldelights:smoked_tomato",
+	"create_confectionery:chocolate_candy_1",
+	"create_confectionery:chocolate_candy_2",
+	"create_confectionery:chocolate_candy_3",
+	"create_confectionery:black_chocolate_candy_1",
+	"create_confectionery:ruby_chocolate_candy_1",
+	"create_confectionery:ruby_chocolate_candy_2",
+	"create_confectionery:black_chocolate_candy_2",
+	"create_confectionery:black_chocolate_candy_3",
+	"create_confectionery:ruby_chocolate_candy_3",
+	"create_confectionery:white_chocolate_candy_1",
+	"create_confectionery:white_chocolate_candy_2",
+	"create_confectionery:white_chocolate_candy_3",
+	"create_confectionery:crushed_cocoa",
+	"create_confectionery:the_bright_side",
+	"create_confectionery:bar_of_ruby_chocolate",
+	"create_confectionery:ruby_chocolate_glazed_berries",
+	"create_confectionery:ruby_chocolate_glazed_marshmallow",
+	"windswept:wooden_bucket",
+	"windswept:wooden_water_bucket",
+	"windswept:wooden_milk_bucket",
+	"windswept:wooden_powder_snow_bucket",
+	"additionaladditions:watering_can",
+	"create_central_kitchen:chocolate_cake_slice",
+	"create_confectionery:black_chocolate_glazed_berries",
+	"create_confectionery:white_chocolate_glazed_berries",
+	"create_confectionery:black_chocolate_glazed_marshmallow",
+	"create_confectionery:white_chocolate_glazed_marshmallow",
+	"create_confectionery:bar_of_black_chocolate",
+	"create_confectionery:bar_of_white_chocolate",
+	"upgrade_aquatic:glass_trapdoor",
+	"upgrade_aquatic:glass_door",
+	"windswept:frozen_flesh",
+	"windswept:wild_berry_sack",
+	"windswept:wild_berries",
+	"windswept:wild_berry_pips",
+	"windswept:wild_berry_cookie",
+	"atmospheric:rosewood_leaf_carpet",
+	"atmospheric:morado_leaf_carpet",
+	"atmospheric:flowering_morado_leaf_carpet",
+	"atmospheric:yucca_leaf_carpet",
+	"atmospheric:aspen_leaf_carpet",
+	"autumnity:maple_leaf_carpet",
+	"environmental:pink_wisteria_leaf_carpet",
+	"environmental:cherry_leaf_carpet",
+	"environmental:willow_leaf_carpet",
+	"autumnity:red_maple_leaf_carpet",
+	"autumnity:orange_maple_leaf_carpet",
+	"autumnity:yellow_maple_leaf_carpet",
+	"environmental:blue_wisteria_leaf_carpet",
+	"environmental:purple_wisteria_leaf_carpet",
+	"environmental:white_wisteria_leaf_carpet",
+	"upgrade_aquatic:river_leaf_carpet",
+	"everycomp:q/ecologics/coconut_leaf_carpet",
+	"windswept:holly_leaf_carpet",
+	"everycomp:q/ecologics/walnut_leaf_carpet",
+	"everycomp:q/culturaldelights/avocado_leaf_carpet",
+	"everycomp:q/architects_palette/twisted_leaf_carpet",
+	"everycomp:q/culturaldelights/fruiting_avocado_leaf_carpet",
+	"windswept:chestnut_leaf_carpet",
+	"environmental:mud_ball",
+	"culturaldelights:cooked_squid",
+	"culturaldelights:glow_squid",
+	"culturaldelights:squid",
+	"culturaldelights:raw_calamari",
+	"culturaldelights:cooked_calamari",
+	"miners_delight:copper_pot",
+	"miners_delight:cave_carrot_crate",
+	"miners_delight:gossypium",
+	"miners_delight:copper_cup",
+	"miners_delight:water_cup",
+	"miners_delight:milk_cup",
+	"miners_delight:powder_snow_cup",
+	"miners_delight:cave_carrot",
+	"miners_delight:baked_cave_carrot",
+	"miners_delight:silverfish_eggs",
+	"miners_delight:weird_caviar",
+	"miners_delight:pasta_with_veggieballs",
+	"miners_delight:cave_soup",
+	"miners_delight:mushroom_stew_cup",
+	"miners_delight:cave_soup_cup",
+	"ecologics:walnut_planks",
+	"ecologics:flowering_azalea_planks",
+	"quark:blossom_planks",
+	"quark:ancient_planks",
+	"windswept:holly_planks",
+	"ecologics:walnut_sign",
+	"ecologics:walnut_fence_gate",
+	"ecologics:walnut_door",
+	"ecologics:walnut_trapdoor",
+	"ecologics:walnut_boat",
+	"ecologics:walnut",
+	"ecologics:walnut_leaves",
+	"ecologics:stripped_walnut_wood",
+	"ecologics:walnut_wood",
+	"ecologics:walnut_fence",
+	"ecologics:stripped_walnut_log",
+	"ecologics:walnut_stairs",
+	"ecologics:walnut_slab",
+	"ecologics:walnut_log",
+	"ecologics:walnut_button",
+	"ecologics:walnut_pressure_plate",
+	"ecologics:walnut_sapling",
+	"supplementaries:ecologics/sign_post_walnut",
+	"supplementaries:ecologics/hanging_sign_walnut",
+	"ecologics:walnut_chest_boat",
+	"everycomp:af/ecologics/walnut_table",
+	"everycomp:af/ecologics/walnut_chair",
+	"everycomp:af/ecologics/walnut_shelf",
+	"everycomp:af/ecologics/walnut_drawer",
+	"everycomp:abnww/ecologics/walnut_beehive",
+	"everycomp:af/ecologics/walnut_planter_box",
+	"everycomp:af/ecologics/walnut_bench",
+	"everycomp:c/ecologics/walnut_window",
+	"everycomp:af/ecologics/walnut_shutter",
+	"everycomp:q/ecologics/walnut_ladder",
+	"everycomp:abnww/ecologics/walnut_leaf_pile",
+	"everycomp:abnww/ecologics/walnut_boards",
+	"everycomp:q/ecologics/stripped_walnut_post",
+	"everycomp:q/ecologics/walnut_post",
+	"everycomp:q/ecologics/walnut_hedge",
+	"everycomp:ap/ecologics/walnut_board_stairs",
+	"everycomp:ap/ecologics/walnut_boards",
+	"everycomp:ap/ecologics/walnut_board_wall",
+	"everycomp:q/ecologics/walnut_trapped_chest",
+	"everycomp:q/ecologics/walnut_bookshelf",
+	"everycomp:fd/ecologics/walnut_cabinet",
+	"everycomp:q/ecologics/walnut_chest",
+	"everycomp:ap/ecologics/walnut_board_slab",
+	"everycomp:ap/ecologics/walnut_railing",
+	"everycomp:c/ecologics/walnut_window_pane",
+	"everycomp:q/ecologics/hollow_walnut_log",
+	"ecologics:flowering_azalea_log",
+	"ecologics:flowering_azalea_wood",
+	"ecologics:flowering_azalea_slab",
+	"ecologics:flowering_azalea_stairs",
+	"ecologics:flowering_azalea_fence",
+	"ecologics:flowering_azalea_fence_gate",
+	"quark:flowering_azalea_hedge",
+	"ecologics:flowering_azalea_chest_boat",
+	"ecologics:flowering_azalea_boat",
+	"ecologics:flowering_azalea_sign",
+	"ecologics:flowering_azalea_trapdoor",
+	"ecologics:flowering_azalea_door",
+	"supplementaries:ecologics/hanging_sign_flowering_azalea",
+	"supplementaries:ecologics/sign_post_flowering_azalea",
+	"woodworks:flowering_azalea_leaf_pile",
+	"everycomp:abnww/ecologics/flowering_azalea_beehive",
+	"everycomp:af/ecologics/flowering_azalea_planter_box",
+	"everycomp:af/ecologics/flowering_azalea_bench",
+	"everycomp:af/ecologics/flowering_azalea_drawer",
+	"everycomp:af/ecologics/flowering_azalea_shelf",
+	"everycomp:af/ecologics/flowering_azalea_chair",
+	"everycomp:af/ecologics/flowering_azalea_table",
+	"everycomp:af/ecologics/flowering_azalea_shutter",
+	"everycomp:c/ecologics/flowering_azalea_window",
+	"everycomp:c/ecologics/flowering_azalea_window_pane",
+	"everycomp:fd/ecologics/flowering_azalea_cabinet",
+	"everycomp:q/ecologics/flowering_azalea_bookshelf",
+	"everycomp:q/ecologics/flowering_azalea_post",
+	"everycomp:q/ecologics/stripped_flowering_azalea_post",
+	"everycomp:ap/ecologics/flowering_azalea_railing",
+	"everycomp:abnww/ecologics/flowering_azalea_boards",
+	"everycomp:q/ecologics/flowering_azalea_trapped_chest",
+	"everycomp:q/ecologics/flowering_azalea_chest",
+	"everycomp:q/ecologics/hollow_flowering_azalea_log",
+	"everycomp:q/ecologics/flowering_azalea_ladder",
+	"everycomp:ap/ecologics/flowering_azalea_board_slab",
+	"everycomp:ap/ecologics/flowering_azalea_board_wall",
+	"everycomp:ap/ecologics/flowering_azalea_boards",
+	"everycomp:ap/ecologics/flowering_azalea_board_stairs",
+	"windswept:holly_chest_boat",
+	"windswept:holly_boat",
+	"windswept:holly_fence_gate",
+	"windswept:holly_trapdoor",
+	"windswept:holly_button",
+	"windswept:holly_pressure_plate",
+	"windswept:holly_door",
+	"windswept:holly_post",
+	"windswept:stripped_holly_post",
+	"windswept:holly_cabinet",
+	"windswept:holly_beehive",
+	"windswept:holly_sign",
+	"windswept:holly_stairs",
+	"windswept:holly_boards",
+	"windswept:holly_ladder",
+	"windswept:holly_fence",
+	"windswept:holly_bookshelf",
+	"windswept:holly_slab",
+	"windswept:holly_wood",
+	"windswept:stripped_holly_wood",
+	"windswept:stripped_holly_log",
+	"windswept:holly_log",
+	"everycomp:ap/windswept/holly_railing",
+	"everycomp:ap/windswept/holly_board_slab",
+	"everycomp:ap/windswept/holly_board_wall",
+	"everycomp:ap/windswept/holly_boards",
+	"everycomp:ap/windswept/holly_board_stairs",
+	"everycomp:c/windswept/holly_window_pane",
+	"everycomp:q/windswept/hollow_holly_log",
+	"everycomp:af/windswept/holly_chair",
+	"everycomp:af/windswept/holly_table",
+	"everycomp:af/windswept/holly_shutter",
+	"everycomp:c/windswept/holly_window",
+	"everycomp:af/windswept/holly_bench",
+	"everycomp:af/windswept/holly_planter_box",
+	"supplementaries:windswept/sign_post_holly",
+	"everycomp:af/windswept/holly_drawer",
+	"everycomp:af/windswept/holly_shelf",
+	"supplementaries:windswept/hanging_sign_holly",
+	"everycomp:ap/quark/ancient_board_stairs",
+	"everycomp:abnww/quark/ancient_boards",
+	"everycomp:abnww/quark/ancient_leaf_pile",
+	"everycomp:ap/quark/ancient_railing",
+	"everycomp:ap/quark/ancient_board_slab",
+	"everycomp:ap/quark/ancient_board_wall",
+	"everycomp:ap/quark/ancient_boards",
+	"everycomp:fd/quark/ancient_cabinet",
+	"everycomp:af/quark/ancient_chair",
+	"everycomp:af/quark/ancient_table",
+	"supplementaries:quark/hanging_sign_ancient",
+	"everycomp:c/quark/ancient_window_pane",
+	"everycomp:c/quark/ancient_window",
+	"everycomp:af/quark/ancient_shutter",
+	"everycomp:af/quark/ancient_planter_box",
+	"everycomp:af/quark/ancient_bench",
+	"everycomp:af/quark/ancient_drawer",
+	"everycomp:abnww/quark/ancient_beehive",
+	"supplementaries:quark/sign_post_ancient",
+	"everycomp:af/quark/ancient_shelf",
+	"supplementaries:quark/hanging_sign_blossom",
+	"supplementaries:quark/sign_post_blossom",
+	"everycomp:abnww/quark/blossom_beehive",
+	"everycomp:af/quark/blossom_planter_box",
+	"everycomp:af/quark/blossom_bench",
+	"everycomp:af/quark/blossom_drawer",
+	"everycomp:abnww/quark/lavender_blossom_leaf_pile",
+	"everycomp:abnww/quark/pink_blossom_leaf_pile",
+	"everycomp:abnww/quark/orange_blossom_leaf_pile",
+	"everycomp:abnww/quark/red_blossom_leaf_pile",
+	"everycomp:abnww/quark/blue_blossom_leaf_pile",
+	"everycomp:abnww/quark/yellow_blossom_leaf_pile",
+	"everycomp:ap/quark/blossom_railing",
+	"everycomp:ap/quark/blossom_board_slab",
+	"everycomp:ap/quark/blossom_board_stairs",
+	"everycomp:ap/quark/blossom_boards",
+	"everycomp:ap/quark/blossom_board_wall",
+	"everycomp:c/quark/blossom_window",
+	"everycomp:c/quark/blossom_window_pane",
+	"everycomp:fd/quark/blossom_cabinet",
+	"everycomp:abnww/quark/blossom_boards",
+	"everycomp:af/quark/blossom_shelf",
+	"everycomp:af/quark/blossom_chair",
+	"everycomp:af/quark/blossom_table",
+	"everycomp:af/quark/blossom_shutter",
+	"brewinandchewin:unripe_flaxen_cheese_wheel",
+	"brewinandchewin:unripe_scarlet_cheese_wheel",
+	"create_central_kitchen:miners_cooking_guide",
+	"quark:jasper_bricks",
+	"quark:jasper_bricks_slab",
+	"quark:jasper_bricks_stairs",
+	"quark:chiseled_jasper_bricks",
+	"quark:jasper_pillar",
+	"quark:jasper_bricks_wall",
+	"quark:shale_bricks",
+	"quark:shale_bricks_slab",
+	"quark:shale_bricks_stairs",
+	"quark:chiseled_shale_bricks",
+	"quark:shale_pillar",
+	"quark:shale_bricks_wall",
+	"quark:limestone_bricks",
+	"quark:limestone_bricks_slab",
+	"quark:limestone_bricks_stairs",
+	"quark:chiseled_limestone_bricks",
+	"quark:limestone_pillar",
+	"quark:limestone_bricks_wall",
+	"quark:myalite_bricks_wall",
+	"quark:myalite_crystal",
+	"quark:dusky_myalite",
+	"quark:myalite_bricks",
+	"quark:myalite_bricks_slab",
+	"quark:myalite_bricks_stairs",
+	"quark:chiseled_myalite_bricks",
+	"quark:myalite_pillar",
+	"environmental:music_disc_leaving_home",
+	"create_confectionery:gingerbread_stairs",
+	"create_confectionery:gingerbread_slab",
+	"create_confectionery:gingerbread_brick_stairs",
+	"create_confectionery:gingerbread_brick_slab",
+	"create_confectionery:gingerbread",
+	"create_confectionery:gingerbread_man",
+	"create_confectionery:gingerdough",
+	"suppsquared:daub_vertical_slab",
+	"suppsquared:daub_frame_vertical_slab",
+	"suppsquared:item_shelf_spruce",
+	"suppsquared:item_shelf_birch",
+	"suppsquared:item_shelf_warped",
+	"suppsquared:item_shelf_crimson",
+	"suppsquared:item_shelf_dark_oak",
+	"suppsquared:item_shelf_acacia",
+	"suppsquared:item_shelf_mangrove",
+	"suppsquared:item_shelf_jungle",
+	"suppsquared:quark/item_shelf_bamboo",
+	"suppsquared:ecologics/item_shelf_azalea",
+	"suppsquared:ecologics/item_shelf_coconut",
+	"suppsquared:windswept/item_shelf_chestnut",
+	"suppsquared:architects_palette/item_shelf_twisted",
+	"suppsquared:environmental/item_shelf_willow",
+	"suppsquared:atmospheric/item_shelf_rosewood",
+	"suppsquared:autumnity/item_shelf_maple",
+	"suppsquared:upgrade_aquatic/item_shelf_river",
+	"suppsquared:upgrade_aquatic/item_shelf_driftwood",
+	"suppsquared:environmental/item_shelf_wisteria",
+	"suppsquared:environmental/item_shelf_cherry",
+	"suppsquared:atmospheric/item_shelf_morado",
+	"suppsquared:atmospheric/item_shelf_yucca",
+	"suppsquared:atmospheric/item_shelf_aspen",
+	"architects_palette:nether_brass_block",
+	"architects_palette:nether_brass_slab",
+	"architects_palette:nether_brass_stairs",
+	"architects_palette:cut_nether_brass",
+	"architects_palette:cut_nether_brass_slab",
+	"architects_palette:cut_nether_brass_stairs",
+	"architects_palette:nether_brass_pillar",
+	"architects_palette:smooth_nether_brass",
+	"architects_palette:smooth_nether_brass_slab",
+	"architects_palette:smooth_nether_brass_stairs",
+	"architects_palette:nether_brass_wall",
+	"architects_palette:cut_nether_brass_wall",
+	"architects_palette:nether_brass_blend",
+	"architects_palette:nether_brass_ingot",
+	"architects_palette:nether_brass_nugget",
+	"windswept:holly_sapling",
+	"windswept:holly_leaves",
+	"windswept:holly_hedge",
+	"windswept:holly_leaf_pile",
+	"windswept:holly_berry_crate",
+	"windswept:holly_berries",
+	"create_enchantment_industry:experience_rotor",
+	"create:netherite_diving_helmet",
+	"create:netherite_diving_boots",
+	"create:netherite_backtank",
+	"windswept:wild_berry_juice",
+	"create_enchantment_industry:printer",
+	"farmersdelight:rope",
+	"create:analog_lever",
+	"create:turntable",
+	"architects_palette:sunmetal_blend",
+	"architects_palette:wardstone_blend",
+	"upgrade_aquatic:disc_fragment_atlantis",
+	"minecraft:end_portal_frame",
+	"minecraft:dragon_head",
+	"minecraft:elytra",
+	"minecraft:dragon_egg",
+	"minecraft:shulker_shell",
+	"architects_palette:cracked_end_stone_bricks",
+	"architects_palette:chiseled_end_stone_bricks",
+	"architects_palette:oracle_block",
+	"architects_palette:oracle_lamp",
+	"architects_palette:oracle_slab",
+	"architects_palette:oracle_stairs",
+	"architects_palette:oracle_pillar",
+	"architects_palette:oracle_bricks",
+	"architects_palette:oracle_brick_slab",
+	"architects_palette:oracle_brick_stairs",
+	"architects_palette:dark_oracle_bricks",
+	"architects_palette:dark_oracle_brick_slab",
+	"architects_palette:dark_oracle_brick_stairs",
+	"architects_palette:oracle_tiles",
+	"architects_palette:oracle_tile_slab",
+	"architects_palette:oracle_tile_stairs",
+	"architects_palette:framed_oracle_block",
+	"architects_palette:oracle_brick_wall",
+	"architects_palette:dark_oracle_brick_wall",
+	"architects_palette:oracle_tile_wall",
+	"architects_palette:oracle_jelly",
+	"spelunkery:sulfur_geyser",
+	"spelunkery:parachute",
+	"spelunkery:sulfur",
+	"spelunkery:saltpeter",
+	"spelunkery:eggplant",
+	"architects_palette:heavy_cracked_end_stone_bricks",
+	"architects_palette:heavy_end_stone_bricks",
+	"buzzier_bees:honey_lamp",
+	"everycomp:abnww/culturaldelights/fruiting_avocado_leaf_pile",
+	"minecraft:emerald_ore",
+	"minecraft:deepslate_emerald_ore",
+	"minecraft:emerald",
+	"architects_palette:emerald_ore_bricks",
+	"architects_palette:emerald_ore_brick_slab",
+	"architects_palette:emerald_ore_brick_stairs",
+	"architects_palette:cracked_emerald_ore_bricks",
+	"architects_palette:chiseled_emerald_ore_bricks",
+	"architects_palette:emerald_ore_brick_wall",
+	"spelunkery:rough_emerald_block",
+	"spelunkery:rough_emerald_shard",
+	"spelunkery:rough_emerald",
+	"spelunkery:emerald_shard",
+	"domesticationinnovation:feather_on_a_stick",
+	"domesticationinnovation:rotten_apple",
+	"domesticationinnovation:sinister_carrot",
+	"minecraft:pillager_spawn_egg",
+	"minecraft:ravager_spawn_egg",
+	"minecraft:vindicator_spawn_egg",
+	"minecraft:villager_spawn_egg",
+	"minecraft:zombie_villager_spawn_egg",
+	"savage_and_ravage:skeleton_villager_spawn_egg",
+	"minecraft:trader_llama_spawn_egg",
+	"minecraft:wandering_trader_spawn_egg",
+	"savage_and_ravage:executioner_spawn_egg",
+	"savage_and_ravage:trickster_spawn_egg",
+	"savage_and_ravage:iceologer_spawn_egg",
+	"savage_and_ravage:griefer_spawn_egg",
+	"minecraft:brewing_stand",
+	"minecraft:fletching_table",
+	"ecologics:penguin_feather",
+	"naturalist:snail_eggs",
+	"nethersdelight:blackstone_furnace",
+	"oreganized:lead_ore",
+	"architects_palette:coal_ore_bricks",
+	"architects_palette:coal_ore_brick_slab",
+	"architects_palette:coal_ore_brick_stairs",
+	"architects_palette:cracked_coal_ore_bricks",
+	"architects_palette:chiseled_coal_ore_bricks",
+	"architects_palette:lapis_ore_bricks",
+	"architects_palette:lapis_ore_brick_slab",
+	"architects_palette:lapis_ore_brick_stairs",
+	"architects_palette:cracked_lapis_ore_bricks",
+	"architects_palette:chiseled_lapis_ore_bricks",
+	"architects_palette:redstone_ore_bricks",
+	"architects_palette:redstone_ore_brick_slab",
+	"architects_palette:redstone_ore_brick_stairs",
+	"architects_palette:cracked_redstone_ore_bricks",
+	"architects_palette:chiseled_redstone_ore_bricks",
+	"architects_palette:iron_ore_bricks",
+	"architects_palette:iron_ore_brick_slab",
+	"architects_palette:iron_ore_brick_stairs",
+	"architects_palette:cracked_iron_ore_bricks",
+	"architects_palette:chiseled_iron_ore_bricks",
+	"architects_palette:gold_ore_bricks",
+	"architects_palette:gold_ore_brick_slab",
+	"architects_palette:gold_ore_brick_stairs",
+	"architects_palette:cracked_gold_ore_bricks",
+	"architects_palette:chiseled_gold_ore_bricks",
+	"architects_palette:diamond_ore_bricks",
+	"architects_palette:diamond_ore_brick_slab",
+	"architects_palette:diamond_ore_brick_stairs",
+	"architects_palette:cracked_diamond_ore_bricks",
+	"architects_palette:chiseled_diamond_ore_bricks",
+	"architects_palette:coal_ore_brick_wall",
+	"architects_palette:lapis_ore_brick_wall",
+	"architects_palette:redstone_ore_brick_wall",
+	"architects_palette:iron_ore_brick_wall",
+	"architects_palette:gold_ore_brick_wall",
+	"architects_palette:diamond_ore_brick_wall",
+	"create_central_kitchen:aloe_cake_slice",
+	"create_central_kitchen:passionfruit_cake_slice",
+	"create_central_kitchen:pumpkin_cake_slice",
+	"create_central_kitchen:sweet_berry_cake_slice",
+	"create_central_kitchen:yucca_cake_slice",
+	"ecologics:squirrel_spawn_egg",
+	"farmersrespite:kettle",
+	"create_central_kitchen:brewing_guide",
+	"another_furniture:oak_planter_box",
+	"another_furniture:spruce_planter_box",
+	"another_furniture:birch_planter_box",
+	"another_furniture:jungle_planter_box",
+	"another_furniture:acacia_planter_box",
+	"another_furniture:dark_oak_planter_box",
+	"another_furniture:mangrove_planter_box",
+	"another_furniture:crimson_planter_box",
+	"another_furniture:warped_planter_box",
+	"everycomp:af/ecologics/azalea_planter_box",
+	"everycomp:af/autumnity/maple_planter_box",
+	"everycomp:af/atmospheric/morado_planter_box",
+	"everycomp:af/windswept/chestnut_planter_box",
+	"everycomp:af/environmental/cherry_planter_box",
+	"everycomp:af/environmental/willow_planter_box",
+	"everycomp:af/upgrade_aquatic/driftwood_planter_box",
+	"everycomp:af/upgrade_aquatic/river_planter_box",
+	"everycomp:af/ecologics/coconut_planter_box",
+	"everycomp:af/atmospheric/rosewood_planter_box",
+	"everycomp:af/quark/bamboo_planter_box",
+	"everycomp:af/environmental/wisteria_planter_box",
+	"everycomp:af/atmospheric/aspen_planter_box",
+	"everycomp:af/atmospheric/yucca_planter_box",
+	"everycomp:af/architects_palette/twisted_planter_box",
+	"twigs:azalea_flowers",
+	"twigs:bronzed_seashell",
+	"twigs:opaline_seashell",
+	"twigs:roseate_seashell",
+	"twigs:tangerine_seashell",
+	"twigs:paper_lantern",
+	"twigs:allium_paper_lantern",
+	"twigs:blue_orchid_paper_lantern",
+	"twigs:crimson_roots_paper_lantern",
+	"twigs:dandelion_paper_lantern",
+	"twigs:oak_table",
+	"twigs:spruce_table",
+	"twigs:birch_table",
+	"twigs:jungle_table",
+	"twigs:acacia_table",
+	"twigs:dark_oak_table",
+	"twigs:mangrove_table",
+	"twigs:bamboo_table",
+	"twigs:crimson_table",
+	"twigs:warped_table",
+	"twigs:compacted_dripstone",
+	"twigs:cobblestone_bricks",
+	"twigs:cobblestone_brick_stairs",
+	"twigs:cobblestone_brick_slab",
+	"twigs:cobblestone_brick_wall",
+	"twigs:cracked_cobblestone_bricks",
+	"twigs:mossy_cobblestone_bricks",
+	"twigs:mossy_cobblestone_brick_stairs",
+	"twigs:mossy_cobblestone_brick_slab",
+	"twigs:mossy_cobblestone_brick_wall",
+	"twigs:tuff_stairs",
+	"twigs:tuff_slab",
+	"twigs:tuff_wall",
+	"twigs:polished_tuff",
+	"twigs:polished_tuff_stairs",
+	"twigs:polished_tuff_slab",
+	"twigs:polished_tuff_bricks",
+	"twigs:polished_tuff_brick_stairs",
+	"twigs:polished_tuff_brick_slab",
+	"twigs:polished_tuff_brick_wall",
+	"twigs:cracked_polished_tuff_bricks",
+	"twigs:calcite_stairs",
+	"twigs:calcite_slab",
+	"twigs:calcite_wall",
+	"twigs:polished_calcite",
+	"twigs:polished_calcite_stairs",
+	"twigs:polished_calcite_slab",
+	"twigs:polished_calcite_bricks",
+	"twigs:polished_calcite_brick_stairs",
+	"twigs:polished_calcite_brick_slab",
+	"twigs:polished_calcite_brick_wall",
+	"twigs:cracked_polished_calcite_bricks",
+	"twigs:schist",
+	"twigs:schist_stairs",
+	"twigs:schist_slab",
+	"twigs:schist_wall",
+	"twigs:polished_schist",
+	"twigs:polished_schist_stairs",
+	"twigs:polished_schist_slab",
+	"twigs:polished_schist_bricks",
+	"twigs:polished_schist_brick_stairs",
+	"twigs:polished_schist_brick_slab",
+	"twigs:polished_schist_brick_wall",
+	"twigs:cracked_polished_schist_bricks",
+	"twigs:rhyolite",
+	"twigs:rhyolite_stairs",
+	"twigs:rhyolite_slab",
+	"twigs:rhyolite_wall",
+	"twigs:polished_rhyolite",
+	"twigs:polished_rhyolite_stairs",
+	"twigs:polished_rhyolite_slab",
+	"twigs:polished_rhyolite_bricks",
+	"twigs:polished_rhyolite_brick_stairs",
+	"twigs:polished_rhyolite_brick_slab",
+	"twigs:polished_rhyolite_brick_wall",
+	"twigs:cracked_polished_rhyolite_bricks",
+	"everycomp:tw/windswept/chestnut_table",
+	"everycomp:tw/autumnity/maple_table",
+	"everycomp:tw/environmental/cherry_table",
+	"everycomp:tw/architects_palette/twisted_table",
+	"everycomp:tw/atmospheric/rosewood_table",
+	"everycomp:tw/atmospheric/yucca_table",
+	"everycomp:tw/ecologics/coconut_table",
+	"everycomp:tw/atmospheric/morado_table",
+	"everycomp:tw/upgrade_aquatic/river_table",
+	"everycomp:tw/atmospheric/aspen_table",
+	"everycomp:tw/environmental/willow_table",
+	"everycomp:tw/environmental/wisteria_table",
+	"everycomp:tw/upgrade_aquatic/driftwood_table",
+	"everycomp:tw/ecologics/azalea_table",
+	"spelunkery:depth_gauge",
+	"architects_palette:weeping_blackstone_bricks",
+	"architects_palette:twisting_blackstone_bricks",
+	"architects_palette:weeping_blackstone",
+	"architects_palette:twisting_blackstone",
+	"moreconcrete:white_concrete_fence",
+	"moreconcrete:orange_concrete_fence",
+	"moreconcrete:magenta_concrete_fence",
+	"moreconcrete:light_blue_concrete_fence",
+	"moreconcrete:yellow_concrete_fence",
+	"moreconcrete:lime_concrete_fence",
+	"moreconcrete:pink_concrete_fence",
+	"moreconcrete:gray_concrete_fence",
+	"moreconcrete:light_gray_concrete_fence",
+	"moreconcrete:cyan_concrete_fence",
+	"moreconcrete:purple_concrete_fence",
+	"moreconcrete:blue_concrete_fence",
+	"moreconcrete:brown_concrete_fence",
+	"moreconcrete:green_concrete_fence",
+	"moreconcrete:red_concrete_fence",
+	"moreconcrete:black_concrete_fence",
+	"moreconcrete:white_concrete_lever",
+	"moreconcrete:orange_concrete_lever",
+	"moreconcrete:magenta_concrete_lever",
+	"moreconcrete:light_blue_concrete_lever",
+	"moreconcrete:yellow_concrete_lever",
+	"moreconcrete:lime_concrete_lever",
+	"moreconcrete:pink_concrete_lever",
+	"moreconcrete:gray_concrete_lever",
+	"moreconcrete:light_gray_concrete_lever",
+	"moreconcrete:cyan_concrete_lever",
+	"moreconcrete:purple_concrete_lever",
+	"moreconcrete:blue_concrete_lever",
+	"moreconcrete:brown_concrete_lever",
+	"moreconcrete:green_concrete_lever",
+	"moreconcrete:red_concrete_lever",
+	"moreconcrete:black_concrete_lever",
+	"moreconcrete:white_concrete_fence_gate",
+	"moreconcrete:orange_concrete_fence_gate",
+	"moreconcrete:magenta_concrete_fence_gate",
+	"moreconcrete:light_blue_concrete_fence_gate",
+	"moreconcrete:yellow_concrete_fence_gate",
+	"moreconcrete:lime_concrete_fence_gate",
+	"moreconcrete:pink_concrete_fence_gate",
+	"moreconcrete:gray_concrete_fence_gate",
+	"moreconcrete:light_gray_concrete_fence_gate",
+	"moreconcrete:cyan_concrete_fence_gate",
+	"moreconcrete:purple_concrete_fence_gate",
+	"moreconcrete:blue_concrete_fence_gate",
+	"moreconcrete:brown_concrete_fence_gate",
+	"moreconcrete:green_concrete_fence_gate",
+	"moreconcrete:red_concrete_fence_gate",
+	"moreconcrete:black_concrete_fence_gate",
+	"neapolitan:adzuki_soil",
+	"neapolitan:adzuki_crate",
+	"neapolitan:roasted_adzuki_crate",
+	"neapolitan:adzuki_beans",
+	"neapolitan:roasted_adzuki_beans",
+	"neapolitan:adzuki_stew",
+	"neapolitan:adzuki_curry",
+	"neapolitan:adzuki_bun",
+	"neapolitan:strawberry_bean_bonbons",
+	"neapolitan:magic_beans",
+	"minecraft:shulker_spawn_egg",
+	"naturalist:crimson_froglass",
+	"naturalist:verdant_froglass",
+	"naturalist:azure_froglass",
+	"naturalist:crimson_froglass_pane",
+	"naturalist:verdant_froglass_pane",
+	"naturalist:azure_froglass_pane",
+	"architects_palette:sheet_metal_block",
+	"architects_palette:sheet_metal_wall",
+	"minecraft:jukebox",
+	"brewinandchewin:dread_nog",
+	"etched:jukebox_minecart",
+	"create_enchantment_industry:enchanting_guide",
+	"create_confectionery:hot_chocolate_bottle",
+	"create_confectionery:soothing_hot_chocolate",
+	"culturaldelights:wild_cucumbers",
+	"culturaldelights:cucumber_crate",
+	"culturaldelights:pickle_crate",
+	"culturaldelights:cucumber_seeds",
+	"culturaldelights:cucumber",
+	"culturaldelights:pickle",
+	"culturaldelights:cut_cucumber",
+	"culturaldelights:cut_pickle",
+	"culturaldelights:midori_roll",
+	"culturaldelights:midori_roll_slice",
+	"culturaldelights:white_eggplant_crate",
+	"culturaldelights:smoked_white_eggplant",
+	"culturaldelights:white_eggplant",
+	"windswept:mutton_pie",
+	"environmental:apple_pie",
+	"quark:shale",
+	"quark:polished_shale",
+	"quark:shale_slab",
+	"quark:shale_stairs",
+	"quark:polished_shale_slab",
+	"quark:polished_shale_stairs",
+	"quark:shale_wall",
+	"spelunkery:handheld_compactor",
+	"create_central_kitchen:honey_cake_slice",
+	"spelunkery:mineomite",
+	"copperized:copper_nugget",
+	"copperized:copper_sword",
+	"copperized:copper_pickaxe",
+	"copperized:copper_axe",
+	"copperized:copper_hoe",
+	"copperized:copper_shovel",
+	"copperized:copper_horse_armor",
+	"culturaldelights:avocado_log",
+	"culturaldelights:avocado_wood",
+	"neapolitan:beanstalk",
+	"neapolitan:beanstalk_thorns",
+	"miningmaster:fire_ruby",
+	"miningmaster:ice_sapphire",
+	"miningmaster:spirit_garnet",
+	"miningmaster:haste_peridot",
+	"miningmaster:lucky_citrine",
+	"miningmaster:dive_aquamarine",
+	"miningmaster:divine_beryl",
+	"miningmaster:spider_kunzite",
+	"miningmaster:unbreaking_iolite",
+	"miningmaster:heart_rhodonite",
+	"miningmaster:power_pyrite",
+	"miningmaster:kinetic_opal",
+	"miningmaster:air_malachite",
+	"miningmaster:fire_ruby_sword",
+	"miningmaster:ice_sapphire_sword",
+	"miningmaster:spirit_garnet_sword",
+	"miningmaster:lucky_citrine_sword",
+	"miningmaster:power_pyrite_sword",
+	"miningmaster:ultima_sword",
+	"miningmaster:haste_peridot_axe",
+	"miningmaster:power_pyrite_axe",
+	"miningmaster:kinetic_opal_axe",
+	"miningmaster:ultima_axe",
+	"miningmaster:haste_peridot_pickaxe",
+	"miningmaster:lucky_citrine_pickaxe",
+	"miningmaster:unbreaking_iolite_pickaxe",
+	"miningmaster:ultima_pickaxe",
+	"miningmaster:air_malachite_bow",
+	"miningmaster:paragon_helmet",
+	"miningmaster:paragon_chestplate",
+	"miningmaster:paragon_leggings",
+	"miningmaster:paragon_boots",
+	"miningmaster:fire_ruby_ore",
+	"miningmaster:ice_sapphire_ore",
+	"miningmaster:spirit_garnet_ore",
+	"miningmaster:haste_peridot_ore",
+	"miningmaster:lucky_citrine_ore",
+	"miningmaster:dive_aquamarine_ore",
+	"miningmaster:divine_beryl_ore",
+	"miningmaster:spider_kunzite_ore",
+	"miningmaster:unbreaking_iolite_ore",
+	"miningmaster:deepslate_fire_ruby_ore",
+	"miningmaster:deepslate_ice_sapphire_ore",
+	"miningmaster:deepslate_spirit_garnet_ore",
+	"miningmaster:deepslate_haste_peridot_ore",
+	"miningmaster:deepslate_lucky_citrine_ore",
+	"miningmaster:deepslate_dive_aquamarine_ore",
+	"miningmaster:deepslate_divine_beryl_ore",
+	"miningmaster:deepslate_spider_kunzite_ore",
+	"miningmaster:deepslate_unbreaking_iolite_ore",
+	"miningmaster:heart_rhodonite_ore",
+	"miningmaster:power_pyrite_ore",
+	"miningmaster:kinetic_opal_ore",
+	"miningmaster:air_malachite_ore",
+	"miningmaster:fire_ruby_block",
+	"miningmaster:ice_sapphire_block",
+	"miningmaster:spirit_garnet_block",
+	"miningmaster:haste_peridot_block",
+	"miningmaster:lucky_citrine_block",
+	"miningmaster:dive_aquamarine_block",
+	"miningmaster:divine_beryl_block",
+	"miningmaster:spider_kunzite_block",
+	"miningmaster:unbreaking_iolite_block",
+	"miningmaster:heart_rhodonite_block",
+	"miningmaster:power_pyrite_block",
+	"miningmaster:kinetic_opal_block",
+	"miningmaster:air_malachite_block",
+	"miningmaster:malacore",
+	"miningmaster:malacrust",
+	"create:experience_block",
+	"create:experience_nugget",
+	"minecraft:experience_bottle",
+	"minecraft:enchanting_table",
+	"savage_and_ravage:cleaver_of_beheading",
+	"quark:backpack",
+	"minecraft:enchanted_book",
+	"minecraft:lapis_ore",
+	"minecraft:deepslate_lapis_ore",
+	"minecraft:lapis_lazuli",
+	"minecraft:lapis_block",
+	"spelunkery:rough_lazurite_shard",
+	"spelunkery:rough_lazurite",
+	"spelunkery:lapis_lazuli_shard",
+	"trickytrialspaintingsplusmusic:music_disc_creator_music_box",
+	"vc_gliders:reinforced_paper_netherite",
+	"vc_gliders:reinforced_paper_diamond",
+	"vc_gliders:reinforced_paper_gold",
+	"vc_gliders:reinforced_paper_iron",
+	"vc_gliders:reinforced_paper",
+	"vc_gliders:nether_upgrade",
+	"vc_gliders:copper_upgrade",
+	"vc_gliders:paraglider_netherite",
+	"vc_gliders:paraglider_diamond",
+	"vc_gliders:paraglider_gold",
+	"vc_gliders:paraglider_iron",
+	"endergetic:music_disc_kilobyte",
+	"endergetic:chiseled_end_stone_bricks",
+	"endergetic:cracked_end_stone_bricks",
+	"endergetic:acidian_lantern",
+	"endergetic:crystal_holder",
+	"endergetic:mystical_obsidian_rune",
+	"endergetic:mystical_obsidian_activation_rune",
+	"endergetic:activated_mystical_obsidian_activation_rune",
+	"sullysmod:tortoise_spawn_egg",
+	"sullysmod:tortoise_shell",
+	"sullysmod:tortoise_scute",
+	"sullysmod:rough_jade",
+	"sullysmod:polished_jade",
+	"sullysmod:jade_ore",
+	"sullysmod:deepslate_jade_ore",
+	"sullysmod:rough_jade_block",
+	"sullysmod:rough_jade_bricks",
+	"sullysmod:smoothed_rough_jade",
+	"sullysmod:rough_jade_tiles",
+	"sullysmod:rough_jade_brick_stairs",
+	"sullysmod:smoothed_rough_jade_stairs",
+	"sullysmod:rough_jade_tile_stairs",
+	"sullysmod:rough_jade_brick_slab",
+	"sullysmod:smoothed_rough_jade_slab",
+	"sullysmod:rough_jade_tile_slab",
+	"sullysmod:rough_jade_brick_vertical_slab",
+	"sullysmod:smoothed_rough_jade_vertical_slab",
+	"sullysmod:rough_jade_tile_vertical_slab",
+	"sullysmod:polished_jade_brick_vertical_slab",
+	"sullysmod:polished_small_jade_brick_vertical_slab",
+	"sullysmod:polished_jade_shingle_vertical_slab",
+	"sullysmod:polished_jade_tile_vertical_slab",
+	"sullysmod:copper_button",
+	"sullysmod:exposed_copper_button",
+	"sullysmod:weathered_copper_button",
+	"sullysmod:oxidized_copper_button",
+	"sullysmod:waxed_copper_button",
+	"sullysmod:waxed_exposed_copper_button",
+	"sullysmod:waxed_weathered_copper_button",
+	"sullysmod:waxed_oxidized_copper_button",
+	"copperandtuffbackport:chiseled_tuff_bricks",
+	"copperandtuffbackport:tuff_brick_wall",
+	"copperandtuffbackport:tuff_brick_stairs",
+	"copperandtuffbackport:tuff_brick_slab",
+	"copperandtuffbackport:tuff_bricks",
+	"copperandtuffbackport:chiseled_tuff",
+	"copperandtuffbackport:polished_tuff_wall",
+	"copperandtuffbackport:tuff_slab",
+	"copperandtuffbackport:tuff_stairs",
+	"copperandtuffbackport:tuff_wall",
+	"copperandtuffbackport:polished_tuff",
+	"copperandtuffbackport:polished_tuff_slab",
+	"copperandtuffbackport:polished_tuff_stairs",
+	"caverns_and_chasms:golden_bucket",
+	"caverns_and_chasms:golden_water_bucket",
+	"caverns_and_chasms:golden_lava_bucket",
+	"caverns_and_chasms:golden_powder_snow_bucket",
+	"caverns_and_chasms:golden_milk_bucket",
+	"caverns_and_chasms:spinel",
+	"caverns_and_chasms:abnormals_banner_pattern",
+	"caverns_and_chasms:copper_nugget",
+	"caverns_and_chasms:bejeweled_pearl",
+	"caverns_and_chasms:silver_boots",
+	"caverns_and_chasms:silver_leggings",
+	"caverns_and_chasms:silver_chestplate",
+	"caverns_and_chasms:silver_helmet",
+	"caverns_and_chasms:silver_sword",
+	"caverns_and_chasms:silver_shovel",
+	"caverns_and_chasms:silver_pickaxe",
+	"caverns_and_chasms:silver_axe",
+	"caverns_and_chasms:silver_hoe",
+	"caverns_and_chasms:silver_ingot",
+	"caverns_and_chasms:silver_nugget",
+	"caverns_and_chasms:silver_horse_armor",
+	"caverns_and_chasms:raw_silver",
+	"caverns_and_chasms:azalea_trapped_chest",
+	"caverns_and_chasms:waxed_oxidized_toolbox",
+	"caverns_and_chasms:waxed_weathered_toolbox",
+	"caverns_and_chasms:waxed_exposed_toolbox",
+	"caverns_and_chasms:waxed_toolbox",
+	"caverns_and_chasms:toolbox",
+	"caverns_and_chasms:exposed_toolbox",
+	"caverns_and_chasms:weathered_toolbox",
+	"caverns_and_chasms:oxidized_toolbox",
+	"caverns_and_chasms:azalea_beehive",
+	"caverns_and_chasms:azalea_sign",
+	"caverns_and_chasms:azalea_fence",
+	"caverns_and_chasms:azalea_ladder",
+	"caverns_and_chasms:azalea_fence_gate",
+	"caverns_and_chasms:azalea_hedge",
+	"caverns_and_chasms:flowering_azalea_hedge",
+	"caverns_and_chasms:azalea_button",
+	"caverns_and_chasms:azalea_chest",
+	"caverns_and_chasms:stripped_azalea_post",
+	"caverns_and_chasms:azalea_pressure_plate",
+	"caverns_and_chasms:azalea_door",
+	"caverns_and_chasms:azalea_trapdoor",
+	"caverns_and_chasms:spinel_brick_wall",
+	"caverns_and_chasms:cobblestone_brick_wall",
+	"caverns_and_chasms:mossy_cobblestone_brick_wall",
+	"caverns_and_chasms:azalea_stairs",
+	"caverns_and_chasms:azalea_boards",
+	"caverns_and_chasms:vertical_azalea_planks",
+	"caverns_and_chasms:azalea_vertical_slab",
+	"caverns_and_chasms:cut_amethyst_brick_vertical_slab",
+	"caverns_and_chasms:dripstone_shingle_vertical_slab",
+	"caverns_and_chasms:flooded_dripstone_shingles",
+	"caverns_and_chasms:dripstone_shingles",
+	"caverns_and_chasms:dripstone_shingle_stairs",
+	"caverns_and_chasms:dripstone_shingle_slab",
+	"caverns_and_chasms:chiseled_dripstone_shingles",
+	"caverns_and_chasms:calcite_stairs",
+	"caverns_and_chasms:calcite_slab",
+	"caverns_and_chasms:calcite_vertical_slab",
+	"caverns_and_chasms:polished_calcite_stairs",
+	"caverns_and_chasms:polished_calcite_slab",
+	"caverns_and_chasms:polished_calcite_vertical_slab",
+	"caverns_and_chasms:tuff_slab",
+	"caverns_and_chasms:tuff_vertical_slab",
+	"caverns_and_chasms:polished_tuff_stairs",
+	"caverns_and_chasms:polished_tuff_slab",
+	"caverns_and_chasms:polished_tuff_vertical_slab",
+	"caverns_and_chasms:tuff_stairs",
+	"caverns_and_chasms:calcite_wall",
+	"caverns_and_chasms:tuff_wall",
+	"caverns_and_chasms:dripstone_shingle_wall",
+	"caverns_and_chasms:cobblestone_bricks",
+	"caverns_and_chasms:cobblestone_brick_stairs",
+	"caverns_and_chasms:cobblestone_brick_slab",
+	"caverns_and_chasms:cobblestone_brick_vertical_slab",
+	"caverns_and_chasms:mossy_cobblestone_bricks",
+	"caverns_and_chasms:mossy_cobblestone_brick_stairs",
+	"caverns_and_chasms:mossy_cobblestone_brick_slab",
+	"caverns_and_chasms:mossy_cobblestone_brick_vertical_slab",
+	"caverns_and_chasms:lapis_lamp",
+	"caverns_and_chasms:spinel_lamp",
+	"caverns_and_chasms:spinel_ore",
+	"caverns_and_chasms:deepslate_spinel_ore",
+	"caverns_and_chasms:spinel_block",
+	"caverns_and_chasms:spinel_bricks",
+	"caverns_and_chasms:spinel_brick_stairs",
+	"caverns_and_chasms:spinel_brick_slab",
+	"caverns_and_chasms:spinel_brick_vertical_slab",
+	"caverns_and_chasms:spinel_pillar",
+	"caverns_and_chasms:rotten_flesh_block",
+	"caverns_and_chasms:sanguine_plate_vertical_slab",
+	"caverns_and_chasms:azalea_bookshelf",
+	"caverns_and_chasms:azalea_slab",
+	"caverns_and_chasms:azalea_wood",
+	"caverns_and_chasms:stripped_azalea_wood",
+	"caverns_and_chasms:stripped_azalea_log",
+	"caverns_and_chasms:azalea_log",
+	"caverns_and_chasms:silver_block",
+	"caverns_and_chasms:raw_silver_block",
+	"caverns_and_chasms:soul_silver_ore",
+	"caverns_and_chasms:deepslate_silver_ore",
+	"caverns_and_chasms:silver_ore",
+	"caverns_and_chasms:azalea_planks",
+	"caverns_and_chasms:polished_calcite",
+	"caverns_and_chasms:polished_tuff",
+	"caverns_and_chasms:tether_potion",
+	"everycomp:abnww/ecologics/coconut_chest",
+	"everycomp:abnww/architects_palette/twisted_chest",
+	"everycomp:abnww/ecologics/azalea_chest",
+	"everycomp:abnww/ecologics/coconut_trapped_chest",
+	"everycomp:abnww/architects_palette/twisted_trapped_chest",
+	"everycomp:abnww/ecologics/azalea_trapped_chest",
+	"everycomp:af/caverns_and_chasms/azalea_shutter",
+	"everycomp:af/caverns_and_chasms/azalea_table",
+	"everycomp:af/caverns_and_chasms/azalea_chair",
+	"everycomp:af/caverns_and_chasms/azalea_shelf",
+	"everycomp:af/caverns_and_chasms/azalea_drawer",
+	"everycomp:af/caverns_and_chasms/azalea_bench",
+	"everycomp:c/caverns_and_chasms/azalea_window",
+	"everycomp:c/caverns_and_chasms/azalea_window_pane",
+	"everycomp:fd/caverns_and_chasms/azalea_cabinet",
+	"everycomp:ap/caverns_and_chasms/azalea_railing",
+	"everycomp:ap/caverns_and_chasms/azalea_board_slab",
+	"everycomp:ap/caverns_and_chasms/azalea_board_wall",
+	"everycomp:ap/caverns_and_chasms/azalea_boards",
+	"nethersdelight:soul_compost",
+	"nethersdelight:rich_soul_soil",
+	"mynethersdelight:powdery_mosaic_stairs",
+	"mynethersdelight:powdery_mosaic_slab",
+	"upgrade_aquatic:flowering_rush",
+	"abnormals_delight:passion_fruit_glazed_duck",
+	"atmospheric:passion_vine",
+	"atmospheric:passion_vine_bundle",
+	"atmospheric:passionfruit_crate",
+	"atmospheric:shimmering_passionfruit_crate",
+	"atmospheric:passionfruit_tart",
+	"atmospheric:passionfruit_sorbet",
+	"abnormals_delight:passion_aloe_nectar",
+	"atmospheric:passion_vine_coil",
+	"atmospheric:passionfruit",
+	"atmospheric:shimmering_passionfruit",
+	"nethersdelight:hoglin_mount",
+	"nethersdelight:propelplant_cane",
+	"nethersdelight:propelplant_torch",
+	"nethersdelight:stuffed_hoglin",
+	"nethersdelight:strider_slice",
+	"nethersdelight:ground_strider",
+	"nethersdelight:hoglin_ear",
+	"nethersdelight:warped_moldy_meat",
+	"nethersdelight:grilled_strider",
+	"nethersdelight:strider_moss_stew",
+	"nethersdelight:plate_of_stuffed_hoglin_snout",
+	"nethersdelight:plate_of_stuffed_hoglin_ham",
+	"nethersdelight:plate_of_stuffed_hoglin_roast",
+	"nethersdelight:propelpearl",
+	"nethersdelight:nether_skewer",
+	"nethersdelight:magma_gelatin",
+	"mynethersdelight:warped_fungus_colony",
+	"mynethersdelight:crimson_fungus_colony",
+	"mynethersdelight:cooked_loin",
+	"mynethersdelight:hoglin_loin",
+	"copperized:copper_door",
+	"copperized:waxed_copper_door",
+	"copperized:exposed_copper_door",
+	"copperized:waxed_exposed_copper_door",
+	"copperized:oxidized_copper_door",
+	"copperized:waxed_oxidized_copper_door",
+	"copperized:weathered_copper_door",
+	"copperized:waxed_weathered_copper_door",
+	"copperized:copper_trapdoor",
+	"copperized:waxed_copper_trapdoor",
+	"copperized:exposed_copper_trapdoor",
+	"copperized:waxed_exposed_copper_trapdoor",
+	"copperized:oxidized_copper_trapdoor",
+	"copperized:waxed_oxidized_copper_trapdoor",
+	"copperized:weathered_copper_trapdoor",
+	"copperized:waxed_weathered_copper_trapdoor",
+	"sullysmod:tortoise_egg",
+	"caverns_and_chasms:azalea_post",
+	"caverns_and_chasms:large_azalea_boat",
+	"caverns_and_chasms:azalea_boat",
+	"caverns_and_chasms:azalea_chest_boat",
+	"caverns_and_chasms:azalea_furnace_boat",
+	"atmospheric:aspen_boat",
+	"atmospheric:aspen_chest_boat",
+	"atmospheric:aspen_furnace_boat",
+	"atmospheric:large_aspen_boat",
+	"mynethersdelight:strider_rock",
+	"supplementaries:sconce_nether_brass",
+	"architects_palette:nether_brass_torch",
+	"supplementaries:endergetic/hanging_sign_poise",
+	"supplementaries:endergetic/sign_post_poise",
+	"suppsquared:endergetic/item_shelf_poise",
+	"abnormals_delight:poise_cabinet",
+	"everycomp:af/endergetic/poise_shutter",
+	"everycomp:af/endergetic/poise_table",
+	"everycomp:af/endergetic/poise_chair",
+	"everycomp:af/endergetic/poise_shelf",
+	"everycomp:af/endergetic/poise_drawer",
+	"everycomp:af/endergetic/poise_bench",
+	"everycomp:c/endergetic/poise_window",
+	"everycomp:c/endergetic/poise_window_pane",
+	"everycomp:q/endergetic/hollow_poise_log",
+	"everycomp:ap/endergetic/poise_railing",
+	"everycomp:ap/endergetic/poise_board_slab",
+	"everycomp:ap/endergetic/poise_board_wall",
+	"everycomp:ap/endergetic/poise_boards",
+	"everycomp:ap/endergetic/poise_board_stairs",
+	"endergetic:poise_planks",
+	"endergetic:poise_stem",
+	"endergetic:glowing_poise_stem",
+	"endergetic:stripped_poise_stem",
+	"endergetic:stripped_poise_wood",
+	"endergetic:poise_wood",
+	"endergetic:glowing_poise_wood",
+	"endergetic:poise_slab",
+	"endergetic:poise_bookshelf",
+	"endergetic:poise_stairs",
+	"endergetic:vertical_poise_planks",
+	"endergetic:poise_vertical_slab",
+	"endergetic:poise_boards",
+	"endergetic:stripped_poise_post",
+	"endergetic:poise_post",
+	"endergetic:poise_ladder",
+	"endergetic:poise_fence",
+	"endergetic:poise_sign",
+	"endergetic:poise_beehive",
+	"endergetic:poise_button",
+	"endergetic:poise_chest",
+	"endergetic:poise_pressure_plate",
+	"endergetic:poise_door",
+	"endergetic:poise_trapdoor",
+	"endergetic:poise_fence_gate",
+	"endergetic:poise_trapped_chest",
+	"endergetic:poise_boat",
+	"endergetic:poise_chest_boat",
+	"endergetic:poise_furnace_boat",
+	"endergetic:large_poise_boat",
+	"mynethersdelight:strider_egg",
+	"supplementaries:altimeter",
+	"mynethersdelight:hoglin_hide",
+	"nethersdelight:blackstone_stove",
+	"culturaldelights:spicy_curry",
+	"oreganized:netherite_nugget",
+	"quark:pickarang",
+	"create:copper_bars",
+	"architects_palette:cerebral_plate",
+	"windswept:foul_berry_bowl",
+	"minecraft:end_crystal",
+	"dungeons_mobs:skeleton_vanguard_spawn_egg",
+	"dungeons_mobs:necromancer_spawn_egg",
+	"dungeons_mobs:iceologer_spawn_egg",
+	"dungeons_mobs:mage_spawn_egg",
+	"dungeons_mobs:geomancer_spawn_egg",
+	"dungeons_mobs:windcaller_spawn_egg",
+	"dungeons_mobs:illusioner_spawn_egg",
+	"dungeons_mobs:mountaineer_spawn_egg",
+	"dungeons_mobs:whisperer_spawn_egg",
+	"dungeons_mobs:redstone_golem_spawn_egg",
+	"dungeons_mobs:leapleaf_spawn_egg",
+	"dungeons_mobs:poison_quill_vine_spawn_egg",
+	"dungeons_mobs:quick_growing_vine_spawn_egg",
+	"dungeons_mobs:squall_golem_spawn_egg",
+	"dungeons_mobs:wavewhisperer_spawn_egg",
+	"dungeons_mobs:quick_growing_kelp_spawn_egg",
+	"dungeons_mobs:poison_anemone_spawn_egg",
+	"dungeons_mobs:drowned_necromancer_spawn_egg",
+	"dungeons_mobs:endersent_spawn_egg",
+	"dungeons_mobs:blastling_spawn_egg",
+	"dungeons_mobs:watchling_spawn_egg",
+	"dungeons_mobs:snareling_spawn_egg",
+	"dungeons_mobs:royal_guard_spawn_egg",
+	"dungeons_mobs:vanguard_shield",
+	"dungeons_mobs:gold_pillager_helmet",
+	"dungeons_mobs:diamond_pillager_helmet",
+	"dungeons_mobs:gold_vindicator_helmet",
+	"dungeons_mobs:diamond_vindicator_helmet",
+	"dungeons_mobs:netherite_piglin_helmet",
+	"dungeons_mobs:cracked_netherite_piglin_helmet",
+	"dungeons_mobs:royal_guard_shield",
+	"dungeons_mobs:gold_piglin_helmet",
+	"dungeons_mobs:cracked_gold_piglin_helmet",
+	"dungeons_mobs:chef_helmet",
+	"dungeons_mobs:chef_chestplate",
+	"dungeons_mobs:drowned_necromancer_helmet",
+	"dungeons_mobs:drowned_necromancer_chestplate",
+	"dungeons_mobs:drowned_necromancer_leggings",
+	"dungeons_mobs:geomancer_helmet",
+	"dungeons_mobs:geomancer_chestplate",
+	"dungeons_mobs:iceologer_helmet",
+	"dungeons_mobs:iceologer_chestplate",
+	"dungeons_mobs:iceologer_leggings",
+	"dungeons_mobs:iceologer_boots",
+	"dungeons_mobs:illusioner_helmet",
+	"dungeons_mobs:illusioner_chestplate",
+	"dungeons_mobs:illusioner_leggings",
+	"dungeons_mobs:illusioner_boots",
+	"dungeons_mobs:necromancer_helmet",
+	"dungeons_mobs:necromancer_chestplate",
+	"dungeons_mobs:necromancer_leggings",
+	"dungeons_mobs:netherplate_helmet",
+	"dungeons_mobs:royal_guard_helmet",
+	"dungeons_mobs:royal_guard_chestplate",
+	"dungeons_mobs:royal_guard_leggings",
+	"dungeons_mobs:royal_guard_boots",
+	"dungeons_mobs:vanguard_helmet",
+	"dungeons_mobs:vanguard_chestplate",
+	"dungeons_mobs:vanguard_leggings",
+	"dungeons_mobs:windcaller_helmet",
+	"dungeons_mobs:windcaller_chestplate",
+	"dungeons_mobs:fungus_thrower_helmet",
+	"dungeons_mobs:fungus_thrower_chestplate",
+	"dungeons_mobs:mountaineer_helmet",
+	"dungeons_mobs:mountaineer_chestplate",
+	"dungeons_mobs:mountaineer_leggings",
+	"dungeons_mobs:mountaineer_boots",
+	"dungeons_mobs:expedition_helmet",
+	"dungeons_mobs:expedition_chestplate",
+	"dungeons_mobs:expedition_leggings",
+	"dungeons_mobs:expedition_boots",
+	"dungeons_mobs:alpine_helmet",
+	"dungeons_mobs:alpine_chestplate",
+	"dungeons_mobs:alpine_leggings",
+	"dungeons_mobs:alpine_boots",
+	"dungeons_mobs:mage_helmet",
+	"dungeons_mobs:mage_chestplate",
+	"dungeons_mobs:mage_leggings",
+	"dungeons_mobs:mage_boots",
+	"dungeons_mobs:wooden_ladle",
+	"dungeons_mobs:mountaineer_axe",
+	"dungeons_mobs:gold_mountaineer_axe",
+	"dungeons_mobs:diamond_mountaineer_axe",
+	"dungeons_mobs:windcaller_staff",
+	"dungeons_mobs:geomancer_staff",
+	"dungeons_mobs:necromancer_trident",
+	"dungeons_mobs:necromancer_staff",
+	"dungeons_mobs:blue_nethershroom",
+	"dungeons_mobs:yellow_trident",
+	"dungeons_mobs:purple_trident",
+	"windswept:chilled_spawn_egg",
+	"rottencreatures:magma_rotten_flesh",
+	"rottencreatures:frozen_rotten_flesh",
+	"rottencreatures:corrupted_wart",
+	"rottencreatures:tnt_barrel",
+	"rottencreatures:treasure_chest",
+	"mynethersdelight:powdery_torch",
+	"caverns_and_chasms:blunt_arrow",
+	"caverns_and_chasms:tmt",
+	"caverns_and_chasms:cobblestone_tiles",
+	"caverns_and_chasms:cobblestone_tile_stairs",
+	"caverns_and_chasms:cobblestone_tile_slab",
+	"caverns_and_chasms:cobblestone_tile_wall",
+	"caverns_and_chasms:cobblestone_tile_vertical_slab",
+	"caverns_and_chasms:mossy_cobblestone_tiles",
+	"caverns_and_chasms:mossy_cobblestone_tile_stairs",
+	"caverns_and_chasms:mossy_cobblestone_tile_slab",
+	"caverns_and_chasms:mossy_cobblestone_tile_wall",
+	"caverns_and_chasms:mossy_cobblestone_tile_vertical_slab",
+	"caverns_and_chasms:polished_sugilite_vertical_slab",
+	"caverns_and_chasms:sugilite_vertical_slab",
+	"caverns_and_chasms:music_disc_epilogue",
+	"mynethersdelight:skoglin_trophy",
+	"miners_delight:strider_stew_cup",
+	"miners_delight:spicy_noodle_soup_cup",
+	"miners_delight:spicy_hoglin_stew_cup",
+	"miners_delight:rock_soup_cup",
+	"mynethersdelight:rock_soup",
+	"mynethersdelight:burnt_roll",
+	"mynethersdelight:ghast_dough",
+	"mynethersdelight:ghasmati",
+	"mynethersdelight:spicy_cotton",
+	"mynethersdelight:boiled_egg",
+	"endergetic:eumus_poismoss",
+	"endergetic:poismoss",
+	"endergetic:poise_bush",
+	"endergetic:tall_poise_bush",
+	"endergetic:poise_cluster",
+	"endergetic:bolloom_bud",
+	"endergetic:puffbug_hive",
+	"endergetic:boof_block",
+	"endergetic:bolloom_crate",
+	"endergetic:eumus",
+	"endergetic:eumus_bricks",
+	"endergetic:cracked_eumus_bricks",
+	"endergetic:chiseled_eumus_bricks",
+	"endergetic:eumus_brick_slab",
+	"endergetic:eumus_brick_stairs",
+	"endergetic:eumus_brick_wall",
+	"endergetic:eumus_brick_vertical_slab",
+	"endergetic:mystical_obsidian",
+	"endergetic:mystical_obsidian_wall",
+	"endergetic:eumus_poismoss_path",
+	"endergetic:poismoss_path",
+	"endergetic:eumus_brick",
+	"endergetic:bolloom_fruit",
+	"endergetic:booflo_hide",
+	"endergetic:booflo_vest",
+	"endergetic:puffbug_bottle",
+	"endergetic:puff_bug_spawn_egg",
+	"endergetic:booflo_spawn_egg",
+	"minecraft:nether_wart",
+	"additionaladditions:mysterious_bundle",
+	"minecraft:fermented_spider_eye",
+	"clash:billhook",
+	"everycomp:q/mynethersdelight/hollow_powdery_log",
+	"everycomp:af/atmospheric/aspen_shutter",
+	"everycomp:af/atmospheric/aspen_table",
+	"everycomp:af/atmospheric/aspen_chair",
+	"everycomp:af/atmospheric/aspen_shelf",
+	"everycomp:af/atmospheric/aspen_drawer",
+	"everycomp:af/atmospheric/aspen_bench",
+	"everycomp:c/atmospheric/aspen_window",
+	"everycomp:c/atmospheric/aspen_window_pane",
+	"atmospheric:stripped_aspen_wood",
+	"atmospheric:stripped_aspen_log",
+	"everycomp:ap/atmospheric/aspen_board_stairs",
+	"everycomp:ap/atmospheric/aspen_boards",
+	"everycomp:ap/atmospheric/aspen_board_wall",
+	"everycomp:ap/atmospheric/aspen_board_slab",
+	"everycomp:ap/atmospheric/aspen_railing",
+	"everycomp:q/atmospheric/hollow_aspen_log",
+	"atmospheric:aspen_log",
+	"atmospheric:aspen_wood",
+	"atmospheric:watchful_aspen_log",
+	"atmospheric:watchful_aspen_wood",
+	"atmospheric:aspen_leaves",
+	"atmospheric:aspen_planks",
+	"atmospheric:aspen_stairs",
+	"atmospheric:aspen_sapling",
+	"atmospheric:aspen_sign",
+	"atmospheric:aspen_trapdoor",
+	"atmospheric:aspen_door",
+	"atmospheric:aspen_fence_gate",
+	"atmospheric:aspen_fence",
+	"atmospheric:aspen_button",
+	"atmospheric:aspen_pressure_plate",
+	"atmospheric:aspen_slab",
+	"atmospheric:aspen_boards",
+	"atmospheric:aspen_bookshelf",
+	"atmospheric:aspen_ladder",
+	"atmospheric:aspen_beehive",
+	"atmospheric:aspen_leaf_pile",
+	"atmospheric:aspen_chest",
+	"atmospheric:aspen_trapped_chest",
+	"atmospheric:stripped_aspen_post",
+	"supplementaries:atmospheric/sign_post_aspen",
+	"supplementaries:atmospheric/hanging_sign_aspen",
+	"atmospheric:aspen_hedge",
+	"atmospheric:aspen_post",
+	"abnormals_delight:aspen_cabinet",
+	"everycomp:af/upgrade_aquatic/river_shutter",
+	"everycomp:af/upgrade_aquatic/river_table",
+	"everycomp:af/upgrade_aquatic/river_chair",
+	"everycomp:af/upgrade_aquatic/river_shelf",
+	"everycomp:af/upgrade_aquatic/river_drawer",
+	"everycomp:af/upgrade_aquatic/river_bench",
+	"everycomp:c/upgrade_aquatic/river_window",
+	"everycomp:c/upgrade_aquatic/river_window_pane",
+	"upgrade_aquatic:stripped_river_wood",
+	"upgrade_aquatic:stripped_river_log",
+	"everycomp:ap/upgrade_aquatic/river_board_stairs",
+	"everycomp:ap/upgrade_aquatic/river_boards",
+	"everycomp:ap/upgrade_aquatic/river_board_wall",
+	"everycomp:ap/upgrade_aquatic/river_board_slab",
+	"everycomp:ap/upgrade_aquatic/river_railing",
+	"everycomp:q/upgrade_aquatic/hollow_river_log",
+	"upgrade_aquatic:river_log",
+	"upgrade_aquatic:river_wood",
+	"upgrade_aquatic:river_leaves",
+	"upgrade_aquatic:river_sapling",
+	"upgrade_aquatic:river_planks",
+	"upgrade_aquatic:river_stairs",
+	"upgrade_aquatic:river_slab",
+	"upgrade_aquatic:river_pressure_plate",
+	"upgrade_aquatic:river_bookshelf",
+	"upgrade_aquatic:river_boards",
+	"upgrade_aquatic:river_sign",
+	"upgrade_aquatic:river_trapdoor",
+	"upgrade_aquatic:river_door",
+	"upgrade_aquatic:river_fence_gate",
+	"upgrade_aquatic:river_fence",
+	"upgrade_aquatic:river_button",
+	"upgrade_aquatic:river_ladder",
+	"upgrade_aquatic:river_beehive",
+	"upgrade_aquatic:river_leaf_pile",
+	"upgrade_aquatic:river_chest",
+	"upgrade_aquatic:river_trapped_chest",
+	"upgrade_aquatic:stripped_river_post",
+	"upgrade_aquatic:river_post",
+	"upgrade_aquatic:river_hedge",
+	"supplementaries:upgrade_aquatic/sign_post_river",
+	"abnormals_delight:river_cabinet",
+	"supplementaries:upgrade_aquatic/hanging_sign_river",
+	"upgrade_aquatic:large_river_boat",
+	"upgrade_aquatic:river_furnace_boat",
+	"upgrade_aquatic:river_chest_boat",
+	"upgrade_aquatic:river_boat",
+	"create:blaze_cake_base",
+	"upgrade_aquatic:mulberry_punnet",
+	"upgrade_aquatic:mulberry",
+	"upgrade_aquatic:mulberry_pie",
+	"create_central_kitchen:mulberry_pie_slice",
+	"abnormals_delight:mulberry_cookie",
+	"create_central_kitchen:incomplete_mulberry_pie",
+	"windswept:wild_berry_basket",
+	"windswept:holly_berry_basket",
+	"copycats:copycat_board",
+	"copycats:copycat_wooden_button",
+	"copycats:copycat_stone_button",
+	"copycats:copycat_byte",
+	"copycats:copycat_ghost_block",
+	"copycats:copycat_half_layer",
+	"copycats:copycat_half_panel",
+	"copycats:copycat_ladder",
+	"copycats:copycat_layer",
+	"copycats:copycat_wooden_pressure_plate",
+	"copycats:copycat_stone_pressure_plate",
+	"copycats:copycat_heavy_weighted_pressure_plate",
+	"copycats:copycat_light_weighted_pressure_plate",
+	"copycats:copycat_slice",
+	"copycats:copycat_vertical_stairs",
+	"copycats:copycat_trapdoor",
+	"copycats:copycat_vertical_slice",
+	"copycats:copycat_vertical_step",
+	"copycats:copycat_slope",
+	"copycats:copycat_vertical_slope",
+	"copycats:copycat_slope_layer",
+	"copycats:copycat_shaft",
+	"architects_palette:moonshale_vertical_slab",
+	"architects_palette:moonshale_brick_vertical_slab",
+	"architects_palette:craterstone_vertical_slab",
+	"architects_palette:nebulite_vertical_slab",
+	"architects_palette:polished_nebulite_vertical_slab",
+	"caverns_and_chasms:lapis_brick_vertical_slab",
+	"endergetic:overworld_corrock",
+	"endergetic:nether_corrock",
+	"endergetic:end_corrock",
+	"endergetic:speckled_overworld_corrock",
+	"endergetic:speckled_nether_corrock",
+	"endergetic:speckled_end_corrock",
+	"endergetic:overworld_corrock_block",
+	"endergetic:nether_corrock_block",
+	"endergetic:end_corrock_block",
+	"endergetic:petrified_overworld_corrock",
+	"endergetic:petrified_nether_corrock",
+	"endergetic:petrified_end_corrock",
+	"endergetic:petrified_speckled_overworld_corrock",
+	"endergetic:petrified_speckled_nether_corrock",
+	"endergetic:petrified_speckled_end_corrock",
+	"endergetic:petrified_overworld_corrock_block",
+	"endergetic:petrified_nether_corrock_block",
+	"endergetic:petrified_end_corrock_block",
+	"endergetic:overworld_corrock_crown",
+	"endergetic:nether_corrock_crown",
+	"endergetic:end_corrock_crown",
+	"endergetic:petrified_overworld_corrock_crown",
+	"endergetic:petrified_nether_corrock_crown",
+	"endergetic:petrified_end_corrock_crown",
+	"endergetic:infested_corrock",
+	"endergetic:petrified_infested_corrock",
+	"endergetic:eetle_egg",
+	"endergetic:cooked_eetle_egg",
+	"endergetic:portaplasm",
+	"copycats:copycat_box",
+	"copycats:copycat_catwalk",
+	"windswept:goat",
+	"windswept:cooked_goat",
+	"windswept:goat_shanks",
+	"windswept:cooked_goat_shanks",
+	"minecraft:dragon_breath",
+	"windswept:goat_stew",
+	"supplementaries:lapis_bricks",
+	"supplementaries:lapis_bricks_slab",
+	"supplementaries:lapis_bricks_wall",
+	"supplementaries:lapis_bricks_stairs",
+	"quark:bottled_cloud",
+	"everycomp:abnww/architects_palette/twisted_leaf_pile",
+	"everycomp:q/architects_palette/twisted_hedge",
+	"architects_palette:twisted_leaves",
+	"sullysmod:jade_shield",
+	"oreganized:electrum_shield",
+	"shieldexp:diamond_shield",
+	"shieldexp:netherite_shield",
+	"shieldexp:paragon_shield",
+	"suppsquared:mynethersdelight/item_shelf_powdery",
+	"windswept:frozen_flesh_block",
+	"supplementaries:lead_door",
+	"supplementaries:lead_trapdoor",
+	"quark:music_disc_drips",
+	"quark:music_disc_ocean",
+	"quark:music_disc_rain",
+	"quark:music_disc_wind",
+	"quark:music_disc_fire",
+	"quark:music_disc_clock",
+	"quark:music_disc_crickets",
+	"quark:music_disc_chatter",
+	"quark:music_disc_endermosh",
+    "twigs:copper_pillar",
+    "twigs:exposed_copper_pillar",
+    "twigs:weathered_copper_pillar",
+    "twigs:oxidized_copper_pillar",
+    "twigs:waxed_copper_pillar",
+    "twigs:waxed_exposed_copper_pillar",
+    "twigs:waxed_weathered_copper_pillar",
+    "twigs:waxed_oxidized_copper_pillar",	
+	"atmospheric:stripped_grimwood_log",
+	"atmospheric:stripped_grimwood",
+	"culturaldelights:poached_eggplants",
+    "aquaculturedelight:cooked_small_turtle_meat",
+    "aquaculturedelight:small_turtle_meat",
+    "aquaculturedelight:turtle_meat_dish",
+    "aquaculture:neptunium_fishing_rod",
+    "aquaculture:neptunium_nugget",
+    "aquaculture:neptunium_ingot",
+    "aquaculture:neptunium_pickaxe",
+    "aquaculture:neptunium_shovel",
+    "aquaculture:neptunium_axe",
+    "aquaculture:neptunium_hoe",
+    "aquaculture:neptunium_sword",
+    "aquaculture:neptunium_bow",
+    "aquaculture:neptunium_helmet",
+    "aquaculture:neptunium_chestplate",
+    "aquaculture:neptunium_boots",
+    "aquaculture:neptunium_leggings",
+    "aquaculture:wooden_fillet_knife",
+    "aquaculture:stone_fillet_knife",
+    "aquaculture:iron_fillet_knife",
+    "aquaculture:gold_fillet_knife",
+    "aquaculture:diamond_fillet_knife",
+    "aquaculture:neptunium_fillet_knife",
+    "aquaculture:driftwood",
+    "aquaculture:box",
+    "aquaculture:lockbox",
+    "aquaculture:treasure_chest",
+    "aquaculture:turtle_soup",
+    "aquaculture:sushi",
+    "aquaculture:box_turtle_spawn_egg",
+    "aquaculture:arrau_turtle_spawn_egg",
+    "aquaculture:starshell_turtle_spawn_egg",
+    "aquaculture:atlantic_cod_bucket",
+    "aquaculture:atlantic_cod",
+    "aquaculture:atlantic_halibut_bucket",
+    "aquaculture:atlantic_halibut",
+    "aquaculture:pink_salmon_bucket",
+    "aquaculture:pink_salmon",
+    "aquaculture:rainbow_trout_bucket",
+    "aquaculture:rainbow_trout",
+    "aquaculture:smallmouth_bass_bucket",
+    "aquaculture:smallmouth_bass",
+    "aquaculture:catfish_bucket",
+    "aquaculture:catfish",
+    "aquaculture:perch_bucket",
+    "aquaculture:perch",
+    "aquaculture:box_turtle",
+    "aquaculture:arrau_turtle",
+    "aquaculture:starshell_turtle",
+    "aquaculture:oak_fish_mount",
+    "aquaculture:spruce_fish_mount",
+    "aquaculture:birch_fish_mount",
+    "aquaculture:jungle_fish_mount",
+    "aquaculture:acacia_fish_mount",
+    "aquaculture:dark_oak_fish_mount",
+    "aquaculture:neptunium_block",
+    "aquaculture:neptunes_bounty",
+    "aquaculture:worm_farm",
+    "aquaculturedelight:neptunium_knife",
+    "aquaculture:jellyfish_bucket",
+    "aquaculture:jellyfish",
+    "aquaculturedelight:jellyfish_jelly",
+    "aquaculture:gold_fishing_rod",
+    "aquaculture:diamond_fishing_rod",
+    "aquaculture:leech",
+    "aquaculture:pacific_halibut_bucket",
+    "aquaculture:pacific_halibut",
+    "aquaculture:brown_shrooma_bucket",
+    "aquaculture:brown_shrooma",
+    "aquaculture:red_shrooma_bucket",
+    "aquaculture:red_shrooma",
+    "aquaculture:piranha_bucket",
+    "aquaculture:piranha",
+    "aquaculture:minnow_bucket",
+    "aquaculture:minnow",
+    "alloyed:steel_fishing_rod",
+    "aquaculture:arapaima",
+    "aquaculture:arapaima_bucket",
+    "aquaculture:muskellunge",
+    "aquaculture:muskellunge_bucket",
+    "abnormals_delight:laurel_cabinet",
+    "abnormals_delight:pine_cabinet",
+    "everycomp:abnww/mynethersdelight/powdery_chest",
+    "everycomp:abnww/mynethersdelight/powdery_trapped_chest",
+    "architects_palette:ancient_plating",
+    "architects_palette:ancient_plating_slab",
+    "architects_palette:ancient_plating_stairs",
+    "architects_palette:ancient_plating_wall",
+    "architects_palette:ancient_plating_fence",
+    "architects_palette:heliodor_rod",
+    "architects_palette:ekanite_rod",
+    "architects_palette:monazite_rod",
+    "architects_palette:warpstone",
+    "architects_palette:warpstone_slab",
+    "architects_palette:warpstone_stairs",
+    "architects_palette:warpstone_wall",
+    "architects_palette:olivestone_bricks",
+    "architects_palette:olivestone_brick_slab",
+    "architects_palette:olivestone_brick_stairs",
+    "architects_palette:olivestone_brick_wall",
+    "architects_palette:olivestone_tiles",
+    "architects_palette:olivestone_tile_slab",
+    "architects_palette:olivestone_tile_stairs",
+    "architects_palette:olivestone_tile_wall",
+    "architects_palette:olivestone_pillar",
+    "architects_palette:cracked_olivestone_bricks",
+    "architects_palette:cracked_olivestone_tiles",
+    "architects_palette:chiseled_olivestone",
+    "architects_palette:illuminated_olivestone",
+    "architects_palette:myonite",
+    "architects_palette:myonite_bricks",
+	"architects_palette:bread_nub",
+    "spelunkery:granite_jade_ore",
+    "spelunkery:andesite_jade_ore",
+    "spelunkery:diorite_jade_ore",
+    "spelunkery:tuff_jade_ore",
+    "minecraft:cooked_cod", 
+    "farmersdelight:cod_slice", 
+    "farmersdelight:cooked_cod_slice", 
+    "minecraft:cooked_salmon", 
+    "farmersdelight:salmon_slice", 
+    "farmersdelight:cooked_salmon_slice", 
+    "naturalist:cooked_bass", 
+    "upgrade_aquatic:cooked_lionfish", 
+    "upgrade_aquatic:cooked_perch", 
+    "abnormals_delight:perch_slice", 
+    "abnormals_delight:cooked_perch_slice", 
+    "upgrade_aquatic:cooked_pike", 
+    "abnormals_delight:pike_slice", 
+    "abnormals_delight:cooked_pike_slice", 
+    "sullysmod:cooked_lanternfish", 
+    "sullysmod:lanternfish_slice", 
+    "sullysmod:cooked_lanternfish_slice",
+    "culturaldelights:chicken_roll_slice", 
+    "culturaldelights:chicken_roll",
+    "culturaldelights:exotic_roll_medley",
+    "sullysmod:lanternfish_roll",
+    "aquaculturedelight:raw_fish_fillet_roll",
+    "aquaculturedelight:poor_fisher_chowder",
+    "aquaculturedelight:bass_stew",
+    "aquaculturedelight:unusual_fish_soup",
+    "aquaculturedelight:halaszle",
+    "aquaculturedelight:large_fish_with_vegetables",
+    "aquaculturedelight:baked_pollock_with_carrots",
+    "aquaculturedelight:buckling",
+    "aquaculturedelight:tuna_spaghetti",
+    "aquaculturedelight:rollmops",
+    "aquaculturedelight:catfish_barbecue",
+    "aquaculturedelight:halibut_with_tartar_sauce",
+	"aquaculturedelight:frog_leg_soup",
+    "caverns_and_chasms:necromium_horse_armor",
+    "caverns_and_chasms:netherite_horse_armor",
+	"buzzier_bees:four_leaf_clover",
+	"aquaculture:iron_hook",
+	"aquaculture:diamond_hook",
+	"aquaculture:note_hook",
+	"aquaculture:nether_star_hook",
+	"quark:moss_paste",
+	"everycomp:q/culturaldelights/fruiting_avocado_hedge",
+	"friendsandfoes:copper_golem_spawn_egg",
+	"friendsandfoes:crab_spawn_egg",
+	"friendsandfoes:glare_spawn_egg",
+	"friendsandfoes:iceologer_spawn_egg",
+	"friendsandfoes:illusioner_spawn_egg",
+	"friendsandfoes:mauler_spawn_egg",
+	"friendsandfoes:moobloom_spawn_egg",
+	"friendsandfoes:wildfire_spawn_egg",
+	"friendsandfoes:buttercup",
+	"friendsandfoes:crab_claw",
+	"friendsandfoes:crab_egg",
+	"friendsandfoes:acacia_beehive",
+	"friendsandfoes:birch_beehive",
+	"friendsandfoes:crimson_beehive",
+	"friendsandfoes:dark_oak_beehive",
+	"friendsandfoes:jungle_beehive",
+	"friendsandfoes:mangrove_beehive",
+	"friendsandfoes:spruce_beehive",
+	"friendsandfoes:warped_beehive",
+	"friendsandfoes:copper_button",
+	"friendsandfoes:exposed_copper_button",
+	"friendsandfoes:weathered_copper_button",
+	"friendsandfoes:oxidized_copper_button",
+	"friendsandfoes:waxed_copper_button",
+	"friendsandfoes:waxed_exposed_copper_button",
+	"friendsandfoes:waxed_weathered_copper_button",
+	"friendsandfoes:waxed_oxidized_copper_button",
+	"friendsandfoes:exposed_lightning_rod",
+	"friendsandfoes:weathered_lightning_rod",
+	"friendsandfoes:oxidized_lightning_rod",
+	"friendsandfoes:waxed_lightning_rod",
+	"friendsandfoes:waxed_exposed_lightning_rod",
+	"friendsandfoes:waxed_weathered_lightning_rod",
+	"friendsandfoes:waxed_oxidized_lightning_rod",
+	"friendsandfoes:wildfire_crown",
+	"friendsandfoes:wildfire_crown_fragment",
+	"friendsandfoes:totem_of_freezing",
+	"friendsandfoes:totem_of_illusion",
+	"mynethersdelight:letios_compost",
+	"mynethersdelight:resurgent_soil",
+	"mynethersdelight:resurgent_soil_farmland",
+	"everycomp:faf/ecologics/coconut_beehive",
+	"everycomp:faf/architects_palette/twisted_beehive",
+	"everycomp:faf/ecologics/azalea_beehive",
+	"everycomp:faf/quark/bamboo_beehive",
+	"everycomp:faf/mynethersdelight/powdery_beehive",
+	"quark:ancient_tome",
+	"clash:swept_axe_head",
+	"create:rose_quartz",
+	"create:rose_quartz_block",
+	"create:small_rose_quartz_tiles",
+	"create:propeller",
+	"create:whisk",
+	"alloyed:bronze_block",
+	"alloyed:exposed_bronze_block",
+	"alloyed:weathered_bronze_block",
+	"alloyed:oxidized_bronze_block",
+	"alloyed:waxed_bronze_block",
+	"alloyed:waxed_exposed_bronze_block",
+	"alloyed:waxed_weathered_bronze_block",
+	"alloyed:waxed_oxidized_bronze_block",
+	"architects_palette:sunmetal_brick",
+	"naturalist:vulture_spawn_egg",
+	"quark:crab_leg",
+	"quark:cooked_crab_leg",
+	"quark:crab_shell",
+	"quark:crab_bucket",
+	"minecraft:rabbit_foot",
+	"cookscollection:salt",
+	"cookscollection:salted_dripstone_block",
+	"cookscollection:lemon_log",
+	"cookscollection:lemon_wood",
+	"everycomp:q/cookscollection/fruiting_lemon_hedge",
+	"everycomp:abnww/cookscollection/fruiting_lemon_leaf_pile",
+	"quark:egg_parrot_red_blue",
+	"quark:egg_parrot_blue",
+	"quark:egg_parrot_green",
+	"quark:egg_parrot_yellow_blue",
+	"quark:egg_parrot_grey",
+	"minecraft:pumpkin_pie",
+	"mynethersdelight:raw_stuffed_hoglin",
+	"create_confectionery:black_chocolate_bucket",
+	"create_confectionery:white_chocolate_bucket",
+	"create_confectionery:black_chocolate_bricks",
+	"create_confectionery:black_chocolate_bricks_stairs",
+	"create_confectionery:black_chocolate_bricks_slab",
+	"create_confectionery:white_chocolate_bricks",
+	"create_confectionery:white_chocolate_bricks_stairs",
+	"create_confectionery:white_chocolate_bricks_slab",
+	"upgrade_aquatic:beachgrass",
+	"upgrade_aquatic:tall_beachgrass",
+	"create_confectionery:cocoa_powder",
+	"create:brass_hand",
+	"alloyed:bronze_sheet",
+	"spelunkery:dust_bun",
+	"atmospheric:flowering_morado_leaf_pile",
+	"atmospheric:flowering_morado_hedge",
+    "minecraft:cake",
+    "farmersrespite:coffee_cake",
+    "neapolitan:vanilla_cake",
+    "neapolitan:chocolate_cake",
+    "neapolitan:strawberry_cake",
+    "neapolitan:banana_cake",
+    "neapolitan:mint_cake",
+    "neapolitan:adzuki_cake",
+    "respiteful:green_tea_cake",
+    "respiteful:yellow_tea_cake",
+    "respiteful:black_tea_cake",
+    "mynethersdelight:magma_cake",
+	"create:red_sand_paper",
+	"abnormals_delight:cherry_cream_soda",
+	"farmersrespite:long_apple_cider",
+	"farmersrespite:long_black_tea",
+	"farmersrespite:long_coffee",
+	"farmersrespite:long_dandelion_tea",
+	"farmersrespite:long_gamblers_tea",
+	"farmersrespite:long_green_tea",
+	"farmersrespite:long_purulent_tea",
+	"farmersrespite:long_rose_hip_tea",
+	"farmersrespite:long_yellow_tea",
+	"farmersrespite:strong_apple_cider",
+	"farmersrespite:strong_black_tea",
+	"farmersrespite:strong_coffee",
+	"farmersrespite:strong_gamblers_tea",
+	"farmersrespite:strong_green_tea",
+	"farmersrespite:strong_hot_cocoa",
+	"farmersrespite:strong_melon_juice",
+	"farmersrespite:strong_purulent_tea",
+	"farmersrespite:strong_rose_hip_tea",
+	"farmersrespite:strong_yellow_tea",
+	"spelunkery:phosphor_fungus",
+	"mynethersdelight:hot_wings",
+	"everycomp:faf/quark/ancient_beehive",
+	"everycomp:af/caverns_and_chasms/azalea_planter_box",
+	"everycomp:af/mynethersdelight/powdery_planter_box",
+	"everycomp:af/endergetic/poise_planter_box",
+	"everycomp:tw/caverns_and_chasms/azalea_table",
+	"everycomp:tw/mynethersdelight/powdery_table",
+	"everycomp:tw/endergetic/poise_table",
+	"everycomp:faf/ecologics/flowering_azalea_beehive",
+	"everycomp:q/mynethersdelight/vertical_powdery_planks",
+	"everycomp:abnww/mynethersdelight/powdery_bookshelf",
+	"everycomp:abnww/mynethersdelight/powdery_ladder",
+	"everycomp:abnww/ecologics/flowering_azalea_chest",
+	"everycomp:abnww/ecologics/walnut_chest",
+	"everycomp:abnww/ecologics/flowering_azalea_trapped_chest",
+	"everycomp:abnww/ecologics/walnut_trapped_chest",
+	"everycomp:ap/caverns_and_chasms/azalea_board_stairs",
+	"everycomp:faf/ecologics/walnut_beehive",
+	"everycomp:faf/quark/azalea_beehive",
+	"everycomp:q/cookscollection/lemon_leaf_carpet",
+	"everycomp:q/cookscollection/fruiting_lemon_leaf_carpet",
+	"everycomp:sd/environmental/willow_full_drawers_1",
+	"everycomp:sd/atmospheric/aspen_full_drawers_1",
+	"everycomp:sd/quark/bamboo_full_drawers_1",
+	"everycomp:sd/endergetic/poise_full_drawers_1",
+	"everycomp:sd/atmospheric/yucca_full_drawers_1",
+	"everycomp:sd/upgrade_aquatic/river_full_drawers_1",
+	"everycomp:faf/quark/blossom_beehive",
+	"everycomp:sd/architects_palette/twisted_full_drawers_1",
+	"everycomp:sd/atmospheric/rosewood_full_drawers_1",
+	"everycomp:sd/windswept/chestnut_full_drawers_1",
+	"everycomp:sd/autumnity/maple_full_drawers_1",
+	"everycomp:sd/ecologics/walnut_full_drawers_1",
+	"everycomp:sd/atmospheric/kousa_full_drawers_1",
+	"everycomp:sd/windswept/holly_full_drawers_1",
+	"everycomp:sd/caverns_and_chasms/azalea_full_drawers_1",
+	"everycomp:sd/quark/azalea_full_drawers_1",
+	"everycomp:sd/quark/blossom_full_drawers_1",
+	"everycomp:sd/mynethersdelight/powdery_full_drawers_1",
+	"everycomp:sd/atmospheric/morado_full_drawers_1",
+	"everycomp:sd/ecologics/coconut_full_drawers_1",
+	"everycomp:sd/environmental/wisteria_full_drawers_1",
+	"everycomp:sd/ecologics/flowering_azalea_full_drawers_1",
+	"everycomp:sd/ecologics/azalea_full_drawers_1",
+	"everycomp:sd/quark/ancient_full_drawers_1",
+	"everycomp:sd/environmental/cherry_full_drawers_1",
+	"everycomp:sd/upgrade_aquatic/driftwood_full_drawers_1",
+	"everycomp:sd/atmospheric/grimwood_full_drawers_1",
+	"everycomp:sd/environmental/willow_full_drawers_2",
+	"everycomp:sd/atmospheric/aspen_full_drawers_2",
+	"everycomp:sd/quark/bamboo_full_drawers_2",
+	"everycomp:sd/endergetic/poise_full_drawers_2",
+	"everycomp:sd/upgrade_aquatic/river_full_drawers_2",
+	"everycomp:sd/atmospheric/yucca_full_drawers_2",
+	"everycomp:sd/architects_palette/twisted_full_drawers_2",
+	"everycomp:sd/atmospheric/rosewood_full_drawers_2",
+	"everycomp:sd/windswept/chestnut_full_drawers_2",
+	"everycomp:sd/autumnity/maple_full_drawers_2",
+	"everycomp:sd/ecologics/walnut_full_drawers_2",
+	"everycomp:sd/atmospheric/kousa_full_drawers_2",
+	"everycomp:sd/windswept/holly_full_drawers_2",
+	"everycomp:sd/caverns_and_chasms/azalea_full_drawers_2",
+	"everycomp:sd/quark/blossom_full_drawers_2",
+	"everycomp:sd/quark/azalea_full_drawers_2",
+	"everycomp:sd/mynethersdelight/powdery_full_drawers_2",
+	"everycomp:sd/atmospheric/morado_full_drawers_2",
+	"everycomp:sd/ecologics/coconut_full_drawers_2",
+	"everycomp:sd/environmental/wisteria_full_drawers_2",
+	"everycomp:sd/ecologics/flowering_azalea_full_drawers_2",
+	"everycomp:sd/ecologics/azalea_full_drawers_2",
+	"everycomp:sd/quark/ancient_full_drawers_2",
+	"everycomp:sd/environmental/cherry_full_drawers_2",
+	"everycomp:sd/upgrade_aquatic/driftwood_full_drawers_2",
+	"everycomp:sd/atmospheric/grimwood_full_drawers_2",
+	"everycomp:sd/environmental/willow_full_drawers_4",
+	"everycomp:sd/atmospheric/aspen_full_drawers_4",
+	"everycomp:sd/autumnity/maple_full_drawers_4",
+	"everycomp:sd/architects_palette/twisted_full_drawers_4",
+	"everycomp:sd/atmospheric/yucca_full_drawers_4",
+	"everycomp:sd/upgrade_aquatic/river_full_drawers_4",
+	"everycomp:sd/endergetic/poise_full_drawers_4",
+	"everycomp:sd/quark/bamboo_full_drawers_4",
+	"everycomp:sd/ecologics/walnut_full_drawers_4",
+	"everycomp:sd/atmospheric/kousa_full_drawers_4",
+	"everycomp:sd/windswept/holly_full_drawers_4",
+	"everycomp:sd/caverns_and_chasms/azalea_full_drawers_4",
+	"everycomp:sd/quark/azalea_full_drawers_4",
+	"everycomp:sd/quark/blossom_full_drawers_4",
+	"everycomp:sd/atmospheric/rosewood_full_drawers_4",
+	"everycomp:sd/windswept/chestnut_full_drawers_4",
+	"everycomp:sd/mynethersdelight/powdery_full_drawers_4",
+	"everycomp:sd/atmospheric/morado_full_drawers_4",
+	"everycomp:sd/atmospheric/grimwood_full_drawers_4",
+	"everycomp:sd/upgrade_aquatic/driftwood_full_drawers_4",
+	"everycomp:sd/quark/ancient_full_drawers_4",
+	"everycomp:sd/ecologics/flowering_azalea_full_drawers_4",
+	"everycomp:sd/ecologics/azalea_full_drawers_4",
+	"everycomp:sd/environmental/wisteria_full_drawers_4",
+	"everycomp:sd/ecologics/coconut_full_drawers_4",
+	"everycomp:sd/environmental/willow_half_drawers_1",
+	"everycomp:sd/atmospheric/aspen_half_drawers_1",
+	"everycomp:sd/endergetic/poise_half_drawers_1",
+	"everycomp:sd/upgrade_aquatic/river_half_drawers_1",
+	"everycomp:sd/atmospheric/yucca_half_drawers_1",
+	"everycomp:sd/environmental/cherry_full_drawers_4",
+	"everycomp:sd/quark/bamboo_half_drawers_1",
+	"everycomp:sd/architects_palette/twisted_half_drawers_1",
+	"everycomp:sd/atmospheric/rosewood_half_drawers_1",
+	"everycomp:sd/quark/blossom_half_drawers_1",
+	"everycomp:sd/quark/azalea_half_drawers_1",
+	"everycomp:sd/caverns_and_chasms/azalea_half_drawers_1",
+	"everycomp:sd/windswept/holly_half_drawers_1",
+	"everycomp:sd/atmospheric/kousa_half_drawers_1",
+	"everycomp:sd/ecologics/walnut_half_drawers_1",
+	"everycomp:sd/autumnity/maple_half_drawers_1",
+	"everycomp:sd/windswept/chestnut_half_drawers_1",
+	"everycomp:sd/mynethersdelight/powdery_half_drawers_1",
+	"everycomp:sd/atmospheric/morado_half_drawers_1",
+	"everycomp:sd/ecologics/coconut_half_drawers_1",
+	"everycomp:sd/environmental/wisteria_half_drawers_1",
+	"everycomp:sd/ecologics/flowering_azalea_half_drawers_1",
+	"everycomp:sd/ecologics/azalea_half_drawers_1",
+	"everycomp:sd/quark/ancient_half_drawers_1",
+	"everycomp:sd/environmental/cherry_half_drawers_1",
+	"everycomp:sd/upgrade_aquatic/driftwood_half_drawers_1",
+	"everycomp:sd/atmospheric/grimwood_half_drawers_1",
+	"everycomp:sd/environmental/willow_half_drawers_2",
+	"everycomp:sd/atmospheric/aspen_half_drawers_2",
+	"everycomp:sd/quark/bamboo_half_drawers_2",
+	"everycomp:sd/endergetic/poise_half_drawers_2",
+	"everycomp:sd/upgrade_aquatic/river_half_drawers_2",
+	"everycomp:sd/atmospheric/yucca_half_drawers_2",
+	"everycomp:sd/caverns_and_chasms/azalea_half_drawers_2",
+	"everycomp:sd/windswept/holly_half_drawers_2",
+	"everycomp:sd/atmospheric/kousa_half_drawers_2",
+	"everycomp:sd/autumnity/maple_half_drawers_2",
+	"everycomp:sd/ecologics/walnut_half_drawers_2",
+	"everycomp:sd/windswept/chestnut_half_drawers_2",
+	"everycomp:sd/atmospheric/rosewood_half_drawers_2",
+	"everycomp:sd/architects_palette/twisted_half_drawers_2",
+	"everycomp:sd/quark/azalea_half_drawers_2",
+	"everycomp:sd/quark/blossom_half_drawers_2",
+	"everycomp:sd/mynethersdelight/powdery_half_drawers_2",
+	"everycomp:sd/atmospheric/morado_half_drawers_2",
+	"everycomp:sd/ecologics/coconut_half_drawers_2",
+	"everycomp:sd/environmental/wisteria_half_drawers_2",
+	"everycomp:sd/ecologics/flowering_azalea_half_drawers_2",
+	"everycomp:sd/ecologics/azalea_half_drawers_2",
+	"everycomp:sd/endergetic/poise_half_drawers_4",
+	"everycomp:sd/quark/bamboo_half_drawers_4",
+	"everycomp:sd/atmospheric/aspen_half_drawers_4",
+	"everycomp:sd/environmental/willow_half_drawers_4",
+	"everycomp:sd/atmospheric/grimwood_half_drawers_2",
+	"everycomp:sd/upgrade_aquatic/driftwood_half_drawers_2",
+	"everycomp:sd/environmental/cherry_half_drawers_2",
+	"everycomp:sd/quark/ancient_half_drawers_2",
+	"everycomp:sd/upgrade_aquatic/river_half_drawers_4",
+	"everycomp:sd/atmospheric/yucca_half_drawers_4",
+	"everycomp:sd/architects_palette/twisted_half_drawers_4",
+	"everycomp:sd/atmospheric/rosewood_half_drawers_4",
+	"everycomp:sd/windswept/chestnut_half_drawers_4",
+	"everycomp:sd/autumnity/maple_half_drawers_4",
+	"everycomp:sd/ecologics/walnut_half_drawers_4",
+	"everycomp:sd/atmospheric/kousa_half_drawers_4",
+	"everycomp:sd/environmental/wisteria_half_drawers_4",
+	"everycomp:sd/ecologics/coconut_half_drawers_4",
+	"everycomp:sd/atmospheric/morado_half_drawers_4",
+	"everycomp:sd/quark/blossom_half_drawers_4",
+	"everycomp:sd/mynethersdelight/powdery_half_drawers_4",
+	"everycomp:sd/quark/azalea_half_drawers_4",
+	"everycomp:sd/caverns_and_chasms/azalea_half_drawers_4",
+	"everycomp:sd/windswept/holly_half_drawers_4",
+	"everycomp:sd/ecologics/flowering_azalea_half_drawers_4",
+	"everycomp:sd/ecologics/azalea_half_drawers_4",
+	"everycomp:sd/quark/ancient_half_drawers_4",
+	"everycomp:sd/environmental/cherry_half_drawers_4",
+	"everycomp:sd/upgrade_aquatic/driftwood_half_drawers_4",
+	"everycomp:sd/atmospheric/grimwood_half_drawers_4",
+	"everycomp:sd/environmental/willow_trim",
+	"everycomp:sd/atmospheric/aspen_trim",
+	"everycomp:sd/quark/bamboo_trim",
+	"everycomp:sd/endergetic/poise_trim",
+	"everycomp:sd/upgrade_aquatic/river_trim",
+	"everycomp:sd/atmospheric/yucca_trim",
+	"everycomp:sd/architects_palette/twisted_trim",
+	"everycomp:sd/atmospheric/rosewood_trim",
+	"everycomp:sd/autumnity/maple_trim",
+	"everycomp:sd/windswept/chestnut_trim",
+	"everycomp:sd/ecologics/walnut_trim",
+	"everycomp:sd/ecologics/coconut_trim",
+	"everycomp:sd/atmospheric/kousa_trim",
+	"everycomp:sd/environmental/wisteria_trim",
+	"everycomp:sd/windswept/holly_trim",
+	"everycomp:sd/ecologics/flowering_azalea_trim",
+	"everycomp:sd/caverns_and_chasms/azalea_trim",
+	"everycomp:sd/ecologics/azalea_trim",
+	"everycomp:sd/quark/azalea_trim",
+	"everycomp:sd/quark/ancient_trim",
+	"everycomp:sd/quark/blossom_trim",
+	"everycomp:sd/environmental/cherry_trim",
+	"everycomp:sd/mynethersdelight/powdery_trim",
+	"everycomp:sd/upgrade_aquatic/driftwood_trim",
+	"everycomp:sd/atmospheric/morado_trim",
+	"everycomp:sd/atmospheric/grimwood_trim",
+	"storagedrawers:obsidian_storage_upgrade",
+	"storagedrawers:creative_vending_upgrade",
+	"storagedrawers:iron_storage_upgrade",
+	"storagedrawers:conversion_upgrade",
+	"storagedrawers:gold_storage_upgrade",
+	"storagedrawers:redstone_upgrade",
+	"storagedrawers:diamond_storage_upgrade",
+	"storagedrawers:min_redstone_upgrade",
+	"storagedrawers:emerald_storage_upgrade",
+	"storagedrawers:max_redstone_upgrade",
+	"storagedrawers:one_stack_upgrade",
+	"storagedrawers:illumination_upgrade",
+	"storagedrawers:void_upgrade",
+	"storagedrawers:fill_level_upgrade",
+	"storagedrawers:creative_storage_upgrade",
+	"storagedrawers:upgrade_template",
+	"storagedrawers:quantify_key",
+	"storagedrawers:shroud_key",
+	"storagedrawers:keyring",
+	"storagedrawers:oak_full_drawers_2",
+	"storagedrawers:oak_full_drawers_4",
+	"storagedrawers:oak_half_drawers_1",
+	"storagedrawers:oak_half_drawers_2",
+	"storagedrawers:birch_full_drawers_1",
+	"storagedrawers:oak_half_drawers_4",
+	"storagedrawers:birch_full_drawers_2",
+	"storagedrawers:spruce_full_drawers_1",
+	"storagedrawers:birch_full_drawers_4",
+	"storagedrawers:spruce_full_drawers_2",
+	"storagedrawers:birch_half_drawers_1",
+	"storagedrawers:spruce_full_drawers_4",
+	"storagedrawers:birch_half_drawers_2",
+	"storagedrawers:spruce_half_drawers_1",
+	"storagedrawers:birch_half_drawers_4",
+	"storagedrawers:spruce_half_drawers_2",
+	"storagedrawers:jungle_full_drawers_1",
+	"storagedrawers:spruce_half_drawers_4",
+	"storagedrawers:jungle_full_drawers_2",
+	"storagedrawers:jungle_full_drawers_4",
+	"storagedrawers:acacia_half_drawers_2",
+	"storagedrawers:jungle_half_drawers_1",
+	"storagedrawers:acacia_half_drawers_4",
+	"storagedrawers:jungle_half_drawers_2",
+	"storagedrawers:dark_oak_full_drawers_1",
+	"storagedrawers:jungle_half_drawers_4",
+	"storagedrawers:dark_oak_full_drawers_2",
+	"storagedrawers:acacia_full_drawers_1",
+	"storagedrawers:dark_oak_full_drawers_4",
+	"storagedrawers:acacia_full_drawers_2",
+	"storagedrawers:dark_oak_half_drawers_1",
+	"storagedrawers:acacia_full_drawers_4",
+	"storagedrawers:dark_oak_half_drawers_2",
+	"storagedrawers:acacia_half_drawers_1",
+	"storagedrawers:dark_oak_half_drawers_4",
+	"storagedrawers:mangrove_full_drawers_1",
+	"storagedrawers:crimson_full_drawers_4",
+	"storagedrawers:mangrove_full_drawers_2",
+	"storagedrawers:crimson_half_drawers_1",
+	"storagedrawers:mangrove_full_drawers_4",
+	"storagedrawers:crimson_half_drawers_2",
+	"storagedrawers:mangrove_half_drawers_1",
+	"storagedrawers:crimson_half_drawers_4",
+	"storagedrawers:mangrove_half_drawers_2",
+	"storagedrawers:warped_full_drawers_1",
+	"storagedrawers:mangrove_half_drawers_4",
+	"storagedrawers:warped_full_drawers_2",
+	"storagedrawers:crimson_full_drawers_1",
+	"storagedrawers:warped_full_drawers_4",
+	"storagedrawers:crimson_full_drawers_2",
+	"storagedrawers:warped_half_drawers_1",
+	"storagedrawers:warped_half_drawers_2",
+	"storagedrawers:warped_half_drawers_4",
+	"storagedrawers:compacting_drawers_3",
+	"storagedrawers:oak_trim",
+	"storagedrawers:spruce_trim",
+	"storagedrawers:birch_trim",
+	"storagedrawers:jungle_trim",
+	"storagedrawers:acacia_trim",
+	"storagedrawers:dark_oak_trim",
+	"storagedrawers:mangrove_trim",
+	"storagedrawers:crimson_trim",
+	"storagedrawers:warped_trim",
+	"storagedrawers:controller_slave",
+	"storagedrawers:keybutton_drawer",
+	"storagedrawers:keybutton_quantify",
+	"storagedrawers:keybutton_concealment",
+	"modestmining:plank",
+	"modestmining:coal_chunk",
+	"modestmining:charcoal_chunk",
+	"modestmining:copper_nugget",
+	"modestmining:diamond_shard",
+	"modestmining:prismarite_ingot",
+	"modestmining:prismarite_nugget",
+	"modestmining:copper_screw",
+	"modestmining:pearl",
+	"modestmining:flesh",
+	"modestmining:amethyst",
+	"modestmining:copper_dust",
+	"modestmining:gold_dust",
+	"modestmining:iron_dust",
+	"modestmining:debris_dust",
+	"modestmining:clam_spawn_egg",
+	"modestmining:brush",
+	"modestmining:chisel",
+	"modestmining:prismarite_sword",
+	"modestmining:prismarite_axe",
+	"modestmining:prismarite_shovel",
+	"modestmining:prismarite_pickaxe",
+	"modestmining:prismarite_hoe",
+	"modestmining:prismarite_helmet",
+	"modestmining:prismarite_chestplate",
+	"modestmining:prismarite_leggings",
+	"modestmining:prismarite_boots",
+	"modestmining:wooden_hammer",
+	"modestmining:stone_hammer",
+	"modestmining:iron_hammer",
+	"modestmining:golden_hammer",
+	"modestmining:diamond_hammer",
+	"modestmining:netherite_hammer",
+	"modestmining:prismarite_hammer",
+	"modestmining:wooden_glaive",
+	"modestmining:stone_glaive",
+	"modestmining:golden_glaive",
+	"modestmining:iron_glaive",
+	"modestmining:diamond_glaive",
+	"modestmining:netherite_glaive",
+	"modestmining:prismarite_glaive",
+	"modestmining:wooden_katana",
+	"modestmining:stone_katana",
+	"modestmining:golden_katana",
+	"modestmining:iron_katana",
+	"modestmining:diamond_katana",
+	"modestmining:netherite_katana",
+	"modestmining:prismarite_katana",
+	"modestmining:wooden_mace",
+	"modestmining:stone_mace",
+	"modestmining:golden_mace",
+	"modestmining:iron_mace",
+	"modestmining:diamond_mace",
+	"modestmining:netherite_mace",
+	"modestmining:prismarite_mace",
+	"modestmining:prismarite_block",
+	"modestmining:cement",
+	"modestmining:cement_powder",
+	"modestmining:compact_amethyst_block",
+	"modestmining:diamond_shard_block",
+	"modestmining:suspicious_dirt",
+	"modestmining:suspicious_sand",
+	"modestmining:suspicious_gravel",
+	"modestmining:suspicious_stone",
+	"modestmining:shell",
+	"modestmining:oak_tiles",
+	"modestmining:oak_tile_slab",
+	"modestmining:oak_tile_stairs",
+	"modestmining:oak_tile_wall",
+	"modestmining:spruce_tiles",
+	"modestmining:spruce_tile_slab",
+	"modestmining:spruce_tile_stairs",
+	"modestmining:spruce_tile_wall",
+	"modestmining:birch_tiles",
+	"modestmining:birch_tile_slab",
+	"modestmining:birch_tile_stairs",
+	"modestmining:birch_tile_wall",
+	"modestmining:jungle_tiles",
+	"modestmining:jungle_tile_slab",
+	"modestmining:jungle_tile_stairs",
+	"modestmining:jungle_tile_wall",
+	"modestmining:acacia_tiles",
+	"modestmining:acacia_tile_slab",
+	"modestmining:acacia_tile_stairs",
+	"modestmining:acacia_tile_wall",
+	"modestmining:dark_oak_tiles",
+	"modestmining:dark_oak_tile_slab",
+	"modestmining:dark_oak_tile_stairs",
+	"modestmining:dark_oak_tile_wall",
+	"modestmining:warped_tiles",
+	"modestmining:warped_tile_slab",
+	"modestmining:warped_tile_stairs",
+	"modestmining:warped_tile_wall",
+	"modestmining:crimson_tiles",
+	"modestmining:crimson_tile_slab",
+	"modestmining:crimson_tile_stairs",
+	"modestmining:crimson_tile_wall",
+	"modestmining:mangrove_tiles",
+	"modestmining:mangrove_tile_slab",
+	"modestmining:mangrove_tile_stairs",
+	"modestmining:mangrove_tile_wall",
+	"modestmining:carved_oak_planks",
+	"modestmining:oak_carved_plank_slab",
+	"modestmining:oak_carved_plank_stairs",
+	"modestmining:oak_carved_plank_wall",
+	"modestmining:carved_spruce_planks",
+	"modestmining:spruce_carved_plank_slab",
+	"modestmining:spruce_carved_plank_stairs",
+	"modestmining:spruce_carved_plank_wall",
+	"modestmining:carved_birch_planks",
+	"modestmining:birch_carved_plank_slab",
+	"modestmining:birch_carved_plank_stairs",
+	"modestmining:birch_carved_plank_wall",
+	"modestmining:carved_jungle_planks",
+	"modestmining:jungle_carved_plank_slab",
+	"modestmining:jungle_carved_plank_stairs",
+	"modestmining:jungle_carved_plank_wall",
+	"modestmining:carved_acacia_planks",
+	"modestmining:acacia_carved_plank_slab",
+	"modestmining:acacia_carved_plank_stairs",
+	"modestmining:acacia_carved_plank_wall",
+	"modestmining:carved_dark_oak_planks",
+	"modestmining:dark_oak_carved_plank_slab",
+	"modestmining:dark_oak_carved_plank_stairs",
+	"modestmining:dark_oak_carved_plank_wall",
+	"modestmining:carved_warped_planks",
+	"modestmining:warped_carved_plank_slab",
+	"modestmining:warped_carved_plank_stairs",
+	"modestmining:warped_carved_plank_wall",
+	"modestmining:carved_crimson_planks",
+	"modestmining:crimson_carved_plank_slab",
+	"modestmining:crimson_carved_plank_stairs",
+	"modestmining:crimson_carved_plank_wall",
+	"modestmining:carved_mangrove_planks",
+	"modestmining:mangrove_carved_plank_slab",
+	"modestmining:mangrove_carved_plank_stairs",
+	"modestmining:mangrove_carved_plank_wall",
+	"modestmining:chiseled_oak_planks",
+	"modestmining:chiseled_spruce_planks",
+	"modestmining:chiseled_birch_planks",
+	"modestmining:chiseled_jungle_planks",
+	"modestmining:chiseled_acacia_planks",
+	"modestmining:chiseled_dark_oak_planks",
+	"modestmining:chiseled_warped_planks",
+	"modestmining:chiseled_crimson_planks",
+	"modestmining:chiseled_mangrove_planks",
+	"miningmaster:gem_forge",
+	"minecraft:smoker",
+	"nethersdelight:nether_brick_smoker",
+	"minecraft:blast_furnace",
+	"nethersdelight:blackstone_blast_furnace",
+	"clayworks:kiln",
+	"storagedrawers:drawer_key",
+	"quark:encased_pipe",
+	"upgrade_aquatic:blue_pickerelweed",
+	"upgrade_aquatic:blue_pickerelweed_block",
+	"upgrade_aquatic:boiled_blue_pickerelweed_block",
+	"upgrade_aquatic:boiled_blue_pickerelweed",
+	"abnormals_delight:pickerelweed_juice",
+	"create:builders_tea"
+	], Text.translate("rf.tooltip.unobtainable"))
   
-  tooltip.add(['minecraft:enchanting_table'], "§dLegacy Item")
-  tooltip.add(['quark:backpack'], "§dLegacy Item")
-  
-  tooltip.add(['kubejs:smithing_template_1'], "§7Swift Sneak")
-  tooltip.add(['kubejs:smithing_template_1'], "§7Phalanx")
-  tooltip.add(['kubejs:smithing_template_2'], "§7Knockback")
-  tooltip.add(['kubejs:smithing_template_2'], "§7Bulwark")
-  tooltip.add(['kubejs:smithing_template_3'], "§7Respiration")
-  tooltip.add(['kubejs:smithing_template_3'], "§7Depth Strider")
-  tooltip.add(['kubejs:smithing_template_4'], "§7Frost Walker")
-  tooltip.add(['kubejs:smithing_template_4'], "§7Frost Aspect")
-  tooltip.add(['kubejs:smithing_template_5'], "§7Smite")
-  tooltip.add(['kubejs:smithing_template_6'], "§7Bane of Arthropods")
-  tooltip.add(['kubejs:smithing_template_6'], "§7Spread of Ailments")
-  tooltip.add(['kubejs:smithing_template_7'], "§7Quick Draw")
-  tooltip.add(['kubejs:smithing_template_7'], "§7Swiftstrike")
-  tooltip.add(['kubejs:smithing_template_8'], "§7Angler's Bounty")
-  tooltip.add(['kubejs:smithing_template_9'], "§7Impaling")
-  tooltip.add(['kubejs:smithing_template_9'], "§7Trueshot")
-  tooltip.add(['kubejs:smithing_template_9'], "§7Backstabbing")
-  tooltip.add(['kubejs:smithing_template_10'], "§7Riptide")
-  tooltip.add(['kubejs:smithing_template_10'], "§7Sweeping Edge")
-  tooltip.add(['kubejs:smithing_template_10'], "§7Power Swipe")
-  tooltip.add(['kubejs:smithing_template_11'], "§7Channeling")
-  tooltip.add(['kubejs:smithing_template_12'], "§7Stasis")
-  tooltip.add(['kubejs:smithing_template_12'], "§7Displacement")
-  tooltip.add(['kubejs:smithing_template_12'], "§7Exodisruption")
-  tooltip.add(['kubejs:smithing_template_13'], "§7Capacity")
-  tooltip.add(['kubejs:smithing_template_14'], "§7Cavalier")
-  tooltip.add(['kubejs:smithing_template_15'], "§7Leech")
-  tooltip.add(['kubejs:smithing_template_15'], "§7Vengeance")
-  tooltip.add(['kubejs:smithing_template_16'], "§7Launch")
-  tooltip.add(['kubejs:smithing_template_17'], "§7Lure")
-  tooltip.add(['kubejs:smithing_template_17'], "§7Reeling")
-  tooltip.add(['kubejs:smithing_template_18'], "§7Vitality")
-  tooltip.add(['kubejs:smithing_template_19'], "§7Shockwave")
-  tooltip.add(['kubejs:smithing_template_20'], "§7Marking")
-  tooltip.add(['kubejs:smithing_template_21'], "§7Multi-Leap")
-  tooltip.add(['kubejs:smithing_template_22'], "§7Reach")
-  tooltip.add(['kubejs:smithing_template_23'], "§7Soul Speed")
-  tooltip.add(['kubejs:smithing_template_23'], "§7Homing")
-  tooltip.add(['kubejs:smithing_template_24'], "§7Volley")
-  tooltip.add(['kubejs:smithing_template_24'], "§7Guard Break")
-  
-  tooltip.add(['kubejs:cat_food'], "§7When fed to a trusting")
-  tooltip.add(['kubejs:cat_food'], "§7Ocelot or a tamed Cat:")
-  tooltip.add(['kubejs:cat_food'], " §9Speed (5:00)")
-  tooltip.add(['kubejs:cat_food'], " §9Regeneration (5:00)")
-  tooltip.add(['kubejs:cat_food'], " §9Resistance (5:00)")
-  tooltip.add(['kubejs:cat_food'], " §9Turns Ocelot into tamed Cat")
-  
-  tooltip.addAdvanced('lucky:raspberry_lucky_block', (item, advanced, text) => {
-	text.remove(1)
+// snowball
+  tooltip.addAdvanced('minecraft:snowball', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.projectile_effect").gray()])
+      text.add(2, [Text.translate("rf.tooltip.projectile_effect_snowball").red()])
   })
   
-  tooltip.addAdvanced('brewinandchewin:saccharine_rum', (item, advanced, text) => {
-	text.remove(2)
-	text.remove(2)
+// ashball
+  tooltip.addAdvanced('raspberry:ashball', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.projectile_effect").gray()])
+      text.add(2, [Text.translate("rf.tooltip.projectile_effect_ashball").red()])
   })
   
-  tooltip.addAdvanced('respiteful:mocha_coffee', (item, advanced, text) => {
-	text.remove(5)
+// tipped arrow
+  tooltip.addAdvanced('minecraft:tipped_arrow', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.projectile_effect").gray()])
   })
+  
+// cat food
+  tooltip.addAdvanced('kubejs:cat_food', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.cat_food_1").gray()])
+      text.add(2, [Text.translate("rf.tooltip.cat_food_2").gray()])
+      text.add(3, [Text.translate("rf.tooltip.cat_food_3").blue()])
+      text.add(4, [Text.translate("rf.tooltip.cat_food_4").blue()])
+      text.add(5, [Text.translate("rf.tooltip.cat_food_5").blue()])
+      text.add(6, [Text.translate("rf.tooltip.cat_food_6").blue()])
+  })
+  
+// hot cream cone
+  tooltip.addAdvanced('mynethersdelight:hot_cream_cone', (item, advanced, text) => {
+    text.add(1, [Text.translate("rf.tooltip.hot_cream_cone_1").blue()])
+    text.add(2, [Text.translate("rf.tooltip.hot_cream_cone_2").blue()])
+    text.add(3, [Text.translate("rf.tooltip.hot_cream_cone_3").gray()])
+    text.add(4, [Text.translate("rf.tooltip.hot_cream_cone_4").blue()])
+    text.add(5, [Text.translate("rf.tooltip.hot_cream_cone_5").gray()])
+    text.add(6, [Text.translate("rf.tooltip.hot_cream_cone_6").blue()])
+  })
+  
+// dim tears
+  tooltip.addAdvanced('spelunkery:portal_fluid_bottle', (item, advanced, text) => {
+    text.add(1, [Text.translate("rf.tooltip.portal_fluid_bottle_1").gray()])
+    text.add(2, [Text.translate("rf.tooltip.portal_fluid_bottle_2").blue()])
+    text.add(3, [Text.translate("rf.tooltip.portal_fluid_bottle_3").gray()])
+    text.add(4, [Text.translate("rf.tooltip.portal_fluid_bottle_4").gray()])
+    text.add(5, [Text.translate("rf.tooltip.portal_fluid_bottle_5").blue()])
+  })
+  
+// soulstice sake
+  tooltip.addAdvanced('kubejs:soulstice_sake', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.soulstice_sake_1").red()])
+      text.add(2, [Text.translate("rf.tooltip.soulstice_sake_2").blue()])
+      text.add(3, [Text.translate("rf.tooltip.soulstice_sake_3").blue()])
+  })
+  
+// buzzing bourbon
+  tooltip.addAdvanced('kubejs:buzzing_bourbon', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.buzzing_bourbon_1").red()])
+      text.add(2, [Text.translate("rf.tooltip.buzzing_bourbon_2").blue()])
+      text.add(3, [Text.translate("rf.tooltip.buzzing_bourbon_3").blue()])
+  })
+  
+// prickly gin
+  tooltip.addAdvanced('kubejs:prickly_gin', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.prickly_gin_1").red()])
+      text.add(2, [Text.translate("rf.tooltip.prickly_gin_2").blue()])
+  })
+  
+// foul fernet
+  tooltip.addAdvanced('kubejs:foul_fernet', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.foul_fernet_1").red()])
+      text.add(2, [Text.translate("rf.tooltip.foul_fernet_2").blue()])
+      text.add(3, [Text.translate("rf.tooltip.foul_fernet_3").blue()])
+      text.add(4, [Text.translate("rf.tooltip.extinguishes_fire").blue()])
+  })
+  
+// misc
+  tooltip.addAdvanced([
+  '#raspberry_flavoured:work_in_progress'
+  ], (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.work_in_progress").lightPurple().bold()])
+  })
+  tooltip.addAdvanced([
+  '#raspberry:disabled'
+  ], (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.deprecated_1").lightPurple().bold()])
+      text.add(2, [Text.translate("rf.tooltip.deprecated_2").lightPurple()])
+      text.add(3, [Text.translate("rf.tooltip.deprecated_3").lightPurple()])
+      text.add(4, [Text.translate("rf.tooltip.deprecated_4").lightPurple()])
+  })
+  tooltip.add(['kubejs:yoyleberry'], Text.translate("rf.tooltip.yoyleberry"))
+  tooltip.add(['minecraft:enchanting_table'], Text.translate("rf.tooltip.legacy_item"))
   
   // remove 1 line
   tooltip.addAdvanced([
   'minecraft:disc_fragment_5',
-  'sob:propelpearl_caviar',
-  'sob:cinder_bread',
-  'sob:mulberry_smoothie',
-  'sob:sweet_berry_smoothie',
-  'sob:cherry_smoothie',
-  'sob:glow_berry_smoothie',
-  'sob:carrot_smoothie',
-  'abnormals_delight:cherry_cream_soda',
   'abnormals_delight:passion_aloe_nectar',
-  'abnormals_delight:pickerelweed_juice',
   'etched:boombox',
   'oreganized:silver_mirror',
-  'clash:swept_axe',
   'kubejs:rose_gold_rapier',
-  'mace_backport:mace',
-  'minecraft:trident',
   'minecraft:golden_sword',
   'minecraft:golden_pickaxe',
   'minecraft:golden_hoe',
@@ -2089,20 +2903,10 @@ ItemEvents.tooltip(tooltip => {
   'minecraft:chainmail_chestplate', 
   'minecraft:chainmail_leggings', 
   'minecraft:chainmail_boots', 
-  'alloyed:steel_helmet', 
-  'alloyed:steel_chestplate', 
-  'alloyed:steel_leggings', 
-  'alloyed:steel_boots', 
-  'alloyed:steel_sword', 
-  'alloyed:steel_axe', 
-  'alloyed:steel_pickaxe', 
-  'alloyed:steel_hoe',
-  'alloyed:steel_shovel',  
-  'alloyed:steel_knife', 
-  'additionaladditions:rose_gold_helmet', 
-  'additionaladditions:rose_gold_chestplate', 
-  'additionaladditions:rose_gold_leggings', 
-  'additionaladditions:rose_gold_boots', 
+  'minecraft:diamond_helmet', 
+  'minecraft:diamond_chestplate', 
+  'minecraft:diamond_leggings', 
+  'minecraft:diamond_boots', 
   'additionaladditions:rose_gold_sword', 
   'additionaladditions:rose_gold_shovel', 
   'additionaladditions:rose_gold_pickaxe', 
@@ -2112,32 +2916,34 @@ ItemEvents.tooltip(tooltip => {
   'minecraft:netherite_helmet', 
   'minecraft:netherite_chestplate', 
   'minecraft:netherite_leggings', 
-  'minecraft:netherite_boots', 
-  'oreganized:electrum_sword', 
-  'oreganized:electrum_axe', 
-  'oreganized:electrum_knife', 
-  'minecraft:netherite_sword', 
-  'minecraft:netherite_axe', 
-  'farmersdelight:netherite_knife', 
+  'minecraft:netherite_boots',
   'create:copper_diving_helmet',
-  'caverns_and_chasms:netherite_horse_armor',
-  'caverns_and_chasms:necromium_horse_armor',
-  'kubejs:electrum_horse_armor'
+  'kubejs:netherite_horse_armor',
+  'kubejs:necromium_horse_armor',
+  'kubejs:electrum_horse_armor',
+  'mynethersdelight:plate_of_striderloaf',
+  'mynethersdelight:magma_cake_slice',
+  'storagedrawers:oak_full_drawers_1'
   ], (item, advanced, text) => {
 	text.remove(1)
   })
   
   // remove 2 lines
   tooltip.addAdvanced([
-  'sob:caldera_roll',
-  'sob:aloe_tea',
-  'sob:nether_nectar',
-  'sob:exquisite_mushroom_soup',
-  'sob:saffron_tisane',
-  'clash:greatblade',
   'farmersdelight:golden_knife',
   'minecraft:golden_axe',
-  'farmersdelight:fruit_salad'
+  'minecraft:trident',
+  'farmersdelight:fruit_salad',
+  'mynethersdelight:plate_of_ghasta_with_cream',
+  'mynethersdelight:hot_wings_bucket',
+  'mynethersdelight:spicy_noodle_soup',
+  'minecraft:netherite_pickaxe',
+  'minecraft:netherite_shovel',
+  'minecraft:netherite_hoe',
+  'minecraft:netherite_axe',
+  'minecraft:netherite_sword',
+  'farmersdelight:netherite_knife',
+  'clash:swept_axe'
   ], (item, advanced, text) => {
 	text.remove(1)
 	text.remove(1)
@@ -2145,45 +2951,180 @@ ItemEvents.tooltip(tooltip => {
   
   // remove 3 lines
   tooltip.addAdvanced([
-  'sob:exotic_fruit_salad',
-  'sob:lava_top_cocktail'
+  'clash:greatblade',
+  'clash:spear',
+  'mynethersdelight:plate_of_cold_striderloaf'
   ], (item, advanced, text) => {
 	text.remove(1)
 	text.remove(1)
 	text.remove(1)
   })
   
-  // remove 4 lines
+  // remove 5 lines
   tooltip.addAdvanced([
-  'clash:spear'
+  'mynethersdelight:ghast_salad'
   ], (item, advanced, text) => {
+	text.remove(1)
 	text.remove(1)
 	text.remove(1)
 	text.remove(1)
 	text.remove(1)
   })
   
-  // create interactive compat
-  tooltip.addAdvanced('create_interactive:buffer_stop', (item, advanced, text) => {
+  // misc remove
+  tooltip.addAdvanced('lucky:raspberry_lucky_block', (item, advanced, text) => {
+	text.remove(1)
+  })
+  
+  tooltip.addAdvanced([
+  'brewinandchewin:beer',
+  'brewinandchewin:vodka'
+  ], (item, advanced, text) => {
+	text.remove(3)
+	text.remove(3)
+	text.remove(3)
+  })
+  
+  tooltip.addAdvanced([
+  'farmersrespite:tea_curry'
+  ], (item, advanced, text) => {
+	text.remove(3)
+	text.remove(3)
+	text.remove(3)
+	text.remove(3)
+  })
+  
+  tooltip.addAdvanced([
+  'brewinandchewin:mead',
+  'brewinandchewin:strongroot_ale',
+  'brewinandchewin:salty_folly',
+  'brewinandchewin:bloody_mary',
+  'brewinandchewin:red_rum'
+  ], (item, advanced, text) => {
+	text.remove(4)
+	text.remove(4)
+	text.remove(4)
+  })
+  
+  tooltip.addAdvanced([
+  'brewinandchewin:steel_toe_stout'
+  ], (item, advanced, text) => {
+	text.remove(5)
+	text.remove(5)
+	text.remove(5)
+	text.remove(5)
+  })
+  
+  tooltip.addAdvanced('brewinandchewin:saccharine_rum', (item, advanced, text) => {
+	text.remove(2)
+	text.remove(2)
+	text.remove(2)
+	text.remove(2)
+	text.remove(2)
+	text.remove(2)
+  })
+  
+  tooltip.addAdvanced('brewinandchewin:withering_dross', (item, advanced, text) => {
+	text.remove(6)
+	text.remove(6)
+	text.remove(6)
+	text.remove(6)
+  })
+  
+  tooltip.addAdvanced('brewinandchewin:pale_jane', (item, advanced, text) => {
+	text.remove(3)
+  })
+  
+  tooltip.addAdvanced('respiteful:mocha_coffee', (item, advanced, text) => {
+	text.remove(5)
+  })
+  
+  tooltip.addAdvanced('mynethersdelight:hot_cream_cone', (item, advanced, text) => {
+	text.remove(7)
+	text.remove(7)
+  })
+  
+// toms simple storage
+  tooltip.addAdvanced('toms_storage:ts.inventory_connector', (item, advanced, text) => {
     if (!tooltip.shift) {
-      text.add(1, [Text.of('Hold [').darkGray(), Text.of('Shift').gray(), Text.of('] for Summary').darkGray()])
+	  text.remove(1)
+      text.add(1, [Text.translate("rf.tooltip.hold_1").darkGray(), Text.translate("rf.tooltip.shift").gray(), Text.translate("rf.tooltip.hold_2").darkGray()])
     } else {
-      text.add(1, [Text.of('Hold [').darkGray(), Text.of('Shift').white(), Text.of('] for Summary').darkGray()])
-      text.add(2, [Text.of('')])
-      text.add(3, [Text.of('Prevents ').color('#C7954B'), Text.of('Trains').color('#EEDA78'), Text.of(' from').color('#C7954B')])
-      text.add(4, [Text.of('rolling off of ').color('#C7954B'), Text.of('Train Tracks').color('#EEDA78')])
-      text.add(5, [Text.of('when they reach the end of the line.').color('#C7954B')])
+	  text.remove(1)
+      text.add(1, [Text.translate("rf.tooltip.hold_1").darkGray(), Text.translate("rf.tooltip.shift").white(), Text.translate("rf.tooltip.hold_2").darkGray()])
+      text.add(2, [Text.of("")])
+      text.add(3, [Text.translate("rf.tooltip.inventory_connector_3_1").color("#C7954B").bold(), Text.translate("rf.tooltip.inventory_connector_3_2").color("#EEDA78").bold(), Text.of("!").color("#C7954B").bold()])
+      text.add(4, [Text.translate("rf.tooltip.inventory_connector_4_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_4_2").color("#EEDA78")])
+      text.add(5, [Text.translate("rf.tooltip.inventory_connector_5").color("#C7954B")])
+      text.add(6, [Text.of("")])
+      text.add(7, [Text.translate("rf.tooltip.inventory_connector_7_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_7_2").color("#EEDA78")])
+      text.add(8, [Text.translate("rf.tooltip.inventory_connector_8_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_8_2").color("#EEDA78"), Text.translate("rf.tooltip.inventory_connector_8_3").color("#C7954B")])
+      text.add(9, [Text.translate("rf.tooltip.inventory_connector_9_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_9_2").color("#EEDA78"), Text.of(".").color("#C7954B")])
+      text.add(10, [Text.of("")])
+      text.add(11, [Text.translate("rf.tooltip.inventory_connector_11").gray()])
+      text.add(12, [Text.translate("rf.tooltip.inventory_connector_12_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_12_2").color("#EEDA78")])
+      text.add(13, [Text.translate("rf.tooltip.inventory_connector_13_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_13_2").color("#EEDA78")])
+      text.add(14, [Text.translate("rf.tooltip.inventory_connector_14_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_14_2").color("#EEDA78"), Text.of(".").color("#C7954B")])
     }
   })
-  tooltip.addAdvanced('create_interactive:propagator_bearing', (item, advanced, text) => {
+  tooltip.addAdvanced('toms_storage:ts.storage_terminal', (item, advanced, text) => {
     if (!tooltip.shift) {
-      text.add(1, [Text.of('Hold [').darkGray(), Text.of('Shift').gray(), Text.of('] for Summary').darkGray()])
+	  text.remove(1)
+      text.add(1, [Text.translate('rf.tooltip.hold_1').darkGray(), Text.translate('rf.tooltip.shift').gray(), Text.translate('] for Summary').darkGray()])
     } else {
-      text.add(1, [Text.of('Hold [').darkGray(), Text.of('Shift').white(), Text.of('] for Summary').darkGray()])
+	  text.remove(1)
+      text.add(1, [Text.translate('rf.tooltip.hold_1').darkGray(), Text.translate('rf.tooltip.shift').white(), Text.translate('] for Summary').darkGray()])
       text.add(2, [Text.of('')])
-      text.add(3, [Text.of('A modified ').color('#C7954B'), Text.of('Mechanical Bearing').color('#EEDA78')])
-      text.add(4, [Text.of('that propagates ').color('#C7954B'), Text.of('rotation').color('#EEDA78')])
-      text.add(5, [Text.of('to its ').color('#C7954B'), Text.of('contraption').color('#EEDA78'), Text.of('.').color('#C7954B')])
+      text.add(3, [Text.translate('rf.tooltip.storage_terminal_3_1').color('#C7954B'), Text.translate('rf.tooltip.storage_terminal_3_2').color('#EEDA78'), Text.translate(' inside of a').color('#C7954B')])
+      text.add(4, [Text.translate('rf.tooltip.storage_terminal_4_1').color('#EEDA78'), Text.translate('rf.tooltip.storage_terminal_4_2').color('#C7954B')])
+      text.add(5, [Text.translate('rf.tooltip.storage_terminal_5_1').color('#C7954B'), Text.translate('rf.tooltip.storage_terminal_5_2').color('#EEDA78'), Text.of('.').color('#C7954B')])
+      text.add(6, [Text.of('')])
+      text.add(7, [Text.translate('rf.tooltip.storage_terminal_7').gray()])
+      text.add(8, [Text.translate('rf.tooltip.storage_terminal_8_1').color('#C7954B'), Text.translate('rf.tooltip.storage_terminal_8_2').color('#EEDA78'), Text.translate('rf.tooltip.storage_terminal_8_3').color('#C7954B')])
+      text.add(9, [Text.translate('rf.tooltip.storage_terminal_9_1').color('#EEDA78'), Text.translate('rf.tooltip.storage_terminal_9_2').color('#C7954B')])
+      text.add(10, [Text.translate('rf.tooltip.storage_terminal_10').color('#EEDA78'), Text.of('.').color('#C7954B')])
     }
   })
+})
+
+// durability tooltip for items that don't have it
+ItemEvents.tooltip(event => {
+    event.addAdvanced(['supplementaries:slingshot', 'supplementaries:wrench', 'supplementaries:flute', 'aquaculture:iron_fishing_rod'], (item, advanced, text) => {
+          const maxDurability = item.getMaxDamage();
+          const currentDurability = item.getMaxDamage() - item.getDamageValue();
+          const durabilityText = currentDurability === maxDurability 
+            ? `${maxDurability}` 
+            : `${currentDurability}/${maxDurability}`;
+		  let mediumDurability = (maxDurability / 2) 
+		  let lowDurability = (maxDurability / 5)
+            if (currentDurability == maxDurability) {
+                text.add(Text.gray(`Durability: ${maxDurability}`));
+			} else if (currentDurability < maxDurability && currentDurability > mediumDurability && !text.toString().includes("durability")) {
+                text.add(Text.gray(`Durability: §a${currentDurability} §7/ ${maxDurability}`));
+			} else if (currentDurability < maxDurability && currentDurability > lowDurability && !text.toString().includes("durability")) {
+                text.add(Text.gray(`Durability: §6${currentDurability} §7/ ${maxDurability}`));
+			} else if (currentDurability < maxDurability && currentDurability < lowDurability && !text.toString().includes("durability")) {
+                text.add(Text.gray(`Durability: §c${currentDurability} §7/ ${maxDurability}`));
+			}
+	})
+})
+
+// selective tooltip removal
+ItemEvents.tooltip(tooltip => {
+	function filter(textList,substring) {
+		textList.removeIf(comp => comp.toFlatList().stream().anyMatch(flatComp => flatComp.string.includes(substring)))
+	}
+    tooltip.addAdvanced(['minecraft:crossbow'], (item, advanced, text) => {
+		filter(text, "Power")
+    })
+    tooltip.addAdvanced('echochest:echo_chest', (item, advanced, text) => {
+		filter(text, "Collects")
+    })
+    tooltip.addAdvanced('vc_gliders:paraglider_wood', (item, advanced, text) => {
+		filter(text, "Installed")
+		filter(text, "Nether")
+    })
+    tooltip.addAdvanced('upgrade_aquatic:jellyfish_bucket', (item, advanced, text) => {
+		filter(text, "Yields")
+    })
 })

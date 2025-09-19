@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 4,
-  "ingredient": {
-    "tag": "minecraft:oak_logs"
-  },
-  "result": "another_furniture:oak_shelf"
-}

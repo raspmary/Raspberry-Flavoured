@@ -11,19 +11,18 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 12.0,
+                "min": 6.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:coal",
+          "name": "spelunkery:coal_lump",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_axe",
-          "weight": 2
+          "name": "minecraft:stone_axe"
         },
         {
           "type": "minecraft:item",
@@ -45,6 +44,43 @@
           ],
           "name": "minecraft:wheat",
           "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "kubejs:cloth_scrap",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ink_sac",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_ink_sac",
+          "weight": 3
         }
       ],
       "rolls": {
@@ -56,9 +92,16 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
+		{
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "forge:chalks",
+          "weight": 4
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate"
+          "name": "minecraft:leather_chestplate",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -66,13 +109,8 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
           "name": "minecraft:fishing_rod",
-          "weight": 5
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -92,6 +130,59 @@
           ],
           "name": "minecraft:map",
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trickytrialspaintingsplusmusic:music_disc_relic"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "decoration": "red_x",
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:shipwreck",
+              "skip_existing_chunks": false,
+              "zoom": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.shipwreck"
+              }
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 2
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "betterdungeons:better_dungeons",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.dungeon"
+              }
+            }
+          ],
+          "name": "minecraft:map"
         }
       ],
       "rolls": 1.0

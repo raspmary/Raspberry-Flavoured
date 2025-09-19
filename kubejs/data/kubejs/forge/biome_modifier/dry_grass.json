@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:dry_grass_biomes",
+  "features": "kubejs:beachgrass",
+  "step": "vegetal_decoration"
+}

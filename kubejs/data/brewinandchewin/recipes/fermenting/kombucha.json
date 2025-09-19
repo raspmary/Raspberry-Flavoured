@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 3000,
+  "fermentingtime": 3600,
   "fluiditem": {
     "item": "farmersrespite:green_tea"
   },

@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "tag": "savage_and_ravage:beheaders"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "caverns_and_chasms:peeper"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.3,
+      "looting_multiplier": 0.1
+    }
+  ],
+  "item": "caverns_and_chasms:peeper_head"
+}

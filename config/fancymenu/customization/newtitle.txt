@@ -15,23 +15,17 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 104
+  x = 0
   action = movebutton
-  y = 0
+  y = 23
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 100
-  action = resizebutton
-  height = 20
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:6572feff-fa84-4e9f-bc99-11eb4bc752361726771062524] = importantmessage:false
+  action = vanilla_button_visibility_requirements
 }
 
 customization {
@@ -50,8 +44,8 @@ customization {
 customization {
   identifier = %id=628382%
   orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = -24
+  orientation_element = e72ff7e0-6b52-49ef-a5ac-8e6f9203fd3c1714670605984
+  x = 24
   action = movebutton
   y = 0
 }
@@ -62,30 +56,16 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 0
   action = movebutton
-  y = 23
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 85
-  action = resizebutton
-  height = 20
+  y = 57
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 91
+  x = 102
   action = movebutton
-  y = 23
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 85
-  action = resizebutton
-  height = 20
+  y = 57
 }
 
 customization {
@@ -93,7 +73,7 @@ customization {
   orientation = bottom-centered
   x = -99
   action = movebutton
-  y = -14
+  y = -15
 }
 
 customization {
@@ -112,22 +92,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -88
+  x = -100
   action = movebutton
-  y = 44
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 176
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = Play
+  y = -7
 }
 
 customization {
@@ -235,6 +202,44 @@ customization {
 }
 
 customization {
+  path = config/fancymenu/fancymenu_assets/boxbackground.png
+  orientation = element
+  orientation_element = e72ff7e0-6b52-49ef-a5ac-8e6f9203fd3c1714670605984
+  x = -4
+  width = 100
+  action = addtexture
+  actionid = 092ae522-ab01-400f-b608-a03e8814b7691726773716579
+  y = -2
+  height = 25
+}
+
+customization {
+  path = config/fancymenu/fancymenu_assets/raspberry_flavoured_newest_logo.png
+  orientation = mid-centered
+  x = -124
+  width = 249
+  action = addtexture
+  actionid = 30b81f89-2f5f-4fcf-aafd-2ab58457c3321726775457550
+  y = -106
+  height = 62
+}
+
+customization {
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:49b27935-3019-4253-84e5-c89431af4a851713554423538] = importantmessage:true
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;rfwarning%btnaction_splitter_fm%set_variable;importantmessage:false%btnaction_splitter_fm%
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = ad42939d-ae19-4080-a71b-3afa21bf2b151713554368206
+  y = 16
+  label = Read before you play!
+  height = 20
+}
+
+customization {
   orientation = element
   restartbackgroundanimations = true
   buttonaction = opengui;rfchangelog%btnaction_splitter_fm%
@@ -242,12 +247,12 @@ customization {
   description = Changelog
   label = 
   loopbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = -24
+  orientation_element = e72ff7e0-6b52-49ef-a5ac-8e6f9203fd3c1714670605984
+  x = 48
   width = 20
   action = addbutton
   actionid = 50af0d28-3c73-43ff-ada2-dad4847642541690110148460
-  y = 23
+  y = 0
   backgroundnormal = config/fancymenu/fancymenu_assets/changelogbutton.png
   height = 20
 }
@@ -261,25 +266,14 @@ customization {
   label = 
   loopbackgroundanimations = true
   hoverlabel = 
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 180
+  orientation_element = e72ff7e0-6b52-49ef-a5ac-8e6f9203fd3c1714670605984
+  x = 72
   width = 20
   action = addbutton
   actionid = 7f555a26-b6e9-482f-94fb-1b1144897b7d1690110148460
-  y = 23
+  y = 0
   backgroundnormal = config/fancymenu/fancymenu_assets/creditsbutton.png
   height = 20
-}
-
-customization {
-  path = config/fancymenu/fancymenu_assets/rflogonewest_outline.png
-  orientation = top-centered
-  x = -133
-  width = 266
-  action = addtexture
-  actionid = 4ba3eb78-463d-44c6-9ea8-705fbb8bfadd1703343636679
-  y = 19
-  height = 115
 }
 
 customization {
@@ -292,26 +286,11 @@ customization {
   refresh = true
   bouncing = true
   vanilla-like = false
-  orientation_element = 4ba3eb78-463d-44c6-9ea8-705fbb8bfadd1703343636679
-  x = 209
+  orientation_element = 30b81f89-2f5f-4fcf-aafd-2ab58457c3321726775457550
+  x = 201
   actionid = 86e8d141-020a-4f25-9811-f5ad155ca9881713129827940
   action = addsplash
-  y = 85
-}
-
-customization {
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:49b27935-3019-4253-84e5-c89431af4a851713554423538] = importantmessage:true
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = opencustomgui;rfwarning%btnaction_splitter_fm%set_variable;importantmessage:false%btnaction_splitter_fm%
-  x = -88
-  width = 176
-  action = addbutton
-  actionid = ad42939d-ae19-4080-a71b-3afa21bf2b151713554368206
-  y = 44
-  label = Read before you play!
-  height = 20
+  y = 46
 }
 
 customization {
@@ -323,11 +302,11 @@ customization {
   label = 
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 180
+  x = 54
   width = 20
   action = addbutton
   actionid = e72ff7e0-6b52-49ef-a5ac-8e6f9203fd3c1714670605984
-  y = 0
+  y = 82
   backgroundnormal = config/fancymenu/fancymenu_assets/lastworldbutton.png
   height = 20
 }

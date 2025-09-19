@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:mech_crafter",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:potato_cannon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#DBA213",
+      "text": "Obtain a potato cannon - fwoomp!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:potato_cannon"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Food Fight"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

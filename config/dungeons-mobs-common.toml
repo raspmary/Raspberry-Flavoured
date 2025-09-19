@@ -3,16 +3,16 @@
 [mob_configuration]
 	#Enable the default ability of Wraiths to summon Wraith Fire around the player as an attack. 
 	#If you prefer a less griefy attack using Soul Fireballs akin to the Blaze, disable this feature. [true / false]
-	enableWraithFireSummon = true
+	enableWraithFireSummon = false
 	#Enable the default ability of Icy Creeper Explosions to grief the environment. 
 	#If you prefer their explosions to not damage the environment, disable this feature. [true / false]
 	enablyIcyCreeperGriefing = false
 	#Enable mobs added/tweaked by Dungeons Mobs to drop their armor when killed. 
 	#If you prefer these mobs to not drop their armor, disable this feature. [true / false]
-	enableMobArmorDrops = true
+	enableMobArmorDrops = false
 	#Enable mobs added/tweaked by Dungeons Mobs mobs to drop their held items when killed. 
 	#If you prefer these mobs to not drop their held items, disable this feature. [true / false]
-	enableMobHeldItemDrops = true
+	enableMobHeldItemDrops = false
 	#Add mobs (preferably undead) that the Necromancer can summon. 
 	#To do so, enter the namespace ID of the mob, like "minecraft:zombie".
 	#If this list is empty, zombies will be summoned instead.
@@ -65,7 +65,7 @@
 	#Enables logic for allowing Dungeons Mobs to spawn in Bastions. Defaults to true [true / false]
 	enableBastionDungeonsMobs = true
 	#Enables logic for allowing Dungeons Mobs to spawn in Nether Fortresses. Defaults to true [true / false]
-	enableNetherFortressDungeonsMobs = false
+	enableNetherFortressDungeonsMobs = true
 	#Enables logic for allowing Dungeons Mobs to spawn in Desert Pyramids. Defaults to true [true / false]
 	enableDesertPyramidDungeonsMobs = true
 	#Enables logic for allowing Dungeons Mobs to spawn in Jungle Temples. Defaults to true [true / false]
@@ -106,7 +106,7 @@
 #Vanilla Mob Configuration
 [vanilla_mob_configuration]
 	#Enable the addition of additional attributes to Husks to make them as powerful as they are in Minecraft Dungeons. [true / false]
-	enableStrongerHusks = true
+	enableStrongerHusks = false
 	#Enables Spiders and Cave Spiders shooting webs as a ranged attack like they do in Minecraft Dungeons. [true / false]
-	enableRangedSpiders = true
+	enableRangedSpiders = false
 

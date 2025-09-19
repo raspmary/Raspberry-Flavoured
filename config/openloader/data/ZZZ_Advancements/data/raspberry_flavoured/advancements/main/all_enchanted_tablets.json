@@ -1,0 +1,267 @@
+{
+  "parent": "raspberry_flavoured:main/everlasting_tablet",
+  "criteria": {
+    "Obtain Aquatic Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:aquatic_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Beastly Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:beastly_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Cyclic Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:cyclic_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Enduring Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:enduring_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Everlasting Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:everlasting_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Flinging Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:flinging_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Glacial Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:glacial_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Hallowed Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:hallowed_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Haunted Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:haunted_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Heavy Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:heavy_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Infested Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:infested_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Otherworldly Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:otherworldly_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Piercing Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:piercing_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Pulling Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:pulling_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Silent Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silent_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Swift Tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:swift_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.all_enchanted_tablets.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.all_enchanted_tablets.description"
+    },
+    "icon": {
+      "item": "kubejs:enduring_tablet",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Aquatic Tablet"
+    ],
+    [
+      "Obtain Beastly Tablet"
+    ],
+    [
+      "Obtain Cyclic Tablet"
+    ],
+    [
+      "Obtain Enduring Tablet"
+    ],
+    [
+      "Obtain Everlasting Tablet"
+    ],
+    [
+      "Obtain Flinging Tablet"
+    ],
+    [
+      "Obtain Glacial Tablet"
+    ],
+    [
+      "Obtain Hallowed Tablet"
+    ],
+    [
+      "Obtain Haunted Tablet"
+    ],
+    [
+      "Obtain Heavy Tablet"
+    ],
+    [
+      "Obtain Infested Tablet"
+    ],
+    [
+      "Obtain Otherworldly Tablet"
+    ],
+    [
+      "Obtain Piercing Tablet"
+    ],
+    [
+      "Obtain Pulling Tablet"
+    ],
+    [
+      "Obtain Silent Tablet"
+    ],
+    [
+      "Obtain Swift Tablet"
+    ]
+  ]
+}

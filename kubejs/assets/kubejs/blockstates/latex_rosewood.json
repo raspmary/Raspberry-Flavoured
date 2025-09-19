@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kubejs:block/latex_rosewood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kubejs:block/latex_rosewood"
+    },
+    "axis=z": {
+      "model": "kubejs:block/latex_rosewood",
+      "x": 90
+    }
+  }
+}

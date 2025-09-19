@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:dungeon",
+  "parent": "raspberryflavoured:jukebox",
   "criteria": {
     "0": {
       "conditions": {
@@ -20,8 +20,8 @@
       "color": "#CE3131",
       "text": "Repair \"11\", the shattered music disc"
     },
-    "frame": "challenge",
-    "hidden": true,
+    "frame": "goal",
+    "hidden": false,
     "icon": {
       "item": "kubejs:music_disc_eleven"
     },

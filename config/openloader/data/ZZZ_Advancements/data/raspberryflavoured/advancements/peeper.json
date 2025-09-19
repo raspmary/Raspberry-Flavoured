@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:exopearls",
+  "criteria": {
+    "0": {
+      "trigger": "caverns_and_chasms:spotted_by_peeper"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Get spotted by a Peeper - only look away when you have to!"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "caverns_and_chasms:peeper_head"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Staring Contest"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_eerie"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

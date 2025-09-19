@@ -1,0 +1,12 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:cracked_stone_bricks",
+  "replaces_with": "quark:red_sandstone_bricks",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_red_desert"
+    ]
+  }
+}

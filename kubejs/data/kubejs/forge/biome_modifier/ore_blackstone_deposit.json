@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "kubejs:ore_blackstone_deposit",
+  "step": "underground_decoration"
+}

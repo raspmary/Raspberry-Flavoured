@@ -1,13 +1,13 @@
 {
   "parent": "raspberryflavoured:andesite_alloy",
   "criteria": {
-    "0": {
+    "Place down Water Wheel": {
       "conditions": {
         "block": "create:water_wheel"
       },
       "trigger": "minecraft:placed_block"
     },
-	"1": {
+	"Place down Large Water Wheel": {
       "conditions": {
         "block": "create:large_water_wheel"
       },
@@ -35,7 +35,7 @@
     },
   "requirements": [
     [
-      "0", "1"
+      "Place down Water Wheel", "Place down Large Water Wheel"
     ]
   ]
 }

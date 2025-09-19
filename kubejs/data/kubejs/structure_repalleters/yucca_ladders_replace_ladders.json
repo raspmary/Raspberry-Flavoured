@@ -1,0 +1,14 @@
+{
+  "type": "blueprint:simple",
+  "priority": "normal",
+  "replaces_block": "minecraft:ladder",
+  "replaces_with": "atmospheric:yucca_ladder",
+  "selector": {
+    "type": "names",
+    "config": [
+      "bettermineshafts:mineshaft_desert",
+      "bettermineshafts:mineshaft_red_desert",
+      "explorify:desert_shrine"
+    ]
+  }
+}

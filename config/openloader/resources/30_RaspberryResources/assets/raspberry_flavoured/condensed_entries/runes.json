@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "brewing": {
+    "raspberry_flavoured:runes": {
+      "base_item": "quark:rainbow_rune",
+      "item_tag": "quark:runes"
+    }
+  }
+}

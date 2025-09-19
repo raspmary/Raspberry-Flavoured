@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#minecraft:is_jungle",
+  "spawners": {
+    "type": "dungeons_mobs:leapleaf",
+    "weight": 0,
+    "minCount": 0,
+    "maxCount": 0
+  }
+}

@@ -1,0 +1,21 @@
+
+[config]
+	#Do onions have block or entity reactions when cut
+	"Onion fun" = true
+	#Do Big Onion blocks from Overweight Farming trigger the effects of cutting onions when peeled
+	"Big onion reactions" = true
+	#The range in which blocks and entities are affected by cutting onions. Capped at 16
+	"Onion chop radius" = 2
+
+	[config.entity_changes]
+		#Do entities take damage from cutting onions nearby
+		"Onion damage" = true
+		#Chance that ghasts drop a tear when cutting onions nearby
+		"Ghasts cry" = 0.5
+
+	[config.block_changes]
+		#Chance that obsidian converts into crying obsidian
+		"Crying obby" = 0.0
+		#Chance that weeping vines grow
+		"Vines weep" = 0.25
+

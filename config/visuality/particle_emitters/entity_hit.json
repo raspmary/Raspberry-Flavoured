@@ -1,13 +1,15 @@
 {
   "enabled": true,
-  "min_amount": 1,
-  "max_amount": 20,
+  "min_amount": 4,
+  "max_amount": 10,
   "entries": [
     {
       "entity": [
         "minecraft:skeleton",
         "minecraft:skeleton_horse",
-        "minecraft:stray"
+        "minecraft:stray",
+		"dungeons_mobs:mossy_skeleton",
+		"dungeons_mobs:sunken_skeleton"
       ],
       "particle": {
         "type": "visuality:bone"
@@ -21,6 +23,7 @@
     },
     {
       "entity": [
+        "minecraft:parrot",
         "minecraft:chicken",
         "environmental:duck",
         "autumnity:turkey",
@@ -31,6 +34,76 @@
       ],
       "particle": {
         "type": "visuality:feather"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:magma_cube",
+        "minecraft:blaze",
+        "dungeons_mobs:wildfire"
+      ],
+      "particle": {
+        "type": "minecraft:lava"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:bee",
+        "buzzier_bees:moobloom"
+      ],
+      "particle": {
+        "type": "buzzier_bees:buttercup_bloom"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:polar_bear",
+        "dungeons_mobs:frozen_zombie",
+        "dungeons_mobs:icy_creeper"
+      ],
+      "particle": {
+        "type": "savage_and_ravage:snowflake"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:witch"
+      ],
+      "particle": {
+        "type": "minecraft:witch"
+      }
+    },
+    {
+      "entity": [
+        "caverns_and_chasms:mime"
+      ],
+      "particle": {
+        "type": "caverns_and_chasms:mime_spark"
+      }
+    },
+    {
+      "entity": [
+        "caverns_and_chasms:deeper"
+      ],
+      "particle": {
+        "type": "caverns_and_chasms:stone_chip"
+      }
+    },
+    {
+      "entity": [
+        "caverns_and_chasms:peeper"
+      ],
+      "particle": {
+        "type": "caverns_and_chasms:deepslate_chip"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:creeper",
+        "savage_and_ravage:creepie"
+      ],
+      "particle": {
+        "type": "savage_and_ravage:creeper_spores"
       }
     }
   ]

@@ -1,6 +1,0 @@
-{
-  "parent": "farmersdelight:item/mug",
-    "textures": {
-        "layer0": "kubejs:item/draconic_whisky"
-    }
-}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:pink_petals_biomes",
+  "features": "kubejs:pink_petals",
+  "step": "vegetal_decoration"
+}

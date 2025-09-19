@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "minecraft:random_chance",
-      "chance": 0.3
+      "chance": 0.05
     },
     {
       "condition": "minecraft:match_tool",
@@ -16,5 +16,5 @@
       "block": "farmersdelight:sandy_shrub"
     }
   ],
-  "item": "minecraft:beetroot_seeds"
+  "item": "minecraft:wheat_seeds"
 }

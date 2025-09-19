@@ -1,0 +1,532 @@
+{
+  "added": [
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:water\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:awkward\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:night_vision\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:invisibility\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:leaping\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:fire_resistance\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:swiftness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:turtle_master\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:water_breathing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:healing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:regeneration\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:strength\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:slow_falling\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"windswept:thorns\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"naturalist:forest_dasher\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"quark:resilience\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"caverns_and_chasms:rewind\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"environmental:vitality\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"upgrade_aquatic:restfulness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"upgrade_aquatic:repellence\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"upgrade_aquatic:vibing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"autumnity:extension\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"atmospheric:relief\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:slowness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:harming\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:poison\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"minecraft:weakness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"kubejs:blindness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"kubejs:levitation\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"kubejs:decay\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:water\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:awkward\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:night_vision\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:invisibility\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:leaping\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:fire_resistance\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:swiftness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:turtle_master\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:water_breathing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:healing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:regeneration\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:strength\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:slow_falling\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"windswept:thorns\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"naturalist:forest_dasher\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"quark:resilience\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"caverns_and_chasms:rewind\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"environmental:vitality\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"upgrade_aquatic:restfulness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"upgrade_aquatic:repellence\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"upgrade_aquatic:vibing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"autumnity:extension\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"atmospheric:relief\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:slowness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:harming\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:poison\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"minecraft:weakness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"kubejs:blindness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"kubejs:levitation\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"kubejs:decay\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:water\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:awkward\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:night_vision\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:invisibility\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:leaping\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:fire_resistance\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:swiftness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:turtle_master\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:water_breathing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:healing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:regeneration\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:strength\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:slow_falling\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"windswept:thorns\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"naturalist:forest_dasher\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"quark:resilience\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"caverns_and_chasms:rewind\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"environmental:vitality\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"upgrade_aquatic:restfulness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"upgrade_aquatic:repellence\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"upgrade_aquatic:vibing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"autumnity:extension\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"atmospheric:relief\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:slowness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:harming\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:poison\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"minecraft:weakness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"kubejs:blindness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"kubejs:levitation\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"kubejs:decay\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:water\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:awkward\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:night_vision\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:invisibility\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:leaping\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:fire_resistance\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:swiftness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:turtle_master\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:water_breathing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:healing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:regeneration\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:strength\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:slow_falling\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"windswept:thorns\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"naturalist:forest_dasher\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"quark:resilience\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"caverns_and_chasms:rewind\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"environmental:vitality\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"upgrade_aquatic:restfulness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"upgrade_aquatic:repellence\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"upgrade_aquatic:vibing\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"autumnity:extension\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"atmospheric:relief\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:slowness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:harming\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:poison\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"minecraft:weakness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"kubejs:blindness\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"kubejs:levitation\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"kubejs:decay\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    }
+  ]
+}

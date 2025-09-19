@@ -4,7 +4,7 @@
     "item": "brewinandchewin:tankard"
   },
   "experience": 0.6,
-  "fermentingtime": 3000,
+  "fermentingtime": 2400,
   "fluiditem": {
     "item": "brewinandchewin:beer"
   },
@@ -16,7 +16,7 @@
       "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "tag": "raspberry_flavoured:edible_mushrooms"
     },
     {
       "item": "minecraft:carrot"

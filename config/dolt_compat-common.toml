@@ -9,7 +9,7 @@
 	#If horses wearing leather horse armor can walk on top of powdered snow.
 	"Warm Horse Armor" = true
 	#If killing an arthropod with a Bane of Arthropod sword will clear any poison effects the player has.
-	"BOA cure" = true
+	"BOA cure" = false
 	#If monsters & being too far away from a bed shouldn't prevent you from sleeping
 	"Reliable Sleep" = true
 	#If dispensers ignite creepers in front of it with flint and steel

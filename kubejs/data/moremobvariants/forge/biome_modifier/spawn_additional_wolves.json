@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#moremobvariants:additional_wolf_spawns",
+  "spawners": {
+    "type": "minecraft:wolf",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

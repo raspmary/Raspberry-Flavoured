@@ -1,0 +1,10 @@
+#The duration of the glowing effect applied by the Marking enchantment. 20 ticks = 1 second.
+#The cooldown time is the duration multiplied by 1.5.
+#Range: 200 ~ 600
+"Marking duration" = 200
+#If enabled, a spyglass with the Precision enchantment can be used with bows.
+"Precision usable with bows" = true
+#The cooldown time caused by using the Precision enchantment. 20 ticks = 1 second.
+#Range: 60 ~ 200
+"Precision cooldown" = 60
+

@@ -1,0 +1,7 @@
+{
+	"parent": "caverns_and_chasms:block/spiked_rail_raised_sw",
+	"textures": {
+		"rail": "caverns_and_chasms:block/spiked_rail_on_raised",
+		"spikes": "caverns_and_chasms:block/spiked_rail_spikes_on_raised"
+	}
+}

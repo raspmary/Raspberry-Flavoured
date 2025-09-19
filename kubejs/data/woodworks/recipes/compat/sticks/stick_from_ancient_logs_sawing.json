@@ -1,8 +1,0 @@
-{
-  "type": "woodworks:sawmill",
-  "count": 8,
-  "ingredient": {
-    "tag": "quark:ancient_logs"
-  },
-  "result": "minecraft:stick"
-}

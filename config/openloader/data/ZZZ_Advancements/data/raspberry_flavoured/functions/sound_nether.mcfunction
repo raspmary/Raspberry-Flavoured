@@ -1,0 +1,1 @@
+playsound kubejs:advancement.nether master @s ~ ~ ~ 0.5

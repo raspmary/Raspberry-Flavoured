@@ -2,10 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "farmersdelight:salmon_slice"
-    },
-    {
-      "item": "farmersdelight:salmon_slice"
+      "tag": "raspberry_flavoured:red_fish"
     },
     {
       "item": "farmersdelight:cooked_rice"

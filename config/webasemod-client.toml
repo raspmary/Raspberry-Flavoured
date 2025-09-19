@@ -1,5 +1,0 @@
-
-["Client config for the Weaponized Baseball Mod"]
-	#Show which items are throwable in the tooltip. True by default.
-	"Toggle Tooltip" = false
-

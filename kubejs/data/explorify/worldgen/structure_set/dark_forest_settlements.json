@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 10128856,
+    "spacing": 32,
+    "separation": 16,
+    "frequency": 0.80,
+    "exclusion_zone": {
+      "other_set": "minecraft:woodland_mansions",
+      "chunk_count": 16
+    }
+  },
+  "structures": []
+}

@@ -1,0 +1,33 @@
+{
+  "target_type": "menu_class",
+    "target": "InventoryMenu",
+    "slot_modifiers": [
+    {
+      "slots": 0,
+      "x_offset": -47,
+      "y_offset": 30
+    },
+    {
+      "slots": "1->4",
+      "x_offset": 0,
+      "y_offset": -6
+    },
+    {
+      "slots": "5->8",
+      "x_offset": 54,
+      "y_offset": 0
+    },
+    {
+      "slots": 45,
+      "x_offset": -33,
+      "y_offset": 0
+    }
+  ],
+  "special_offsets": {
+    "player": {
+      "x_offset": -20,
+      "y_offset": -2
+    }
+  },
+  "title_y_offset": -2000
+}

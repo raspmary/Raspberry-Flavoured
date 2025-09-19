@@ -1,0 +1,56 @@
+{
+  "parent": "raspberryflavoured:summon_golem",
+  "criteria": {
+    "Right-Click on Iron Golem with Tuned Tuning Fork": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "caverns_and_chasms:tuning_fork"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    },
+    "Right-Click on Copper Golem with Tuned Tuning Fork": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "caverns_and_chasms:tuning_fork"
+          ]
+        },
+        "entity": {
+          "type": "caverns_and_chasms:copper_golem"
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Right-click on a copper or iron golem with a tuning fork that's been tuned through a note block to bind the golem to the fork"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "caverns_and_chasms:tuning_fork",
+      "nbt": "{Note:1}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Calling in Reinforcements"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Right-Click on Iron Golem with Tuned Tuning Fork", "Right-Click on Copper Golem with Tuned Tuning Fork"
+    ]
+  ]
+}

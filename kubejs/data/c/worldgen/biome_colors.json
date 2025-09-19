@@ -1,0 +1,87 @@
+{
+  "kubejs:tropical_beach": {
+    "r": 226,
+    "g": 255,
+    "b": 111
+  },
+  "atmospheric:rainforest": {
+    "r": 75,
+    "g": 197,
+    "b": 108
+  },
+  "atmospheric:sparse_rainforest": {
+    "r": 122,
+    "g": 213,
+    "b": 117
+  },
+  "atmospheric:rainforest_basin": {
+    "r": 80,
+    "g": 192,
+    "b": 175
+  },
+  "atmospheric:sparse_rainforest_basin": {
+    "r": 81,
+    "g": 183,
+    "b": 191
+  },
+  "atmospheric:flourishing_dunes": {
+    "r": 223,
+    "g": 218,
+    "b": 13
+  },
+  "atmospheric:dunes": {
+    "r": 254,
+    "g": 213,
+    "b": 18
+  },
+  "atmospheric:rocky_dunes": {
+    "r": 230,
+    "g": 167,
+    "b": 2
+  },
+  "atmospheric:petrified_dunes": {
+    "r": 250,
+    "g": 197,
+    "b": 56
+  },
+  "environmental:marsh": {
+    "r": 105,
+    "g": 169,
+    "b": 103
+  },
+  "autumnity:maple_forest": {
+    "r": 231,
+    "g": 166,
+    "b": 101
+  },
+  "autumnity:pumpkin_fields": {
+    "r": 222,
+    "g": 190,
+    "b": 95
+  },
+  "environmental:blossom_woods": {
+    "r": 225,
+    "g": 151,
+    "b": 230
+  },
+  "environmental:blossom_valleys": {
+    "r": 220,
+    "g": 108,
+    "b": 230
+  },
+  "windswept:chestnut_forest": {
+    "r": 118,
+    "g": 150,
+    "b": 71
+  },
+  "windswept:snowy_chestnut_forest": {
+    "r": 174,
+    "g": 204,
+    "b": 147
+  },
+  "quark:glimmering_weald": {
+    "r": 34,
+    "g": 238,
+    "b": 176
+  }
+}

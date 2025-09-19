@@ -28,7 +28,7 @@
   "CompostableRottenFlesh": true,
   "MusicDiscs": false,
   "NoteBlockAmethystSounds": false,
-  "ShipwreckSpyglassLoot": true,
+  "ShipwreckSpyglassLoot": false,
   "PocketJukebox": false,
   "ChickenNugget": false,
   "PoweredRailsCopperRecipe": true,

@@ -1,21 +1,24 @@
 {
   "type": "brewinandchewin:fermenting",
   "experience": 0.3,
-  "fermentingtime": 1000,
+  "fermentingtime": 1200,
   "ingredients": [
     {
-      "tag": "forge:raw_fishes"
+      "tag": "raspberry_flavoured:raw_fish"
     },
     {
-      "tag": "forge:raw_fishes"
+      "tag": "raspberry_flavoured:raw_fish"
     },
     {
       "item": "minecraft:kelp"
+    },
+    {
+      "item": "spelunkery:salt"
     }
   ],
   "recipe_book_tab": "misc",
   "result": {
-    "count": 3,
+    "count": 4,
     "item": "brewinandchewin:kippers"
   },
   "temperature": 3

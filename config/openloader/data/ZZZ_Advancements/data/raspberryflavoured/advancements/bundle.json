@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:sack",
+  "parent": "raspberryflavoured:hunting_root",
   "criteria": {
     "0": {
       "conditions": {
@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#CE3131",
-      "text": "Craft a bundle to carry more types of items while using up less space"
+      "text": "Obtain a bundle to carry more types of items while using up less space - you can dye them, too!"
     },
     "frame": "task",
     "hidden": false,

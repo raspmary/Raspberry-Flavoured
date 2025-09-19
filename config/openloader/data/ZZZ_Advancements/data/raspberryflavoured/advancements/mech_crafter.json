@@ -1,5 +1,5 @@
 {
-  "parent": "raspberryflavoured:brass",
+  "parent": "raspberryflavoured:water_wheel",
   "criteria": {
     "0": {
       "conditions": {
@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "description": {
       "color": "#DBA213",
-      "text": "Place down mechanical crafters to start crafting recipes automatically - they can even craft recipes bigger than a 3x3 space!"
+      "text": "Place down mechanical crafters to start crafting recipes automatically - you'll need them to craft more advanced items like diamond armour, and they can even craft recipes bigger than a 3x3 space!"
     },
     "frame": "task",
     "hidden": false,
@@ -21,7 +21,7 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Craft-A-Tron"
+      "text": "My Craft-inator!"
     }
   },
   "rewards": {

@@ -1,0 +1,136 @@
+{
+  "type": "bettermineshafts:mineshaft",
+  "biomes": "#bettermineshafts:has_structure/better_mineshaft_maple",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "config": {
+    "flammableLegs": true,
+    "replacementRate": 0.6,
+    "legVariant": "edge",
+    "decorationChances": {
+      "vineChance": 0.05,
+      "snowChance": 0,
+      "cactusChance": 0,
+      "deadBushChance": 0,
+      "mushroomChance": 0.2,
+      "gravelPileChance": 0.1,
+      "lushDecorations": false,
+      "dripstoneDecorations": false
+    },
+    "blockStates": {
+      "mainBlockState": {
+        "Name": "autumnity:maple_planks"
+      },
+      "supportBlockState": {
+        "Name": "autumnity:maple_fence"
+      },
+      "slabBlockState": {
+        "Name": "autumnity:maple_slab"
+      },
+      "gravelBlockState": {
+        "Name": "minecraft:gravel"
+      },
+      "stoneWallBlockState": {
+        "Name": "autumnity:snail_shell_brick_wall"
+      },
+      "stoneSlabBlockState": {
+        "Name": "autumnity:snail_shell_brick_slab"
+      },
+      "trapdoorBlockState": {
+        "Name": "autumnity:maple_trapdoor"
+      },
+      "smallLegBlockState": {
+        "Name": "autumnity:maple_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "blockStateRandomizers": {
+      "mainRandomizer": {
+        "defaultBlockState": {
+          "Name": "autumnity:maple_planks"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "everycomp:ap/autumnity/maple_boards"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "autumnity:snail_shell_bricks"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "autumnity:snail_shell_tiles"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "minecraft:cave_air"
+            },
+            "probability": 0.2
+          }
+        ]
+      },
+      "floorRandomizer": {
+        "defaultBlockState": {
+          "Name": "autumnity:maple_planks"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "everycomp:ap/autumnity/maple_boards"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "autumnity:snail_shell_bricks"
+            },
+            "probability": 0.1
+          },
+          {
+            "blockState": {
+              "Name": "autumnity:snail_shell_tiles"
+            },
+            "probability": 0.1
+          }
+        ]
+      },
+      "brickRandomizer": {
+        "defaultBlockState": {
+          "Name": "autumnity:snail_shell_bricks"
+        },
+        "entries": [
+          {
+            "blockState": {
+              "Name": "autumnity:snail_shell_bricks"
+            },
+            "probability": 0.333
+          },
+          {
+            "blockState": {
+              "Name": "autumnity:snail_shell_tiles"
+            },
+            "probability": 0.333
+          }
+        ]
+      },
+      "legRandomizer": {
+        "defaultBlockState": {
+          "Name": "autumnity:maple_log",
+          "Properties": {
+            "axis": "y"
+          }
+        },
+        "entries": []
+      }
+    }
+  }
+}

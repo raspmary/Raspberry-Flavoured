@@ -1,0 +1,34 @@
+{
+  "commands.mobEnchantment.give.success.single": "Applied mob enchantment %s to %s",
+  "commands.mobEnchantment.give.success.multiple": "Applied mob enchantment %s to %s targets",
+  "commands.mobEnchantment.clear.everything.success.single": "Removed every mob enchantment from %s",
+  "commands.mobEnchantment.clear.everything.success.multiple": "Removed every mob enchantment from %s targets",
+  "commands.mobEnchantment.clear.specific.success.single": "Removed mob enchantment %s from %s",
+  "commands.mobEnchantment.clear.specific.success.multiple": "Removed mob enchantment %s from %s targets",
+  "commands.mobEnchantment.give.failed": "Unable to apply this mobEnchantment (target likely already has it)",
+  "commands.mobEnchantment.clear.everything.failed": "Target has no mobEnchantments to remove",
+  "attribute.name.generic.dungeons_libraries.summon_cap": "Summon Cap",
+  "attribute.name.generic.dungeons_libraries.follower_cost_limit": "Follower Cost Limit",
+  "attribute.name.generic.dungeons_libraries.soul_gathering": "Soul Gathering",
+  "attribute.name.generic.dungeons_libraries.soul_cap": "Max Soul Capacity",
+  "attribute.name.generic.dungeons_libraries.life_steal": "Life Steal",
+  "attribute.name.generic.dungeons_libraries.ranged_damage_multiplier": "Ranged Damage Multiplier",
+  "attribute.name.generic.dungeons_libraries.magic_damage_multiplier": "Magic Damage Multiplier",
+  "attribute.name.generic.dungeons_libraries.artifact_cooldown_multiplier": "Artifact Cooldown Multiplier",
+
+  "commands.souls.add.failed": "Failed to add souls",
+  "commands.souls.set.failed": "Failed to set souls",
+  "commands.souls.add.success": "Successfully added souls",
+  "commands.souls.set.success": "Successfully set souls",
+
+  "artifact.dungeons_libraries.base": "Using the Artifact will move it into a free Artifact Curios Slot.",
+  "artifact.dungeons_libraries.duration": "%d Seconds Duration",
+  "artifact.dungeons_libraries.cooldown": "%d Seconds Cooldown",
+
+  "curios.identifier.artifact": "Artifact",
+  "item.modifiers.artifact": "When In Artifact Slot:",
+  "key.dungeons_libraries.curiosintegration.category": "Unused",
+  "key.dungeons_libraries.curiosintegration.description_slot1": "Unused Keybind",
+  "key.dungeons_libraries.curiosintegration.description_slot2": "Unused Keybind",
+  "key.dungeons_libraries.curiosintegration.description_slot3": "Unused Keybind"
+}

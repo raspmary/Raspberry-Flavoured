@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/untinted_hedge_side",
+  "textures": {
+    "leaf": "minecraft:block/birch_leaves"
+  }
+}
