@@ -25,6 +25,7 @@ saves
 crash-reports
 debug
 local
+modernfix
 mods
 resourcepacks
 screenshots
@@ -40,6 +41,17 @@ servers.dat
 servers.dat_old
 usercache.json
 usernamecache.json
+backups
+etched-sounds
+fancymenu_data
+logs
+.qmenu_opened.marker
+icon.png
+panorama.dat
+kubejs/exported
+kubejs/probe
+kubejs/jsconfig.json
+kubejs/README.txt
 
 # Files from Forge MDK
 forge*changelog.txt
