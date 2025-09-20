@@ -580,6 +580,8 @@
   "advancements.rf.farming.sap.description": "Right-click on a sappy maple log with a glass bottle to obtain sap - or find a bottle of it somewhere",
   "advancements.rf.farming.fishing_rod.title": "Fish Out of Water",
   "advancements.rf.farming.fishing_rod.description": "Obtain a fishing rod",
+  "advancements.rf.farming.bait.title": "Is This Bait?",
+  "advancements.rf.farming.bait.description": "Obtain any kind of fishing bait, be it Worms, Spider Eyes, Fireflies or Caterpillars",
   "advancements.rf.farming.fishing_gear.title": "Man I Love Fishing",
   "advancements.rf.farming.fishing_gear.description": "Upgrade to a reinforced fishing rod and place down a tackle box, where you can customise your reinforced rod and attach bait to it",
   "advancements.rf.farming.all_fish.title": "Master Baiter",
@@ -648,6 +650,8 @@
   "advancements.rf.farming.cutting_board.description": "Use a cutting board to cut/crush ingredients for efficient resource usage and/or salvage materials from unwanted items using various tools",
   "advancements.rf.farming.tree_bark.title": "All Bark and No Bite",
   "advancements.rf.farming.tree_bark.description": "Strip any wood log on a cutting board to obtain tree bark",
+  "advancements.rf.farming.copper_patina.title": "Copper Age",
+  "advancements.rf.farming.copper_patina.description": "Scrape any oxidized Copper block on a Cutting Board to obtain Copper Patina",
   "advancements.rf.farming.cinnamon_challenge.title": "Cinnamon Challenge",
   "advancements.rf.farming.cinnamon_challenge.description": "Consume raw cinnamon and suffer the consequences",
   

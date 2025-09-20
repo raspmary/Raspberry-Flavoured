@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:farming/fishing_rod",
+  "parent": "raspberry_flavoured:farming/bait",
   "criteria": {
     "Obtain Reinforced Fishing Rod": {
       "conditions": {
