@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:exploration/jukebox",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_eleven"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.eleven.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.eleven.description"
+    },
+    "icon": {
+      "item": "kubejs:music_disc_eleven"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_mystery"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

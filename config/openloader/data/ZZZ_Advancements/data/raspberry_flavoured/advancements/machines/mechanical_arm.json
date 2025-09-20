@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/rotation_speed_controller",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_arm"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.mechanical_arm.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.mechanical_arm.description"
+    },
+    "icon": {
+      "item": "create:mechanical_arm"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

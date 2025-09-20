@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:machines/mechanical_mixer",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:blaze_burner"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.blaze_burner.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.blaze_burner.description"
+    },
+    "icon": {
+      "item": "create:blaze_burner"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_nether"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "raspberry_flavoured:exploration/ancient_city",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        }
+      },
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.totem_of_undying.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.totem_of_undying.description"
+    },
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

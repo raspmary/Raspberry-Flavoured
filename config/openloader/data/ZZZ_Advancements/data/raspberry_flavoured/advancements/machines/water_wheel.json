@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:machines/sturdy_alloy",
+  "criteria": {
+    "Place down Water Wheel": {
+      "conditions": {
+        "block": "create:water_wheel"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Large Water Wheel": {
+      "conditions": {
+        "block": "create:large_water_wheel"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.water_wheel.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.water_wheel.description"
+    },
+    "icon": {
+      "item": "create:water_wheel"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Place down Water Wheel", "Place down Large Water Wheel"
+    ]
+  ]
+}

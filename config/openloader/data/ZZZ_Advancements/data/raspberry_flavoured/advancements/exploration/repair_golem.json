@@ -1,0 +1,55 @@
+{
+  "parent": "raspberry_flavoured:exploration/tune_golem",
+  "criteria": {
+    "Right-Click on Iron Golem with Iron Ingot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_ingot"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    },
+    "Right-Click on Copper Golem with Copper Ingot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_ingot"
+          ]
+        },
+        "entity": {
+          "type": "caverns_and_chasms:copper_golem"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.repair_golem.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.repair_golem.description"
+    },
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Right-Click on Iron Golem with Iron Ingot", "Right-Click on Copper Golem with Copper Ingot"
+    ]
+  ]
+}

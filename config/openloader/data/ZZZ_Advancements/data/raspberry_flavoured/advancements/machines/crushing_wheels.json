@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:machines/steel",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:crushing_wheel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.crushing_wheels.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.crushing_wheels.description"
+    },
+    "icon": {
+      "item": "create:crushing_wheel"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

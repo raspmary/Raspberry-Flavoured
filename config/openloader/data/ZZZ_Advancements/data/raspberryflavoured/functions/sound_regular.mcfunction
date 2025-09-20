@@ -1,1 +1,0 @@
-playsound kubejs:advancement.regular master @s ~ ~ ~ 0.5

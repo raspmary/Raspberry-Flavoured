@@ -1,0 +1,39 @@
+{
+  "parent": "raspberry_flavoured:exploration/dungeon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "raspberry_flavoured:geodes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.dwarf_geode.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.dwarf_geode.description"
+    },
+    "icon": {
+      "item": "kubejs:dwarf_geode"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

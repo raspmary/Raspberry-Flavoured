@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/windmill_bearing",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:steam_engine"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.steam_engine.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.steam_engine.description"
+    },
+    "icon": {
+      "item": "create:steam_engine"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/mechanical_saw",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_drill"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.mechanical_drill.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.mechanical_drill.description"
+    },
+    "icon": {
+      "item": "create:mechanical_drill"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

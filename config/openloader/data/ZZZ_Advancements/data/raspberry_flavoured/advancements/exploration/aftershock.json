@@ -11,20 +11,20 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
+    "title": {
+      "translate": "advancements.rf.exploration.aftershock.title"
+    },
     "description": {
       "color": "#CE3131",
-      "text": "Get struck by lightning while wearing a piece of copper armour and gain the Aftershock effect"
+      "translate": "advancements.rf.exploration.aftershock.description"
     },
-    "frame": "goal",
-    "hidden": true,
     "icon": {
       "item": "copperized:copper_chestplate"
     },
-    "show_toast": true,
-    "title": {
-      "text": "Supercharged"
-    }
+    "frame": "goal",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
   },
   "rewards": {
       "function": "raspberry_flavoured:sound_goal"

@@ -1,2 +1,0 @@
-gamerule doPatrolSpawning false
-gamerule doTraderSpawning false

@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:machines/mechanical_crafter",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:item_magnet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.item_magnet.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.item_magnet.description"
+    },
+    "icon": {
+      "item": "spelunkery:item_magnet"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

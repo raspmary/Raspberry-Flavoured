@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/mechanical_press",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_mixer"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.mechanical_mixer.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.mechanical_mixer.description"
+    },
+    "icon": {
+      "item": "create:mechanical_mixer"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

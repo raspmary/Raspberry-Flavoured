@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:exploration/all_discs",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_exostep"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.exostep.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.exostep.description"
+    },
+    "icon": {
+      "item": "kubejs:music_disc_exostep"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_nether_alt"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

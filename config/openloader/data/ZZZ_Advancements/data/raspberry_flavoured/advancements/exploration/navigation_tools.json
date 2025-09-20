@@ -1,0 +1,56 @@
+{
+  "parent": "raspberry_flavoured:exploration/sack",
+  "criteria": {
+    "Obtain Compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Depth Gauge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caverns_and_chasms:depth_gauge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.navigation_tools.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.navigation_tools.description"
+    },
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Obtain Compass"
+    ],
+	[
+      "Obtain Depth Gauge"
+    ]
+  ]
+}

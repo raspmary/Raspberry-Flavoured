@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:exploration/dwarf_geode",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:silver_mirror"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.silver_mirror.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.silver_mirror.description"
+    },
+    "icon": {
+      "item": "oreganized:silver_mirror"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

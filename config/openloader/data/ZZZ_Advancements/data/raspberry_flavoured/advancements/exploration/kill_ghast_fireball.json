@@ -1,0 +1,49 @@
+{
+  "parent": "raspberry_flavoured:exploration/nether",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:fireball"
+          },
+          "is_projectile": true
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.kill_ghast_fireball.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.kill_ghast_fireball.description"
+    },
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

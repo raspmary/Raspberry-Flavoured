@@ -1,0 +1,69 @@
+{
+  "parent": "raspberry_flavoured:machines/mechanical_press",
+  "criteria": {
+    "Obtain Engineer's Wrench": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:wrench"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Engineer's Goggles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:goggles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain any Engineer's Toolbox": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "create:toolboxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.engineering_tools.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.engineering_tools.description"
+    },
+    "icon": {
+      "item": "create:wrench"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Obtain Engineer's Wrench"
+    ],
+	[
+	  "Obtain Engineer's Goggles"
+	],
+	[
+	  "Obtain any Engineer's Toolbox"
+	]
+  ]
+}

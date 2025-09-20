@@ -1,0 +1,45 @@
+{
+  "parent": "raspberry_flavoured:exploration/buried_treasure",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:monument"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.ocean_monument.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.ocean_monument.description"
+    },
+    "icon": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

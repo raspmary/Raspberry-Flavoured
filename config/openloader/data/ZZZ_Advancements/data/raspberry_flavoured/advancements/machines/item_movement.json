@@ -1,0 +1,44 @@
+{
+  "parent": "raspberry_flavoured:machines/redstone_connector",
+  "criteria": {
+    "Place down Hopper": {
+      "conditions": {
+        "block": "minecraft:hopper"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Item Pipe": {
+      "conditions": {
+        "block": "quark:pipe"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.item_movement.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.item_movement.description"
+    },
+    "icon": {
+      "item": "minecraft:hopper"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Place down Hopper"
+    ],
+	[
+      "Place down Item Pipe"
+    ]
+  ]
+}

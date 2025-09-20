@@ -1,0 +1,32 @@
+{
+  "parent": "raspberry_flavoured:exploration/exopearls",
+  "criteria": {
+    "0": {
+      "trigger": "caverns_and_chasms:spotted_by_peeper"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.peeper.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.peeper.description"
+    },
+    "icon": {
+      "item": "caverns_and_chasms:peeper_head"
+    },
+    "frame": "task",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_eerie"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

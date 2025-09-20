@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/crushing_wheels",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:encased_fan"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.industrial_fan.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.industrial_fan.description"
+    },
+    "icon": {
+      "item": "create:encased_fan"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

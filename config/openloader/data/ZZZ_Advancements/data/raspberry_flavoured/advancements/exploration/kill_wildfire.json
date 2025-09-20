@@ -1,0 +1,43 @@
+{
+  "parent": "raspberry_flavoured:exploration/fortress",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "dungeons_mobs:wildfire"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.kill_wildfire.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.kill_wildfire.description"
+    },
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "raspberry_flavoured:exploration/kill_wither",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.beacon.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.beacon.description"
+    },
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

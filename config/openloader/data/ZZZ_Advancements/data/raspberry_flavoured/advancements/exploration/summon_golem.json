@@ -1,0 +1,57 @@
+{
+  "parent": "raspberry_flavoured:exploration/sack",
+  "criteria": {
+    "Summon Iron Golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:iron_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    },
+    "Summon Copper Golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "caverns_and_chasms:copper_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.summon_golem.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.summon_golem.description"
+    },
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Summon Iron Golem", "Summon Copper Golem"
+    ]
+  ]
+}

@@ -1,1 +1,0 @@
-playsound kubejs:advancement.joke master @s ~ ~ ~ 0.5

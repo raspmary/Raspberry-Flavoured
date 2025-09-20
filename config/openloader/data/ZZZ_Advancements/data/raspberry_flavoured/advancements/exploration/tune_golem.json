@@ -1,0 +1,56 @@
+{
+  "parent": "raspberry_flavoured:exploration/summon_golem",
+  "criteria": {
+    "Right-Click on Iron Golem with Tuned Tuning Fork": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "caverns_and_chasms:tuning_fork"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    },
+    "Right-Click on Copper Golem with Tuned Tuning Fork": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "caverns_and_chasms:tuning_fork"
+          ]
+        },
+        "entity": {
+          "type": "caverns_and_chasms:copper_golem"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.tune_golem.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.tune_golem.description"
+    },
+    "icon": {
+      "item": "caverns_and_chasms:tuning_fork",
+      "nbt": "{Note:1}"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Right-Click on Iron Golem with Tuned Tuning Fork", "Right-Click on Copper Golem with Tuned Tuning Fork"
+    ]
+  ]
+}

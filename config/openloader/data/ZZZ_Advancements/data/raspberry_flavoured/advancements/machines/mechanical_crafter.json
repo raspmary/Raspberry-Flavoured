@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/water_wheel",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_crafter"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.mechanical_crafter.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.mechanical_crafter.description"
+    },
+    "icon": {
+      "item": "create:mechanical_crafter"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

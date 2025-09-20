@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:exploration/dimensional_tears",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.nether.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.nether.description"
+    },
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_nether"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

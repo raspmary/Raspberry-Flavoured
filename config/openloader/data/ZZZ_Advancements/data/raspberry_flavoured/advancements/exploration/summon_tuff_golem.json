@@ -1,0 +1,43 @@
+{
+  "parent": "raspberry_flavoured:exploration/sack",
+  "criteria": {
+    "Summon Tuff Golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "friendsandfoes:tuff_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.summon_tuff_golem.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.summon_tuff_golem.description"
+    },
+    "icon": {
+      "item": "minecraft:tuff"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "Summon Tuff Golem"
+    ]
+  ]
+}

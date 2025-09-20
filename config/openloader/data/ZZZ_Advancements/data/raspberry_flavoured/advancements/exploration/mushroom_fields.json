@@ -1,0 +1,45 @@
+{
+  "parent": "raspberry_flavoured:exploration/adventure_tools",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:mushroom_fields"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.mushroom_fields.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.mushroom_fields.description"
+    },
+    "icon": {
+      "item": "farmersdelight:red_mushroom_colony"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,1 +1,0 @@
-playsound kubejs:advancement.goal master @s ~ ~ ~ 0.5

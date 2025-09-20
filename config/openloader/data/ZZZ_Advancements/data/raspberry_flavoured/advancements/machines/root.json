@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:cinnabar",
+              "spelunkery:rough_cinnabar",
+              "minecraft:redstone",
+              "minecraft:andesite",
+              "create:zinc_ingot",
+              "create:zinc_nugget",
+              "minecraft:raw_iron",
+              "minecraft:cobblestone",
+              "minecraft:cobbled_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.root.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.root.description"
+    },
+    "icon": {
+      "item": "supplementaries:wrench"
+    },
+    "frame": "task",
+    "hidden": true,
+    "announce_to_chat": false,
+    "background": "create:textures/block/palettes/stone_types/brick/dripstone_cut_brick.png",
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

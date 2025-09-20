@@ -54,7 +54,6 @@ Furnace Minecarts will load chunks when fueled.
 Lighting Copper-related blocks on fire will create green Cupric fire.
 Hollow Logs will let you crawl inside them by sneaking next to them.
 Ice will drop Ice Cubes when mined with a Pickaxe. They're crunchy.
-Kilns smelt what Smokers & Blast furnaces can't, and 2x quicker than a Furnace.
 Killing various mobs with Knives may cause them to drop extra items.
 Days and nights are longer in RF.
 Stripping Maple Logs will sometimes reveal Sap that you can bottle.

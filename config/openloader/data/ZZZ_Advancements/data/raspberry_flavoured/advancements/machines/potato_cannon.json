@@ -1,0 +1,41 @@
+{
+  "parent": "raspberry_flavoured:machines/mechanical_crafter",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:potato_cannon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.potato_cannon.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.potato_cannon.description"
+    },
+    "icon": {
+      "item": "create:potato_cannon"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

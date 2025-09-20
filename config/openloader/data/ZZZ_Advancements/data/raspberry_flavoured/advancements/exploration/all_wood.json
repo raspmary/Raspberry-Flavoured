@@ -1,0 +1,326 @@
+{
+  "parent": "raspberry_flavoured:exploration/all_ores",
+  "criteria": {
+    "Obtain Oak Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:oak_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Spruce Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:spruce_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Birch Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:birch_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Jungle Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:jungle_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Acacia Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:acacia_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Dark Oak Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:dark_oak_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Mangrove Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:mangrove_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Coconut Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "ecologics:coconut_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Azalea Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "ecologics:azalea_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Rosewood Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "atmospheric:rosewood_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Morado Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "atmospheric:morado_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Yucca Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "atmospheric:yucca_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Maple Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "autumnity:maple_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Willow Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "environmental:willow_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Cherry Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "environmental:cherry_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Wisteria Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "environmental:wisteria_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Driftwood Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "upgrade_aquatic:driftwood_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Block of Bamboo": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "quark:bamboo_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Chestnut Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "windswept:chestnut_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Crimson Stem": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:crimson_stems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Warped Stem": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:warped_stems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Choral Stem": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "architects_palette:twisted_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Block of Powdery Cane": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "mynethersdelight:block_of_powdery"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.all_wood.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.all_wood.description"
+    },
+    "icon": {
+      "item": "environmental:wisteria_log",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "Obtain Oak Log"
+    ],
+	[
+      "Obtain Spruce Log"
+    ],
+	[
+      "Obtain Birch Log"
+    ],
+	[
+      "Obtain Jungle Log"
+    ],
+	[
+      "Obtain Acacia Log"
+    ],
+    [
+      "Obtain Dark Oak Log"
+    ],
+	[
+      "Obtain Mangrove Log"
+    ],
+	[
+      "Obtain Coconut Log"
+    ],
+	[
+      "Obtain Azalea Log"
+    ],
+	[
+      "Obtain Rosewood Log"
+    ],
+	[
+      "Obtain Morado Log"
+    ],
+	[
+      "Obtain Yucca Log"
+    ],
+	[
+      "Obtain Maple Log"
+    ],
+	[
+      "Obtain Willow Log"
+    ],
+	[
+      "Obtain Cherry Log"
+    ],
+	[
+      "Obtain Wisteria Log"
+    ],
+	[
+      "Obtain Driftwood Log"
+    ],
+	[
+      "Obtain Block of Bamboo"
+    ],
+	[
+      "Obtain Chestnut Log"
+    ],
+	[
+      "Obtain Crimson Stem"
+    ],
+	[
+      "Obtain Warped Stem"
+    ],
+	[
+      "Obtain Choral Stem"
+    ],
+	[
+      "Obtain Block of Powdery Cane"
+    ]
+  ]
+}

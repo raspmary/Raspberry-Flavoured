@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/mechanical_press",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:mechanical_harvester"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.mechanical_harvester.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.mechanical_harvester.description"
+    },
+    "icon": {
+      "item": "create:mechanical_harvester"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

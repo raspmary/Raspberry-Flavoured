@@ -1,1 +1,0 @@
-playsound kubejs:advancement.happyhour master @s ~ ~ ~ 0.5

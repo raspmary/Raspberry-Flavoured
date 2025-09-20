@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/water_wheel",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:millstone"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.millstone.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.millstone.description"
+    },
+    "icon": {
+      "item": "create:millstone"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

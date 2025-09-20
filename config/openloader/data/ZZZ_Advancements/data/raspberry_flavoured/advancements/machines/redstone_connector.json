@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/redstone",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "supplementaries:cog_block"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.redstone.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.redstone.description"
+    },
+    "icon": {
+      "item": "supplementaries:cog_block"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

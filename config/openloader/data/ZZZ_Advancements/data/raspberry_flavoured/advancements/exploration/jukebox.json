@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:exploration/dungeon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "etched:album_jukebox"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.jukebox.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.jukebox.description"
+    },
+    "icon": {
+      "item": "etched:album_jukebox"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

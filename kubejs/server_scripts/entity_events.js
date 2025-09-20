@@ -256,6 +256,6 @@ EntityEvents.death(event => {
 // potion advancement
 PlayerEvents.inventoryChanged(event => {
 	if (event.item.hasTag('raspberry_flavoured:potions') && event.item.nbt.Potion !== "minecraft:water" && event.item.nbt.Potion !== "minecraft:awkward") {
-		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberryflavoured:potion`)
+		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:main/potion`)
 	}
 })

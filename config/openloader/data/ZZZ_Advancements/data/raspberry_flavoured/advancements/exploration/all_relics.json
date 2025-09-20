@@ -1,0 +1,87 @@
+{
+  "parent": "raspberry_flavoured:exploration/totem_of_undying",
+  "criteria": {
+    "Obtain Totem of Undying": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Mask of Dishonesty": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:mask_of_dishonesty"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Conch of Conjuring": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:conch_of_conjuring"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Wand of Freezing": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:wand_of_freezing"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.all_relics.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.all_relics.description"
+    },
+    "icon": {
+      "item": "savage_and_ravage:mask_of_dishonesty",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Totem of Undying"
+    ],
+    [
+      "Obtain Mask of Dishonesty"
+    ],
+	[
+      "Obtain Conch of Conjuring"
+    ],
+	[
+      "Obtain Wand of Freezing"
+    ]
+  ]
+}

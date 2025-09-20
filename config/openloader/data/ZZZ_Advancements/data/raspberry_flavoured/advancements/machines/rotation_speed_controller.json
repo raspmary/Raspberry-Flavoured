@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/brass",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:rotation_speed_controller"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.rotation_speed_controller.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.rotation_speed_controller.description"
+    },
+    "icon": {
+      "item": "create:rotation_speed_controller"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

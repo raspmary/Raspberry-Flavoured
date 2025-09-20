@@ -1,1 +1,0 @@
-playsound kubejs:advancement.mystery master @s ~ ~ ~ 0.5

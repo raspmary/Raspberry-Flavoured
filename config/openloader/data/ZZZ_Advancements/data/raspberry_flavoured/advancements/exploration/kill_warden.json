@@ -1,0 +1,43 @@
+{
+  "parent": "raspberry_flavoured:exploration/ancient_city",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.kill_warden.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.kill_warden.description"
+    },
+    "icon": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_mystery"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

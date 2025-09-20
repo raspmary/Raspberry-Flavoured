@@ -1,0 +1,43 @@
+{
+  "parent": "raspberry_flavoured:exploration/summon_wither",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.kill_wither.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.kill_wither.description"
+    },
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

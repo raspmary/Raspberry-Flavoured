@@ -1,0 +1,46 @@
+{
+  "parent": "raspberry_flavoured:exploration/navigation_tools",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:compass"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:lodestone"
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.lodestone.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.lodestone.description"
+    },
+    "icon": {
+      "item": "minecraft:lodestone"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

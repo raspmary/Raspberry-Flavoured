@@ -1,0 +1,49 @@
+{
+  "parent": "raspberry_flavoured:machines/blaze_burner",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "item": {
+          "items": [
+            "create:blaze_cake"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "create:blaze_burner"
+            ],
+            "state": {
+              "blaze": "seething"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.superheating.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.superheating.description"
+    },
+    "icon": {
+      "item": "create:blaze_cake"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

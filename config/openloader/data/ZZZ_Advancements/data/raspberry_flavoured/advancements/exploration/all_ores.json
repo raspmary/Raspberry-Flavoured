@@ -1,0 +1,357 @@
+{
+  "parent": "raspberry_flavoured:exploration/adventure_tools",
+  "criteria": {
+    "Obtain Coal Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Coal Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_coal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Iron Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Iron Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Copper Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Copper Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_copper_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Gold Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Gold Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Redstone Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Redstone Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_redstone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Diamond Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Diamond Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Nether Gold Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Nether Quartz Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_quartz_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Silver Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:silver_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Silver Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:deepslate_silver_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Lead Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:lead_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Lead Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:deepslate_lead_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Zinc Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:zinc_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Zinc Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:deepslate_zinc_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Nether Lead Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:nether_lead_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Blackstone Gold Ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.all_ores.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.all_ores.description"
+    },
+    "icon": {
+      "item": "minecraft:diamond_ore",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "Obtain Coal Ore"
+    ],
+	[
+      "Obtain Deepslate Coal Ore"
+    ],
+	[
+      "Obtain Iron Ore"
+    ],
+	[
+      "Obtain Deepslate Iron Ore"
+    ],
+	[
+      "Obtain Copper Ore"
+    ],
+    [
+      "Obtain Deepslate Copper Ore"
+    ],
+	[
+      "Obtain Gold Ore"
+    ],
+	[
+      "Obtain Deepslate Gold Ore"
+    ],
+	[
+      "Obtain Redstone Ore"
+    ],
+	[
+      "Obtain Deepslate Redstone Ore"
+    ],
+	[
+      "Obtain Diamond Ore"
+    ],
+	[
+      "Obtain Deepslate Diamond Ore"
+    ],
+	[
+      "Obtain Nether Gold Ore"
+    ],
+	[
+      "Obtain Nether Quartz Ore"
+    ],
+	[
+      "Obtain Silver Ore"
+    ],
+	[
+      "Obtain Deepslate Silver Ore"
+    ],
+	[
+      "Obtain Lead Ore"
+    ],
+	[
+      "Obtain Deepslate Lead Ore"
+    ],
+	[
+      "Obtain Zinc Ore"
+    ],
+	[
+      "Obtain Deepslate Zinc Ore"
+    ],
+	[
+      "Obtain Nether Lead Ore"
+    ],
+	[
+      "Obtain Blackstone Gold Ore"
+    ]
+  ]
+}

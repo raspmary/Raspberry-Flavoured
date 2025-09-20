@@ -1,1 +1,0 @@
-playsound kubejs:advancement.pizza master @s ~ ~ ~ 0.5

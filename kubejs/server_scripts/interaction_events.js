@@ -536,7 +536,7 @@ ItemEvents.rightClicked("kubejs:spirited_exopearl", event => {
 
 // creeper spores advancement
 ItemEvents.rightClicked('savage_and_ravage:creeper_spores', event => {
-    event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberryflavoured:creeper_spores_use`)
+    event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/creeper_spores`)
 })
 
 // message in a bottle

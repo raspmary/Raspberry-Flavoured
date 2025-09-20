@@ -1,0 +1,39 @@
+{
+  "parent": "raspberry_flavoured:exploration/sack",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:shulker_boxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.terrabin.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.terrabin.description"
+    },
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

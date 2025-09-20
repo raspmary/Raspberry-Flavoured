@@ -1,0 +1,43 @@
+{
+  "parent": "raspberry_flavoured:exploration/wither_skeleton_skull",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.summon_wither.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.summon_wither.description"
+    },
+    "icon": {
+      "item": "architects_palette:withered_bone"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_eerie"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

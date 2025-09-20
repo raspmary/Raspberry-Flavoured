@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:machines/water_wheel",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "create:windmill_bearing"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.machines.windmill_bearing.title"
+    },
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancements.rf.machines.windmill_bearing.description"
+    },
+    "icon": {
+      "item": "create:windmill_bearing"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

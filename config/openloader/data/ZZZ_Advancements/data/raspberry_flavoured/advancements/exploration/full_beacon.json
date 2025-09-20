@@ -1,0 +1,38 @@
+{
+  "parent": "raspberry_flavoured:exploration/beacon",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "level": {
+          "min": 5
+        }
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.full_beacon.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.full_beacon.description"
+    },
+    "icon": {
+      "item": "minecraft:beacon",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

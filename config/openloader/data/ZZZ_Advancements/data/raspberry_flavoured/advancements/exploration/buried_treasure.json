@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:exploration/adventure_tools",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.buried_treasure.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.buried_treasure.description"
+    },
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}
