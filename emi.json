@@ -1,6 +1,9 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:upgrade_aquatic:music_disc_atlantis",
+    "item:kubejs:music_disc_raveyard",
+    "item:storagedrawers:oak_full_drawers_1",
     "item:architects_palette:withered_bone",
     {
       "type": "item",
@@ -195,7 +198,6 @@
     "item:create:portable_storage_interface",
     "item:toms_storage:ts.storage_terminal",
     "item:toms_storage:ts.inventory_connector",
-    "item:storagedrawers:oak_full_drawers_1",
     "item:kubejs:haunted_tablet",
     "item:minecraft:netherite_pickaxe{Damage:0}",
     {
@@ -884,7 +886,6 @@
     "item:minecraft:smooth_stone",
     "item:kubejs:music_disc_exostep",
     "item:minecraft:music_disc_pigstep",
-    "item:kubejs:music_disc_raveyard",
     "item:kubejs:music_disc_droopy1",
     "item:minecraft:disc_fragment_5",
     "item:minecraft:skeleton_skull",
@@ -1493,8 +1494,7 @@
     "item:alloyed:steel_chestplate{Damage:0}",
     "item:caverns_and_chasms:necromium_boots{Damage:0}",
     "item:caverns_and_chasms:necromium_leggings{Damage:0}",
-    "item:oreganized:electrum_boots{Damage:0}",
-    "item:oreganized:electrum_leggings{Damage:0}"
+    "item:oreganized:electrum_boots{Damage:0}"
   ],
   "craft_history": [
     "twigs:stick_from_twig",

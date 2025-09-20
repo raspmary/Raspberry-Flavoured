@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quark:prismarine_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.kubejs.elder_treasure"
+              }
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:chest",
+              "name": "kubejs:chests/elder_treasure"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "upgrade_aquatic:elder_eye"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "upgrade_aquatic:elder_guardian_spine"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

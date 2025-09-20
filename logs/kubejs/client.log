@@ -1,17 +1,17 @@
-[20:29:00] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
-[20:29:00] [INIT] Loaded plugins:
-[20:29:00] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:29:00] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:29:00] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[20:29:00] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[20:29:00] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[20:29:00] [INIT] - com.almostreliable.morejs.Plugin
-[20:29:00] [INIT] - com.common.keybindjs.kubejs.KeyBindJSPlugin
-[20:29:00] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[20:29:00] [INFO] Loaded script client_scripts:copper_brush_appearance.js in 0.005 s
-[20:29:00] [INFO] Loaded script client_scripts:descriptions.js in 0.006 s
-[20:29:00] [INFO] Loaded script client_scripts:ench_tablet_tooltips.js in 0.008 s
-[20:29:00] [INFO] Loaded script client_scripts:repair_ingredient_tooltips.js in 0.004 s
-[20:29:00] [INFO] Loaded script client_scripts:tab_hide.js in 0.0 s
-[20:29:00] [INFO] Loaded script client_scripts:tooltips.js in 0.029 s
-[20:29:00] [INFO] Loaded 6/6 KubeJS client scripts in 0.099 s
+[22:12:55] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
+[22:12:55] [INIT] Loaded plugins:
+[22:12:55] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:12:55] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:12:55] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[22:12:55] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[22:12:55] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:12:55] [INIT] - com.almostreliable.morejs.Plugin
+[22:12:55] [INIT] - com.common.keybindjs.kubejs.KeyBindJSPlugin
+[22:12:55] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[22:12:56] [INFO] Loaded script client_scripts:copper_brush_appearance.js in 0.004 s
+[22:12:56] [INFO] Loaded script client_scripts:descriptions.js in 0.006 s
+[22:12:56] [INFO] Loaded script client_scripts:ench_tablet_tooltips.js in 0.007 s
+[22:12:56] [INFO] Loaded script client_scripts:repair_ingredient_tooltips.js in 0.004 s
+[22:12:56] [INFO] Loaded script client_scripts:tab_hide.js in 0.001 s
+[22:12:56] [INFO] Loaded script client_scripts:tooltips.js in 0.026 s
+[22:12:56] [INFO] Loaded 6/6 KubeJS client scripts in 0.064 s

@@ -188,6 +188,7 @@ const keysToItems = {
     'rf.jei.precipice_disc': 'trickytrialspaintingsplusmusic:music_disc_precipice',
     'rf.jei.creator_disc': 'trickytrialspaintingsplusmusic:music_disc_creator',
     'rf.jei.relic_disc': 'trickytrialspaintingsplusmusic:music_disc_relic',
+    'rf.jei.atlantis_disc': 'upgrade_aquatic:music_disc_atlantis',
 	
     'farmersdelight.jei.info.knife': ['kubejs:bone_knife', 'kubejs:copper_knife', 'kubejs:rose_gold_knife', 'alloyed:steel_knife', 'oreganized:electrum_knife', 'abnormals_delight:necromium_knife'],
 	
