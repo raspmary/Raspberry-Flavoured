@@ -264,6 +264,54 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deposit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:deposit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Deepslate Deposit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:deepslate_deposit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Blackstone Deposit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:blackstone_deposit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Embedded Ammonite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:embedded_ammonite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -352,6 +400,18 @@
     ],
 	[
       "Obtain Blackstone Gold Ore"
+    ],
+	[
+      "Obtain Deposit"
+    ],
+	[
+      "Obtain Deepslate Deposit"
+    ],
+	[
+      "Obtain Blackstone Deposit"
+    ],
+	[
+      "Obtain Embedded Ammonite"
     ]
   ]
 }
