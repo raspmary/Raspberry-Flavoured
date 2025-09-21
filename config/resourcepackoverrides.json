@@ -84,7 +84,7 @@
         "resources/27_CrudeGlass",
         "resources/28_GoldenCrit",
         "resources/29_AdditionalResources",
-        "resources/30_RaspberryResources"
+        "resources/99_RaspberryResources"
       ],
       "$1": {
         "hidden": true,
