@@ -22,7 +22,9 @@ ServerEvents.recipes(event => {
 	'environmental:wanderer_boots',
 	'aquaculture:jellyfish',
 	'oreganized:netherite_nugget',
-	'upgrade_aquatic:blue_pickerelweed'
+	'upgrade_aquatic:blue_pickerelweed',
+	'woodworks:flowering_azalea_leaf_pile',
+	'atmospheric:flowering_morado_leaf_pile'
 	]})
 	
 // Removing by output

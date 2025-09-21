@@ -178,6 +178,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('8x supplementaries:bomb', ['string', 'gunpowder', '#forge:ingots/iron']).id('supplementaries:bomb')
 	event.shapeless('8x supplementaries:bomb_spiky', ['string', 'gunpowder', '2x #forge:ingots/lead']).id('supplementaries:spiky_bomb')
 	event.shapeless('8x raspberry:rose_gold_bomb', ['string', 'gunpowder', '#forge:ingots/rose_gold'])
+	event.shapeless('2x pink_dye', ['ecologics:azalea_flower'])
 	
 	event.shapeless('raspberry:cake', ['7x farmersdelight:cake_slice'])
 	event.shapeless('raspberry:vanilla_cake', ['7x abnormals_delight:vanilla_cake_slice'])
@@ -1439,6 +1440,11 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('upgrade_aquatic:purple_pickerelweed', '#forge:tools/knives', ['purple_dye']).id('abnormals_delight:upgrade_aquatic/cutting/purple_pickerelweed')
 	event.recipes.farmersdelight.cutting('glow_berries', 'another_furniture:furniture_hammer', [Item.of('naturalist:glow_goop').withChance(0.5)])
 	event.recipes.farmersdelight.cutting('raspberry:firefly', 'another_furniture:furniture_hammer', ['3x naturalist:glow_goop'])
+	event.recipes.farmersdelight.cutting('flowering_azalea', '#forge:shears', ['azalea', 'ecologics:azalea_flower'])
+	event.recipes.farmersdelight.cutting('flowering_azalea_leaves', '#forge:shears', ['azalea_leaves', 'ecologics:azalea_flower'])
+	event.recipes.farmersdelight.cutting('atmospheric:flowering_morado_leaves', '#forge:shears', ['atmospheric:morado_leaves', 'atmospheric:yellow_blossoms'])
+	event.recipes.farmersdelight.cutting('ecologics:azalea_flower', '#forge:tools/knives', ['3x pink_dye'])
+	event.recipes.farmersdelight.cutting('atmospheric:yellow_blossoms', '#forge:tools/knives', ['2x yellow_dye'])
 	
 	event.recipes.farmersdelight.cutting('miners_delight:squid', '#forge:tools/knives', ['4x miners_delight:tentacles', '4x ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/squid')
 	event.recipes.farmersdelight.cutting('miners_delight:glow_squid', '#forge:tools/knives', ['4x miners_delight:tentacles', '4x glow_ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/glow_squid')
@@ -2269,6 +2275,8 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling([Item.of('phantom_membrane').withChance(0.5)], 'miners_delight:bat_wing')
 	event.recipes.create.milling(['3x naturalist:glow_goop',Item.of('naturalist:glow_goop', 2).withChance(0.75)], 'raspberry:firefly')
 	event.recipes.create.milling(['naturalist:glow_goop'], 'glow_berries')
+	event.recipes.create.milling(['3x pink_dye',Item.of('pink_dye', 2).withChance(0.25),Item.of('magenta_dye').withChance(0.5)], 'ecologics:azalea_flower')
+	event.recipes.create.milling(['3x yellow_dye'], 'atmospheric:yellow_blossoms')
 	
 	event.recipes.create.milling(['2x red_dye', Item.of('red_dye').withChance(0.1)], 'windswept:red_rose')
 	event.recipes.create.milling(['2x pink_dye', Item.of('pink_dye').withChance(0.1)], 'windswept:pink_rose')

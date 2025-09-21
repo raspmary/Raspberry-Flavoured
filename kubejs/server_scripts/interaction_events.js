@@ -468,6 +468,48 @@ BlockEvents.rightClicked([
     }
 })
 
+// shearing blocks only regular shears can
+BlockEvents.rightClicked([
+    'minecraft:flowering_azalea',
+    'minecraft:flowering_azalea_leaves',
+    'atmospheric:flowering_morado_leaves'
+], event => {
+    if (event.item.hasTag('raspberry_flavoured:shears')) {
+        event.player.swing(event.hand, true)
+        if (!event.player.isCreative()) {
+			event.player.damageHeldItem(event.hand, 1)
+        }
+		
+		let itemEntity = event.level.createEntity("item")
+		itemEntity.y = event.block.y + 0.5
+		itemEntity.x = event.block.x
+		itemEntity.z = event.block.z
+		itemEntity.motionY = 0.25
+		
+        let props = event.block.getProperties()
+        event.server.schedule(1, callback => {
+			if (event.block.id === 'minecraft:flowering_azalea') {
+				event.block.set('minecraft:azalea', props)
+				event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'block.flowering_azalea.break', 'players', 1, 1)
+				itemEntity.item = ('ecologics:azalea_flower')
+				itemEntity.spawn()
+            }
+            if (event.block.id === 'minecraft:flowering_azalea_leaves') {
+                event.block.set('minecraft:azalea_leaves', props)
+				event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'block.flowering_azalea.break', 'players', 1, 1)
+				itemEntity.item = ('ecologics:azalea_flower')
+				itemEntity.spawn()
+            }
+            if (event.block.id === 'atmospheric:flowering_morado_leaves') {
+                event.block.set('atmospheric:morado_leaves', props)
+				event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'entity.sheep.shear', 'players', 1, 1)
+				itemEntity.item = ('atmospheric:yellow_blossoms')
+				itemEntity.spawn()
+            }
+        })
+    }
+})
+
 // bee disc interaction
 BlockEvents.rightClicked(event => {
     if (event.block.hasTag('minecraft:beehives')) {
