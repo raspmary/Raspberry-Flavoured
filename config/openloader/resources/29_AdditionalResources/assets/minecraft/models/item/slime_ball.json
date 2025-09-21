@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-	"particle": "minecraft:block/slime_block",
-    "layer0": "minecraft:item/slime_ball"
-  }
-}

@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/template_stem",
-	"ambientocclusion": false,
-	"textures": {
-		"stem": "block/pumpkin_stem_stage3",
-		"upper": "block/pumpkin_stem_top_stage3"
-	}
-}

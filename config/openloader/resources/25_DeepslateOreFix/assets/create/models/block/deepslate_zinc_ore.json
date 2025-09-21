@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "side": "create:block/deepslate_zinc_ore",
-    "end": "deepslateorefix:block/deepslate_zinc_ore_top"
-  }
-}

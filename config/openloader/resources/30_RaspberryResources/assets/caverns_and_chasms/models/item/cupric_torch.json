@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld_rod",
-  "textures": {
-    "layer0": "caverns_and_chasms:item/cupric_torch"
-  }
-}

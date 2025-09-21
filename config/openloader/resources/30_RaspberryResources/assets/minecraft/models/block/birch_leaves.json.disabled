@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/untinted_leaves",
-  "textures": {
-    "all": "minecraft:block/yellow_birch_leaves"
-  }
-}

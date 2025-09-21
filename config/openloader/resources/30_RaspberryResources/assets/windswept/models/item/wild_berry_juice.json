@@ -1,6 +1,0 @@
-{
-  "parent": "farmersdelight:item/mug",
-  "textures": {
-    "layer0": "windswept:item/wild_berry_juice"
-  }
-}

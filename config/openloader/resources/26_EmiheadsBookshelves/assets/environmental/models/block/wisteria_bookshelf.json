@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "environmental:block/wisteria_bookshelf_top",
-        "side": "environmental:block/wisteria_bookshelf"
-    }
-}

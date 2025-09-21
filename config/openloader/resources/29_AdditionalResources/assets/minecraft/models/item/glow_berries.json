@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "particle": "minecraft:item/particle/glow_berries",
-    "layer0": "minecraft:item/glow_berries"
-  }
-}

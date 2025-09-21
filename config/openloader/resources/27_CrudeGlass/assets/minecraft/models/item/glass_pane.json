@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "render_type": "translucent",
-  "textures": {
-    "layer0": "minecraft:block/crude_glass"
-  }
-}

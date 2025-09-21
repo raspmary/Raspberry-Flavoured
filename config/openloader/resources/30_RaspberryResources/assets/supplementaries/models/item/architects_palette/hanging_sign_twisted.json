@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "supplementaries:items/architects_palette/hanging_sign_twisted"
-  }
-}

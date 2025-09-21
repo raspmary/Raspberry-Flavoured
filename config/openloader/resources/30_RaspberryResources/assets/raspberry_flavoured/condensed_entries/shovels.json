@@ -1,9 +1,0 @@
-{
-  "debug_entries": false,
-  "tools": {
-    "raspberry_flavoured:shovels": {
-      "base_item": "minecraft:iron_shovel",
-      "item_tag": "forge:tools/shovels"
-    }
-  }
-}
