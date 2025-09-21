@@ -1,0 +1,8 @@
+{
+  "parent": "blueprint:block/hedge_post",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "leaf": "windswept:block/holly_leaves",
+    "log": "minecraft:block/spruce_log"
+  }
+}

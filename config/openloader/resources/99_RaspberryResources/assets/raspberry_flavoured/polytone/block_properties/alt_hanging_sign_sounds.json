@@ -1,0 +1,20 @@
+{
+   "targets": [
+   "supplementaries:hanging_sign_birch",
+   "supplementaries:hanging_sign_jungle",
+   "supplementaries:hanging_sign_acacia",
+   "supplementaries:ecologics/hanging_sign_azalea",
+   "supplementaries:environmental/hanging_sign_cherry",
+   "supplementaries:atmospheric/hanging_sign_rosewood",
+   "supplementaries:atmospheric/hanging_sign_yucca"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.alt_hanging_sign.break",
+	  "place_sound": "kubejs:sound.alt_hanging_sign.place",
+      "hit_sound": "kubejs:sound.alt_hanging_sign.hit",
+      "fall_sound": "kubejs:sound.alt_hanging_sign.fall",
+      "step_sound": "kubejs:sound.alt_hanging_sign.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

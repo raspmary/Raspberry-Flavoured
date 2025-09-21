@@ -1,0 +1,116 @@
+{
+  "filters": [
+    {
+      "category": "minecraft:brewing"
+    },
+    {
+      "category": "minecraft:blasting"
+    },
+    {
+      "category": "minecraft:smoking"
+    },
+    {
+      "category": "clayworks:baking"
+    },
+    {
+      "category": "emi:anvil_repairing"
+    },
+	{
+      "category": "emi:grinding"
+    },
+	{
+      "category": "emi:world_interaction"
+    },
+	{
+      "category": "miners_delight:cooking"
+    },
+	{
+      "category": "brewinandchewin:flaxen_cheese_ripening"
+    },
+	{
+      "category": "brewinandchewin:scarlet_cheese_ripening"
+    },
+	{
+      "category": "pollen:grindstone"
+    },
+	{
+      "category": "copperized:axe_scraping"
+    },
+	{
+      "category": "copperized:oxidation"
+    },
+	{
+      "category": "copperized:waxing"
+    },
+	{
+      "category": "farmersrespite:brewing"
+    },
+	{
+      "category": "exposure:photograph_stacking"
+    },
+	{
+      "category": "nethersdelight:composition"
+    },
+	{
+      "category": "mynethersdelight:forgoting"
+    },
+	{
+      "category": "tactical_fishing:fishing"
+    },
+	{
+      "category": "create:automatic_brewing"
+    },
+	{
+      "category": "create_central_kitchen:cutting_board_deploying"
+    },
+	{
+      "category": "miningmaster:forging"
+    },
+	{
+      "id": "emi:/crafting/dying/quark/backpack"
+    },
+	{
+      "id": "jei:/kubejs/exostep"
+    },
+	{
+      "id": "jei:/kubejs/exostep_2"
+    },
+	{
+      "id": "jei:/kubejs/exostep_crushing_1"
+    },
+	{
+      "id": "jei:/kubejs/exostep_crushing_2"
+    },
+	{
+      "id": "jei:/kubejs/exostep_crushing_1_using_deployer"
+    },
+	{
+      "id": "jei:/create/item_application/quark_pipe_manual_only"
+    },
+	{
+      "id": "jei:/create/item_application/quark_pipe_manual_only_using_deployer"
+    },
+	{
+      "id": "jei:/create/item_application/quark_encased_pipe_manual_only"
+    },
+	{
+      "id": "jei:/create/item_application/quark_encased_pipe_manual_only_using_deployer"
+    },
+	{
+      "id": "jei:/kubejs/sandpaper_polishing/sans"
+    },
+	{
+      "id": "jei:/kubejs/sandpaper_polishing/sans_using_deployer"
+    },
+	{
+      "id": "kubejs:deed_of_ownership_clear"
+    },
+    {
+      "id": "/miningmaster/",
+      "category": "minecraft:smithing"
+    },
+    {
+      "id": "/create:create.toolbox.color/"
+    }
+  ]
+}

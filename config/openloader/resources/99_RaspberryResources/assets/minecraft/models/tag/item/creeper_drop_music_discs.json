@@ -1,0 +1,7 @@
+{
+  "parent": "emi:item/half_item",
+  "textures": {
+    "first": "kubejs:item/music_discs/13",
+    "second": "kubejs:item/music_discs/cat"
+  }
+}

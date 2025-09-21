@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "oreganized:item/silver_mirror_level_1"
+  }
+}

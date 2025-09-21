@@ -1,0 +1,33 @@
+{
+   "targets": [
+	"architects_palette:calcite_bricks",
+	"architects_palette:calcite_brick_slab",
+	"architects_palette:calcite_brick_stairs",
+	"architects_palette:calcite_brick_wall",
+	"architects_palette:calcite_pillar",
+	"architects_palette:chiseled_calcite",
+	"architects_palette:heavy_calcite_bricks",
+	"create:cut_calcite_bricks",
+	"create:cut_calcite_brick_stairs",
+	"create:cut_calcite_brick_slab",
+	"create:cut_calcite_brick_wall",
+	"create:small_calcite_bricks",
+	"create:small_calcite_brick_stairs",
+	"create:small_calcite_brick_slab",
+	"create:small_calcite_brick_wall",
+	"quark:calcite_bricks",
+	"quark:calcite_bricks_slab",
+	"quark:calcite_bricks_stairs",
+	"quark:calcite_bricks_wall",
+	"quark:chiseled_calcite_bricks"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.brick_variant.break",
+	  "place_sound": "kubejs:sound.brick_variant.place",
+      "hit_sound": "kubejs:sound.brick_variant.hit",
+      "fall_sound": "kubejs:sound.brick_variant.fall",
+      "step_sound": "kubejs:sound.brick_variant.step",
+      "pitch": 1.4,
+      "volume": 1
+   } 
+}

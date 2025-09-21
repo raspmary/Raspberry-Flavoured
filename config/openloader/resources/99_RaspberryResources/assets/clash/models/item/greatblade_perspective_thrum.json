@@ -1,0 +1,21 @@
+{
+  "parent": "item/handheld",
+  "loader": "forge:separate-perspective",
+  "textures": {
+    "layer0": "clash:item/greatblade"
+  },
+  "base": {
+    "parent": "clash:item/greatblade_hand_thrum"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "clash:item/greatblade_gui"
+    },
+    "fixed": {
+      "parent": "clash:item/greatblade_gui"
+    },
+    "ground": {
+      "parent": "clash:item/greatblade_gui"
+    }
+  }
+}

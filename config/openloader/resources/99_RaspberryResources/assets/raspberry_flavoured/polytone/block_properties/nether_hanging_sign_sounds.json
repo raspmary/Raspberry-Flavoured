@@ -1,0 +1,17 @@
+{
+   "targets": [
+   "supplementaries:hanging_sign_crimson",
+   "supplementaries:hanging_sign_warped",
+   "supplementaries:mynethersdelight/hanging_sign_powdery",
+   "supplementaries:architects_palette/hanging_sign_twisted"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.nether_hanging_sign.break",
+	  "place_sound": "kubejs:sound.nether_hanging_sign.place",
+      "hit_sound": "kubejs:sound.nether_hanging_sign.hit",
+      "fall_sound": "kubejs:sound.nether_hanging_sign.fall",
+      "step_sound": "kubejs:sound.nether_hanging_sign.step",
+      "pitch": 0.925,
+      "volume": 1
+   } 
+}

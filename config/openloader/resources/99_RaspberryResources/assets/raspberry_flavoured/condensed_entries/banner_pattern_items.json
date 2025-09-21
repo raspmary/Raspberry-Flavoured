@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:banner_pattern_items": {
+      "base_item": "minecraft:creeper_banner_pattern",
+      "item_tag": "raspberry_flavoured:banner_pattern_items"
+    }
+  }
+}

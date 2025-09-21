@@ -1,0 +1,11 @@
+{
+  "target_type": "menu_class",
+    "target": "com.ncpbails.modestmining.screen.ForgeMenu",
+    "slot_modifiers": [
+    {
+      "slots": "0->35",
+      "x_offset": 0,
+      "y_offset": -3
+    }
+  ]
+}

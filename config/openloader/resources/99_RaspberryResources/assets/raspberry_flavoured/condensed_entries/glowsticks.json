@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "tools": {
+    "raspberry_flavoured:glowsticks": {
+      "base_item": "spelunkery:glowstick",
+      "item_tag": "spelunkery:glowsticks"
+    }
+  }
+}

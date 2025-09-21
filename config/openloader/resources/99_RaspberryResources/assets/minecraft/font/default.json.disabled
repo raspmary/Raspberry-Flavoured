@@ -1,0 +1,18 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc\/heart_half.png",
+			"ascent": 8, 
+			"height": 16, 
+			"chars": ["\ueff3"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc\/heart_full.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": ["\ueff4"]
+		}
+	]
+}

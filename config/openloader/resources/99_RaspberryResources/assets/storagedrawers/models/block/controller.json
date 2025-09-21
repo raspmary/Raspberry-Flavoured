@@ -1,0 +1,36 @@
+{
+	"format_version": "1.9.0",
+	"parent": "block/block",
+	"texture_size": [64, 64],
+	"textures": {
+		"4": "storagedrawers:blocks/drawers_controller",
+		"particle": "storagedrawers:blocks/drawer_particle"
+	},
+	"elements": [
+		{
+			"name": "Block",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#4", "cullface": "north"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#4", "cullface": "east"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#4", "cullface": "south"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#4", "cullface": "west"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [8, 0, 4, 4], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hatch",
+			"from": [1, 2, 0],
+			"to": [15, 9, 3],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 1, 4]},
+			"faces": {
+				"north": {"uv": [4.25, 9.5, 7.75, 11.25], "texture": "#4", "cullface": "north"},
+				"east": {"uv": [3.5, 9.5, 4.25, 11.25], "texture": "#4", "cullface": "north"},
+				"west": {"uv": [7.75, 9.5, 8.5, 11.25], "texture": "#4", "cullface": "north"},
+				"up": {"uv": [7.75, 9.5, 4.25, 8.75], "texture": "#4"}
+			}
+		}
+	]
+}

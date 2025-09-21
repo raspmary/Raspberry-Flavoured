@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "culturaldelights:block/avocado_pit",
+		"particle": "culturaldelights:item/avocado_pit"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 3, 10],
+			"faces": {
+				"north": {"uv": [9, 6, 13, 9], "texture": "#0"},
+				"east": {"uv": [9, 6, 13, 9], "texture": "#0"},
+				"south": {"uv": [9, 6, 13, 9], "texture": "#0"},
+				"west": {"uv": [9, 6, 13, 9], "texture": "#0"},
+				"up": {"uv": [3, 6, 7, 10], "texture": "#0"},
+				"down": {"uv": [3, 6, 7, 10], "texture": "#0"}
+			}
+		}
+	]
+}

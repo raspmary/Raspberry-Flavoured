@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "ecologics:block/prickly_pear_stage3",
+		"particle": "ecologics:item/prickly_pear"
+	},
+	"elements": [
+		{
+			"name": "fruit3",
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#1"},
+				"down": {"uv": [4, 9, 0, 13], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruit4",
+			"from": [4, 0, 3],
+			"to": [12, 8, 13],
+			"faces": {
+				"north": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"},
+				"east": {"uv": [5, 0, 10, 4], "texture": "#1"},
+				"south": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"},
+				"west": {"uv": [5, 0, 10, 4], "texture": "#1"},
+				"up": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"},
+				"down": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruit5",
+			"from": [3, 0, 4],
+			"to": [13, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 20, 8]},
+			"faces": {
+				"north": {"uv": [5, 0, 10, 4], "texture": "#1"},
+				"east": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"},
+				"south": {"uv": [5, 0, 10, 4], "texture": "#1"},
+				"west": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"},
+				"up": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"},
+				"down": {"uv": [10.5, 0, 14.5, 4], "texture": "#1"}
+			}
+		}
+	]
+}

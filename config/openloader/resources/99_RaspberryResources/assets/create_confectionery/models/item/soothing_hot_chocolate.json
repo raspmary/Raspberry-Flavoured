@@ -1,0 +1,6 @@
+{
+  "parent": "farmersdelight:item/mug",
+  "textures": {
+    "layer0": "create_confectionery:items/soothing_hot_chocolate"
+  }
+}

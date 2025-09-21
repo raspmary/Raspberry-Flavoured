@@ -1,0 +1,26 @@
+{
+	"format_version": "1.9.0",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "quark:block/pipe_casing",
+		"particle": "quark:block/pipes"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 4, 12], "texture": "#1", "cullface": "north"}
+			}
+		},
+		{
+			"from": [0, 0, 0.1],
+			"to": [16, 16, 0.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7.1]},
+			"faces": {
+				"south": {"uv": [0, 12, 4, 16], "texture": "#1"}
+			}
+		}
+	]
+}

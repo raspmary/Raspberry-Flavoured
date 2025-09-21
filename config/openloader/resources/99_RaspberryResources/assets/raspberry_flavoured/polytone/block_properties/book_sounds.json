@@ -1,0 +1,15 @@
+{
+   "targets": [
+	"supplementaries:book_pile",
+	"supplementaries:book_pile_horizontal"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.book.break",
+	  "place_sound": "kubejs:sound.book.place",
+      "hit_sound": "kubejs:sound.book.hit",
+      "fall_sound": "kubejs:sound.book.fall",
+      "step_sound": "kubejs:sound.book.step",
+      "pitch": 1.0,
+      "volume": 1
+   } 
+}

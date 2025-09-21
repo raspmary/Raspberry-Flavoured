@@ -1,0 +1,11 @@
+{
+  "block.create_confectionery.candy_cane_block": "Peppermint Candy Cane Block",
+  "item.create_confectionery.marshmallow": "Marshmallows",
+  "item.create_confectionery.chocolate_glazed_marshmallow": "Chocolate Marshmallows",
+  "item.create_confectionery.black_chocolate_bucket": "Dark Chocolate Bucket",
+  "fluid_type.create_confectionery.white_chocolate": "White Chocolate",
+  "fluid_type.create_confectionery.black_chocolate": "Dark Chocolate",
+  "fluid_type.create_confectionery.hot_chocolate": "Hot Chocolate",
+  "fluid_type.create_confectionery.ruby_chocolate": "Ruby Chocolate",
+  "fluid_type.create_confectionery.caramel": "Caramel"
+}

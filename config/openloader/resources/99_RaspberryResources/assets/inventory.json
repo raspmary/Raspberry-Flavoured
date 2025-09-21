@@ -1,0 +1,40 @@
+{
+  "target_type": "menu_class",
+    "target": "InventoryMenu",
+    "slot_modifiers": [
+    {
+      "slots": 0,
+      "x_offset": -20,
+      "y_offset": 31
+    },
+    {
+      "slots": "1->4",
+      "x_offset": 27,
+      "y_offset": -5
+    },
+    {
+      "slots": "5->8",
+      "x_offset": 38,
+      "y_offset": 0
+    },
+    {
+      "slots": 45,
+      "x_offset": -60,
+      "y_offset": -51
+    }
+  ],
+  "special_offsets": {
+    "player": {
+      "x_offset": 37,
+      "y_offset": -2
+    }
+  },
+  "widget_modifiers": [
+	{
+	  "target_width": 20,
+      "x_offset": -89,
+      "y_offset": -15
+    }
+  ],
+  "title_y_offset": -1400
+}

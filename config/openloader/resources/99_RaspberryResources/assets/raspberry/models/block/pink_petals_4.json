@@ -1,0 +1,38 @@
+{
+	"credit": "Edited in Blockbench by ProbablyEkho",
+	"render_type": "cutout",
+	"textures": {
+		"0": "raspberry:block/wildflowers_stem",
+		"1": "raspberry:block/pink_petals",
+		"particle": "raspberry:item/pink_petals"
+	},
+	"elements": [
+		{
+			"from": [8, 1.99, 0],
+			"to": [16, 1.99, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 0]},
+			"faces": {
+				"up": {"uv": [8, 0, 16, 8], "texture": "#1"},
+				"down": {"uv": [8, 8, 16, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [14.15, 0, -3.45],
+			"to": [14.15, 1.99, -2.45],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5, 0, -3]},
+			"faces": {
+				"east": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1},
+				"west": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1}
+			}
+		},
+		{
+			"from": [13.65, 0, -2.95],
+			"to": [14.65, 1.99, -2.95],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5, 0, -3]},
+			"faces": {
+				"north": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1},
+				"south": {"uv": [0, 4, 1, 6], "texture": "#0", "tintindex": 1}
+			}
+		}
+	]
+}

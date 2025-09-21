@@ -1,0 +1,7 @@
+{
+  "enchantment.usefulspyglass.marking": "Silver Eye",
+  "text.usefulspyglass.neutral": "Neutral",
+  "text.usefulspyglass.friendly": "Passive",
+  "text.usefulspyglass.hostile": "Hostile",
+  "enchantment.usefulspyglass.marking.desc": "Applies glowing effect to mobs viewed through the spyglass."
+}

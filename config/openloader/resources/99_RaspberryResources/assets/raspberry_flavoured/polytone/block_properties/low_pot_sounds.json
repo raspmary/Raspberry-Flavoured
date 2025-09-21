@@ -1,0 +1,16 @@
+{
+   "targets": [
+	"ecologics:pot",
+	"supplementaries:planter",
+	"supplementaries:planter_rich"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.pot.break",
+	  "place_sound": "kubejs:sound.pot.place",
+      "hit_sound": "kubejs:sound.pot.hit",
+      "fall_sound": "kubejs:sound.pot.fall",
+      "step_sound": "kubejs:sound.pot.step",
+      "pitch": 0.8,
+      "volume": 1
+   } 
+}

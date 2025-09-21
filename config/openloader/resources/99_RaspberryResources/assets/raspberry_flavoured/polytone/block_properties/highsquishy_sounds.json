@@ -1,0 +1,14 @@
+{
+   "targets": [
+   "autumnity:pancake"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.squishy.break",
+	  "place_sound": "kubejs:sound.squishy.place",
+      "hit_sound": "kubejs:sound.squishy.hit",
+      "fall_sound": "kubejs:sound.squishy.fall",
+      "step_sound": "kubejs:sound.squishy.step",
+      "pitch": 1.4,
+      "volume": 1
+   } 
+}

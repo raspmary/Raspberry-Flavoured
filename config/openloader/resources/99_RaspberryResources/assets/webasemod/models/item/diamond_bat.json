@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "layer0": "webasemod:item/diamond_bat"
+  },
+  "base": {
+    "parent": "webasemod:item/diamond_bat_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "webasemod:item/diamond_bat_gui"
+    },
+    "fixed": {
+      "parent": "webasemod:item/diamond_bat_gui"
+    },
+    "ground": {
+      "parent": "webasemod:item/diamond_bat_gui"
+    }
+  }
+}

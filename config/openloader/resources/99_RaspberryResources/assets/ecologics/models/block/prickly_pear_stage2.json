@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "ecologics:block/prickly_pear_stage2",
+		"particle": "ecologics:item/prickly_pear"
+	},
+	"elements": [
+		{
+			"name": "fruit2",
+			"from": [5, 0, 5],
+			"to": [11, 7, 11],
+			"faces": {
+				"north": {"uv": [0, 3, 3, 6.5], "texture": "#1"},
+				"east": {"uv": [0, 3, 3, 6.5], "texture": "#1"},
+				"south": {"uv": [0, 3, 3, 6.5], "texture": "#1"},
+				"west": {"uv": [0, 3, 3, 6.5], "texture": "#1"},
+				"up": {"uv": [3, 3, 0, 0], "texture": "#1"},
+				"down": {"uv": [3, 6.5, 0, 9.5], "texture": "#1"}
+			}
+		}
+	]
+}

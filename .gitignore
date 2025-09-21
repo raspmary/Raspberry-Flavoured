@@ -52,7 +52,8 @@ kubejs/exported
 kubejs/probe
 kubejs/jsconfig.json
 kubejs/README.txt
-config/openloader/resources/
+config/openloader/resources/*
+!config/openloader/resources/99_RaspberryResources
 
 # Files from Forge MDK
 forge*changelog.txt

@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:special_weapons": {
+      "base_item": "kubejs:rose_gold_rapier",
+      "item_tag": "raspberry_flavoured:special_weapons"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "tools": {
+    "raspberry_flavoured:chalk": {
+      "base_item": "chalk:red_chalk",
+      "item_tag": "forge:chalks"
+    }
+  }
+}

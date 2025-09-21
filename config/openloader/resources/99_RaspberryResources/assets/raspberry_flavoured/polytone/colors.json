@@ -1,0 +1,59 @@
+{
+  "effect": {
+    "minecraft:speed": "33EBFF",
+    "minecraft:slowness": "7786AF",
+    "minecraft:haste": "D9C043",
+    "minecraft:mining_fatigue": "4A4217",
+    "minecraft:strength": "FFC700",
+    "minecraft:instant_health": "FF0000",
+    "minecraft:instant_damage": "A85058",
+    "minecraft:jump_boost": "EAFF68",
+    "minecraft:nausea": "551D4A",
+    "minecraft:regeneration": "CC57A9",
+    "minecraft:resistance": "9146F0",
+    "minecraft:fire_resistance": "FF9900",
+    "minecraft:water_breathing": "5E70D6",
+    "minecraft:invisibility": "F6F6F6",
+    "minecraft:blindness": "1F1F23",
+    "minecraft:night_vision": "3CC43C",
+    "minecraft:hunger": "587653",
+    "minecraft:weakness": "565B56",
+    "minecraft:poison": "87A363",
+    "minecraft:wither": "736156",
+    "minecraft:health_boost": "D96546",
+    "minecraft:absorption": "2552A5",
+    "minecraft:saturation": "F82423",
+    "minecraft:glowing": "94A061",
+    "minecraft:levitation": "78BCA9",
+    "minecraft:slow_falling": "F3CFB9",
+    "minecraft:conduit_power": "1DC2D1",
+    "minecraft:dolphins_grace": "88A3BE",
+    "minecraft:darkness": "292721",
+    "windswept:thorns": "006B31",
+    "oreganized:stunning": "34237F",
+    "quark:resilience": "995423",
+    "caverns_and_chasms:rewind": "684F11",
+    "atmospheric:worsening": "71487A",
+    "environmental:panic": "EBEC43",
+    "atmospheric:spitting": "0",
+    "clash:staggered": "0"
+  },
+  "egg": {
+    "shell": {
+	  "minecraft:enderman": "362A00",
+	  "minecraft:endermite": "362A00",
+	  "minecraft:creeper": "56A02E",
+	  "minecraft:turtle": "3FA442",
+	  "dungeons_mobs:jungle_zombie": "3F562A",
+	  "naturalist:zebra": "949388"
+	},
+    "spots": {
+	  "minecraft:enderman": "8C00AF",
+	  "minecraft:endermite": "912755",
+	  "minecraft:creeper": "112910",
+	  "minecraft:turtle": "CAD091",
+	  "dungeons_mobs:jungle_zombie": "62894B",
+	  "naturalist:zebra": "2F2B2A"
+	}
+  }
+}

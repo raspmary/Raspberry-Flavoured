@@ -1,0 +1,46 @@
+{
+	"format_version": "1.9.0",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "quark:block/pipes",
+		"particle": "quark:block/pipes"
+	},
+	"elements": [
+		{
+			"name": "north",
+			"from": [5, 5, 5],
+			"to": [11, 11, 5],
+			"faces": {
+				"north": {"uv": [13, 8, 16, 11], "texture": "#0"},
+				"south": {"uv": [5, 7.5, 8, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "south",
+			"from": [5, 5, 11],
+			"to": [11, 11, 11],
+			"faces": {
+				"north": {"uv": [5, 7.5, 8, 10.5], "texture": "#0"},
+				"south": {"uv": [16, 8, 13, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "up",
+			"from": [5, 11, 5],
+			"to": [11, 11, 11],
+			"faces": {
+				"up": {"uv": [0, 13, 3, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [5, 7.5, 8, 10.5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "west",
+			"from": [5, 5, 5],
+			"to": [5, 11, 11],
+			"faces": {
+				"east": {"uv": [5, 7.5, 8, 10.5], "texture": "#0"},
+				"west": {"uv": [3, 10, 0, 13], "texture": "#0"}
+			}
+		}
+	]
+}

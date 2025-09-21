@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:mineral_items": {
+      "base_item": "minecraft:raw_iron",
+      "item_tag": "raspberry_flavoured:mineral_items"
+    }
+  }
+}

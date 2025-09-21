@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "culturaldelights:block/fruiting_avocado_leaves_3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+   "targets": [
+	"minecraft:gravel",
+    "supplementaries:raked_gravel",
+    "additionaladditions:patina_block"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.gravel.break",
+	  "place_sound": "kubejs:sound.gravel.place",
+      "hit_sound": "kubejs:sound.gravel.hit",
+      "fall_sound": "kubejs:sound.gravel.fall",
+      "step_sound": "kubejs:sound.gravel.step",
+      "pitch": 1.1,
+      "volume": 1
+   } 
+}

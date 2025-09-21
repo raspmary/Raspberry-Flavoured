@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:material_items": {
+      "base_item": "minecraft:flint",
+      "item_tag": "raspberry_flavoured:material_items"
+    }
+  }
+}

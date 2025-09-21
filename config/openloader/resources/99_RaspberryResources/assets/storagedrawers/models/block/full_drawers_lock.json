@@ -1,0 +1,16 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"lock": "storagedrawers:blocks/indicator/lock_icon"
+	},
+	"elements": [
+		{
+			"from": [7.5, 4.25, -0.02],
+			"to": [8.5, 5.25, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -11, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#lock", "cullface": "north"}
+			}
+		}
+	]
+}

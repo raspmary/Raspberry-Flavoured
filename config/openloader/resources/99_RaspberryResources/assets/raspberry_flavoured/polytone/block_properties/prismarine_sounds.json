@@ -1,0 +1,32 @@
+{
+   "targets": [
+   "minecraft:prismarine_slab",
+   "minecraft:prismarine_brick_slab",
+   "minecraft:dark_prismarine_slab",
+   "minecraft:prismarine_wall",
+   "minecraft:prismarine",
+   "minecraft:prismarine_bricks",
+   "minecraft:dark_prismarine",
+   "minecraft:prismarine_stairs",
+   "minecraft:prismarine_brick_stairs",
+   "minecraft:dark_prismarine_stairs",
+   "upgrade_aquatic:prismarine_rod_bundle",
+   "upgrade_aquatic:luminous_prismarine",
+   "upgrade_aquatic:luminous_prismarine_stairs",
+   "upgrade_aquatic:luminous_prismarine_slab",
+   "supplementaries:prismarine_rod",
+   "quark:prismarine_chest",
+   "quark:prismarine_trapped_chest",
+   "minecraft:conduit",
+   "architects_palette:ender_pearl_block"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.prismarine.break",
+	  "place_sound": "kubejs:sound.prismarine.place",
+      "hit_sound": "kubejs:sound.prismarine.hit",
+      "fall_sound": "kubejs:sound.prismarine.fall",
+      "step_sound": "kubejs:sound.prismarine.step",
+      "volume": 1,
+      "pitch": 1.25
+   } 
+}

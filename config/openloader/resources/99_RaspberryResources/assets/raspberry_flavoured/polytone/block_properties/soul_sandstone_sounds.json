@@ -1,0 +1,27 @@
+{
+   "targets": [
+   "quark:soul_sandstone",
+   "quark:soul_sandstone_slab",
+   "quark:soul_sandstone_stairs",
+   "quark:soul_sandstone_wall",
+   "quark:chiseled_soul_sandstone",
+   "quark:cut_soul_sandstone",
+   "quark:cut_soul_sandstone_slab",
+   "quark:smooth_soul_sandstone",
+   "quark:smooth_soul_sandstone_slab",
+   "quark:smooth_soul_sandstone_stairs",
+   "quark:soul_sandstone_bricks",
+   "quark:soul_sandstone_bricks_slab",
+   "quark:soul_sandstone_bricks_stairs",
+   "quark:soul_sandstone_bricks_wall"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.soul_sandstone.break",
+	  "place_sound": "kubejs:sound.soul_sandstone.place",
+      "hit_sound": "kubejs:sound.soul_sandstone.hit",
+      "fall_sound": "kubejs:sound.soul_sandstone.fall",
+      "step_sound": "kubejs:sound.soul_sandstone.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

@@ -1,0 +1,21 @@
+{
+   "targets": [
+	"kubejs:deepslate_gravel_bricks",
+	"kubejs:deepslate_gravel_brick_slab",
+	"kubejs:deepslate_gravel_brick_stairs",
+	"kubejs:deepslate_gravel_brick_wall",
+	"kubejs:blackstone_gravel_bricks",
+	"kubejs:blackstone_gravel_brick_slab",
+	"kubejs:blackstone_gravel_brick_stairs",
+	"kubejs:blackstone_gravel_brick_wall"
+   ],
+   "sound_type": {
+      "break_sound": "twigs:block.gravel_bricks.break",
+	  "place_sound": "twigs:block.gravel_bricks.place",
+      "hit_sound": "twigs:block.gravel_bricks.hit",
+      "fall_sound": "twigs:block.gravel_bricks.fall",
+      "step_sound": "twigs:block.gravel_bricks.step",
+      "pitch": 0.8,
+      "volume": 1
+   } 
+}

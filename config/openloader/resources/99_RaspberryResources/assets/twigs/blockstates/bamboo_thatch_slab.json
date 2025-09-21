@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "kubejs:block/bamboo_thatch_slab" },
+        "type=top": { "model": "kubejs:block/bamboo_thatch_slab_top" },
+        "type=double": { "model": "kubejs:block/bamboo_thatch" }
+    }
+}

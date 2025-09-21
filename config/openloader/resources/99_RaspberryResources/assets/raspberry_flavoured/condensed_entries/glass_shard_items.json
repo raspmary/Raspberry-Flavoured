@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:glass_shard_items": {
+      "base_item": "quark:clear_shard",
+      "item_tag": "raspberry_flavoured:glass_shard_items"
+    }
+  }
+}

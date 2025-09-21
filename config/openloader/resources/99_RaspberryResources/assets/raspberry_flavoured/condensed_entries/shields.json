@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:shields": {
+      "base_item": "minecraft:shield",
+      "item_tag": "forge:shields"
+    }
+  }
+}

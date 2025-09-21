@@ -1,0 +1,58 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "shieldexp:netherite",
+		"particle": "shieldexp:netherite"
+	},
+	"elements": [
+		{
+			"from": [-6, -11, 1],
+			"to": [6, 11, 2],
+			"faces": {
+				"north": {"uv": [13, 5.75, 16, 11.25], "texture": "#1"},
+				"east": {"uv": [12.75, 5.75, 13, 11.25], "texture": "#1"},
+				"south": {"uv": [9.75, 5.75, 12.75, 11.25], "texture": "#1"},
+				"west": {"uv": [9.5, 5.75, 9.75, 11.25], "texture": "#1"},
+				"up": {"uv": [9.75, 5.5, 12.75, 5.75], "texture": "#1"},
+				"down": {"uv": [12.75, 5.5, 15.75, 5.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-1, -3, -5],
+			"to": [1, 3, 1],
+			"faces": {
+				"north": {"uv": [10, 1.5, 10.5, 3], "texture": "#1"},
+				"east": {"uv": [8.5, 1.5, 10, 3], "texture": "#1"},
+				"south": {"uv": [8, 1.5, 8.5, 3], "texture": "#1"},
+				"west": {"uv": [6.5, 1.5, 8, 3], "texture": "#1"},
+				"up": {"uv": [8, 0, 8.5, 1.5], "texture": "#1"},
+				"down": {"uv": [8.5, 1.5, 9, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [43, 165, 0],
+			"translation": [-6.49, 12.5, -2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [43, -180, 0],
+			"translation": [7.51, 10.25, -1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-15, 4, -10],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [5, 4, -10],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"gui": {
+			"rotation": [15, -25, -5],
+			"translation": [2, 3, 0],
+			"scale": [0.65, 0.65, 0.65]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+   "targets": [
+	"architects_palette:tuff_bricks",
+	"architects_palette:tuff_brick_slab",
+	"architects_palette:tuff_brick_stairs",
+	"architects_palette:tuff_brick_wall",
+	"architects_palette:tuff_pillar",
+	"architects_palette:chiseled_tuff",
+	"architects_palette:heavy_tuff_bricks",
+	"create:cut_tuff_bricks",
+	"create:cut_tuff_brick_stairs",
+	"create:cut_tuff_brick_slab",
+	"create:cut_tuff_brick_wall",
+	"create:small_tuff_bricks",
+	"create:small_tuff_brick_stairs",
+	"create:small_tuff_brick_slab",
+	"create:small_tuff_brick_wall",
+	"quark:tuff_bricks",
+	"quark:tuff_bricks_slab",
+	"quark:tuff_bricks_stairs",
+	"quark:tuff_bricks_wall",
+	"quark:chiseled_tuff_bricks"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.brick_variant.break",
+	  "place_sound": "kubejs:sound.brick_variant.place",
+      "hit_sound": "kubejs:sound.brick_variant.hit",
+      "fall_sound": "kubejs:sound.brick_variant.fall",
+      "step_sound": "kubejs:sound.brick_variant.step",
+      "volume": 1
+   } 
+}

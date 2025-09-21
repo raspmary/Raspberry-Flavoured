@@ -1,0 +1,17 @@
+{
+   "targets": [
+   "minecraft:grass_block", 
+   "minecraft:mycelium", 
+   "minecraft:dirt_path", 
+   "environmental:mycelium_path"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.grass_block.break",
+	  "place_sound": "kubejs:sound.grass_block.place",
+      "hit_sound": "kubejs:sound.grass_block.hit",
+      "fall_sound": "kubejs:sound.grass_block.fall",
+      "step_sound": "kubejs:sound.grass_block.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

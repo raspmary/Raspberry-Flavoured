@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "tools": {
+    "raspberry_flavoured:pickaxes": {
+      "base_item": "minecraft:iron_pickaxe",
+      "item_tag": "forge:tools/pickaxes"
+    }
+  }
+}

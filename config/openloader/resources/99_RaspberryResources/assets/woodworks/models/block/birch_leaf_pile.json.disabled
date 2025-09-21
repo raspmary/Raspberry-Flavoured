@@ -1,0 +1,7 @@
+{
+  "parent": "blueprint:block/leaf_pile",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "minecraft:block/birch_leaves"
+  }
+}

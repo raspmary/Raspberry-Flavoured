@@ -1,0 +1,7 @@
+{
+  "parent": "emi:item/half_item",
+  "textures": {
+    "first": "minecraft:block/peony_top",
+    "second": "minecraft:block/rose_bush_top"
+  }
+}

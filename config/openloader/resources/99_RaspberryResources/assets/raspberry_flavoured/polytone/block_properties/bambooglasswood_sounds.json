@@ -1,0 +1,15 @@
+{
+   "targets": [
+   "everycomp:c/quark/bamboo_window",
+   "everycomp:c/quark/bamboo_window_pane"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.bambooglasswood.break",
+	  "place_sound": "kubejs:sound.bambooglasswood.place",
+      "hit_sound": "kubejs:sound.bambooglasswood.hit",
+      "fall_sound": "kubejs:sound.bambooglasswood.fall",
+      "step_sound": "kubejs:sound.bambooglasswood.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

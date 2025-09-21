@@ -1,0 +1,9 @@
+{
+  "parent": "emi:item/quarter_item",
+  "textures": {
+    "first": "kubejs:item/music_discs/precipice",
+    "second": "kubejs:item/music_discs/5",
+    "third": "kubejs:item/music_discs/pigstep",
+    "fourth": "kubejs:item/music_discs/shimmer"
+  }
+}

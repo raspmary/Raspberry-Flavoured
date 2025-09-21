@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "combat": {
+    "raspberry_flavoured:helmets": {
+      "base_item": "minecraft:iron_helmet",
+      "item_tag": "forge:armors/helmets"
+    }
+  }
+}

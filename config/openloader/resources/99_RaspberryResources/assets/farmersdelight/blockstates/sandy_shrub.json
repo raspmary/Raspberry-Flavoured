@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "farmersdelight:block/dry_grass_1"
+	  },
+      {
+        "model": "farmersdelight:block/dry_grass_2"
+	  }
+    ]
+  }
+}

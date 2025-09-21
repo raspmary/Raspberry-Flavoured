@@ -1,0 +1,33 @@
+{
+  "block.present.place": {
+	"replace": true,
+    "sounds": [
+      "supplementaries:block/present_place_0",
+      "supplementaries:block/present_place_1",
+      "supplementaries:block/present_place_2"
+    ]
+  },
+  "block.present.break": {
+	"replace": true,
+    "sounds": [
+      "supplementaries:block/present_break_1",
+      "supplementaries:block/present_break_2",
+      "supplementaries:block/present_break_0"
+    ]
+  },
+  "block.present.open": {
+	"replace": true,
+    "subtitle": "subtitle.supplementaries.present.open",
+    "sounds": [
+      "supplementaries:block/present_open",
+      "supplementaries:block/present_open_1"
+    ]
+  },
+  "block.present.pack": {
+	"replace": true,
+    "subtitle": "subtitle.supplementaries.present.pack",
+    "sounds": [
+      "supplementaries:block/present_pack"
+    ]
+  }
+}

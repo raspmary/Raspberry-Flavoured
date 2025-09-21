@@ -1,0 +1,27 @@
+{
+   "targets": [
+   "create:birch_window",
+   "create:jungle_window",
+   "create:acacia_window",
+   "create:birch_window_pane",
+   "create:jungle_window_pane",
+   "create:acacia_window_pane",
+   "everycomp:c/atmospheric/rosewood_window",
+   "everycomp:c/atmospheric/yucca_window",
+   "everycomp:c/ecologics/azalea_window",
+   "everycomp:c/environmental/cherry_window_pane",
+   "everycomp:c/environmental/cherry_window",
+   "everycomp:c/atmospheric/rosewood_window_pane",
+   "everycomp:c/atmospheric/yucca_window_pane",
+   "everycomp:c/ecologics/azalea_window_pane"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.altglasswood1.break",
+	  "place_sound": "kubejs:sound.altglasswood1.place",
+      "hit_sound": "kubejs:sound.altglasswood1.hit",
+      "fall_sound": "kubejs:sound.altglasswood1.fall",
+      "step_sound": "kubejs:sound.altglasswood1.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

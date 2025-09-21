@@ -1,0 +1,16 @@
+{
+   "targets": [
+   "kubejs:rubber_block",
+   "kubejs:rubber_tire",
+   "quark:bonded_leather"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.rubber.break",
+	  "place_sound": "kubejs:sound.rubber.place",
+      "hit_sound": "kubejs:sound.rubber.hit",
+      "fall_sound": "kubejs:sound.rubber.fall",
+      "step_sound": "kubejs:sound.rubber.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

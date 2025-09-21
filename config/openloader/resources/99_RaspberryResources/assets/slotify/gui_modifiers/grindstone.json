@@ -1,0 +1,17 @@
+{
+  "target_type": "menu_id",
+    "target": "grindstone",
+    "slot_modifiers": [
+    {
+      "slots": "0->1",
+      "x_offset": 0,
+      "y_offset": 4
+    },
+    {
+      "slots": 2,
+      "x_offset": -3,
+      "y_offset": 0
+    }
+  ],
+  "title_x_offset": -2000
+}

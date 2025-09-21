@@ -1,0 +1,17 @@
+{
+   "targets": [
+	"minecraft:tnt",
+	"oreganized:shrapnel_bomb",
+	"savage_and_ravage:spore_bomb",
+	"quark:stick_block"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.tnt.break",
+	  "place_sound": "kubejs:sound.tnt.place",
+      "hit_sound": "kubejs:sound.tnt.hit",
+      "fall_sound": "kubejs:sound.tnt.fall",
+      "step_sound": "kubejs:sound.tnt.step",
+      "pitch": 1.3,
+      "volume": 1
+   } 
+}

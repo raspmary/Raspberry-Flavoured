@@ -1,0 +1,4 @@
+{
+  "jei.just_enough_beacons.payment_item.tooltip": "Extends beacon range by %s blocks when used to activate the beacon",
+  "jei.just_enough_beacons.base_blocks.tooltip": "Increases the amplifier of the primary effects by %s when used to construct the beacon base"
+}

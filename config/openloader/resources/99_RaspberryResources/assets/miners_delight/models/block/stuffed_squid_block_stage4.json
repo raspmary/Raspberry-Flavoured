@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [64, 32],
+	"textures": {
+		"1": "miners_delight:block/tray_bottom",
+		"2": "miners_delight:block/tray_stuffed_squid",
+		"3": "miners_delight:block/stuffed_squid",
+		"particle": "miners_delight:block/tray_stuffed_squid"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"east": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"south": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"west": {"uv": [1, 11, 15, 13], "texture": "#1"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#2"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [2, 2, 2],
+			"to": [14, 7, 14],
+			"faces": {
+				"north": {"uv": [3, 8.5, 6, 6], "texture": "#3"},
+				"east": {"uv": [3, 8.5, 0, 6], "texture": "#3"},
+				"south": {"uv": [6, 8.5, 9, 6], "texture": "#3"},
+				"west": {"uv": [3, 8.5, 0, 6], "texture": "#3"},
+				"up": {"uv": [3, 0, 6, 6], "texture": "#3"},
+				"down": {"uv": [0, 0, 3, 6], "texture": "#3"}
+			}
+		},
+		{
+			"name": "rice",
+			"from": [4.5, 5, 4.5],
+			"to": [11.5, 8, 11.5],
+			"faces": {
+				"north": {"uv": [10.5, 10, 12.5, 11.5], "texture": "#3"},
+				"east": {"uv": [12.5, 10, 14.25, 11.5], "texture": "#3"},
+				"south": {"uv": [10.5, 4.5, 12.5, 6], "texture": "#3"},
+				"west": {"uv": [12.5, 8, 14.25, 9.5], "texture": "#3"},
+				"up": {"uv": [10.5, 6.5, 12.25, 10], "texture": "#3"},
+				"down": {"uv": [10.5, 6.5, 12.25, 10], "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "stuffed_squid",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "plate",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "squid",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						1,
+						2,
+						{
+							"name": "tentacles",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

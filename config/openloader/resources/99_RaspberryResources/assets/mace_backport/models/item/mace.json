@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "layer0": "mace_backport:item/mace_gui"
+  },
+  "base": {
+    "parent": "mace_backport:item/mace_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mace_backport:item/mace_gui"
+    },
+    "fixed": {
+      "parent": "mace_backport:item/mace_gui"
+    },
+    "ground": {
+      "parent": "mace_backport:item/mace_gui"
+    }
+  }
+}

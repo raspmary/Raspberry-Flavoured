@@ -1,0 +1,43 @@
+{
+   "targets": [
+   "raspberry:cake",
+   "raspberry:vanilla_cake",
+   "raspberry:chocolate_cake",
+   "raspberry:strawberry_cake",
+   "raspberry:banana_cake",
+   "raspberry:mint_cake",
+   "raspberry:cherry_cake",
+   "raspberry:coffee_cake",
+   "raspberry:green_tea_cake",
+   "raspberry:yellow_tea_cake",
+   "raspberry:black_tea_cake",
+   "raspberry:magma_cake",
+   "supplementaries:double_cake",
+   "atmospheric:yucca_gateau",
+   "autumnity:turkey",
+   "autumnity:cooked_turkey",
+   "create_central_kitchen:pumpkin_pie",
+   "create_central_kitchen:cherry_pie",
+   "create_central_kitchen:truffle_pie",
+   "create_central_kitchen:mulberry_pie",
+   "farmersdelight:sweet_berry_cheesecake",
+   "farmersdelight:apple_pie",
+   "farmersdelight:chocolate_pie",
+   "farmersrespite:rose_hip_pie",
+   "kubejs:pumpkin_pie",
+   "kubejs:prickly_pear_pie",
+   "kubejs:butterscotch_cinnamon_pie",
+   "brewinandchewin:quiche",
+   "brewinandchewin:pizza",
+   "brewinandchewin:flaxen_cheese_wheel"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.squishy.break",
+	  "place_sound": "kubejs:sound.squishy.place",
+      "hit_sound": "kubejs:sound.squishy.hit",
+      "fall_sound": "kubejs:sound.squishy.fall",
+      "step_sound": "kubejs:sound.squishy.step",
+      "pitch": 1.1,
+      "volume": 1
+   } 
+}

@@ -1,0 +1,464 @@
+{
+  "multipart": [
+    {   
+      "when": {
+        "north": false, "south": false, "east": false, "west": false, "up": false, "down": false
+      },
+      "apply": { "model": "quark:block/pipe/junction" }
+    },
+    {   
+      "when": {
+        "OR": [
+          { "north": true, "south": false},
+          { "north": true, "south": true, "east": true},
+          { "north": true, "south": true, "west": true},
+          { "north": true, "south": true, "up": true},
+          { "north": true, "south": true, "down": true}
+        ]
+      },
+      "apply": { "model": "quark:block/pipe/connection/north" }
+    },
+    {   
+      "when": {
+        "OR": [
+          { "north": false, "south": true},
+          { "north": true, "south": true, "east": true},
+          { "north": true, "south": true, "west": true},
+          { "north": true, "south": true, "up": true},
+          { "north": true, "south": true, "down": true}
+        ]
+      },
+      "apply": { "model": "quark:block/pipe/connection/south" }
+    },
+    {   
+      "when": {
+        "OR": [
+          { "east": true, "west": false},
+          { "east": true, "west": true, "north": true},
+          { "east": true, "west": true, "south": true},
+          { "east": true, "west": true, "up": true},
+          { "east": true, "west": true, "down": true}
+        ]
+      },
+      "apply": { "model": "quark:block/pipe/connection/east" }
+    },
+    {   
+      "when": {
+        "OR": [
+          { "east": false, "west": true},
+          { "east": true, "west": true, "north": true},
+          { "east": true, "west": true, "south": true},
+          { "east": true, "west": true, "up": true},
+          { "east": true, "west": true, "down": true}
+        ]
+      },
+      "apply": { "model": "quark:block/pipe/connection/west" }
+    },
+    {   
+      "when": {
+        "OR": [
+          { "up": true, "down": false},
+          { "up": true, "down": true, "north": true},
+          { "up": true, "down": true, "south": true},
+          { "up": true, "down": true, "east": true},
+          { "up": true, "down": true, "west": true}
+        ]
+      },
+      "apply": { "model": "quark:block/pipe/connection/up" }
+    },
+    {   
+      "when": {
+        "OR": [
+          { "up": false, "down": true},
+          { "up": true, "down": true, "north": true},
+          { "up": true, "down": true, "south": true},
+          { "up": true, "down": true, "east": true},
+          { "up": true, "down": true, "west": true}
+        ]
+      },
+      "apply": { "model": "quark:block/pipe/connection/down" }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/junction"
+      },
+      "when": {
+        "OR": [
+          {
+            "north": "true",
+            "south": "true",
+            "west": "true"
+          },
+          {
+            "north": "true",
+            "south": "true",
+            "up": "true"
+          },
+          {
+            "north": "true",
+            "south": "true",
+            "down": "true"
+          },
+          {
+            "north": "true",
+            "south": "true",
+            "east": "true"
+          },
+          {
+            "east": "true",
+            "west": "true",
+            "up": "true"
+          },
+          {
+            "east": "true",
+            "west": "true",
+            "down": "true"
+          },
+          {
+            "east": "true",
+            "west": "true",
+            "north": "true"
+          },
+          {
+            "east": "true",
+            "west": "true",
+            "south": "true"
+          },
+          {
+            "up": "true",
+            "down": "true",
+            "north": "true"
+          },
+          {
+            "up": "true",
+            "down": "true",
+            "south": "true"
+          },
+          {
+            "up": "true",
+            "down": "true",
+            "east": "true"
+          },
+          {
+            "up": "true",
+            "down": "true",
+            "west": "true"
+          },
+          {
+            "north": "true",
+            "up": "true",
+            "west": "true"
+          },
+          {
+            "north": "true",
+            "up": "true",
+            "east": "true"
+          },
+          {
+            "north": "true",
+            "down": "true",
+            "west": "true"
+          },
+          {
+            "north": "true",
+            "down": "true",
+            "east": "true"
+          },
+          {
+            "south": "true",
+            "up": "true",
+            "west": "true"
+          },
+          {
+            "south": "true",
+            "up": "true",
+            "east": "true"
+          },
+          {
+            "south": "true",
+            "down": "true",
+            "west": "true"
+          },
+          {
+            "south": "true",
+            "down": "true",
+            "east": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/n"
+      },
+      "when": {
+        "north": "true",
+        "south": "false",
+        "east": "false",
+        "west": "false",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/s"
+      },
+      "when": {
+        "north": "false",
+        "south": "true",
+        "east": "false",
+        "west": "false",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/e"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "true",
+        "west": "false",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/w"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "false",
+        "west": "true",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/u"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "false",
+        "west": "false",
+        "up": "true",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/d"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "false",
+        "west": "false",
+        "up": "false",
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/ns"
+      },
+      "when": {
+        "north": "true",
+        "south": "true",
+        "east": "false",
+        "west": "false",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/ne"
+      },
+      "when": {
+        "north": "true",
+        "south": "false",
+        "east": "true",
+        "west": "false",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/nw"
+      },
+      "when": {
+        "north": "true",
+        "south": "false",
+        "east": "false",
+        "west": "true",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/nu"
+      },
+      "when": {
+        "north": "true",
+        "south": "false",
+        "east": "false",
+        "west": "false",
+        "up": "true",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/nd"
+      },
+      "when": {
+        "north": "true",
+        "south": "false",
+        "east": "false",
+        "west": "false",
+        "up": "false",
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/se"
+      },
+      "when": {
+        "north": "false",
+        "south": "true",
+        "east": "true",
+        "west": "false",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/sw"
+      },
+      "when": {
+        "north": "false",
+        "south": "true",
+        "east": "false",
+        "west": "true",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/su"
+      },
+      "when": {
+        "north": "false",
+        "south": "true",
+        "east": "false",
+        "west": "false",
+        "up": "true",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/sd"
+      },
+      "when": {
+        "north": "false",
+        "south": "true",
+        "east": "false",
+        "west": "false",
+        "up": "false",
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/ew"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "true",
+        "west": "true",
+        "up": "false",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/eu"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "true",
+        "west": "false",
+        "up": "true",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/ed"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "true",
+        "west": "false",
+        "up": "false",
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/wu"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "false",
+        "west": "true",
+        "up": "true",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/wd"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "false",
+        "west": "true",
+        "up": "false",
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "quark:block/pipe/ud"
+      },
+      "when": {
+        "north": "false",
+        "south": "false",
+        "east": "false",
+        "west": "false",
+        "up": "true",
+        "down": "true"
+      }
+    }
+  ]
+}

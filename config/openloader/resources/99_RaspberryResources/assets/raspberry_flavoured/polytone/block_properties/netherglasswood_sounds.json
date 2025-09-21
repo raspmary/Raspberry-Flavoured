@@ -1,0 +1,19 @@
+{
+   "targets": [
+   "create:crimson_window",
+   "create:warped_window",
+   "create:crimson_window_pane",
+   "create:warped_window_pane",
+   "everycomp:c/architects_palette/twisted_window",
+   "everycomp:c/architects_palette/twisted_window_pane"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.netherglasswood.break",
+	  "place_sound": "kubejs:sound.netherglasswood.place",
+      "hit_sound": "kubejs:sound.netherglasswood.hit",
+      "fall_sound": "kubejs:sound.netherglasswood.fall",
+      "step_sound": "kubejs:sound.netherglasswood.step",
+      "pitch": 0.925,
+      "volume": 1
+   } 
+}

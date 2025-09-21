@@ -1,0 +1,15 @@
+{
+	"credit": "Defines the 2D area for rendering fill level",
+	"parent": "block/block",
+	"elements": [
+		{
+			"name": "slot 1",
+			"from": [3, 3, -0.02],
+			"to": [13, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#particle"}
+			}
+		}
+	]
+}

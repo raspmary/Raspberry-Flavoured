@@ -1,0 +1,13 @@
+{
+   "targets": [
+	"supplementaries:urn"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.pot.break",
+	  "place_sound": "kubejs:sound.pot.place",
+      "hit_sound": "kubejs:sound.pot.hit",
+      "fall_sound": "kubejs:sound.pot.fall",
+      "step_sound": "kubejs:sound.pot.step",
+      "volume": 1
+   } 
+}

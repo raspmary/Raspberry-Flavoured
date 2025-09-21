@@ -1,0 +1,14 @@
+{
+   "targets": [
+   "supplementaries:crank"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.small.break",
+	  "place_sound": "kubejs:sound.small.place",
+      "hit_sound": "kubejs:sound.small.place",
+      "fall_sound": "kubejs:sound.small.place",
+      "step_sound": "kubejs:sound.small.place",
+      "pitch": 0.85,
+      "volume": 1
+   } 
+}
