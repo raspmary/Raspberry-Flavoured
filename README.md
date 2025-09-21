@@ -5,7 +5,7 @@ A Minecraft 1.19.2 modpack
 
 **raspmary** - Project lead
 
-**Baisylia** - Programming, Discord 
+**Baisylia** - Co-lead, programming, Discord 
 & GitHub management
 
 **cassiancc** - Creator and main 
