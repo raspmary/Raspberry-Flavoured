@@ -9,7 +9,8 @@ A Minecraft 1.19.2 modpack
 & GitHub management
 
 **cassiancc** - Creator and main 
-developer of Raspberry Core
+developer of Raspberry Core, Discord 
+& GitHub management
 
 **DavigJ** - Major work on 
 Raspberry Core, creator of various 
@@ -33,7 +34,7 @@ sprite/texture work
 
 **ProbablyEkho** - Major sprite/texture work
 
-**Kayla_the_Bee** - Major sprite/texture work
+**Kayla_the_Bee** - Major sprite/texture work, Discord management
 
 **ChadVAFN** - Ideas, Discord management
 
