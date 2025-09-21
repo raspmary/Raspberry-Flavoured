@@ -1375,6 +1375,12 @@ ServerEvents.tags('item', event => {
 		.add('create:chocolate_glazed_berries')
 		.add('create_confectionery:chocolate_glazed_marshmallow')
 
+	event.get('raspberry_flavoured:bombs')
+		.add('supplementaries:bomb')
+		.add('supplementaries:bomb_spiky')
+		.add('supplementaries:bomb_blue')
+		.add('raspberry:rose_gold_bomb')
+
 	event.get('raspberry_flavoured:work_in_progress')
 		.add('minecraft:evoker_spawn_egg')
 

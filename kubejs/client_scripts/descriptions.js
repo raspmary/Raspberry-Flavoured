@@ -23,14 +23,21 @@ const keysToItems = {
     'rf.jei.electrum_armor': ['oreganized:electrum_helmet', 'oreganized:electrum_chestplate', 'oreganized:electrum_leggings', 'oreganized:electrum_boots'],
     'rf.jei.necromium_armor': ['caverns_and_chasms:necromium_helmet', 'caverns_and_chasms:necromium_chestplate', 'caverns_and_chasms:necromium_leggings', 'caverns_and_chasms:necromium_boots'],
     'rf.jei.netherite_armor': ['minecraft:netherite_helmet', 'minecraft:netherite_chestplate', 'minecraft:netherite_leggings', 'minecraft:netherite_boots'],
+	
     'rf.jei.steel_mace': 'mace_backport:mace',
     'rf.jei.rose_gold_rapier': 'kubejs:rose_gold_rapier',
     'rf.jei.electrum_spear': 'clash:spear',
     'rf.jei.necromium_claymore': 'clash:greatblade',
     'rf.jei.netherite_broad_axe': 'clash:swept_axe',
+	
     'rf.jei.hoes': '#forge:tools/hoes',
     'rf.jei.shears': ['minecraft:shears', 'ecologics:crab_claw'],
     'rf.jei.turtle_helmet': 'minecraft:turtle_helmet',
+	
+    'rf.jei.bomb': 'supplementaries:bomb',
+    'rf.jei.blue_bomb': 'supplementaries:bomb_blue',
+    'rf.jei.spiky_bomb': 'supplementaries:bomb_spiky',
+    'rf.jei.rose_gold_bomb': 'raspberry:rose_gold_bomb',
 	
     'rf.jei.tea': ['#farmersrespite:tea_leaves', 'farmersrespite:wild_tea_bush', 'farmersrespite:tea_seeds'],
     'rf.jei.coffee': ['farmersrespite:coffee_beans', 'farmersrespite:coffee_berries', 'farmersrespite:wild_coffee_bush'],

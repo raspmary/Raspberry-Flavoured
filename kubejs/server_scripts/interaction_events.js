@@ -576,11 +576,6 @@ ItemEvents.rightClicked("kubejs:spirited_exopearl", event => {
     }
 })
 
-// creeper spores advancement
-ItemEvents.rightClicked('savage_and_ravage:creeper_spores', event => {
-    event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/creeper_spores`)
-})
-
 // message in a bottle
 ItemEvents.rightClicked('aquaculture:message_in_a_bottle', event => {
     event.player.swing(event.hand, true)
@@ -664,4 +659,14 @@ ItemEvents.rightClicked('raspberry:ashball', event => {
 })
 ItemEvents.rightClicked('raspberry:rose_gold_bomb', event => {
     event.player.addItemCooldown('raspberry:rose_gold_bomb', 10)
+})
+
+// advancements
+ItemEvents.rightClicked(event => {
+    if (event.item.id === 'savage_and_ravage:creeper_spores') {
+		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/creeper_spores`)
+    }
+    if (event.item.hasTag('raspberry_flavoured:bombs')) {
+		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/bomb`)
+    }
 })

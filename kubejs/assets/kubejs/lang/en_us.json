@@ -248,6 +248,11 @@
   "rf.jei.shears": "Shears will allow you to gather wool from sheep, as they won't yield any when killed. Yes, that crab claw is a pair of shears.",
   "rf.jei.turtle_helmet": "Will have its durability continously drain while underwater, but as long as it has any durability, it will provide you with oxygen.",
   
+  "rf.jei.bomb": "Can be thrown to deal explosive damage in an area. Does not damage terrain. Causes Creepers and other similar mobs to ignite their fuse.",
+  "rf.jei.blue_bomb": "Can be thrown to stick to surfaces for a brief moment before exploding and dealing very high damage, lighting targets on fire and weakening them if not dead. Does not damage terrain. Causes Creepers and other similar mobs to ignite their fuse. Found rarely in underground Urns and as part of various loot.",
+  "rf.jei.spiky_bomb": "Can be thrown to deal explosive damage in an area. Throws out shrapnel in all directions which poisons targets. Does not damage terrain. Causes Creepers and other similar mobs to ignite their fuse.",
+  "rf.jei.rose_gold_bomb": "Can be thrown to cause no damage but high knockback. Does not damage terrain. Does not cause any mobs to ignite.",
+  
   "rf.jei.tea": "Tea is rarely found in Swamps. Harvesting tea in different stages of its growth will yield different colored leaves.",
   "rf.jei.coffee": "Coffee is found in Basalt Deltas and occassionally as part of loot in Nether Fortresses and Bastion Remnants. In the Overworld, coffee needs crops around it to grow and will cause those crops to wither away. It will grow by itself if planted in the Nether.",
   "rf.jei.wheat": "Wheat is grown with Wheat Seeds, which can be found by mowing through Grass using a Hoe.",
@@ -659,6 +664,8 @@
   
   "advancements.rf.exploration.root.title": "Exploration & Discovery",
   "advancements.rf.exploration.root.description": "Explore, sightsee and gather resources!",
+  "advancements.rf.exploration.bomb.title": "It's Yours, My Friend",
+  "advancements.rf.exploration.bomb.description": "Throw any kind of Bomb",
   "advancements.rf.exploration.creeper_spores.title": "Suicide Squad",
   "advancements.rf.exploration.creeper_spores.description": "Throw creeper spores to summon a bunch of friendly creepies that will attack mobs",
   "advancements.rf.exploration.aftershock.title": "Supercharged",

@@ -176,7 +176,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('spelunkery:salt', ['2x spelunkery:rock_salt'])
 	event.shapeless('2x kubejs:maple_glazed_chestnuts', ['autumnity:syrup_bottle', '2x windswept:roasted_chestnuts'])
 	event.shapeless('8x supplementaries:bomb', ['string', 'gunpowder', '#forge:ingots/iron']).id('supplementaries:bomb')
-	event.shapeless('8x supplementaries:bomb_spiky', ['string', 'gunpowder', '2x #forge:ingots/lead']).id('supplementaries:spiky_bomb')
+	event.shapeless('8x supplementaries:bomb_spiky', ['string', 'gunpowder', '3x #forge:ingots/lead']).id('supplementaries:spiky_bomb')
 	event.shapeless('8x raspberry:rose_gold_bomb', ['string', 'gunpowder', '#forge:ingots/rose_gold'])
 	event.shapeless('2x pink_dye', ['ecologics:azalea_flower'])
 	

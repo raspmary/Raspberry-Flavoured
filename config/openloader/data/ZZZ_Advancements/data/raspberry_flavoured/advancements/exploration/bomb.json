@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/bomb",
+  "parent": "raspberry_flavoured:exploration/root",
   "criteria": {
     "0": {
       "trigger": "minecraft:impossible"
@@ -7,22 +7,22 @@
   },
   "display": {
     "title": {
-      "translate": "advancements.rf.exploration.creeper_spores.title"
+      "translate": "advancements.rf.exploration.bomb.title"
     },
     "description": {
       "color": "#CE3131",
-      "translate": "advancements.rf.exploration.creeper_spores.description"
+      "translate": "advancements.rf.exploration.bomb.description"
     },
     "icon": {
-      "item": "savage_and_ravage:creeper_spores"
+      "item": "supplementaries:bomb"
     },
     "frame": "task",
-    "hidden": true,
+    "hidden": false,
     "announce_to_chat": true,
     "show_toast": true
   },
   "rewards": {
-      "function": "raspberry_flavoured:sound_task"
+      "function": "raspberry_flavoured:sound_regular"
     },
   "requirements": [
     [
