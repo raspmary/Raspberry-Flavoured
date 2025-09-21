@@ -1,7 +1,7 @@
 # Raspberry Flavoured
 A Minecraft 1.19.2 modpack
 
-## MODPACK CREDITS:
+### MODPACK CREDITS:
 
 **raspmary** - Project lead
 
