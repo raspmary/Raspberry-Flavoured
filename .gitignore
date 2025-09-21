@@ -42,7 +42,7 @@ servers.dat_old
 usercache.json
 usernamecache.json
 backups
-etched-sounds
+etched-sounds/
 fancymenu_data
 logs
 .qmenu_opened.marker
@@ -55,3 +55,6 @@ kubejs/README.txt
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# Baisylia's Files
+instance.json
