@@ -2,6 +2,6 @@
 	"parent": "supplementaries:block/timber_frame",
 	"textures": {
 		"1": "suppsquared:block/metal_brace_f",
-		"particle": "suppsquared:block/metal_brace_f"
+		"2": "suppsquared:block/metal_frame_inside"
 	}
 }
