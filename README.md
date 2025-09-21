@@ -1,52 +1,53 @@
 # Raspberry Flavoured
  A Minecraft 1.19.2 modpack
 
-RESOURCE PACK CREDITS:
-
-The following resource packs have been modified to fit the modpack, however neither I nor any of the RF team members claim them as our own. Please support the original authors.
-
-Team VanillaTweaks - VanillaTweaks resource pack
-
-hatsondogs - Peeves resource pack
-
-vectorwing - Detail Brush, Refined Armor and Soft Weather resource packs
-
-8shadowscrow8 - SHC Enhanced Fire resource pack
-
-db3k - Create Reoxidized resource pack
-
-spydnel - Created & Updated resource pack
-
-Kayladillo - Better Create Palettes resource pack
-
-wedge1453 - Create Style Modded Compats resource pack
-
-Scutoel - Vex Backport & Bat Backport resource packs
-
-Farcr - Farcr's Re-Crafted resource pack
-
-Paradiscal - Up to Scratch resource pack
-
-Feranogame - Quark Vanilla Resource Overrides resource pack
-
-joosh_7889 - Better Mob Models resource pack
-
-MythrilBagels - Bagels' Animal Tweaks resource pack
-
-bebebea_loste - Banner Pattern Clarity resource pack
-
-RF TEAM CREDITS:
-
-raspmary - Project Lead
-
-Nive - Artist
-
-QinomeD - Programmer
-
-nöelle - Artist
-
-Crabbarition - Programmer/Musician
-
-NCP_Bails - Programmer/GitHub Manager
-
-Chad - Brainstormer/Project Manager
+raspmary - Project lead
+Baisylia - Programming, Discord 
+& GitHub management
+cassiancc - Creator and main 
+developer of Raspberry Core
+DavigJ - Major work on 
+Raspberry Core, creator of various 
+useful mods in RF
+nöelle - Major sprite/texture 
+work & music
+Nive - Major sprite/texture work
+QinomeD - Programming, creator 
+of KubeJS Delight
+Crabbarition - Programming, music, 
+Discord management
+asof - Major programming work,
+sprite/texture work
+Derb - Major sprite/texture work
+ProbablyEkho - Major sprite/texture work
+Kayla_the_Bee - Major sprite/texture work
+ChadVAFN - Ideas, Discord management
+Kiroto - Public RF SMP server owner
+MehVahdJukaar - Creator of various 
+essential mods in RF (made tweaks 
+upon request)
+DoltHHaven - Mod configurations, 
+creator of some useful mods in RF
+Kobber - Sprite/texture work
+MythrilBagels - Sprite/texture work, 
+creator of some resource packs in RF
+Jamiscus - Sprite/texture work
+CW - Sprite/texture work
+noodleman - Sprite/texture work
+beb - Sprite/texture work
+Jameslice - Sprite/texture work
+jaybees - Ideas, sprite/texture 
+SarahIsWeird - Programming,
+Raspberry Core contributor
+Grom PE - Programming
+WaterOre - Ideas, programming
+AkhillLikesMinecraft - Programming
+culling - Programming
+Kelpiesaurus - Ideas, mod configurations
+db3k - Inspiration for 
+built-in resource packs
+Vazkii - Mod configurations
+Freshah - Previously assisted 
+with programming
+murao.kun - Previous inspiration 
+for inventory layout
