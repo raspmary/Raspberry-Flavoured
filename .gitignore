@@ -52,6 +52,7 @@ kubejs/exported
 kubejs/probe
 kubejs/jsconfig.json
 kubejs/README.txt
+config/openloader/resources
 
 # Files from Forge MDK
 forge*changelog.txt
