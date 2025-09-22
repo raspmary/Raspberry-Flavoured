@@ -61,3 +61,6 @@ forge*changelog.txt
 
 # Baisylia's Files
 instance.json
+
+# macOS
+.DS_Store
