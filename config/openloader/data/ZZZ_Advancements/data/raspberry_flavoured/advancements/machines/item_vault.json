@@ -1,23 +1,23 @@
 {
-  "parent": "raspberry_flavoured:machines/mechanical_harvester",
+  "parent": "raspberry_flavoured:machines/mechanical_press",
   "criteria": {
     "0": {
       "conditions": {
-        "block": "create:mechanical_mixer"
+        "block": "create:item_vault"
       },
       "trigger": "minecraft:placed_block"
     }
   },
   "display": {
     "title": {
-      "translate": "advancements.rf.machines.mechanical_mixer.title"
+      "translate": "advancements.rf.machines.item_vault.title"
     },
     "description": {
       "color": "#DBA213",
-      "translate": "advancements.rf.machines.mechanical_mixer.description"
+      "translate": "advancements.rf.machines.item_vault.description"
     },
     "icon": {
-      "item": "create:mechanical_mixer"
+      "item": "create:item_vault"
     },
     "frame": "task",
     "hidden": false,
@@ -25,7 +25,7 @@
     "show_toast": true
   },
   "rewards": {
-      "function": "raspberry_flavoured:sound_regular"
+      "function": "raspberry_flavoured:sound_task"
     },
   "requirements": [
     [

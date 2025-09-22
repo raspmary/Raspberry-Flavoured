@@ -16,7 +16,10 @@ const blacklist = [
 	"shieldexp.tooltip.attribute.speed_factor_fast",
 	"shieldexp.tooltip.attribute.parry_damage",
 	"tooltip.storagedrawers.drawers.capacity",
-	"item.storagedrawers.drawer_key.desc"
+	"item.storagedrawers.drawer_key.desc",
+	"tooltip.toms_storage.hold_shift_for_info",
+	"tooltip.toms_storage.storage_terminal",
+	"tooltip.toms_storage.inventory_connector"
 ];
 
 // remove blacklisted tooltips

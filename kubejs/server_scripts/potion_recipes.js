@@ -59,12 +59,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:healing"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'4x #raspberry_flavoured:golden_healers'
-	]).heated()
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"minecraft:healing"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'caverns_and_chasms:bejeweled_apple'
+		'2x caverns_and_chasms:bejeweled_apple'
 	]).heated()
 	// Regeneration
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 

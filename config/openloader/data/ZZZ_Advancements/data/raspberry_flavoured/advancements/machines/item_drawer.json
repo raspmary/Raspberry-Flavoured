@@ -1,31 +1,31 @@
 {
-  "parent": "raspberry_flavoured:machines/mechanical_harvester",
+  "parent": "raspberry_flavoured:machines/item_vault",
   "criteria": {
     "0": {
       "conditions": {
-        "block": "create:mechanical_mixer"
+        "block": "storagedrawers:oak_full_drawers_1"
       },
       "trigger": "minecraft:placed_block"
     }
   },
   "display": {
     "title": {
-      "translate": "advancements.rf.machines.mechanical_mixer.title"
+      "translate": "advancements.rf.machines.item_drawer.title"
     },
     "description": {
       "color": "#DBA213",
-      "translate": "advancements.rf.machines.mechanical_mixer.description"
+      "translate": "advancements.rf.machines.item_drawer.description"
     },
     "icon": {
-      "item": "create:mechanical_mixer"
+      "item": "storagedrawers:oak_full_drawers_1"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "announce_to_chat": true,
     "show_toast": true
   },
   "rewards": {
-      "function": "raspberry_flavoured:sound_regular"
+      "function": "raspberry_flavoured:sound_goal"
     },
   "requirements": [
     [

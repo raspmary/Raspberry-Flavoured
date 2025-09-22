@@ -1129,7 +1129,6 @@ ServerEvents.recipes(event => {
 	pattern: ['  A', ' AC', 'B C'], 
 	key: {A: {tag: 'forge:ingots/iron'}, B: {item: 'minecraft:stick'}, C: {item: 'minecraft:string'}}, 
 	result: {item: 'aquaculture:iron_fishing_rod'}}).id('aquaculture:iron_fishing_rod')
-	
 	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
 	pattern: ['AAA', 'A A'], 
 	key: {A: {tag: 'forge:plates/iron'}}, 
@@ -1154,6 +1153,46 @@ ServerEvents.recipes(event => {
 	pattern: [' A ', 'ABA', ' A '], 
 	key: {A: {tag: 'forge:plates/iron'}, B: {item: 'minecraft:stick'}}, 
 	result: {item: 'minecraft:shield'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', ' B ', ' B '], 
+	key: {A: {tag: 'forge:ingots/iron'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:iron_pickaxe'}}).id('minecraft:iron_pickaxe')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', ' B ', ' B '], 
+	key: {A: {item: 'minecraft:diamond'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:diamond_pickaxe'}}).id('minecraft:diamond_pickaxe')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['A', 'A', 'B'], 
+	key: {A: {tag: 'forge:ingots/iron'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:iron_sword'}}).id('minecraft:iron_sword')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['A', 'A', 'B'], 
+	key: {A: {item: 'minecraft:diamond'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:diamond_sword'}}).id('minecraft:diamond_sword')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AA', ' B', ' B'], 
+	key: {A: {tag: 'forge:ingots/iron'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:iron_hoe'}}).id('minecraft:iron_hoe')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AA', ' B', ' B'], 
+	key: {A: {item: 'minecraft:diamond'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:diamond_hoe'}}).id('minecraft:diamond_hoe')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['A', 'B', 'B'], 
+	key: {A: {tag: 'forge:ingots/iron'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:iron_shovel'}}).id('minecraft:iron_shovel')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['A', 'B', 'B'], 
+	key: {A: {item: 'minecraft:diamond'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:diamond_shovel'}}).id('minecraft:diamond_shovel')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AA', 'AB', ' B'], 
+	key: {A: {tag: 'forge:ingots/iron'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:iron_axe'}}).id('minecraft:iron_axe')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AA', 'AB', ' B'], 
+	key: {A: {item: 'minecraft:diamond'}, B: {item: 'minecraft:stick'}}, 
+	result: {item: 'minecraft:diamond_axe'}}).id('minecraft:diamond_axe')
 	
 // Smithing
 	event.smithing('minecraft:recovery_compass', 'minecraft:compass', 'quark:soul_bead').id('minecraft:recovery_compass')

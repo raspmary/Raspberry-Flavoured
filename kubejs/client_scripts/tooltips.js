@@ -3044,45 +3044,17 @@ ItemEvents.tooltip(tooltip => {
 	text.remove(7)
   })
   
-// toms simple storage
   tooltip.addAdvanced('toms_storage:ts.inventory_connector', (item, advanced, text) => {
-    if (!tooltip.shift) {
+    if (tooltip.shift) {
 	  text.remove(1)
-      text.add(1, [Text.translate("rf.tooltip.hold_1").darkGray(), Text.translate("rf.tooltip.shift").gray(), Text.translate("rf.tooltip.hold_2").darkGray()])
-    } else {
 	  text.remove(1)
-      text.add(1, [Text.translate("rf.tooltip.hold_1").darkGray(), Text.translate("rf.tooltip.shift").white(), Text.translate("rf.tooltip.hold_2").darkGray()])
-      text.add(2, [Text.of("")])
-      text.add(3, [Text.translate("rf.tooltip.inventory_connector_3_1").color("#C7954B").bold(), Text.translate("rf.tooltip.inventory_connector_3_2").color("#EEDA78").bold(), Text.of("!").color("#C7954B").bold()])
-      text.add(4, [Text.translate("rf.tooltip.inventory_connector_4_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_4_2").color("#EEDA78")])
-      text.add(5, [Text.translate("rf.tooltip.inventory_connector_5").color("#C7954B")])
-      text.add(6, [Text.of("")])
-      text.add(7, [Text.translate("rf.tooltip.inventory_connector_7_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_7_2").color("#EEDA78")])
-      text.add(8, [Text.translate("rf.tooltip.inventory_connector_8_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_8_2").color("#EEDA78"), Text.translate("rf.tooltip.inventory_connector_8_3").color("#C7954B")])
-      text.add(9, [Text.translate("rf.tooltip.inventory_connector_9_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_9_2").color("#EEDA78"), Text.of(".").color("#C7954B")])
-      text.add(10, [Text.of("")])
-      text.add(11, [Text.translate("rf.tooltip.inventory_connector_11").gray()])
-      text.add(12, [Text.translate("rf.tooltip.inventory_connector_12_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_12_2").color("#EEDA78")])
-      text.add(13, [Text.translate("rf.tooltip.inventory_connector_13_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_13_2").color("#EEDA78")])
-      text.add(14, [Text.translate("rf.tooltip.inventory_connector_14_1").color("#C7954B"), Text.translate("rf.tooltip.inventory_connector_14_2").color("#EEDA78"), Text.of(".").color("#C7954B")])
+	  text.remove(1)
     }
   })
   tooltip.addAdvanced('toms_storage:ts.storage_terminal', (item, advanced, text) => {
-    if (!tooltip.shift) {
+    if (tooltip.shift) {
 	  text.remove(1)
-      text.add(1, [Text.translate('rf.tooltip.hold_1').darkGray(), Text.translate('rf.tooltip.shift').gray(), Text.translate('] for Summary').darkGray()])
-    } else {
 	  text.remove(1)
-      text.add(1, [Text.translate('rf.tooltip.hold_1').darkGray(), Text.translate('rf.tooltip.shift').white(), Text.translate('] for Summary').darkGray()])
-      text.add(2, [Text.of('')])
-      text.add(3, [Text.translate('rf.tooltip.storage_terminal_3_1').color('#C7954B'), Text.translate('rf.tooltip.storage_terminal_3_2').color('#EEDA78'), Text.translate(' inside of a').color('#C7954B')])
-      text.add(4, [Text.translate('rf.tooltip.storage_terminal_4_1').color('#EEDA78'), Text.translate('rf.tooltip.storage_terminal_4_2').color('#C7954B')])
-      text.add(5, [Text.translate('rf.tooltip.storage_terminal_5_1').color('#C7954B'), Text.translate('rf.tooltip.storage_terminal_5_2').color('#EEDA78'), Text.of('.').color('#C7954B')])
-      text.add(6, [Text.of('')])
-      text.add(7, [Text.translate('rf.tooltip.storage_terminal_7').gray()])
-      text.add(8, [Text.translate('rf.tooltip.storage_terminal_8_1').color('#C7954B'), Text.translate('rf.tooltip.storage_terminal_8_2').color('#EEDA78'), Text.translate('rf.tooltip.storage_terminal_8_3').color('#C7954B')])
-      text.add(9, [Text.translate('rf.tooltip.storage_terminal_9_1').color('#EEDA78'), Text.translate('rf.tooltip.storage_terminal_9_2').color('#C7954B')])
-      text.add(10, [Text.translate('rf.tooltip.storage_terminal_10').color('#EEDA78'), Text.of('.').color('#C7954B')])
     }
   })
 })
