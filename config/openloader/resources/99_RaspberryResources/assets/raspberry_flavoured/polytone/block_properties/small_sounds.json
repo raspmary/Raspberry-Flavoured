@@ -31,7 +31,8 @@
    "spelunkery:brown_glowstick",
    "spelunkery:green_glowstick",
    "spelunkery:red_glowstick",
-   "spelunkery:black_glowstick"
+   "spelunkery:black_glowstick",
+   "supplementaries:stick"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.small.break",
