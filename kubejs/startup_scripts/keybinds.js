@@ -1,8 +1,8 @@
 // priority: 0
 
 KeyBindEvents.modify(event => {
-//	event.remove('Reload Menu | CTRL + ALT + ');
-//	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
+	event.remove('Reload Menu | CTRL + ALT + ');
+	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
 	
 	event.remove('key.jei.nextCategory');
 	event.remove('key.jei.showRecipe2');
