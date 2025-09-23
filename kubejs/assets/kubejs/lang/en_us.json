@@ -353,7 +353,11 @@
   "rf.jei.steel_hook": "Heavy, will allow you to cast your fishing line shorter and more precisely.",
   "rf.jei.double_hook": "The result of Copper and Steel Hooks cancelling each other out. Won't cast any shorter or further, but will instead allow you to catch two things at once, on occasion.",
   "rf.jei.zinc_hook": "Will increase the amount of time you have to reel your rod once you get a bite.",
-  "rf.jei.worms": "Worms are used as bait for fishing, and can be attached to Reinforced Fishing Rods in a Tackle Box. They'll decrease the amount of time it takes to catch something. Worms can be obtained by feeding Corn Kernels to a Chicken, Duck or Turkey, which will make them search for Wormy Dirt. Worms will also occasionally pop out of Composters.",
+  
+  "rf.jei.worms": "Worms can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll slightly decrease the amount of time it takes to catch something. Worms can be obtained by feeding Corn Kernels to a Chicken, Duck or Turkey, which will make them search for Wormy Dirt. Worms will also occasionally pop out of Composters.",
+  "rf.jei.spider_eye": "Spider Eyes can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll slightly decrease the amount of time it takes to catch something.",
+  "rf.jei.firefly": "Fireflies can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Fireflies can be obtained by catching them using a Catching Net.",
+  "rf.jei.caterpillar": "Caterpillars can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll highly decrease the amount of time it takes to catch something. Caterpillars can be obtained by breeding Butterflies with flowers, then catching the resulting Caterpillar using a Catching Net. They can also sometimes appear in loot.",
   
   "rf.jei.dwarf_geode": "Drops from Deposits found underground. Can also be found in loot chests or underground urns, and occasionally drops from Deepers.",
   "rf.jei.deepslate_dwarf_geode": "Drops from Deepslate Deposits found underground. Can also be found in loot chests or underground urns, and occasionally drops from Peepers.",
@@ -382,9 +386,9 @@
   "rf.jei.glance": "Lava flowing next to molten Lead will create Glance.",
   "rf.jei.exolite": "Lava flowing next to Blue Ice over a Block of Exopearl will create Exolite.",
   
-  "rf.jei.etching": "Using an Etching Table and a Music Label, custom music can be etched onto Blank Music Discs. Inserting a Blank Music Disc, a Music Label and a URL that leads to a SoundCloud track, Bandcamp track, or an MP3, OGG or WAV file will allow you to etch the music onto the disc.",
+  "rf.jei.etching": "Using an Etching Table and a Music Label, custom music can be etched onto Blank Music Discs. Inserting a Blank Music Disc, a Music Label and a URL that leads to a SoundCloud track, Bandcamp track, or an MP3, OGG or WAV file will allow you to etch the music onto the disc. (SoundCloud links can be unreliable)",
   "rf.jei.album_cover": "Acts like a Bundle for Music Discs, holding nine of them in one slot.",
-  "rf.jei.radio": "Can play music from a URL that leads to a SoundCloud track, Bandcamp track, or an MP3, OGG or WAV file.",
+  "rf.jei.radio": "Can play music from a URL that leads to a SoundCloud track, Bandcamp track, or an MP3, OGG or WAV file. (SoundCloud links can be unreliable)",
   "rf.jei.boombox": "Can have a Music Disc or Album inserted by right-clicking inside of the inventory and play on the go.",
   
   "rf.jei.creeper_discs": "Dropped by a Creeper when killed by a Skeleton.",

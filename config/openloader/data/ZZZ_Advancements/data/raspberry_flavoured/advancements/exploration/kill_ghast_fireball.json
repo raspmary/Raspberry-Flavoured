@@ -34,7 +34,7 @@
       "item": "minecraft:fire_charge"
     },
     "frame": "challenge",
-    "hidden": false,
+    "hidden": true,
     "announce_to_chat": true,
     "show_toast": true
   },

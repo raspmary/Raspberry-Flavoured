@@ -139,7 +139,11 @@ const keysToItems = {
     'rf.jei.steel_hook': 'aquaculture:heavy_hook',
     'rf.jei.double_hook': 'aquaculture:double_hook',
     'rf.jei.zinc_hook': 'aquaculture:redstone_hook',
+	
     'rf.jei.worms': ['aquaculture:worm', 'raspberry:wormy_dirt'],
+    'rf.jei.spider_eye': 'minecraft:spider_eye',
+    'rf.jei.firefly': 'raspberry:firefly',
+    'rf.jei.caterpillar': 'naturalist:butterfly',
 	
     'rf.jei.dwarf_geode': 'kubejs:dwarf_geode',
     'rf.jei.deepslate_dwarf_geode': 'kubejs:deepslate_dwarf_geode',

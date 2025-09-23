@@ -28,10 +28,12 @@ Chainmail armor damages attackers.
 Copper armor has a unique effect when struck by lightning.
 Golden tools increase drops from certain blocks and mobs.
 Golden armor lightly protects against fire.
+Iron armor provides light knockback resistance.
 Rose Gold tools dig quickly and cause blocks to drop in their purest form.
 Rose Gold armor protects against magic.
 Steel tools dig slowly, but are durable and knock targets further away.
-Steel armor protects against projectiles and getting knocked back.
+Steel armor provides good knockback resistance.
+Diamond armor protects against projectile damage.
 Diamond armor requires Mechanical Crafters to obtain.
 Electrum tools dig very quickly and deal extra damage when sprinting.
 Electrum armor grants a movement speed boost.
@@ -47,6 +49,7 @@ Flags can be placed on Sticks and then moved up and down.
 Don't leave trees floating!
 Item Vaults can combine into bigger Vaults when placed next to each other.
 Fluid Tanks can combine into bigger Tanks when placed next to each other.
+Item Drawers can store up to 80 stacks of a single type of item.
 Flutes can be assigned to tamed mobs and will call them from far away.
 Some fungi planted on Rich Soil will grow into colonies.
 Furnace Boats can be fueled with Coal to go faster.
@@ -62,7 +65,7 @@ Stripping Rosewood Logs will sometimes reveal Latex that you can bottle.
 Stressometers will visualise the stress level of your machines.
 Speedometers will visualise the speed of your machines.
 Minecart Couplings will allow you to link Minecarts together.
-Melons will cause you to spit seeds when consumed.
+Watermelons will cause you to spit seeds when consumed.
 Wildfires will drop Ancient Scrap.
 Piglin Brutes will drop Ancient Scrap.
 Piglins and Hoglins can be made immune to zombification with a Golden Apple.
@@ -74,9 +77,9 @@ Presents allow you to gift a stack of items to a player.
 Trapped Presents will instantly release their contents when opened.
 Redstone Links can transmit Redstone signals wirelessly.
 Rerack your trees!
-Bundles and Sacks will let you carry more items.
+Bundles, Sacks and Terrabins will let you carry more items.
 Schematicannons can build for you when provided with blueprints and materials.
-Skillets can be held/placed over fire to cook food on the go.
+Skillets can be held or placed over fire to cook food on the go.
 Skillets and Cooking Pots always drop items or containers to their right.
 All hail the Slabfish.
 Baby Snails will drop Snail Shell Pieces when they grow into adults.
@@ -86,7 +89,7 @@ Stoves are like Campfires, except they have 6 spaces instead of 4.
 Too many machines attached to a single power source may cause overstress.
 Suspicious Stews can only be obtained from loot and Shiitake Mooshrooms.
 You can find Wild Tea in Swamps and Wild Coffee in Basalt Deltas.
-You can find Eggplants in Jungles and Rainforests.
+You can find Wild Eggplants in Jungles and Rainforests.
 Thrashers roam Deep Frozen Oceans and will attack if they locate you.
 Torch Arrows place Torches where they land or light mobs they hit on fire.
 Trains allow for mass item transport and highly stylish travel.
