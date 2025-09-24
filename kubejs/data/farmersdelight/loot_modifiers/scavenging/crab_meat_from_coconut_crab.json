@@ -27,12 +27,7 @@
       "predicate": {
         "type": "ecologics:coconut_crab"
       }
-    },
-    {
-      "condition": "minecraft:random_chance_with_looting",
-      "chance": 0.75,
-      "looting_multiplier": 0.1
     }
   ],
-  "item": "kubejs:crab_meat"
+  "item": "ecologics:crab_claw"
 }

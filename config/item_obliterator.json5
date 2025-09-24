@@ -2347,7 +2347,9 @@
     "modestmining:crimson_board_wall",
     "modestmining:mangrove_board_slab",
     "modestmining:mangrove_board_stairs",
-    "modestmining:mangrove_board_wall"
+    "modestmining:mangrove_board_wall",
+	"raspberry:red_moss_block",
+	"raspberry:red_moss_carpet"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

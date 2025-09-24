@@ -263,7 +263,7 @@ StartupEvents.registry('item', event => {
     		.hunger(14)
     		.saturation(0.8)
 			.effect('mynethersdelight:b_pungent', 2400, 0, 1)
-			.effect('kubejs:satiation', 6000, 0, 1)
+			.effect('kubejs:satiation', 7200, 0, 1)
         	})
 	event.create('coconut_crusted_gar').group('food').containerItem('minecraft:bowl').maxStackSize(16).food(food => {
 		food

@@ -685,8 +685,9 @@ ServerEvents.recipes(event => {
 	event.smelting('2x kubejs:dwarf_geode', 'kubejs:deposit').cookingTime(200)
 	event.smelting('2x kubejs:deepslate_dwarf_geode', 'kubejs:deepslate_deposit').cookingTime(200)
 	event.smelting('2x kubejs:blackstone_dwarf_geode', 'kubejs:blackstone_deposit').cookingTime(200)
+	event.smelting('farmersdelight:smoked_ham', 'farmersdelight:ham').cookingTime(300)
 	
-// Smoking
+// Smoking (used for bulk smoking)
 	event.smoking('kubejs:cooked_fish', '#raspberry_flavoured:full_raw_fish').cookingTime(100)
 	event.smoking('spelunkery:grilled_portabella', 'spelunkery:portabella').cookingTime(100)
 
@@ -697,6 +698,7 @@ ServerEvents.recipes(event => {
 	event.campfireCooking('kubejs:charcoal_lump', 'farmersdelight:tree_bark').cookingTime(600)
 	event.campfireCooking('kubejs:cooked_fish', '#raspberry_flavoured:full_raw_fish').cookingTime(600)
 	event.campfireCooking('spelunkery:grilled_portabella', 'spelunkery:portabella').cookingTime(600)
+	event.campfireCooking('farmersdelight:smoked_ham', 'farmersdelight:ham').cookingTime(900)
 
 // Shapeless forging
 	// Kiln recipes
@@ -1740,7 +1742,7 @@ ServerEvents.recipes(event => {
 		{item: 'upgrade_aquatic:purple_pickerelweed'}, {item: 'upgrade_aquatic:purple_pickerelweed'}, {item: 'upgrade_aquatic:purple_pickerelweed'}
 	], result: {item: 'upgrade_aquatic:boiled_purple_pickerelweed', count: 3}})
 	
-	event.custom({type: 'cookscollection:baking', cooktime: 400, ingredients: [
+	event.custom({type: 'cookscollection:baking', cooktime: 300, ingredients: [
 		{item: 'farmersdelight:ham'}, {item: 'farmersdelight:ham'}, {item: 'farmersdelight:ham'}
 	], result: {item: 'farmersdelight:smoked_ham', count: 3}})
 

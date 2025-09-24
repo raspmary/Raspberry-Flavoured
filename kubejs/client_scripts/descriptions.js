@@ -31,7 +31,8 @@ const keysToItems = {
     'rf.jei.netherite_broad_axe': 'clash:swept_axe',
 	
     'rf.jei.hoes': '#forge:tools/hoes',
-    'rf.jei.shears': ['minecraft:shears', 'ecologics:crab_claw'],
+    'rf.jei.shears': '#forge:shears',
+    'rf.jei.crab_claw': 'ecologics:crab_claw',
     'rf.jei.turtle_helmet': 'minecraft:turtle_helmet',
 	
     'rf.jei.bomb': 'supplementaries:bomb',
@@ -91,6 +92,7 @@ const keysToItems = {
     'rf.jei.trowel': 'quark:trowel',
     'rf.jei.echorang': 'quark:echorang',
     'rf.jei.heart_of_the_sea': 'minecraft:heart_of_the_sea',
+    'rf.jei.elder_eye': 'upgrade_aquatic:elder_eye',
     'rf.jei.paragliders': 'vc_gliders:paraglider_wood',
     'rf.jei.onion_cry': ['#forge:crops/onion', '#onion_onion:onion_proof_helmets'],
     'rf.jei.cloth_scraps': ['kubejs:cloth_scrap', '#raspberry_flavoured:cloth_blocks'],
@@ -143,7 +145,7 @@ const keysToItems = {
     'rf.jei.worms': ['aquaculture:worm', 'raspberry:wormy_dirt'],
     'rf.jei.spider_eye': 'minecraft:spider_eye',
     'rf.jei.firefly': 'raspberry:firefly',
-    'rf.jei.caterpillar': 'naturalist:butterfly',
+    'rf.jei.caterpillar': 'naturalist:caterpillar',
 	
     'rf.jei.dwarf_geode': 'kubejs:dwarf_geode',
     'rf.jei.deepslate_dwarf_geode': 'kubejs:deepslate_dwarf_geode',

@@ -446,11 +446,6 @@ ItemEvents.modification(event => {
             food.hunger(2).saturation(0.65).effect('atmospheric:spitting', 140, 1, 0.5).alwaysEdible()
         }
     })
-	event.modify('ecologics:tropical_stew', item => {
-        item.foodProperties = food => {
-            food.effect('farmersdelight:comfort', 3600, 0, 100)
-        }
-    })
 	event.modify('culturaldelights:pufferfish_roll', item => {
         item.foodProperties = food => {
             food.effect('water_breathing', 1200, 0, 100).effect('upgrade_aquatic:repellence', 1200, 0, 100)
@@ -753,22 +748,17 @@ ItemEvents.modification(event => {
     })
 	event.modify('ecologics:crab_meat', item => {
         item.foodProperties = food => {
-            food.hunger(4)
+            food.hunger(6)
         }
     })
 	event.modify('ecologics:tropical_stew', item => {
         item.foodProperties = food => {
-            food.hunger(9)
+            food.hunger(12).effect('farmersdelight:comfort', 6000, 0, 100)
         }
     })
 	event.modify('culturaldelights:creamed_corn', item => {
         item.foodProperties = food => {
             food.effect('farmersdelight:comfort', 600, 0, 100)
-        }
-    })
-	event.modify('createaddition:cake_base', item => {
-        item.foodProperties = food => {
-            food.hunger(2).saturation(0.9)
         }
     })
 	event.modify('abnormals_delight:seared_venison', item => {

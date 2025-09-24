@@ -105,6 +105,7 @@
 		"architects_palette:redstone_cage_lantern[lit=true]" = 15
 		"architects_palette:glowstone_cage_lantern[lit=true]" = 15
 		"architects_palette:algal_cage_lantern[lit=true]" = 15
+		"modestmining:forge[lit=true]" = 15
 
 #Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood") or a block regex (e.g. "minecraft:.*_block").
 [blocks]

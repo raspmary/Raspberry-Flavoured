@@ -2825,6 +2825,11 @@ ItemEvents.tooltip(tooltip => {
     text.add(6, [Text.translate("rf.tooltip.hot_cream_cone_6").blue()])
   })
   
+// pickerelweed
+  tooltip.addAdvanced('upgrade_aquatic:boiled_purple_pickerelweed', (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.pickerelweed").blue()])
+  })
+  
 // dim tears
   tooltip.addAdvanced('spelunkery:portal_fluid_bottle', (item, advanced, text) => {
     text.add(1, [Text.translate("rf.tooltip.portal_fluid_bottle_1").gray()])

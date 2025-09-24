@@ -4925,6 +4925,11 @@ ServerEvents.tags('fluid', event => {
 ServerEvents.tags('entity_type', event => {
 	event.get('spelunkery:hurt_by_salt')
 		.add('autumnity:snail')
+		
+	event.get('raspberry_flavoured:feather_droppers')
+		.add('minecraft:chicken')
+		.add('environmental:duck')
+		.add('autumnity:turkey')
 })
 
 // Painting tags

@@ -5,14 +5,14 @@
       "condition": "minecraft:entity_properties",
       "entity": "killer",
       "predicate": {
-        "type": "#minecraft:skeletons"
+        "type": "naturalist:rhino"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "#kubejs:feathery_fuckers"
+        "type": "#raspberry_flavoured:feather_droppers"
       }
     }
   ],

@@ -28,7 +28,7 @@
                 "Name": "oreganized:glance"
               },
               {
-                "Name": "oreganized:lead_ore"
+                "Name": "oreganized:deepslate_lead_ore"
               }
             ],
             "high_states": [
@@ -36,7 +36,7 @@
                 "Name": "oreganized:raw_lead_block"
               },
               {
-                "Name": "oreganized:deepslate_lead_ore"
+                "Name": "oreganized:lead_ore"
               }
             ]
           }
