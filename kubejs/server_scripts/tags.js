@@ -1375,6 +1375,11 @@ ServerEvents.tags('item', event => {
 		.add('create:chocolate_glazed_berries')
 		.add('create_confectionery:chocolate_glazed_marshmallow')
 
+	event.get('raspberry_flavoured:glowstick_materials')
+		.add('minecraft:glow_ink_sac')
+		.add('quark:glow_shroom')
+		.add('spelunkery:mushgloom')
+
 	event.get('raspberry_flavoured:bombs')
 		.add('supplementaries:bomb')
 		.add('supplementaries:bomb_spiky')

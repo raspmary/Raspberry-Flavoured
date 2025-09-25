@@ -496,6 +496,7 @@ ServerEvents.recipes(event => {
 	event.shaped('6x create:fluid_pipe', ['BAB'], {A: '#forge:ingots/copper', B: '#forge:plates/copper'}).id('create:crafting/kinetics/fluid_pipe')
 	event.shaped('modestmining:forge', ['CCC', 'CBC', 'AAA'], {A: '#forge:ingots/iron', B: '#raspberry_flavoured:furnaces', C: '#raspberry_flavoured:deepslate'}).id('modestmining:forge')
 	event.shaped('grindstone', ['CBC', 'A A'], {A: '#minecraft:planks', B: '#raspberry_flavoured:blackstone', C: 'stick'}).id('minecraft:grindstone')
+	event.shaped('16x spelunkery:glowstick', ['A', 'B', 'C'], {A: 'slime_ball', B: '#raspberry_flavoured:glowstick_materials', C: 'upgrade_aquatic:prismarine_rod'}).id('spelunkery:glowstick')
 	
 	event.shaped('golden_pickaxe', ['AAA', ' B ', ' B '], {A: '#forge:ingots/gold', B: 'stick'})
 	event.shaped('golden_shovel', ['A', 'B', 'B'], {A: '#forge:ingots/gold', B: 'stick'})

@@ -409,7 +409,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "create:builders_tea",
+          "name": "kubejs:builders_tea",
           "weight": 20
         },
 		{

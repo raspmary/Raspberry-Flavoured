@@ -115,6 +115,23 @@
   
   "item.kubejs.music_disc_exostep.desc": "§rLe§5§kn§ra R§5§ka§rin§5§ke§5? §r- §5§k$§5Exo§rstep§5§k$$",
   
+  "item.minecraft.potion.effect.blindness": "Potion of Shortsight",
+  "item.minecraft.splash_potion.effect.blindness": "Splash Potion of Shortsight",
+  "item.minecraft.lingering_potion.effect.blindness": "Lingering Potion of Shortsight",
+  "item.minecraft.tipped_arrow.effect.blindness": "Arrow of Shortsight",
+  "item.minecraft.potion.effect.levitation": "Potion of Floating",
+  "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Floating",
+  "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Floating",
+  "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Floating",
+  "item.minecraft.potion.effect.decay": "Potion of Decay",
+  "item.minecraft.splash_potion.effect.decay": "Splash Potion of Decay",
+  "item.minecraft.lingering_potion.effect.decay": "Lingering Potion of Decay",
+  "item.minecraft.tipped_arrow.effect.decay": "Arrow of Decay",
+  "item.minecraft.potion.effect.mad_prospector": "Potion of the Mad Prospector",
+  "item.minecraft.splash_potion.effect.mad_prospector": "Splash Potion of the Mad Prospector",
+  "item.minecraft.lingering_potion.effect.mad_prospector": "Lingering Potion of the Mad Prospector",
+  "item.minecraft.tipped_arrow.effect.mad_prospector": "Arrow of the Mad Prospector",
+  
   "subtitles.kubejs.spawner.spawn": "Mob spawns from spawner",
   "subtitles.kubejs.copper_brush.brush": "Brushing",
   "subtitles.kubejs.copper_patina.apply": "Patina applies",

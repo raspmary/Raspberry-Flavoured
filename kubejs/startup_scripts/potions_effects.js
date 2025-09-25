@@ -39,4 +39,5 @@ StartupEvents.registry('potion', event => {
     event.create('blindness').addEffect(new MobEffectInstance('minecraft:blindness', 3600));
     event.create('levitation').addEffect(new MobEffectInstance('minecraft:levitation', 600));
     event.create('decay').addEffect(new MobEffectInstance('minecraft:wither', 600));
+    event.create('mad_prospector').addEffect(new MobEffectInstance('minecraft:haste', 600));
 })

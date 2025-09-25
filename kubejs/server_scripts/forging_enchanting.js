@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
 	{item: 'kubejs:blank_tablet'}, 
-	{item: 'aquaculture:goldfish'}, {item: 'minecraft:nautilus_shell'}, {item: 'minecraft:nautilus_shell'}
+	{item: 'aquaculture:goldfish'}, {item: 'minecraft:nautilus_shell'}
 	], result: {item: 'kubejs:aquatic_tablet'}})
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
@@ -188,7 +188,6 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:aquatic_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_aquatic_tablet',['kubejs:incomplete_aquatic_tablet', 'nautilus_shell']),
 		event.recipes.createDeploying('kubejs:incomplete_aquatic_tablet',['kubejs:incomplete_aquatic_tablet', 'nautilus_shell']),
 		event.recipes.createDeploying('kubejs:incomplete_aquatic_tablet',['kubejs:incomplete_aquatic_tablet', 'aquaculture:goldfish'])
 	]).transitionalItem('kubejs:incomplete_aquatic_tablet').loops(1).id('kubejs:assembly/aquatic_tablet')

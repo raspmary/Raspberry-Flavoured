@@ -38,12 +38,6 @@ ServerEvents.recipes(event => {
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'supplementaries:sugar_cube', '2x honeycomb'
 	]).heated()
-	// Turtle master
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"minecraft:turtle_master"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'scute'
-	]).heated()
 	// Water breathing
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:water_breathing"
@@ -84,18 +78,6 @@ ServerEvents.recipes(event => {
 		Potion:"windswept:thorns"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'#raspberry_flavoured:cactus_blocks', '#raspberry_flavoured:prickly_fruit'
-	]).heated()
-	// Forest dasher
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"naturalist:forest_dasher"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x environmental:venison', '2x carrot'
-	]).heated()
-	// Resilience
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"quark:resilience"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'autumnity:snail_shell_piece'
 	]).heated()
 	// Rewind
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -200,6 +182,25 @@ ServerEvents.recipes(event => {
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'atmospheric:aloe_bundle', 'atmospheric:yucca_flower'
 	]).heated()
+// Neutral potions
+	// Snail master
+	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
+		Potion:"minecraft:turtle_master"
+	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
+		'3x autumnity:snail_shell_piece'
+	]).heated()
+	// Forest dasher
+	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
+		Potion:"naturalist:forest_dasher"
+	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
+		'2x environmental:venison', '4x carrot'
+	]).heated()
+	// Mad prospector
+	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
+		Potion:"kubejs:mad_prospector"
+	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
+		'diamond', '2x quark:glow_shroom'
+	]).heated()
 
 	const allPotions = [
 	"minecraft:awkward",
@@ -216,7 +217,6 @@ ServerEvents.recipes(event => {
 	"minecraft:slow_falling",
 	"windswept:thorns",
 	"naturalist:forest_dasher",
-	"quark:resilience",
 	"caverns_and_chasms:rewind",
 	"environmental:vitality",
 	"upgrade_aquatic:restfulness",
@@ -228,12 +228,13 @@ ServerEvents.recipes(event => {
 	"minecraft:harming",
 	"minecraft:poison",
 	"minecraft:weakness",
+	"oreganized:stunning",
+	"upgrade_aquatic:insomnia",
+	"atmospheric:worsening",
 	"kubejs:blindness",
 	"kubejs:levitation",
 	"kubejs:decay",
-	"oreganized:stunning",
-	"upgrade_aquatic:insomnia",
-	"atmospheric:worsening"
+	"kubejs:mad_prospector"
 	]
     
     allPotions.forEach(potionName => {
