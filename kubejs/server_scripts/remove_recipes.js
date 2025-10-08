@@ -1907,6 +1907,7 @@ ServerEvents.recipes(event => {
 	'storagedrawers:quantify_key',
 	'storagedrawers:shroud_key',
 	'storagedrawers:keyring',
+	'storagedrawers:oak_full_drawers_1',
 	'storagedrawers:oak_full_drawers_2',
 	'storagedrawers:oak_full_drawers_4',
 	'storagedrawers:oak_half_drawers_1',

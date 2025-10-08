@@ -486,7 +486,7 @@ ServerEvents.recipes(event => {
 	event.shaped('2x observer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: '#forge:gems/quartz'}).id('minecraft:observer')
 	event.shaped('2x oreganized:exposer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: '#forge:nuggets/silver'}).id('oreganized:exposer')
 	event.shaped('2x supplementaries:relayer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: ['#forge:ingots/iron', '#forge:ingots/lead']}).id('supplementaries:relayer')
-	event.shaped('storagedrawers:controller', [' D ', 'BAB', ' C '], {A: 'storagedrawers:oak_full_drawers_1', B: 'comparator', C: 'ender_pearl', D: 'create:electron_tube'}).id('storagedrawers:controller')
+	event.shaped('storagedrawers:controller', [' D ', 'BAB', ' C '], {A: 'kubejs:empty_item_drawer', B: 'comparator', C: 'ender_pearl', D: 'create:electron_tube'}).id('storagedrawers:controller')
 	event.shaped('24x torch', ['A', 'B'], {A: 'modestmining:coke', B: 'stick'})
 	event.shaped('24x soul_torch', ['A', 'B', 'C'], {A: 'modestmining:coke', B: 'stick', C: '#minecraft:soul_fire_base_blocks'})
 	event.shaped('24x endergetic:ender_torch', ['A', 'B', 'C'], {A: 'modestmining:coke', B: 'stick', C: '#endergetic:ender_fire_base_blocks'})
@@ -2855,16 +2855,16 @@ ServerEvents.recipes(event => {
 	A: '#forge:nuggets/iron', B: '#forge:ingots/bronze', C: '#minecraft:planks'
 	}).id('etched:radio')
 	event.recipes.create.mechanical_crafting(
-	'storagedrawers:oak_full_drawers_1', [
+	'kubejs:empty_item_drawer', [
 	'AAAA',
 	'A  A',
 	'ABBA',
 	'AAAA'
 	], {
 	A: '#forge:plates/iron', B: 'redstone'
-	}).id('storagedrawers:oak_full_drawers_1')
+	}).id('kubejs:empty_item_drawer')
 	event.recipes.create.mechanical_crafting(
-	'2x storagedrawers:oak_full_drawers_1', [
+	'2x kubejs:empty_item_drawer', [
 	'AAAA',
 	'A  A',
 	'ABBA',

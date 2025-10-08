@@ -153,6 +153,9 @@ StartupEvents.registry('block', event => {
 		if (armor[0].hasTag('minecraft:freeze_immune_wearables')) return
 		event.entity.ticksFrozen += 4
 	})
+
+	// Empty item drawer
+	event.create("empty_item_drawer", "cardinal");
 	
 	event.create('cobbled_blackstone').soundType('stone').hardness(1.5).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true).textureAll('minecraft:block/blackstone_top')
 	event.create('cobbled_blackstone_slab', 'slab').soundType('stone').hardness(1.5).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)

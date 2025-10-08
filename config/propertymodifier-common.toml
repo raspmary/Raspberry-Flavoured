@@ -2094,7 +2094,7 @@
 		"quark:glow_shroom" = "food"
 		"kubejs:polished_steel" = "building_blocks"
 		"everycomp:q/mynethersdelight/powdery_bookshelf" = "building_blocks"
-		"storagedrawers:oak_full_drawers_1" = "decorations"
+		"kubejs:empty_item_drawer" = "decorations"
 		"storagedrawers:controller" = "decorations"
 		"kubejs:deposit" = "building_blocks"
 		"kubejs:deepslate_deposit" = "building_blocks"

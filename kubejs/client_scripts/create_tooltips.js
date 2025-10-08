@@ -27,6 +27,14 @@ ClientEvents.lang("en_us", (event) => {
       .build()
   )
   event.addAll(
+    createTooltip("kubejs:empty_item_drawer")
+      .addSummary("Allows for _bulk storage_ of a _single type of item_. Up to _80 stacks_ of one item can be stored. If mined while full, stored items will _remain inside_.")
+      .addBehaviour(["When L-Clicked", "Takes out a _single item_. If sneaking, takes out an _entire stack_."])
+      .addBehaviour(["When R-Clicked with Any Item", "Stores _entire held stack_. If right-clicked twice in _quick succession_, will store _all of the same type of item_ within the player's _inventory_."])
+      .addBehaviour(["When Sneak-R-Clicked with Empty Hand", "Locks the _Item Drawer_ to a type of item. When all items inside the _Item Drawer_ are taken out, the lock will _act as a filter_, only accepting _items of the same type_."])
+      .build()
+  )
+  event.addAll(
     createTooltip("storagedrawers:controller")
       .addSummary("Allows for _easy item deposit_ into connected _Item Drawers_. Can only take items out using a _Hopper_ or _Chute_.")
       .addBehaviour(["When R-Clicked with Any Item", "Automatically stores _entire held stack_ into the nearest _Item Drawer_ with a matching _item type_."])

@@ -66,6 +66,8 @@
   
   "block.kubejs.supply_barrel": "Supply Barrel",
   "block.kubejs.elder_treasure": "Elder Treasure",
+
+  "block.kubejs.empty_item_drawer": "Item Drawer",
   
   "item.kubejs.raw_ammonite": "Ammonite",
   "item.kubejs.charcoal_lump": "Lump of Charcoal",
