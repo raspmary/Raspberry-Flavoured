@@ -268,6 +268,8 @@
   "rf.jei.electrum_armor": "Electrum armor will increase movement speed.",
   "rf.jei.necromium_armor": "Necromium armor will weaken attackers.",
   "rf.jei.netherite_armor": "Netherite armor will provide good knockback resistance along with good protection against fire damage, and won't burn up when thrown into fire or lava.",
+  "rf.jei.sanguine_armor": "Sanguine armor will provide lifesteal properties, healing the wearer as they deal damage.",
+  "rf.jei.griefer_armor": "Griefer armor will provide high blast protection.",
   
   "rf.jei.rose_gold_rapier": "Strikes very quickly and will heal half a heart of health for every hit. Upgrading to this item will not keep the original item's enchantments.",
   "rf.jei.steel_mace": "Will deal increased damage depending on how many blocks the wielder has fallen before striking a target and will launch the wielder upwards after the falling strike. Upgrading to this item will not keep the original item's enchantments.",

@@ -23,6 +23,8 @@ const keysToItems = {
     'rf.jei.electrum_armor': ['oreganized:electrum_helmet', 'oreganized:electrum_chestplate', 'oreganized:electrum_leggings', 'oreganized:electrum_boots'],
     'rf.jei.necromium_armor': ['caverns_and_chasms:necromium_helmet', 'caverns_and_chasms:necromium_chestplate', 'caverns_and_chasms:necromium_leggings', 'caverns_and_chasms:necromium_boots'],
     'rf.jei.netherite_armor': ['minecraft:netherite_helmet', 'minecraft:netherite_chestplate', 'minecraft:netherite_leggings', 'minecraft:netherite_boots'],
+	'rf.jei.sanguine_armor': ['caverns_and_chasms:sanguine_helmet', 'caverns_and_chasms:sanguine_chestplate', 'caverns_and_chasms:sanguine_leggings', 'caverns_and_chasms:sanguine_boots'],
+	'rf.jei.griefer_armor': ['savage_and_ravage:griefer_helmet', 'savage_and_ravage:griefer_chestplate', 'savage_and_ravage:griefer_leggings', 'savage_and_ravage:griefer_boots'],
 	
     'rf.jei.steel_mace': 'mace_backport:mace',
     'rf.jei.rose_gold_rapier': 'kubejs:rose_gold_rapier',
