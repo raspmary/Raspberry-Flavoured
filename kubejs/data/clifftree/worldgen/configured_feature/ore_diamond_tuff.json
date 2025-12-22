@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 16,
+    "xz_spread": 1,
+    "y_spread": 1,
+    "feature": {
+      "feature": {
+        "type": "minecraft:scattered_ore",
+        "config": {
+          "size": 4,
+          "discard_chance_on_air_exposure": 1,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "clifftree:deepslate_level"
+              },
+              "state": {
+                "Name": "minecraft:deepslate_diamond_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:environment_scan",
+          "direction_of_search": "up",
+          "max_steps": 3,
+          "target_condition": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:raw_iron_block"
+          },
+          "allowed_search_condition": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:overworld_carver_replaceables"
+          }
+        }
+      ]
+    }
+  }
+}

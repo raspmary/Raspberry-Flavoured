@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+      "surface": "floor",
+      "depth": {
+          "type": "minecraft:uniform",
+		  "value": {
+              "min_inclusive": 4,
+              "max_inclusive": 6
+		  }
+      },
+      "vertical_range": 32,
+      "extra_bottom_block_chance": 0.5,
+      "extra_edge_column_chance": 0.5,
+      "vegetation_chance": 0.0,
+      "xz_radius": {
+          "type": "minecraft:uniform",
+		  "value": {
+              "min_inclusive": 1,
+              "max_inclusive": 6
+		  }
+      },
+      "replaceable": "#minecraft:base_stone_overworld",
+      "ground_state": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+              "Name": "minecraft:andesite"
+          }
+      },
+      "vegetation_feature": {
+          "feature": "minecraft:ore_andesite",
+          "placement": [
+          ]
+      }
+  }
+}

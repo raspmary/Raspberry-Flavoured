@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:firefly_bush"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "Name": "minecraft:bush"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "Name": "minecraft:grass"
+          },
+          "weight": 20
+        }
+      ]
+    }
+  }
+}

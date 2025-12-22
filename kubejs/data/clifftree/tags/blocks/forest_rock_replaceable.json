@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+  "minecraft:dirt",
+	"minecraft:grass_block",
+	"minecraft:dirt",
+	"minecraft:air",
+	"minecraft:rooted_dirt"
+    
+  ]
+}

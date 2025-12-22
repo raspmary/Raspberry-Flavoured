@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:dark_forest",
+    "clifftree:sparse_forest",
+    "minecraft:cherry_grove",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    "minecraft:river"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "values": [
+      "#clifftree:all_caves",
+      "#clifftree:is_cliff",
+      "#clifftree:is_swamp",
+      "#clifftree:snowy",
+      "#clifftree:is_desert",
+      "#is_beach",
+      "#is_river",
+      "#is_forest"
+    ]
+  }

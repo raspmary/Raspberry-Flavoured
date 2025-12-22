@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.0,
+        "feature": {
+          "feature": "clifftree:coral_big",
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_fluids",
+                "offset": [
+                  0,
+                  12,
+                  0
+                ],
+                "fluids": "#minecraft:water"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "feature": "clifftree:coral_basic",
+      "placement": []
+    }
+  }
+}

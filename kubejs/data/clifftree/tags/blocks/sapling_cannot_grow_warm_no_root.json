@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rooted_dirt",
+    "#clifftree:sapling_cannot_grow_warm"
+  ]
+}

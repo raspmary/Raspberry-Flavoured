@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "clifftree:shrubland",
+    "#clifftree:all_caves",
+    "minecraft:desert"
+  ]
+}

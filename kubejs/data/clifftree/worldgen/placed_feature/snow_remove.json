@@ -1,0 +1,49 @@
+{
+	"feature": "clifftree:snow_remove",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+		  },
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+			  "type": "minecraft:matching_blocks",
+			  "blocks": [
+				"minecraft:snow"
+			  ],
+			  "offset": [
+				0,
+				0,
+				0
+			  ]
+			}
+			
+		  },
+		  {
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+			  "type": "minecraft:matching_blocks",
+			  "blocks": [
+				"minecraft:grass_block"
+			  ],
+			  "offset": [
+				0,
+				-1,
+				0
+			  ]
+			}
+			
+		  }
+	]
+}

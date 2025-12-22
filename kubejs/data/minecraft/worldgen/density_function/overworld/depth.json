@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "argument1": "clifftree:ocean_shape",
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": "clifftree:pillars",
+    "argument2": "minecraft:overworld/offset"
+  }
+}

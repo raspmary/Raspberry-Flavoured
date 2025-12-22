@@ -1,0 +1,14 @@
+{
+  "replace": false,  
+  "values": [
+    "clifftree:oasis",
+    "clifftree:shrubland",
+    "clifftree:warm_river",
+    "clifftree:tropical_river",
+    "clifftree:warm_caves",
+    "clifftree:lukewarm_caves",
+    "clifftree:inferno",
+    "clifftree:tropical_beach",
+    "clifftree:granite_shore"
+  ]
+}

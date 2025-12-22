@@ -1,0 +1,34 @@
+{
+  "feature": "clifftree:inferno_rock",
+  "placement": [
+    {
+      "type": "noise_based_count",
+      "noise_factor": 120,
+      "noise_to_count_ratio": 60,
+      "noise_offset": 0.5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "below_top": 0
+        },
+        "min_inclusive": {
+          "above_bottom": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "random_offset",
+      "xz_spread": 4,
+      "y_spread": 8
+    }
+  ]
+}

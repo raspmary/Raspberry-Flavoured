@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:random_boolean_selector",
+  "config": {
+      
+        "feature_false": {
+          "feature": "minecraft:swamp_oak",
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": ["minecraft:mud","minecraft:muddy_mangrove_roots"]
+              }
+            }
+          ]
+        }
+    ,
+    "feature_true": {
+      "feature": "minecraft:fancy_oak_grown",
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "tag": "clifftree:sapling_cannot_grow_no_mud"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

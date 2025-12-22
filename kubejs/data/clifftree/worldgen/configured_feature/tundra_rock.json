@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "clifftree:tundra_rock_1",
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "clifftree:tundra_rock_2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "feature": {
+    "type": "random_patch",
+    "config": {
+      "feature": {
+        "feature": "clifftree:bog_water",
+        "placement": []
+      },
+      "tries": 5,
+      "xz_spread": 4,
+      "y_spread": 2
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

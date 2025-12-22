@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:snow_block"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:dirt"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_block_tag",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "tag": "minecraft:replaceable"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:packed_ice"
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_block_tag",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "tag": "minecraft:replaceable"
+                }
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:packed_ice"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_block_tag",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "tag": "minecraft:base_stone_overworld"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:stone"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": "minecraft:dirt"
+              },
+              {
+                "type": "minecraft:any_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      1,
+                      -1,
+                      0
+                    ],
+                    "tag": "minecraft:replaceable"
+                  },
+                  {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      -1,
+                      -1,
+                      0
+                    ],
+                    "tag": "minecraft:replaceable"
+                  },
+                  {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      0,
+                      -1,
+                      1
+                    ],
+                    "tag": "minecraft:replaceable"
+                  },
+                  {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      0,
+                      -1,
+                      -1
+                    ],
+                    "tag": "minecraft:replaceable"
+                  }
+                ]
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:grass_block",
+              "Properties": {
+                "snowy": "true"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:snow_block",
+        "minecraft:packed_ice",
+        "dirt"
+      ]
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 5
+      }
+    },
+    "half_height": 1
+  }
+}

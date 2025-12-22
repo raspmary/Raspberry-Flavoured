@@ -1,0 +1,103 @@
+{
+  "type": "random_selector",
+  "config": {
+    "default": {
+      "feature": "cave_vine_in_moss",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "data": {
+                      "Name": "minecraft:spore_blossom"
+                    },
+                    "weight": 5
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:vine",
+                      "Properties": {
+                        "up": "true",
+                        "down": "false",
+                        "north": "false",
+                        "south": "false",
+                        "west": "false",
+                        "east": "false"
+                      }
+                    },
+                    "weight": 5
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:vine",
+                      "Properties": {
+                        "up": "true",
+                        "down": "false",
+                        "north": "false",
+                        "south": "false",
+                        "west": "false",
+                        "east": "true"
+                      }
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:vine",
+                      "Properties": {
+                        "up": "true",
+                        "down": "false",
+                        "north": "false",
+                        "south": "false",
+                        "west": "true",
+                        "east": "false"
+                      }
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:vine",
+                      "Properties": {
+                        "up": "true",
+                        "down": "false",
+                        "north": "false",
+                        "south": "true",
+                        "west": "false",
+                        "east": "false"
+                      }
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:vine",
+                      "Properties": {
+                        "up": "true",
+                        "down": "false",
+                        "north": "true",
+                        "south": "false",
+                        "west": "false",
+                        "east": "false"
+                      }
+                    },
+                    "weight": 1
+                  }
+                ]
+              }
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

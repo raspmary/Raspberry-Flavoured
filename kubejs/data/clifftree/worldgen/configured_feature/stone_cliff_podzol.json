@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": 1,
+    "extra_bottom_block_chance": 0.5,
+    "extra_edge_column_chance": 0,
+    "ground_state": {
+      "type": "simple_state_provider",
+      "state": {
+        "Name": "podzol",
+        "Properties": {}
+      }
+    },
+    "replaceable": "#clifftree:podzol",
+    "surface": "floor",
+    "vegetation_chance": 1,
+    "vegetation_feature": {
+      "feature": {
+        "type": "block_column",
+        "config": {
+          "allowed_placement": {
+            "type": "matching_block_tag",
+            "tag": "clifftree:surface_material",
+            "offset": [
+              0,
+              1,
+              0
+            ]
+          },
+          "direction": "down",
+          "layers": [
+            {
+              "height": 20,
+              "provider": {
+                "type": "simple_state_provider",
+                "state": {
+                  "Name": "stone",
+                  "Properties": {}
+                }
+              }
+            }
+          ],
+          "prioritize_tip": false
+        }
+      },
+      "placement": [
+        {
+          "type": "random_offset",
+          "xz_spread": 0,
+          "y_spread": -2
+        }
+      ]
+    },
+    "vertical_range": 3,
+    "xz_radius": 2
+  }
+}

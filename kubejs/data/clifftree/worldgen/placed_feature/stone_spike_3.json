@@ -1,0 +1,92 @@
+{
+  "feature": {
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 128,
+      "xz_spread": 2,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "up",
+            "allowed_placement": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:water",
+                "minecraft:air"
+              ]
+            },
+            "prioritize_tip": true,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:biased_to_bottom",
+				  "value": {
+                    "min_inclusive": 4,
+                    "max_inclusive": 8
+				  }
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:stone"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:stone"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "count",
+      "count": 50
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "below_top": 0
+        },
+        "min_inclusive": {
+          "absolute": 53
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "fluids": "minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

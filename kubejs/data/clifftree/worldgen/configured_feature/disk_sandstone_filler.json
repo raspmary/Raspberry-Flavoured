@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 4,
+    "radius": 8,
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:smooth_sandstone"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:would_survive",
+            "state": {
+              "Name": "glow_lichen",
+              "Properties": {
+                "down": "true",
+                "up": "true",
+                "east": "true",
+                "west": "true",
+                "north": "true",
+                "south": "true"
+              }
+            }
+            
+        },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:sandstone"
+            }
+          }
+        }
+      ]
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:smooth_sandstone"
+      
+    }
+  }
+}

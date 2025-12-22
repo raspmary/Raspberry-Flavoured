@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:andesite",
+    "minecraft:gravel",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:light_gray_terracotta"
+  ]
+}

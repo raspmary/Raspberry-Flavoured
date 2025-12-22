@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "clifftree:ocean_rock_stack",
+    "fossil_structures": [
+      "clifftree:ocean_rock/spire1",
+      "clifftree:ocean_rock/spire2",
+      "clifftree:ocean_rock/spire3",
+      "clifftree:ocean_rock/spire4",
+      "clifftree:ocean_rock/spire5",
+      "clifftree:ocean_rock/spire6",
+      "clifftree:ocean_rock/spire7",
+      "clifftree:ocean_rock/spire8",
+      "clifftree:ocean_rock/spire9",
+      "clifftree:ocean_rock/spire10"
+    ],
+    "max_empty_corners_allowed": 4,
+    "overlay_processors": "minecraft:empty",
+    "overlay_structures": [
+      "clifftree:ocean_rock/spire1",
+      "clifftree:ocean_rock/spire2",
+      "clifftree:ocean_rock/spire3",
+      "clifftree:ocean_rock/spire4",
+      "clifftree:ocean_rock/spire5",
+      "clifftree:ocean_rock/spire6",
+      "clifftree:ocean_rock/spire7",
+      "clifftree:ocean_rock/spire8",
+      "clifftree:ocean_rock/spire9",
+      "clifftree:ocean_rock/spire10"
+    ]
+  }
+}

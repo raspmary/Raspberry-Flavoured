@@ -1,0 +1,172 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:dead_brain_coral_fan"
+          },
+          "output_state": {
+            "Name": "minecraft:horn_coral_fan",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true",
+            "block": "minecraft:dead_brain_coral"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:dead_brain_coral"
+          },
+          "output_state": {
+            "Name": "minecraft:horn_coral",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dead_brain_coral_wall_fan",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:horn_coral_wall_fan",
+            "Properties": {
+              "facing": "north",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dead_brain_coral_wall_fan",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:horn_coral_wall_fan",
+            "Properties": {
+              "facing": "south",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dead_brain_coral_wall_fan",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:horn_coral_wall_fan",
+            "Properties": {
+              "facing": "east",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dead_brain_coral_wall_fan",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:horn_coral_wall_fan",
+            "Properties": {
+              "facing": "west",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:pink_wool"
+          },
+          "output_state": {
+            "Name": "minecraft:horn_coral_block"
+          }
+        },
+        {
+          "position_predicate": {
+            "predicate_type": "minecraft:linear_pos",
+            "min_dist": 0,
+            "max_dist": 10,
+            "min_chance": 0,
+            "max_chance": 0.8
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "stone"
+          },
+          "output_state": {
+            "Name": "minecraft:dead_horn_coral_block"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:gravity",
+      "heightmap": "OCEAN_FLOOR_WG",
+      "offset": 0
+    },
+    {
+      "processor_type": "minecraft:protected_blocks",
+      "value": "#minecraft:features_cannot_replace"
+    },
+    {
+      "processor_type": "minecraft:protected_blocks",
+      "value": "#minecraft:air"
+    }
+  ]
+}

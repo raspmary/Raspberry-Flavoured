@@ -1,0 +1,12 @@
+{
+  "values": [
+    "clifftree:caves",
+    "clifftree:warm_caves",
+    "clifftree:lukewarm_caves",
+    "clifftree:cold_caves",
+    "clifftree:frozen_caves",
+    "clifftree:mushroom_caves",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves"
+  ]
+}

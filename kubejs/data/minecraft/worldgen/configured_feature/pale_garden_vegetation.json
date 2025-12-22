@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "clifftree:pale_garden_normal_oak",
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "minecraft:pale_oak_creaking_checked"
+      },
+      {
+        "chance": 0.7,
+        "feature": "minecraft:pale_oak_checked"
+      },
+      {
+        "chance": 0.3,
+        "feature": "clifftree:pale_garden_normal_fancy_oak"
+      }
+    ]
+  }
+}

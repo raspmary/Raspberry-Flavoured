@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": "minecraft:oak_checked",
+    "default": "minecraft:oak",
     "features": [
       {
         "chance": 0.025,
@@ -18,7 +18,7 @@
         }
       },
       {
-        "chance": 0.6666667,
+        "chance": 0.65,
         "feature": "minecraft:dark_oak_checked"
       },
       {

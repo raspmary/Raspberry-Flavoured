@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#clifftree:sapling_cannot_grow_warm",
+    "#clifftree:sapling_cannot_grow_cold"
+  ]
+}

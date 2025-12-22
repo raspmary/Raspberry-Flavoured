@@ -1,0 +1,33 @@
+{
+  "values": [
+    "#leaves",
+    "#flowers",
+    "#coral_plants",
+    "#candles",
+    "#candle_cakes",
+    "red_mushroom",
+    "brown_mushroom",
+    "crimson_fungus",
+    "warped_fungus",
+    "bamboo",
+    "cave_vines",
+    "cave_vines_plant",
+    "#rails",
+    "#crops",
+    "#campfires",
+    "twisting_vines",
+    "twisting_vines_plant",
+    "weeping_vines",
+    "weeping_vines_plant",
+    "#trapdoors",
+    "#doors",
+    "sugar_cane",
+    "#saplings",
+    "#banners",
+    "#buttons",
+    "#flower_pots",
+    "cake",
+    "lily_pad",
+    "#replaceable"
+  ]
+}

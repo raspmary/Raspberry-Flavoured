@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stony_shore",
+    "clifftree:diorite_shore",
+    "clifftree:gravelly_beach"
+  ]
+}

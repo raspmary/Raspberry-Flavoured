@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#clifftree:true_dirt",
+    "#minecraft:sand"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": "minecraft:pine",
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_block_tag",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "tag": "clifftree:sapling_cannot_grow_cold"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": "minecraft:pine",
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:snow_block",
+                      "minecraft:powder_snow"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:not",
+                    "predicate": {
+                      "type": "minecraft:matching_block_tag",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "tag": "clifftree:sapling_cannot_grow_cold"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "feature": "minecraft:spruce_base",
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "tag": "clifftree:sapling_cannot_grow_cold"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

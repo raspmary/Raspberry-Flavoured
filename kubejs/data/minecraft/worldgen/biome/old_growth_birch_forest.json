@@ -8,9 +8,7 @@
   },
   "downfall": 0.6,
   "effects": {
-    "fog_color": 12638463,
-    "grass_color": 13290847,
-    "foliage_color": 8630894,
+    "fog_color": 11457020,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -23,25 +21,29 @@
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.forest"
     },
-    "sky_color": 8037887,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 6073571,
+    "grass_color": 13290847,
+    "foliage_color": 8630894,
+    "water_color": 1070759,
+    "water_fog_color": 198410
   },
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "clifftree:fallen_log_super_birch"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [],
-    [],
+    [
+      "clifftree:stone_cliff"
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -62,17 +64,16 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_clay"
     ],
-    [],
+    "#clifftree:extra_gold_remove",
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -81,14 +82,19 @@
       "minecraft:glow_lichen",
       "minecraft:forest_flowers",
       "minecraft:birch_tall",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
+      "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "clifftree:wildflowers_extra"
     ],
     [
+      
+      
+      "clifftree:super_birch_branch",
+      "clifftree:birch_vine_remove",
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -109,22 +115,28 @@
         "type": "minecraft:sheep",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 12
+        "weight": 10
       },
       {
         "type": "minecraft:pig",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 10
+        "weight": 2
       },
       {
         "type": "minecraft:chicken",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 10
+        "weight": 4
       },
       {
         "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:rabbit",
         "maxCount": 4,
         "minCount": 4,
         "weight": 8
@@ -136,7 +148,7 @@
         "type": "minecraft:spider",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 120
       },
       {
         "type": "minecraft:zombie",
@@ -192,5 +204,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.6
+  "temperature": 0.6,
+  "creature_spawn_probability": 0.15
 }

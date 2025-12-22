@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "clifftree:ocean_rock",
+    "fossil_structures": [
+      "clifftree:ocean_rock/plateau1",
+      "clifftree:ocean_rock/plateau2",
+      "clifftree:ocean_rock/plateau3",
+      "clifftree:ocean_rock/plateau4",
+      "clifftree:ocean_rock/plateau5",
+      "clifftree:ocean_rock/plateau6",
+      "clifftree:ocean_rock/plateau7",
+      "clifftree:ocean_rock/plateau8",
+      "clifftree:ocean_rock/plateau9"
+    ],
+    "max_empty_corners_allowed": 4,
+    "overlay_processors": "minecraft:empty",
+    "overlay_structures": [
+      "clifftree:ocean_rock/plateau1",
+      "clifftree:ocean_rock/plateau2",
+      "clifftree:ocean_rock/plateau3",
+      "clifftree:ocean_rock/plateau4",
+      "clifftree:ocean_rock/plateau5",
+      "clifftree:ocean_rock/plateau6",
+      "clifftree:ocean_rock/plateau7",
+      "clifftree:ocean_rock/plateau8",
+      "clifftree:ocean_rock/plateau9"
+    ]
+  }
+}

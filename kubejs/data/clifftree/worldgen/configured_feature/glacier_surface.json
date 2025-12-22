@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "depth": 3,
+    "vertical_range": 24,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.5,
+    "vegetation_chance": 1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 30
+      }
+    },
+    "replaceable": "#clifftree:glacier_valley_surface",
+    "ground_state": {
+      "type": "minecraft:dual_noise_provider",
+      "seed": 1234,
+      "noise": {
+        "firstOctave": -3,
+        "amplitudes": [
+          0.01
+        ]
+      },
+      "scale": 1,
+      "variety": {
+        "min_inclusive": 1,
+        "max_inclusive": 30
+      },
+      "slow_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1
+        ]
+      },
+      "slow_scale": 1,
+      "states": [
+        {
+          "Name": "minecraft:snow_block"
+        },
+        {
+          "Name": "minecraft:snow_block"
+        },
+        {
+          "Name": "minecraft:blue_ice"
+        },
+        {
+          "Name": "minecraft:snow_block"
+        }
+      ]
+    },
+    "vegetation_feature": "clifftree:glacier_column"
+  }
+}

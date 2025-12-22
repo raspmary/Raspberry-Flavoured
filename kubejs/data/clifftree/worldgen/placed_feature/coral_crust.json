@@ -1,0 +1,41 @@
+{
+  "feature": "clifftree:coral_crust",
+  "placement": [
+    {
+      "type": "rarity_filter",
+      "chance": 16
+    },
+    {
+      "type": "count",
+      "count": {
+        "type": "minecraft:biased_to_bottom",
+		"value": {
+			"min_inclusive": 2,
+			"max_inclusive": 4
+		}
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "offset": [
+          0,
+          12,
+          0
+        ],
+        "fluids": "#minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

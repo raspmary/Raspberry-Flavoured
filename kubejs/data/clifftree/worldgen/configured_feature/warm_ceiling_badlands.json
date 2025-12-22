@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+      "surface": "ceiling",
+      "depth": {
+          "type": "minecraft:uniform",
+		  "value": {
+              "min_inclusive": 8,
+              "max_inclusive": 12
+		  }
+      },
+      "vertical_range": 12,
+      "extra_bottom_block_chance": 0.8,
+      "extra_edge_column_chance": 0.8,
+      "vegetation_chance": 0.0,
+      "xz_radius": {
+        "type": "minecraft:constant",
+        "value": 5
+    },
+      "replaceable": "#minecraft:base_stone_overworld",
+      "ground_state": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+              "Name": "minecraft:terracotta"
+          }
+      },
+      "vegetation_feature": {
+          "feature": "clifftree:badlands_terracotta",
+          "placement": [
+          ]
+      }
+  }
+}

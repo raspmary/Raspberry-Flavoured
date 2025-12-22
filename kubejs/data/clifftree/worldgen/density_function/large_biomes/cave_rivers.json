@@ -1,0 +1,151 @@
+{
+  "type": "minecraft:interpolated",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "minecraft:y",
+          "points": [
+            {
+              "location": 53,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 57.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:overworld_large_biomes/erosion",
+                "points": [
+                  {
+                    "location": -1,
+                    "derivative": 0,
+                    "value": 0.5
+                  },
+                  {
+                    "location": -0.35,
+                    "derivative": 0,
+                    "value": 0.5
+                  },
+                  {
+                    "location": -0.3,
+                    "derivative": 0,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "location": 62,
+              "derivative": 0,
+              "value": 1
+            },
+            {
+              "location": 70,
+              "derivative": 0,
+              "value": {
+                "coordinate": "minecraft:overworld_large_biomes/erosion",
+                "points": [
+                  {
+                    "location": -1,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": -0.35,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": -0.3,
+                    "derivative": 0,
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            {
+              "location": 85,
+              "derivative": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "minecraft:overworld/ridges",
+            "points": [
+              {
+                "location": -0.0675,
+                "derivative": 0,
+                "value": 0
+              },
+              {
+                "location": 0,
+                "derivative": 0,
+                "value": 1
+              },
+              {
+                "location": 0.0675,
+                "derivative": 0,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:overworld_large_biomes/erosion",
+              "points": [
+                {
+                  "location": 0.42,
+                  "derivative": 0,
+                  "value": 1
+                },
+                {
+                  "location": 0.575,
+                  "derivative": 0,
+                  "value": 0
+                }
+              ]
+            }
+          },
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:overworld_large_biomes/continents",
+              "points": [
+                {
+                  "location": -0.03,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "location": 0.02,
+                  "derivative": 0,
+                  "value": -2
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "argument2": 0.5
+  }
+}

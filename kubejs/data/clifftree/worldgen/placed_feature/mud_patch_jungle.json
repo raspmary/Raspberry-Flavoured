@@ -1,0 +1,33 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "default": {
+        "feature": "clifftree:mud_patch",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "clifftree:mud_water",
+            "placement": []
+          }
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 3
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 6
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

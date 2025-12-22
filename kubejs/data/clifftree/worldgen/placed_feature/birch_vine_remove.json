@@ -1,0 +1,27 @@
+{
+  "feature": "clifftree:birch_vine_remove",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 150
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 50
+        },
+        "max_inclusive": {
+          "below_top": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+	"feature": {
+		"type": "vegetation_patch",
+		"config": {
+			"depth": 1,
+			"extra_bottom_block_chance": 1,
+			"extra_edge_column_chance": 1,
+			"ground_state": {
+				"type": "simple_state_provider",
+				"state": {
+					"Name": "stone"
+				}
+			},
+			"replaceable": "#minecraft:stone_ore_replaceables",
+			"surface": "floor",
+			"vegetation_chance": 1,
+			"vegetation_feature": {
+				"feature": "clifftree:stone_cliff_coarse_dirt",
+				"placement": []
+			},
+			"vertical_range": 5,
+			"xz_radius": 8
+		}
+	},
+	"placement": [
+	  {
+		"type": "minecraft:count",
+		"count": 20
+	  },
+	  {
+		"type": "minecraft:in_square"
+	  },
+	  {
+		"type": "heightmap",
+		"heightmap": "MOTION_BLOCKING_NO_LEAVES"
+	  },
+	  {
+		"type": "minecraft:biome"
+	  }
+	]
+  }
+  

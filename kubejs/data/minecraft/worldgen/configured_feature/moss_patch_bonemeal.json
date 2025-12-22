@@ -1,0 +1,179 @@
+{
+  "type": "random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "random_selector",
+        "config": {
+          "default": {
+            "feature": {
+              "type": "simple_block",
+              "config": {
+                "to_place": {
+                  "type": "simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:moss_block",
+                    "Properties": {}
+                  }
+                }
+              }
+            },
+            "placement": [
+              {
+                "type": "block_predicate_filter",
+                "predicate": {
+                  "type": "matching_block_tag",
+                  "tag": "minecraft:moss_replaceable"
+                }
+              },
+              {
+                "type": "block_predicate_filter",
+                "predicate": {
+                  "type": "any_of",
+                  "predicates": [
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        1,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        1,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        -1,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        0,
+                        -1
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "features": [
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": "minecraft:moss_vegetation_bonemeal",
+                "placement": [
+                  {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                      "type": "all_of",
+                      "predicates": [
+                        {
+                          "type": "matching_blocks",
+                          "blocks": [
+                            "air"
+                          ]
+                        },
+                        {
+                          "type": "all_of",
+                          "predicates": [
+                            {
+                              "type": "matching_blocks",
+                              "blocks": [
+                                "minecraft:moss_block"
+                              ],
+                              "offset": [
+                                0,
+                                -1,
+                                0
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "chance": 0.1,
+              "feature": {
+                "feature": "minecraft:moss_vegetation_bonemeal_ceiling",
+                "placement": [
+                  {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                      "type": "all_of",
+                      "predicates": [
+                        {
+                          "type": "matching_blocks",
+                          "blocks": [
+                            "air"
+                          ]
+                        },
+                        {
+                          "type": "all_of",
+                          "predicates": [
+                            {
+                              "type": "matching_blocks",
+                              "blocks": [
+                                "minecraft:moss_block"
+                              ],
+                              "offset": [
+                                0,
+                                1,
+                                0
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    },
+    "xz_spread": 2,
+    "y_spread": 2,
+    "tries": 512
+  }
+}
