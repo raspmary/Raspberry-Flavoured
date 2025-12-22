@@ -1,0 +1,447 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:brain_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:brain_coral_wall_fan",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:brain_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:brain_coral_wall_fan",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "blocks": "minecraft:brain_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:brain_coral_wall_fan",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "blocks": "minecraft:brain_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:brain_coral_wall_fan",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:bubble_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:bubble_coral_wall_fan",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:bubble_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:bubble_coral_wall_fan",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "blocks": "minecraft:bubble_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:bubble_coral_wall_fan",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "blocks": "minecraft:bubble_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:bubble_coral_wall_fan",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:fire_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:fire_coral_wall_fan",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:fire_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:fire_coral_wall_fan",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "blocks": "minecraft:fire_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:fire_coral_wall_fan",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "blocks": "minecraft:fire_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:fire_coral_wall_fan",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:horn_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:horn_coral_wall_fan",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:horn_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:horn_coral_wall_fan",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "blocks": "minecraft:horn_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:horn_coral_wall_fan",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "blocks": "minecraft:horn_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:horn_coral_wall_fan",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:tube_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:tube_coral_wall_fan",
+              "Properties": {
+                "facing": "east",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "blocks": "minecraft:tube_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:tube_coral_wall_fan",
+              "Properties": {
+                "facing": "west",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "blocks": "minecraft:tube_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:tube_coral_wall_fan",
+              "Properties": {
+                "facing": "south",
+                "waterlogged": "true"
+              }
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "blocks": "minecraft:tube_coral_block"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:tube_coral_wall_fan",
+              "Properties": {
+                "facing": "north",
+                "waterlogged": "true"
+              }
+            }
+          }
+        }
+
+        
+      ]
+    },
+    "radius": 8,
+    "half_height": 4,
+    "target": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "minecraft:wall_corals"
+    }
+  }
+}

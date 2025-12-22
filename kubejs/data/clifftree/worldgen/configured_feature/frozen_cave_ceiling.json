@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      }
+    },
+    "vertical_range": 12,
+    "extra_bottom_block_chance": 1,
+    "extra_edge_column_chance": 1,
+    "vegetation_chance": 1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    },
+    "replaceable": "#minecraft:base_stone_overworld",
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:packed_ice"
+      }
+    },
+    "vegetation_feature": {
+      "feature": "clifftree:ice_ceiling_decoration",
+      "placement": []
+    }
+  }
+}

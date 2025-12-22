@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "deepslate_brick_slab",
+                  "Properties": {}
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "cobbled_deepslate_slab",
+                  "Properties": {}
+                },
+                "weight": 3
+              }
+            ]
+          }
+        }
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.35,
+        "feature": {
+          "feature": {
+            "type": "block_column",
+            "config": {
+              "allowed_placement": {
+                "type": "matching_blocks",
+                "blocks": [
+                  "deepslate",
+                  "air"
+                ]
+              },
+              "direction": "up",
+              "layers": [
+                {
+                  "height": {
+                    "type": "uniform",
+                    "value": {
+                      "min_inclusive": 1,
+                      "max_inclusive": 3
+                    }
+                  },
+                  "provider": {
+                    "type": "minecraft:weighted_state_provider",
+                    "entries": [
+                      {
+                        "data": {
+                          "Name": "deepslate_bricks",
+                          "Properties": {}
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "Name": "cracked_deepslate_bricks",
+                          "Properties": {}
+                        },
+                        "weight": 3
+                      },
+                      {
+                        "data": {
+                          "Name": "cobbled_deepslate",
+                          "Properties": {}
+                        },
+                        "weight": 3
+                      }
+                    ]
+                  }
+                }
+              ],
+              "prioritize_tip": true
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

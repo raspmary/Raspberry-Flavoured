@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "clifftree:ocean_rock",
+    "fossil_structures": [
+      "clifftree:ocean_rock/small_rock_1",
+      "clifftree:ocean_rock/small_rock_2",
+      "clifftree:ocean_rock/small_rock_3",
+      "clifftree:ocean_rock/small_rock_4"
+    ],
+    "max_empty_corners_allowed": 4,
+    "overlay_processors": "minecraft:empty",
+    "overlay_structures": [
+      "clifftree:ocean_rock/small_rock_1",
+      "clifftree:ocean_rock/small_rock_2",
+      "clifftree:ocean_rock/small_rock_3",
+      "clifftree:ocean_rock/small_rock_4"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:no_bonemeal_flower",
+  "config": {
+    "tries": 64,
+    "xz_spread": 6,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:dual_noise_provider",
+            "seed": 2345,
+            "noise": {
+              "firstOctave": -3,
+              "amplitudes": [
+                1
+              ]
+            },
+            "scale": 1,
+            "variety": {
+              "min_inclusive": 2,
+              "max_inclusive": 2
+            },
+            "slow_noise": {
+              "firstOctave": -10,
+              "amplitudes": [
+                1
+              ]
+            },
+            "slow_scale": 1,
+            "states": [
+              {
+                "Name": "minecraft:brown_mushroom"
+              },
+              {
+                "Name": "minecraft:red_mushroom"
+              },
+              {
+                "Name": "minecraft:brown_mushroom"
+              },
+              {
+                "Name": "minecraft:red_mushroom"
+              },
+              {
+                "Name": "minecraft:brown_mushroom"
+              },
+              {
+                "Name": "minecraft:red_mushroom"
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

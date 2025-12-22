@@ -1,0 +1,142 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:fossil",
+          "config": {
+            "fossil_processors": "clifftree:coral_brain",
+            "fossil_structures": [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ],
+            "max_empty_corners_allowed": 4,
+            "overlay_processors": "clifftree:coral_brain",
+            "overlay_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:fossil",
+          "config": {
+            "fossil_processors": "clifftree:coral_tube",
+            "fossil_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ],
+            "max_empty_corners_allowed": 4,
+            "overlay_processors": "clifftree:coral_tube",
+            "overlay_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:fossil",
+          "config": {
+            "fossil_processors": "clifftree:coral_bubble",
+            "fossil_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ],
+            "max_empty_corners_allowed": 4,
+            "overlay_processors": "clifftree:coral_bubble",
+            "overlay_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:fossil",
+          "config": {
+            "fossil_processors": "clifftree:coral_fire",
+            "fossil_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ],
+            "max_empty_corners_allowed": 4,
+            "overlay_processors": "clifftree:coral_fire",
+            "overlay_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:fossil",
+          "config": {
+            "fossil_processors": "clifftree:coral_horn",
+            "fossil_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ],
+            "max_empty_corners_allowed": 4,
+            "overlay_processors": "clifftree:coral_horn",
+            "overlay_structures":  [
+              "clifftree:coral/coral_outcropping_1",
+              "clifftree:coral/coral_outcropping_2",
+              "clifftree:coral/coral_outcropping_3",
+              "clifftree:coral/coral_outcropping_4",
+              "clifftree:coral/coral_outcropping_5",
+              "clifftree:coral/coral_outcropping_6"
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

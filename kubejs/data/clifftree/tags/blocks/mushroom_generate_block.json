@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:mycelium",
+    "minecraft:podzol",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:mud",
+    "minecraft:moss_block",
+    "minecraft:mossy_cobblestone",
+    "#minecraft:dark_oak_logs",
+    "#minecraft:oak_logs",
+    "#minecraft:birch_logs",
+    "#minecraft:jungle_logs",
+    "#minecraft:mangrove_logs",
+    "#minecraft:cherry_logs",
+    "#minecraft:base_stone_nether",
+    "#minecraft:nylium",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil"
+  ]
+}

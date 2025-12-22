@@ -1,0 +1,29 @@
+{
+  "feature": "clifftree:ocean_spires",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 64
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:biased_to_bottom",
+		"value": {
+			"min_inclusive": 3,
+			"max_inclusive": 5
+		}
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

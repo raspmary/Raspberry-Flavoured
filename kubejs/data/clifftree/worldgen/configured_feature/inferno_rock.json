@@ -1,0 +1,46 @@
+{
+  "type": "random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "simple_block",
+        "config": {
+          "to_place": {
+            "type": "weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:magma_block",
+                  "Properties": {}
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "minecraft:smooth_basalt",
+                  "Properties": {}
+                },
+                "weight": 5
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "block_predicate_filter",
+          "predicate": {
+            "type": "matching_blocks",
+            "blocks": [
+              "smooth_basalt",
+              "deepslate"
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 512,
+    "xz_spread": 2,
+    "y_spread": 10
+  }
+}

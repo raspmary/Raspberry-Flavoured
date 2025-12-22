@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "kubejs:tropical_beach"
+    "kubejs:tropical_beach",
+	"clifftree:tropical_beach",
+    "clifftree:gravelly_beach",
+    "minecraft:beach",
+    "minecraft:snowy_beach"
   ]
 }

@@ -1,0 +1,154 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": false,
+              "force_dirt": false,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "limit": 0,
+                "lower_size": 0,
+                "upper_size": 0
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:dirt"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:red_mushroom_block",
+                  "Properties": {
+                    "down": "false",
+                    "east": "true",
+                    "north": "true",
+                    "south": "true",
+                    "up": "true",
+                    "west": "true"
+                  }
+                }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:red_mushroom_block",
+                  "Properties": {
+                    "down": "false",
+                    "east": "true",
+                    "north": "true",
+                    "south": "true",
+                    "up": "true",
+                    "west": "true"
+                  }
+                }
+              },
+              "trunk_placer": {
+                "type": "minecraft:upwards_branching_trunk_placer",
+                "base_height": 1,
+                "height_rand_a": 0,
+                "height_rand_b": 0,
+                "extra_branch_steps": 2,
+                "extra_branch_length": 1,
+                "place_branch_per_log_probability": 1,
+                "can_grow_through": "minecraft:stone"
+              },
+              "foliage_placer": {
+                "type": "minecraft:acacia_foliage_placer",
+                "radius": {
+                  "type": "minecraft:biased_to_bottom",
+				  "value": {
+                    "min_inclusive": 2,
+                    "max_inclusive": 3
+				  }
+                },
+                "offset": 0
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:tree",
+        "config": {
+          "ignore_vines": false,
+          "force_dirt": false,
+          "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "limit": 0,
+            "lower_size": 0,
+            "upper_size": 0
+          },
+          "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          },
+          "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:brown_mushroom_block",
+              "Properties": {
+                "down": "false",
+                "east": "true",
+                "north": "true",
+                "south": "true",
+                "up": "true",
+                "west": "true"
+              }
+            }
+          },
+          "foliage_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:brown_mushroom_block",
+              "Properties": {
+                "down": "false",
+                "east": "true",
+                "north": "true",
+                "south": "true",
+                "up": "true",
+                "west": "true"
+              }
+            }
+          },
+          "trunk_placer": {
+            "type": "minecraft:upwards_branching_trunk_placer",
+            "base_height": 1,
+            "height_rand_a": 0,
+            "height_rand_b": 0,
+            "extra_branch_steps": 2,
+            "extra_branch_length": 1,
+            "place_branch_per_log_probability": 1,
+            "can_grow_through": "minecraft:stone"
+          },
+          "foliage_placer": {
+            "type": "minecraft:acacia_foliage_placer",
+            "radius": {
+              "type": "minecraft:biased_to_bottom",
+			  "value": {
+                "min_inclusive": 2,
+                "max_inclusive": 3
+			  }
+            },
+            "offset": 0
+          },
+          "decorators": []
+        }
+      },
+      "placement": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:chiseled_tuff",
+    "minecraft:chiseled_tuff_bricks",
+    "minecraft:polished_tuff",
+    "minecraft:polished_tuff_slab",
+    "minecraft:polished_tuff_stairs",
+    "minecraft:polished_tuff_wall",
+    "minecraft:tuff_brick_slab",
+    "minecraft:tuff_brick_stairs",
+    "minecraft:tuff_brick_wall",
+    "minecraft:tuff_bricks"
+  ]
+}

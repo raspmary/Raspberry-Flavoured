@@ -1,0 +1,34 @@
+{
+  "feature": "clifftree:disk_river_terracotta",
+  "placement": [
+    {
+      "count": 80,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 53
+        },
+        "max_inclusive": {
+          "absolute": 55
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "fluids": "minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

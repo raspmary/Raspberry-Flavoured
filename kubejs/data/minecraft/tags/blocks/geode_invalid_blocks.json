@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "minecraft:spawner",
+    "minecraft:trial_spawner",
+    "minecraft:vault",
+    "minecraft:barrel",
+    "minecraft:chest",
+    "#clifftree:all_waxed_coppers",
+    "#clifftree:processed_tuff_blocks"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:disk",
+    "config": {
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:terracotta"
+          }
+        },
+        "rules": [
+          {
+            "if_true": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:gray_terracotta"
+                },
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "tag": "minecraft:replaceable"
+                  }
+                }
+              ]
+            },
+            "then": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:gray_terracotta"
+              }
+            }
+          }
+        ]
+      },
+      "target": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:andesite",
+          "minecraft:diorite",
+          "minecraft:granite",
+          "minecraft:stone",
+          "minecraft:gray_terracotta"
+        ]
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+		"value": {
+          "min_inclusive": 6,
+          "max_inclusive": 8
+		}
+      },
+      "half_height": 1
+    }
+  }
+  

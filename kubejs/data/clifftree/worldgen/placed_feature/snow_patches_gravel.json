@@ -1,0 +1,95 @@
+{
+  "feature": "clifftree:snow_patches",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 50
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              -1,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:snow_block",
+              "minecraft:powder_snow",
+              "minecraft:packed_ice",
+              "minecraft:gravel",
+              "stone"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              1,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:snow_block",
+              "minecraft:powder_snow",
+              "minecraft:packed_ice",
+              "minecraft:gravel"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              -1
+            ],
+            "blocks": [
+              "minecraft:snow_block",
+              "minecraft:powder_snow",
+              "minecraft:packed_ice",
+              "minecraft:gravel"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              1
+            ],
+            "blocks": [
+              "minecraft:snow_block",
+              "minecraft:powder_snow",
+              "minecraft:packed_ice",
+              "minecraft:gravel"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:snow_block",
+              "minecraft:powder_snow",
+              "minecraft:packed_ice",
+              "minecraft:gravel"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "minecraft:amethyst_geode_normal",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.375,
+        "feature": {
+          "feature": "minecraft:amethyst_geode_large",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.125,
+        "feature": "minecraft:amethyst_geode_massive"
+      }
+    ]
+  }
+}

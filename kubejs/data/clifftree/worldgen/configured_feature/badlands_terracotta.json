@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:orange_terracotta"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:red_terracotta"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:brown_terracotta"
+            }
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:yellow_terracotta"
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:orange_terracotta"
+            }
+          }
+        }
+      ]
+    },
+    "radius": 8,
+    "half_height": 4,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:red_terracotta",
+        "minecraft:yellow_terracotta"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "clifftree:ocean_rock",
+    "fossil_structures": [
+      "clifftree:ocean_rock/rock_cluster_1",
+      "clifftree:ocean_rock/rock_cluster_2",
+      "clifftree:ocean_rock/rock_cluster_3",
+      "clifftree:ocean_rock/rock_cluster_4",
+      "clifftree:ocean_rock/rock_cluster_5"
+    ],
+    "max_empty_corners_allowed": 4,
+    "overlay_processors": "minecraft:empty",
+    "overlay_structures": [
+      "clifftree:ocean_rock/rock_cluster_1",
+      "clifftree:ocean_rock/rock_cluster_2",
+      "clifftree:ocean_rock/rock_cluster_3",
+      "clifftree:ocean_rock/rock_cluster_4",
+      "clifftree:ocean_rock/rock_cluster_5"
+    ]
+  }
+}

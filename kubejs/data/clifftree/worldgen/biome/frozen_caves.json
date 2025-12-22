@@ -1,0 +1,178 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.4,
+  "effects": {
+    "fog_color": 2105377,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.grove"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:snowflake"
+      },
+      "probability": 0.0008
+    },
+    "sky_color": 7378617,
+    "water_color": 8303069,
+    "water_fog_color": 1319727
+  },
+  "features": [
+    [],
+    [
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "clifftree:ore_diamond_tuff"
+    ],
+    [ 
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "clifftree:filler_stone",
+      "clifftree:filler_deepslate"
+    ],
+    [],
+    [ 
+      "clifftree:ice_blobs",
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "clifftree:ore_diorite_extra",
+      "clifftree:cave_diorite",
+      "clifftree:cave_diorite_ceiling",
+      "clifftree:ice_to_snow",
+      "clifftree:tuff_noise",
+      "clifftree:tuff_noise_ceiling",
+      "clifftree:ore_gravel_deep",
+      "clifftree:scattered_ice",
+      "clifftree:snow_melter"
+    ],
+    [
+      "clifftree:ore_infested",
+      "clifftree:snow_cave"
+    ],
+    [
+      "minecraft:spring_water"
+    ],
+    [ 
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "clifftree:seagrass_cave",
+      "clifftree:frozen_cave_ceiling"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "clifftree:remove_snow_from_ice"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 40
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 80
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.0
+}

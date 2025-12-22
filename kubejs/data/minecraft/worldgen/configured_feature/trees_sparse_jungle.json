@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "clifftree:jungle_tree",
+    "features": [
+      {
+        "chance": 0.4,
+        "feature": "clifftree:jungle_tree_alt"
+      },
+      {
+        "chance": 0.4,
+        "feature": "minecraft:jungle_bush"
+      }
+    ]
+  }
+}

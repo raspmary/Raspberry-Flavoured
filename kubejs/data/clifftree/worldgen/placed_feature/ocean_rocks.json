@@ -1,0 +1,72 @@
+{
+  "feature": {
+    "config": {
+      "features": [
+        {
+          "chance": 0.3,
+          "feature": {
+        "feature": "clifftree:ocean_rock_medium",
+        "placement": []
+      }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+        "feature": "clifftree:ocean_rock_large",
+        "placement": []
+      }
+        },
+        {
+          "chance": 0.02,
+          "feature": {
+        "feature": "clifftree:ocean_rock_cluster",
+        "placement": []
+      }
+        }
+      ],
+      "default": {
+        "feature": "clifftree:ocean_rock_small",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 12
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:biased_to_bottom",
+		"value": {
+			"min_inclusive": 2,
+			"max_inclusive": 5
+		}
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "offset": [
+          0,
+          12,
+          0
+        ],
+        "fluids": "#minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

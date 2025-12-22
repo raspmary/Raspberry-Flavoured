@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#clifftree:has_structure/beached_treasure",
+  "max_distance_from_center": 10,
+  "size": 1,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 66
+  },
+  "start_pool": "clifftree:beached_treasure",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "clifftree:amethyst_geode_closed",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": "clifftree:amethyst_geode_open",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "down",
+            "allowed_placement": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:biased_to_bottom",
+				  "value": {
+                    "min_inclusive": 5,
+                    "max_inclusive": 12
+				  }
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:vine",
+                    "Properties": {
+                      "north": "true",
+                      "east": "false",
+                      "south": "false",
+                      "up": "false",
+                      "west": "false"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "up",
+            "max_steps": 32,
+            "target_condition": {
+              "type": "minecraft:has_sturdy_face",
+              "offset": [
+                  0,
+                  0,
+                  -1
+              ],
+              "direction": "south"
+            },
+            "allowed_search_condition": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            }
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "down",
+            "allowed_placement": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:uniform",
+				  "value": {
+                    "min_inclusive": 5,
+                    "max_inclusive": 16
+				  }
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:vine",
+                    "Properties": {
+                      "north": "false",
+                      "east": "false",
+                      "south": "true",
+                      "up": "false",
+                      "west": "false"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "up",
+            "max_steps": 32,
+            "target_condition": {
+              "type": "minecraft:has_sturdy_face",
+              "offset": [
+                  0,
+                  0,
+                  1
+              ],
+              "direction": "north"
+            },
+            "allowed_search_condition": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            }
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "down",
+            "allowed_placement": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:uniform",
+				  "value": {
+                    "min_inclusive": 5,
+                    "max_inclusive": 16
+				  }
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:vine",
+                    "Properties": {
+                      "north": "false",
+                      "east": "true",
+                      "south": "false",
+                      "up": "false",
+                      "west": "false"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "up",
+            "max_steps": 32,
+            "target_condition": {
+              "type": "minecraft:has_sturdy_face",
+              "offset": [
+                  1,
+                  0,
+                  0
+              ],
+              "direction": "west"
+            },
+            "allowed_search_condition": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            }
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "down",
+            "allowed_placement": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:uniform",
+				  "value": {
+                    "min_inclusive": 5,
+                    "max_inclusive": 16
+				  }
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:vine",
+                    "Properties": {
+                      "north": "false",
+                      "east": "false",
+                      "south": "false",
+                      "up": "false",
+                      "west": "true"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "up",
+            "max_steps": 32,
+            "target_condition": {
+              "type": "minecraft:has_sturdy_face",
+              "offset": [
+                  -1,
+                  0,
+                  0
+              ],
+              "direction": "east"
+            },
+            "allowed_search_condition": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

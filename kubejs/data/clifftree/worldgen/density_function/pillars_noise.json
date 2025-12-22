@@ -1,0 +1,13 @@
+{
+  "type": "flat_cache",
+  "argument": {
+    "type": "abs",
+    "argument": {
+      "type": "noise",
+      "noise": "clifftree:pillars",
+      "xz_scale": 0.4,
+      "y_scale": 0
+    }
+  }
+  
+}

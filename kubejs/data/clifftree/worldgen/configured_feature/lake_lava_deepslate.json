@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "barrier": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:deepslate",
+        "Properties":{"axis": "y"}
+      }
+    },
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:lava",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    }
+  }
+}

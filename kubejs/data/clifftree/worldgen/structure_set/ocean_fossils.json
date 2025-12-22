@@ -1,0 +1,18 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 7562381,
+      "separation": 6,
+      "spacing": 20
+    },
+    "structures": [
+      {
+        "structure": "clifftree:ocean_fossil",
+        "weight": 49
+      },
+      {
+        "structure": "clifftree:whale_skeleton",
+        "weight": 1
+      }
+    ]
+  }

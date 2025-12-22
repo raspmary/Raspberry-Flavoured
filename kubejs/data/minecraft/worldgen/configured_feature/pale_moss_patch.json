@@ -1,0 +1,179 @@
+{
+  "type": "random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "random_selector",
+        "config": {
+          "default": {
+            "feature": {
+              "type": "simple_block",
+              "config": {
+                "to_place": {
+                  "type": "simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:pale_moss_block",
+                    "Properties": {}
+                  }
+                }
+              }
+            },
+            "placement": [
+              {
+                "type": "block_predicate_filter",
+                "predicate": {
+                  "type": "matching_block_tag",
+                  "tag": "minecraft:moss_replaceable"
+                }
+              },
+              {
+                "type": "block_predicate_filter",
+                "predicate": {
+                  "type": "any_of",
+                  "predicates": [
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        1,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        1,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        -1,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    {
+                      "type": "matching_block_tag",
+                      "tag": "clifftree:moss_spreads_over",
+                      "offset": [
+                        0,
+                        0,
+                        -1
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "features": [
+            {
+              "chance": 0.3,
+              "feature": {
+                "feature": "minecraft:pale_moss_vegetation",
+                "placement": [
+                  {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                      "type": "all_of",
+                      "predicates": [
+                        {
+                          "type": "matching_blocks",
+                          "blocks": [
+                            "air"
+                          ]
+                        },
+                        {
+                          "type": "all_of",
+                          "predicates": [
+                            {
+                              "type": "matching_blocks",
+                              "blocks": [
+                                "minecraft:pale_moss_block"
+                              ],
+                              "offset": [
+                                0,
+                                -1,
+                                0
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "chance": 0.3,
+              "feature": {
+                "feature": "minecraft:pale_hanging_moss",
+                "placement": [
+                  {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                      "type": "all_of",
+                      "predicates": [
+                        {
+                          "type": "matching_blocks",
+                          "blocks": [
+                            "air"
+                          ]
+                        },
+                        {
+                          "type": "all_of",
+                          "predicates": [
+                            {
+                              "type": "matching_blocks",
+                              "blocks": [
+                                "minecraft:pale_moss_block"
+                              ],
+                              "offset": [
+                                0,
+                                1,
+                                0
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    },
+    "xz_spread": 3,
+    "y_spread": 6,
+    "tries": 1024
+  }
+}

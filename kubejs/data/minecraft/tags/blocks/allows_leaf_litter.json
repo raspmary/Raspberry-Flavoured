@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:pale_oak_leaves",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "feature": "clifftree:alternate_terracotta",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 76
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 8,
+      "y_spread": 0
+    }
+  ]
+}

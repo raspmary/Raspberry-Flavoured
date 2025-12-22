@@ -1,0 +1,18 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:block_rot",
+      "integrity": 0.9,
+      "rottable_blocks": "#minecraft:base_stone_overworld"
+    },
+    {
+      "processor_type": "minecraft:gravity",
+      "heightmap": "OCEAN_FLOOR_WG",
+      "offset": 0
+    },
+    {
+      "processor_type": "minecraft:protected_blocks",
+      "value": "#minecraft:features_cannot_replace"
+    }
+  ]
+}

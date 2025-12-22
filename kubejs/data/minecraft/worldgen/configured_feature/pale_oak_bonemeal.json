@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:tree",
+          "config": {
+            "decorators": [
+              {
+                "type": "minecraft:pale_moss",
+                "ground_probability": 0,
+                "leaves_probability": 0.15,
+                "trunk_probability": 0.4
+              }
+            ],
+            "dirt_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:dirt"
+              }
+            },
+            "foliage_placer": {
+              "type": "minecraft:cherry_foliage_placer",
+              "radius": 4,
+              "offset": 0,
+              "height": 4,
+              "wide_bottom_layer_hole_chance": 0,
+              "corner_hole_chance": 0.5,
+              "hanging_leaves_chance": 0.2,
+              "hanging_leaves_extension_chance": 0.5
+            },
+            "foliage_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:pale_oak_leaves",
+                "Properties": {
+                  "distance": "7",
+                  "persistent": "false",
+                  "waterlogged": "false"
+                }
+              }
+            },
+            "force_dirt": false,
+            "ignore_vines": true,
+            "minimum_size": {
+              "type": "minecraft:three_layers_feature_size",
+              "limit": 1,
+              "lower_size": 0,
+              "middle_size": 1,
+              "upper_limit": 1,
+              "upper_size": 2
+            },
+            "trunk_placer": {
+              "type": "minecraft:dark_oak_trunk_placer",
+              "base_height": 7,
+              "height_rand_a": 2,
+              "height_rand_b": 1
+            },
+            "trunk_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:pale_oak_log",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "tag": "clifftree:sapling_cannot_grow"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

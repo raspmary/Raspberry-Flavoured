@@ -1,0 +1,138 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 256,
+    "xz_spread": 3,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "config": {
+          "features": [
+            {
+              "chance": 0.2,
+              "feature": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:magma_block"
+                      }
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "clifftree:ocean_floor"
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": "minecraft:water"
+          }
+        }
+      ]
+              }
+            }
+          ],
+          "default": {
+            "feature": {
+              "config": {
+                "direction": "up",
+                "allowed_placement": {
+                  "type": "minecraft:matching_fluids",
+                  "fluids": "#minecraft:water"
+                },
+                "prioritize_tip": false,
+                "layers": [
+                  {
+                    "height": {
+                      "type": "minecraft:biased_to_bottom",
+					  "value": {
+						  "min_inclusive": 1,
+						  "max_inclusive": 3
+					  }
+                    },
+                    "provider": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:basalt",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "height": {
+                      "type": "minecraft:biased_to_bottom",
+					  "value": {
+						  "min_inclusive": 0,
+						  "max_inclusive": 3
+					  }
+                    },
+                    "provider": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:basalt",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "height": {
+                      "type": "minecraft:biased_to_bottom",
+					  "value": {
+						  "min_inclusive": 0,
+						  "max_inclusive": 5
+					  }
+                    },
+                    "provider": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:basalt",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "type": "minecraft:block_column"
+            },
+            "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "tag": "clifftree:ocean_floor"
+          }
+        }
+      ]
+          }
+        },
+        "type": "minecraft:random_selector"
+      },
+      "placement": []
+    }
+  }
+}

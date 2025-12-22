@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:spruce_on_snow",
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "minecraft:pine_on_snow"
+      },
+      {
+        "chance": 0.1,
+        "feature": "clifftree:pine_on_snow"
+      },
+      {
+        "chance": 0.4,
+        "feature": "clifftree:spruce_on_snow"
+      }
+    ]
+  }
+}

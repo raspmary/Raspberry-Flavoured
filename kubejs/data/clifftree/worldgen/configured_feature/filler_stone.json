@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 1.0,
+    "size": 16,
+    "targets": [
+
+      {
+        "state": {
+          "Name": "minecraft:stone"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:snow_block"
+        }
+      }
+    ]
+  }
+}

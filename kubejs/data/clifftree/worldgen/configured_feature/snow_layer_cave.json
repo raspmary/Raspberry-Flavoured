@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "1"
+            }
+          },
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

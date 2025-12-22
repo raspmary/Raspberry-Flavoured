@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:air"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:flowering_azalea"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:azalea"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:moss_carpet"
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "minecraft:grass"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "facing": "east",
+              "half": "lower",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "facing": "west",
+              "half": "lower",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "facing": "north",
+              "half": "lower",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "facing": "south",
+              "half": "lower",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

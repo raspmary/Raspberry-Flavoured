@@ -1,0 +1,19 @@
+{
+  "feature": "clifftree:flower_dandelion",
+  "placement": [
+    {
+      "type": "count",
+      "count": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

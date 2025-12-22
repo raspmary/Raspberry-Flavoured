@@ -1,0 +1,41 @@
+{
+  "feature": "clifftree:ocean_plateau",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 32
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:biased_to_bottom",
+		"value": {
+			"min_inclusive": 3,
+			"max_inclusive": 5
+		}
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "offset": [
+          0,
+          12,
+          0
+        ],
+        "fluids": "#minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

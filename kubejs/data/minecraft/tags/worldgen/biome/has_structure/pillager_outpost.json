@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:savanna_plateau",
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "windswept_hills",
+    "windswept_gravelly_hills",
+    "clifftree:shrubland",
+    "clifftree:oasis",
+    "minecraft:sunflower_plains"
+  ]
+}

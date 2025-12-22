@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "clifftree:ocean_rock",
+    "fossil_structures": [
+      "clifftree:ocean_rock/arch1",
+      "clifftree:ocean_rock/arch2",
+      "clifftree:ocean_rock/arch3",
+      "clifftree:ocean_rock/arch4",
+      "clifftree:ocean_rock/arch5",
+      "clifftree:ocean_rock/arch6",
+      "clifftree:ocean_rock/arch7",
+      "clifftree:ocean_rock/arch8"
+    ],
+    "max_empty_corners_allowed": 4,
+    "overlay_processors": "minecraft:empty",
+    "overlay_structures": [
+      "clifftree:ocean_rock/arch1",
+      "clifftree:ocean_rock/arch2",
+      "clifftree:ocean_rock/arch3",
+      "clifftree:ocean_rock/arch4",
+      "clifftree:ocean_rock/arch5",
+      "clifftree:ocean_rock/arch6",
+      "clifftree:ocean_rock/arch7",
+      "clifftree:ocean_rock/arch8"
+    ]
+  }
+}

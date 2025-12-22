@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:replace_single_block",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:blockstate_match",
+          "block_state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "true",
+              "north": "false",
+              "south": "false",
+              "up": "false",
+              "west": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "minecraft:birch_log",
+          "Properties": {
+            "axis": "x"
+          }
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:blockstate_match",
+          "block_state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "false",
+              "north": "false",
+              "south": "false",
+              "up": "false",
+              "west": "true"
+            }
+          }
+        },
+        "state": {
+          "Name": "minecraft:birch_log",
+          "Properties": {
+            "axis": "x"
+          }
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:blockstate_match",
+          "block_state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "false",
+              "north": "true",
+              "south": "false",
+              "up": "false",
+              "west": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "minecraft:birch_log",
+          "Properties": {
+            "axis": "z"
+          }
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:blockstate_match",
+          "block_state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "false",
+              "north": "false",
+              "south": "true",
+              "up": "false",
+              "west": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "minecraft:birch_log",
+          "Properties": {
+            "axis": "z"
+          }
+        }
+      }
+    ]
+  }
+}

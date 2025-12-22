@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "block": "minecraft:glow_lichen",
+    "can_be_placed_on": [
+      "minecraft:andesite",
+      "minecraft:diorite",
+      "minecraft:granite",
+      "minecraft:calcite",
+      "minecraft:tuff",
+	  "minecraft:coal_ore",
+	  "minecraft:copper_ore",
+	  "minecraft:iron_ore",
+	  "minecraft:gold_ore",
+	  "minecraft:lapis_ore",
+	  "minecraft:redstone_ore",
+	  "minecraft:diamond_ore",
+	  "minecraft:deepslate_coal_ore",
+	  "minecraft:deepslate_copper_ore",
+	  "minecraft:deepslate_iron_ore",
+	  "minecraft:deepslate_gold_ore",
+	  "minecraft:deepslate_lapis_ore",
+	  "minecraft:deepslate_redstone_ore",
+	  "minecraft:deepslate_diamond_ore"	  
+    ],
+    "can_place_on_ceiling": true,
+    "can_place_on_floor": false,
+    "can_place_on_wall": true,
+    "chance_of_spreading": 0.7,
+    "search_range": 24
+  }
+}

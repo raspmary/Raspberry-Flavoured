@@ -1,0 +1,94 @@
+{
+  "type": "block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "matching_blocks",
+      "blocks": "air",
+      "offset": [
+        0,
+        1,
+        0
+      ]
+    },
+    "direction": "down",
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "data": {
+                "type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 6,
+					"min_inclusive": 3
+				}
+              },
+              "weight": 3
+            },
+            {
+              "data": {
+                "type": "minecraft:uniform",
+				"value": {
+					"max_inclusive": 2,
+					"min_inclusive": 1
+				}
+              },
+              "weight": 5
+            }
+          ]
+        },
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "minecraft:pale_hanging_moss",
+            "Properties": {
+              "tip": "false"
+            }
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "minecraft:pale_hanging_moss",
+            "Properties": {
+              "tip": "true"
+            }
+          }
+        }
+      },
+      {
+        "height": {
+          "type": "weighted_list",
+          "distribution": [
+            {
+              "data": {
+                "type": "uniform",
+				"value": {
+					"max_inclusive": 3,
+					"min_inclusive": 1
+				}
+              },
+              "weight": 1
+            },
+            {
+              "data": 0,
+              "weight": 3
+            }
+          ]
+        },
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "air",
+            "Properties": {}
+          }
+        }
+      }
+    ],
+    "prioritize_tip": true
+  }
+}

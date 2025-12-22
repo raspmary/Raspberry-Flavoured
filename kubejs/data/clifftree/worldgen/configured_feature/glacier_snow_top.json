@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 4,
+    "radius": 6,
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:blue_ice"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -7,
+                  0
+                ],
+                "blocks": "minecraft:blue_ice"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  3,
+                  0
+                ],
+                "blocks": "#minecraft:air"
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:snow_block"
+            }
+          }
+        }
+      ]
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:blue_ice"
+    }
+  }
+}

@@ -6,26 +6,25 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0,
+  "downfall": 0.0,
   "effects": {
-    "fog_color": 12638463,
-    "grass_color": 16767347,
-    "foliage_color": 9214505,
+    "fog_color": 10605533,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2,
+      "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 7254527,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 6993872,
+    "water_color": 2916255,
+    "water_fog_color": 198666,
+    "grass_color": 16767347,
+    "foliage_color": 9214505
   },
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -56,17 +55,16 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_clay"
     ],
-    [],
+    "#clifftree:extra_gold_remove",
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -79,10 +77,12 @@
       "minecraft:patch_grass_savanna",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_sugar_cane"
     ],
     [
+      
+      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -128,27 +128,39 @@
         "maxCount": 6,
         "minCount": 2,
         "weight": 1
+      },
+      {
+        "type": "minecraft:armadillo",
+        "maxCount": 3,
+        "minCount": 3,
+        "weight": 4
       }
     ],
     "misc": [],
     "monster": [
       {
         "type": "minecraft:spider",
-        "maxCount": 4,
+        "maxCount": 8,
         "minCount": 4,
-        "weight": 100
+        "weight": 125
       },
       {
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 95
+        "weight": 80
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
       },
       {
         "type": "minecraft:skeleton",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 85
       },
       {
         "type": "minecraft:creeper",
@@ -186,5 +198,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 2
+  "temperature": 2.0,
+  "creature_spawn_probability": 0.15
 }

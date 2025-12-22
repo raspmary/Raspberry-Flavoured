@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "kubejs:tropical_beach"
+    "kubejs:tropical_beach",
+	"clifftree:warm_caves",
+    "clifftree:inferno",
+    "clifftree:warm_river",
+    "clifftree:tropical_river",
+    "clifftree:shrubland",
+    "clifftree:oasis",
+    "clifftree:desert_cliff"
   ]
 }
