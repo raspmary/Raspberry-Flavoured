@@ -9,7 +9,7 @@
 
 ["Spring to Life"]
 	#allow falling leaves particles to generate
-	falling_leaves = true
+	falling_leaves = false
 	#how often should falling leaves particles generate
 	#Range: 0.0 ~ 1.0
 	falling_leaves_frequency = 0.01

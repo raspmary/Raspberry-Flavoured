@@ -5,23 +5,23 @@
 	#allow variants for wolves to generate
 	wolf_variants = true
 	#adds wolves to more biomes for natural spawning
-	updated_wolf_spawns = true
+	updated_wolf_spawns = false
 
 ["Bundles of Bravery"]
 	#toggle the updated controls and UI for bundles
-	has_updated_bundles = true
+	has_updated_bundles = false
 	#allow bundles to generate in village chests
-	bundles_on_villages = true
+	bundles_on_villages = false
 
 ["The Garden Awakens"]
 	#allow resin to be obtainable from creaking hearts and woodland mansions
-	resin = true
+	resin = false
 	#allow creakings to spawn from creaking hearts
-	creaking = true
+	creaking = false
 	#allow the pale garden to generate in the overworld
-	pale_garden = true
+	pale_garden = false
 	#allow features from 'The Garden Awakens' to be obtainable through wandering traders
-	pale_trades = true
+	pale_trades = false
 	#creaking heart trail particle color (gray by default)
 	creaking_particle_color = 6250335
 	#creaking heart trail particle reverse color (orange by default)
@@ -31,21 +31,21 @@
 	#allow bushes to generate in the overworld
 	bushes = true
 	#allow firefly bushes to generate in the overworld
-	firefly_bushes = true
+	firefly_bushes = false
 	#allow wildflowers to generate in the overworld
-	wildflowers = true
+	wildflowers = false
 	#allow dry grass to generate in the overworld
 	dry_grass = true
 	#allow fallen trees to generate in the overworld
-	fallen_trees = true
+	fallen_trees = false
 	#allow leaf litter to generate in the overworld
-	leaf_litter = true
+	leaf_litter = false
 	#allow variants for pigs, cows and chickens to generate
-	farm_animal_variants = true
+	farm_animal_variants = false
 	#allow wolfs to have variants for their sounds
 	wolf_sound_variants = true
 	#allow features from 'Spring to Life' to be obtainable through wandering traders
-	spring_trades = true
+	spring_trades = false
 	#allow camels to spawn outside of villages
 	camel_spawns = true
 
@@ -55,11 +55,11 @@
 	#toggle whether leashes drop their connections when boosting with a firework rocket
 	leash_drop_connections = true
 	#allows ghasts drop the tears music disc
-	tears_music_disc = true
+	tears_music_disc = false
 	#apply a modifier to the speed of happy ghasts when ridden, 1.0 is default speed
-	happy_ghast_speed_modifier = 1.0
+	happy_ghast_speed_modifier = 1.2
 
 ["Hot as Lava"]
 	#allows chicken jockeys to drop the lava chicken music disc
-	lava_chicken_music_disc = true
+	lava_chicken_music_disc = false
 
