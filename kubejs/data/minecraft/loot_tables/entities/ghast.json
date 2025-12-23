@@ -97,12 +97,13 @@
           "type": "minecraft:item",
           "name": "minecraft:music_disc_tears",
           "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "dimension": "minecraft:overworld"
-              }
-            }
+				{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "killer",
+			  "predicate": {
+				"type": "#minecraft:skeletons"
+			  }
+			}
           ]
         }
       ]
