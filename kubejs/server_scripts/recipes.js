@@ -2260,6 +2260,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.compacting(['modestmining:coke'], ['8x modestmining:coke_chunk'])
 	event.recipes.create.compacting(['2x create:sweet_roll'], ['2x farmersdelight:wheat_dough', 'kubejs:butter', 'sugar']).heated()
 	event.recipes.create.compacting(['2x kubejs:cinnamon_roll'], ['2x farmersdelight:wheat_dough', 'kubejs:butter', 'sugar', 'kubejs:cinnamon']).heated()
+	event.recipes.create.compacting(Fluid.of('kubejs:ink',1000), ['3x ink_sac'])
 
 	// Cakes
 	event.recipes.create.compacting(['raspberry:cake'], [
