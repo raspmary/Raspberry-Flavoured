@@ -3312,7 +3312,7 @@ ServerEvents.recipes(event => {
 	A: '#forge:ingots/copper', B: '#forge:storage_blocks/copper', C: 'create:andesite_alloy', D: 'create:shaft'
 	}).id('create:crafting/appliances/copper_backtank')
 
-	event.replaceInput({ output: 'book_and_quill', input: 'ink_sac' }, 'ink_sac', '#raspberry_flavoured:ink_items')
+	event.replaceInput({ output: 'writable_book', input: 'ink_sac' }, 'ink_sac', '#raspberry_flavoured:ink_items')
 
 // You thought warping was removed?
 	event.custom({type: 'architects_palette:warping', dimension: 'minecraft:the_nether', ingredient: [{item: 'minecraft:music_disc_pigstep'}], result: {item: 'kubejs:music_disc_exostep'}}).id('kubejs:exostep')
