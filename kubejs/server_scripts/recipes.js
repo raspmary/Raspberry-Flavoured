@@ -113,6 +113,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('8x dark_prismarine', ['ink_sac', '8x prismarine']).id('minecraft:dark_prismarine')
 	event.shapeless('8x upgrade_aquatic:luminous_prismarine', ['glow_ink_sac', '8x prismarine']).id('upgrade_aquatic:luminous_prismarine')
 	event.shapeless('mynethersdelight:breakfast_sampler', ['mynethersdelight:roasted_sausage', '2x incubation:fried_egg', '#raspberry_flavoured:breakfast_condiments', '2x supplementaries:pancake', 'bowl']).id('mynethersdelight:crafting/breakfast_sampler')
+	event.shapeless('kubejs:ink_bottle', ['ink_sac', 'glass_bottle'])
 	event.shapeless('kubejs:ink_bucket', ['bucket', '4x kubejs:ink_bottle'])
 	event.shapeless('4x kubejs:ink_bottle', ['kubejs:ink_bucket', '4x glass_bottle'])
 	event.shapeless('kubejs:latex_bucket', ['bucket', '4x kubejs:latex_bottle'])
@@ -2259,7 +2260,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.compacting(['modestmining:coke'], ['8x modestmining:coke_chunk'])
 	event.recipes.create.compacting(['2x create:sweet_roll'], ['2x farmersdelight:wheat_dough', 'kubejs:butter', 'sugar']).heated()
 	event.recipes.create.compacting(['2x kubejs:cinnamon_roll'], ['2x farmersdelight:wheat_dough', 'kubejs:butter', 'sugar', 'kubejs:cinnamon']).heated()
-	
+
 	// Cakes
 	event.recipes.create.compacting(['raspberry:cake'], [
 		'2x sweet_berries', Fluid.of('kubejs:batter',500)
@@ -3310,7 +3311,7 @@ ServerEvents.recipes(event => {
 	A: '#forge:ingots/copper', B: '#forge:storage_blocks/copper', C: 'create:andesite_alloy', D: 'create:shaft'
 	}).id('create:crafting/appliances/copper_backtank')
 
-	event.replaceInput({ input: 'ink_sac' }, 'ink_sac', '#raspberry_flavoured:ink_items')
+	event.replaceInput({ output: 'book_and_quill', input: 'ink_sac' }, 'ink_sac', '#raspberry_flavoured:ink_items')
 
 // You thought warping was removed?
 	event.custom({type: 'architects_palette:warping', dimension: 'minecraft:the_nether', ingredient: [{item: 'minecraft:music_disc_pigstep'}], result: {item: 'kubejs:music_disc_exostep'}}).id('kubejs:exostep')
