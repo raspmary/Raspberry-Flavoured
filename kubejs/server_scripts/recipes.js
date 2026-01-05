@@ -113,6 +113,8 @@ ServerEvents.recipes(event => {
 	event.shapeless('8x dark_prismarine', ['ink_sac', '8x prismarine']).id('minecraft:dark_prismarine')
 	event.shapeless('8x upgrade_aquatic:luminous_prismarine', ['glow_ink_sac', '8x prismarine']).id('upgrade_aquatic:luminous_prismarine')
 	event.shapeless('mynethersdelight:breakfast_sampler', ['mynethersdelight:roasted_sausage', '2x incubation:fried_egg', '#raspberry_flavoured:breakfast_condiments', '2x supplementaries:pancake', 'bowl']).id('mynethersdelight:crafting/breakfast_sampler')
+	event.shapeless('kubejs:ink_bucket', ['bucket', '4x kubejs:ink_bottle'])
+	event.shapeless('4x kubejs:ink_bottle', ['kubejs:ink_bucket', '4x glass_bottle'])
 	event.shapeless('kubejs:latex_bucket', ['bucket', '4x kubejs:latex_bottle'])
 	event.shapeless('4x kubejs:latex_bottle', ['kubejs:latex_bucket', '4x glass_bottle'])
 	event.shapeless('4x kubejs:latex_jungle_log', ['kubejs:latex_bucket', '4x stripped_jungle_log'])
@@ -244,7 +246,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('hopper', ['hopper_minecart']).replaceIngredient('hopper_minecart', 'minecart')
 	event.shapeless('oreganized:shrapnel_bomb', ['oreganized:shrapnel_bomb_minecart']).replaceIngredient('oreganized:shrapnel_bomb_minecart', 'minecart')
 	event.shapeless('dispenser', ['supplementaries:dispenser_minecart']).replaceIngredient('supplementaries:dispenser_minecart', 'minecart')
-	
+
 	event.shapeless('barrel', ['oak_chest_boat']).replaceIngredient('oak_chest_boat', 'oak_boat')
 	event.shapeless('barrel', ['spruce_chest_boat']).replaceIngredient('spruce_chest_boat', 'spruce_boat')
 	event.shapeless('barrel', ['birch_chest_boat']).replaceIngredient('birch_chest_boat', 'birch_boat')
@@ -2692,6 +2694,8 @@ ServerEvents.recipes(event => {
 	
 // Filling
 	event.recipes.create.filling('map', [Fluid.of('kubejs:ink',10), 'paper'])
+	event.recipes.create.filling('kubejs:ink_bottle', [Fluid.of('kubejs:ink',250), 'minecraft:glass_bottle'])
+
 	event.recipes.create.filling('kubejs:latex_bottle', [Fluid.of('kubejs:latex',250), 'minecraft:glass_bottle'])
 	event.recipes.create.filling('kubejs:latex_jungle_log', [Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_log'])
 	event.recipes.create.filling('kubejs:latex_jungle_wood', [Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_wood'])
@@ -2729,6 +2733,8 @@ ServerEvents.recipes(event => {
 // Emptying
 	event.recipes.create.emptying([Fluid.of('kubejs:ink',1000), 'minecraft:glass_bottle'], 'supplementaries:antique_ink')
 	event.recipes.create.emptying([Fluid.of('kubejs:ink',250)], 'ink_sac')
+	event.recipes.create.emptying([Fluid.of('kubejs:ink',250), 'minecraft:glass_bottle'], 'kubejs:ink_bottle')
+
 	event.recipes.create.emptying([Fluid.of('kubejs:latex',250), 'minecraft:glass_bottle'], 'kubejs:latex_bottle')
 	event.recipes.create.emptying([Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_log'], 'kubejs:latex_jungle_log')
 	event.recipes.create.emptying([Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_wood'], 'kubejs:latex_jungle_wood')
@@ -3303,7 +3309,9 @@ ServerEvents.recipes(event => {
 	], {
 	A: '#forge:ingots/copper', B: '#forge:storage_blocks/copper', C: 'create:andesite_alloy', D: 'create:shaft'
 	}).id('create:crafting/appliances/copper_backtank')
-	
+
+	event.replaceInput({ input: 'ink_sac' }, 'ink_sac', '#raspberry_flavoured:ink_items')
+
 // You thought warping was removed?
 	event.custom({type: 'architects_palette:warping', dimension: 'minecraft:the_nether', ingredient: [{item: 'minecraft:music_disc_pigstep'}], result: {item: 'kubejs:music_disc_exostep'}}).id('kubejs:exostep')
 	event.custom({type: 'architects_palette:warping', dimension: 'minecraft:overworld', ingredient: [{item: 'minecraft:music_disc_pigstep'}], result: {item: 'kubejs:music_disc_exostep'}}).id('kubejs:exostep_2')

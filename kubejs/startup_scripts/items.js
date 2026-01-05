@@ -18,6 +18,7 @@ StartupEvents.registry('item', event => {
 	event.create('rough_quartz_shard')
 	event.create('quartz_shard')
 	event.create('ancient_nugget')
+	event.create('ink_bottle')
 	
 	event.create('golden_worm').rarity('uncommon')
 	event.create('stardust').glow(true).rarity('rare')

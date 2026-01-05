@@ -212,6 +212,9 @@ ItemEvents.modification(event => {
 	event.modify('kubejs:latex_bottle', item => {
 		item.craftingRemainder = Item.of('minecraft:glass_bottle').item
 	})
+	event.modify('kubejs:ink_bottle', item => {
+		item.craftingRemainder = Item.of('minecraft:glass_bottle').item
+	})
 	event.modify('kubejs:latex_bucket', item => {
 		item.craftingRemainder = Item.of('minecraft:bucket').item
 	})

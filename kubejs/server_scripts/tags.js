@@ -663,6 +663,10 @@ ServerEvents.tags('item', event => {
 		.add('quark:deepslate_furnace')
 		.add('quark:blackstone_furnace')
 
+	event.get('raspberry_flavoured:ink_items')
+		.add('minecraft:ink_sac')
+		.add('kubejs:ink_bottle')
+
 	event.get('minecraft:gold_ores')
 		.add('minecraft:gilded_blackstone')
 
