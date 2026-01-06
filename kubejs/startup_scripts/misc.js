@@ -218,6 +218,9 @@ ItemEvents.modification(event => {
 	event.modify('kubejs:latex_bucket', item => {
 		item.craftingRemainder = Item.of('minecraft:bucket').item
 	})
+	event.modify('kubejs:ink_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
 	event.modify('kubejs:batter_bucket', item => {
 		item.craftingRemainder = Item.of('minecraft:bucket').item
 	})
