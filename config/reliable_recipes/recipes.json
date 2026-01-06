@@ -3746,8 +3746,8 @@
             "target": "ink_sac",
             "replacement": "#raspberry_flavoured:ink_items",
             "filter": {
-                "output": "writable_book",
-                "input": "ink_sac"
+                "output": "minecraft:writable_book",
+                "input": "minecraft:ink_sac"
             }
         },
         {
