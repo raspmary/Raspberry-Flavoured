@@ -3742,6 +3742,15 @@
             }
         },
         {
+            "action": "replace_input",
+            "target": "ink_sac",
+            "replacement": "#raspberry_flavoured:ink_items",
+            "filter": {
+                "output": "writable_book",
+                "input": "ink_sac"
+            }
+        },
+        {
             "action": "replace_output",
             "replacement": "copperandtuffbackport:chiseled_copper",
             "filter": {
