@@ -1,0 +1,12 @@
+{
+  "feature": "kubejs:exodus_vegetation",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 7
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

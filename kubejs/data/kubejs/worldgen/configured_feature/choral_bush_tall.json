@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "layers": [
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "endergetic:tall_poise_bush",
+            "Properties": { "half": "lower" }
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "endergetic:tall_poise_bush",
+            "Properties": { "half": "upper" }
+          }
+        }
+      }
+    ],
+    "direction": "up",
+    "allowed_placement": {
+      "type": "all_of",
+      "predicates": [
+        {
+          "type": "matching_blocks",
+          "blocks": "minecraft:air"
+        },
+        {
+          "type": "matching_blocks",
+          "offset": [0, 1, 0],
+          "blocks": "minecraft:air"
+        }
+      ]
+    },
+    "prioritize_tip": false
+  }
+}

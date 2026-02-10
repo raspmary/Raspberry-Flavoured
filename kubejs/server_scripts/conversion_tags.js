@@ -904,6 +904,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:lachryte_brick_wall')
 		
 	event.get('raspberry_flavoured:exolite')
+		.add('endergetic:poismoss')
 		.add('kubejs:cobbled_exolite')
 		.add('kubejs:exolite')
 		.add('kubejs:chiseled_exolite')

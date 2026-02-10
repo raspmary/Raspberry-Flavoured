@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": {
+            "type": "minecraft:block_column",
+            "config": {
+              "direction": "north",
+              "allowed_placement": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              "prioritize_tip": false,
+              "layers": [
+                {
+                  "height": { "type": "minecraft:biased_to_bottom", "value": { "min_inclusive": 3, "max_inclusive": 6 } },
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": { "Name": "architects_palette:twisted_log", "Properties": { "axis": "z" } }
+                  }
+                }
+              ]
+            }
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "west",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          },
+          "prioritize_tip": false,
+          "layers": [
+            {
+              "height": { "type": "minecraft:biased_to_bottom", "value": { "min_inclusive": 3, "max_inclusive": 6 } },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "Name": "architects_palette:twisted_log", "Properties": { "axis": "x" } }
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+allowSpawning = true
+spawnBadlandsEnderman = false
+spawnCaveEnderman = false
+spawnCrimsonForestEnderman = false
+spawnDarkOakEnderman = false
+spawnDesertEnderman = false
+spawnEndEnderman = false
+spawnEndIslandsEnderman = true
+spawnFlowerFieldsEnderman = false
+spawnIceSpikesEnderman = false
+spawnMushroomFieldsEnderman = false
+spawnNetherWastesEnderman = false
+spawnOceanEnderman = false
+spawnSavannaEnderman = false
+spawnSnowyEnderman = false
+spawnSoulsandValleyEnderman = false
+spawnSwampEnderman = false
+spawnWarpedForestEnderman = false
+spawnWindsweptHillsEnderman = false
+

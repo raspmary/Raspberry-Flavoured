@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.09,
+        "feature": {
+          "feature": "architects_palette:twisted_tree",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.07,
+        "feature": {
+          "feature": "kubejs:choral_bush_tall",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.02,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "endergetic:bolloom_bud"
+                }
+              }
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.08,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "architects_palette:twisted_sapling"
+                }
+              }
+            }
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "endergetic:poise_bush"
+            }
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}

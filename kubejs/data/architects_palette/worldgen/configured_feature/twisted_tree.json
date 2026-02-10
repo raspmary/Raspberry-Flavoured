@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "architects_palette:twisted_leaves",
+      "Properties": {
+        "persistent": "false",
+        "distance": "7"
+      }
+    },
+    "decor_state": {
+      "Name": "minecraft:shroomlight"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "endergetic:poismoss"
+    },
+    "stem_state": {
+      "Name": "architects_palette:twisted_log",
+      "Properties": {
+        "axis": "y"
+      }
+    }
+  }
+}

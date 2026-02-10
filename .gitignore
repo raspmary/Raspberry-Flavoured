@@ -46,7 +46,6 @@ etched-sounds/
 fancymenu_data
 logs
 emf
-data
 .qmenu_opened.marker
 emi.json
 icon.png
@@ -58,6 +57,7 @@ kubejs/README.txt
 config/emi.css
 config/openloader/resources/*
 !config/openloader/resources/99_RaspberryResources
+spyglass.json
 
 # Files from Forge MDK
 forge*changelog.txt

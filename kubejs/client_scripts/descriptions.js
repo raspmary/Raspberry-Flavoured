@@ -191,7 +191,7 @@ const keysToItems = {
     'rf.jei.limestone': ['kubejs:batter_bucket', 'minecraft:lava_bucket', 'create:limestone'],
     'rf.jei.scoria': ['create:chocolate_bucket', 'minecraft:lava_bucket', 'create:scoria'],
     'rf.jei.glance': ['oreganized:molten_lead_bucket', 'minecraft:lava_bucket', 'oreganized:glance'],
-    'rf.jei.exolite': ['minecraft:blue_ice', 'minecraft:lava_bucket', 'architects_palette:ender_pearl_block', 'kubejs:cobbled_exolite', 'kubejs:exolite'],
+    'rf.jei.exolite': ['minecraft:blue_ice', 'minecraft:lava_bucket', 'architects_palette:ender_pearl_block', 'kubejs:cobbled_exolite', 'kubejs:exolite', 'endergetic:poismoss'],
 	
     'rf.jei.etching': ['etched:etching_table', 'etched:blank_music_disc', 'etched:music_label'],
     'rf.jei.album_cover': 'etched:album_cover',

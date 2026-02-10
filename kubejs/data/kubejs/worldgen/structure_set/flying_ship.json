@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "kubejs:flying_ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 35,
+    "salt": 794052436
+  }
+}

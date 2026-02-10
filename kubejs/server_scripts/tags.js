@@ -1939,15 +1939,15 @@ ServerEvents.tags('item', event => {
 		.remove('farmersdelight:rope')
 	
 	event.get('forge:mushrooms')
-	    .add('spelunkery:milly_bubcap')
-	    .add('spelunkery:button_mushroom')
-	    .add('spelunkery:crimini')
-	    .add('spelunkery:portabella')
+	    	.add('spelunkery:milly_bubcap')
+	    	.add('spelunkery:button_mushroom')
+	    	.add('spelunkery:crimini')
+	    	.add('spelunkery:portabella')
 	
 	event.get('quark:seed_pouch_holdable')
 		.add('quark:glow_shroom')
-	    .add('spelunkery:mushgloom')
-	    .add('neapolitan:mint_sprout')
+	    	.add('spelunkery:mushgloom')
+	    	.add('neapolitan:mint_sprout')
 	
 	event.get('farmersdelight:tools/knives')
 		.remove('kubejs:rose_gold_rapier')
@@ -2372,16 +2372,22 @@ ServerEvents.tags('block', event => {
 	event.get('minecraft:infiniburn_overworld')
 		.remove('quark:charcoal_block')
 		.add('kubejs:sturdy_netherrack')
+		.add('kubejs:exolite')
+		.add('endergetic:poismoss')
 		.add('modestmining:coke_block')
 
 	event.get('minecraft:infiniburn_nether')
 		.remove('quark:charcoal_block')
 		.add('kubejs:sturdy_netherrack')
+		.add('kubejs:exolite')
+		.add('endergetic:poismoss')
 		.add('modestmining:coke_block')
 
 	event.get('minecraft:infiniburn_end')
 		.remove('quark:charcoal_block')
 		.add('kubejs:sturdy_netherrack')
+		.add('kubejs:exolite')
+		.add('endergetic:poismoss')
 		.add('modestmining:coke_block')
 
 	event.get('frame_changer:portal_frames')
@@ -2394,7 +2400,13 @@ ServerEvents.tags('block', event => {
 	event.get('raspberry:mineable/shears')
 		.add('spelunkery:crimini')
 		.add('spelunkery:portabella')
-	    .add('miners_delight:wild_cave_carrots')
+	    	.add('miners_delight:wild_cave_carrots')
+
+  	event.add('minecraft:dirt', [
+    		'minecraft:warped_nylium',
+    		'minecraft:crimson_nylium',
+   	 	'endergetic:poismoss'
+  	])
 
 	event.get('raspberry_flavoured:snowy_sprouts_replaceables')
 		.add('minecraft:air')
@@ -2532,6 +2544,10 @@ ServerEvents.tags('block', event => {
 	event.get('minecraft:mushroom_grow_block')
 		.add('minecraft:end_stone')
 		.add('kubejs:exolite')
+		.add('endergetic:poismoss')
+		
+	event.get('minecraft:nylium')
+		.add('endergetic:poismoss')
 
 	event.get('raspberry_flavoured:jungle_temple_blocks')
 		.add('minecraft:cobblestone')
@@ -2548,8 +2564,8 @@ ServerEvents.tags('block', event => {
 		.add('minecraft:deepslate')
 
 	event.get("supplementaries:posts")
-    .add("windswept:chestnut_post")
-    .add("windswept:stripped_chestnut_post")
+   		.add("windswept:chestnut_post")
+    		.add("windswept:stripped_chestnut_post")
 
 	event.get('vc_gliders:updraft')
 		.add('#farmersdelight:heat_sources')
@@ -2574,6 +2590,10 @@ ServerEvents.tags('block', event => {
 		.add('raspberry:blackstone_gravel')
 		.add('minecraft:end_stone')
 		.add('kubejs:exolite')
+
+	event.get('spelunkery:base_stone_end')
+		.add('kubejs:exolite')
+		.add('endergetic:poismoss')
 
 	event.get('spelunkery:river_target')
 		.add('raspberry:deepslate_gravel')
@@ -2601,6 +2621,14 @@ ServerEvents.tags('block', event => {
 		.add('minecraft:gravel')
 		.add('raspberry:deepslate_gravel')
 		.add('raspberry:blackstone_gravel')
+
+	event.get('forge:end_stones')
+		.add('endergetic:poismoss')
+		.add('kubejs:exolite')
+
+	event.get('forge:end_stones')
+		.add('endergetic:poismoss')
+		.add('kubejs:exolite')
 
 	event.get('raspberry_flavoured:overworld_not_deep_stones')
 		.add('minecraft:stone')
@@ -2765,6 +2793,12 @@ ServerEvents.tags('block', event => {
 		.add('respiteful:black_tea_cake')
 	
 	event.get('endergetic:chorus_plantable')
+		.add('endergetic:poismoss')
+		.add('kubejs:exolite')
+		.add('endergetic:poismoss')
+
+	event.get('forge:chorus_additionally_grows_on')
+		.add('kubejs:exolite')
 		.add('endergetic:poismoss')
 	
 	event.get('endergetic:ender_fire_base_blocks')

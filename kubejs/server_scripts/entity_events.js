@@ -49,12 +49,22 @@ EntityEvents.spawned(event => {
     }
 })
 
-// spawner sounds & particles
+// flag entities when spawned
 EntityEvents.checkSpawn(event => {
-	if (event.type == 'SPAWNER') {
-		event.level.spawnParticles('minecraft:flame', true, event.entity.x, event.entity.y, event.entity.z, 0, 0, 0, 20, 0.075)
-		event.level.playSound(null, event.entity.x, event.entity.y, event.entity.z, 'kubejs:spawner.spawn', 'players', 1, 1)
-	}
+    if (event.type == 'SPAWNER') {
+        event.entity.persistentData.isFromSpawner = true
+    }
+})
+
+// play spawner sounds & particles
+EntityEvents.spawned(event => {
+    if (event.entity.persistentData.isFromSpawner) {
+        
+        event.level.spawnParticles('minecraft:flame', true, event.entity.x, event.entity.y, event.entity.z, 0, 0, 0, 20, 0.075)
+        event.level.playSound(null, event.entity.x, event.entity.y, event.entity.z, 'kubejs:spawner.spawn', 'players', 1, 1)
+        
+        event.entity.persistentData.isFromSpawner = false
+    }
 })
 
 // add sound to boats & minecarts that are missing

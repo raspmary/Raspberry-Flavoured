@@ -1,0 +1,15 @@
+{
+  "feature": "kubejs:exodus_fallen_stems",
+  "placement": [
+    { "type": "minecraft:count_on_every_layer", "count": 2 },
+    { "type": "minecraft:biome" },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": ["endergetic:poismoss"]
+      }
+    }
+  ]
+}

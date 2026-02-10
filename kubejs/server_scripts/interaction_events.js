@@ -293,6 +293,36 @@ BlockEvents.rightClicked(event => {
     })
 })
 
+// cancel planting other saplings on nylium
+BlockEvents.rightClicked(event => {
+  const { item, block } = event
+
+  if (item.id === 'architects_palette:twisted_sapling') return
+  
+  if (item.hasTag('minecraft:saplings') && block.hasTag('minecraft:nylium')) {
+    event.cancel()
+  }
+})
+
+// remove poismoss path
+BlockEvents.rightClicked(event => {
+  const { block, item, hand } = event;
+  
+  if (block.id === 'endergetic:poismoss' && item.hasTag('forge:tools/shovels')) {
+    event.cancel();
+  }
+});
+
+// remove bonemeal on tall poise bush
+BlockEvents.rightClicked(event => {
+  const { block, item } = event;
+  
+  if (block.id === 'endergetic:tall_poise_bush' && item.id === 'minecraft:bone_meal') {
+    event.cancel();
+  }
+});
+
+
 // custom right click on block with water bottle interactions
 BlockEvents.rightClicked(event => {
     // set which block turns into what
