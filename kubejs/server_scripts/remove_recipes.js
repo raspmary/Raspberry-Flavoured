@@ -3527,7 +3527,8 @@ ServerEvents.recipes(event => {
 	"oreganized:create/mixing/molten_lead",
 	"oreganized:create/compatcting/molten_lead",
 	"reliable_backpacks:backpack",
-	"reliable_backpacks:backpack_from_rope"
+	"reliable_backpacks:backpack_from_rope",
+	"mynethersdelight:cutting/gunpowder_cane"
 	]
     
     removedIds.forEach(removedId => {

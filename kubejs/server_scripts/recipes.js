@@ -197,6 +197,8 @@ ServerEvents.recipes(event => {
 	event.shapeless('2x kubejs:ghast_roll', ['dried_kelp', 'farmersdelight:cooked_rice', '2x mynethersdelight:ghasta'])
 	event.shapeless('2x gunpowder', ['savage_and_ravage:creeper_spores', '#minecraft:coals'])
 	event.shapeless('8x gunpowder', ['2x savage_and_ravage:creeper_spores', 'modestmining:coke'])
+	event.shapeless('3x gunpowder', ['savage_and_ravage:creeper_spores', '#minecraft:coals', 'mynethersdelight:powder_cannon'])
+	event.shapeless('12x gunpowder', ['2x savage_and_ravage:creeper_spores', 'modestmining:coke', 'mynethersdelight:powder_cannon'])
 	event.shapeless('culturaldelights:hearty_salad', ['2x #culturaldelights:avocados', '#culturaldelights:corn_or_kernels', '#raspberry_flavoured:raw_vegetables', 'cookscollection:cooking_oil', 'bowl']).id('culturaldelights:hearty_salad')
 	event.shapeless('create:honey_bucket', ['bucket', '4x honey_bottle'])
 	event.shapeless('4x honey_bottle', ['create:honey_bucket', '4x glass_bottle'])
@@ -1611,8 +1613,6 @@ ServerEvents.recipes(event => {
 	result: [{item: 'minecraft:string', count: 1, chance: 0.425}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{tag: 'raspberry_flavoured:saplings_with_twigs'}], tool: {tag: 'forge:tools/knives'}, 
 	result: [{item: 'twigs:twig', count: 2}, {item: 'farmersdelight:straw', count: 1, chance: 0.2}]})
-	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'mynethersdelight:powder_cannon'}], tool: {item: 'another_furniture:furniture_hammer'}, 
-	result: [{item: 'minecraft:gunpowder', count: 1}]}).id('mynethersdelight:cutting/gunpowder_cane')
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'quark:bamboo_block'}], tool: {tag: 'forge:tools/axes'}, sound: 'minecraft:item.axe.strip', 
 	result: [{item: 'quark:stripped_bamboo_block', count: 1}, {item: 'farmersdelight:straw', count: 1}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'supplementaries:quiver'}], tool: {tag: 'forge:shears'}, 
@@ -2766,7 +2766,6 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['kubejs:cobbled_exolite'], 'kubejs:exolite')
 	event.recipes.create.milling(['end_stone'], 'kubejs:cobbled_exolite')
 	event.recipes.create.milling(['2x redstone', Item.of('minecraft:redstone',2).withChance(0.375), Item.of('spelunkery:cinnabar').withChance(0.5)], 'spelunkery:cinnabar')
-	event.recipes.create.milling(['gunpowder', Item.of('minecraft:gunpowder',1).withChance(0.5)], 'mynethersdelight:powder_cannon')
 	event.recipes.create.milling(['prismarine_shard'], 'prismarine')
 	event.recipes.create.milling(['prismarine_crystals', Item.of('minecraft:prismarine_crystals').withChance(0.5)], 'prismarine_shard')
 	event.recipes.create.milling(['farmersdelight:rice', 'farmersdelight:straw', Item.of('farmersdelight:rice').withChance(0.5)], 'farmersdelight:rice_panicle')
