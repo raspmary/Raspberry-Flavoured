@@ -1,6 +1,6 @@
+// priority: 1
+
 // adds stonecutter recipes for blocksets covered by more_conversion_tags.js and removes some redundant/unobtainable recipes. script by noodleblitz
-// NOTE: not sure how to remove the stonecutting recipes added by sawmill_compat.js through a separate script
-// the only way I found to remove them was to comment out every stonecutting recipe added by the panel function in sawmill_compat.js, but i'm trying not to touch other scripts rn
 ServerEvents.recipes(event => {
 	// retrieve wood types
 	let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks', 'atmospheric:yucca_planks', 'atmospheric:grimwood_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
@@ -13,12 +13,21 @@ ServerEvents.recipes(event => {
 	function addWoodRecipes(woodType, woodTag)
 	{
 		let prefix = '#raspberry_flavoured:' + woodType + '_'
+
+		let woodIds = Ingredient.of([woodTag, '#raspberry_flavoured:' + woodType]).itemIds
+		let barkedIds = Ingredient.of('#raspberry_flavoured:barked_logs').itemIds
 		
-		Ingredient.of([woodTag, '#raspberry_flavoured:' + woodType]).itemIds.forEach(id => {
-			if (!Item.of(id).hasTag('raspberry_flavoured:barked_logs')) {
-				event.stonecutting('1x ' + id, '#raspberry_flavoured:' + woodType)
+		// do not add recipes that output unstripped logs/wood
+		outer: for (let id of woodIds) {
+			for (let testId of barkedIds) {
+				if (id == testId)
+				{
+					continue outer
+				}
 			}
-		})
+
+			event.stonecutting('1x ' + id, '#raspberry_flavoured:' + woodType)
+		}
 
 		let halfTag = prefix + 'half'
 		Ingredient.of([halfTag, halfTag + '_output']).itemIds.forEach(id => {
@@ -39,17 +48,37 @@ ServerEvents.recipes(event => {
 			event.stonecutting('2x ' + id, quarterTag)
 			event.stonecutting('1x ' + id, eighthTag)
 		})
-
 	}
 
 	woodtypes.forEach(([originMod,woodType])=>{
 		let woodTag = `#${originMod}:${woodType}_logs`
 		let logItem = Ingredient.of(woodTag)
-        	if(logItem.itemIds.length == 0){
-          		//wait. CURSE YOU MOJANG. there's also "stems".
-          		woodTag = `#${originMod}:${woodType}_stems`
-        	}
+		let unstrippedLogId = `${originMod}:${woodType}_log`
+		let unstrippedWoodId = `${originMod}:${woodType}_wood`
 		
+
+        if(logItem.itemIds.length == 0){
+          	woodTag = `#${originMod}:${woodType}_stems`
+        }
+
+		if (woodType == 'warped' || woodType == 'crimson'){
+			unstrippedLogId = `${originMod}:${woodType}_stem`;
+			unstrippedWoodId = `${originMod}:${woodType}_hyphae`;
+		}
+
+		if (woodType == 'driftwood' || woodType == 'grimwood' || woodType == 'rosewood'){
+			unstrippedWoodId = `${originMod}:${woodType}`
+		}
+
+		console.log(unstrippedLogId)
+		console.log(unstrippedWoodId)
+		console.log(woodTag)
+		
+		// add one-to-one conversions between unstripped logs and unstripped wood
+		if (woodType != 'bamboo' && woodType != 'powdery'){
+			event.stonecutting('1x ' + unstrippedLogId, unstrippedWoodId)
+			event.stonecutting('1x ' + unstrippedWoodId, unstrippedLogId)
+		}
 		addWoodRecipes(woodType, woodTag)
 	})
 
@@ -251,7 +280,6 @@ ServerEvents.recipes(event => {
 	'#raspberry_flavoured:iron_plate'
 	]
 
-    
    	removedRecipes.forEach(recipe => {
 		event.remove({input: recipe, type: 'minecraft:stonecutting'})
 		event.remove({output: recipe, type: 'minecraft:stonecutting'})
