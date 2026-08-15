@@ -1,5 +1,12 @@
 // priority: 0
 
+// DISABLED for the 1.20.1 update: this script relied on the 1.19.2 KubeJS APIs
+// item.category and Utils.findCreativeTab, which were removed in 1.20 when
+// vanilla reworked creative tabs. Re-sorting other mods' items now requires
+// StartupEvents.modifyCreativeTab (remove from each mod's own 1.20.1 tab, then
+// add to the target vanilla tab), which needs the 1.20.1 mod set to verify.
+// The item lists below are kept as the source of truth for that rewrite.
+
 ItemEvents.modification(event => {
 	// remove from creative
 	event.modify([

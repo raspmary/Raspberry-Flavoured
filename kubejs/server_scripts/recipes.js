@@ -1523,19 +1523,19 @@ ServerEvents.recipes(event => {
 	
 // Smithing
 	allColours.forEach(colour => {
-		event.smithing('minecraft:'+colour+'_shulker_box', 'suppsquared:sack_'+colour, 'upgrade_aquatic:scute_block')
+		event.smithing('minecraft:'+colour+'_shulker_box', 'minecraft:netherite_upgrade_smithing_template', 'suppsquared:sack_'+colour, 'upgrade_aquatic:scute_block')
     })
-	event.smithing('shulker_box', 'supplementaries:sack', 'upgrade_aquatic:scute_block').id('minecraft:shulker_box')
-	event.smithing('minecraft:recovery_compass', 'minecraft:compass', 'quark:soul_bead').id('minecraft:recovery_compass')
-	event.smithing('kubejs:rose_gold_horse_armor', 'minecraft:iron_horse_armor', 'additionaladditions:rose_gold_alloy')
-	event.smithing('kubejs:steel_horse_armor', 'minecraft:iron_horse_armor', 'alloyed:steel_ingot')
-	event.smithing('kubejs:electrum_horse_armor', 'minecraft:diamond_horse_armor', 'oreganized:electrum_ingot')
-	event.smithing('kubejs:necromium_horse_armor', 'minecraft:diamond_horse_armor', 'caverns_and_chasms:necromium_ingot')
-	event.smithing('kubejs:netherite_horse_armor', 'minecraft:diamond_horse_armor', 'minecraft:netherite_ingot')
-	event.smithing('spelunkery:echo_fork', 'caverns_and_chasms:tuning_fork', 'minecraft:echo_shard').id('spelunkery:echo_fork')
-	event.smithing('create:super_glue', 'kubejs:copper_brush', 'minecraft:slime_ball').id('create:crafting/kinetics/super_glue')
-	event.smithing('kubejs:copper_brush_wax', 'kubejs:copper_brush', 'minecraft:honeycomb')
-	event.smithing('suppsquared:heavy_key', 'supplementaries:key', '#forge:ingots/lead').id('suppsquared:heavy_key')
+	event.smithing('shulker_box', 'minecraft:netherite_upgrade_smithing_template', 'supplementaries:sack', 'upgrade_aquatic:scute_block').id('minecraft:shulker_box')
+	event.smithing('minecraft:recovery_compass', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:compass', 'quark:soul_bead').id('minecraft:recovery_compass')
+	event.smithing('kubejs:rose_gold_horse_armor', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:iron_horse_armor', 'additionaladditions:rose_gold_alloy')
+	event.smithing('kubejs:steel_horse_armor', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:iron_horse_armor', 'alloyed:steel_ingot')
+	event.smithing('kubejs:electrum_horse_armor', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:diamond_horse_armor', 'oreganized:electrum_ingot')
+	event.smithing('kubejs:necromium_horse_armor', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:diamond_horse_armor', 'caverns_and_chasms:necromium_ingot')
+	event.smithing('kubejs:netherite_horse_armor', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:diamond_horse_armor', 'minecraft:netherite_ingot')
+	event.smithing('spelunkery:echo_fork', 'minecraft:netherite_upgrade_smithing_template', 'caverns_and_chasms:tuning_fork', 'minecraft:echo_shard').id('spelunkery:echo_fork')
+	event.smithing('create:super_glue', 'minecraft:netherite_upgrade_smithing_template', 'kubejs:copper_brush', 'minecraft:slime_ball').id('create:crafting/kinetics/super_glue')
+	event.smithing('kubejs:copper_brush_wax', 'minecraft:netherite_upgrade_smithing_template', 'kubejs:copper_brush', 'minecraft:honeycomb')
+	event.smithing('suppsquared:heavy_key', 'minecraft:netherite_upgrade_smithing_template', 'supplementaries:key', '#forge:ingots/lead').id('suppsquared:heavy_key')
 	
 // Stonecutting
 	event.stonecutting('4x iron_bars', 'iron_ingot').id('minecraft:iron_bars')

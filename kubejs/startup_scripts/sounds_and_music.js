@@ -125,7 +125,6 @@ StartupEvents.registry('item', event => {
             .analogOutput(1)
             .displayName('Music Disc')
 			.maxStackSize(16)
-			.group('misc')
     })
 	event.create('music_disc_exostep', 'music_disc').glow(true).rarity('epic').song('kubejs:music.music_disc_exostep', 1).analogOutput(1).displayName('Music Disc').maxStackSize(16)
 })

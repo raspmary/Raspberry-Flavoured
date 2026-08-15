@@ -3,7 +3,6 @@
 StartupEvents.registry("item",event => {
   event.create("kubejs:copper_brush_wax")
     .maxDamage(200)
-	.group('tools')
 })
 
 //by @reveter from the kubejs discord

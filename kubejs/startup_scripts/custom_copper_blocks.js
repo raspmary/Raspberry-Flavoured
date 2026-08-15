@@ -13,7 +13,7 @@ StartupEvents.registry('block', event => {
 	 
 		block.set(nextBlock, block.properties)
 	}
-	event.create('copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)
@@ -23,7 +23,7 @@ StartupEvents.registry('block', event => {
 		copperTick(e, 'kubejs:exposed_copper_pillar')
 	})
 
-	event.create('exposed_copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('exposed_copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)
@@ -33,7 +33,7 @@ StartupEvents.registry('block', event => {
 		copperTick(e, 'kubejs:weathered_copper_pillar')
 	})
 
-	event.create('weathered_copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('weathered_copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)
@@ -43,35 +43,35 @@ StartupEvents.registry('block', event => {
 		copperTick(e, 'kubejs:oxidized_copper_pillar')
 	})
 
-	event.create('oxidized_copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('oxidized_copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)
     .placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis))
     .model('kubejs:block/copper/oxidized_copper_pillar')
 
-	event.create('waxed_copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('waxed_copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)
     .placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis))
     .model('kubejs:block/copper/copper_pillar')
 
-	event.create('waxed_exposed_copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('waxed_exposed_copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)
     .placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis))
     .model('kubejs:block/copper/exposed_copper_pillar')
 
-	event.create('waxed_weathered_copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('waxed_weathered_copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)
     .placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis))
     .model('kubejs:block/copper/weathered_copper_pillar')
 
-	event.create('waxed_oxidized_copper_pillar').item(item => {item.group('building_blocks')})
+	event.create('waxed_oxidized_copper_pillar')
     .soundType('copper')
     .hardness(3).resistance(6).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
     .property(BlockProperties.AXIS)

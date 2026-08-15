@@ -20,11 +20,11 @@ StartupEvents.registry('item', event => {
 	'swift_tablet'
 	]
 	
-	event.create('blank_tablet').texture('kubejs:item/enchanted_tablets/blank_tablet').group('brewing')
-	event.create('everlasting_tablet').glow(true).rarity('epic').texture('kubejs:item/enchanted_tablets/everlasting_tablet').group('brewing')
+	event.create('blank_tablet').texture('kubejs:item/enchanted_tablets/blank_tablet')
+	event.create('everlasting_tablet').glow(true).rarity('epic').texture('kubejs:item/enchanted_tablets/everlasting_tablet')
 	
 	enchantedTablets.forEach(tablet => {
-		event.create(tablet).glow(true).rarity('rare').texture('kubejs:item/enchanted_tablets/'+tablet).group('brewing')
+		event.create(tablet).glow(true).rarity('rare').texture('kubejs:item/enchanted_tablets/'+tablet)
 	})
 	
 // Incomplete tablets

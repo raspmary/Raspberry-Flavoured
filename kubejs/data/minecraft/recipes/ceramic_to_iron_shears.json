@@ -1,12 +1,15 @@
 {
-    "type": "minecraft:smithing",
-    "base": {
-        "item": "ceramicshears:ceramic_shears"
-    },
-    "addition": {
-        "item": "minecraft:iron_ingot"
-    },
-    "result": {
-        "item": "minecraft:shears"
-    }
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "ceramicshears:ceramic_shears"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "minecraft:shears"
+  }
 }
