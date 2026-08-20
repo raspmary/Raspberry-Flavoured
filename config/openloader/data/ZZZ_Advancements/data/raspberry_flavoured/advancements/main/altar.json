@@ -1,0 +1,35 @@
+{
+  "parent": "raspberry_flavoured:main/smithing_table",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "modestmagic:altar"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.altar.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.altar.description"
+    },
+    "icon": {
+      "item": "modestmagic:altar"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

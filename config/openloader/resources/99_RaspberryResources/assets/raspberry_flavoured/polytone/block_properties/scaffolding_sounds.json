@@ -1,0 +1,10 @@
+{
+   "targets": [
+   "hnh:shoji",
+   "hnh:shoji_panel",
+   "quark:paper_wall",
+   "quark:paper_wall_big",
+   "quark:paper_wall_sakura"
+   ],
+   "sound_type": "scaffolding"
+}

@@ -5,7 +5,6 @@ Sleeping won't skip nights instantly.
 Sleeping speeds up various processes.
 Zombies drop Cloth Scraps, used for making Beds... but you know that already.
 Having an Atlas in your hotbar will display a minimap.
-There's many ways to automate many things.
 Bellows make fires last longer and speed up Furnaces, Ovens and Forges.
 Bombs damage mobs, but not blocks.
 Campfires grant Comfort when lit and stood near.
@@ -13,7 +12,7 @@ Crushing Cinnabar yields Redstone Dust.
 Cooking Pots make meals and drinks that grant helpful effects.
 Ovens cook meals and pastries that grant helpful effects.
 Blaze Burners with Cooking Guides can cook automatically.
-There are no Stone tools in RF - only Copper tools.
+There are no Stone tools - only Copper tools.
 Chainmail armor, Horse armor, Saddles and Name Tags are craftable in RF.
 Creeper Spores spawn a horde of friendly Creepies when thrown.
 Creepers won't damage terrain, but they will spawn Creepies.
@@ -23,8 +22,8 @@ Lachryte Tears can be melted down into Liquefied Lachryte.
 Liquefied Lachryte is required to create a Nether Portal.
 Upon death, a totem will appear at your death point which holds your items.
 Discs can be smashed into fragments, which can be crafted into other discs.
-Diving gear and Backtanks will let you traverse underwater more easily.
-Dunes are lush deserts with Yucca trees and various other flora.
+A Diving Helmet and Backtanks will let you traverse underwater more easily.
+Dunes are lush, two-toned deserts with Yucca trees and various other flora.
 Leather armor protects against fall damage.
 Chainmail armor damages attackers.
 Copper armor has a unique effect when struck by lightning.
@@ -35,13 +34,13 @@ Rose Gold tools dig quickly and cause blocks to drop in their purest form.
 Rose Gold armor protects against magic.
 Steel tools dig slowly, but are durable and knock targets further away.
 Steel armor provides good knockback resistance.
+Diamond equipment is obtained by upgrading Iron equipment with Diamond Plating.
 Diamond armor protects against projectile damage.
-Diamond armor requires Mechanical Crafters to obtain.
 Electrum tools dig very quickly and deal extra damage when sprinting.
 Electrum armor grants a movement speed boost.
-Netherite tools light targets on fire & auto-smelt blocks.
+Netherite tools light targets on fire and smelt mined blocks.
 Netherite armor protects against fire and getting knocked back.
-Necromium tools slow down targets.
+Necromium tools restore health when mining blocks & slow down targets.
 Necromium armor weakens attackers.
 Various enchantments you may be used to no longer exist in RF.
 Etching Tables allow you to make your own music discs.
@@ -68,8 +67,8 @@ Stressometers visualise the stress level of your machines.
 Speedometers visualise the speed of your machines.
 Minecart Couplings allow you to link Minecarts together.
 Watermelons cause you to spit seeds when consumed.
-Wildfires drop Ancient Scrap.
-Piglin Brutes drop Ancient Scrap.
+Wildfires drop Infernal Scrap.
+Piglin Brutes drop Infernal Scrap.
 Piglins and Hoglins can be made immune to zombification with a Golden Apple.
 Zombified Piglins and Zoglins can be cured with Weakness and a Golden Apple.
 Pikes come in various sizes and colors.
@@ -79,13 +78,15 @@ Presents allow you to gift a stack of items to a player.
 Trapped Presents instantly release their contents when opened.
 Redstone Links transmit Redstone signals wirelessly.
 Rerack your trees!
-Bundles, Sacks and Terrabins let you carry more items.
+Bundles, Sacks, Backpacks and Terrabins let you carry more items.
+Bundles, Sacks, Backpacks and Terrabins can all be dyed.
+Terrabins can be opened from inside the inventory by right-clicking on them.
 Schematicannons can build for you when provided with blueprints and materials.
 Skillets can be held or placed over fire to cook food on the go.
 Skillets, Cooking Pots and Ovens always drop items or containers to their right.
 All hail the Slabfish.
 Baby Snails drop Snail Shell Pieces when they grow into adults.
-Snow Boots allow you to move faster over snowy blocks.
+Mountain Boots allow you to move faster over snowy blocks.
 Soap can clean dye off blocks.
 Stoves are like Campfires, except they have 6 spaces instead of 4.
 Too many machines attached to a single power source may cause overstress.
@@ -98,7 +99,6 @@ Rose Gold Arrows fly far and knock mobs away.
 Steel Arrows are heavy and deal more damage.
 Lachryte Arrows swap you and your target's places.
 Trains allow for mass item transport and highly stylish travel.
-Both types of Water Wheels are cheap sources of Rotational Power.
 The wood type of Water Wheels can be changed by right-clicking with Planks.
 There are numerous wood types in RF. Which one's your favorite?
 Shearing Yaks yields Yak Hair, but it'll also make them angry at you.
@@ -108,7 +108,7 @@ Awoken Exopearls fly towards ruined structures.
 Spirited Exopearls fly towards structures with spawners.
 Hand a Binding Exopearl to another player to easily locate them.
 Using Scaffolding can make building easier.
-Lead can be used as an alternative to Iron in various recipes.
+Lead can be used as an alternative to Iron in some recipes.
 Compasses, Depth Gauges, Atlases and Spyglasses are helpful to bring along.
 Paragliders allow for slower descension.
 Smoke from fires boost you up when using a Paraglider.
@@ -128,7 +128,7 @@ Large Boats carry higher amounts of passengers or larger ones.
 Crawling through tight spaces can be useful in sticky situations.
 Various recipes leave behind byproducts.
 Sculk Shriekers give you three warnings before releasing the beast.
-Ancient Cities contain major loot - a high risk, high reward adventure.
+Ancient Cities contain high amounts of loot.
 Deep in underwater caves, you may find groups of Nautili swimming around.
 Hostile mobs become neutral on Easy difficulty.
 Mimes copy your held item - and worn armor, if they hit you.
@@ -137,7 +137,6 @@ While Creepers don't destroy blocks, Deepers do.
 Peepers only move when you're not looking.
 Cameras allow you to capture precious moments.
 Leather can be cut into scraps and used more efficiently.
-Bundles and Sacks can be dyed.
 Glow Ink Sacs can heal Dead Coral.
 Cattails grow best on Mud.
 Brushes allow you to brush some animals for drops.
@@ -145,19 +144,22 @@ Glue Brushes can glue blocks together.
 Wax Brushes can wax loads of blocks at once.
 Pressing Shift + T while hovering over an item will share it in chat.
 Feeding a Golden Carrot to a Pig will make it find Truffles.
-Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find Worms.
+Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find Buried Bugs.
 Worms shorten the time it takes to catch a fish.
-Spider Eyes shorten the time it takes to catch a fish.
+Spider Legs shorten the time it takes to catch a fish.
+Grubs decently shorten the time it takes to catch a fish.
+Minnows decently shorten the time it takes to catch a fish.
 Fireflies decently shorten the time it takes to catch a fish.
 Caterpillars significantly shorten the time it takes to catch a fish.
+Golden Worms significantly shorten the time it takes to catch a fish.
 Tackle Boxes can customise Reinforced Fishing Rods.
 Different Hooks have a different impact on the fishing experience.
+Grappling Hooks will make Reinforced Fishing Rods act like grapnels.
 Holding a Bucket of Water in the off-hand will make caught fish go in it.
 Copper and Gold can be hammered into Sheets, with a chance of breaking.
-Fortresses have received reinforcements and a refreshed layout.
 Copper Golems are created with a Carved Pumpkin and a Lightning Rod.
 Tuff Golems are created with a Carved Pumpkin, any Wool and a Tuff block.
 Crops can be harvested by right-clicking them.
 Ores cannot be destroyed by explosions.
 Some Mechanical Crafting recipes require Slot Covers for empty slots.
-Some Mechanical Crafting recipes require a redstone pulse to activate.
+Some Mechanical Crafting recipes require a Redstone pulse to activate.

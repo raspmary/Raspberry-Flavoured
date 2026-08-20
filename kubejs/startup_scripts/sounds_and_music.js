@@ -8,6 +8,7 @@ StartupEvents.registry('sound_event', (event) => {
 	'netherwood',
 	'bamboowood',
 	'altwood1',
+	'altwood2',
 	'stoneore',
 	'blackstone',
 	'squishy',
@@ -16,6 +17,7 @@ StartupEvents.registry('sound_event', (event) => {
 	'glasswood',
 	'netherglasswood',
 	'altglasswood1',
+	'altglasswood2',
 	'bambooglasswood',
 	'forge',
 	'gravel',
@@ -32,13 +34,15 @@ StartupEvents.registry('sound_event', (event) => {
 	'book',
 	'hanging_sign',
 	'alt_hanging_sign',
+	'alt_hanging_sign2',
 	'bamboo_hanging_sign',
 	'nether_hanging_sign',
 	'tnt',
 	'obsidian',
 	'iron',
 	'arid_sand',
-	'monkey_brush'
+	'monkey_brush',
+	'bone_brick'
 	]
 	blockSounds.forEach(block => {
 		event.create('sound.'+block+'.break')
@@ -59,9 +63,11 @@ StartupEvents.registry('sound_event', (event) => {
 // Misc sounds
 	event.create('spawner.spawn')
 	event.create('copper_brush.brush')
+	event.create('copper_brush.brush_mob')
 	event.create('copper_patina.apply')
 	event.create('sound.swing')
 	event.create('sound.hammer.crack')
+	event.create('sound.infest')
 	event.create('sound.lachryte.extract')
 	event.create('sound.loot_bag.open')
 	event.create('sound.witch_bag.open')
@@ -79,6 +85,7 @@ StartupEvents.registry('sound_event', (event) => {
 	event.create('advancement.joke')
 	event.create('advancement.pizza')
 	event.create('advancement.happyhour')
+	event.create('advancement.susie')
 	
 // Music
 	event.create('music.overworld.arid')

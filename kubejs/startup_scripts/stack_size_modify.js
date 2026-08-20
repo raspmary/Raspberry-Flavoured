@@ -219,7 +219,13 @@ ItemEvents.modification(event => {
 	'mynethersdelight:hot_wings_bucket',
 	'mynethersdelight:hot_cream',
 	'raspberry:cat_food',
-	'raspberry:atlas'
+	'raspberry:atlas',
+	'kubejs:electrum_horse_armor',
+	'kubejs:rose_gold_horse_armor',
+	'kubejs:steel_horse_armor',
+	'kubejs:necromium_horse_armor',
+	'kubejs:netherite_horse_armor',
+	'kubejs:copper_horse_armor'
 	], item => {item.maxStackSize = 16})
 	
 // Stack to 64
@@ -418,6 +424,9 @@ ItemEvents.modification(event => {
 	'autumnity:maple_leaf_banner_pattern',
 	'autumnity:swirl_banner_pattern',
 	'buzzier_bees:honeycomb_banner_pattern',
-	'heartstone:heartstone'
+	'heart_crystals:heart_banner_pattern',
+	'heartstone:heartstone',
+	'abnormals_delight:escargot',
+	'create_central_kitchen:cooking_guide'
 	], item => {item.maxStackSize = 64})
 })

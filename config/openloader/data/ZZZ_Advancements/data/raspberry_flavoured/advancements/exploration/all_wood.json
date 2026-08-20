@@ -121,6 +121,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+	"Obtain Grimwood Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "atmospheric:grimwood_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
 	"Obtain Maple Log": {
       "conditions": {
         "items": [
@@ -298,6 +308,9 @@
     ],
 	[
       "Obtain Yucca Log"
+    ],
+	[
+      "Obtain Grimwood Log"
     ],
 	[
       "Obtain Maple Log"

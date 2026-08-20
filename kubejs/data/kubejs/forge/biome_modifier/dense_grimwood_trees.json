@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:dense_grimwood_biomes",
+  "features": "kubejs:trees_grimwood_dense",
+  "step": "vegetal_decoration"
+}

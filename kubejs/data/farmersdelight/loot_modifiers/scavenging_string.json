@@ -26,11 +26,18 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
+            "type": "minecraft:cave_spider"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
             "type": "neapolitan:plantain_spider"
           }
         }
       ]
     }
   ],
-  "item": "minecraft:string"
+  "item": "minecraft:spider_eye"
 }

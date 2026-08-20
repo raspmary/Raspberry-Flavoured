@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "kubejs:ore_amethyst_lower",
+    "kubejs:ore_amethyst"
+  ],
+  "step": "underground_ores"
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/ancient_city",
+  "parent": "raspberry_flavoured:exploration/all_relics",
   "criteria": {
     "0": {
       "conditions": {

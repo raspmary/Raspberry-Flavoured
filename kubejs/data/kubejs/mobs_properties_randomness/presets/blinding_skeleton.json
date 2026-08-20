@@ -1,0 +1,23 @@
+{
+  "equipment": {
+    "main_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "minecraft:bow",
+          "weight": 1
+        }
+      ]
+    },
+    "off_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "minecraft:tipped_arrow",
+          "weight": 1,
+          "nbt": "{Potion:\"kubejs:blindness\"}"
+        }
+      ]
+    }
+  }
+}

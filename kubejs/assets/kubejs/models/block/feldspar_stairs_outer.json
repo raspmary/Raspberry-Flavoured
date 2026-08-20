@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "kubejs:block/feldspar_block",
+    "side": "kubejs:block/feldspar_block",
+    "top": "kubejs:block/feldspar_block"
+  }
+}

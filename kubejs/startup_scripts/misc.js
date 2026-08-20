@@ -32,8 +32,6 @@ ItemEvents.toolTierRegistry (event => {
 StartupEvents.registry('fluid', event => 
 {
 	event.create('batter').stillTexture('kubejs:fluid/batter_still').flowingTexture('kubejs:fluid/batter_flow')
-	event.create('flaxen_cheese').stillTexture('kubejs:fluid/flaxen_cheese_still').flowingTexture('kubejs:fluid/flaxen_cheese_flow')
-	event.create('scarlet_cheese').stillTexture('kubejs:fluid/scarlet_cheese_still').flowingTexture('kubejs:fluid/scarlet_cheese_flow')
 	event.create('ink').stillTexture('kubejs:fluid/ink_still').flowingTexture('kubejs:fluid/ink_flow')
 	event.create('latex').stillTexture('kubejs:fluid/latex_still').flowingTexture('kubejs:fluid/latex_flow')
 	event.create('cooking_oil').stillTexture('kubejs:fluid/cooking_oil_still').flowingTexture('kubejs:fluid/cooking_oil_flow')
@@ -42,6 +40,7 @@ StartupEvents.registry('fluid', event =>
 	event.create('coleslaw').stillTexture('kubejs:fluid/coleslaw').flowingTexture('kubejs:fluid/coleslaw').noBucket().noBlock()
 	event.create('blazing_chili').stillTexture('kubejs:fluid/blazing_chili').flowingTexture('kubejs:fluid/blazing_chili').noBucket().noBlock()
 	event.create('strawberry_banana_smoothie').stillTexture('kubejs:fluid/strawberry_banana_smoothie_still').flowingTexture('kubejs:fluid/strawberry_banana_smoothie_flow').noBucket().noBlock()
+	event.create('avocado_lemon_smoothie').stillTexture('kubejs:fluid/avocado_lemon_smoothie_still').flowingTexture('kubejs:fluid/avocado_lemon_smoothie_flow').noBucket().noBlock()
 	event.create('cherry_cream_soda').stillTexture('kubejs:fluid/cherry_cream_soda_still').flowingTexture('kubejs:fluid/cherry_cream_soda_flow').noBucket().noBlock()
 	
 	event.create('cactus_juice').thinTexture(0x4B8C37).noBucket().noBlock()
@@ -72,6 +71,13 @@ ItemEvents.modification(event => {
 	'caverns_and_chasms:cupric_torch'
 	], item => {
 		item.burnTime = 250
+    })
+	
+	// 1.5
+	event.modify([
+	'raspberry:charred_marshmallow_on_a_stick'
+	], item => {
+		item.burnTime = 300
     })
 	
 	// 3
@@ -105,6 +111,11 @@ ItemEvents.modification(event => {
 		item.burnTime = 900
     })
 	
+	// 8
+	event.modify('modestmining:coke_chunk', item => {
+		item.burnTime = 1600
+    })
+	
 	// 12
 	event.modify([
 	'atmospheric:large_kousa_boat',
@@ -123,6 +134,16 @@ ItemEvents.modification(event => {
 	// 30
 	event.modify('mynethersdelight:bullet_pepper_crate', item => {
 		item.burnTime = 6000
+    })
+	
+	// 64
+	event.modify('modestmining:coke', item => {
+		item.burnTime = 12800
+    })
+	
+	// 640
+	event.modify('modestmining:coke_block', item => {
+		item.burnTime = 128000
     })
 	
 // Rarity
@@ -177,8 +198,14 @@ ItemEvents.modification(event => {
 	'supplementaries:bomb_spiky_projectile',
 	'aquaculture:goldfish',
 	'kubejs:spirited_exopearl',
+	'kubejs:sunken_exopearl',
+	'kubejs:arcane_exopearl',
+	'kubejs:warded_exopearl',
 	'moyai:moyai',
-	'minecraft:piglin_banner_pattern'
+	'minecraft:piglin_banner_pattern',
+	'heart_crystals:heart_crystal_shard',
+	'heart_crystals:heart_banner_pattern',
+	'kubejs:golden_worm_crate'
 	], item => {
         item.rarity = 'uncommon'
     })
@@ -191,7 +218,8 @@ ItemEvents.modification(event => {
 	'minecraft:globe_banner_pattern',
 	'quark:rainbow_rune',
 	'supplementaries:bomb_blue',
-	'supplementaries:bomb_blue_projectile'
+	'supplementaries:bomb_blue_projectile',
+	'additionaladditions:gilded_netherite_sword'
 	], item => {
         item.rarity = 'rare'
     })
@@ -205,6 +233,13 @@ ItemEvents.modification(event => {
 	'savage_and_ravage:wand_of_freezing'
 	], item => {
         item.rarity = 'epic'
+    })
+	
+// Enchantment glint
+    event.modify('heart_crystals:heart_crystal', item => {
+        const ItemBuilder = Java.loadClass("dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder")
+        const builder = new ItemBuilder("heart_crystals:heart_crystal").glow(true);
+        item.setItemBuilder(builder);
     })
 	
 // Crafting remainders
@@ -229,7 +264,13 @@ ItemEvents.modification(event => {
 	event.modify('kubejs:coleslaw', item => {
 		item.craftingRemainder = Item.of('minecraft:bowl').item
 	})
-	event.modify('kubejs:caramelized_marshmellow_on_a_stick', item => {
+	event.modify('raspberry:marshmallow_on_a_stick', item => {
+		item.craftingRemainder = Item.of('minecraft:stick').item
+	})
+	event.modify('raspberry:caramelized_marshmallow_on_a_stick', item => {
+		item.craftingRemainder = Item.of('minecraft:stick').item
+	})
+	event.modify('raspberry:charred_marshmallow_on_a_stick', item => {
 		item.craftingRemainder = Item.of('minecraft:stick').item
 	})
 	event.modify('ecologics:coconut_slice', item => {
@@ -241,7 +282,43 @@ ItemEvents.modification(event => {
 	event.modify('spelunkery:portal_fluid_bucket', item => {
 		item.craftingRemainder = Item.of('minecraft:bucket').item
 	})
-	event.modify('oreganized:molten_lead_bucket', item => {
+	event.modify('raspberry:molten_copper_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_zinc_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_lead_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_iron_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_gold_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_silver_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_rose_gold_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_bronze_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_brass_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_steel_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_electrum_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_necromium_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('raspberry:molten_netherite_bucket', item => {
 		item.craftingRemainder = Item.of('minecraft:bucket').item
 	})
 	event.modify('berry_good:glowgurt', item => {
@@ -250,6 +327,10 @@ ItemEvents.modification(event => {
 	event.modify('farmersdelight:bone_broth', item => {
 		item.craftingRemainder = Item.of('minecraft:bowl').item
 	})
+	event.modify('brewinandchewin:rice_wine', item => {
+		item.craftingRemainder = Item.of('brewinandchewin:tankard').item
+	})
+	
 	event.modify('minecraft:beetroot_soup', item => {
 		item.craftingRemainder = null
 	})
@@ -274,22 +355,22 @@ StartupEvents.registry('enchantment', event => {
 
 // Paintings
 StartupEvents.registry('painting_variant', event => {
-    event.create('alone').width(32).height(48).tag('minecraft:placeable')
-    event.create('apple').width(16).height(16).tag('minecraft:placeable')
-    event.create('betrayal').width(48).height(64).tag('minecraft:placeable')
-    event.create('carpitalism').width(16).height(16).tag('minecraft:placeable')
-    event.create('civilization').width(48).height(64).tag('minecraft:placeable')
-    event.create('epiphany').width(32).height(32).tag('minecraft:placeable')
-    event.create('fool_me_twice').width(48).height(64).tag('minecraft:placeable')
-    event.create('four_pixels').width(48).height(32).tag('minecraft:placeable')
-    event.create('grimbly').width(64).height(64).tag('minecraft:placeable')
-    event.create('investigation').width(64).height(64).tag('minecraft:placeable')
-    event.create('miniature').width(48).height(48).tag('minecraft:placeable')
-    event.create('mirror_mirror').width(32).height(32).tag('minecraft:placeable')
-    event.create('ride_fast').width(64).height(64).tag('minecraft:placeable')
-    event.create('six_months').width(48).height(32).tag('minecraft:placeable')
-    event.create('sun').width(48).height(48).tag('minecraft:placeable')
-    event.create('white_eyes').width(64).height(48).tag('minecraft:placeable')
+    event.create('alone').width(32).height(48)
+    event.create('apple').width(16).height(16)
+    event.create('betrayal').width(48).height(64)
+    event.create('carpitalism').width(16).height(16)
+    event.create('civilization').width(48).height(64)
+    event.create('epiphany').width(32).height(32)
+    event.create('fool_me_twice').width(48).height(64)
+    event.create('four_pixels').width(48).height(32)
+    event.create('grimbly').width(64).height(64)
+    event.create('investigation').width(64).height(64)
+    event.create('miniature').width(48).height(48)
+    event.create('mirror_mirror').width(32).height(32)
+    event.create('ride_fast').width(64).height(64)
+    event.create('six_months').width(48).height(32)
+    event.create('sun').width(48).height(48)
+    event.create('white_eyes').width(64).height(48)
 })
 
 // Custom eyes of ender
@@ -298,14 +379,56 @@ const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
 StartupEvents.registry('entity_type', event => {
     event.create('spirited_exopearl', "minecraft:eye_of_ender")
 	.renderScale(0.45, 0.45, 0.45)
-        .item(item => {
-            item.signalTo(context => {
-                const { level, player, hand } = context
-                let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:spirited_exopearl_located')
-                let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
-                return foundPos == null ? player.blockPosition() : foundPos
-            })
+	.textureLocation(entity => {
+        return "kubejs:textures/item/spirited_exopearl.png"
+    })
+    .item(item => {
+        item.signalTo(context => {
+            const { level, player, hand } = context
+            let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:spirited_exopearl_located')
+            let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+            return foundPos == null ? player.blockPosition() : foundPos
         })
+    })
+    event.create('sunken_exopearl', "minecraft:eye_of_ender")
+	.renderScale(0.45, 0.45, 0.45)
+	.textureLocation(entity => {
+        return "kubejs:textures/item/sunken_exopearl.png"
+    })
+    .item(item => {
+        item.signalTo(context => {
+            const { level, player, hand } = context
+            let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:sunken_exopearl_located')
+            let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+            return foundPos == null ? player.blockPosition() : foundPos
+        })
+    })
+    event.create('arcane_exopearl', "minecraft:eye_of_ender")
+	.renderScale(0.45, 0.45, 0.45)
+	.textureLocation(entity => {
+        return "kubejs:textures/item/arcane_exopearl.png"
+    })
+    .item(item => {
+        item.signalTo(context => {
+            const { level, player, hand } = context
+            let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:arcane_exopearl_located')
+            let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+            return foundPos == null ? player.blockPosition() : foundPos
+        })
+    })
+    event.create('warded_exopearl', "minecraft:eye_of_ender")
+	.renderScale(0.45, 0.45, 0.45)
+	.textureLocation(entity => {
+        return "kubejs:textures/item/warded_exopearl.png"
+    })
+    .item(item => {
+        item.signalTo(context => {
+            const { level, player, hand } = context
+            let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:warded_exopearl_located')
+            let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+            return foundPos == null ? player.blockPosition() : foundPos
+        })
+    })
 })
 
 // Fake custom attributes
@@ -322,4 +445,7 @@ StartupEvents.registry('attribute', event => {
     event.createCustom('kubejs:mining_speed', () => new $RangedAttribute("Mining Speed", 0, 0, 30).setSyncable(true))
     event.createCustom('kubejs:thunder_synergy', () => new $RangedAttribute("Thunder Synergy", 0, 0, 30).setSyncable(true))
     event.createCustom('kubejs:aquatic_synergy', () => new $RangedAttribute("Aquatic Synergy", 0, 0, 30).setSyncable(true))
+    event.createCustom('kubejs:silk_touch', () => new $RangedAttribute("Silk Touch", 0, 0, 30).setSyncable(true))
+    event.createCustom('kubejs:draining_touch', () => new $RangedAttribute("Draining Touch", 0, 0, 30).setSyncable(true))
+    event.createCustom('kubejs:heat_touch', () => new $RangedAttribute("Heat Touch", 0, 0, 30).setSyncable(true))
 })

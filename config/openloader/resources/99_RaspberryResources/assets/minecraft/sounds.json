@@ -134,6 +134,10 @@
       {
         "name": "music/game/kronos",
         "stream": true
+      },
+      {
+        "name": "music/game/sevensuns",
+        "stream": true
       }
     ]
   },
@@ -380,7 +384,7 @@
       {
         "name": "music/game/buildup_errors",
         "stream": true,
-        "volume": 0.6,
+        "volume": 0.4,
         "weight": 2
       },
       {
@@ -435,6 +439,11 @@
         "name": "music/game/creative/creative6",
         "stream": true,
         "weight": 2
+      },
+      {
+        "name": "music/game/sevensuns",
+        "stream": true,
+        "weight": 3
       }
     ]
   },
@@ -881,11 +890,16 @@
       {
         "name": "music/game/buildup_errors",
         "stream": true,
-        "volume": 0.6,
+        "volume": 0.4,
 		"weight": 2
       },
       {
         "name": "music/game/stilbruch",
+        "stream": true,
+		"weight": 2
+      },
+      {
+        "name": "music/game/sevensuns",
         "stream": true,
 		"weight": 2
       }
@@ -969,6 +983,10 @@
         "name": "music/game/eld_unknown",
         "stream": true,
         "volume": 0.4
+      },
+      {
+        "name": "music/game/sevensuns",
+        "stream": true
       }
     ]
   },
@@ -1077,7 +1095,7 @@
       {
         "name": "music/game/buildup_errors",
         "stream": true,
-        "volume": 0.6,
+        "volume": 0.4,
 		"weight": 2
       },
       {
@@ -1203,6 +1221,10 @@
         "name": "music/game/independent_accident",
         "stream": true,
         "volume": 0.6
+      },
+      {
+        "name": "music/game/sevensuns",
+        "stream": true
       }
     ]
   },
@@ -1552,6 +1574,11 @@
         "name": "music/game/dalarna",
         "stream": true,
 		"weight": 3
+      },
+      {
+        "name": "music/game/sevensuns",
+        "stream": true,
+		"weight": 2
       }
     ]
   },
@@ -1703,7 +1730,7 @@
       {
         "name": "music/game/buildup_errors",
         "stream": true,
-        "volume": 0.6,
+        "volume": 0.4,
 		"weight": 2
       },
       {
@@ -1716,6 +1743,11 @@
         "stream": true,
         "volume": 0.4,
         "weight": 2
+      },
+      {
+        "name": "music/game/sevensuns",
+        "stream": true,
+		"weight": 2
       }
     ]
   },

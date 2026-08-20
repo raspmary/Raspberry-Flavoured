@@ -52,9 +52,9 @@ ItemEvents.tooltip(event => {
 	
 	event.addAdvanced('kubejs:beastly_tablet', (item, advanced, text) => {
         tablet_tooltip(event, text, [
-            ["ensorcellation:cavalier", 3, ["rf.ench.melee_weapons"], 1],
+            ["ensorcellation:cavalier", 3, ["rf.ench.melee_weapons", "rf.ench.utility"], 2],
             ["miningmaster:knight_jump", 3, ["rf.ench.leggings"], 3],
-            ["domesticationinnovation:intimidation", 2, ["item.domesticationinnovation.collar_tag"], 2]
+            ["domesticationinnovation:intimidation", 1, ["item.domesticationinnovation.collar_tag"], 2]
         ])
 	})
 	
@@ -68,7 +68,7 @@ ItemEvents.tooltip(event => {
 	
 	event.addAdvanced('kubejs:enduring_tablet', (item, advanced, text) => {
         tablet_tooltip(event, text, [
-            ["ensorcellation:vitality", 2, ["rf.ench.armor"], 3],
+            ["ensorcellation:vitality", 5, ["rf.ench.chestplate"], 2],
             ["domesticationinnovation:health_boost", 3, ["item.domesticationinnovation.collar_tag"], 2]
         ])
 	})
@@ -159,7 +159,7 @@ ItemEvents.tooltip(event => {
 	
 	event.addAdvanced('kubejs:recollection_tablet', (item, advanced, text) => {
         tablet_tooltip(event, text, [
-            ["ensorcellation:soulbound", 1, ["rf.ench.equipment_utility"], 1]
+            ["ensorcellation:soulbound", 1, ["rf.ench.any_equipment", "rf.ench.utility"], 1]
         ])
 	})
 	
@@ -182,7 +182,7 @@ ItemEvents.tooltip(event => {
 			text.add([Text.translate('rf.ench.faster_attacks_1').darkGray()])
 			
 			text.add([Text.translate('enchantment.ensorcellation.quick_draw').gray().underlined()])
-			text.add([Text.translate('rf.ench.max_level').darkGray(), joinComponents(Text.of(" - "), [Text.translate('enchantment.level.1'), Text.translate('enchantment.level.3')]).gray()])
+			text.add([Text.translate('rf.ench.max_level').darkGray(), Text.translate('enchantment.level.3').gray()])
 			text.add([Text.translate('rf.ench.applied_to').darkGray(), joinComponents(Text.of(", "), [Text.translate('item.minecraft.bow'), Text.translate('item.minecraft.crossbow'), Text.translate('item.supplementaries.slingshot')]).gray()])
 			text.add([Text.translate('rf.ench.quick_draw_1').darkGray()])
 		}

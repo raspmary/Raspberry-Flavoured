@@ -7,10 +7,8 @@
         "minecraft:diamond_block",
         "minecraft:diamond_ore",
         "minecraft:deepslate_diamond_ore",
-        "oreganized:silver_ore",
-        "oreganized:deepslate_silver_ore",
-        "oreganized:silver_block",
-        "oreganized:raw_silver_block"
+        "spelunkery:rough_diamond_block",
+        "quark:blue_corundum_cluster"
       ],
       "particle": {
         "type": "visuality:sparkle",
@@ -22,7 +20,31 @@
       }
     },
     {
-      "block": "oreganized:electrum_block",
+      "block": [
+        "oreganized:silver_ore",
+        "oreganized:deepslate_silver_ore",
+        "oreganized:silver_block",
+        "oreganized:raw_silver_block"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.8980392,
+          0.9764706,
+          1.0
+        ]
+      }
+    },
+    {
+      "block": [
+        "minecraft:gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:nether_gold_ore",
+        "minecraft:gilded_blackstone",
+        "minecraft:raw_gold_block",
+        "minecraft:gold_block",
+        "oreganized:electrum_block"
+      ],
       "particle": {
         "type": "visuality:sparkle",
         "value": [
@@ -33,13 +55,51 @@
       }
     },
     {
-      "block": "minecraft:amethyst_cluster",
+      "block": [
+        "minecraft:amethyst_cluster",
+        "quark:indigo_corundum_cluster",
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore",
+        "minecraft:emerald_block",
+        "spelunkery:rough_emerald_block"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "block": [
+        "quark:white_corundum_cluster",
+        "minecraft:nether_quartz_ore",
+        "create:rose_quartz_tiles",
+        "spelunkery:rough_quartz_block"
+      ],
       "particle": {
         "type": "visuality:sparkle",
         "value": [
           0.99607843,
           0.79607844,
           0.9019608
+        ]
+      }
+    },
+    {
+      "block": [
+        "heart_crystals:heart_crystal",
+        "heart_crystals:heart_crystal_shard",
+        "heart_crystals:heart_lantern"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          1,
+          0.75686274,
+          0.86666666
         ]
       }
     },
@@ -77,7 +137,8 @@
         "architects_palette:unobtanium_block",
         "kubejs:enigmatic_tile_slab",
         "kubejs:enigmatic_tile_stairs",
-        "kubejs:enigmatic_tile_wall"
+        "kubejs:enigmatic_tile_wall",
+        "quark:myalite_crystal"
       ],
       "particle": {
         "type": "minecraft:portal"

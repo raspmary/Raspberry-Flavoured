@@ -1,23 +1,26 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "decorators": [
-      {
-        "type": "minecraft:leave_vine",
-        "probability": 0.35
-      }
-    ],
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 2
+    },
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
         "Name": "minecraft:dirt"
       }
     },
-    "foliage_placer": {
-      "type": "minecraft:blob_foliage_placer",
-      "height": 3,
-      "offset": 0,
-      "radius": 3
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "environmental:willow_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
@@ -30,28 +33,32 @@
         }
       }
     },
-    "force_dirt": false,
-    "ignore_vines": false,
-    "minimum_size": {
-      "type": "minecraft:two_layers_feature_size",
-      "limit": 1,
-      "lower_size": 0,
-      "upper_size": 1
-    },
     "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
-      "base_height": 5,
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 3,
       "height_rand_a": 1,
-      "height_rand_b": 0
+      "height_rand_b": 2
     },
-    "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "environmental:willow_log",
-        "Properties": {
-          "axis": "y"
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": 2,
+      "offset": 4,
+      "height": 4
+    },
+    "decorators": [
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.5
+      },
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:mud"
+          }
         }
       }
-    }
+    ]
   }
 }

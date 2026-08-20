@@ -1,0 +1,47 @@
+{
+	"credit": "Made by Yptsh",
+	"texture_size": [32, 32],
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "heart_crystals:block/heart_lantern",
+		"particle": "heart_crystals:item/heart_lantern"
+	},
+	"elements": [
+		{
+			"from": [6, 14, 8],
+			"to": [10, 16, 8],
+			"faces": {
+				"north": {"uv": [9.5, 0, 11.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"south": {"uv": [9.5, 0, 11.5, 1], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 14, 6],
+			"to": [8, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"east": {"uv": [9.5, 0, 11.5, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"west": {"uv": [9.5, 0, 11.5, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 0], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 0, 3],
+			"to": [13, 14, 13],
+			"faces": {
+				"north": {"uv": [8, 1, 13, 8], "texture": "#0"},
+				"east": {"uv": [8, 1, 13, 8], "texture": "#0"},
+				"south": {"uv": [8, 1, 13, 8], "texture": "#0"},
+				"west": {"uv": [8, 1, 13, 8], "texture": "#0"},
+				"up": {"uv": [3, 8, 8, 13], "texture": "#0"},
+				"down": {"uv": [8, 8, 13, 13], "texture": "#0"}
+			}
+		}
+	]
+}

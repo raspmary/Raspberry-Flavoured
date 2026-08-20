@@ -1,6 +1,6 @@
 {
 	"renderPosition": "BEFORE_NAME",
-	"offsetNonPlayerText": true,
+	"offsetNonPlayerText": false,
 	"senderDetection": "UUID_AND_HEURISTIC",
 	"smartHeuristics": true,
 	"handleSystemMessages": true,

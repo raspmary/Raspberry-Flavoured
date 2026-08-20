@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "sullysmod:block/flinger_top",
+    "east": "sullysmod:block/flinger_side",
+    "north": "sullysmod:block/flinger_front",
+    "particle": "sullysmod:block/flinger_side",
+    "south": "sullysmod:block/flinger_side",
+    "up": "sullysmod:block/flinger_top",
+    "west": "sullysmod:block/flinger_side"
+  }
+}

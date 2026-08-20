@@ -1,0 +1,41 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.35
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "condition": "block_state_property",
+      "block": "raspberry:wormy_dirt"
+    }
+  ],
+  "functions": [
+    {
+	  "add": false,
+	  "count": {
+	    "type": "minecraft:uniform",
+		"max": 2.0,
+		"min": 1.0
+	  },
+	  "function": "minecraft:set_count"
+    }
+  ],
+  "item": "kubejs:golden_worm"
+}

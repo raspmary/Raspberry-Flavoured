@@ -1,0 +1,31 @@
+{
+  "potion_effects": [
+    {
+      "id": "brewinandchewin:tipsy",
+	  "amplifier": {
+        "min": 4,
+        "max": 9
+      },
+      "hide_particles": false
+    },
+    {
+      "id": "minecraft:strength",
+	  "amplifier": {
+        "min": 0,
+        "max": 1
+      },
+      "hide_particles": true
+    }
+  ],
+  "equipment": {
+    "off_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "brewinandchewin:beer",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

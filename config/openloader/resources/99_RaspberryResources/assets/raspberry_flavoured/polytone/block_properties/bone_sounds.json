@@ -1,0 +1,8 @@
+{
+   "targets": [
+	"architects_palette:scute_block",
+	"upgrade_aquatic:scute_block",
+	"autumnity:snail_shell_block"
+   ],
+   "sound_type": "bone_block"
+}

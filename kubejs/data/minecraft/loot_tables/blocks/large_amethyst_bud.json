@@ -24,54 +24,30 @@
                   }
                 }
               ],
-              "name": "minecraft:large_amethyst_bud"
+              "name": "quark:indigo_corundum_cluster"
             },
             {
-              "type": "minecraft:alternatives",
-              "children": [
+              "type": "minecraft:item",
+              "functions": [
                 {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "tag": "minecraft:cluster_max_harvestables"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": 1.0,
-                      "function": "minecraft:set_count"
-                    },
-                    {
-                      "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:ore_drops",
-                      "function": "minecraft:apply_bonus"
-                    }
-                  ],
-                  "name": "minecraft:amethyst_shard"
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 2.0
+                  },
+                  "function": "minecraft:set_count"
                 },
                 {
-                  "type": "minecraft:item",
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": {
-						"type": "minecraft:uniform",
-						"max": 1.0,
-						"min": 0.0
-						},
-                      "function": "minecraft:set_count"
-                    },
-                    {
-                      "function": "minecraft:explosion_decay"
-                    }
-                  ],
-                  "name": "minecraft:amethyst_shard"
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops",
+                  "function": "minecraft:apply_bonus"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
                 }
-              ]
+              ],
+              "name": "spelunkery:rough_emerald_shard"
             }
           ]
         }

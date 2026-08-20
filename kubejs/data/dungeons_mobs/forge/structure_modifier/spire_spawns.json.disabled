@@ -1,0 +1,10 @@
+{
+  "type": "dungeons_mobs:add_spawns",
+  "structures": "kubejs:raiser_spire",
+  "spawners": {
+    "type": "minecraft:evoker",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

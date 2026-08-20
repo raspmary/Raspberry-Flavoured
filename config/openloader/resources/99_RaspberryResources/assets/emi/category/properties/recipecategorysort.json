@@ -1,137 +1,146 @@
 {
   "emi:info": {
-    "order": 1
-  },
-  "minecraft:crafting": {
-    "order": 2
-  },
-  "minecraft:campfire_cooking": {
-    "order": 3
-  },
-  "minecraft:smelting": {
-    "order": 4
-  },
-  "cookscollection:shapeless_baking": {
-    "order": 6
-  },
-  "farmersdelight:cutting": {
-    "order": 7
-  },
-  "farmersdelight:cooking": {
-    "order": 8
-  },
-  "brewinandchewin:fermenting": {
-    "order": 9
-  },
-  "modestmining:shapeless_forging": {
     "order": 10
   },
-  "modestmining:shaped_forging": {
-    "order": 11
-  },
-  "emi:fuel": {
-    "order": 12
-  },
-  "minecraft:stonecutting": {
-    "order": 13
-  },
-  "emi:composting": {
-    "order": 16
-  },
-  "create:item_application": {
-    "order": 19
-  },
-  "create:sandpaper_polishing": {
+  "minecraft:crafting": {
     "order": 20
   },
-  "sullysmod:grindstone_polishing": {
-    "order": 21
-  },
-  "minecraft:smithing": {
-    "order": 22
-  },
-  "raspberry:anvil": {
-    "order": 23
-  },
-  "create:pressing": {
-    "order": 24
-  },
-  "create:packing": {
-    "order": 25
-  },
-  "create:automatic_packing": {
-    "order": 26
-  },
-  "create:milling": {
-    "order": 27
-  },
-  "create:crushing": {
-    "order": 28
-  },
-  "create:mixing": {
-    "order": 29
-  },
-  "create:automatic_shapeless": {
+  "minecraft:campfire_cooking": {
     "order": 30
   },
-  "create:automatic_brewing": {
-    "order": 32
+  "minecraft:smelting": {
+    "order": 40
   },
-  "create:spout_filling": {
-    "order": 33
-  },
-  "create:draining": {
-    "order": 34
-  },
-  "create:fan_smoking": {
-    "order": 35
-  },
-  "create:fan_washing": {
-    "order": 36
-  },
-  "create:fan_blasting": {
-    "order": 37
-  },
-  "create:fan_haunting": {
-    "order": 38
-  },
-  "create:deploying": {
-    "order": 41
-  },
-  "create:mechanical_crafting": {
-    "order": 42
-  },
-  "create:automatic_shaped": {
-    "order": 43
-  },
-  "create:sequenced_assembly": {
-    "order": 44
-  },
-  "create:sawing": {
-    "order": 45
-  },
-  "create:wood_cutting": {
-    "order": 46
-  },
-  "create:block_cutting": {
-    "order": 47
-  },
-  "create:mystery_conversion": {
-    "order": 48
-  },
-  "exposure:photograph_printing": {
-    "order": 49
-  },
-  "jeed:effect_info": {
+  "cookscollection:shapeless_baking": {
     "order": 50
   },
+  "farmersdelight:cutting": {
+    "order": 60
+  },
+  "farmersdelight:cooking": {
+    "order": 70
+  },
+  "brewinandchewin:fermenting": {
+    "order": 80
+  },
+  "modestmining:forging": {
+    "order": 90
+  },
+  "emi:fuel": {
+    "order": 100
+  },
+  "minecraft:stonecutting": {
+    "order": 110
+  },
+  "emi:composting": {
+    "order": 120
+  },
+  "create:item_application": {
+    "order": 130
+  },
+  "create:sandpaper_polishing": {
+    "order": 140
+  },
+  "sullysmod:grindstone_polishing": {
+    "order": 150
+  },
+  "raspberry:dripping": {
+    "order": 160
+  },
+  "minecraft:smithing": {
+    "order": 170
+  },
+  "modestmagic:infusing": {
+    "order": 180
+  },
+  "modestmagic:enchanting": {
+    "order": 190
+  },
+  "modestmagic:summoning": {
+    "order": 200
+  },
+  "raspberry:anvil": {
+    "order": 210
+  },
+  "create:pressing": {
+    "order": 220
+  },
+  "create:packing": {
+    "order": 230
+  },
+  "create:automatic_packing": {
+    "order": 240
+  },
+  "create:milling": {
+    "order": 250
+  },
+  "create:crushing": {
+    "order": 260
+  },
+  "create:mixing": {
+    "order": 270
+  },
+  "create:automatic_shapeless": {
+    "order": 280
+  },
+  "create:automatic_brewing": {
+    "order": 290
+  },
+  "create:spout_filling": {
+    "order": 300
+  },
+  "create:draining": {
+    "order": 310
+  },
+  "create:fan_smoking": {
+    "order": 320
+  },
+  "create:fan_washing": {
+    "order": 330
+  },
+  "create:fan_blasting": {
+    "order": 340
+  },
+  "create:fan_haunting": {
+    "order": 350
+  },
+  "create:deploying": {
+    "order": 360
+  },
+  "create:mechanical_crafting": {
+    "order": 370
+  },
+  "create:automatic_shaped": {
+    "order": 380
+  },
+  "create:sequenced_assembly": {
+    "order": 390
+  },
+  "create:sawing": {
+    "order": 400
+  },
+  "create:wood_cutting": {
+    "order": 410
+  },
+  "create:block_cutting": {
+    "order": 420
+  },
+  "create:mystery_conversion": {
+    "order": 430
+  },
+  "exposure:photograph_printing": {
+    "order": 440
+  },
+  "jeed:effect_info": {
+    "order": 450
+  },
   "raspberry:beacon_base": {
-    "order": 51
+    "order": 460
   },
   "raspberry:beacon_payment": {
-    "order": 52
+    "order": 470
   },
   "emi:tag": {
-    "order": 53
+    "order": 480
   }
 }

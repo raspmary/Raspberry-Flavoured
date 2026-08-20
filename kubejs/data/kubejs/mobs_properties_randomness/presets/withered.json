@@ -1,0 +1,69 @@
+{
+  "equipment": {
+    "main_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "additionaladditions:gilded_netherite_sword",
+          "weight": 10
+        },
+        {
+          "id": "minecraft:bow",
+          "weight": 1
+        }
+      ]
+    },
+    "head": {
+	  "override": false,
+      "items": [
+        {
+          "id": "alloyed:steel_helmet",
+          "weight": 1
+        },
+        {
+          "id": "minecraft:air",
+          "weight": 8
+        }
+      ]
+    },
+    "chest": {
+	  "override": false,
+      "items": [
+        {
+          "id": "alloyed:steel_chestplate",
+          "weight": 1
+        },
+        {
+          "id": "minecraft:air",
+          "weight": 8
+        }
+      ]
+    },
+    "legs": {
+	  "override": false,
+      "items": [
+        {
+          "id": "alloyed:steel_leggings",
+          "weight": 1
+        },
+        {
+          "id": "minecraft:air",
+          "weight": 8
+        }
+      ]
+    },
+    "feet": {
+	  "override": false,
+      "items": [
+        {
+          "id": "alloyed:steel_boots",
+          "weight": 1
+        },
+        {
+          "id": "minecraft:air",
+          "weight": 8
+        }
+      ]
+    }
+  }
+}

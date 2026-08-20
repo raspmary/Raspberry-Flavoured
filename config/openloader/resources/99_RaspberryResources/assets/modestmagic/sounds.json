@@ -1,0 +1,45 @@
+{
+  "block.altar.add_item": {
+    "sounds": [
+      "modestmagic:block/altar/add_item1",
+      "modestmagic:block/altar/add_item2",
+      "modestmagic:block/altar/add_item3",
+      "modestmagic:block/altar/add_item4"
+    ],
+    "subtitle": "subtitles.modestmagic.block.altar.add_item"
+  },
+  "block.pedestal.add_item": {
+    "sounds": [
+      "modestmagic:block/pedestal/add_item1",
+      "modestmagic:block/pedestal/add_item2",
+      "modestmagic:block/pedestal/add_item3",
+      "modestmagic:block/pedestal/add_item4"
+    ],
+    "subtitle": "subtitles.modestmagic.block.pedestal.add_item"
+  },
+  "block.pedestal.remove_item": {
+    "sounds": [
+      "modestmagic:block/pedestal/remove_item1",
+      "modestmagic:block/pedestal/remove_item2",
+      "modestmagic:block/pedestal/remove_item3",
+      "modestmagic:block/pedestal/remove_item4"
+    ],
+    "subtitle": "subtitles.modestmagic.block.pedestal.remove_item"
+  },
+  "block.altar.enchant": {
+    "sounds": [
+      "modestmagic:block/altar/enchant1",
+      "modestmagic:block/altar/enchant2",
+      "modestmagic:block/altar/enchant3"
+    ],
+    "subtitle": "subtitles.modestmagic.block.altar.enchant"
+  },
+  "block.altar.summon": {
+    "sounds": [
+      "modestmagic:block/altar/summon1",
+      "modestmagic:block/altar/summon2",
+      "modestmagic:block/altar/summon3"
+    ],
+    "subtitle": "subtitles.modestmagic.block.altar.summon"
+  }
+}

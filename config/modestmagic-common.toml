@@ -1,0 +1,9 @@
+
+[general]
+	#If true, dropped items will automatically be picked up by empty pedestals.
+	throwItemsOnPedestals = true
+
+[client]
+	#If true, disables hovering and rotating animations in EMI recipes.
+	reducedEmiMotion = false
+

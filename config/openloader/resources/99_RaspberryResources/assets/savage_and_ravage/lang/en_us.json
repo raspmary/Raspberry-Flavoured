@@ -5,12 +5,12 @@
   "block.savage_and_ravage.gloomy_tile_wall": "Gloomy Tile Wall",
   "block.savage_and_ravage.chiseled_gloomy_tiles": "Chiseled Gloomy Tiles",
   "block.savage_and_ravage.gloomy_tile_vertical_slab": "Gloomy Tile Vertical Slab",
-  "block.savage_and_ravage.runed_gloomy_tiles": "Runed Gloomy Tiles",
+  "block.savage_and_ravage.runed_gloomy_tiles": "Runic Gloomy Tiles",
   
-  "block.savage_and_ravage.blast_proof_plates": "Griefer Plates",
-  "block.savage_and_ravage.blast_proof_slab": "Griefer Slab",
-  "block.savage_and_ravage.blast_proof_stairs": "Griefer Stairs",
-  "block.savage_and_ravage.blast_proof_vertical_slab": "Griefer Vertical Slab",
+  "block.savage_and_ravage.blast_proof_plates": "Griefer Plating Block",
+  "block.savage_and_ravage.blast_proof_slab": "Griefer Plating Slab",
+  "block.savage_and_ravage.blast_proof_stairs": "Griefer Plating Stairs",
+  "block.savage_and_ravage.blast_proof_vertical_slab": "Griefer Plating Vertical Slab",
   "block.savage_and_ravage.creeper_spore_sack": "Bag of Creeper Spores",
   "block.savage_and_ravage.spore_bomb": "Spore Dynamite",
   
@@ -22,7 +22,7 @@
   
   "item.savage_and_ravage.wand_of_freezing": "Wand of Freezing",
   "item.savage_and_ravage.cleaver_of_beheading": "Cleaver of Beheading",
-  "item.savage_and_ravage.conch_of_conjuring": "Conch of Conjuring",
+  "item.savage_and_ravage.conch_of_conjuring": "Tome of Conjuring",
   "item.savage_and_ravage.mask_of_dishonesty": "Mask of Dishonesty",
 
   "item.savage_and_ravage.creeper_spores": "Creeper Spores",

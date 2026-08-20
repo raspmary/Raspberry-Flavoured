@@ -1,0 +1,11 @@
+{
+  "block.reliable_backpacks.backpack": "Backpack",
+  "container.backpack": "Backpack",
+  "config.reliable_backpacks.enable_curios_integration": "Enable Curios Integration",
+  "config.reliable_backpacks.enable_trinkets_integration": "Enable Trinkets Integration",
+
+  "subtitles.reliable_backpacks.backpack.place": "Backpack placed",
+  "subtitles.reliable_backpacks.backpack.open": "Backpack opens",
+  "subtitles.reliable_backpacks.backpack.close": "Backpack closes",
+  "subtitles.reliable_backpacks.backpack.equip": "Backpack equipped"
+}

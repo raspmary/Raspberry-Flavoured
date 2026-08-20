@@ -1,13 +1,14 @@
 {
   "parent": "raspberry_flavoured:main/pickaxe_upgrade",
   "criteria": {
-    "Obtain Rough Cinnabar, Rough Diamond or Rough Quartz": {
+    "Obtain Rough Cinnabar, Rough Diamond, Rough Amethyst or Rough Quartz": {
       "conditions": {
         "items": [
           {
             "items": [
               "spelunkery:rough_cinnabar",
               "spelunkery:rough_diamond",
+              "spelunkery:rough_emerald",
               "minecraft:quartz"
             ]
           }
@@ -15,13 +16,14 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"Obtain Cinnabar, Diamond or Quartz": {
+	"Obtain Cinnabar, Diamond, Amethyst or Quartz": {
       "conditions": {
         "items": [
 		  {
             "items": [
               "spelunkery:cinnabar",
               "minecraft:diamond",
+              "minecraft:emerald",
               "create:polished_rose_quartz"
             ]
           }
@@ -51,10 +53,10 @@
     },
   "requirements": [
     [
-      "Obtain Rough Cinnabar, Rough Diamond or Rough Quartz"
+      "Obtain Rough Cinnabar, Rough Diamond, Rough Amethyst or Rough Quartz"
     ],
 	[
-	  "Obtain Cinnabar, Diamond or Quartz"
+	  "Obtain Cinnabar, Diamond, Amethyst or Quartz"
 	]
   ]
 }

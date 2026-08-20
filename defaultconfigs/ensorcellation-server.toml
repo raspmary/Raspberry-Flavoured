@@ -17,24 +17,24 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 4
 		#Adjust this value to set the chance per level of the Enchantment firing (in percentage).
 		#Range: 1 ~ 100
 		"Effect Chance" = 20
 		#If TRUE, mobs wearing armor with this Enchantment can teleport players.
-		"Mobs Teleport Players" = false
+		"Mobs Teleport Players" = true
 
 	[Enchantments."Flaming Rebuke"]
 		#If TRUE, the Flaming Rebuke Enchantment is available for Armor, Shields, and Horse Armor.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 1
 		#Adjust this value to set the chance per level of the Enchantment firing (in percentage).
 		#Range: 1 ~ 100
-		"Effect Chance" = 20
+		"Effect Chance" = 50
 		#If TRUE, mobs wearing armor with this Enchantment can knockback players.
 		"Mobs Knockback Players" = false
 
@@ -72,7 +72,7 @@
 
 	[Enchantments.Gourmand]
 		#If TRUE, the Gourmand Enchantment is available for Helmets.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -220,7 +220,7 @@
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 1
+		"Max Level" = 3
 
 	[Enchantments.Trueshot]
 		#If TRUE, the Trueshot Enchantment is available for various Bows.
@@ -229,7 +229,7 @@
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 2
+		"Max Level" = 4
 
 	[Enchantments.Volley]
 		#If TRUE, the Volley Enchantment is available for various Bows.

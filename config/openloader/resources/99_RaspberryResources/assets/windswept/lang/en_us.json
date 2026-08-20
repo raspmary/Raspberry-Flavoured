@@ -5,27 +5,28 @@
   "block.windswept.wither_rose_bush": "Withered Rose Bush",
   "block.windswept.bluebells": "Bluebell",
   "block.windswept.potted_bluebells": "Potted Bluebell",
-  "block.windswept.ender_fairy_light": "Exodic Fairy Light",
-  "block.windswept.carved_pinecone_block": "Carved Conifer Cone Block",
-  "block.windswept.pinecone": "Conifer Cone",
-  "block.windswept.pinecone_block": "Conifer Cone Block",
-  "block.windswept.pinecone_wreath": "Conifer Wreath",
+  "block.windswept.holly_chest": "Spruce Chest",
+  "block.windswept.holly_trapped_chest": "Spruce Trapped Chest",
   
   "item.windswept.mutton_pie": "Mutton Tart",
   "item.windswept.wild_berry_juice": "Mulberry Cocktail",
   "item.windswept.chestnut_risotto": "Chestnut Duck Risotto",
+  "item.windswept.snow_boots": "Mountain Boots",
+  "item.windswept.large_holly_boat": "Large Coconut Boat",
+  "item.windswept.holly_furnace_boat": "Coconut Boat with Furnace",
   
   "windswept.jei.info.music_disc_bumblebee": "Sometimes dropped when a Bee Nest or Beehive is sheared for Honeycombs.",
   "windswept.jei.info.music_disc_rain": "Dropped by a Drowned if killed by a Skeleton.",
   "windswept.jei.info.music_disc_snow": "Dropped by a Freeper if killed by a Stray.",
-  "windswept.jei.info.snow_boots": "Allows the wearer to move faster on any snowy block, and allows walking on Powder Snow.",
-  "windswept.jei.info.carved_pinecone_block": "The face of the Carved Conifer Cone creates a single note randomly as wind passes through them, the note produced is deeper depending on how high they are stacked on top of pinecone blocks. \n(Is activated through random tick, right clicking, or redstone)",
+  "windswept.jei.info.snow_boots": "Allows the wearer to move faster on any snowy block, and allows walking on Powder Snow. When reeled in using a Reinforced Fishing Rod equipped with a Grappling Hook, having the Mountain Boots equipped will allow for climbing up near the top of ledges.",
   "windswept.jei.info.blue_rose": "",
   "windswept.jei.info.blue_rose_bush": "",
   "windswept.jei.info.bluebells": "",
   "windswept.jei.info.foul_berry_bowl": "",
   "windswept.jei.info.foxglove": "",
   "windswept.jei.info.nightshade": "",
+  "windswept.jei.info.pink_rose": "",
+  "windswept.jei.info.pink_rose_bush": "",
   "windswept.jei.info.red_rose": "",
   "windswept.jei.info.red_rose_bush": "",
   "windswept.jei.info.snowy_sprouts": "",
@@ -39,7 +40,5 @@
   "windswept.jei.info.yellow_rose": "",
   "windswept.jei.info.yellow_rose_bush": "",
   
-  "item.windswept.chestnut_chest_boat": "Chestnut Boat with Barrel",
-  
-  "trim_material.windswept.pinecone": "Conifer Material"
+  "item.windswept.chestnut_chest_boat": "Chestnut Boat with Barrel"
 }

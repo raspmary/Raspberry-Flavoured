@@ -54,19 +54,19 @@
                 "type": "minecraft:weighted_state_provider",
                 "entries": [
                   {
-                    "weight": 18,
+                    "weight": 30,
                     "data": {
                       "Name": "minecraft:blackstone"
                     }
                   },
                   {
-                    "weight": 12,
+                    "weight": 20,
                     "data": {
                       "Name": "kubejs:cobbled_blackstone"
                     }
                   },
                   {
-                    "weight": 6,
+                    "weight": 10,
                     "data": {
                       "Name": "raspberry:blackstone_gravel"
                     }

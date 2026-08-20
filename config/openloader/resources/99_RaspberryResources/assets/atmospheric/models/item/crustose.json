@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "minecraft:block/dirt",
-    "side": "atmospheric:block/crustose_side_alt",
-    "top": "atmospheric:block/crustose_top"
-  }
-}

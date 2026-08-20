@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:with_default_monster_spawns",
+  "spawners": {
+    "type": "minecraft:evoker",
+    "maxCount": 1,
+    "minCount": 0,
+    "weight": 5
+  }
+}

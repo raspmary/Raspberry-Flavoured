@@ -43,7 +43,6 @@
 	"create:portable_storage_interface",
 	"create:sequenced_gearshift",
 	"create:flywheel",
-	"create:rotation_speed_controller",
 	"create:mechanical_arm",
 	"create:brass_funnel",
 	"create:brass_tunnel",
@@ -58,7 +57,11 @@
 	"architects_palette:chiseled_sunmetal_block",
 	"architects_palette:sunmetal_pillar",
 	"architects_palette:sunmetal_bars",
-	"another_furniture:service_bell"
+	"another_furniture:service_bell",
+	"toms_storage:ts.inventory_connector",
+	"minecraft:dispenser",
+	"supplementaries:relayer",
+	"quark:magnet"
    ],
    "sound_type": "copper"
 }

@@ -1,0 +1,104 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"feast": "miners_delight:block/glazed_arachnid_limbs",
+		"tray": "miners_delight:block/tray_bottom",
+		"particle": "miners_delight:block/tray_honey_rice_garnish",
+		"tray_top": "miners_delight:block/tray_honey_rice_garnish"
+	},
+	"elements": [
+		{
+			"name": "tray",
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"east": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"south": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"west": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#tray"}
+			}
+		},
+		{
+			"from": [9, 2, 4],
+			"to": [13, 5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 5.75, 8.25]},
+			"faces": {
+				"north": {"uv": [8, 13, 4, 16], "texture": "#feast"},
+				"east": {"uv": [10, 6, 7, 13], "rotation": 270, "texture": "#feast"},
+				"south": {"uv": [0, 13, 4, 16], "rotation": 180, "texture": "#feast"},
+				"west": {"uv": [0, 6, 3, 13], "rotation": 90, "texture": "#feast"},
+				"up": {"uv": [3, 6, 7, 13], "rotation": 180, "texture": "#feast"},
+				"down": {"uv": [14, 6, 10, 13], "texture": "#feast"}
+			}
+		},
+		{
+			"from": [3, 2, 9],
+			"to": [9, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 5.25, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 6], "rotation": 90, "texture": "#feast"},
+				"east": {"uv": [2, 0, 4, 2], "rotation": 270, "texture": "#feast"},
+				"south": {"uv": [0, 1, 2, 7], "rotation": 270, "texture": "#feast"},
+				"west": {"uv": [0, 0, 2, 2], "rotation": 270, "texture": "#feast"},
+				"up": {"uv": [0, 0, 2, 6], "rotation": 270, "texture": "#feast"},
+				"down": {"uv": [0, 0, 2, 6], "rotation": 270, "texture": "#feast"}
+			}
+		},
+		{
+			"from": [6, 2, 5],
+			"to": [9, 5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.75, 7.75]},
+			"faces": {
+				"north": {"uv": [10, 13, 13, 16], "texture": "#feast"},
+				"east": {"uv": [10, 13, 13, 16], "texture": "#feast"},
+				"south": {"uv": [10, 13, 13, 16], "texture": "#feast"},
+				"west": {"uv": [13, 13, 10, 16], "texture": "#feast"},
+				"up": {"uv": [10, 13, 13, 16], "rotation": 270, "texture": "#feast"},
+				"down": {"uv": [10, 13, 13, 16], "rotation": 90, "texture": "#feast"}
+			}
+		},
+		{
+			"from": [8, 5, 6],
+			"to": [8, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.75, 7.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#feast"},
+				"east": {"uv": [11, 4, 8, 0], "texture": "#feast"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#feast"},
+				"west": {"uv": [8, 4, 11, 0], "texture": "#feast"},
+				"up": {"uv": [0, 0, 3, 0], "rotation": 270, "texture": "#feast"},
+				"down": {"uv": [0, 0, 3, 0], "rotation": 90, "texture": "#feast"}
+			}
+		},
+		{
+			"from": [5, 5, 6],
+			"to": [8, 7, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.75, 7.75]},
+			"faces": {
+				"north": {"uv": [14, 2, 11, 0], "texture": "#feast"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#feast"},
+				"south": {"uv": [11, 2, 14, 0], "texture": "#feast"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#feast"},
+				"up": {"uv": [0, 0, 3, 0], "rotation": 180, "texture": "#feast"},
+				"down": {"uv": [0, 0, 3, 0], "rotation": 180, "texture": "#feast"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "leg3",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1, 2]
+		},
+		3,
+		4,
+		5
+	]
+}

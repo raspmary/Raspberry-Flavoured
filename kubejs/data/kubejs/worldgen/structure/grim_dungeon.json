@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "step": "underground_structures",
+  "biomes": "#minecraft:is_overworld",
+  "start_pool": "kubejs:grim_dungeon",
+  "terrain_adaptation": "bury",
+  "size": 7,
+  "max_distance_from_center": 40,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -50
+    },
+    "max_inclusive": {
+      "absolute": 0
+    }
+  },
+  "spawn_overrides": {},
+  "use_expansion_hack": false
+}

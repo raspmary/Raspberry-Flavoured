@@ -1,38 +1,43 @@
 // priority: 0
 ServerEvents.recipes(event => {
 	// stairs
-	function stair(inputItem, resultItem) {
+	function stairs(inputItem, resultItem) {
 		event.shaped(Item.of(resultItem,3), ['A ', 'AA'], {A: inputItem})
 	}
-	stair('twigs:bamboo_thatch','kubejs:bamboo_thatch_stairs')
-	stair('kubejs:straw_thatch','kubejs:straw_thatch_stairs')
-	stair('kubejs:flax_thatch','kubejs:flax_thatch_stairs')
-	stair('kubejs:deepslate_gravel_bricks','kubejs:deepslate_gravel_brick_stairs')
-	stair('kubejs:blackstone_gravel_bricks','kubejs:blackstone_gravel_brick_stairs')
-	stair('kubejs:cobbled_blackstone','kubejs:cobbled_blackstone_stairs')
-	stair('kubejs:lachryte','kubejs:lachryte_stairs')
-	stair('kubejs:polished_lachryte','kubejs:polished_lachryte_stairs')
-	stair('kubejs:lachryte_bricks','kubejs:lachryte_brick_stairs')
-	stair('emerald_block','kubejs:lapis_stairs')
-	stair('spelunkery:rough_lazurite_block','kubejs:lazurite_stairs')
-	stair('oreganized:polished_glance','oreganized:polished_glance_stairs')
-	stair('smooth_stone','kubejs:smooth_stone_stairs')
-	stair('kubejs:exolite','architects_palette:myonite_stairs')
-	stair('kubejs:cobbled_exolite','architects_palette:myonite_brick_stairs')
-	stair('architects_palette:unobtanium_block','kubejs:enigmatic_tile_stairs')
-	
-	stair('sandstone','sandstone_stairs')
-	stair('quark:sandstone_bricks','quark:sandstone_bricks_stairs')
-	stair('kubejs:polished_sandstone','kubejs:polished_sandstone_stairs')
-	stair('kubejs:sandstone_tiles','kubejs:sandstone_tile_stairs')
-	stair('red_sandstone','red_sandstone_stairs')
-	stair('quark:red_sandstone_bricks','quark:red_sandstone_bricks_stairs')
-	stair('kubejs:polished_red_sandstone','kubejs:polished_red_sandstone_stairs')
-	stair('kubejs:red_sandstone_tiles','kubejs:red_sandstone_tile_stairs')
-	stair('quark:soul_sandstone','quark:soul_sandstone_stairs')
-	stair('quark:soul_sandstone_bricks','quark:soul_sandstone_bricks_stairs')
-	stair('kubejs:polished_soul_sandstone','kubejs:polished_soul_sandstone_stairs')
-	stair('kubejs:soul_sandstone_tiles','kubejs:soul_sandstone_tile_stairs')
+	stairs('twigs:bamboo_thatch','kubejs:bamboo_thatch_stairs')
+	stairs('kubejs:straw_thatch','kubejs:straw_thatch_stairs')
+	stairs('kubejs:flax_thatch','kubejs:flax_thatch_stairs')
+	stairs('kubejs:deepslate_gravel_bricks','kubejs:deepslate_gravel_brick_stairs')
+	stairs('kubejs:blackstone_gravel_bricks','kubejs:blackstone_gravel_brick_stairs')
+	stairs('kubejs:cobbled_blackstone','kubejs:cobbled_blackstone_stairs')
+	stairs('kubejs:lachryte','kubejs:lachryte_stairs')
+	stairs('kubejs:polished_lachryte','kubejs:polished_lachryte_stairs')
+	stairs('kubejs:lachryte_bricks','kubejs:lachryte_brick_stairs')
+	stairs('lapis_block','kubejs:lapis_stairs')
+	stairs('spelunkery:rough_lazurite_block','kubejs:lazurite_stairs')
+	stairs('oreganized:polished_glance','oreganized:polished_glance_stairs')
+	stairs('smooth_stone','kubejs:smooth_stone_stairs')
+	stairs('kubejs:exolite','architects_palette:myonite_stairs')
+	stairs('kubejs:cobbled_exolite','architects_palette:myonite_brick_stairs')
+	stairs('architects_palette:unobtanium_block','kubejs:enigmatic_tile_stairs')
+	stairs('kubejs:oraclestone','kubejs:oraclestone_stairs')
+	stairs('kubejs:feldspar_block','kubejs:feldspar_stairs')
+	stairs('kubejs:polished_feldspar','kubejs:polished_feldspar_stairs')
+	stairs('kubejs:feldspar_bricks','kubejs:feldspar_brick_stairs')
+	stairs('kubejs:diamond_plating_block','kubejs:diamond_plating_stairs')
+
+	stairs('sandstone','sandstone_stairs')
+	stairs('quark:sandstone_bricks','quark:sandstone_bricks_stairs')
+	stairs('kubejs:polished_sandstone','kubejs:polished_sandstone_stairs')
+	stairs('kubejs:sandstone_tiles','kubejs:sandstone_tile_stairs')
+	stairs('red_sandstone','red_sandstone_stairs')
+	stairs('quark:red_sandstone_bricks','quark:red_sandstone_bricks_stairs')
+	stairs('kubejs:polished_red_sandstone','kubejs:polished_red_sandstone_stairs')
+	stairs('kubejs:red_sandstone_tiles','kubejs:red_sandstone_tile_stairs')
+	stairs('quark:soul_sandstone','quark:soul_sandstone_stairs')
+	stairs('quark:soul_sandstone_bricks','quark:soul_sandstone_bricks_stairs')
+	stairs('kubejs:polished_soul_sandstone','kubejs:polished_soul_sandstone_stairs')
+	stairs('kubejs:soul_sandstone_tiles','kubejs:soul_sandstone_tile_stairs')
 	
 	// slabs
 	function slab(inputItem, resultItem) {
@@ -47,13 +52,18 @@ ServerEvents.recipes(event => {
 	slab('kubejs:deepslate_gravel_bricks','kubejs:deepslate_gravel_brick_slab')
 	slab('kubejs:blackstone_gravel_bricks','kubejs:blackstone_gravel_brick_slab')
 	slab('kubejs:cobbled_blackstone','kubejs:cobbled_blackstone_slab')
-	slab('emerald_block','kubejs:lapis_slab')
+	slab('lapis_block','kubejs:lapis_slab')
 	slab('spelunkery:rough_lazurite_block','kubejs:lazurite_slab')
 	slab('oreganized:polished_glance','oreganized:polished_glance_slab')
 	slab('kubejs:exolite','architects_palette:myonite_slab')
 	slab('kubejs:cobbled_exolite','architects_palette:myonite_brick_slab')
 	slab('architects_palette:unobtanium_block','kubejs:enigmatic_tile_slab')
-	
+	slab('kubejs:oraclestone','kubejs:oraclestone_slab')
+	slab('kubejs:feldspar_block','kubejs:feldspar_slab')
+	slab('kubejs:polished_feldspar','kubejs:polished_feldspar_slab')
+	slab('kubejs:feldspar_bricks','kubejs:feldspar_brick_slab')
+	slab('kubejs:diamond_plating_block','kubejs:diamond_plating_slab')
+
 	slab('sandstone','sandstone_slab')
 	slab('cut_sandstone','cut_sandstone_slab')
 	slab('quark:sandstone_bricks','quark:sandstone_bricks_slab')
@@ -81,13 +91,17 @@ ServerEvents.recipes(event => {
 	wall('kubejs:deepslate_gravel_bricks','kubejs:deepslate_gravel_brick_wall')
 	wall('kubejs:blackstone_gravel_bricks','kubejs:blackstone_gravel_brick_wall')
 	wall('kubejs:cobbled_blackstone','kubejs:cobbled_blackstone_wall')
-	wall('emerald_block','kubejs:lapis_wall')
+	wall('lapis_block','kubejs:lapis_wall')
 	wall('spelunkery:rough_lazurite_block','kubejs:lazurite_wall')
 	wall('smooth_stone','kubejs:smooth_stone_wall')
 	wall('kubejs:exolite','architects_palette:myonite_wall')
 	wall('kubejs:cobbled_exolite','architects_palette:myonite_brick_wall')
 	wall('architects_palette:unobtanium_block','kubejs:enigmatic_tile_wall')
-	
+	wall('kubejs:oraclestone','kubejs:oraclestone_wall')
+	wall('kubejs:feldspar_block','kubejs:feldspar_wall')
+	wall('kubejs:polished_feldspar','kubejs:polished_feldspar_wall')
+	wall('kubejs:feldspar_bricks','kubejs:feldspar_brick_wall')
+
 	wall('sandstone','sandstone_wall')
 	wall('quark:sandstone_bricks','quark:sandstone_bricks_wall')
 	wall('kubejs:polished_sandstone','kubejs:polished_sandstone_wall')
@@ -117,16 +131,35 @@ ServerEvents.recipes(event => {
 	pillar('oreganized:polished_glance','kubejs:glance_pillar')
 	pillar('smooth_basalt','basalt')
 	pillar('paletteblocks:polished_basalt','polished_basalt')
-	
 	pillar('sandstone','kubejs:sandstone_pillar')
 	pillar('red_sandstone','kubejs:red_sandstone_pillar')
 	pillar('quark:soul_sandstone','kubejs:soul_sandstone_pillar')
+	
+	pillar('create:polished_cut_asurine','create:asurine_pillar')
+	pillar('create:polished_cut_crimsite','create:crimsite_pillar')
+	pillar('create:polished_cut_limestone','create:limestone_pillar')
+	pillar('create:polished_cut_ochrum','create:ochrum_pillar')
+	pillar('create:polished_cut_scoria','create:scoria_pillar')
+	pillar('create:polished_cut_scorchia','create:scorchia_pillar')
+	pillar('create:polished_cut_veridium','create:veridium_pillar')
+
+	// shingles
+	function shingle(inputItem, resultItem) {
+		event.shaped(Item.of(resultItem,6), ['AAA', 'AAA'], {A: inputItem})
+	}
+	shingle('terracotta','quark:shingles')
+	shingle('twigs:packed_silt','twigs:silt_shingles')
+	shingle('sullysmod:polished_jade_block','sullysmod:polished_jade_shingles')
+	shingle('copper_block','create:copper_shingles')
+	shingle('exposed_copper','create:exposed_copper_shingles')
+	shingle('weathered_copper','create:weathered_copper_shingles')
+	shingle('oxidized_copper','create:oxidized_copper_shingles')
 	
 	// bookshelves
 	function bookshelf(inputItem, resultItem) {
 		event.shaped(Item.of(resultItem,3), ['AAA', 'BBB', 'AAA'], {A: inputItem, B: 'book'})
 	}
-	bookshelf('minecraft:bamboo_planks','woodworks:bamboo_bookshelf')
+	bookshelf('quark:bamboo_planks','quark:bamboo_bookshelf')
 	bookshelf('mynethersdelight:powdery_planks','everycomp:q/mynethersdelight/powdery_bookshelf')
 	bookshelf('architects_palette:twisted_planks','everycomp:q/architects_palette/twisted_bookshelf')
 	bookshelf('ecologics:azalea_planks','everycomp:q/ecologics/azalea_bookshelf')
@@ -182,52 +215,49 @@ ServerEvents.recipes(event => {
 	deployWaxing('caverns_and_chasms:oxidized_lightning_rod', 'caverns_and_chasms:waxed_oxidized_lightning_rod')
 	deployWaxing('mynethersdelight:hoglin_trophy', 'mynethersdelight:waxed_hoglin_trophy')
 	
-	// panels, pillars, boards n stuff
-	function panel(woodType, pillarItem, panelItem, boardItem) {
-		// crafting slabs into panels
-		event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_slab'})
-		// crafting panels into pillars
-		event.shaped(Item.of(pillarItem,2), ['A', 'A'], {A: panelItem + 's'})
-		// sawing planks into panels and back
-		event.stonecutting(panelItem + 's', woodType + '_planks')
-		event.stonecutting(woodType + '_planks', panelItem + 's')
-		// sawing planks into pillars and back
-		event.stonecutting(pillarItem, woodType + '_planks')
-		event.stonecutting(woodType + '_planks', pillarItem)
-		// sawing panels into pillars and back
-		event.stonecutting(pillarItem, panelItem + 's')
-		event.stonecutting(panelItem + 's', pillarItem)
-		// sawing logs into panels and pillars
-		event.stonecutting('4x ' + panelItem + 's', '#' + woodType + '_logs')
-		event.stonecutting('4x ' + pillarItem, '#' + woodType + '_logs')
-		// sawing panels into slabs walls and stairs
-		event.stonecutting('2x ' + panelItem + '_slab', panelItem + 's')
-		event.stonecutting('2x ' + panelItem + '_wall', panelItem + 's')
-		event.stonecutting(panelItem + '_stairs', panelItem + 's')
-		// sawing boards back into planks
-		event.stonecutting(woodType + '_planks', boardItem + 's')
+	// panels, pillars n stuff
+	function woodConvert(woodType, pillarItem, panelItem, trimItem, polishedItem, polishedItemAlt, weaveItem) {
+		// crafting polished planks
+		event.shaped(Item.of(polishedItem,4), ['AA', 'AA'], {A: woodType + '_planks'})
+		
+		// crafting panels
+		event.shaped(Item.of(panelItem + 's',4), ['AA', 'AA'], {A: polishedItem})
+		
+		// crafting pillars
+		event.shaped(Item.of(pillarItem,2), ['A', 'A'], {A: polishedItem})
+		
+		// crafting trims
+		event.shaped(Item.of(trimItem,3), ['A', 'B', 'A'], {A: woodType + '_planks', B: polishedItem})
+		
+		// crafting woven planks
+		if (woodType == 'quark:bamboo') {
+			event.shaped(Item.of(weaveItem + 's',2), ['AA', 'AA'], {A: woodType + '_planks_slab'})
+		} else {
+			event.shaped(Item.of(weaveItem + 's',2), ['AA', 'AA'], {A: woodType + '_slab'})
+		}
 	}
-	panel('minecraft:oak','modestmining:oak_pillar','modestmining:oak_board','woodworks:oak_board')
-	panel('minecraft:spruce','modestmining:spruce_pillar','modestmining:spruce_board','woodworks:spruce_board')
-	panel('minecraft:birch','modestmining:birch_pillar','modestmining:birch_board','woodworks:birch_board')
-	panel('minecraft:jungle','modestmining:jungle_pillar','modestmining:jungle_board','woodworks:jungle_board')
-	panel('minecraft:acacia','modestmining:acacia_pillar','modestmining:acacia_board','woodworks:acacia_board')
-	panel('minecraft:dark_oak','modestmining:dark_oak_pillar','modestmining:dark_oak_board','woodworks:dark_oak_board')
-	panel('minecraft:mangrove','modestmining:mangrove_pillar','modestmining:mangrove_board','woodworks:mangrove_board')
-	panel('minecraft:crimson','modestmining:crimson_pillar','modestmining:crimson_board','woodworks:crimson_board')
-	panel('minecraft:warped','modestmining:warped_pillar','modestmining:warped_board','woodworks:warped_board')
-	panel('minecraft:bamboo','everycomp:mm/minecraft/bamboo_pillar','everycomp:mm/minecraft/bamboo_board','everycomp:abnww/minecraft/bamboo_board')
-	panel('mynethersdelight:powdery','everycomp:mm/mynethersdelight/powdery_pillar','everycomp:mm/mynethersdelight/powdery_board','everycomp:abnww/mynethersdelight/powdery_board')
-	panel('ecologics:azalea','everycomp:mm/ecologics/azalea_pillar','everycomp:mm/ecologics/azalea_board','everycomp:abnww/ecologics/azalea_board')
-	panel('ecologics:coconut','everycomp:mm/ecologics/coconut_pillar','everycomp:mm/ecologics/coconut_board','everycomp:abnww/ecologics/coconut_board')
-	panel('atmospheric:rosewood','everycomp:mm/atmospheric/rosewood_pillar','everycomp:mm/atmospheric/rosewood_board','atmospheric:rosewood_board')
-	panel('atmospheric:yucca','everycomp:mm/atmospheric/yucca_pillar','everycomp:mm/atmospheric/yucca_board','atmospheric:yucca_board')
-	panel('atmospheric:morado','everycomp:mm/atmospheric/morado_pillar','everycomp:mm/atmospheric/morado_board','atmospheric:morado_board')
-	panel('minecraft:cherry','everycomp:mm/minecraft/cherry_pillar','everycomp:mm/minecraft/cherry_board','minecraft:cherry_board')
-	panel('environmental:willow','everycomp:mm/environmental/willow_pillar','everycomp:mm/environmental/willow_board','environmental:willow_board')
-	panel('environmental:wisteria','everycomp:mm/environmental/wisteria_pillar','everycomp:mm/environmental/wisteria_board','environmental:wisteria_board')
-	panel('architects_palette:twisted','everycomp:mm/architects_palette/twisted_pillar','everycomp:mm/upgrade_aquatic/river_board','everycomp:abnww/architects_palette/twisted_board')
-	panel('upgrade_aquatic:driftwood','everycomp:mm/upgrade_aquatic/driftwood_pillar','everycomp:mm/upgrade_aquatic/driftwood_board','upgrade_aquatic:driftwood_board')
-	panel('autumnity:maple','everycomp:mm/autumnity/maple_pillar','everycomp:mm/autumnity/maple_board','autumnity:maple_board')
-	panel('windswept:chestnut','everycomp:mm/windswept/chestnut_pillar','everycomp:mm/windswept/chestnut_board','windswept:chestnut_board')
+	woodConvert('minecraft:oak','modestmasonry:oak_pillar','modestmasonry:oak_board','hnh:oak_trim', 'modestmasonry:carved_oak_planks', 'modestmasonry:oak_carved_plank', 'modestmasonry:oak_tile')
+	woodConvert('minecraft:spruce','modestmasonry:spruce_pillar','modestmasonry:spruce_board','hnh:spruce_trim', 'modestmasonry:carved_spruce_planks', 'modestmasonry:spruce_carved_plank', 'modestmasonry:spruce_tile')
+	woodConvert('minecraft:birch','modestmasonry:birch_pillar','modestmasonry:birch_board','hnh:birch_trim', 'modestmasonry:carved_birch_planks', 'modestmasonry:birch_carved_plank', 'modestmasonry:birch_tile')
+	woodConvert('minecraft:jungle','modestmasonry:jungle_pillar','modestmasonry:jungle_board','hnh:jungle_trim', 'modestmasonry:carved_jungle_planks', 'modestmasonry:jungle_carved_plank', 'modestmasonry:jungle_tile')
+	woodConvert('minecraft:acacia','modestmasonry:acacia_pillar','modestmasonry:acacia_board','hnh:acacia_trim', 'modestmasonry:carved_acacia_planks', 'modestmasonry:acacia_carved_plank', 'modestmasonry:acacia_tile')
+	woodConvert('minecraft:dark_oak','modestmasonry:dark_oak_pillar','modestmasonry:dark_oak_board','hnh:dark_oak_trim', 'modestmasonry:carved_dark_oak_planks', 'modestmasonry:dark_oak_carved_plank', 'modestmasonry:dark_oak_tile')
+	woodConvert('minecraft:mangrove','modestmasonry:mangrove_pillar','modestmasonry:mangrove_board','hnh:mangrove_trim', 'modestmasonry:carved_mangrove_planks', 'modestmasonry:mangrove_carved_plank', 'modestmasonry:mangrove_tile')
+	woodConvert('minecraft:crimson','modestmasonry:crimson_pillar','modestmasonry:crimson_board','hnh:crimson_trim', 'modestmasonry:carved_crimson_planks', 'modestmasonry:crimson_carved_plank', 'modestmasonry:crimson_tile')
+	woodConvert('minecraft:warped','modestmasonry:warped_pillar','modestmasonry:warped_board','hnh:warped_trim', 'modestmasonry:carved_warped_planks', 'modestmasonry:warped_carved_plank', 'modestmasonry:warped_tile')
+	woodConvert('quark:bamboo','everycomp:mm/quark/bamboo_pillar','everycomp:mm/quark/bamboo_board','everycomp:hnh/quark/bamboo_trim', 'everycomp:mm/quark/carved_bamboo_planks', 'everycomp:mm/quark/bamboo_carved_plank', 'everycomp:mm/quark/bamboo_tile')
+	woodConvert('mynethersdelight:powdery','everycomp:mm/mynethersdelight/powdery_pillar','everycomp:mm/mynethersdelight/powdery_board','everycomp:hnh/mynethersdelight/powdery_trim', 'everycomp:mm/mynethersdelight/carved_powdery_planks', 'everycomp:mm/mynethersdelight/powdery_carved_plank', 'everycomp:mm/mynethersdelight/powdery_tile')
+	woodConvert('ecologics:azalea','everycomp:mm/ecologics/azalea_pillar','everycomp:mm/ecologics/azalea_board','everycomp:hnh/ecologics/azalea_trim', 'everycomp:mm/ecologics/carved_azalea_planks', 'everycomp:mm/ecologics/azalea_carved_plank', 'everycomp:mm/ecologics/azalea_tile')
+	woodConvert('ecologics:coconut','everycomp:mm/ecologics/coconut_pillar','everycomp:mm/ecologics/coconut_board','everycomp:hnh/ecologics/coconut_trim', 'everycomp:mm/ecologics/carved_coconut_planks', 'everycomp:mm/ecologics/coconut_carved_plank', 'everycomp:mm/ecologics/coconut_tile')
+	woodConvert('atmospheric:rosewood','everycomp:mm/atmospheric/rosewood_pillar','everycomp:mm/atmospheric/rosewood_board','everycomp:hnh/atmospheric/rosewood_trim', 'everycomp:mm/atmospheric/carved_rosewood_planks', 'everycomp:mm/atmospheric/rosewood_carved_plank', 'everycomp:mm/atmospheric/rosewood_tile')
+	woodConvert('atmospheric:grimwood','everycomp:mm/atmospheric/grimwood_pillar','everycomp:mm/atmospheric/grimwood_board','everycomp:hnh/atmospheric/grimwood_trim', 'everycomp:mm/atmospheric/carved_grimwood_planks', 'everycomp:mm/atmospheric/grimwood_carved_plank', 'everycomp:mm/atmospheric/grimwood_tile')
+	woodConvert('atmospheric:yucca','everycomp:mm/atmospheric/yucca_pillar','everycomp:mm/atmospheric/yucca_board','everycomp:hnh/atmospheric/yucca_trim', 'everycomp:mm/atmospheric/carved_yucca_planks', 'everycomp:mm/atmospheric/yucca_carved_plank', 'everycomp:mm/atmospheric/yucca_tile')
+	woodConvert('atmospheric:morado','everycomp:mm/atmospheric/morado_pillar','everycomp:mm/atmospheric/morado_board','everycomp:hnh/atmospheric/morado_trim', 'everycomp:mm/atmospheric/carved_morado_planks', 'everycomp:mm/atmospheric/morado_carved_plank', 'everycomp:mm/atmospheric/morado_tile')
+	woodConvert('environmental:cherry','everycomp:mm/environmental/cherry_pillar','everycomp:mm/environmental/cherry_board','everycomp:hnh/environmental/cherry_trim', 'everycomp:mm/environmental/carved_cherry_planks', 'everycomp:mm/environmental/cherry_carved_plank', 'everycomp:mm/environmental/cherry_tile')
+	woodConvert('environmental:willow','everycomp:mm/environmental/willow_pillar','everycomp:mm/environmental/willow_board','everycomp:hnh/environmental/willow_trim', 'everycomp:mm/environmental/carved_willow_planks', 'everycomp:mm/environmental/willow_carved_plank', 'everycomp:mm/environmental/willow_tile')
+	woodConvert('environmental:wisteria','everycomp:mm/environmental/wisteria_pillar','everycomp:mm/environmental/wisteria_board','everycomp:hnh/environmental/wisteria_trim', 'everycomp:mm/environmental/carved_wisteria_planks', 'everycomp:mm/environmental/wisteria_carved_plank', 'everycomp:mm/environmental/wisteria_tile')
+	woodConvert('architects_palette:twisted','everycomp:mm/architects_palette/twisted_pillar','everycomp:mm/upgrade_aquatic/river_board','everycomp:hnh/architects_palette/twisted_trim', 'everycomp:mm/architects_palette/carved_twisted_planks', 'everycomp:mm/architects_palette/twisted_carved_plank', 'everycomp:mm/architects_palette/twisted_tile')
+	woodConvert('upgrade_aquatic:driftwood','everycomp:mm/upgrade_aquatic/driftwood_pillar','everycomp:mm/upgrade_aquatic/driftwood_board','everycomp:hnh/upgrade_aquatic/driftwood_trim', 'everycomp:mm/upgrade_aquatic/carved_driftwood_planks', 'everycomp:mm/upgrade_aquatic/driftwood_carved_plank', 'everycomp:mm/upgrade_aquatic/driftwood_tile')
+	woodConvert('autumnity:maple','everycomp:mm/autumnity/maple_pillar','everycomp:mm/autumnity/maple_board','everycomp:hnh/autumnity/maple_trim', 'everycomp:mm/autumnity/carved_maple_planks', 'everycomp:mm/autumnity/maple_carved_plank', 'everycomp:mm/autumnity/maple_tile')
+	woodConvert('windswept:chestnut','everycomp:mm/windswept/chestnut_pillar','everycomp:mm/windswept/chestnut_board','everycomp:hnh/windswept/chestnut_trim', 'everycomp:mm/windswept/carved_chestnut_planks', 'everycomp:mm/windswept/chestnut_carved_plank', 'everycomp:mm/windswept/chestnut_tile')
 })

@@ -1,0 +1,31 @@
+{
+  "events": {
+    "on_attacked": [{
+      "target": "entity",
+      "potion_effects": [
+        {
+          "id": "atmospheric:spitting",
+          "amplifier": {
+            "min": 0,
+            "max": 1
+          },
+          "duration": {
+            "min": 2,
+            "max": 4
+          }
+        }
+      ]
+    }]
+  },
+  "equipment": {
+    "off_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "minecraft:melon_slice",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

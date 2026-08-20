@@ -1,0 +1,30 @@
+{
+  "target": "#raspberry_flavoured:skeletons",
+  "presets": {
+    "chance": 0.015,
+    "list": [
+      {
+        "weight": 5,
+        "id": "kubejs:rose_gold_skeleton"
+      },
+      {
+        "weight": 4,
+        "id": "kubejs:lachryte_skeleton"
+      },
+      {
+        "weight": 3,
+        "id": "kubejs:blinding_skeleton"
+      },
+      {
+        "weight": 1,
+        "id": "kubejs:crazed_skeleton",
+        "world_whitelist": {
+          "deepness": {
+            "min": -63,
+            "max": -1
+          }
+        }
+      }
+    ]
+  }
+}

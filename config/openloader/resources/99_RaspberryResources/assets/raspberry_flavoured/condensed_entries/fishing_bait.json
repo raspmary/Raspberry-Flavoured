@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:fishing_bait": {
+      "base_item": "aquaculture:worm",
+      "item_tag": "raspberry:bait"
+    }
+  }
+}

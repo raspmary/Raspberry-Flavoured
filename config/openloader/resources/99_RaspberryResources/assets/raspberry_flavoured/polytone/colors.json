@@ -32,7 +32,7 @@
     "windswept:thorns": "006B31",
     "oreganized:stunning": "34237F",
     "quark:resilience": "995423",
-    "caverns_and_chasms:rewind": "684F11",
+    "caverns_and_chasms:rewind": "B900D6",
     "atmospheric:worsening": "71487A",
     "environmental:panic": "EBEC43",
     "atmospheric:spitting": "0",
@@ -46,6 +46,7 @@
 	  "minecraft:turtle": "3FA442",
 	  "minecraft:vex": "71C6C6",
 	  "minecraft:allay": "93DCF9",
+	  "minecraft:evoker": "70063B",
 	  "dungeons_mobs:jungle_zombie": "3F562A",
 	  "naturalist:zebra": "949388"
 	},
@@ -56,6 +57,7 @@
 	  "minecraft:turtle": "CAD091",
 	  "minecraft:vex": "8E3939",
 	  "minecraft:allay": "F9B6D0",
+	  "minecraft:evoker": "2F4251",
 	  "dungeons_mobs:jungle_zombie": "62894B",
 	  "naturalist:zebra": "2F2B2A"
 	}

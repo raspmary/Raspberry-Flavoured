@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kubejs:block/feldspar_slab"
+    },
+    "type=double": {
+      "model": "kubejs:block/feldspar_block"
+    },
+    "type=top": {
+      "model": "kubejs:block/feldspar_slab_top"
+    }
+  }
+}

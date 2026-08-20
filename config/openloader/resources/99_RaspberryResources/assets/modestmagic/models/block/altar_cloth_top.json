@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2": "modestmagic:block/altar_misc",
+		"3": "modestmagic:block/altar_bottom",
+		"5": "modestmagic:block/altar_top",
+		"particle": "modestmagic:block/altar_top"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 13, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [5, 0, 10, 6.5], "texture": "#2"},
+				"east": {"uv": [10, 0, 5, 6.5], "texture": "#2"},
+				"south": {"uv": [5, 0, 10, 6.5], "texture": "#2"},
+				"west": {"uv": [5, 0, 10, 6.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 9, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#5"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [0, 10, 0],
+			"to": [0, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 11, 0]},
+			"faces": {
+				"east": {"uv": [0, 8, 8, 11], "texture": "#2"},
+				"west": {"uv": [0, 8, 8, 11], "texture": "#2"}
+			}
+		},
+		{
+			"from": [16, 10, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 11, 0]},
+			"faces": {
+				"east": {"uv": [0, 8, 8, 11], "texture": "#2"},
+				"west": {"uv": [0, 8, 8, 11], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 10, 0],
+			"to": [16, 16, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 11, 0]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 11], "texture": "#2"},
+				"south": {"uv": [0, 8, 8, 11], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 10, 16],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 11, 16]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 11], "texture": "#2"},
+				"south": {"uv": [0, 8, 8, 11], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

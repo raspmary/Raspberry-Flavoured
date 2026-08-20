@@ -90,6 +90,29 @@
 		  "weight": 4
         },
 		{
+          "type": "minecraft:loot_table",
+          "name": "kubejs:pathfinders_quills",
+		  "weight": 16
+        },
+		{
+          "type": "minecraft:item",
+          "name": "upgrade_aquatic:driftwood_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.kubejs.cartographer_chest"
+              }
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "minecraft:chests/shipwreck_map"
+            }
+          ],
+		  "weight": 8
+        },
+		{
           "type": "minecraft:item",
           "name": "minecraft:barrel",
           "functions": [
@@ -105,11 +128,12 @@
               "name": "minecraft:chests/shipwreck_supply"
             }
           ],
-		  "weight": 4
+		  "weight": 8
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:loot_bag"
+          "name": "kubejs:loot_bag",
+		  "weight": 2
         }
       ],
       "rolls": 1.0

@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 3.0,
-        "max": 5.0,
+        "min": 6.0,
+        "max": 8.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -15,8 +15,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
+                "min": 3.0,
+                "max": 9.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -30,13 +30,108 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 5.0,
+                "min": 3.0,
+                "max": 9.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
           "name": "savage_and_ravage:creeper_spores"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:honeycomb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "quark:soul_bead"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 9.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:slime_ball"
         },
         {
           "type": "minecraft:item",
@@ -51,56 +146,37 @@
               }
             }
           ],
-          "name": "minecraft:carrot"
+          "name": "minecraft:amethyst_shard"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:pufferfish"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:phantom_membrane"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
+                "min": 2.0,
                 "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:spider_eye"
+          "name": "minecraft:scute"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4.0,
-                "max": 8.0,
+                "min": 2.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:slime_ball"
-        }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:witch_bag"
+          "name": "autumnity:snail_shell_piece"
         }
       ]
     },
@@ -113,7 +189,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
+                "min": 2.0,
                 "max": 3.0,
                 "type": "minecraft:uniform"
               }
@@ -125,22 +201,11 @@
     },
     {
     "rolls": {
-      "min": 1.0,
-      "max": 3.0,
+      "min": 2.0,
+      "max": 4.0,
       "type": "minecraft:uniform"
     },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:water\"}"
-            }
-          ],
-          "name": "minecraft:potion"
-        },
         {
           "type": "minecraft:item",
           "weight": 3,
@@ -272,6 +337,17 @@
             }
           ],
           "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"kubejs:mad_prospector\"}"
+            }
+          ],
+          "name": "minecraft:splash_potion"
         }
       ]
     }

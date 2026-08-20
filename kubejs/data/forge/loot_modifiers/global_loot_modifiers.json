@@ -5,10 +5,12 @@
     "kubejs:deepslate_dwarf_geode",
     "kubejs:blackstone_dwarf_geode",
     "kubejs:cloth",
-    "kubejs:golden_worm",
+    "kubejs:heart_crystal_shard",
+    "kubejs:golden_worm_from_buried_bugs",
 	
     "kubejs:straw_from_giant_tall_grass",
 	"kubejs:straw_from_dead_bush",
+	"kubejs:straw_from_tall_dead_bush",
 	"kubejs:straw_from_corn",
 	"kubejs:straw_from_wild_corn",
 	"kubejs:straw_from_beachgrass",
@@ -19,6 +21,7 @@
 	"kubejs:straw_from_cave_grass",
 	"kubejs:straw_from_cave_vines",
 	"kubejs:straw_from_cave_vines_plant",
+	"kubejs:straw_from_shrub",
 	
 	"kubejs:seeds_from_grass",
 	"kubejs:seeds_from_tall_grass",
@@ -27,9 +30,12 @@
 	"kubejs:seeds_from_tall_beachgrass",
 	"kubejs:seeds_from_sporophyte",
 	"kubejs:seeds_from_tall_sporophyte",
+	"kubejs:seeds_from_sandy_shrub",
+	"kubejs:seeds_from_shrub",
 	"kubejs:seeds_from_arid_sprouts",
 	
 	"kubejs:cattail_seeds_from_cattail",
+	"kubejs:cattail_seeds_from_tall_cattail",
 	
 	"kubejs:music_disc_droopy1",
 	"kubejs:music_disc_death",

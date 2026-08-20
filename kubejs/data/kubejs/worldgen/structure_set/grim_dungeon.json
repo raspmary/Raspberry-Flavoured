@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "kubejs:grim_dungeon",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 309402205,
+		"spacing": 16,
+		"separation": 10
+	}
+}

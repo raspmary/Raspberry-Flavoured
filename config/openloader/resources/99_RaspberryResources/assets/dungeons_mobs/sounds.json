@@ -248,10 +248,19 @@
 		"subtitle": "subtitles.entity.frozen_zombie.snowball_land",
 		"sounds": [
 			{
-				"name": "dungeons_mobs:entities/frozen_zombie/snowball_land1"
+				"name": "dungeons_mobs:entities/frozen_zombie/snowball1"
 			},
 			{
-				"name": "dungeons_mobs:entities/frozen_zombie/snowball_land2"
+				"name": "dungeons_mobs:entities/frozen_zombie/snowball2"
+			},
+			{
+				"name": "dungeons_mobs:entities/frozen_zombie/snowball3"
+			},
+			{
+				"name": "dungeons_mobs:entities/frozen_zombie/snowball4"
+			},
+			{
+				"name": "dungeons_mobs:entities/frozen_zombie/snowball5"
 			}
 		]
 	},

@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:farming/fishing_gear",
+  "parent": "raspberry_flavoured:farming/all_hooks",
   "criteria": {
     "Obtain Cod": {
       "conditions": {

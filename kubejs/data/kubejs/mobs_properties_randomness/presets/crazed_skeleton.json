@@ -1,0 +1,83 @@
+{
+  "events": {
+    "on_attacked": [{
+      "target": "entity",
+      "potion_effects": [
+        {
+          "id": "farmersrespite:caffeinated",
+		  "hide_particles": true,
+          "amplifier": {
+            "min": 2,
+            "max": 3
+          },
+          "duration": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "id": "neapolitan:berserking",
+		  "hide_particles": true,
+          "duration": 1
+        }
+      ]
+    }]
+  },
+  "potion_effects": [
+    {
+      "id": "minecraft:speed",
+      "hide_particles": true
+    },
+    {
+      "id": "quark:resilience",
+      "hide_particles": true
+    }
+  ],
+  "equipment": {
+    "main_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "minecraft:air",
+          "weight": 1
+        }
+      ]
+    },
+    "head": {
+	  "override": true,
+      "items": [
+        {
+          "id": "caverns_and_chasms:sanguine_helmet",
+          "weight": 1
+        }
+      ]
+    },
+    "chest": {
+	  "override": true,
+      "items": [
+        {
+          "id": "caverns_and_chasms:sanguine_chestplate",
+          "weight": 1
+        }
+      ]
+    },
+    "legs": {
+	  "override": true,
+      "items": [
+        {
+          "id": "caverns_and_chasms:sanguine_leggings",
+          "weight": 1
+        }
+      ]
+    },
+    "feet": {
+	  "override": true,
+      "items": [
+        {
+          "id": "caverns_and_chasms:sanguine_boots",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

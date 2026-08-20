@@ -2,6 +2,30 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.8,
+                "min": 0.6
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "savage_and_ravage:wand_of_freezing"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 6.0,
         "max": 9.0,
@@ -142,22 +166,6 @@
             }
           ],
           "name": "farmersdelight:bone_broth"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 8,
-          "functions": [
-			{
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.8,
-                "min": 0.6
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "savage_and_ravage:wand_of_freezing"
         }
       ]
     },
@@ -190,8 +198,8 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 2.0
+        "max": 4.0,
+        "min": 3.0
       }
     }
   ]

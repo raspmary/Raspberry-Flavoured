@@ -69,6 +69,16 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"minecraft:taiga\", targetBiomeColor: 1724967, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{targetBiome:\"minecraft:ice_spikes\", targetBiomeColor: 8381695, targetBiomeUnderground: 0b}"
             }
           ],
@@ -79,7 +89,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{targetBiome:\"minecraft:taiga\", targetBiomeColor: 1724967, targetBiomeUnderground: 0b}"
+              "tag": "{targetBiome:\"minecraft:old_growth_birch_forest\", targetBiomeColor: 11985001, targetBiomeUnderground: 0b}"
             }
           ],
           "name": "quark:pathfinders_quill"
@@ -99,16 +109,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{targetBiome:\"environmental:blossom_valleys\", targetBiomeColor: 13657738, targetBiomeUnderground: 0b}"
-            }
-          ],
-          "name": "quark:pathfinders_quill"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{targetBiome:\"atmospheric:rainforest\", targetBiomeColor: 3407985, targetBiomeUnderground: 0b}"
             }
           ],
@@ -119,7 +119,37 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{targetBiome:\"atmospheric:dunes\", targetBiomeColor: 15767630, targetBiomeUnderground: 0b}"
+              "tag": "{targetBiome:\"atmospheric:flourishing_dunes\", targetBiomeColor: 15767630, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"windswept:chestnut_forest\", targetBiomeColor: 6374964, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"quark:glimmering_weald\", targetBiomeColor: 8314302, targetBiomeUnderground: 0b}"
+            }
+          ],
+          "name": "quark:pathfinders_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{targetBiome:\"kubejs:tropical_beach\", targetBiomeColor: 15383340, targetBiomeUnderground: 0b}"
             }
           ],
           "name": "quark:pathfinders_quill"

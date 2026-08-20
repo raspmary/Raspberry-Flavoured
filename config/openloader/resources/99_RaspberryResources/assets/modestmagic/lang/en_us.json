@@ -1,0 +1,18 @@
+{
+  "item.modestmagic.enchantment_tablet": "Enchantment Tablet",
+  "item.modestmagic.enchantment_tablet_aquatic": "Aquatic Enchantment Tablet",
+
+  "block.modestmagic.altar": "Altar",
+  "block.modestmagic.pedestal": "Pedestal",
+
+  "recipe.modestmagic.infusing": "Infusing",
+  "emi.category.modestmagic.infusing": "Infusing",
+  "recipe.modestmagic.enhancing": "Enhancing",
+  "emi.category.modestmagic.enhancing": "Enhancing",
+
+  "subtitles.modestmagic.block.pedestal.add_item": "Pedestal fills",
+  "subtitles.modestmagic.block.pedestal.remove_item": "Pedestal empties",
+  "subtitles.modestmagic.block.altar.add_item": "Altar fills",
+  "subtitles.modestmagic.block.altar.enchant": "Altar enchants",
+  "subtitles.modestmagic.block.altar.summon": "Altar summons"
+}

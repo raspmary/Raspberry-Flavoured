@@ -1,18 +1,16 @@
 {
    "targets": [
-   "create:birch_window",
+   "create:mangrove_window",
    "create:jungle_window",
-   "create:acacia_window",
-   "create:birch_window_pane",
-   "create:jungle_window_pane",
-   "create:acacia_window_pane",
    "everycomp:c/atmospheric/rosewood_window",
    "everycomp:c/atmospheric/yucca_window",
+   "everycomp:c/environmental/willow_window",
    "everycomp:c/ecologics/azalea_window",
-   "create:cherry_window_pane",
-   "create:cherry_window",
+   "create:mangrove_window_pane",
+   "create:jungle_window_pane",
    "everycomp:c/atmospheric/rosewood_window_pane",
    "everycomp:c/atmospheric/yucca_window_pane",
+   "everycomp:c/environmental/willow_window_pane",
    "everycomp:c/ecologics/azalea_window_pane"
    ],
    "sound_type": {

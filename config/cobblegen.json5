@@ -3,6 +3,30 @@
     "minecraft:lava": {
       "minecraft:water": {
         "resultsFromTop": {
+			"kubejs:feldspar_block": [
+			  {
+                "id": "minecraft:andesite",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:andesite": [
+			  {
+                "id": "minecraft:diorite",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:diorite": [
+			  {
+                "id": "minecraft:granite",
+                "weight": 100.0
+              }
+            ],
+			"minecraft:sandstone": [
+			  {
+                "id": "create:limestone",
+                "weight": 100.0
+              }
+            ],
             "*": [
               {
                 "id": "minecraft:stone",
@@ -19,51 +43,27 @@
             ]
         },
         "results": {
-			"additionaladditions:patina_block": [
-			  {
-                "id": "create:veridium",
-                "weight": 100.0
-              }
-            ],
-			"minecraft:emerald_block": [
-			  {
-                "id": "create:asurine",
-                "weight": 100.0
-              }
-            ],
-			"minecraft:red_sand": [
-			  {
-                "id": "minecraft:granite",
-                "weight": 100.0
-              }
-            ],
-			"minecraft:calcite": [
-			  {
-                "id": "minecraft:diorite",
-                "weight": 100.0
-              }
-            ],
-			"minecraft:gravel": [
+			"kubejs:feldspar_block": [
 			  {
                 "id": "minecraft:andesite",
                 "weight": 100.0
               }
             ],
-			"minecraft:packed_mud": [
+			"minecraft:andesite": [
 			  {
-                "id": "minecraft:dripstone_block",
+                "id": "minecraft:diorite",
                 "weight": 100.0
               }
             ],
-			"kubejs:bone_pile": [
+			"minecraft:diorite": [
 			  {
-                "id": "minecraft:calcite",
+                "id": "minecraft:granite",
                 "weight": 100.0
               }
             ],
-			"raspberry:deepslate_gravel": [
+			"minecraft:sandstone": [
 			  {
-                "id": "minecraft:tuff",
+                "id": "create:limestone",
                 "weight": 100.0
               }
             ],
@@ -111,9 +111,53 @@
           ]
         }
       },
-      "oreganized:molten_lead": {
+      "raspberry:molten_copper": {
+        "resultsFromTop": {
+          "minecraft:blue_ice": [
+            {
+              "id": "create:veridium",
+              "weight": 100.0
+            }
+          ]
+        },
         "results": {
-          "*": [
+          "minecraft:blue_ice": [
+            {
+              "id": "create:veridium",
+              "weight": 100.0
+            }
+          ]
+        }
+      },
+      "raspberry:molten_zinc": {
+        "resultsFromTop": {
+          "minecraft:blue_ice": [
+            {
+              "id": "create:asurine",
+              "weight": 100.0
+            }
+          ]
+        },
+        "results": {
+          "minecraft:blue_ice": [
+            {
+              "id": "create:asurine",
+              "weight": 100.0
+            }
+          ]
+        }
+      },
+      "raspberry:molten_lead": {
+        "resultsFromTop": {
+          "minecraft:blue_ice": [
+            {
+              "id": "oreganized:glance",
+              "weight": 100.0
+            }
+          ]
+        },
+        "results": {
+          "minecraft:blue_ice": [
             {
               "id": "oreganized:glance",
               "weight": 100.0
@@ -121,9 +165,35 @@
           ]
         }
       },
-      "create:honey": {
+      "raspberry:molten_iron": {
+        "resultsFromTop": {
+          "minecraft:blue_ice": [
+            {
+              "id": "create:crimsite",
+              "weight": 100.0
+            }
+          ]
+        },
         "results": {
-          "*": [
+          "minecraft:blue_ice": [
+            {
+              "id": "create:crimsite",
+              "weight": 100.0
+            }
+          ]
+        }
+      },
+      "raspberry:molten_gold": {
+        "resultsFromTop": {
+          "minecraft:blue_ice": [
+            {
+              "id": "create:ochrum",
+              "weight": 100.0
+            }
+          ]
+        },
+        "results": {
+          "minecraft:blue_ice": [
             {
               "id": "create:ochrum",
               "weight": 100.0
@@ -131,21 +201,37 @@
           ]
         }
       },
-      "kubejs:batter": {
+      "create:chocolate": {
+        "resultsFromTop": {
+          "*": [
+            {
+              "id": "minecraft:air",
+              "weight": 100.0
+            }
+          ]
+        },
         "results": {
           "*": [
             {
-              "id": "create:limestone",
+              "id": "minecraft:stone",
               "weight": 100.0
             }
           ]
         }
       },
-      "kubejs:scarlet_cheese": {
+      "create:honey": {
+        "resultsFromTop": {
+          "*": [
+            {
+              "id": "minecraft:air",
+              "weight": 100.0
+            }
+          ]
+        },
         "results": {
           "*": [
             {
-              "id": "create:crimsite",
+              "id": "minecraft:stone",
               "weight": 100.0
             }
           ]

@@ -70,4 +70,17 @@ ItemEvents.rightClicked(event => {
 			for(let item of items) event.player.giveInHand(item)
 		})
 	}
+	// message in a bottle
+    if (event.item.id === 'aquaculture:message_in_a_bottle') {
+		event.player.swing(event.hand, true)
+		event.server.runCommandSilent(`particle minecraft:item glass_bottle ${event.player.x} ${event.player.y+1} ${event.player.z} 0.1 0.1 0.1 0.1 20 force`)
+		
+		// loot
+		let items = Utils.rollChestLoot('kubejs:bags/message_in_a_bottle')
+		
+		// give items
+		event.server.schedule(1, () => {
+			for(let item of items) event.player.giveInHand(item)
+		})
+	}
 })

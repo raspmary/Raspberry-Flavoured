@@ -147,10 +147,10 @@
 		water_creature = true
 		water_ambient = true
 		misc = true
-		"caverns_and_chasms:lost_goat" = false
 		"endergetic:end_creature" = false
-		glares = false
-		rascals = false
+		"caverns_and_chasms:lost_goat" = false
+		glares = true
+		rascals = true
 
 [[modules_left]]
 	name = "sound"

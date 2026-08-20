@@ -1,0 +1,117 @@
+{
+  "parent": "raspberry_flavoured:farming/fishing_gear",
+  "criteria": {
+    "Obtain Rose Gold Hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:light_hook"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Brass Hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:redstone_hook"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Grappling Hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:grappling_hook"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Steel Hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:heavy_hook"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Double Hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:double_hook"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Magnetite Hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:gold_hook"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.all_hooks.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.all_hooks.description"
+    },
+    "icon": {
+      "item": "aquaculture:double_hook",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "Obtain Rose Gold Hook"
+    ],
+    [
+      "Obtain Brass Hook"
+    ],
+    [
+      "Obtain Grappling Hook"
+    ],
+    [
+      "Obtain Steel Hook"
+    ],
+    [
+      "Obtain Double Hook"
+    ],
+    [
+      "Obtain Magnetite Hook"
+    ]
+  ]
+}

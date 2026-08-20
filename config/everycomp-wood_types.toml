@@ -77,7 +77,7 @@
 			yucca = true
 			kousa = false
 			aspen = true
-			grimwood = false
+			grimwood = true
 
 		[types.wood_type.autumnity]
 			maple = true
@@ -151,17 +151,17 @@
 			window_pane = true
 
 		[entries.wood_type.architects_palette]
-			board_stairs = true
+			board_stairs = false
 			railing = true
-			board_slab = true
-			boards = true
-			board_wall = true
+			board_slab = false
+			boards = false
+			board_wall = false
 
 		[entries.wood_type.twigs]
 			table = false
 
 		[entries.wood_type.friendsandfoes]
-			beehive = true
+			beehive = false
 
 		[entries.wood_type.storagedrawers]
 			trim = false
@@ -172,19 +172,24 @@
 			half_drawers_2 = false
 			full_drawers_1 = false
 
-		[entries.wood_type.modestmining]
-			tile_stairs = true
+		[entries.wood_type.modestmasonry]
 			carved_plank_slab = true
 			boards = true
-			carved_plank_wall = true
-			board_slab = true
-			board_stairs = true
-			carved_planks = true
-			board_wall = true
-			pillar = true
 			tile_wall = true
-			tiles = true
-			tile_slab = true
 			carved_plank_stairs = true
+			tiles = true
+			tile_stairs = true
+			pillar = true
+			carved_planks = true
+			board_stairs = true
+			tile_slab = true
+			board_wall = true
+			carved_plank_wall = true
 			chiseled_planks = true
+			board_slab = true
+
+		[entries.wood_type.hnh]
+			parquet = true
+			sanded_wood = true
+			trim = true
 

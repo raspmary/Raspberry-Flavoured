@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"tray": "miners_delight:block/tray_bottom",
+		"tray_top": "miners_delight:block/tray_honey_rice_leftover",
+		"particle": "#tray_top"
+	},
+	"elements": [
+		{
+			"name": "tray",
+
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"east": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"south": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"west": {"uv": [1, 1, 15, 3], "texture": "#tray"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#tray"}
+			}
+		}
+	]
+}

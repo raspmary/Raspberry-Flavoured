@@ -1,0 +1,32 @@
+{
+  "parent": "raspberry_flavoured:nether/enter_nether",
+  "criteria": {
+    "0": {
+      "trigger": "quark:use_viaduct"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.nether.exoporter.title"
+    },
+    "description": {
+      "color": "#8630CC",
+      "translate": "advancements.rf.nether.exoporter.description"
+    },
+    "icon": {
+      "item": "quark:myalite_crystal"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

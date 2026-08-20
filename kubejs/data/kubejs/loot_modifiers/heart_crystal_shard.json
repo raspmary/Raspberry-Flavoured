@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "caverns_and_chasms:mime"
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.025,
+      "looting_multiplier": 0.025
+    }
+  ],
+  "item": "heart_crystals:heart_crystal_shard",
+  "count": 1
+}

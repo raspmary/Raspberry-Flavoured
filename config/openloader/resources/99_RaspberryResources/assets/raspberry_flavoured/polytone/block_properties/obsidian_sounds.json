@@ -48,7 +48,9 @@
 	"architects_palette:chiseled_hadaline_bricks",
 	"architects_palette:hadaline_pillar",
 	"architects_palette:hadaline_lamp",
-	"architects_palette:hadaline_plating"
+	"architects_palette:hadaline_plating",
+	"modestmagic:altar",
+	"quark:myalite_crystal"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.obsidian.break",

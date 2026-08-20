@@ -1,12 +1,11 @@
 {
    "targets": [
-   "minecraft:birch_hanging_sign",
-   "minecraft:jungle_hanging_sign",
-   "minecraft:acacia_hanging_sign",
-   "ecologics:azalea_hanging_sign",
-   "minecraft:cherry_hanging_sign",
-   "atmospheric:rosewood_hanging_sign",
-   "atmospheric:yucca_hanging_sign"
+   "supplementaries:hanging_sign_mangrove",
+   "supplementaries:hanging_sign_jungle",
+   "supplementaries:atmospheric/hanging_sign_rosewood",
+   "supplementaries:atmospheric/hanging_sign_yucca",
+   "supplementaries:environmental/hanging_sign_willow",
+   "supplementaries:ecologics/hanging_sign_azalea"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.alt_hanging_sign.break",

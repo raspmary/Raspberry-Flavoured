@@ -79,6 +79,8 @@
     "minecraft:block.polished_deepslate.step": "rough_slate",
     "minecraft:block.nether_wood.step": "wood,mushroom",
 	
+    "auditory:block.ice.step": "ice",
+	
     "twigs:block.gravel_bricks.step": "brickstone,gravel",
 	
     "kubejs:sound.alt_hanging_sign.step": "wood,chain",
@@ -113,5 +115,6 @@
     "kubejs:sound.stoneore.step": "ore",
     "kubejs:sound.tnt.step": "equipment",
     "kubejs:sound.cobweb.step": "rug",
-    "kubejs:sound.arid_sand.step": "sand"
+    "kubejs:sound.arid_sand.step": "sand",
+    "kubejs:sound.bone_brick.step": "bone,brickstone"
 }

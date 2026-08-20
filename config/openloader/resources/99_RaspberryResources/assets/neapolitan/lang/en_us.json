@@ -2,12 +2,6 @@
   "block.neapolitan.mint_basket": "Basket of Mint Leaves",
   "block.neapolitan.white_strawberry_basket": "Basket of Pineberries",
   "block.neapolitan.chocolate_block": "Block of Chocolate",
-  "block.neapolitan.chocolate_bricks": "Chocolate Pavement",
-  "block.neapolitan.chocolate_brick_slab": "Chocolate Pavement Slab",
-  "block.neapolitan.chocolate_brick_stairs": "Chocolate Pavement Stairs",
-  "block.neapolitan.chocolate_brick_wall": "Chocolate Pavement Wall",
-  "block.neapolitan.chocolate_brick_vertical_slab": "Chocolate Pavement Vertical Slab", 
-  "block.neapolitan.chiseled_chocolate_bricks": "Chiseled Chocolate Pavement",
   "block.neapolitan.adzuki_ice_cream_block": "Cherry Ice Cream Block",
   "block.neapolitan.adzuki_cake": "Cherry Cake",
   "block.neapolitan.adzuki_candle_cake": "Cherry Cake with Candle",
@@ -30,7 +24,6 @@
   "block.neapolitan.adzuki_milkshake_cauldron": "Cherry Milkshake Cauldron",
   "item.neapolitan.adzuki_ice_cream": "Cherry Ice Cream",
   "item.neapolitan.adzuki_milkshake": "Cherry Milkshake",
-  "item.neapolitan.chocolate_bar": "Bar of Chocolate",
   "item.neapolitan.white_strawberries": "Pineberries",
   "item.neapolitan.milk_bottle": "Bottle of Milk"
 }

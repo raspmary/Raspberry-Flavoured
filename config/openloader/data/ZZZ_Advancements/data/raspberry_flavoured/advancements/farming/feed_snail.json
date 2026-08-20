@@ -1,0 +1,32 @@
+{
+  "parent": "raspberry_flavoured:farming/bait",
+  "criteria": {
+    "0": {
+      "trigger": "autumnity:feed_snail"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.farming.feed_snail.title"
+    },
+    "description": {
+      "color": "#C44E00",
+      "translate": "advancements.rf.farming.feed_snail.description"
+    },
+    "icon": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

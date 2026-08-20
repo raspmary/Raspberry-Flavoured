@@ -1,0 +1,40 @@
+{
+  "parent": "raspberry_flavoured:main/special_weapons",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "clash:rampaging": {
+            "amplifier": 24
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.main.rampage.title"
+    },
+    "description": {
+      "color": "#ED3D69",
+      "translate": "advancements.rf.main.rampage.description"
+    },
+    "icon": {
+      "item": "clash:swept_axe",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_susie"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

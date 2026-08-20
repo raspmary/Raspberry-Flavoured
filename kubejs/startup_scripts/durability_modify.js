@@ -6,23 +6,25 @@ ItemEvents.modification(event => {
 // Misc
 	maxDura('supplementaries:flute', 200)
 	maxDura('naturalist:bug_net', 200)
-	maxDura('minecraft:brush', 200)
-	maxDura('minecraft:fishing_rod', 350)
-	maxDura('minecraft:carrot_on_a_stick', 350)
-	maxDura('minecraft:warped_fungus_on_a_stick', 350)
+	maxDura('modestmining:wooden_javelin', 200)
+	maxDura('modestmining:stone_javelin', 200)
+	maxDura('minecraft:fishing_rod', 250)
+	maxDura('minecraft:carrot_on_a_stick', 250)
+	maxDura('minecraft:warped_fungus_on_a_stick', 250)
 	maxDura('minecraft:bow', 350)
-	maxDura('supplementaries:slingshot', 350)
-	maxDura('supplementaries:wrench', 500)
-	maxDura('another_furniture:furniture_hammer', 500)
-	maxDura('aquaculture:iron_fishing_rod', 900)
+	maxDura('supplementaries:slingshot', 450)
+	maxDura('supplementaries:wrench', 600)
+	maxDura('another_furniture:furniture_hammer', 900)
 	maxDura('farmersdelight:skillet', 600)
+	maxDura('aquaculture:iron_fishing_rod', 900)
 	maxDura('minecraft:crossbow', 900)
 	
-	maxDura('minecraft:trident', 2000)
+	maxDura('minecraft:trident', 1500)
 	
 	maxDura('savage_and_ravage:mask_of_dishonesty', 1000)
 	maxDura('savage_and_ravage:conch_of_conjuring', 1000)
 	maxDura('savage_and_ravage:wand_of_freezing', 1500)
+	maxDura('additionaladditions:gilded_netherite_sword', 1500)
 	
 	maxDura('create:potato_cannon', 750)
 	maxDura('create:extendo_grip', 750)
@@ -37,7 +39,7 @@ ItemEvents.modification(event => {
 	maxDura('windswept:snow_boots', 350)
 	
 // Main tools & weapons
-	// Wood or flint
+	// Wood & others
 	event.modify([
 	'minecraft:wooden_pickaxe',
 	'minecraft:wooden_axe',
@@ -56,7 +58,7 @@ ItemEvents.modification(event => {
 	'minecraft:golden_hoe',
 	'minecraft:golden_sword',
 	'farmersdelight:golden_knife'
-	], item => {item.maxDamage = 200})
+	], item => {item.maxDamage = 150})
 	
 	// Copper
 	event.modify([
@@ -160,7 +162,7 @@ ItemEvents.modification(event => {
 	'minecraft:golden_chestplate',
 	'minecraft:golden_leggings',
 	'minecraft:golden_boots'
-	], item => {item.maxDamage = 175})
+	], item => {item.maxDamage = 150})
 
 	// Chainmail
 	event.modify([
@@ -172,10 +174,10 @@ ItemEvents.modification(event => {
 
 	// Copper
 	event.modify([
-	'minecraft:copper_helmet',
-	'minecraft:copper_chestplate',
-	'minecraft:copper_leggings',
-	'minecraft:copper_boots',
+	'copperized:copper_helmet',
+	'copperized:copper_chestplate',
+	'copperized:copper_leggings',
+	'copperized:copper_boots',
 	'create:copper_diving_helmet',
 	'create:copper_diving_boots',
 	'shieldexp:golden_shield'

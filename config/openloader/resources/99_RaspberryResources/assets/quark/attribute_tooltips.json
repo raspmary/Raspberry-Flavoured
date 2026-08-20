@@ -426,5 +426,57 @@
     },
     "texture": "quark:attribute/kinetic_damage",
     "compare": "higher_better"
+  },
+  "puffish_attributes:mount_speed": {
+    "display": {
+      "mainhand": "percentage",
+      "offhand": "percentage",
+      "feet": "percentage",
+      "legs": "percentage",
+      "chest": "percentage",
+      "head": "percentage",
+      "potion": "percentage"
+    },
+    "texture": "quark:attribute/mount_speed",
+    "compare": "higher_better"
+  },
+  "kubejs:silk_touch": {
+    "display": {
+      "mainhand": "flat",
+      "offhand": "flat",
+      "feet": "flat",
+      "legs": "flat",
+      "chest": "flat",
+      "head": "flat",
+      "potion": "flat"
+    },
+    "texture": "quark:attribute/silk_touch",
+    "compare": "higher_better"
+  },
+  "kubejs:draining_touch": {
+    "display": {
+      "mainhand": "flat",
+      "offhand": "flat",
+      "feet": "flat",
+      "legs": "flat",
+      "chest": "flat",
+      "head": "flat",
+      "potion": "flat"
+    },
+    "texture": "quark:attribute/draining_touch",
+    "compare": "higher_better"
+  },
+  "kubejs:heat_touch": {
+    "display": {
+      "mainhand": "flat",
+      "offhand": "flat",
+      "feet": "flat",
+      "legs": "flat",
+      "chest": "flat",
+      "head": "flat",
+      "potion": "flat"
+    },
+    "texture": "quark:attribute/heat_touch",
+    "compare": "higher_better"
   }
 }

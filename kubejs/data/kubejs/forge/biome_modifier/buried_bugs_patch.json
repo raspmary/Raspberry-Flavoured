@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:buried_bugs_patch_biomes",
+  "features": "kubejs:patch_buried_bugs",
+  "step": "fluid_springs"
+}

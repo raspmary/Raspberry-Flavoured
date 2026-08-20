@@ -1,12 +1,6 @@
 // priority: 0
 
 // Misc. food events
-ItemEvents.foodEaten('minecraft:glistering_melon_slice', event =>{
-	event.player.heal(2)
-})
-ItemEvents.foodEaten('kubejs:golden_strawberries', event =>{
-	event.player.heal(4)
-})
 ItemEvents.foodEaten('kubejs:sporedough', event =>{
 	event.entity.block.createExplosion().strength(0.775).damagesTerrain(false).explode()
 })
@@ -17,8 +11,43 @@ ItemEvents.foodEaten('cookscollection:cooking_oil', event =>{
 	let rainCheck = event.level.isRaining()
 	let thunderCheck = event.level.isThundering()
 	if (rainCheck === true || thunderCheck === true) {
-		event.player.potionEffects.add('minecraft:levitation', 200, 0, true, false)
+		event.player.potionEffects.add('minecraft:levitation', 100, 0, true, false)
 	}
+})
+
+// Food cooldowns
+const strawberryFood = [
+	'neapolitan:strawberries',
+	'neapolitan:white_strawberries',
+	'neapolitan:strawberry_scones',
+	'neapolitan:strawberry_ice_cream',
+	'neapolitan:strawberry_milkshake',
+	'neapolitan:chocolate_strawberries',
+	'neapolitan:strawberry_banana_smoothie',
+	'abnormals_delight:strawberry_cake_slice'
+]
+ItemEvents.foodEaten(event => {
+	if (strawberryFood.includes(event.item.id)) {
+    	event.player.addItemCooldown(event.item.id, 60)
+	}
+})
+
+ItemEvents.foodEaten('minecraft:golden_carrot', event =>{
+    event.player.addItemCooldown('minecraft:golden_carrot', 30)
+})
+ItemEvents.foodEaten('minecraft:glistering_melon_slice', event =>{
+	event.player.heal(2)
+    event.player.addItemCooldown('minecraft:glistering_melon_slice', 60)
+})
+ItemEvents.foodEaten('minecraft:golden_apple', event =>{
+    event.player.addItemCooldown('minecraft:golden_apple', 100)
+})
+ItemEvents.foodEaten('kubejs:golden_strawberries', event =>{
+	event.player.heal(4)
+    event.player.addItemCooldown('kubejs:golden_strawberries', 140)
+})
+ItemEvents.foodEaten('minecraft:enchanted_golden_apple', event =>{
+    event.player.addItemCooldown('minecraft:enchanted_golden_apple', 240)
 })
 
 // Make custom BnC drinks apply increasing tipsy effect
@@ -94,14 +123,18 @@ ItemEvents.foodEaten([
 	'kubejs:snow_top_yellow_tea',
 	'kubejs:snow_top_black_tea',
 	'kubejs:snow_top_coffee',
-	'kubejs:lemon_fudge'
+	'kubejs:lemon_fudge',
+	'minecraft:chorus_fruit'
 	], event =>{
 	event.player.setRemainingFireTicks(0)
 })
 
 // Returns stick
 ItemEvents.foodEaten([
-	'kubejs:caramelized_marshmellow_on_a_stick',
+	'raspberry:marshmallow_on_a_stick',
+	'raspberry:caramelized_marshmallow_on_a_stick',
+	'raspberry:charred_marshmallow_on_a_stick',
+	'kubejs:incomplete_marshmallow_stick',
 	'kubejs:preserved_skewer',
 	'kubejs:incomplete_preserved_skewer',
 	'farmersdelight:melon_popsicle',
@@ -132,32 +165,13 @@ ItemEvents.foodEaten([
 })
 
 // Returns bowl
-ItemEvents.foodEaten([
-	'kubejs:corn_fritters',
-	'kubejs:oatmeal',
-	'kubejs:mixed_oatmeal',
-	'kubejs:squid_stir_fry',
-	'kubejs:turkey_stew',
-	'kubejs:pasta_with_turkey',
-	'kubejs:mutton_udon',
-	'kubejs:cinnamon_mint_curry',
-	'kubejs:prismatic_ice_cream',
-	'kubejs:batter',
-	'kubejs:glow_ink_pasta',
-	'kubejs:white_fish_soup',
-	'kubejs:tambaqui_curry',
-	'kubejs:pollock_with_vegetables',
-	'kubejs:pasta_with_tuna',
-	'kubejs:rollmops',
-	'kubejs:spicy_crab_cakes',
-	'kubejs:coconut_crusted_gar',
-	'kubejs:coconut_pudding_with_jam',
-	'kubejs:coleslaw'
-	], event => {
+ItemEvents.foodEaten(event => {
+	if (event.item.hasTag('raspberry_flavoured:all_bowl_foods') && event.item.id.includes('kubejs')) {
 		if (!event.player.isCreative()) {
 			event.server.schedule(1, callback => {
 				event.player.giveInHand('minecraft:bowl')
-		})
+			})
+		}
 	}
 })
 
@@ -179,6 +193,7 @@ ItemEvents.foodEaten([
 	'kubejs:cherry_cream_soda',
 	'kubejs:pickerelweed_juice',
 	'kubejs:builders_tea',
+	'kubejs:avocado_lemon_smoothie',
 	'kubejs:snow_top_green_tea',
 	'kubejs:snow_top_yellow_tea',
 	'kubejs:snow_top_black_tea',
@@ -210,4 +225,8 @@ ItemEvents.foodEaten(event => {
 	if (event.player) {
 		event.player.jumping = false;
 	}
+
+//ItemEvents.foodEaten('minecraft:apple', event =>{
+//    event.server.runCommandSilent(`spreadplayers ${event.player.x} ${event.player.z} 0 8 false ${event.player.username}`)
+//})
 })

@@ -1,0 +1,192 @@
+{
+  "parent": "raspberry_flavoured:exploration/all_wood",
+  "criteria": {
+    "Obtain Schist": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Polished Schist": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Cut Schist": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:cut_andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Polished Cut Schist": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:polished_cut_andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Cut Schist Bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:cut_andesite_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Small Schist Bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:small_andesite_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Layered Schist": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:layered_andesite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Cut Schist Pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:andesite_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Polished Schist Bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:andesite_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Chiseled Polished Schist Bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:chiseled_andesite_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Obtain Polished Schist Pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:andesite_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.rf.exploration.all_schist.title"
+    },
+    "description": {
+      "color": "#CE3131",
+      "translate": "advancements.rf.exploration.all_schist.description"
+    },
+    "icon": {
+      "item": "minecraft:andesite",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "rewards": {
+      "function": "raspberry_flavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "Obtain Schist"
+    ],
+	[
+      "Obtain Polished Schist"
+    ],
+	[
+      "Obtain Cut Schist"
+    ],
+	[
+      "Obtain Polished Cut Schist"
+    ],
+	[
+      "Obtain Cut Schist Bricks"
+    ],
+	[
+      "Obtain Small Schist Bricks"
+    ],
+	[
+      "Obtain Layered Schist"
+    ],
+	[
+      "Obtain Cut Schist Pillar"
+    ],
+	[
+      "Obtain Polished Schist Bricks"
+    ],
+	[
+      "Obtain Chiseled Polished Schist Bricks"
+    ],
+	[
+      "Obtain Polished Schist Pillar"
+	]
+  ]
+}

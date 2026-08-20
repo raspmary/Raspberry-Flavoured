@@ -6,5 +6,9 @@
     "spacing": 32
   },
   "structures": [
+    {
+      "structure": "kubejs:igloo",
+      "weight": 1
+    }
   ]
 }

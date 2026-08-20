@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/terrabin",
+  "parent": "raspberry_flavoured:exploration/dwarf_geode",
   "criteria": {
     "Obtain Coal Ore": {
       "conditions": {

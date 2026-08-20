@@ -10,7 +10,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 20
+          "weight": 5
         }
       ],
       "rolls": 1.0
@@ -35,9 +35,18 @@
               }
             }
           ],
-          "name": "minecraft:map",
-          "weight": 6
+          "name": "minecraft:map"
         },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
@@ -445,17 +454,17 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spelunkery:raw_silver_nugget"
+          "name": "oreganized:raw_silver"
         },
         {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 12
         }
       ],
       "rolls": 1.0

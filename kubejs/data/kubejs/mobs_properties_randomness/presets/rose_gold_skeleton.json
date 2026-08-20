@@ -1,0 +1,28 @@
+{
+  "equipment": {
+    "main_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "minecraft:bow",
+          "enchantments": [
+            {
+              "id": "ensorcellation:quick_draw",
+              "level": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "off_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "caverns_and_chasms:blunt_arrow",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

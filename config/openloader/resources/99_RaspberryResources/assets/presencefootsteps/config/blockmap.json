@@ -333,7 +333,7 @@
 	"minecraft:snow_block": "snow",
 	"minecraft:powder_snow": "snow",
 
-	"minecraft:packed_ice": "stone,snow",
+	"minecraft:packed_ice": "ice",
 	"#minecraft:ice": "ice",
 
 	"minecraft:cactus": "grass",
@@ -981,7 +981,7 @@
 	"minecraft:tuff": "stone",
 	"minecraft:calcite": "marble,stone",
 
-	"#minecraft:nylium": "rough_slate,mushroom,slick",
+	"#minecraft:nylium": "rough_slate,mushroom,dirt",
 	"minecraft:stripped_warped_stem": "organic_dry,mushroom,stone",
 	"minecraft:stripped_warped_hyphae": "organic_dry,mushroom,stone",
 	"#minecraft:warped_stems": "organic_dry,wood_sticky,mushroom",
@@ -2044,7 +2044,14 @@
 	"raspberry:moody_wildflowers.foliage": "brush",
 	"raspberry:hopeful_wildflowers": "NOT_EMITTER",
 	"raspberry:hopeful_wildflowers.foliage": "brush",
+
+	"kubejs:worm_crate": "bluntwood,organic",
+	"kubejs:golden_worm_crate": "bluntwood,organic",
+	"kubejs:grub_crate": "bluntwood,organic",
 	
 	"atmospheric:crustose": "dirt,organic",
-	"atmospheric:crustose_path": "dirt,organic"
+	"atmospheric:crustose_path": "dirt,organic",
+	
+	"modestmagic:altar[axis=y,top=true]": "rug,obsidian",
+	"modestmagic:altar": "obsidian"
 }	

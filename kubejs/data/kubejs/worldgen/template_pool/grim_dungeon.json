@@ -1,0 +1,60 @@
+{
+	"name": "kubejs:grim_dungeon",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_dungeon/grim_dungeon_1",
+				"projection": "rigid",
+				"processors": "kubejs:grim_dungeon_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_dungeon/grim_dungeon_2",
+				"projection": "rigid",
+				"processors": "kubejs:grim_dungeon_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_dungeon/grim_dungeon_3",
+				"projection": "rigid",
+				"processors": "kubejs:grim_dungeon_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_dungeon/grim_dungeon_4",
+				"projection": "rigid",
+				"processors": "kubejs:grim_dungeon_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_dungeon/grim_dungeon_5",
+				"projection": "rigid",
+				"processors": "kubejs:grim_dungeon_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_dungeon/grim_dungeon_6",
+				"projection": "rigid",
+				"processors": "kubejs:grim_dungeon_processor"
+			}
+		}
+	]
+}

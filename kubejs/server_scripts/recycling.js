@@ -7,8 +7,11 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('wooden_hoe', 'another_furniture:furniture_hammer', ['4x stick'], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('wooden_axe', 'another_furniture:furniture_hammer', ['5x stick'], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('wooden_sword', 'another_furniture:furniture_hammer', ['4x stick'], 'minecraft:entity.item.break')
+	
 	event.recipes.farmersdelight.cutting('farmersdelight:flint_knife', 'another_furniture:furniture_hammer', [Item.of('flint').withChance(0.25), Item.of('stick').withChance(0.5)], 'minecraft:entity.item.break')
-	event.recipes.farmersdelight.cutting('kubejs:bone_knife', 'another_furniture:furniture_hammer', ['2x bone_meal', Item.of('stick').withChance(0.5)], 'minecraft:entity.item.break')
+	event.recipes.farmersdelight.cutting('modestmining:wooden_javelin', 'another_furniture:furniture_hammer', ['flint', Item.of('stick').withChance(0.75)], 'minecraft:entity.item.break')
+	event.recipes.farmersdelight.cutting('kubejs:bone_knife', 'another_furniture:furniture_hammer', ['2x kubejs:bone_powder', Item.of('stick').withChance(0.5)], 'minecraft:entity.item.break')
+	event.recipes.farmersdelight.cutting('modestmining:stone_javelin', 'another_furniture:furniture_hammer', ['5x kubejs:bone_powder', Item.of('stick').withChance(0.75)], 'minecraft:entity.item.break')
 	
 	event.recipes.farmersdelight.cutting('golden_pickaxe', 'another_furniture:furniture_hammer', ['6x gold_nugget', '1x stick'], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('golden_shovel', 'another_furniture:furniture_hammer', ['2x gold_nugget', '1x stick'], 'minecraft:entity.item.break')
@@ -83,7 +86,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('carrot_on_a_stick', 'another_furniture:furniture_hammer', ['1x stick', Item.of('string').withChance(0.5)], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('warped_fungus_on_a_stick', 'another_furniture:furniture_hammer', ['1x stick', Item.of('string').withChance(0.5)], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('aquaculture:iron_fishing_rod', 'another_furniture:furniture_hammer', ['4x iron_nugget', Item.of('stick').withChance(0.5), Item.of('string').withChance(0.5)], 'minecraft:entity.item.break')
-	event.recipes.farmersdelight.cutting('naturalist:bug_net', 'another_furniture:furniture_hammer', ['1x bamboo', Item.of('string').withChance(0.75)], 'minecraft:entity.item.break')
+	event.recipes.farmersdelight.cutting('naturalist:bug_net', 'another_furniture:furniture_hammer', ['1x stick', '2x farmersdelight:straw'], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('compass', 'another_furniture:furniture_hammer', ['8x iron_nugget', '2x spelunkery:cinnabar_shard'], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('caverns_and_chasms:depth_gauge', 'another_furniture:furniture_hammer', ['8x oreganized:lead_nugget', '2x spelunkery:cinnabar_shard'], 'minecraft:entity.item.break')
 	event.recipes.farmersdelight.cutting('clock', 'another_furniture:furniture_hammer', ['8x gold_nugget', '2x spelunkery:cinnabar_shard'], 'minecraft:entity.item.break')
@@ -140,8 +143,11 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['4x stick'], 'minecraft:wooden_hoe')
 	event.recipes.create.milling(['5x stick'], 'minecraft:wooden_axe')
 	event.recipes.create.milling(['4x stick'], 'minecraft:wooden_sword')
+	
 	event.recipes.create.milling([Item.of('flint').withChance(0.25), Item.of('stick').withChance(0.5)], 'farmersdelight:flint_knife')
-	event.recipes.create.milling(['2x bone_meal', Item.of('stick').withChance(0.5)], 'kubejs:bone_knife')
+	event.recipes.create.milling(['flint', Item.of('stick').withChance(0.75)], 'modestmining:wooden_javelin')
+	event.recipes.create.milling(['2x kubejs:bone_powder', Item.of('stick').withChance(0.5)], 'kubejs:bone_knife')
+	event.recipes.create.milling(['5x kubejs:bone_powder', Item.of('stick').withChance(0.75)], 'modestmining:stone_javelin')
 	
 	event.recipes.create.milling(['6x gold_nugget', '1x stick'], 'golden_pickaxe')
 	event.recipes.create.milling(['2x gold_nugget', '1x stick'], 'golden_shovel')
@@ -305,7 +311,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['1x stick', Item.of('string').withChance(0.5)], 'carrot_on_a_stick')
 	event.recipes.create.milling(['1x stick', Item.of('string').withChance(0.5)], 'warped_fungus_on_a_stick')
 	event.recipes.create.milling(['4x iron_nugget', Item.of('stick').withChance(0.5), Item.of('string').withChance(0.5)], 'aquaculture:iron_fishing_rod')
-	event.recipes.create.milling(['1x bamboo', Item.of('string').withChance(0.75)], 'naturalist:bug_net')
+	event.recipes.create.milling(['1x stick', '2x farmersdelight:straw'], 'naturalist:bug_net')
 	event.recipes.create.milling(['8x iron_nugget', '2x spelunkery:cinnabar_shard'], 'compass')
 	event.recipes.create.milling(['8x oreganized:lead_nugget', '2x spelunkery:cinnabar_shard'], 'caverns_and_chasms:depth_gauge')
 	event.recipes.create.milling(['8x gold_nugget', '2x spelunkery:cinnabar_shard'], 'clock')
@@ -355,4 +361,12 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['stick', Item.of('iron_nugget').withChance(0.1)], 'brewinandchewin:tankard')
 	event.recipes.create.milling(['2x blue_dye', '2x green_dye', '8x gold_nugget'], 'supplementaries:globe')
 	event.recipes.create.milling(['4x brown_dye', '8x gold_nugget'], 'supplementaries:globe_sepia')
+	
+	event.recipes.create.milling(['4x architects_palette:withered_bone', '6x kubejs:ancient_nugget'], 'additionaladditions:gilded_netherite_sword')
+	
+	event.recipes.create.milling(['9x create:copper_nugget'], '#raspberry_flavoured:copper')
+	event.recipes.create.milling(['9x alloyed:bronze_nugget'], '#raspberry_flavoured:bronze')
+	event.recipes.create.milling(['9x alloyed:steel_nugget'], '#raspberry_flavoured:steel')
+	event.recipes.create.milling(['9x spelunkery:emerald_shard'], '#raspberry_flavoured:amethyst')
+	event.recipes.create.milling(['9x kubejs:quartz_shard'], '#raspberry_flavoured:quartz')
 })

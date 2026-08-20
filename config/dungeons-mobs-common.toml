@@ -17,7 +17,7 @@
 	#To do so, enter the namespace ID of the mob, like "minecraft:zombie".
 	#If this list is empty, zombies will be summoned instead.
 	#If a mob chosen from this list cannot be spawned, a zombie will be summoned instead.
-	necromancerMobSummons = ["minecraft:zombie", "minecraft:skeleton"]
+	necromancerMobSummons = ["minecraft:zombie", "minecraft:skeleton", "minecraft:husk"]
 	#Add mobs (preferably undead and aquatic) that the Drowned Necromancer can summon. 
 	#To do so, enter the namespace ID of the mob, like "minecraft:drowned".
 	#If this list is empty, drowned will be summoned instead.

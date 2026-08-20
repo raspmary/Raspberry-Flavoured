@@ -1,5 +1,5 @@
 {
-  "parent": "farmersdelight:item/mug",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "miners_delight:item/weird_caviar"
   }

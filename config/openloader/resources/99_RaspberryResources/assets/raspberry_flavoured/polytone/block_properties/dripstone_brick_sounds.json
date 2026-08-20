@@ -19,7 +19,11 @@
 	"quark:dripstone_bricks_slab",
 	"quark:dripstone_bricks_stairs",
 	"quark:dripstone_bricks_wall",
-	"quark:chiseled_dripstone_bricks"
+	"quark:chiseled_dripstone_bricks",
+	"kubejs:feldspar_bricks",
+	"kubejs:feldspar_brick_stairs",
+	"kubejs:feldspar_brick_slab",
+	"kubejs:feldspar_brick_wall"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.brick_variant.break",

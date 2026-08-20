@@ -1,0 +1,41 @@
+{
+  "equipment": {
+    "main_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "minecraft:wooden_sword",
+          "weight": 6
+        },
+        {
+          "id": "farmersdelight:flint_knife",
+          "weight": 6
+        },
+        {
+          "id": "kubejs:bone_knife",
+          "weight": 6
+        },
+        {
+          "id": "kubejs:copper_knife",
+          "weight": 4
+        },
+        {
+          "id": "minecraft:golden_sword",
+          "weight": 4
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "weight": 2
+        },
+        {
+          "id": "minecraft:iron_sword",
+          "weight": 1
+        },
+        {
+          "id": "minecraft:wooden_axe",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

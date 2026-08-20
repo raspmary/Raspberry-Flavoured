@@ -103,7 +103,7 @@
         "savage_and_ravage:creepie"
       ],
       "particle": {
-        "type": "savage_and_ravage:creeper_spores"
+        "type": "savage_and_ravage:creeper_spore_sprinkles"
       }
     }
   ]

@@ -91,11 +91,13 @@
   "entity.minecraft.ender_pearl": "Thrown Exopearl",
   "entity.minecraft.enderman": "Exokin",
   "entity.minecraft.endermite": "Lachmite",
-  "entity.minecraft.eye_of_ender": "Awoken Exopearl",
+  "entity.minecraft.eye_of_ender": "Fractured Exopearl",
   "entity.minecraft.chest_boat": "Boat with Barrel",
   "entity.minecraft.chest_minecart": "Minecart with Barrel",
   "entity.minecraft.spectral_arrow": "Radiant Arrow",
   "entity.minecraft.salmon": "Sockeye Salmon",
+  "entity.minecraft.evoker_fangs": "Fangs",
+  "entity.minecraft.evoker": "Raiser",
   
   "block.minecraft.cake": "Sweet Berry Cake",
   "block.minecraft.candle_cake": "Sweet Berry Cake with Candle",
@@ -230,7 +232,6 @@
   "block.minecraft.lapis_ore": "Lazurite Ore",
   "block.minecraft.deepslate_lapis_ore": "Deepslate Lazurite Ore",
   "block.minecraft.lapis_block": "Lapis Lazuli",
-  "block.minecraft.emerald_block": "Lapis Lazuli",
   "block.minecraft.melon": "Watermelon",
   "block.minecraft.attached_melon_stem": "Attached Watermelon Stem",
   "block.minecraft.melon_stem": "Watermelon Stem",
@@ -247,6 +248,9 @@
   "block.minecraft.red_mushroom": "Toadstool",
   "block.minecraft.dripstone_block": "Dripstone",
   "block.minecraft.amethyst_block": "Carved Amethyst",
+  "block.minecraft.emerald_block": "Block of Amethyst",
+  "block.minecraft.emerald_ore": "Amethyst Ore",
+  "block.minecraft.deepslate_emerald_ore": "Deepslate Amethyst Ore",
   "block.minecraft.smooth_quartz_stairs": "Smooth Polished Quartz Stairs",
   "block.minecraft.smooth_quartz_slab": "Smooth Polished Quartz Slab",
   "block.minecraft.smooth_quartz": "Smooth Polished Quartz",
@@ -280,6 +284,9 @@
   "block.minecraft.potted_birch_sapling": "Potted Lush Birch Sapling",
   "block.minecraft.stonecutter": "Table Saw",
   "block.minecraft.bone_block": "Large Bone",
+  "block.minecraft.repeater": "Repeater",
+  "block.minecraft.comparator": "Comparator",
+  "block.minecraft.ancient_debris": "Infernal Debris",
   
   "item.minecraft.stone_pickaxe": "Copper Pickaxe",
   "item.minecraft.stone_shovel": "Copper Shovel",
@@ -301,7 +308,7 @@
   "item.minecraft.salmon": "Sockeye Salmon",
   "item.minecraft.clay_ball": "Lump of Clay",
   "item.minecraft.ender_pearl": "Exopearl",
-  "item.minecraft.ender_eye": "Awoken Exopearl",
+  "item.minecraft.ender_eye": "Fractured Exopearl",
   "item.minecraft.glass_bottle": "Bottle",
   "item.minecraft.honey_bottle": "Jar of Honey",
   "item.minecraft.quartz": "Rough Quartz",
@@ -311,6 +318,11 @@
   "item.minecraft.ghast_tear": "Lachryte Tear",
   "item.minecraft.lead": "Leash",
   "item.minecraft.gunpowder": "Blast Powder",
+  "item.minecraft.spider_eye": "Spider Leg",
+  "item.minecraft.emerald": "Amethyst",
+  "item.minecraft.chorus_fruit": "Oracle Jelly",
+  "item.minecraft.bone_meal": "Fertilizer",
+  "item.minecraft.netherite_scrap": "Infernal Scrap",
   
   "item.minecraft.oak_chest_boat": "Oak Boat with Barrel",
   "item.minecraft.spruce_chest_boat": "Spruce Boat with Barrel",
@@ -321,11 +333,6 @@
   "item.minecraft.mangrove_chest_boat": "Mangrove Boat with Barrel",
   "item.minecraft.chest_minecart": "Minecart with Barrel",
   "item.minecraft.tnt_minecart": "Minecart with Dynamite",
-  
-  "item.minecraft.wither_skeleton_spawn_egg": "Withered Spawn Egg",
-  "item.minecraft.enderman_spawn_egg": "Exokin Spawn Egg",
-  "item.minecraft.endermite_spawn_egg": "Lachmite Spawn Egg",
-  "item.minecraft.salmon_spawn_egg": "Sockeye Salmon Spawn Egg",
   
   "item.minecraft.water_bucket": "Bucket of Water",
   "item.minecraft.lava_bucket": "Bucket of Lava",
@@ -363,6 +370,11 @@
   "item.minecraft.tipped_arrow.effect.water_breathing": "Arrow of the Deep Diver",
 
   "container.upgrade.missing_template_tooltip": "Add Armor Trim",
+  
+  "item.minecraft.potion.effect.leaping": "Potion of the Slime Rancher",
+  "item.minecraft.splash_potion.effect.leaping": "Splash Potion of the Slime Rancher",
+  "item.minecraft.lingering_potion.effect.leaping": "Lingering Potion of the Slime Rancher",
+  "item.minecraft.tipped_arrow.effect.leaping": "Arrow of the Slime Rancher",
   
   "subtitles.block.end_portal_frame.fill": "Exopearl shatters",
   "subtitles.item.flintandsteel.use": "Fire Striker ignites",
@@ -405,6 +417,14 @@
   "subtitles.entity.tropical_fish.flop": "Fish flops",
   "subtitles.entity.tropical_fish.hurt": "Fish hurts",
   "subtitles.ui.stonecutter.take_result": "Table Saw used",
+  "subtitles.entity.evoker.ambient": "Raiser murmurs",
+  "subtitles.entity.evoker.cast_spell": "Raiser casts spell",
+  "subtitles.entity.evoker.celebrate": "Raiser cheers",
+  "subtitles.entity.evoker.death": "Raiser dies",
+  "subtitles.entity.evoker.hurt": "Raiser hurts",
+  "subtitles.entity.evoker.prepare_attack": "Raiser prepares attack",
+  "subtitles.entity.evoker.prepare_summon": "Raiser prepares summoning",
+  "subtitles.entity.evoker.prepare_wololo": "Raiser prepares charming",
   
   "description.resource_pack.unknown": "For true Redstone Torch connoisseurs"
 }

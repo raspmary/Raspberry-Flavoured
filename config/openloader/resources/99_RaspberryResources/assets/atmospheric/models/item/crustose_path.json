@@ -1,9 +1,0 @@
-{
-    "parent": "block/dirt_path",
-    "textures": {
-        "particle": "minecraft:block/dirt",
-        "top": "atmospheric:block/crustose_path_top",
-        "side": "atmospheric:block/crustose_path_side_alt",
-        "bottom": "minecraft:block/dirt"
-    }
-}

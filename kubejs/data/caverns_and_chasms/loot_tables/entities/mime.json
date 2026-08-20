@@ -11,7 +11,36 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "spelunkery:rough_emerald"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -20,12 +49,12 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 1.0,
-                "min": 1.0
+                "min": 0.0
               },
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:amethyst_shard"
+          "name": "kubejs:cloth_scrap"
         }
       ],
       "rolls": 1.0

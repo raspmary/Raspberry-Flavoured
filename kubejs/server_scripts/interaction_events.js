@@ -1,117 +1,5 @@
 // priority: 0
 
-// setting brushable mobs
-const featherBrushables = ['minecraft:chicken', 'environmental:duck', 'autumnity:turkey', 'ecologics:penguin']
-const stringBrushables = ['minecraft:sheep', 'minecraft:goat']
-const friendBrushables = ['minecraft:wolf', 'minecraft:cat']
-
-ItemEvents.entityInteracted('minecraft:brush', function (event) {
-// brushing featheries
-    if (featherBrushables.includes(event.target.type)) {
-		event.player.swing(event.hand, true)
-  
-		const now = new Date().getTime()
-		const last = event.target.persistentData.lastBrushed ?? 0
-		
-		if (event.target.isBaby()) return
-		if ((now - last) < 18e4) return
-  
-		event.target.persistentData.lastBrushed = now
-		
-		if (!event.player.isCreative()) {
-			event.player.damageHeldItem(event.hand, 1)
-        }
-		
-		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
-        event.level.spawnParticles('supplementaries:feather', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
-        event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
-		let itemEntity = event.level.createEntity("item")
-			itemEntity.item = ('minecraft:feather')
-			itemEntity.y = event.target.y + 0.5
-			itemEntity.x = event.target.x
-			itemEntity.z = event.target.z
-			itemEntity.motionY = 0.3
-			itemEntity.spawn()
-	}
-	
-// brushing stringies
-    if (stringBrushables.includes(event.target.type)) {
-		event.player.swing(event.hand, true)
-  
-		const now = new Date().getTime()
-		const last = event.target.persistentData.lastBrushed ?? 0
-		
-		if (event.target.nbt.Sheared == 1 || event.target.isBaby()) return
-		if ((now - last) < 18e4) return
-  
-		event.target.persistentData.lastBrushed = now
-		
-		if (!event.player.isCreative()) {
-			event.player.damageHeldItem(event.hand, 1)
-        }
-		
-		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
-        event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
-		let itemEntity = event.level.createEntity("item")
-			itemEntity.item = ('minecraft:string')
-			itemEntity.y = event.target.y + 0.5
-			itemEntity.x = event.target.x
-			itemEntity.z = event.target.z
-			itemEntity.motionY = 0.3
-			itemEntity.spawn()
-	}
-	
-// brushing yaks
-    if (event.target.type === 'environmental:yak') {
-		event.player.swing(event.hand, true)
-  
-		const now = new Date().getTime()
-		const last = event.target.persistentData.lastBrushed ?? 0
-		
-		if (event.target.nbt.Sheared == 1 || event.target.isBaby()) return
-		if ((now - last) < 18e4) return
-  
-		event.target.persistentData.lastBrushed = now
-		
-		if (!event.player.isCreative()) {
-			event.player.damageHeldItem(event.hand, 1)
-        }
-		
-		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
-        event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.25, 0, 0.25, 3, 0.05)
-		let itemEntity = event.level.createEntity("item")
-			itemEntity.item = ('environmental:yak_hair')
-			itemEntity.y = event.target.y + 0.65
-			itemEntity.x = event.target.x
-			itemEntity.z = event.target.z
-			itemEntity.motionY = 0.3
-			itemEntity.spawn()
-	}
-	
-    // brushing friends
-        if (friendBrushables.includes(event.target.type)) {
-            event.player.swing(event.hand, true)
-      
-            const now = new Date().getTime()
-            const last = event.target.persistentData.lastBrushed ?? 0
-            
-            let playerUUID = event.player.getStringUuid()
-            if (!event.target.nbt.Owner === playerUUID) return
-            if ((now - last) < 18e4) return
-      
-            event.target.persistentData.lastBrushed = now
-            
-            if (!event.player.isCreative()) {
-                event.player.damageHeldItem(event.hand, 1)
-            }
-            
-            event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
-            event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
-            event.level.spawnParticles('minecraft:heart', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
-            event.target.mergeNbt({CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ActiveEffects: [{ShowParticles: 1, Id: 10, Duration: 200, Ambient: 0, "forge:id": "minecraft:regeneration", Amplifier: 0}]})
-        }
-})
-
 // shearing bears
 ItemEvents.entityInteracted(event => {
     if (event.item.hasTag('raspberry_flavoured:shears') && event.target.type == "naturalist:bear") {
@@ -195,14 +83,54 @@ ItemEvents.entityInteracted(event => {
 ItemEvents.entityInteracted(event => {
     if (event.item.hasTag('caverns_and_chasms:glare_food') && event.target.type === "caverns_and_chasms:glare") {
         event.level.spawnParticles('minecraft:end_rod', true, event.target.x, event.target.y+0.5, event.target.z, 0.2, 0.2, 0.2, Math.floor(Math.random() * (18 - 9 + 1) + 9), 0.15)
-		if (event.item.id === 'minecraft:glow_berries') {
+		// 30s to 1m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_1')) {
 			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (1200 - 600 + 1) + 600), 0, true, false)
 		}
-		if (event.item.id === 'naturalist:glow_goop') {
-			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (2400 - 1200 + 1) + 1200), 0, true, false)
+		// 1.5m to 2m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_2')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (2400 - 1800 + 1) + 1800), 0, true, false)
 		}
-		if (event.item.id === 'nethersdelight:propelpearl') {
-			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (3600 - 2400 + 1) + 2400), 0, true, false)
+		// 2.5m to 3m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_3')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (3600 - 3000 + 1) + 3000), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'sullysmod:cave_chum_bucket') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:bucket')
+				})
+			}
+			if (!event.player.isCreative() && event.item.id === 'miners_delight:improvised_barbecue_stick') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:stick')
+				})
+			}
+		}
+		// 3.5m to 4m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_4')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (4800 - 4200 + 1) + 4200), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'berry_good:glowgurt') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:bowl')
+				})
+			}
+		}
+		// 4.5m to 5m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_5')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (6000 - 5400 + 1) + 5400), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'farmersdelight:glow_berry_custard') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:glass_bottle')
+				})
+			}
+		}
+		// 5.5m to 6m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_6')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (7200 - 6600 + 1) + 6600), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'kubejs:glow_ink_pasta') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:bowl')
+				})
+			}
 		}
     }
 })
@@ -246,7 +174,7 @@ BlockEvents.rightClicked(event => {
         }
     })
     Object.keys(global.brushingMap).forEach((value) => {
-        if (event.item.id === 'minecraft:brush') {
+        if (event.item.id === 'kubejs:copper_brush') {
             if (event.block.id === value) {
                 // damage brush
                 if (!event.player.isCreative()) {
@@ -255,7 +183,7 @@ BlockEvents.rightClicked(event => {
                 // swing hand, damage item, play sounds and transform block
                 event.player.swing(event.hand, true)
 				event.server.runCommandSilent(`particle wax_off ${event.block.x} ${event.block.y+0.5} ${event.block.z} 0.5 0.25 0.5 0.01 15 force`)
-                event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'minecraft:brush.brush', 'players', 1, 1)
+                event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'kubejs:copper_brush.brush', 'players', 1, 1)
                 event.block.set(global.brushingMap[event.block.id])
             }  
         }
@@ -397,9 +325,12 @@ BlockEvents.rightClicked(event => {
         'paletteblocks:cobblestone_bricks': 'paletteblocks:cracked_cobblestone_bricks',
         'modestmining:adobe_bricks': 'modestmining:cracked_adobe_bricks',
         'quark:sandstone_bricks': 'kubejs:cracked_sandstone_bricks',
+        'minecraft:sandstone': 'kubejs:cracked_sandstone',
         'minecraft:cut_sandstone': 'kubejs:cracked_layered_sandstone',
         'quark:red_sandstone_bricks': 'kubejs:cracked_red_sandstone_bricks',
+        'minecraft:red_sandstone': 'kubejs:cracked_red_sandstone',
         'minecraft:cut_red_sandstone': 'kubejs:cracked_layered_red_sandstone',
+        'quark:soul_sandstone': 'kubejs:cracked_soul_sandstone',
         'quark:soul_sandstone_bricks': 'kubejs:cracked_soul_sandstone_bricks',
         'quark:cut_soul_sandstone': 'kubejs:cracked_layered_soul_sandstone'
     }
@@ -547,17 +478,6 @@ BlockEvents.rightClicked(event => {
     }
 })
 
-// flax harvesting from top block (script by Grom PE)
-BlockEvents.rightClicked(event => {
-	if (event.block.id == "supplementaries:flax" && !event.player.isCrouching()) {
-		if (event.block.properties.half == "upper" && event.block.properties.age == "7") {
-			// make it as if event.block.down is right-clicked by player
-			event.block.pos.y--;
-			event.player.swing(event.hand, true);
-		}
-	}
-})
-
 // right click on water interaction (WIP)
 ItemEvents.rightClicked(event => {
     // check held item
@@ -591,7 +511,7 @@ BlockEvents.rightClicked(event => {
 
 // cancel custom exopearl throwing if structure isnt found
 const $Registry = Java.loadClass('net.minecraft.core.Registry')
-const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')        
+const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
 ItemEvents.rightClicked("kubejs:spirited_exopearl", event => {
     const {level,player} = event
     let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:spirited_exopearl_located')
@@ -600,15 +520,28 @@ ItemEvents.rightClicked("kubejs:spirited_exopearl", event => {
         event.cancel()
     }
 })
-
-// message in a bottle
-ItemEvents.rightClicked('aquaculture:message_in_a_bottle', event => {
-    event.player.swing(event.hand, true)
-    event.server.runCommandSilent(`particle minecraft:item glass_bottle ${event.player.x} ${event.player.y+1} ${event.player.z} 0.1 0.1 0.1 0.1 20 force`)
-    if (!event.player.isCreative()) {
-        event.server.schedule(1, callback => {
-            event.player.giveInHand('quark:clear_shard')
-        })
+ItemEvents.rightClicked("kubejs:sunken_exopearl", event => {
+    const {level,player} = event
+    let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:sunken_exopearl_located')
+    let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+    if (foundPos == null) {
+        event.cancel()
+    }
+})
+ItemEvents.rightClicked("kubejs:arcane_exopearl", event => {
+    const {level,player} = event
+    let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:arcane_exopearl_located')
+    let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+    if (foundPos == null) {
+        event.cancel()
+    }
+})
+ItemEvents.rightClicked("kubejs:warded_exopearl", event => {
+    const {level,player} = event
+    let structureTag = $TagKey.create($Registry.STRUCTURE_REGISTRY, 'raspberry_flavoured:warded_exopearl_located')
+    let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+    if (foundPos == null) {
+        event.cancel()
     }
 })
 
@@ -648,6 +581,8 @@ ItemEvents.entityInteracted(event => {
 	'aquaculture:tambaqui': 'aquaculture:tambaqui',
 	'aquaculture:red_grouper': 'aquaculture:red_grouper',
 	'aquaculture:tuna': 'aquaculture:tuna',
+	'aquaculture:pink_salmon': 'aquaculture:pink_salmon',
+	'aquaculture:minnow': 'aquaculture:minnow',
 	'naturalist:bass': 'naturalist:bass',
 	'environmental:koi': 'environmental:koi',
 	'sullysmod:lanternfish': 'sullysmod:lanternfish'
@@ -669,6 +604,13 @@ ItemEvents.entityInteracted(event => {
 	}
 });
 
+// swing hand for parrots
+ItemEvents.entityInteracted(event => {
+    if (event.item.hasTag('quark:parrot_feed') && event.target.type === "minecraft:parrot") {
+		event.player.swing(event.hand, true);
+    }
+})
+
 // cooldowns
 ItemEvents.rightClicked('minecraft:splash_potion', event => {
     event.player.addItemCooldown('minecraft:splash_potion', 200)
@@ -685,3 +627,54 @@ ItemEvents.rightClicked('raspberry:ashball', event => {
 ItemEvents.rightClicked('raspberry:rose_gold_bomb', event => {
     event.player.addItemCooldown('raspberry:rose_gold_bomb', 10)
 })
+const parrotEggs = [
+	"quark:egg_parrot_red_blue",
+	"quark:egg_parrot_blue",
+	"quark:egg_parrot_green",
+	"quark:egg_parrot_yellow_blue",
+	"quark:egg_parrot_grey"
+]
+ItemEvents.rightClicked(event => {
+	if (parrotEggs.includes(event.item.id)) {
+    	event.player.addItemCooldown(event.item.id, 10)
+	}
+})
+
+// conch of conjuring effects
+BlockEvents.rightClicked('savage_and_ravage:gloomy_tiles', event => {
+    if (event.item.id === 'savage_and_ravage:conch_of_conjuring') {
+        event.level.spawnParticles('minecraft:witch', true, event.block.x+0.5, event.block.y+0.5, event.block.z+0.5, 0.5, 0.5, 0.5, 15, 0.05)
+        event.level.spawnParticles('savage_and_ravage:rune', true, event.block.x+0.5, event.block.y+0.5, event.block.z+0.5, 0.5, 0.5, 0.5, 15, 0.05)
+		event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'savage_and_ravage:entity.player.cast_spell', 'players', 1, 1)
+    }
+})
+
+// silverfish infesting sounds and particles
+ItemEvents.entityInteracted('miners_delight:silverfish_eggs', event => {
+    if (event.target.isLiving() && event.target.isAlive() && !event.target.entityType.tags.anyMatch((tag) => tag.location() == 'raspberry:insects')) {
+	    event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'kubejs:sound.infest', 'players', 1, 1)
+        event.level.spawnParticles('minecraft:item miners_delight:silverfish_eggs', true, event.target.x, event.target.y+0.5, event.target.z, 0.15, 0.15, 0.15, 15, 0.1)
+    }
+})
+
+// crystal glass interaction
+//BlockEvents.rightClicked(event => {
+//  if (event.block.hasTag('oreganized:crystal_glass')) {
+//      if (event.item.hasTag('another_furniture:furniture_hammers')) {
+//  		event.player.swing(event.hand, true)
+//          let glassType = event.level.getBlock(event.block.x, event.block.y, event.block.z).properties.get("type")
+//          if (glassType == 0) {
+//  			event.block.set(event.block.id, {type: 1})
+//          }
+//          if (glassType == 1) {
+//  			event.block.set(event.block.id, {type: 2})
+//          }
+//          if (glassType == 2) {
+//  			event.block.set(event.block.id, {type: 3})
+//          }
+//          if (glassType == 3) {
+//  			event.block.set(event.block.id, {type: 0})
+//          }
+//      }
+//  }
+//})

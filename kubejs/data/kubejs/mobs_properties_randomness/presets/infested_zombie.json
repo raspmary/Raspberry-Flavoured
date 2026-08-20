@@ -1,0 +1,23 @@
+{
+  "potion_effects": [
+    {
+      "id": "raspberry:infested",
+	  "duration": {
+        "min": 60,
+        "max": 120
+      },
+      "hide_particles": false
+    }
+  ],
+  "equipment": {
+    "off_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "miners_delight:silverfish_eggs",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

@@ -2,6 +2,30 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.2,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "savage_and_ravage:wand_of_freezing"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 1.0,
         "max": 3.0,
@@ -614,6 +638,11 @@
             }
           ],
           "name": "naturalist:caterpillar"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "kubejs:bait_can"
         }
       ]
     }

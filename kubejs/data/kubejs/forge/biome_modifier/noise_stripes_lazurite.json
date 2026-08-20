@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:lazurite_stripes_biomes",
+  "features": [
+    "kubejs:noise_stripes_lazurite"
+  ],
+  "step": "raw_generation"
+}

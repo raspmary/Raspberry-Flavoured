@@ -1,7 +1,24 @@
 // priority: 0
-
+const disabledEntities = [
+    'minecraft:experience_orb', 
+    'minecraft:experience_bottle', 
+    'minecraft:villager', 
+    'minecraft:wandering_trader', 
+    'minecraft:trader_llama',
+    'sullysmod:copper_golem'
+]
 EntityEvents.spawned(event => {
     const entity = event.entity
+	// remove disabled entities
+    if (disabledEntities.includes(entity.type)) {
+        if (entity.type == 'minecraft:wandering_trader' || entity.type == 'minecraft:trader_llama') {
+            event.level.gameRules.set('doTraderSpawning', false)
+        }
+        event.server.schedule(1, callback => {
+            entity.discard()
+        })
+    }
+
 	// replace chilled with frostbitten as a fallback
     if (entity.type == 'windswept:chilled') {
         let iceZombie = entity.block.createEntity('dungeons_mobs:frozen_zombie')
@@ -12,7 +29,7 @@ EntityEvents.spawned(event => {
         })
     }
 
-	// replace zombie villagers with zombies as a fallback
+	// replace zombie villagers & skeleton villagers
     if (entity.type == 'minecraft:zombie_villager') {
         let regularZombie = entity.block.createEntity('minecraft:zombie')
         regularZombie.spawn()
@@ -20,6 +37,14 @@ EntityEvents.spawned(event => {
             entity.discard()
         })
     }
+    if (entity.type == 'savage_and_ravage:skeleton_villager') {
+        let regularSkeleton = entity.block.createEntity('minecraft:skeleton')
+        regularSkeleton.spawn()
+        event.server.schedule(1, callback => {
+            entity.discard()
+        })
+    }
+	
     const catVariants = [
     "minecraft:white",
     "minecraft:black",
@@ -89,3 +114,15 @@ EntityEvents.death(event => {
 		});
 	}
 })
+
+//EntityEvents.hurt(event => {
+//    const entity = event.entity
+//    if (entity.hasEffect('kubejs:infested') && entity.invulnerableTime < 5 && Math.floor(Math.random() * 2.75) == 0) {
+//        let silverfish = entity.block.createEntity('minecraft:silverfish')
+//            silverfish.y = entity.y + 0.05 + Math.random()
+//            silverfish.x = entity.x + Math.random()
+//            silverfish.z = entity.z + Math.random()
+//            silverfish.level.spawnParticles('minecraft:poof', true, silverfish.x, silverfish.y, silverfish.z, 0, 0, 0, 7, 0.075)
+//            silverfish.spawn()
+//    }
+//})

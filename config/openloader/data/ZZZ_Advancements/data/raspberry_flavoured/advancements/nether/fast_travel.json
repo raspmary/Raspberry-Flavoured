@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:nether/enter_nether",
+  "parent": "raspberry_flavoured:nether/exoporter",
   "criteria": {
     "0": {
       "conditions": {

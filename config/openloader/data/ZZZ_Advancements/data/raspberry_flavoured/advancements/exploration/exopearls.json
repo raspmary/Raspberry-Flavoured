@@ -5,10 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:ender_eye",
-              "kubejs:spirited_exopearl"
-            ]
+            "tag": "raspberry_flavoured:seeker_exopearls"
           }
         ]
       },

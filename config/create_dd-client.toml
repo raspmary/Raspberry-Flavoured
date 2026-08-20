@@ -1,0 +1,73 @@
+
+#.
+#Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!
+[client]
+
+	#.
+	#Configure Config Menu
+	[client.configMenu]
+		#.
+		#Choose the menu row that the Create: Dreams n' Desires config button appears on in the main menu
+		#Set to 0 to disable the button altogether
+		#Range: 0 ~ 4
+		mainMenuConfigButtonRow = 0
+		#.
+		#Offset the Create: Dreams n' Desires config button in the main menu by this many pixels on the X axis
+		#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
+		#Range: > -2147483648
+		mainMenuConfigButtonOffsetX = 4
+		#.
+		#Choose the menu row that the Create: Dreams n' Desires config button appears on in the in-game menu
+		#Set to 0 to disable the button altogether
+		#Range: 0 ~ 5
+		ingameMenuConfigButtonRow = 0
+		#.
+		#Offset the Create: Dreams n' Desires config button in the in-game menu by this many pixels on the X axis
+		#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
+		#Range: > -2147483648
+		ingameMenuConfigButtonOffsetX = 4
+
+	#.
+	#Configure Equipment settings
+	[client.equipments]
+		#.
+		#Invert Deforester Saw activation function
+		invertDeforesterSawFunction = false
+		#.
+		#Invert Excavation Drill activation function
+		invertExcavationDrillFunction = false
+		#.
+		#Disables the blocks will be voided warning for the Block Zapper
+		disableBlocksVoidZapperMessage = false
+		#.
+		#Debug Equipments (only works in Creative mode)
+		equipmentsDebug = false
+
+	#.
+	#Configure your vision range when submerged in Create Dream n' Desire's custom fluids
+	[client.fluidFogSettings]
+		#.
+		#The vision range through Sap will be multiplied by this factor
+		#Range: 0.125 ~ 128.0
+		sap = 0.125
+		#.
+		#The vision range through Chocolate Milkshake will be multiplied by this factor
+		#Range: 0.125 ~ 128.0
+		chocolateTransparencyMultiplier = 0.125
+		#.
+		#The vision range through Vanilla Milkshake will be multiplied by this factor
+		#Range: 0.125 ~ 128.0
+		vanillaTransparencyMultiplier = 0.125
+		#.
+		#The vision range through Glowberry Milkshake will be multiplied by this factor
+		#Range: 0.125 ~ 128.0
+		glowberryTransparencyMultiplier = 0.125
+		#.
+		#The vision range through Strawberry Milkshake will be multiplied by this factor
+		#Range: 0.125 ~ 128.0
+		strawberryTransparencyMultiplier = 0.125
+		#.
+		#The vision range through Pumpkin Milkshake will be multiplied by this factor
+		#Range: 0.125 ~ 128.0
+		pumpkinTransparencyMultiplier = 0.125
+

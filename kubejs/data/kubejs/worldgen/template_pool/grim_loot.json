@@ -1,0 +1,78 @@
+{
+	"name": "kubejs:grim_loot",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_1",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_2",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_3",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_4",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_5",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_6",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_7",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "kubejs:grim_loot/grim_loot_8",
+				"projection": "rigid",
+				"processors": "kubejs:grim_loot_processor"
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "potion_effects": [
+    {
+      "id": "neapolitan:sugar_rush",
+	  "amplifier": {
+        "min": 0,
+        "max": 1
+      },
+      "hide_particles": false
+    }
+  ],
+  "equipment": {
+    "off_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "neapolitan:chocolate_bar",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

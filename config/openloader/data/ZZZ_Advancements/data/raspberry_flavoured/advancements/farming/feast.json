@@ -13,7 +13,7 @@
       },
       "trigger": "minecraft:placed_block"
     },
-	"Place down Honey Glazed Ham": {
+	"Place down Glazed Ham": {
       "conditions": {
         "block": "farmersdelight:honey_glazed_ham_block"
       },
@@ -97,7 +97,7 @@
     [
 	"Place down Roast Chicken", 
 	"Place down Stuffed Pumpkin", 
-	"Place down Honey Glazed Ham", 
+	"Place down Glazed Ham", 
 	"Place down Shepherd's Pie", 
 	"Place down Rice Roll Medley", 
 	"Place down Stuffed Hoglin", 

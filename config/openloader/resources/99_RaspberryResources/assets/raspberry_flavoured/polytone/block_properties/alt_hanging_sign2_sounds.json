@@ -1,0 +1,19 @@
+{
+   "targets": [
+   "supplementaries:hanging_sign_spruce",
+   "supplementaries:hanging_sign_dark_oak",
+   "supplementaries:atmospheric/hanging_sign_grimwood",
+   "supplementaries:upgrade_aquatic/hanging_sign_driftwood",
+   "supplementaries:environmental/hanging_sign_cherry",
+   "supplementaries:atmospheric/hanging_sign_morado"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.alt_hanging_sign2.break",
+	  "place_sound": "kubejs:sound.alt_hanging_sign2.place",
+      "hit_sound": "kubejs:sound.alt_hanging_sign2.hit",
+      "fall_sound": "kubejs:sound.alt_hanging_sign2.fall",
+      "step_sound": "kubejs:sound.alt_hanging_sign2.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

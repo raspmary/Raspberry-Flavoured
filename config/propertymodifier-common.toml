@@ -79,6 +79,14 @@
 		"kubejs:enigmatic_tile_slab" = 10
 		"kubejs:enigmatic_tile_stairs" = 10
 		"kubejs:enigmatic_tile_wall" = 10
+		"heart_crystals:heart_crystal" = 8
+		"heart_crystals:heart_lantern" = 12
+		"heart_crystals:heart_crystal_shard[facing=north]" = 6
+		"heart_crystals:heart_crystal_shard[facing=south]" = 6
+		"heart_crystals:heart_crystal_shard[facing=east]" = 6
+		"heart_crystals:heart_crystal_shard[facing=west]" = 6
+		"heart_crystals:heart_crystal_shard[facing=up]" = 6
+		"heart_crystals:heart_crystal_shard[facing=down]" = 6
 
 #Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood") or a block regex (e.g. "minecraft:.*_block").
 [blocks]
@@ -374,11 +382,15 @@
 		"oreganized:electrum_leggings" = "#raspberry_flavoured:electrum_repair_materials"
 		"oreganized:electrum_boots" = "#raspberry_flavoured:electrum_repair_materials"
 		"quark:echorang" = "#raspberry_flavoured:echo_repair_materials"
+		"quark:trowel" = "#raspberry_flavoured:rose_gold_repair_materials"
 		"supplementaries:slingshot" = "#raspberry_flavoured:wood_repair_materials"
 		"supplementaries:flute" = "#raspberry_flavoured:bamboo_repair_materials"
 		"supplementaries:wrench" = "#raspberry_flavoured:copper_repair_materials"
 		"abnormals_delight:necromium_knife" = "#raspberry_flavoured:necromium_repair_materials"
 		"aquaculture:iron_fishing_rod" = "#raspberry_flavoured:iron_repair_materials"
+		"modestmining:wooden_javelin" = "#raspberry_flavoured:flint_repair_materials"
+		"modestmining:stone_javelin" = "#raspberry_flavoured:bone_repair_materials"
+		"additionaladditions:gilded_netherite_sword" = "#raspberry_flavoured:ancient_sword_repair_materials"
 
 	#Set the values for armor.
 	[items.armor]
@@ -525,18 +537,20 @@
 		#Set the attack damage of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_sword" = 12
 		[items.tools.attack_damage]
-			"minecraft:trident" = 13.5
+			"minecraft:trident" = 12
 			"clash:swept_axe" = 12
 			"mace_backport:mace" = 7.0
 			"kubejs:rose_gold_rapier" = 3
 			"kubejs:crowbar" = 3
 			"oreganized:silver_mirror" = 0.5
+			"farmersdelight:ham" = 3
+			"farmersdelight:smoked_ham" = 4
 			"minecraft:wooden_pickaxe" = 2
 			"minecraft:wooden_shovel" = 2.5
 			"minecraft:wooden_hoe" = 3
 			"minecraft:wooden_axe" = 6
 			"minecraft:wooden_sword" = 4
-			"farmersdelight:flint_knife" = 2.5
+			"farmersdelight:flint_knife" = 2
 			"kubejs:bone_knife" = 2.5
 			"minecraft:golden_pickaxe" = 2.5
 			"minecraft:golden_shovel" = 3
@@ -561,7 +575,7 @@
 			"additionaladditions:rose_gold_hoe" = 1.5
 			"additionaladditions:rose_gold_axe" = 2.5
 			"additionaladditions:rose_gold_sword" = 1.5
-			"kubejs:rose_gold_knife" = 4
+			"kubejs:rose_gold_knife" = 1
 			"alloyed:steel_pickaxe" = 5
 			"alloyed:steel_shovel" = 5.5
 			"alloyed:steel_hoe" = 6
@@ -592,6 +606,9 @@
 			"minecraft:netherite_axe" = 12
 			"minecraft:netherite_sword" = 10
 			"farmersdelight:netherite_knife" = 8.5
+			"modestmining:wooden_javelin" = 4
+			"modestmining:stone_javelin" = 4.5
+			"additionaladditions:gilded_netherite_sword" = 6.5
 
 		#Set the efficiency value of a tool. May not work on modded tools, please file an issue if that's the case. Also doesn't work on shears, due to internal problems with that. Example (without the leading #):
 		#"minecraft:iron_pickaxe" = 16
@@ -610,11 +627,11 @@
 			"minecraft:iron_axe" = 6.5
 			"minecraft:iron_hoe" = 6.5
 			"farmersdelight:iron_knife" = 6.5
-			"alloyed:steel_pickaxe" = 5.0
-			"alloyed:steel_axe" = 5.0
-			"alloyed:steel_shovel" = 5.0
-			"alloyed:steel_hoe" = 5.0
-			"alloyed:steel_knife" = 5.0
+			"alloyed:steel_pickaxe" = 6.5
+			"alloyed:steel_axe" = 6.5
+			"alloyed:steel_shovel" = 6.5
+			"alloyed:steel_hoe" = 6.5
+			"alloyed:steel_knife" = 6.5
 			"minecraft:diamond_shovel" = 8.0
 			"minecraft:diamond_pickaxe" = 8.0
 			"minecraft:diamond_axe" = 8.0
@@ -655,6 +672,8 @@
 			"kubejs:rose_gold_rapier" = 2.775
 			"kubejs:crowbar" = 1.6
 			"oreganized:silver_mirror" = 0.8
+			"farmersdelight:ham" = 1
+			"farmersdelight:smoked_ham" = 1
 			"minecraft:wooden_pickaxe" = 1.2
 			"minecraft:wooden_shovel" = 1.1
 			"minecraft:wooden_hoe" = 1
@@ -716,6 +735,9 @@
 			"minecraft:netherite_axe" = 1
 			"minecraft:netherite_sword" = 1.725
 			"farmersdelight:netherite_knife" = 2.25
+			"modestmining:wooden_javelin" = 1.25
+			"modestmining:stone_javelin" = 1.25
+			"additionaladditions:gilded_netherite_sword" = 1.5
 
 #Set the values for enchantments.
 [enchantments]
@@ -749,7 +771,6 @@
 		"supplementaries:ash" = 0.05
 		"minecraft:honeycomb" = 1
 		"environmental:truffle_pie" = 1
-		"minecraft:pumpkin_pie" = 0
 		"kubejs:pumpkin_pie" = 1
 		"kubejs:butterscotch_cinnamon_pie" = 1
 		"kubejs:prickly_pear_pie" = 1
@@ -829,6 +850,42 @@
 		"nethersdelight:propelpearl" = 0.2
 		"architects_palette:twisted_sapling" = 0.7
 		"supplementaries:cake" = 0.8
+		"architects_palette:rotten_flesh_block" = 1
+		"kubejs:oats" = 0.35
+		"aquaculture:algae" = 0.7
+		"minecraft:cod" = 0.7
+		"minecraft:salmon" = 0.7
+		"naturalist:bass" = 0.8
+		"upgrade_aquatic:perch" = 0.7
+		"upgrade_aquatic:pike" = 0.9
+		"aquaculture:blackfish" = 0.7
+		"aquaculture:atlantic_herring" = 0.6
+		"aquaculture:pollock" = 0.7
+		"aquaculture:bayad" = 0.7
+		"aquaculture:boulti" = 0.7
+		"aquaculture:capitaine" = 0.7
+		"aquaculture:synodontis" = 0.7
+		"aquaculture:bluegill" = 0.7
+		"aquaculture:brown_trout" = 0.7
+		"aquaculture:carp" = 0.7
+		"aquaculture:gar" = 0.7
+		"aquaculture:tambaqui" = 0.7
+		"aquaculture:red_grouper" = 0.7
+		"aquaculture:tuna" = 0.8
+		"aquaculture:pink_salmon" = 0.7
+		"aquaculture:minnow" = 0.6
+		"environmental:koi" = 0.8
+		"minecraft:tropical_fish" = 0.8
+		"minecraft:pufferfish" = 0.9
+		"upgrade_aquatic:lionfish" = 0.9
+		"sullysmod:lanternfish" = 0.8
+		"miners_delight:squid" = 1
+		"miners_delight:glow_squid" = 1
+		"ecologics:seashell" = 0.9
+		"kubejs:pulp" = 1
+		"kubejs:bone_powder" = 1
+		"ecologics:coconut_slice" = 0.65
+		"minecraft:pumpkin_pie" = 0
 
 #Set the values for axe stripping.
 [stripping]

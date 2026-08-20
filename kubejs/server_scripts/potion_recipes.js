@@ -18,13 +18,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:invisibility"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'3x amethyst_shard', '3x #forge:gems/quartz'
-	]).heated()
-	// Jump boost
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"minecraft:leaping"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'kubejs:rubber', 'slime_ball'
+		'3x #forge:gems/amethyst', '3x #forge:gems/quartz'
 	]).heated()
 	// Fire resistance
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -36,7 +30,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:swiftness"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'supplementaries:sugar_cube', '2x honeycomb'
+		'6x sugar', '2x honeycomb'
 	]).heated()
 	// Instant health
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -72,19 +66,19 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"caverns_and_chasms:rewind"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x architects_palette:twisted_sapling', 'ender_pearl'
+		'architects_palette:twisted_sapling', '2x chorus_fruit'
 	]).heated()
 	// Health boost
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"environmental:vitality"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x environmental:truffle'
+		'2x environmental:truffle', 'heart_crystals:heart_crystal_shard'
 	]).heated()
 	// Restfulness
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"upgrade_aquatic:restfulness"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'#minecraft:cocoa_beans_or_powder', 'kubejs:oats'
+		'kubejs:cinnamon', 'kubejs:oats'
 	]).heated()
 	// Repellence
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -108,7 +102,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"atmospheric:relief"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'atmospheric:aloe_bundle', 'ecologics:azalea_flower'
+		Fluid.of('create_central_kitchen:aloe_gel', 250), 'ecologics:azalea_flower'
 	]).heated()
 // Harmful potions
 	// Slowness
@@ -169,7 +163,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"atmospheric:worsening"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'atmospheric:aloe_bundle', 'atmospheric:yucca_flower'
+		'atmospheric:aloe_bundle', '4x atmospheric:yucca_flower'
 	]).heated()
 // Multi-effect potions
 	// Snail Master
@@ -178,23 +172,29 @@ ServerEvents.recipes(event => {
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'4x autumnity:snail_shell_piece'
 	]).heated()
-	// Forest Dasher
+	// Fleet-Footed
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"naturalist:forest_dasher"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x environmental:venison', '4x carrot'
+		'3x neapolitan:banana', '2x spider_eye', '3x windswept:foxglove'
 	]).heated()
 	// Mad Prospector
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"kubejs:mad_prospector"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'diamond', '2x quark:glow_shroom'
+		'6x #forge:gems/obsidian', '4x #raspberry_flavoured:cave_scrap_ingredients'
 	]).heated()
 	// Deep Diver
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:water_breathing"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'scute'
+		'scute', '4x upgrade_aquatic:purple_pickerelweed'
+	]).heated()
+	// Slime Rancher
+	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
+		Potion:"minecraft:leaping"
+	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
+		'kubejs:rubber', '3x slime_ball', '2x beetroot'
 	]).heated()
 
 	const allPotions = [

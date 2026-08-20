@@ -1,16 +1,12 @@
 {
    "targets": [
-   "minecraft:oak_hanging_sign",
-   "minecraft:spruce_hanging_sign",
-   "minecraft:dark_oak_hanging_sign",
-   "minecraft:mangrove_hanging_sign",
-   "ecologics:coconut_hanging_sign",
-   "windswept:chestnut_hanging_sign",
-   "environmental:willow_hanging_sign",
-   "environmental:wisteria_hanging_sign",
-   "upgrade_aquatic:driftwood_hanging_sign",
-   "autumnity:maple_hanging_sign",
-   "atmospheric:morado_hanging_sign"
+   "supplementaries:hanging_sign_oak",
+   "supplementaries:hanging_sign_birch",
+   "supplementaries:hanging_sign_acacia",
+   "supplementaries:ecologics/hanging_sign_coconut",
+   "supplementaries:environmental/hanging_sign_wisteria",
+   "supplementaries:autumnity/hanging_sign_maple",
+   "supplementaries:windswept/hanging_sign_chestnut"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.hanging_sign.break",

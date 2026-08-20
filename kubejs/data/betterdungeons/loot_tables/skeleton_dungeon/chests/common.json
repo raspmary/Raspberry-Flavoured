@@ -2,9 +2,33 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.2,
+                "min": 0.1
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "savage_and_ravage:wand_of_freezing"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
       "rolls": {
-        "min": 2.0,
-        "max": 3.0,
+        "min": 3.0,
+        "max": 4.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -107,29 +131,13 @@
             }
           ],
           "name": "farmersdelight:bone_broth"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-			{
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.15,
-                "min": 0.05
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "savage_and_ravage:wand_of_freezing"
         }
       ]
     },
     {
       "rolls": {
-        "min": 2.0,
-        "max": 3.0,
+        "min": 3.0,
+        "max": 4.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -331,7 +339,7 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -380,18 +388,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 12.0,
-                "max": 24.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:white_dye"
+          "name": "kubejs:bone_pile"
         }
       ]
     }

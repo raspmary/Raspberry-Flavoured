@@ -1,0 +1,22 @@
+{
+  "equipment": {
+    "main_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "minecraft:bow",
+          "weight": 1
+        }
+      ]
+    },
+    "off_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "raspberry:swap_arrow",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

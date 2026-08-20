@@ -1,0 +1,28 @@
+{
+  "target": "#raspberry_flavoured:zombies",
+  "presets": {
+    "chance": 0.01,
+    "list": [
+      {
+        "weight": 1,
+        "id": "kubejs:drunk_zombie"
+      },
+      {
+        "weight": 1,
+        "id": "kubejs:hyper_zombie"
+      },
+      {
+        "weight": 1,
+        "id": "kubejs:infested_zombie"
+      },
+      {
+        "weight": 1,
+        "id": "kubejs:spitting_zombie"
+      },
+      {
+        "weight": 1,
+        "id": "kubejs:prickly_zombie"
+      }
+    ]
+  }
+}

@@ -14,10 +14,10 @@
     "extra1": {
       "compost": {
         "item": "minecraft:bone_meal",
-        "chance": 0.4,
+        "chance": 0.05,
         "count": {
           "min": 1,
-          "max": 2
+          "max": 1
         }
       },
       "worlds": []
@@ -25,10 +25,10 @@
     "extra2": {
       "compost": {
         "item": "minecraft:bone_meal",
-        "chance": 0.2,
+        "chance": 0.005,
         "count": {
           "min": 1,
-          "max": 3
+          "max": 1
         }
       },
       "worlds": []
@@ -36,7 +36,18 @@
     "worm": {
       "compost": {
         "item": "aquaculture:worm",
-        "chance": 0.65,
+        "chance": 0.5,
+        "count": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "worlds": []
+    },
+    "grub": {
+      "compost": {
+        "item": "kubejs:grub",
+        "chance": 0.1,
         "count": {
           "min": 1,
           "max": 1
@@ -47,7 +58,7 @@
     "organic_compost": {
       "compost": {
         "item": "farmersdelight:organic_compost",
-        "chance": 0.1,
+        "chance": 0.01,
         "count": {
           "min": 1,
           "max": 1

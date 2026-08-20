@@ -64,6 +64,22 @@
         ]
       },
       "trigger": "minecraft:location"
+    },
+	"Find a Grim Dungeon": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "kubejs:grim_dungeon"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   },
   "display": {
@@ -87,7 +103,7 @@
     },
   "requirements": [
     [
-      "Find a Skeleton Fortress", "Find a Dungeon", "Find a Nether Dungeon", "Find a Zombie Catacomb"
+      "Find a Skeleton Fortress", "Find a Dungeon", "Find a Nether Dungeon", "Find a Zombie Catacomb", "Find a Grim Dungeon"
     ]
   ]
 }

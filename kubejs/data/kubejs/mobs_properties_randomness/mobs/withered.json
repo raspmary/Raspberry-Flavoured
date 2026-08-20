@@ -1,0 +1,12 @@
+{
+  "target": "minecraft:wither_skeleton",
+  "presets": {
+    "chance": 1,
+    "list": [
+      {
+        "weight": 1,
+        "id": "kubejs:withered"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+
+#Heart Crystals Content Tweaks
+[content]
+	#Minimum heart value that you start the game with; default: 5
+	#Range: 1 ~ 1000
+	"Minimum Hearts" = 10
+	#Maximum amount of hearts you can have; default: 20
+	#Range: 1 ~ 1000
+	"Maximum Hearts" = 20
+	#The range in blocks that heart lanterns can give the regeneration effect; default: 2
+	#Range: 1 ~ 10
+	"Heart Lantern Regen Range" = 3
+
+#Heart Crystals World Gen
+[world-gen]
+	#Max Y Level that Heart Crystals can spawn at; default: 30
+	#Range: -60 ~ 60
+	"Maximum Hearts" = -60
+

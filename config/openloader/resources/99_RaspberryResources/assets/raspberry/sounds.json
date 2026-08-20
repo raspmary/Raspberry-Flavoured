@@ -1,0 +1,10 @@
+{
+  "event.raspberry.weather_cycle": {
+	"replace": true,
+    "sounds": [
+      "raspberry:cycle1",
+      "raspberry:cycle2"
+    ],
+    "subtitle": "subtitles.event.raspberry.weather_cycle"
+  }
+}

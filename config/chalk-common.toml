@@ -3,7 +3,7 @@
 ChalkUses = 100
 #How much light glowing mark produces. Default: 5
 #Range: 0 ~ 15
-GlowingMarkLightLevel = 5
+GlowingMarkLightLevel = 6
 #Controls whether glowing should be enabled in Chalk Box.
 #If disabled - you will not be able to draw glowing marks with chalk box.
 #Default: true

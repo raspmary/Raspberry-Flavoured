@@ -195,8 +195,8 @@
 		tinted_blocks_on_maps = true
 		#Colors tall grass same color as grass
 		tall_grass_color = true
-		#Makes colored maps a bit more accurate. Might affect performance
-		accurate_colors = false
+		#Disable color caching. Can affect map update time
+		accurate_colors = true
 
 [items]
 

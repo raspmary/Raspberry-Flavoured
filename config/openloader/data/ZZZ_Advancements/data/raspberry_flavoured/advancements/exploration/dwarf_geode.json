@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/fragile_stone",
+  "parent": "raspberry_flavoured:exploration/root",
   "criteria": {
     "0": {
       "conditions": {

@@ -1,0 +1,31 @@
+{
+   "targets": [
+	"sullysmod:polished_jade_block",
+	"sullysmod:polished_jade_bricks",
+	"sullysmod:polished_small_jade_bricks",
+	"sullysmod:polished_jade_shingles",
+	"sullysmod:polished_jade_tiles",
+	"sullysmod:polished_chiseled_jade",
+	"sullysmod:jade_totem",
+	"sullysmod:polished_jade_pillar",
+	"sullysmod:polished_jade_brick_stairs",
+	"sullysmod:polished_small_jade_brick_stairs",
+	"sullysmod:polished_jade_shingle_stairs",
+	"sullysmod:polished_jade_tile_stairs",
+	"sullysmod:polished_jade_brick_slab",
+	"sullysmod:polished_small_jade_brick_slab",
+	"sullysmod:polished_jade_shingle_slab",
+	"sullysmod:polished_jade_tile_slab",
+	"spelunkery:rough_emerald_block",
+	"minecraft:emerald_block"
+   ],
+   "sound_type": {
+      "break_sound": "minecraft:block.amethyst_block.break",
+	  "place_sound": "minecraft:block.amethyst_block.place",
+      "hit_sound": "minecraft:block.amethyst_block.hit",
+      "fall_sound": "minecraft:block.amethyst_block.fall",
+      "step_sound": "minecraft:block.amethyst_block.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

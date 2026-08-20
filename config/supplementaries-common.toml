@@ -297,7 +297,7 @@
 		door-like_gates = false
 
 	[building.item_shelf]
-		enabled = true
+		enabled = false
 		#Makes item shelves climbable
 		climbable_shelves = false
 

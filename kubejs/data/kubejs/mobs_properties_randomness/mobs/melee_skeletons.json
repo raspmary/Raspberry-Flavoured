@@ -1,0 +1,12 @@
+{
+  "target": "#raspberry_flavoured:skeletons",
+  "presets": {
+    "chance": 0.35,
+    "list": [
+      {
+        "weight": 1,
+        "id": "kubejs:melee_skeleton"
+      }
+    ]
+  }
+}

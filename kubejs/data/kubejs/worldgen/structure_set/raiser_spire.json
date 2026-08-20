@@ -1,0 +1,16 @@
+{
+	"structures": [
+		{
+			"structure": "kubejs:raiser_spire",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 34830395,
+		"frequency": 0.8,
+		"spread_type": "linear",
+		"spacing": 36,
+		"separation": 12
+	}
+}

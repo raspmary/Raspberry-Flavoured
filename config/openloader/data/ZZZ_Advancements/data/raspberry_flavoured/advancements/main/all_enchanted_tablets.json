@@ -224,7 +224,7 @@
     "show_toast": true
   },
   "rewards": {
-      "function": "raspberryflavoured:sound_challenge"
+      "function": "raspberry_flavoured:sound_challenge"
     },
   "requirements": [
     [

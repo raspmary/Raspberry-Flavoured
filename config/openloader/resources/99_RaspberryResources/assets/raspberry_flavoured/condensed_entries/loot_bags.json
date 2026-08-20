@@ -1,0 +1,9 @@
+{
+  "debug_entries": false,
+  "misc": {
+    "raspberry_flavoured:loot_bags": {
+      "base_item": "kubejs:loot_bag",
+      "item_tag": "raspberry_flavoured:loot_bags"
+    }
+  }
+}

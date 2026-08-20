@@ -1,0 +1,6 @@
+{
+    "parent": "block/fix_template_glass_pane_noside",
+    "textures": {
+        "pane": "quark:block/paper_wall_sakura"
+    }
+}

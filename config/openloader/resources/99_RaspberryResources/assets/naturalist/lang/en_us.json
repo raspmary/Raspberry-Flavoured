@@ -1,7 +1,7 @@
 {
   "itemGroup.naturalist.tab": "Naturalist",
 
-  "item.naturalist.bug_net": "Catching Net",
+  "item.naturalist.bug_net": "Capture Net",
 
   "entity.naturalist.butterfly": "Butterfly",
   "item.naturalist.butterfly": "Butterfly",
@@ -144,10 +144,10 @@
   "block.naturalist.smooth_shellstone_wall": "Polished Shellstone Wall",
 
   
-  "item.minecraft.tipped_arrow.effect.forest_dasher": "Arrow of the Forest Dasher",
-  "item.minecraft.potion.effect.forest_dasher": "Potion of the Forest Dasher",
-  "item.minecraft.splash_potion.effect.forest_dasher": "Splash Potion of the Forest Dasher",
-  "item.minecraft.lingering_potion.effect.forest_dasher": "Lingering Potion of the Forest Dasher",
+  "item.minecraft.tipped_arrow.effect.forest_dasher": "Arrow of the Fleet-Footed",
+  "item.minecraft.potion.effect.forest_dasher": "Potion of the Fleet-Footed",
+  "item.minecraft.splash_potion.effect.forest_dasher": "Splash Potion of the Fleet-Footed",
+  "item.minecraft.lingering_potion.effect.forest_dasher": "Lingering Potion of the Fleet-Footed",
   "item.minecraft.tipped_arrow.effect.glowing": "Arrow of Glowing",
   "item.minecraft.potion.effect.glowing": "Potion of Glowing",
   "item.minecraft.splash_potion.effect.glowing": "Splash Potion of Glowing",
@@ -160,47 +160,6 @@
   "advancements.husbandry.feed_hippo_melon.description": "Feed a Melon to a Hippo",
   "advancements.husbandry.feed_bear_honeycomb.title": "Oh Bother",
   "advancements.husbandry.feed_bear_honeycomb.description": "Feed a Honeycomb to a Bear",
-
-
-  "item.naturalist.butterfly_spawn_egg": "Butterfly Spawn Egg",
-  "item.naturalist.moth_spawn_egg": "Moth Spawn Egg",
-  "item.naturalist.caterpillar_spawn_egg": "Caterpillar Spawn Egg",
-  "item.naturalist.dragonfly_spawn_egg": "Dragonfly Spawn Egg",
-  "item.naturalist.firefly_spawn_egg": "Firefly Spawn Egg",
-  "item.naturalist.snail_spawn_egg": "Snail Spawn Egg",
-
-  "item.naturalist.bluejay_spawn_egg": "Bluejay Spawn Egg",
-  "item.naturalist.canary_spawn_egg": "Canary Spawn Egg",
-  "item.naturalist.cardinal_spawn_egg": "Cardinal Spawn Egg",
-  "item.naturalist.robin_spawn_egg": "Robin Spawn Egg",
-  "item.naturalist.finch_spawn_egg": "Finch Spawn Egg",
-  "item.naturalist.sparrow_spawn_egg": "Sparrow Spawn Egg",
-
-  "item.naturalist.bear_spawn_egg": "Brown Bear Spawn Egg",
-  "item.naturalist.deer_spawn_egg": "Deer Spawn Egg",
-
-  "item.naturalist.snake_spawn_egg": "Snake Spawn Egg",
-  "item.naturalist.rattlesnake_spawn_egg": "Rattlesnake Spawn Egg",
-  "item.naturalist.coral_snake_spawn_egg": "Coral Snake Spawn Egg",
-
-  "item.naturalist.elephant_spawn_egg": "Elephant Spawn Egg",
-  "item.naturalist.giraffe_spawn_egg": "Giraffe Spawn Egg",
-  "item.naturalist.hippo_spawn_egg": "Hippo Spawn Egg",
-  "item.naturalist.lion_spawn_egg": "Lion Spawn Egg",
-  "item.naturalist.rhino_spawn_egg": "Rhino Spawn Egg",
-  "item.naturalist.zebra_spawn_egg": "Zebra Spawn Egg",
-  "item.naturalist.vulture_spawn_egg": "Vulture Spawn Egg",
-  "item.naturalist.boar_spawn_egg": "Boar Spawn Egg",
-  "item.naturalist.tortoise_spawn_egg": "Tortoise Spawn Egg",
-  "item.naturalist.hyena_spawn_egg": "Hyena Spawn Egg",
-  "item.naturalist.ostrich_spawn_egg": "Ostrich Spawn Egg",
-  "item.naturalist.termite_spawn_egg": "Termite Spawn Egg",
-
-  "item.naturalist.alligator_spawn_egg": "Alligator Spawn Egg",
-  "item.naturalist.bass_spawn_egg": "Bass Spawn Egg",
-  "item.naturalist.catfish_spawn_egg": "Catfish Spawn Egg",
-  "item.naturalist.duck_spawn_egg": "Duck Spawn Egg",
-  "item.naturalist.lizard_spawn_egg": "Lizard Spawn Egg",
 
 
   "naturalist.subtitles.entity.bird.hurt": "Bird hurts",

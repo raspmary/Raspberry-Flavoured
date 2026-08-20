@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miners_delight:item/glazed_arachnid_limbs"
+  }
+}

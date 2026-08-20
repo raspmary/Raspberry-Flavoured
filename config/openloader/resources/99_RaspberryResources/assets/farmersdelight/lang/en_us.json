@@ -1,7 +1,7 @@
 {
   "farmersdelight.jei.info.straw": "Dry plant fiber used in crafting. Obtained by cutting grassy crops and plants with any Knife.",
-  "farmersdelight.jei.info.knife": "Knives are lightweight melee weapons, with fast swings and gentle damage. They can harvest straw from grasses, and guarantee secondary drops from animals. In addition, they'll rarely cause certain mobs to drop their heads.",
-  "farmersdelight.jei.info.ham": "Large cut of meat from a Pig or Hoglin's leg. Need something lighter than a Sword to get one...",
+  "farmersdelight.jei.info.knife": "Knives are lightweight melee weapons, with fast swings and gentle damage. They can harvest Straw from grasses, and guarantee secondary drops from animals. They'll also rarely cause certain mobs to drop their heads.",
+  "farmersdelight.jei.info.ham": "Large cut of meat from a Pig or Hoglin's leg. Need something lighter than a Sword to get one.",
   "farmersdelight.jei.info.wild_cabbages": "Cabbages can be commonly found as a wild plant in Beaches.",
   "farmersdelight.jei.info.wild_beetroots": "Beetroot can be commonly found as a wild plant in Beaches.",
   "farmersdelight.jei.info.wild_onions": "Onions can be commonly found as a wild plant in Forests or Plains biomes.",
@@ -13,6 +13,7 @@
   
   "block.farmersdelight.stove": "Clay Stove",
   "block.farmersdelight.sandy_shrub": "Dry Grass",
+  "block.farmersdelight.wild_tomatoes": "Wild Tomatoes",
   "block.farmersdelight.brown_mushroom_colony": "Shiitake Colony",
   "block.farmersdelight.red_mushroom_colony": "Toadstool Colony",
   "block.farmersdelight.carrot_crate": "Crate of Carrots",
@@ -22,8 +23,8 @@
   "block.farmersdelight.tomato_crate": "Crate of Tomatoes",
   "block.farmersdelight.onion_crate": "Crate of Onions",
   "block.farmersdelight.sweet_berry_cheesecake": "Glow Berry Cheesecake",
+  "block.farmersdelight.honey_glazed_ham_block": "Glazed Ham",
   
-  "item.farmersdelight.sweet_berry_cheesecake_slice": "Slice of Glow Berry Cheesecake",
   "item.farmersdelight.cod_roll": "White Fish Roll",
   "item.farmersdelight.salmon_roll": "Red Fish Roll",
   "item.farmersdelight.cake_slice": "Slice of Sweet Berry Cake",
@@ -35,6 +36,8 @@
   "item.farmersdelight.sweet_berry_cookie": "Jam Cookie",
   "item.farmersdelight.beef_stew": "Meat Stew",
   "item.farmersdelight.mixed_salad": "Vegetable Salad",
+  "item.farmersdelight.sweet_berry_cheesecake_slice": "Slice of Glow Berry Cheesecake",
+  "item.farmersdelight.honey_glazed_ham": "Plate of Glazed Ham",
   
   "farmersdelight.advancement.harvest_ropelogged_tomato.desc": "Hang some rope above or place a stick into a tomato crop to make it grow taller",
   "farmersdelight.advancement.place_campfire.desc": "Make some campfire kindling and ignite it with a fire striker"

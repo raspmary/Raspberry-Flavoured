@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 96,
+    "xz_spread": 2,
+    "y_spread": 1,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 10,
+                "data": {
+                  "Name": "minecraft:cobblestone"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "caverns_and_chasms:fragile_stone"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:gravel",
+              "minecraft:stone"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

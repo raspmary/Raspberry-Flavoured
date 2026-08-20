@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "kubejs:ore_wormy_dirt",
+  "step": "fluid_springs"
+}

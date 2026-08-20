@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:shrub_biomes",
+  "features": "kubejs:patch_shrub",
+  "step": "vegetal_decoration"
+}

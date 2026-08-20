@@ -14,7 +14,7 @@
 		#When killed by projectiles, evokers use a totem of undying
 		#This restores 2 health and gives them a projectile-proof shield for 30 seconds
 		#When their shield runs out, evokers cannot use totems for another 90 seconds
-		"Evokers use totems" = true
+		"Evokers use totems" = false
 		"Vex health is reduced to 2" = true
 		#Illagers have a smarter AI when using Crossbows, making them more of a threat in combat
 		"Improved Illager behavior" = true

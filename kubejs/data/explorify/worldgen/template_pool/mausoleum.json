@@ -1,0 +1,24 @@
+{
+  "name": "explorify:mausoleum",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:mausoleum/mausoleum",
+        "projection": "rigid",
+        "processors": "explorify:mausoleum_processor"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:mausoleum/mausoleum_2",
+        "projection": "rigid",
+        "processors": "explorify:mausoleum_processor"
+      }
+    }
+  ]
+}

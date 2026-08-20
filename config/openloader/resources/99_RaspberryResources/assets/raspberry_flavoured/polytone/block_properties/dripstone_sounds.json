@@ -1,0 +1,13 @@
+{
+   "targets": [
+	"kubejs:feldspar_block",
+	"kubejs:feldspar_stairs",
+	"kubejs:feldspar_slab",
+	"kubejs:feldspar_wall",
+	"kubejs:polished_feldspar",
+	"kubejs:polished_feldspar_stairs",
+	"kubejs:polished_feldspar_slab",
+	"kubejs:polished_feldspar_wall"
+   ],
+   "sound_type": "dripstone_block"
+}

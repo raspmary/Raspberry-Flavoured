@@ -62,6 +62,7 @@
    "kubejs:sandstone_tile_stairs",
    "kubejs:sandstone_tile_wall",
    "kubejs:sandstone_pillar",
+   "kubejs:cracked_sandstone",
    "kubejs:cracked_layered_sandstone",
    "kubejs:cracked_sandstone_bricks",
    "kubejs:polished_red_sandstone",
@@ -73,6 +74,7 @@
    "kubejs:red_sandstone_tile_stairs",
    "kubejs:red_sandstone_tile_wall",
    "kubejs:red_sandstone_pillar",
+   "kubejs:cracked_red_sandstone",
    "kubejs:cracked_layered_red_sandstone",
    "kubejs:cracked_red_sandstone_bricks"
    ],

@@ -11,8 +11,23 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 24,
-                "max": 32
+                "min": 12,
+                "max": 16
+              }
+            }
+          ],
+          "name": "minecraft:coal",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 12,
+                "max": 16
               }
             }
           ],
@@ -26,8 +41,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 14,
-                "max": 28
+                "min": 7,
+                "max": 14
               }
             }
           ],
@@ -41,8 +56,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
-                "max": 20
+                "min": 5,
+                "max": 10
               }
             }
           ],
@@ -56,8 +71,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8,
-                "max": 16
+                "min": 4,
+                "max": 8
               }
             }
           ],
@@ -71,8 +86,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6,
-                "max": 12
+                "min": 3,
+                "max": 6
               }
             }
           ],
@@ -86,8 +101,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
+                "min": 1,
+                "max": 2
               }
             }
           ],
@@ -101,8 +116,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8,
-                "max": 16
+                "min": 4,
+                "max": 8
               }
             }
           ],
@@ -116,8 +131,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
+                "min": 1,
+                "max": 3
               }
             }
           ],
@@ -132,7 +147,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
+                "max": 2
               }
             }
           ],
@@ -151,8 +166,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 9,
-                "max": 18
+                "min": 6,
+                "max": 12
               }
             }
           ],
@@ -171,8 +186,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
+                "min": 2,
+                "max": 4
               }
             }
           ],
@@ -186,8 +201,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
+                "min": 2,
+                "max": 4
               }
             }
           ],
@@ -216,8 +231,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
+                "min": 2,
+                "max": 4
               }
             }
           ],
@@ -231,13 +246,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6,
-                "max": 9
+                "min": 8,
+                "max": 16
               }
             }
           ],
           "name": "minecraft:slime_ball",
-          "weight": 10
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -246,7 +261,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
+                "min": 1,
                 "max": 3
               }
             }
@@ -256,17 +271,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 14,
-                "max": 28
-              }
-            }
-          ],
-          "name": "aquaculture:worm",
+          "name": "kubejs:bait_can",
           "weight": 12
         },
         {

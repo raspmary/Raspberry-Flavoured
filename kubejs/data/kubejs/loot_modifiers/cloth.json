@@ -36,6 +36,13 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
+            "type": "minecraft:evoker"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
             "type": "minecraft:zombified_piglin"
           }
         },
@@ -79,13 +86,6 @@
           "entity": "this",
           "predicate": {
             "type": "dungeons_mobs:wraith"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "caverns_and_chasms:mime"
           }
         }
       ]

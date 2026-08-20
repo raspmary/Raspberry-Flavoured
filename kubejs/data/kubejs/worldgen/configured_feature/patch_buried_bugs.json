@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 96,
+    "xz_spread": 2,
+    "y_spread": 1,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 16,
+                "data": {
+                  "Name": "minecraft:coarse_dirt"
+                }
+              },
+              {
+                "weight": 8,
+                "data": {
+                  "Name": "minecraft:dirt"
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "minecraft:rooted_dirt"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "raspberry:wormy_dirt"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "#minecraft:dirt"
+          }
+        }
+      ]
+    }
+  }
+}

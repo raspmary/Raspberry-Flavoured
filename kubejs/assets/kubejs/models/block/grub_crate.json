@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "kubejs:block/worm_crate_bottom",
+    "front": "kubejs:block/worm_crate_side",
+    "side": "kubejs:block/worm_crate_side",
+    "top": "kubejs:block/grub_crate_top"
+  }
+}
