@@ -1,13 +1,14 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
+		"particle": "create:block/diodes/powered_toggle_latch/idle",
 		"top": "create:block/diodes/powered_toggle_latch/idle",
-		"torch": "minecraft:block/redstone_torch_off",
-		"smooth_stone": "minecraft:block/smooth_stone",
-		"particle": "minecraft:block/smooth_stone",
-		"base": "minecraft:block/lever_base_create",
-		"lever": "minecraft:block/lever"
+		"torch": "block/redstone_torch_off",
+		"smooth_stone": "block/repeater_bottom",
+		"base": "block/lever_base_create",
+		"lever": "block/lever"
 	},
 	"elements": [
 		{
@@ -27,10 +28,10 @@
 			"from": [0, 0, 0],
 			"to": [16, 2, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 2], "texture": "#smooth_stone"},
-				"east": {"uv": [0, 0, 16, 2], "texture": "#smooth_stone"},
-				"south": {"uv": [0, 0, 16, 2], "texture": "#smooth_stone"},
-				"west": {"uv": [0, 0, 16, 2], "texture": "#smooth_stone"},
+				"north": {"uv": [0, 2, 16, 0], "texture": "#smooth_stone"},
+				"east": {"uv": [0, 2, 16, 0], "texture": "#smooth_stone"},
+				"south": {"uv": [0, 2, 16, 0], "texture": "#smooth_stone"},
+				"west": {"uv": [0, 2, 16, 0], "texture": "#smooth_stone"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#smooth_stone"}
 			}
@@ -96,10 +97,10 @@
 			"translation": [0, 2.5, 0],
 			"scale": [0.625, 0.625, 0.625]
 		},
-        "fixed": {
-            "rotation": [ 270, 0, 0 ],
-            "translation": [ 0, 0, -3],
-            "scale":[ 0.5, 0.5, 0.5 ]
-        }
-    }
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -3],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }

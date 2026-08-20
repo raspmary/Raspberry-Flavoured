@@ -163,9 +163,16 @@
 		"stream": true,
 		"weight": 3
 	  },
+	  {
+		"name": "music/game/eld_unknown",
+		"stream": true,
+		"volume": 0.4,
+		"weight": 3
+	  },
       {
-        "name": "music/game/creative/creative4",
-        "stream": true
+        "name": "music/game/sevensuns",
+        "stream": true,
+		"weight": 3
       },
 	  {
 		"name": "music/game/hal1",
@@ -219,12 +226,10 @@
 		"stream": true,
 		"weight": 2
 	  },
-	  {
-		"name": "music/game/eld_unknown",
-		"stream": true,
-		"volume": 0.4,
-		"weight": 2
-	  }
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      }
 	]
   },
 	"advancement.regular": {

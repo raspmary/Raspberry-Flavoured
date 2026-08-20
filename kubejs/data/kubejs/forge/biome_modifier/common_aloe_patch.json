@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:common_aloe_biomes",
+  "features": "kubejs:patch_aloe_common",
+  "step": "vegetal_decoration"
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:machines/brass",
+  "parent": "raspberry_flavoured:machines/simple_storage",
   "criteria": {
     "0": {
       "conditions": {

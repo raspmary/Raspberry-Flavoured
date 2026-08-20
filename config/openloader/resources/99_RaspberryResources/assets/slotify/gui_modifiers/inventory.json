@@ -4,30 +4,30 @@
     "slot_modifiers": [
     {
       "slots": 0,
-      "x_offset": -47,
+      "x_offset": -18,
       "y_offset": 30
     },
     {
       "slots": "1->4",
-      "x_offset": 0,
+      "x_offset": 29,
       "y_offset": -6
     },
     {
       "slots": "5->8",
-      "x_offset": 54,
+      "x_offset": 36,
       "y_offset": 0
     },
     {
       "slots": 45,
-      "x_offset": -33,
-      "y_offset": 0
+      "x_offset": -62,
+      "y_offset": -39
     }
   ],
   "special_offsets": {
     "player": {
-      "x_offset": -20,
+      "x_offset": 37,
       "y_offset": -2
     }
   },
-  "title_y_offset": -2000
+  "title_y_offset": -2763
 }

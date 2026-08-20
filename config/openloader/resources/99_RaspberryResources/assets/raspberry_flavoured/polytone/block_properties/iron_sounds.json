@@ -72,7 +72,19 @@
 	"create:rope_pulley",
 	"create:cart_assembler",
 	"create:sticker",
-	"create:contraption_controls"
+	"create:contraption_controls",
+	"toms_storage:ts.storage_terminal",
+	"minecraft:stonecutter",
+	"minecraft:dropper",
+	"minecraft:observer",
+	"minecraft:piston",
+	"minecraft:sticky_piston",
+	"create:redstone_contact",
+	"create:elevator_contact",
+	"create:rotation_speed_controller",
+	"sullysmod:jade_flinger_totem",
+	"supplementaries:turn_table",
+	"supplementaries:cog_block"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.iron.break",

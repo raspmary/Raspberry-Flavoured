@@ -142,7 +142,10 @@
   "item.modestmining.diamond_mace": "Diamond Mace",
   "item.modestmining.netherite_mace": "Netherite Mace",
   "item.modestmining.prismarite_mace": "Prismarite Mace",
-
+  
+  
+  "item.modestmining.wooden_javelin": "Flint Javelin",
+  "item.modestmining.stone_javelin": "Bone Javelin",
 
 
   "block.modestmining.coke_block": "Block of Ember Coke",
@@ -317,6 +320,7 @@
   "effect.modestmining.prismarite_speed": "Prismarite Speed",
 
   "entity.modestmining.clam": "Clam",
+  "entity.modestmining.thrown_javelin": "Javelin",
 
   "recipe.modestmining.shaped_forging": "Shaped Forging",
   "recipe.modestmining.shapeless_forging": "Shapeless Forging"

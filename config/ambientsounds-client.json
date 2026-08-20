@@ -32,8 +32,7 @@
       "suspense": 0.5018450021743774
     },
     "deep": {
-      "overall": 0.5018450021743774,
-      "cave": 0.49815496802330017
+      "overall": 0.5018450021743774
     },
     "wind": {
       "overall": 0.49815496802330017,
@@ -71,6 +70,11 @@
       "cave-water": 0.49815496802330017,
       "cave-deep": 0.49815496802330017,
       "cave-large": 0.49815496802330017
+    },
+    "cave_deep-dark": {
+      "overall": 1,
+      "deep-dark": 1,
+      "water-droplets": 1
     },
     "cave_lush": {
       "overall": 0.5018450021743774,
@@ -156,6 +160,10 @@
       "overall": 1,
       "light-wind": 0.7490774989128113
     },
+    "very_cold": {
+      "overall": 1,
+      "heavy-wind": 1
+    },
     "beach": {
       "overall": 1,
       "beach": 1,
@@ -166,6 +174,15 @@
       "overall": 1,
       "ocean": 1,
       "light-wind": 1
+    },
+    "mushroom_fields": {
+      "overall": 1,
+      "cicadas-mushroom-fields": 1,
+      "special-mushroom-fields": 1
+    },
+    "warden": {
+      "overall": 1,
+      "warden": 1
     }
   },
   "fade-volume": 0.005,

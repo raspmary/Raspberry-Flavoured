@@ -1,0 +1,11 @@
+{
+   "targets": [
+	"farmersrespite:wild_coffee_bush",
+	"farmersrespite:coffee_bush",
+	"farmersrespite:coffee_stem",
+	"farmersrespite:coffee_stem_double",
+	"farmersrespite:coffee_stem_middle",
+	"farmersrespite:coffee_bush_top"
+   ],
+   "sound_type": "weeping_vines"
+}

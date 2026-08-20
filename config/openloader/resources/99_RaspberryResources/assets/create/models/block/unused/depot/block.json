@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "create:block/depot_side_new",
+		"2": "create:block/depot_top_new",
+		"3": "create:block/depot_bottom_new",
+		"particle": "create:block/depot_top_new"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 10.5, 0.5]},
+			"faces": {
+				"north": {"uv": [0, 3, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 3, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 3, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 3, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	]
+}

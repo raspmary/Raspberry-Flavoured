@@ -1,0 +1,8 @@
+{
+   "targets": [
+	"quark:red_corundum_cluster",
+	"quark:blue_corundum_cluster",
+	"quark:white_corundum_cluster"
+   ],
+   "sound_type": "calcite"
+}

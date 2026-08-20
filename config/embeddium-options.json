@@ -1,6 +1,6 @@
 {
   "quality": {
-    "weather_quality": "FANCY",
+    "weather_quality": "FAST",
     "leaves_quality": "FANCY",
     "enable_vignette": true
   },

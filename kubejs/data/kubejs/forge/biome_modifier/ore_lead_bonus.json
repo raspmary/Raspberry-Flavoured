@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#oreganized:rich_in_lead_ore",
+  "features": [
+    "kubejs:ore_lead_bonus"
+  ],
+  "step": "underground_ores"
+}

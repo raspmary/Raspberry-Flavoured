@@ -172,19 +172,24 @@
 			half_drawers_2 = false
 			full_drawers_1 = false
 
-		[entries.wood_type.modestmining]
-			tile_stairs = false
-			carved_plank_slab = false
+		[entries.wood_type.modestmasonry]
+			carved_plank_slab = true
 			boards = true
-			carved_plank_wall = false
-			board_slab = true
-			board_stairs = true
-			carved_planks = false
-			board_wall = true
+			tile_wall = true
+			carved_plank_stairs = true
+			tiles = true
+			tile_stairs = true
 			pillar = true
-			tile_wall = false
-			tiles = false
-			tile_slab = false
-			carved_plank_stairs = false
-			chiseled_planks = false
+			carved_planks = true
+			board_stairs = true
+			tile_slab = true
+			board_wall = true
+			carved_plank_wall = true
+			chiseled_planks = true
+			board_slab = true
+
+		[entries.wood_type.hnh]
+			parquet = true
+			sanded_wood = true
+			trim = true
 

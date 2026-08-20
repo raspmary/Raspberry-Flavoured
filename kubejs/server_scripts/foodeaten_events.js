@@ -123,14 +123,18 @@ ItemEvents.foodEaten([
 	'kubejs:snow_top_yellow_tea',
 	'kubejs:snow_top_black_tea',
 	'kubejs:snow_top_coffee',
-	'kubejs:lemon_fudge'
+	'kubejs:lemon_fudge',
+	'minecraft:chorus_fruit'
 	], event =>{
 	event.player.setRemainingFireTicks(0)
 })
 
 // Returns stick
 ItemEvents.foodEaten([
-	'kubejs:caramelized_marshmellow_on_a_stick',
+	'raspberry:marshmallow_on_a_stick',
+	'raspberry:caramelized_marshmallow_on_a_stick',
+	'raspberry:charred_marshmallow_on_a_stick',
+	'kubejs:incomplete_marshmallow_stick',
 	'kubejs:preserved_skewer',
 	'kubejs:incomplete_preserved_skewer',
 	'farmersdelight:melon_popsicle',
@@ -189,6 +193,7 @@ ItemEvents.foodEaten([
 	'kubejs:cherry_cream_soda',
 	'kubejs:pickerelweed_juice',
 	'kubejs:builders_tea',
+	'kubejs:avocado_lemon_smoothie',
 	'kubejs:snow_top_green_tea',
 	'kubejs:snow_top_yellow_tea',
 	'kubejs:snow_top_black_tea',
@@ -220,4 +225,8 @@ ItemEvents.foodEaten(event => {
 	if (event.player) {
 		event.player.jumping = false;
 	}
+
+//ItemEvents.foodEaten('minecraft:apple', event =>{
+//    event.server.runCommandSilent(`spreadplayers ${event.player.x} ${event.player.z} 0 8 false ${event.player.username}`)
+//})
 })

@@ -5,10 +5,6 @@
       "amplifier": 1
     },
     {
-      "block": "twigs:polished_amethyst",
-      "amplifier": 1
-    },
-    {
       "block": "create:zinc_block",
       "amplifier": 1
     },
@@ -26,7 +22,11 @@
     },
     {
       "block": "spelunkery:cinnabar_block",
-      "amplifier": 2
+      "amplifier": 3
+    },
+    {
+      "block": "minecraft:emerald_block",
+      "amplifier": 3
     },
     {
       "block": "create:brass_block",
@@ -34,26 +34,14 @@
     },
     {
       "block": "kubejs:bronze_block",
-      "amplifier": 3
-    },
-    {
-      "block": "kubejs:rose_gold_block",
-      "amplifier": 3
-    },
-    {
-      "block": "alloyed:steel_block",
       "amplifier": 4
     },
     {
-      "block": "oreganized:silver_block",
-      "amplifier": 5
+      "block": "kubejs:rose_gold_block",
+      "amplifier": 4
     },
     {
-      "block": "minecraft:diamond_block",
-      "amplifier": 5
-    },
-    {
-      "block": "architects_palette:ender_pearl_block",
+      "block": "alloyed:steel_block",
       "amplifier": 5
     },
     {
@@ -61,12 +49,24 @@
       "amplifier": 5
     },
     {
-      "block": "oreganized:electrum_block",
+      "block": "minecraft:diamond_block",
       "amplifier": 6
     },
     {
-      "block": "caverns_and_chasms:necromium_block",
+      "block": "oreganized:silver_block",
+      "amplifier": 6
+    },
+    {
+      "block": "architects_palette:ender_pearl_block",
+      "amplifier": 6
+    },
+    {
+      "block": "oreganized:electrum_block",
       "amplifier": 7
+    },
+    {
+      "block": "caverns_and_chasms:necromium_block",
+      "amplifier": 8
     },
     {
       "block": "minecraft:netherite_block",

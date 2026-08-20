@@ -1,0 +1,20 @@
+{
+   "targets": [
+	"minecraft:repeater",
+	"minecraft:comparator",
+	"quark:redstone_randomizer",
+	"create:pulse_repeater",
+	"create:pulse_extender",
+	"create:powered_latch",
+	"create:powered_toggle_latch"
+   ],
+   "sound_type": {
+      "break_sound": "kubejs:sound.iron.break",
+	  "place_sound": "kubejs:sound.iron.place",
+      "hit_sound": "kubejs:sound.iron.hit",
+      "fall_sound": "kubejs:sound.iron.fall",
+      "step_sound": "kubejs:sound.iron.step",
+      "pitch": 1.35,
+      "volume": 1
+   } 
+}

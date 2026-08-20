@@ -64,7 +64,19 @@
 	"kubejs:milly_bubcap_basket",
 	"kubejs:crimson_fungus_basket",
 	"kubejs:warped_fungus_basket",
-	"kubejs:choral_fungus_basket"
+	"kubejs:choral_fungus_basket",
+	"minecraft:crafting_table",
+	"minecraft:smithing_table",
+	"minecraft:loom",
+	"quark:crate",
+	"supplementaries:pulley_block",
+	"exposure:lightroom",
+	"etched:album_jukebox",
+	"kubejs:heating_cask",
+	"kubejs:ice_crate",
+	"kubejs:worm_crate",
+	"kubejs:golden_worm_crate",
+	"kubejs:grub_crate"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.bookshelf.break",

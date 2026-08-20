@@ -30,11 +30,6 @@ ServerEvents.recipes(event => {
 		event.shaped(output, ['AAB'], {A: ingredients[0], B: 'redstone'})
 	})
 	
-	// add redstone to misc
-	event.shaped('4x tripwire_hook', ['A', 'B', 'C'], {A: '#forge:ingots/copper', B: '#minecraft:planks', C: 'redstone'}).id('minecraft:tripwire_hook')
-	event.shaped('4x lever', ['A', 'B', 'C'], {A: 'stick', B: '#minecraft:stone_tool_materials', C: 'redstone'}).id('minecraft:lever')
-	event.shaped('4x supplementaries:crank', [' A ', 'BBB', ' C '], {A: 'stick', B: '#minecraft:stone_tool_materials', C: 'redstone'}).id('supplementaries:crank')
-	
 	// chiseled blocks
 	event.forEachRecipe({
 		type: "minecraft:crafting_shaped",

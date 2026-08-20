@@ -32,8 +32,6 @@ ItemEvents.toolTierRegistry (event => {
 StartupEvents.registry('fluid', event => 
 {
 	event.create('batter').stillTexture('kubejs:fluid/batter_still').flowingTexture('kubejs:fluid/batter_flow')
-	event.create('flaxen_cheese').stillTexture('kubejs:fluid/flaxen_cheese_still').flowingTexture('kubejs:fluid/flaxen_cheese_flow')
-	event.create('scarlet_cheese').stillTexture('kubejs:fluid/scarlet_cheese_still').flowingTexture('kubejs:fluid/scarlet_cheese_flow')
 	event.create('ink').stillTexture('kubejs:fluid/ink_still').flowingTexture('kubejs:fluid/ink_flow')
 	event.create('latex').stillTexture('kubejs:fluid/latex_still').flowingTexture('kubejs:fluid/latex_flow')
 	event.create('cooking_oil').stillTexture('kubejs:fluid/cooking_oil_still').flowingTexture('kubejs:fluid/cooking_oil_flow')
@@ -42,6 +40,7 @@ StartupEvents.registry('fluid', event =>
 	event.create('coleslaw').stillTexture('kubejs:fluid/coleslaw').flowingTexture('kubejs:fluid/coleslaw').noBucket().noBlock()
 	event.create('blazing_chili').stillTexture('kubejs:fluid/blazing_chili').flowingTexture('kubejs:fluid/blazing_chili').noBucket().noBlock()
 	event.create('strawberry_banana_smoothie').stillTexture('kubejs:fluid/strawberry_banana_smoothie_still').flowingTexture('kubejs:fluid/strawberry_banana_smoothie_flow').noBucket().noBlock()
+	event.create('avocado_lemon_smoothie').stillTexture('kubejs:fluid/avocado_lemon_smoothie_still').flowingTexture('kubejs:fluid/avocado_lemon_smoothie_flow').noBucket().noBlock()
 	event.create('cherry_cream_soda').stillTexture('kubejs:fluid/cherry_cream_soda_still').flowingTexture('kubejs:fluid/cherry_cream_soda_flow').noBucket().noBlock()
 	
 	event.create('cactus_juice').thinTexture(0x4B8C37).noBucket().noBlock()
@@ -78,6 +77,13 @@ ItemEvents.modification(event => {
 	'caverns_and_chasms:cupric_torch'
 	], item => {
 		item.burnTime = 250
+    })
+	
+	// 1.5
+	event.modify([
+	'raspberry:charred_marshmallow_on_a_stick'
+	], item => {
+		item.burnTime = 300
     })
 	
 	// 3
@@ -202,7 +208,10 @@ ItemEvents.modification(event => {
 	'kubejs:arcane_exopearl',
 	'kubejs:warded_exopearl',
 	'moyai:moyai',
-	'minecraft:piglin_banner_pattern'
+	'minecraft:piglin_banner_pattern',
+	'heart_crystals:heart_crystal_shard',
+	'heart_crystals:heart_banner_pattern',
+	'kubejs:golden_worm_crate'
 	], item => {
         item.rarity = 'uncommon'
     })
@@ -215,7 +224,8 @@ ItemEvents.modification(event => {
 	'minecraft:globe_banner_pattern',
 	'quark:rainbow_rune',
 	'supplementaries:bomb_blue',
-	'supplementaries:bomb_blue_projectile'
+	'supplementaries:bomb_blue_projectile',
+	'additionaladditions:gilded_netherite_sword'
 	], item => {
         item.rarity = 'rare'
     })
@@ -229,6 +239,13 @@ ItemEvents.modification(event => {
 	'savage_and_ravage:wand_of_freezing'
 	], item => {
         item.rarity = 'epic'
+    })
+	
+// Enchantment glint
+    event.modify('heart_crystals:heart_crystal', item => {
+        const ItemBuilder = Java.loadClass("dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder")
+        const builder = new ItemBuilder("heart_crystals:heart_crystal").glow(true);
+        item.setItemBuilder(builder);
     })
 	
 // Crafting remainders
@@ -253,7 +270,13 @@ ItemEvents.modification(event => {
 	event.modify('kubejs:coleslaw', item => {
 		item.craftingRemainder = Item.of('minecraft:bowl').item
 	})
-	event.modify('kubejs:caramelized_marshmellow_on_a_stick', item => {
+	event.modify('raspberry:marshmallow_on_a_stick', item => {
+		item.craftingRemainder = Item.of('minecraft:stick').item
+	})
+	event.modify('raspberry:caramelized_marshmallow_on_a_stick', item => {
+		item.craftingRemainder = Item.of('minecraft:stick').item
+	})
+	event.modify('raspberry:charred_marshmallow_on_a_stick', item => {
 		item.craftingRemainder = Item.of('minecraft:stick').item
 	})
 	event.modify('ecologics:coconut_slice', item => {
@@ -310,6 +333,10 @@ ItemEvents.modification(event => {
 	event.modify('farmersdelight:bone_broth', item => {
 		item.craftingRemainder = Item.of('minecraft:bowl').item
 	})
+	event.modify('brewinandchewin:rice_wine', item => {
+		item.craftingRemainder = Item.of('brewinandchewin:tankard').item
+	})
+	
 	event.modify('minecraft:beetroot_soup', item => {
 		item.craftingRemainder = null
 	})

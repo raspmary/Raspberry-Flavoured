@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "kubejs:block/diamond_plating_block",
+    "side": "kubejs:block/diamond_plating_block",
+    "top": "kubejs:block/diamond_plating_block"
+  }
+}

@@ -24,8 +24,8 @@ const sanguineLeggingsLifesteal = new $AttributeModifier("2ebde93d-eaa7-4df7-b56
 const sanguineBootsLifesteal = new $AttributeModifier("e0ba6892-11b6-4bc1-a093-c6969dd45e19", "caverns_and_chasms:lifesteal", 0.05, "ADDITION")
 
 const necromiumHelmetWeakness = new $AttributeModifier("027e5479-8edf-4bbd-ba7d-4a2e0c6b4057", "caverns_and_chasms:weakness_aura", 1, "ADDITION")
-const necromiumChestplateWeakness = new $AttributeModifier("85faf159-4717-44ac-96e5-0a2560bc1386", "caverns_and_chasms:weakness_aura", 2, "ADDITION")
-const necromiumLeggingsWeakness = new $AttributeModifier("95ea8bd9-15c2-4b0d-a860-206aa1731baa", "caverns_and_chasms:weakness_aura", 2, "ADDITION")
+const necromiumChestplateWeakness = new $AttributeModifier("85faf159-4717-44ac-96e5-0a2560bc1386", "caverns_and_chasms:weakness_aura", 1, "ADDITION")
+const necromiumLeggingsWeakness = new $AttributeModifier("95ea8bd9-15c2-4b0d-a860-206aa1731baa", "caverns_and_chasms:weakness_aura", 1, "ADDITION")
 const necromiumBootsWeakness = new $AttributeModifier("75d266c2-dde4-4a4f-9f7a-6444f622df1e", "caverns_and_chasms:weakness_aura", 1, "ADDITION")
 
 const necromiumSlowness1 = new $AttributeModifier("2f11b25f-2d5f-403d-a07d-e91bb41e79ad", "caverns_and_chasms:slowness_infliction", 1, "ADDITION")
@@ -43,7 +43,9 @@ const steelKnockback1 = new $AttributeModifier("0d592c6c-b2e2-438c-acc8-f21d078a
 const steelKnockback2 = new $AttributeModifier("a8cac253-08ff-4f8a-900e-0a5500922124", "generic.attack_knockback", 2, "ADDITION")
 
 const swordRange = new $AttributeModifier("a5824ce5-1d4c-40b0-a1a6-d6a574da39e7", "forge:attack_range", 0.5, "ADDITION")
-const specialRange = new $AttributeModifier("a5824ce5-1d4c-40b0-a1a6-d6a574da39e7", "forge:attack_range", 1, "ADDITION")
+const ancientSwordRange = new $AttributeModifier("51d3b4d5-a001-4e86-863e-432ec9540164", "forge:attack_range", 0.75, "ADDITION")
+const javelinRange = new $AttributeModifier("62eee11c-3c52-456e-9df9-cb3d2ccf5bcf", "forge:attack_range", 1, "ADDITION")
+const specialRange = new $AttributeModifier("ef7b8c3e-e7fe-40e3-8801-60ad6caed161", "forge:attack_range", 1, "ADDITION")
 
 const snowBootsSpeed = new $AttributeModifier("f256c2df-9ce5-4c07-9021-91fa1c5551c9", "windswept:snow_speed", 0.25, "ADDITION")
 
@@ -74,7 +76,7 @@ const electrumKinetic2 = new $AttributeModifier("6fa187e7-ab11-47f4-873a-43853de
 const silverMirrorSmite = new $AttributeModifier("588e79ad-093b-4cc5-a10a-d546fba92328", "kubejs:smite", 13, "ADDITION")
 const bowDamage = new $AttributeModifier("5884dd70-b738-4c36-a94b-83de8546e2a8", "kubejs:ranged_damage", 8.5, "ADDITION")
 const crossbowDamage = new $AttributeModifier("5627f77e-4775-4b0c-9f74-aaa02f190040", "kubejs:ranged_damage", 11, "ADDITION")
-const tridentDamage = new $AttributeModifier("75d47485-6c07-464e-b294-1bf18bef6dd1", "kubejs:ranged_damage", 20, "ADDITION")
+const tridentDamage = new $AttributeModifier("75d47485-6c07-464e-b294-1bf18bef6dd1", "kubejs:ranged_damage", 12, "ADDITION")
 const kunaiDamage = new $AttributeModifier("a9737969-401e-41cd-94c8-2a5834cf6713", "kubejs:ranged_damage", 3, "ADDITION")
 const roseGoldSilkTouch = new $AttributeModifier("7a7c2de5-d189-4304-b4d4-22809e6d8604", "kubejs:silk_touch", 1, "ADDITION")
 const necromiumDrainingTouch = new $AttributeModifier("ca0385ca-4dad-450e-b95c-05a59f9d2630", "kubejs:draining_touch", 1, "ADDITION")
@@ -472,7 +474,22 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 		event.addModifier("forge:attack_range", swordRange)
 	}
 	
-	// Extra special weapon range
+	// Ancient sword range
+	if (event.itemStack.id == "additionaladditions:gilded_netherite_sword" && event.slotType == "mainhand") {
+		event.addModifier("forge:attack_range", ancientSwordRange)
+	}
+	
+	// Javelin range
+	if (event.itemStack.id == "modestmining:wooden_javelin" && event.slotType == "mainhand") {
+		event.removeAttribute("forge:attack_range")
+		event.addModifier("forge:attack_range", javelinRange)
+	}
+	if (event.itemStack.id == "modestmining:stone_javelin" && event.slotType == "mainhand") {
+		event.removeAttribute("forge:attack_range")
+		event.addModifier("forge:attack_range", javelinRange)
+	}
+	
+	// Special weapon range
 	if (event.itemStack.id == "kubejs:rose_gold_rapier" && event.slotType == "mainhand") {
 		event.addModifier("forge:attack_range", specialRange)
 	}

@@ -2044,6 +2044,10 @@
 	"raspberry:moody_wildflowers.foliage": "brush",
 	"raspberry:hopeful_wildflowers": "NOT_EMITTER",
 	"raspberry:hopeful_wildflowers.foliage": "brush",
+
+	"kubejs:worm_crate": "bluntwood,organic",
+	"kubejs:golden_worm_crate": "bluntwood,organic",
+	"kubejs:grub_crate": "bluntwood,organic",
 	
 	"atmospheric:crustose": "dirt,organic",
 	"atmospheric:crustose_path": "dirt,organic",

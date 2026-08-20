@@ -68,7 +68,7 @@ ItemEvents.tooltip(event => {
 	
 	event.addAdvanced('kubejs:enduring_tablet', (item, advanced, text) => {
         tablet_tooltip(event, text, [
-            ["ensorcellation:vitality", 2, ["rf.ench.armor"], 3],
+            ["ensorcellation:vitality", 5, ["rf.ench.chestplate"], 2],
             ["domesticationinnovation:health_boost", 3, ["item.domesticationinnovation.collar_tag"], 2]
         ])
 	})

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "barrier": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:magma_block"
+          }
+        }
+      ]
+    },
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:lava",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
 	"minecraft:night_vision": [{"id": "minecraft:night_vision", "duration": 14400, "amplifier": 0}],
 	"minecraft:invisibility": [{"id": "minecraft:invisibility", "duration": 14400, "amplifier": 0}],
-	"minecraft:leaping": [{"id": "minecraft:jump_boost", "duration": 14400, "amplifier": 2}],
+	"minecraft:leaping": [{"id": "minecraft:jump_boost", "duration": 14400, "amplifier": 2}, {"id": "cofh_core:slimed", "duration": 14400, "amplifier": 0}],
 	"minecraft:fire_resistance": [{"id": "minecraft:fire_resistance", "duration": 14400, "amplifier": 0}],
 	"minecraft:swiftness": [{"id": "minecraft:speed", "duration": 14400, "amplifier": 1}],
 	"minecraft:turtle_master": [{"id": "minecraft:slowness", "duration": 9600, "amplifier": 2}, {"id": "minecraft:resistance", "duration": 9600, "amplifier": 2}, {"id": "quark:resilience", "duration": 9600, "amplifier": 2}],

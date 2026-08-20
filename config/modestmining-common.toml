@@ -1,0 +1,104 @@
+
+#Modest Mining Configuration
+[ore_generation]
+	#Generate Aluminium Ore in the Overworld.
+	generate_aluminium_ore = false
+	#Generate Lead Ore in the Overworld.
+	generate_lead_ore = false
+	#Generate Lead Ore in the Nether.
+	generate_nether_lead_ore = false
+	#Generate Silver Ore in the Overworld.
+	generate_silver_ore = false
+	#Generate Clams on Cold Ocean Floors.
+	generate_clams = false
+	#Generate Meteorites in the Overworld.
+	generate_meteorites = true
+
+[replacements]
+	#Vanilla wooden tools replaced by flint.
+	flint_replaces_wood = false
+	#Vanilla stone tools replaced by bronze.
+	bronze_replaces_stone = false
+	#Vanilla iron tools/armour replaced by steel.
+	steel_replaces_iron = false
+	#Repeater uses copper instead of stone.
+	repeater_uses_copper = false
+	#Bow uses copper as well as sticks.
+	bow_uses_copper = false
+	#Tripwire Hook uses copper instead of stone.
+	tripwire_hook_uses_copper = false
+	#Forge uses aluminium instead of iron.
+	forge_uses_aluminium = false
+	#All Buckets uses aluminium instead of iron.
+	bucket_uses_aluminium = false
+	#Fishing Rod uses aluminium instead of iron.
+	fishing_rod_uses_aluminium = false
+	#Cauldron uses aluminium instead of iron.
+	cauldron_uses_aluminium = false
+	#Hopper uses lead instead of iron.
+	hopper_uses_lead = false
+	#Minecart uses lead instead of iron.
+	minecart_uses_lead = false
+	#Comparator uses gold instead of stone.
+	comparator_uses_gold = false
+	#Detector Rail uses gold instead of iron.
+	detector_rail_uses_gold = false
+	#Spyglass uses gold instead of copper.
+	spyglass_uses_gold = false
+	#Brewing Stand uses gold instead of stone.
+	brewing_stand_uses_gold = false
+	#Activator Rail uses silver instead of iron.
+	activator_rail_uses_silver = false
+	#Note Block uses silver as well as wood.
+	note_block_uses_silver = false
+	#Dropper uses silver as well as stone.
+	dropper_uses_silver = false
+	#Both Pistons use bronze instead of iron.
+	piston_uses_bronze = false
+	#Smoker uses bronze instead of wood.
+	smoker_uses_bronze = false
+	#Crossbow uses bronze instead of iron ingot.
+	crossbow_uses_bronze = false
+	#Shield uses bronze instead of iron.
+	shield_uses_bronze = false
+	#Anvil uses steel instead of iron.
+	anvil_uses_steel = false
+	#Stonecutter uses steel instead of iron.
+	stonecutter_uses_steel = false
+	#Blast Furnace uses steel instead of iron.
+	blast_furnace_uses_steel = false
+	#Flint and Steel uses steel instead of iron.
+	flint_and_steel_uses_steel = false
+	#Daylight Detector uses rose gold instead of wood.
+	daylight_detector_uses_rose_gold = false
+	#Observer uses rose gold as well as stone.
+	observer_uses_rose_gold = false
+	#Powered Rail uses steel instead of electrum.
+	powered_rail_uses_electrum = false
+	#Dispenser uses steel instead of electrum.
+	dispenser_uses_electrum = false
+	#Lamp uses steel instead of electrum.
+	lamp_uses_electrum = false
+	#Jukebox uses steel instead of electrum.
+	jukebox_uses_electrum = false
+
+[weapons]
+	#Allow drowned to spawn holding javelins.
+	drowned_spawn_with_javelins = false
+	#Remove the charging movement slowdown and allow sprinting while aiming a javelin.
+	remove_javelin_slowdown = true
+	#Remove the charging movement slowdown and allow tridents to deal critical damage when sprint-thrown or thrown while falling (matching javelins).
+	enhanced_tridents = true
+	#Allow regular zombies, husks, and zombie villagers to naturally spawn holding iron javelins.
+	zombies_spawn_with_javelins = false
+	#Allow all zombie-type mobs (Zombies, Husks, Drowned, Zombie Villagers, Zombified Piglins) to throw javelins when held.
+	zombies_throw_javelins = true
+	#Allow all zombie-type mobs to throw tridents when held.
+	zombies_throw_tridents = false
+	#Multiplier applied to javelin melee attack damage to determine ranged throw damage (1.0 = equal to melee damage).
+	#Range: 0.0 ~ 10.0
+	javelin_ranged_damage_multiplier = 1.0
+	#Base damage dealt by thrown tridents (vanilla default is 8.0).
+	#Range: 0.0 ~ 100.0
+	thrown_trident_base_damage = 12.0
+

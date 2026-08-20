@@ -44,5 +44,5 @@
       "looting_multiplier": 0.1
     }
   ],
-  "item": "minecraft:bone_meal"
+  "item": "kubejs:bone_powder"
 }

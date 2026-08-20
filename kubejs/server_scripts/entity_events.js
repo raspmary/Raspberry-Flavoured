@@ -29,10 +29,17 @@ EntityEvents.spawned(event => {
         })
     }
 
-	// replace zombie villagers with zombies as a fallback
+	// replace zombie villagers & skeleton villagers
     if (entity.type == 'minecraft:zombie_villager') {
         let regularZombie = entity.block.createEntity('minecraft:zombie')
         regularZombie.spawn()
+        event.server.schedule(1, callback => {
+            entity.discard()
+        })
+    }
+    if (entity.type == 'savage_and_ravage:skeleton_villager') {
+        let regularSkeleton = entity.block.createEntity('minecraft:skeleton')
+        regularSkeleton.spawn()
         event.server.schedule(1, callback => {
             entity.discard()
         })

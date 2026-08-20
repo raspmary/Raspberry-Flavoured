@@ -1,0 +1,7 @@
+{
+    "parent": "block/fix_template_glass_pane_post",
+    "textures": {
+        "edge": "hnh:block/shoji_panel_top",
+        "pane": "hnh:block/shoji_panel"
+    }
+}

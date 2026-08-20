@@ -14,8 +14,9 @@ ClientEvents.lang("en_us", (event) => {
   )
   event.addAll(
     createTooltip("toms_storage:ts.storage_terminal")
-      .addSummary("Grants access to _all items_ inside of a _storage block_ it's placed on in a nifty menu with _various functions_, even accessing containers without visible _UIs_ like _Item Vaults_.")
+      .addSummary("Grants access to _all items_ inside of a _storage block_ it's placed on in a nifty menu with _various functions_.")
       .addBehaviour(["When Placed on Storage Interface", "Can manually access _all items_ inside of all inventories merged together by the _Storage Interface_."])
+      .addBehaviour(["When Placed on Item Vault", "Can access items inside of an _Item Vault_, but this is _not recommended_ as it may lead to _voided items_ due to a bug!"])
       .build()
   )
   event.addAll(

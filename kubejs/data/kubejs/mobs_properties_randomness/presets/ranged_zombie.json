@@ -1,0 +1,17 @@
+{
+  "equipment": {
+    "main_hand": {
+	  "override": true,
+      "items": [
+        {
+          "id": "modestmining:wooden_javelin",
+          "weight": 3
+        },
+        {
+          "id": "modestmining:stone_javelin",
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

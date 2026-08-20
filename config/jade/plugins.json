@@ -46,11 +46,6 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
   "exposure": {
     "lightroom": true
   },
@@ -61,6 +56,11 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": false
+  },
+  "infinitybuttons": {
+    "hide_secret_buttons": true,
+    "hide_lantern_buttons": true,
+    "hide_torch_buttons": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

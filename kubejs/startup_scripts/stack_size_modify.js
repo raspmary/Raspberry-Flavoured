@@ -420,6 +420,9 @@ ItemEvents.modification(event => {
 	'autumnity:maple_leaf_banner_pattern',
 	'autumnity:swirl_banner_pattern',
 	'buzzier_bees:honeycomb_banner_pattern',
-	'heartstone:heartstone'
+	'heart_crystals:heart_banner_pattern',
+	'heartstone:heartstone',
+	'abnormals_delight:escargot',
+	'create_central_kitchen:cooking_guide'
 	], item => {item.maxStackSize = 64})
 })

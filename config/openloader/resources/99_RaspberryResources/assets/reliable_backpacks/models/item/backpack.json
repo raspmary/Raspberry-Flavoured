@@ -1,0 +1,15 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "reliable_backpacks:item/backpack"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "reliable_backpacks:dyed": 1
+      },
+      "model": "reliable_backpacks:item/dyed_backpack"
+    }
+  ]
+}
+

@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#raspberry_flavoured:bonus_silver_biomes",
+  "biomes": "#raspberry_flavoured:rich_in_silver_ore",
   "features": "kubejs:ore_silver_bonus",
   "step": "underground_ores"
 }

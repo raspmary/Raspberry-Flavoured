@@ -64,7 +64,6 @@ ServerEvents.recipes(event => {
 		event.custom({type: 'miningmaster:gem_smithing_recipe', blacklist: {tag: 'miningmaster:gem_enchanting_blacklist'}, gem: {item: templateItem}, enchantments: [enchantment]})
 	}
 	
-	smithEnchanting('kubejs:aquatic_tablet', ['ensorcellation:angler'])
 	smithEnchanting('kubejs:aquatic_tablet', ['minecraft:respiration'])
 	smithEnchanting('kubejs:aquatic_tablet', ['create:capacity'])
 	smithEnchanting('kubejs:aquatic_tablet', ['minecraft:depth_strider'])
@@ -78,7 +77,7 @@ ServerEvents.recipes(event => {
 	smithEnchanting('kubejs:cyclic_tablet', ['minecraft:riptide'])
 	smithEnchanting('kubejs:cyclic_tablet', ['allurement:vengeance'])
 	
-	smithEnchanting('kubejs:enduring_tablet', ['miningmaster:heartfelt'])
+	smithEnchanting('kubejs:enduring_tablet', ['ensorcellation:vitality'])
 	smithEnchanting('kubejs:enduring_tablet', ['domesticationinnovation:health_boost'])
 	
 	smithEnchanting('kubejs:everlasting_tablet', ['minecraft:unbreaking'])

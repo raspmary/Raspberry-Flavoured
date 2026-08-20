@@ -1,0 +1,14 @@
+{
+  "target": "minecraft:drowned",
+  "attributes": [
+    {
+      "id": "minecraft:generic.max_health",
+      "modifier_name": "raspberry_flavoured:baby_drowned_nerf",
+      "amount": -0.5,
+      "operation": "multiply_base"
+    }
+  ],
+  "conditions": {
+	  "is_baby": true
+  }
+}

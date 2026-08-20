@@ -87,13 +87,6 @@
           "predicate": {
             "type": "dungeons_mobs:wraith"
           }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "caverns_and_chasms:mime"
-          }
         }
       ]
     },

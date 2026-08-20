@@ -23,7 +23,7 @@
   "mirror_vertical_search_radius": 7,
   "mirror_particle_search_radius": 48,
   "mirror_vertical_particle_search_radius": 24,
-  "mirror_volume_modifier": 0.6,
+  "mirror_volume_modifier": 0.65,
   "sun_sensitive_raiders": true,
   "maps_work_in_inventory": false,
   "create_emi": false,
@@ -42,8 +42,8 @@
   "backport_leash": true,
   "disable_birch_leaf_tinting": true,
   "jade_requires_scoping": true,
-  "music_frequency": "DEFAULT",
-  "show_music_toast": false,
+  "music_frequency": "FREQUENT",
+  "show_music_toast": true,
   "disable_faucet_source_blocks": false,
   "better_jukeboxes": true,
   "jukebox_distance": 64.0,
@@ -55,6 +55,9 @@
   "weather_changing": true,
   "gloomy_runing": true,
   "safe_ender_pearls": true,
+  "salt_generator": true,
+  "corundum_generators": true,
+  "info_tooltips": false,
   "infested_spawn_chance": 0.1,
   "fishing_line_patterns": {
     "LGBTQ+": [
@@ -217,5 +220,6 @@
       "#FFD9C6",
       "#454545"
     ]
-  }
+  },
+  "greatblade_slash_damage_bonus": 0
 }

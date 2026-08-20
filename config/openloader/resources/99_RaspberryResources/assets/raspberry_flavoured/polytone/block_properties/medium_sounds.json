@@ -1,6 +1,7 @@
 {
    "targets": [
-   "supplementaries:crank"
+   "supplementaries:crank",
+   "brewinandchewin:item_coaster"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.small.break",

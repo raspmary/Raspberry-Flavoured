@@ -1,7 +1,9 @@
 {
-	"offsetNonPlayerText": true,
+	"renderPosition": "BEFORE_NAME",
+	"offsetNonPlayerText": false,
 	"senderDetection": "UUID_AND_HEURISTIC",
 	"smartHeuristics": true,
 	"handleSystemMessages": true,
+	"drawShadow": true,
 	"nameAliases": { }
 }

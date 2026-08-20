@@ -33,11 +33,11 @@
 	glow_lights = true
 	candy_cane = true
 	ginger = true
-	eggnog = true
+	eggnog = false
 	wreath = true
-	snow_globe = true
+	snow_globe = false
 	#Only make sense to turn off with both ginger and gumdrops off
-	gingerbread_golem = true
+	gingerbread_golem = false
 
 [sleds]
 	enabled = true

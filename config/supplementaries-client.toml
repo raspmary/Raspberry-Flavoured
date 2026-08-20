@@ -176,7 +176,7 @@
 		#Colors tall grass same color as grass
 		tall_grass_color = true
 		#Disable color caching. Can affect map update time
-		accurate_colors = false
+		accurate_colors = true
 
 [items]
 

@@ -47,7 +47,6 @@ ItemEvents.entityInteracted('kubejs:copper_brush', (event => {
 		// brushing for feathers
         if (entity.entityType.tags.anyMatch((tag) => tag.location() == 'raspberry_flavoured:feather_brushable')) {
             entity.persistentData.brushCooldown = featherBrushCooldown
-			// add feather particle
 			itemEntity.item = ('minecraft:feather')
         }
 		

@@ -49,7 +49,7 @@ ServerEvents.tags('item', event => {
 
 	event.get('raspberry_flavoured:netherite_repair_materials')
 		.add('minecraft:netherite_ingot')
-		.add('minecraft:diamond_block')
+		.add('modestmining:diamond_plating')
 		.add('kubejs:stardust')
 
 	event.get('raspberry_flavoured:leather_repair_materials')
@@ -143,15 +143,19 @@ ServerEvents.tags('item', event => {
 
 	event.get('raspberry_flavoured:necromium_repair_materials')
 		.add('caverns_and_chasms:necromium_ingot')
-		.add('minecraft:diamond_block')
+		.add('modestmining:diamond_plating')
 		.add('kubejs:stardust')
 
 	event.get('raspberry_flavoured:electrum_repair_materials')
 		.add('oreganized:electrum_ingot')
-		.add('minecraft:diamond_block')
+		.add('modestmining:diamond_plating')
 		.add('kubejs:stardust')
 
 	event.get('raspberry_flavoured:echo_repair_materials')
 		.add('minecraft:echo_shard')
+		.add('kubejs:stardust')
+
+	event.get('raspberry_flavoured:ancient_sword_repair_materials')
+		.add('kubejs:withered_bone_pile')
 		.add('kubejs:stardust')
 })

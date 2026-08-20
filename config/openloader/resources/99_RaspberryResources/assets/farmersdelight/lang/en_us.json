@@ -1,7 +1,7 @@
 {
   "farmersdelight.jei.info.straw": "Dry plant fiber used in crafting. Obtained by cutting grassy crops and plants with any Knife.",
-  "farmersdelight.jei.info.knife": "Knives are lightweight melee weapons, with fast swings and gentle damage. They can harvest straw from grasses, and guarantee secondary drops from animals. In addition, they'll rarely cause certain mobs to drop their heads.",
-  "farmersdelight.jei.info.ham": "Large cut of meat from a Pig or Hoglin's leg. Need something lighter than a Sword to get one...",
+  "farmersdelight.jei.info.knife": "Knives are lightweight melee weapons, with fast swings and gentle damage. They can harvest Straw from grasses, and guarantee secondary drops from animals. They'll also rarely cause certain mobs to drop their heads.",
+  "farmersdelight.jei.info.ham": "Large cut of meat from a Pig or Hoglin's leg. Need something lighter than a Sword to get one.",
   "farmersdelight.jei.info.wild_cabbages": "Cabbages can be commonly found as a wild plant in Beaches.",
   "farmersdelight.jei.info.wild_beetroots": "Beetroot can be commonly found as a wild plant in Beaches.",
   "farmersdelight.jei.info.wild_onions": "Onions can be commonly found as a wild plant in Forests or Plains biomes.",
@@ -13,6 +13,7 @@
   
   "block.farmersdelight.stove": "Clay Stove",
   "block.farmersdelight.sandy_shrub": "Dry Grass",
+  "block.farmersdelight.wild_tomatoes": "Wild Tomatoes",
   "block.farmersdelight.brown_mushroom_colony": "Shiitake Colony",
   "block.farmersdelight.red_mushroom_colony": "Toadstool Colony",
   "block.farmersdelight.carrot_crate": "Crate of Carrots",

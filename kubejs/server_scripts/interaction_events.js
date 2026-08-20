@@ -83,14 +83,54 @@ ItemEvents.entityInteracted(event => {
 ItemEvents.entityInteracted(event => {
     if (event.item.hasTag('caverns_and_chasms:glare_food') && event.target.type === "caverns_and_chasms:glare") {
         event.level.spawnParticles('minecraft:end_rod', true, event.target.x, event.target.y+0.5, event.target.z, 0.2, 0.2, 0.2, Math.floor(Math.random() * (18 - 9 + 1) + 9), 0.15)
-		if (event.item.id === 'minecraft:glow_berries') {
+		// 30s to 1m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_1')) {
 			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (1200 - 600 + 1) + 600), 0, true, false)
 		}
-		if (event.item.id === 'naturalist:glow_goop') {
-			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (2400 - 1200 + 1) + 1200), 0, true, false)
+		// 1.5m to 2m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_2')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (2400 - 1800 + 1) + 1800), 0, true, false)
 		}
-		if (event.item.id === 'nethersdelight:propelpearl') {
-			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (3600 - 2400 + 1) + 2400), 0, true, false)
+		// 2.5m to 3m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_3')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (3600 - 3000 + 1) + 3000), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'sullysmod:cave_chum_bucket') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:bucket')
+				})
+			}
+			if (!event.player.isCreative() && event.item.id === 'miners_delight:improvised_barbecue_stick') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:stick')
+				})
+			}
+		}
+		// 3.5m to 4m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_4')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (4800 - 4200 + 1) + 4200), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'berry_good:glowgurt') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:bowl')
+				})
+			}
+		}
+		// 4.5m to 5m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_5')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (6000 - 5400 + 1) + 5400), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'farmersdelight:glow_berry_custard') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:glass_bottle')
+				})
+			}
+		}
+		// 5.5m to 6m
+		if (event.item.hasTag('raspberry_flavoured:glare_food_tier_6')) {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (7200 - 6600 + 1) + 6600), 0, true, false)
+			if (!event.player.isCreative() && event.item.id === 'kubejs:glow_ink_pasta') {
+				event.server.schedule(1, callback => {
+					event.player.giveInHand('minecraft:bowl')
+				})
+			}
 		}
     }
 })

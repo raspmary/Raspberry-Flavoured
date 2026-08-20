@@ -14,8 +14,12 @@
   "block.spelunkery.rough_quartz_block": "Block of Rough Quartz",
   "block.spelunkery.magnetite": "Magnetite",
   "block.spelunkery.rough_lazurite_block": "Lazurite",
+  "block.spelunkery.rough_emerald_block": "Block of Rough Amethyst",
   "item.spelunkery.magnetite_chunk": "Magnetite Chunk",
   "item.spelunkery.raw_magnetite_nugget": "Magnetite Nugget",
+  "item.spelunkery.rough_emerald": "Rough Amethyst",
+  "item.spelunkery.rough_emerald_shard": "Rough Amethyst Shard",
+  "item.spelunkery.emerald_shard": "Amethyst Shard",
   
   "item.spelunkery.portal_fluid_bottle": "Bottle of Liquefied Lachryte",
   "item.spelunkery.portal_fluid_bucket": "Bucket of Liquefied Lachryte",

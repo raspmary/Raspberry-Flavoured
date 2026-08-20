@@ -1,18 +1,18 @@
 {
   "target": "#raspberry_flavoured:skeletons",
   "presets": {
-    "chance": 0.01,
+    "chance": 0.015,
     "list": [
       {
-        "weight": 3,
+        "weight": 5,
         "id": "kubejs:rose_gold_skeleton"
       },
       {
-        "weight": 3,
+        "weight": 4,
         "id": "kubejs:lachryte_skeleton"
       },
       {
-        "weight": 2,
+        "weight": 3,
         "id": "kubejs:blinding_skeleton"
       },
       {

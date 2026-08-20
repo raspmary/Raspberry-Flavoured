@@ -4,16 +4,8 @@
 	  "override": true,
       "items": [
         {
-          "id": "minecraft:iron_sword",
-          "weight": 8
-        },
-        {
-          "id": "minecraft:golden_sword",
-          "weight": 5
-        },
-        {
-          "id": "alloyed:steel_sword",
-          "weight": 2
+          "id": "additionaladditions:gilded_netherite_sword",
+          "weight": 10
         },
         {
           "id": "minecraft:bow",

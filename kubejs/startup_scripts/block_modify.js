@@ -194,6 +194,13 @@ BlockEvents.modification(event => {
 	breakFast('storagedrawers:oak_full_drawers_1', 3)
 	breakFast('storagedrawers:controller', 3)
 	breakFast('architects_palette:charcoal_block', 3)
+	breakFast('quark:red_corundum_cluster', 1)
+	breakFast('quark:blue_corundum_cluster', 1)
+	breakFast('quark:indigo_corundum_cluster', 1)
+	breakFast('quark:white_corundum_cluster', 1)
+	breakFast('quark:paper_wall', 0.3)
+	breakFast('quark:paper_wall_big', 0.3)
+	breakFast('quark:paper_wall_sakura', 0.3)
 	
 	breakFast('minecraft:obsidian', 15)
 	breakFast('minecraft:crying_obsidian', 15)
@@ -362,6 +369,12 @@ BlockEvents.modification(event => {
 	howExplode('storagedrawers:controller', 1200)
 	howExplode('architects_palette:charcoal_block', 3)
 	howExplode('architects_palette:unobtanium_block', 600)
+	howExplode('architects_palette:heliodor_rod', 600)
+	howExplode('architects_palette:ekanite_rod', 600)
+	howExplode('architects_palette:monazite_rod', 600)
+	howExplode('quark:paper_wall', 0.3)
+	howExplode('quark:paper_wall_big', 0.3)
+	howExplode('quark:paper_wall_sakura', 0.3)
 	
 // Set exolite blocks' destroy speed
 	event.modify([

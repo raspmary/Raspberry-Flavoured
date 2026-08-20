@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "kubejs:block/feldspar_bricks",
+    "side": "kubejs:block/feldspar_bricks",
+    "top": "kubejs:block/feldspar_bricks"
+  }
+}

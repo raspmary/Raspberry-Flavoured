@@ -2,15 +2,15 @@
   "values": [
     {
       "item": "minecraft:copper_ingot",
-      "range": 0
+      "range": 15
     },
     {
       "item": "create:polished_rose_quartz",
       "range": 15
     },
     {
-      "item": "minecraft:amethyst_shard",
-      "range": 15
+      "item": "minecraft:emerald",
+      "range": 30
     },
     {
       "item": "spelunkery:cinnabar",

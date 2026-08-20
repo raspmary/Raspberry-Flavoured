@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'kubejs:cyclic_tablet'}})
 	// Enduring
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
-	{tag: 'raspberry_flavoured:golden_healers'}, {item: 'environmental:truffle'}, {item: 'environmental:truffle'}
+	{tag: 'raspberry_flavoured:golden_healers'}, {item: 'environmental:truffle'}, {item: 'heart_crystals:heart_crystal_shard'}
 	], result: {item: 'kubejs:enduring_tablet'}})
 	// Everlasting
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'kubejs:everlasting_tablet'}})
 	// Flinging
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
-	{item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}
+	{item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}, {tag: 'forge:ingots/rose_gold'}
 	], result: {item: 'kubejs:flinging_tablet'}})
 	// Glacial
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'kubejs:pulling_tablet'}})
 	// Recollection
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
-	{item: 'minecraft:ghast_tear'}, {item: 'minecraft:ghast_tear'}, {item: 'minecraft:ghast_tear'}
+	{item: 'minecraft:ghast_tear'}, {item: 'minecraft:ghast_tear'}, {item: 'minecraft:chorus_fruit'}, {item: 'minecraft:chorus_fruit'}
 	], result: {item: 'kubejs:recollection_tablet'}})
 	// Silent
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'kubejs:silent_tablet'}})
 	// Swift
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
-	{item: 'create:golden_sheet'}, {item: 'create:golden_sheet'}, {item: 'create:golden_sheet'}, {item: 'create:golden_sheet'}, {item: 'create:golden_sheet'}, {item: 'create:golden_sheet'}
+	{item: 'create:golden_sheet'}, {item: 'create:golden_sheet'}, {tag: 'forge:gems/diamond'}, {tag: 'forge:gems/diamond'}
 	], result: {item: 'kubejs:swift_tablet'}})
 	
 // Relics
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'savage_and_ravage:wand_of_freezing'}})
 	// Tome
 	event.custom({type: 'modestmagic:infusing', base: {item: 'quark:soul_bead'}, ingredients: [
-	{item: 'kubejs:paper_block'},
+	{item: 'minecraft:book'},
 	{item: 'upgrade_aquatic:tooth_block'},
 	{item: 'minecraft:phantom_membrane'}, {item: 'minecraft:phantom_membrane'}, {item: 'minecraft:phantom_membrane'}
 	], result: {item: 'savage_and_ravage:conch_of_conjuring'}})
@@ -97,15 +97,63 @@ ServerEvents.recipes(event => {
 	{item: 'minecraft:ender_pearl'}, {item: 'minecraft:ender_pearl'}, {item: 'minecraft:ender_pearl'}
 	], result: {item: 'savage_and_ravage:mask_of_dishonesty'}})
 	
+// Heads
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{item: 'architects_palette:rotten_flesh_block'}, {item: 'architects_palette:rotten_flesh_block'}, {item: 'architects_palette:rotten_flesh_block'}, {item: 'architects_palette:rotten_flesh_block'}
+	], result: {item: 'minecraft:zombie_head'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{item: 'savage_and_ravage:creeper_spore_sack'}, {item: 'savage_and_ravage:creeper_spore_sack'}, {item: 'savage_and_ravage:creeper_spore_sack'}, {item: 'savage_and_ravage:creeper_spore_sack'}
+	], result: {item: 'minecraft:creeper_head'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{item: 'kubejs:bone_pile'}, {item: 'kubejs:bone_pile'}, {item: 'kubejs:bone_pile'}, {item: 'kubejs:bone_pile'}
+	], result: {item: 'minecraft:skeleton_skull'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{item: 'kubejs:withered_bone_pile'}, {item: 'kubejs:withered_bone_pile'}, {item: 'kubejs:withered_bone_pile'}, {item: 'kubejs:withered_bone_pile'}
+	], result: {item: 'minecraft:wither_skeleton_skull'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{item: 'architects_palette:ender_pearl_block'}, {item: 'architects_palette:ender_pearl_block'}, {item: 'architects_palette:ender_pearl_block'}, {item: 'architects_palette:ender_pearl_block'}
+	], result: {item: 'supplementaries:enderman_head'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{tag: 'forge:storage_blocks/emerald'}, {tag: 'forge:storage_blocks/emerald'}, {tag: 'forge:storage_blocks/emerald'}, {tag: 'forge:storage_blocks/emerald'}
+	], result: {item: 'caverns_and_chasms:mime_head'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{item: 'quark:gunpowder_sack'}, {item: 'quark:gunpowder_sack'}, {item: 'quark:gunpowder_sack'}, {item: 'quark:gunpowder_sack'}, {item: 'kubejs:deposit'}, {item: 'kubejs:deposit'}
+	], result: {item: 'caverns_and_chasms:deeper_head'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'raspberry_flavoured:soul_blocks'}, ingredients: [
+	{item: 'quark:gunpowder_sack'}, {item: 'quark:gunpowder_sack'}, {item: 'quark:gunpowder_sack'}, {item: 'quark:gunpowder_sack'}, {item: 'kubejs:deepslate_deposit'}, {item: 'kubejs:deepslate_deposit'}
+	], result: {item: 'caverns_and_chasms:peeper_head'}})
+	
+// Other
+	event.custom({type: 'modestmagic:infusing', base: {item: 'minecraft:echo_shard'}, ingredients: [
+	{item: 'minecraft:sculk'}, {item: 'minecraft:sculk'}, {item: 'minecraft:sculk'},
+	{item: 'minecraft:sculk_vein'}, {item: 'minecraft:sculk_vein'}, {item: 'minecraft:sculk_vein'}
+	], result: {item: 'minecraft:sculk_sensor'}})
+	event.custom({type: 'modestmagic:infusing', base: {item: 'minecraft:echo_shard'}, ingredients: [
+	{item: 'minecraft:sculk'}, {item: 'minecraft:sculk'}, {item: 'minecraft:sculk'},
+	{item: 'minecraft:sculk_vein'}, {item: 'minecraft:sculk_vein'}, {item: 'minecraft:sculk_vein'},
+	{tag: 'forge:storage_blocks/bone'}, {tag: 'forge:storage_blocks/bone'}, {tag: 'forge:storage_blocks/bone'}
+	], result: {item: 'minecraft:sculk_catalyst'}})
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'forge:gems/diamond'}, ingredients: [
+	{item: 'minecraft:sculk'}, {item: 'minecraft:sculk'}, {item: 'minecraft:sculk'},
+	{item: 'minecraft:sculk'}, {item: 'minecraft:sculk'}, {item: 'minecraft:sculk'}
+	], result: {item: 'minecraft:echo_shard'}})
+	
+	event.custom({type: 'modestmagic:infusing', base: {tag: 'forge:gems/diamond'}, ingredients: [
+	{item: 'heart_crystals:heart_crystal_shard'}, {item: 'heart_crystals:heart_crystal_shard'}, {item: 'heart_crystals:heart_crystal_shard'},
+	{item: 'heart_crystals:heart_crystal_shard'}, {item: 'heart_crystals:heart_crystal_shard'}, {item: 'heart_crystals:heart_crystal_shard'}
+	], result: {item: 'heart_crystals:heart_crystal'}}).id('heart_crystals:heart_crystal')
+	
 // Summoning
 	// Summon slime
-//	event.custom({type: 'modestmagic:summoning', base: {item: 'savage_and_ravage:conch_of_conjuring'}, ingredients: [
-//	{item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}
-//	], consume_base: false, durability_taken: 100, result_entity: 'minecraft:slime'})
+	event.custom({type: 'modestmagic:summoning', base: {item: 'savage_and_ravage:conch_of_conjuring'}, ingredients: [
+	{item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}, 
+	{item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}
+	], consume_base: false, durability_taken: 100, result_entity: 'minecraft:slime', entity_nbt: {Size: 1}})
 	// Summon magma cube
-//	event.custom({type: 'modestmagic:summoning', base: {item: 'savage_and_ravage:conch_of_conjuring'}, ingredients: [
-//	{item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}
-//	], consume_base: false, durability_taken: 100, result_entity: 'minecraft:magma_cube'})
+	event.custom({type: 'modestmagic:summoning', base: {item: 'savage_and_ravage:conch_of_conjuring'}, ingredients: [
+	{item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, 
+	{item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}
+	], consume_base: false, durability_taken: 100, result_entity: 'minecraft:magma_cube', entity_nbt: {Size: 1}})
 	
 	// Summon item
 	// event.custom({type: 'modestmagic:summoning', base: {item: 'savage_and_ravage:conch_of_conjuring'}, ingredients: [

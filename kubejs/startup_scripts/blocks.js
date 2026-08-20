@@ -17,6 +17,10 @@ StartupEvents.registry('block', event => {
 	event.create('warped_fungus_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
 	event.create('choral_fungus_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
 	
+	event.create('worm_crate').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('golden_worm_crate').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('grub_crate').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	
 	event.create('paper_block').soundType('wool').hardness(0.1).resistance(0.1).item(item => {item.group('building_blocks')})
 	
 	event.create('lead_ore').soundType('stone').hardness(3).resistance(1200).tagBlock('minecraft:mineable/pickaxe').requiresTool(true).item(item => {item.group('building_blocks')})
@@ -30,6 +34,10 @@ StartupEvents.registry('block', event => {
 	event.create('rose_gold_block').soundType('metal').hardness(3).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
 	
 	event.create('polished_steel').soundType('netherite_block').hardness(5).resistance(14).requiresTool(true).item(item => {item.group('building_blocks')})
+	
+	event.create('diamond_plating_block').soundType('metal').hardness(5).resistance(12).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('diamond_plating_stairs', 'stairs').soundType('metal').hardness(5).resistance(12).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('diamond_plating_slab', 'slab').soundType('metal').hardness(5).resistance(12).requiresTool(true).item(item => {item.group('building_blocks')})
 	
 	event.create('smooth_stone_stairs', 'stairs').soundType('stone').hardness(2).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
 	event.create('smooth_stone_wall', 'wall').soundType('stone').hardness(2).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
@@ -48,6 +56,28 @@ StartupEvents.registry('block', event => {
 	event.create('exolite').soundType('netherrack').hardness(2).resistance(9).tagBlock('minecraft:mineable/pickaxe').requiresTool(true).item(item => {item.group('building_blocks')})
 	event.create('chiseled_exolite').soundType('netherrack').hardness(2).resistance(9).tagBlock('minecraft:mineable/pickaxe').requiresTool(true).item(item => {item.group('building_blocks')})
 	event.create('chiseled_exolite_tiles').soundType('deepslate_tiles').hardness(2).resistance(9).tagBlock('minecraft:mineable/pickaxe').requiresTool(true).item(item => {item.group('building_blocks')})
+	
+	event.create('oraclestone').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('oraclestone_slab', 'slab').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('oraclestone_stairs', 'stairs').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('oraclestone_wall', 'wall').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	
+	event.create('celestone').soundType('basalt').hardness(1.25).resistance(4.2).requiresTool(true).item(item => {item.group('building_blocks')})
+	
+	event.create('feldspar_block').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('feldspar_slab', 'slab').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('feldspar_stairs', 'stairs').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('feldspar_wall', 'wall').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	
+	event.create('polished_feldspar').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('polished_feldspar_slab', 'slab').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('polished_feldspar_stairs', 'stairs').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('polished_feldspar_wall', 'wall').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	
+	event.create('feldspar_bricks').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('feldspar_brick_slab', 'slab').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('feldspar_brick_stairs', 'stairs').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('feldspar_brick_wall', 'wall').soundType('stone').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
 	
 	event.create('lachryte').soundType('shroomlight').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
 	event.create('lachryte_slab', 'slab').soundType('shroomlight').hardness(1.5).resistance(6).requiresTool(true).item(item => {item.group('building_blocks')})
@@ -254,7 +284,7 @@ StartupEvents.registry('block', event => {
 	.soundType('wood')
 	.hardness(2).resistance(3)
 	.steppedOn(event => {
-		if (event.entity.isCrouching()) return
+		if (event.entity.isCrouching() || !event.entity.isLiving()) return
 		event.entity.attack(DamageSource.HOT_FLOOR, 1)
 	})
 

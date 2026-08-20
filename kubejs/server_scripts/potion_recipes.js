@@ -18,13 +18,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:invisibility"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'3x amethyst_shard', '3x #forge:gems/quartz'
-	]).heated()
-	// Jump boost
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"minecraft:leaping"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'kubejs:rubber', 'slime_ball'
+		'3x #forge:gems/amethyst', '3x #forge:gems/quartz'
 	]).heated()
 	// Fire resistance
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -72,19 +66,19 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"caverns_and_chasms:rewind"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x architects_palette:twisted_sapling', 'ender_pearl'
+		'architects_palette:twisted_sapling', '2x chorus_fruit'
 	]).heated()
 	// Health boost
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"environmental:vitality"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x environmental:truffle'
+		'2x environmental:truffle', 'heart_crystals:heart_crystal_shard'
 	]).heated()
 	// Restfulness
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"upgrade_aquatic:restfulness"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'#minecraft:cocoa_beans_or_powder', 'kubejs:oats'
+		'kubejs:cinnamon', 'kubejs:oats'
 	]).heated()
 	// Repellence
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -195,6 +189,12 @@ ServerEvents.recipes(event => {
 		Potion:"minecraft:water_breathing"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'scute', '4x upgrade_aquatic:purple_pickerelweed'
+	]).heated()
+	// Slime Rancher
+	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
+		Potion:"minecraft:leaping"
+	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
+		'kubejs:rubber', '3x slime_ball', '2x beetroot'
 	]).heated()
 
 	const allPotions = [

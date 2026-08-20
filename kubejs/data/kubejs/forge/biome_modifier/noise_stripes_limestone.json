@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#raspberry_flavoured:limestone_stripes_biomes",
+  "features": [
+    "kubejs:noise_stripes_limestone"
+  ],
+  "step": "raw_generation"
+}

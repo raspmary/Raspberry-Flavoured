@@ -3,9 +3,9 @@
     "target": "com.baisylia.modestmining.screen.ForgeMenu",
     "slot_modifiers": [
     {
-      "slots": "0->35",
+      "slots": "11->46",
       "x_offset": 0,
-      "y_offset": -3
+      "y_offset": -1
     }
   ]
 }

@@ -322,5 +322,9 @@
   "quark:music/glimmering_weald": {
     "title": "Glimmer",
     "author": "LudoCrypt"
+  },
+  "minecraft:music/game/sevensuns": {
+    "title": "Sunset of Seven Suns",
+    "author": "oniflora"
   }
 }
