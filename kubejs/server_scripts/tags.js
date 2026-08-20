@@ -5801,7 +5801,7 @@ ServerEvents.tags('mob_effect', event => {
 		.add('minecraft:luck')
 		.add('minecraft:unluck')
 		.add('brewinandchewin:tipsy')
-		.add('brewinandchewin:satisfaction')
+		.add('raspberry:satisfaction')
 		.add('friendsandfoes:reach')
 		.add('modestmining:prismarite_speed')
 		.add('modestmining:prismarite_strength')

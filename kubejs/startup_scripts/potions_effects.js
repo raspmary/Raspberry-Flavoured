@@ -1,26 +1,31 @@
 // priority: 0
 
-const $EntityDamageSource = Java.loadClass(`net.minecraft.world.damagesource.EntityDamageSource`);
+// const $EntityDamageSource = Java.loadClass(`net.minecraft.world.damagesource.EntityDamageSource`);
 
 StartupEvents.registry('mob_effect', event => {
-	event.create('coughing')
-		.effectTick((entity, lvl) => global.coughingEffect(entity, lvl))
-		.color('#0')
-		.harmful();
+	// event.create('coughing')
+		// .effectTick((entity, lvl) => global.coughingEffect(entity, lvl))
+		// .color('#0')
+		// .harmful();
 	event.create('satiation')
 		.effectTick((entity, lvl) => global.foodRegenEffect(entity, lvl))
 		.color('#0')
 		.beneficial();
+//	event.create('infested')
+//		.color('#869386')
+//		.harmful();
+})
 
-global.coughingEffect = (entity, lvl) => {
-	let coughingDamage = new $EntityDamageSource('coughing', entity)
-	if (entity.level.clientSide) return
-	entity.attack(coughingDamage, lvl + 1)
-}
+// global.coughingEffect = (entity, lvl) => {
+// 	let coughingDamage = new $EntityDamageSource('coughing', entity)
+// 	if (entity.level.clientSide) return
+// 	entity.attack(coughingDamage, lvl + 1)
+// }
 
 global.foodRegenEffect = (entity, lvl) => {
 	if (entity.age % 200 || !entity.isPlayer()) return
     const entityFood = entity.getFoodLevel() 
+    const regenAmount = lvl + 1
 	if (entityFood == 20) {
 		entity.addFood(regenAmount, (regenAmount / (regenAmount * 2)))
 	} else {

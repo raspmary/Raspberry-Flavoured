@@ -713,7 +713,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('brewinandchewin:kimchi', item => {
         item.foodProperties = food => {
-            food.removeEffect('brewinandchewin:satisfaction')
+            food.removeEffect('raspberry:satisfaction')
         }
     })
 	event.modify('create:blaze_cake', item => {
@@ -1469,7 +1469,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('brewinandchewin:kombucha', item => {
         item.foodProperties = food => {
-            food.removeEffect('haste').removeEffect('brewinandchewin:satisfaction').effect('windswept:thorns', 2400, 1, 1).effect('respiteful:maturity', 2400, 0, 1).alwaysEdible()
+            food.removeEffect('haste').removeEffect('raspberry:satisfaction').effect('windswept:thorns', 2400, 1, 1).effect('respiteful:maturity', 2400, 0, 1).alwaysEdible()
         }
     })
 	event.modify('brewinandchewin:mead', item => {
@@ -1484,12 +1484,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('brewinandchewin:rice_wine', item => {
         item.foodProperties = food => {
-            food.removeEffect('brewinandchewin:satisfaction').effect('farmersdelight:comfort', 2400, 0, 1).alwaysEdible()
+            food.removeEffect('raspberry:satisfaction').effect('farmersdelight:comfort', 2400, 0, 1).alwaysEdible()
         }
     })
 	event.modify('brewinandchewin:pale_jane', item => {
         item.foodProperties = food => {
-            food.removeEffect('brewinandchewin:satisfaction').effect('farmersdelight:comfort', 14400, 0, 1).effect('poison', 600, 0, 0.1).alwaysEdible()
+            food.removeEffect('raspberry:satisfaction').effect('farmersdelight:comfort', 14400, 0, 1).effect('poison', 600, 0, 0.1).alwaysEdible()
         }
     })
 	

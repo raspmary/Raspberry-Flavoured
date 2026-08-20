@@ -90,21 +90,6 @@
     },
     {
       "block": [
-        "heart_crystals:heart_crystal",
-        "heart_crystals:heart_crystal_shard",
-        "heart_crystals:heart_lantern"
-      ],
-      "particle": {
-        "type": "visuality:sparkle",
-        "value": [
-          1,
-          0.75686274,
-          0.86666666
-        ]
-      }
-    },
-    {
-      "block": [
         "minecraft:magma_block",
         "kubejs:heating_cask",
         "architects_palette:molten_nether_bricks"
