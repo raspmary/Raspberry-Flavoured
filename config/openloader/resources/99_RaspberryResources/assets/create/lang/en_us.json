@@ -238,6 +238,9 @@
 	"block.create.brass_door": "Brass Casing Door",
 	"block.create.train_door": "Train Casing Door",
 	"block.create.train_trapdoor": "Train Casing Trapdoor",
+	"block.create.ornate_iron_window": "Ornate Window",
+	"block.create.ornate_iron_window_pane": "Ornate Window Pane",
+	
 	"item.create.sturdy_sheet": "Tough Sheet",
 	"item.create.blaze_cake": "Blaze Tart",
 	"item.create.creative_blaze_cake": "Creative Blaze Tart",
@@ -257,8 +260,11 @@
 	"item.create.wrench.tooltip.behaviour2": "Only in _Creative_ _Mode_, can _relocate_ assembled minecart and train-based contraptions.",
 	"item.create.builders_tea.tooltip.summary": "The perfect drink to get the day started - _motivating_ and _saturating!_ Grants the _Haste_ effect for _3 minutes_ and _restores_ a little bit of the _food bar_.",
 	
-	"block.create.industrial_iron_block": "Metal Block",
-	"create.ponder.chute.text_3": "Using Metal Blocks, chutes can be encased",
+	"block.create.industrial_iron_block": "Industrial Metal",
+	"create.ponder.chute.text_3": "Using Industrial Metal, chutes can be encased",
+	
+	"block.create.metal_girder": "Industrial Girder",
+	"block.create.metal_bracket": "Industrial Bracket",
 	
 	"item.create.andesite_alloy": "Sturdy Alloy",
 	"block.create.andesite_alloy_block": "Block of Sturdy Alloy",

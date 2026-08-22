@@ -22,6 +22,7 @@ StartupEvents.registry('item', event => {
 	event.create('feldspar').group('misc')
 	event.create('pulp').group('misc')
 	event.create('bone_powder').group('misc')
+	event.create('lead_sheet').group('misc')
 	
 	event.create('golden_worm').rarity('uncommon').group('misc')
 	event.create('stardust').glow(true).rarity('rare').group('misc')

@@ -3807,7 +3807,11 @@ ServerEvents.recipes(event => {
 	"hnh:shoji_panel",
 	"quark:building/crafting/panes/paper_wall",
 	"savage_and_ravage:blast_proof_plates",
-	"caverns_and_chasms:sanguine_plates"
+	"caverns_and_chasms:sanguine_plates",
+	"hnh:stone_column",
+	"hnh:calcite_column",
+	"hnh:quartz_column",
+	"minecraft:quartz_pillar"
 	]
     
     removedIds.forEach(removedId => {
@@ -4128,5 +4132,6 @@ ServerEvents.recipes(event => {
 	event.remove({output: "#hnh:trims", input: "#minecraft:logs"})
 	event.remove({mod: "modestmagic"})
 	event.remove({mod: "modestmining"})
+	event.remove({mod: "design_decor"})
 	event.remove({mod: "vc_gliders"})
 })

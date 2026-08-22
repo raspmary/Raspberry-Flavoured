@@ -1,8 +1,8 @@
 // priority: 0
 
 KeyBindEvents.modify(event => {
-//	event.remove('Reload Menu | CTRL + ALT + ');
-//	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
+	event.remove('Reload Menu | CTRL + ALT + ');
+	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
 	
 	event.remove('key.jei.nextCategory');
 	event.remove('key.jei.showRecipe2');
@@ -71,6 +71,7 @@ KeyBindEvents.modify(event => {
 	event.remove('key.jade.show_uses');
 	event.remove('key.jade.narrate');
 	event.remove('key.immersiveoverlays.toggle');
+	event.remove('treeliable.key.cycle_sneak_behavior');
 	
 	event.modifyCategory('quark.keybind.autorun', 'key.categories.movement');
 	
@@ -89,6 +90,7 @@ KeyBindEvents.modify(event => {
 	event.modifyCategory('key.scholar.toggle_book_tools', 'key.categories.gameplay');
 	event.modifyCategory('key.scholar.import_book', 'key.categories.gameplay');
 	event.modifyCategory('key.scholar.export_book', 'key.categories.gameplay');
+	event.modifyCategory('treeliable.key.toggle_chopping', 'key.categories.gameplay');
 	
 	event.modifyCategory('create.keyinfo.ponder', 'key.categories.inventory');
 	event.modifyCategory('quark.keybind.sort_player', 'key.categories.inventory');

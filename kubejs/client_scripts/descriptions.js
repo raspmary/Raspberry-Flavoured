@@ -75,6 +75,7 @@ const keysToItems = {
     'rf.jei.aloe': ['atmospheric:aloe_leaves', 'atmospheric:aloe_bundle', 'atmospheric:aloe_kernels'],
     'rf.jei.prickly_pears': ['ecologics:prickly_pear', 'ecologics:cooked_prickly_pear', 'minecraft:cactus', 'quark:cactus_block'],
     'rf.jei.roses': '#windswept:roses',
+    'rf.jei.colonies': '#raspberry_flavoured:colonies',
 	
     'rf.jei.coal': ['#minecraft:coal_ores', 'minecraft:coal', 'minecraft:coal_block', 'spelunkery:coal_lump'],
     'rf.jei.iron': ['#minecraft:iron_ores', 'minecraft:raw_iron', 'minecraft:raw_iron_block', 'minecraft:iron_ingot', 'minecraft:iron_block', 'spelunkery:raw_iron_nugget', 'minecraft:iron_nugget'],
@@ -124,6 +125,8 @@ const keysToItems = {
     'rf.jei.piglin_curing': ['minecraft:zoglin_spawn_egg', 'minecraft:hoglin_spawn_egg', 'minecraft:zombified_piglin_spawn_egg', 'minecraft:piglin_spawn_egg', 'minecraft:piglin_brute_spawn_egg', 'piglinproliferation:piglin_alchemist_spawn_egg', 'minecraft:golden_apple'],
     'rf.jei.falling_bales': '#raspberry_flavoured:bales',
     'rf.jei.falling_feathers': 'supplementaries:feather_block',
+    'rf.jei.turtles': ['minecraft:scute', 'minecraft:turtle_egg'],
+    'rf.jei.snails': 'autumnity:snail_shell_piece',
 	
     'rf.jei.hoglin_hide': 'nethersdelight:hoglin_hide',
     'rf.jei.item_magnet': 'spelunkery:item_magnet',
@@ -140,6 +143,7 @@ const keysToItems = {
     'rf.jei.creeper_spores': 'savage_and_ravage:creeper_spores',
     'rf.jei.glow_goop': 'naturalist:glow_goop',
     'rf.jei.silverfish_eggs': 'miners_delight:silverfish_eggs',
+    'rf.jei.abacus': 'quark:abacus',
 	
     'rf.jei.compass': 'minecraft:compass',
     'rf.jei.recovery_compass': 'minecraft:recovery_compass',

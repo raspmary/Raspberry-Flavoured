@@ -1,9 +1,21 @@
 {
   "parent": "raspberry_flavoured:farming/harvest_honey",
   "criteria": {
-    "0": {
+    "Place down Clay Oven": {
       "conditions": {
         "block": "cookscollection:oven"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Silt Oven": {
+      "conditions": {
+        "block": "raspberry:silt_oven"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Ash Oven": {
+      "conditions": {
+        "block": "raspberry:ash_oven"
       },
       "trigger": "minecraft:placed_block"
     }
@@ -29,7 +41,9 @@
     },
   "requirements": [
     [
-      "0"
+      "Place down Clay Oven",
+	  "Place down Silt Oven",
+	  "Place down Ash Oven"
     ]
   ]
 }

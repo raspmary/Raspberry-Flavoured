@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:large_cogwheel"
+    },
+    {
+      "item": "create:industrial_iron_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "design_decor:industrial_gear_large"
+    }
+  ]
+}

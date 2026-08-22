@@ -1,6 +1,6 @@
 type = cached_variables
 
 variables {
-  importantmessage = false
+  importantmessage = true
 }
 

@@ -84,7 +84,8 @@
 	"create:rotation_speed_controller",
 	"sullysmod:jade_flinger_totem",
 	"supplementaries:turn_table",
-	"supplementaries:cog_block"
+	"supplementaries:cog_block",
+	"design_decor:ornate_grate"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.iron.break",

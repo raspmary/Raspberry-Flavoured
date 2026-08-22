@@ -92,6 +92,7 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:iron_ingot')
 		.add('create:iron_sheet')
 		.add('oreganized:lead_ingot')
+		.add('kubejs:lead_sheet')
 		.add('kubejs:stardust')
 		
 	event.get('raspberry_flavoured:chalk_repair_materials')

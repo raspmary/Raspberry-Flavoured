@@ -18,9 +18,9 @@
 
   "block.hnh.large_pot": "Large Pot",
 
-  "block.hnh.stone_column": "Stone Column",
-  "block.hnh.calcite_column": "Calcite Column",
-  "block.hnh.quartz_column": "Quartz Column",
+  "block.hnh.stone_column": "Stone Pillar",
+  "block.hnh.calcite_column": "Blackstone Pillar",
+  "block.hnh.quartz_column": "Quartz Pillar",
 
   "block.hnh.calcite_stairs": "Calcite Stairs",
   "block.hnh.calcite_slab": "Calcite Slab",

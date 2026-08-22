@@ -1,0 +1,7 @@
+{
+   "targets": [
+	"design_decor:diagonal_metal_support",
+	"raspberry:iron_stove"
+   ],
+   "sound_type": "netherite_block"
+}

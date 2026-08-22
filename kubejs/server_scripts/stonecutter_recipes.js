@@ -19,11 +19,25 @@ ServerEvents.recipes(event => {
 	event.stonecutting('autumnity:carved_large_pumpkin_slice', 'carved_pumpkin')
 	event.stonecutting('carved_pumpkin', 'autumnity:carved_large_pumpkin_slice')
 	
-	// Clear glass
+	// Turn glass into panes
 	Ingredient.of('#forge:glass').itemIds.forEach(id => {
 		if (id === 'minecraft:tinted_glass') return
 		event.stonecutting('3x ' + id + '_pane', id)
     })
+	
+	// Turn windows into panes
+	Ingredient.of('#raspberry_flavoured:windows').itemIds.forEach(id => {
+		event.stonecutting('3x ' + id + '_pane', id)
+    })
+	
+	// Turn shoji into panes
+	Ingredient.of('#raspberry_flavoured:shoji_panes').itemIds.forEach(id => {
+		event.stonecutting('3x ' + id, 'hnh:shoji')
+		event.stonecutting(id, '#raspberry_flavoured:shoji_panes')
+    })
+	
+	// Ice into panes
+	event.stonecutting('3x windswept:ice_sheet', '#raspberry_flavoured:ice')
 	
 	// Clear glass
 	Ingredient.of('#raspberry_flavoured:clear_glass').itemIds.forEach(id => {
@@ -33,24 +47,26 @@ ServerEvents.recipes(event => {
 		event.stonecutting(id, '#raspberry_flavoured:clear_glass_pane')
     })
 	
+	// Symbol plates
+	Ingredient.of('#raspberry_flavoured:symbol_plates').itemIds.forEach(id => {
+		event.stonecutting(id, '#raspberry_flavoured:symbol_plates')
+    })
+	
 	// Copycats
 	Ingredient.of('#raspberry_flavoured:copycat').itemIds.forEach(id => {
 		event.remove({input: id, type: 'minecraft:stonecutting'})
 		event.remove({output: id, type: 'minecraft:stonecutting'})
-		event.stonecutting('2x ' + id, '#forge:ingots/zinc')
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat')
     })
 	Ingredient.of('#raspberry_flavoured:copycat_half').itemIds.forEach(id => {
 		event.remove({input: id, type: 'minecraft:stonecutting'})
 		event.remove({output: id, type: 'minecraft:stonecutting'})
-		event.stonecutting('4x ' + id, '#forge:ingots/zinc')
 		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycat')
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_half')
     })
 	Ingredient.of('#raspberry_flavoured:copycat_quarter').itemIds.forEach(id => {
 		event.remove({input: id, type: 'minecraft:stonecutting'})
 		event.remove({output: id, type: 'minecraft:stonecutting'})
-		event.stonecutting('8x ' + id, '#forge:ingots/zinc')
 		event.stonecutting('4x ' + id, '#raspberry_flavoured:copycat')
 		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycat_half')
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_quarter')

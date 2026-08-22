@@ -1,0 +1,15 @@
+{
+   "targets": [
+	"create:ornate_iron_window",
+	"create:ornate_iron_window_pane"
+   ],
+   "sound_type": {
+      "break_sound": "minecraft:block.glass.break",
+	  "place_sound": "kubejs:sound.iron.place",
+      "hit_sound": "kubejs:sound.iron.hit",
+      "fall_sound": "kubejs:sound.iron.fall",
+      "step_sound": "kubejs:sound.iron.step",
+      "pitch": 1,
+      "volume": 1
+   } 
+}

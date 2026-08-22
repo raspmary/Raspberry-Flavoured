@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "twigs:block/blackstone_column_top",
+    "side": "hnh:block/column/calcite_bottom"
+  }
+}
