@@ -753,7 +753,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('abnormals_delight:perch_with_mushrooms', item => {
         item.foodProperties = food => {
-            food.hunger(11).saturation(0.7).removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('kubejs:satiation', 4800, 0, 1)
+            food.hunger(12).saturation(0.7).removeEffect('farmersdelight:comfort').removeEffect('farmersdelight:nourishment').effect('kubejs:satiation', 4800, 0, 1)
         }
     })
 	event.modify('abnormals_delight:pike_with_beetroot', item => {
@@ -929,7 +929,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('farmersdelight:vegetable_soup', item => {
         item.foodProperties = food => {
-            food.hunger(8).saturation(0.75).removeEffect('farmersdelight:comfort').effect('farmersdelight:comfort', 1200, 0, 1)
+            food.hunger(7).saturation(0.75).removeEffect('farmersdelight:comfort').effect('farmersdelight:comfort', 1200, 0, 1)
         }
     })
 	event.modify('minecraft:mushroom_stew', item => {
@@ -939,7 +939,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('farmersdelight:beef_stew', item => {
         item.foodProperties = food => {
-            food.hunger(10).removeEffect('farmersdelight:comfort').effect('farmersdelight:comfort', 3600, 0, 1)
+            food.hunger(9).removeEffect('farmersdelight:comfort').effect('farmersdelight:comfort', 3600, 0, 1)
         }
     })
 	event.modify('aquaculture:fish_fillet_cooked', item => {

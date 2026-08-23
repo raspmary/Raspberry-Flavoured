@@ -19,7 +19,7 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                    "max": 3.0,
+                    "max": 2.0,
                     "min": 1.0
                   },
                 "function": "minecraft:set_count"
@@ -43,7 +43,7 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                    "max": 3.0,
+                    "max": 2.0,
                     "min": 1.0
                   },
                 "function": "minecraft:set_count"
@@ -58,7 +58,7 @@
               {
                 "condition": "aquaculture:biome_tag_check",
                 "predicate": {
-                  "include": ["minecraft:is_jungle"]
+                  "include": ["forge:is_swamp"]
                 }
               }
             ],
@@ -67,7 +67,7 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                    "max": 3.0,
+                    "max": 2.0,
                     "min": 1.0
                   },
                 "function": "minecraft:set_count"
@@ -91,7 +91,7 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                    "max": 3.0,
+                    "max": 2.0,
                     "min": 1.0
                   },
                 "function": "minecraft:set_count"

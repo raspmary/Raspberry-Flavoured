@@ -222,6 +222,7 @@ ServerEvents.tags('item', event => {
 		.add('architects_palette:heavy_stone_bricks')
 		.add('architects_palette:heavy_cracked_stone_bricks')
 		.add('caverns_and_chasms:fragile_stone')
+		.add('hnh:stone_column')
 		.add('twigs:stone_column')
 		.add('modestmagic:pedestal')
 		
@@ -689,7 +690,7 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:smooth_quartz_stairs')
 		.add('minecraft:chiseled_quartz_block')
 		.add('minecraft:quartz_bricks')
-		.add('minecraft:quartz_pillar')
+		.add('hnh:quartz_column')
 		.add('twigs:quartz_column')
 		
 	event.get('raspberry_flavoured:quartz_half')
@@ -734,6 +735,7 @@ ServerEvents.tags('item', event => {
 		.add('quark:blackstone_bricks_stairs')
 		.add('supplementaries:blackstone_tile')
 		.add('supplementaries:blackstone_tile_stairs')
+		.add('hnh:calcite_column')
 		.add('twigs:blackstone_column')
 		
 	event.get('raspberry_flavoured:blackstone_half')

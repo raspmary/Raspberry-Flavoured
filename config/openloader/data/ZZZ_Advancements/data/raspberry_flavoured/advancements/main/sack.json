@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:main/root",
+  "parent": "raspberry_flavoured:main/crafting_table",
   "criteria": {
     "0": {
       "conditions": {

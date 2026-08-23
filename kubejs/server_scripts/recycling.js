@@ -361,6 +361,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['stick', Item.of('iron_nugget').withChance(0.1)], 'brewinandchewin:tankard')
 	event.recipes.create.milling(['2x blue_dye', '2x green_dye', '8x gold_nugget'], 'supplementaries:globe')
 	event.recipes.create.milling(['4x brown_dye', '8x gold_nugget'], 'supplementaries:globe_sepia')
+	event.recipes.create.milling(['10x oreganized:lead_nugget', '1x stick'], 'another_furniture:furniture_hammer')
 	
 	event.recipes.create.milling(['4x architects_palette:withered_bone', '6x kubejs:ancient_nugget'], 'additionaladditions:gilded_netherite_sword')
 	

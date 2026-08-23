@@ -191,7 +191,8 @@ to make editing this file much easier.
 			"ecologics:flowering_azalea_log": "ecologics:azalea_log",
 			"miners_delight:gossypium": "miners_delight:wild_cave_carrots",
 			"brewinandchewin:unripe_flaxen_cheese_wheel": "brewinandchewin:flaxen_cheese_wheel",
-			"brewinandchewin:unripe_scarlet_cheese_wheel": "brewinandchewin:scarlet_cheese_wheel",
+			"brewinandchewin:unripe_scarlet_cheese_wheel": "brewinandchewin:flaxen_cheese_wheel",
+			"brewinandchewin:scarlet_cheese_wheel": "brewinandchewin:flaxen_cheese_wheel",
 			"spelunkery:raw_nephrite": "minecraft:sculk",
 			"spelunkery:nephrite": "minecraft:sculk",
 			"minecraft:lapis_ore": "spelunkery:rough_lazurite_block",
@@ -343,8 +344,8 @@ to make editing this file much easier.
 			"minecraft:smoker": "minecraft:furnace",
 			"minecraft:blast_furnace": "minecraft:furnace",
 			"clayworks:kiln": "minecraft:furnace",
-			"nethersdelight:nether_brick_smoker": "quark:blackstone_furnace",
-			"nethersdelight:blackstone_blast_furnace": "quark:blackstone_furnace",
+			"nethersdelight:nether_brick_smoker": "minecraft:furnace",
+			"nethersdelight:blackstone_blast_furnace": "minecraft:furnace",
 			"atmospheric:aspen_log": "minecraft:birch_log",
 			"atmospheric:aspen_wood": "minecraft:birch_wood",
 			"atmospheric:stripped_aspen_log": "minecraft:stripped_birch_log",
@@ -498,6 +499,8 @@ to make editing this file much easier.
 			"supplementaries:checker_block": "hnh:black_tiles",
 			"quark:paper_lantern": "hnh:white_paper_lantern",
 			"quark:paper_lantern_sakura": "hnh:white_paper_lantern",
-			"modestmining:meteorite": "spelunkery:magnetite"
+			"modestmining:meteorite": "spelunkery:magnetite",
+			"quark:deepslate_furnace": "minecraft:furnace",
+			"quark:blackstone_furnace": "minecraft:furnace"
 	   	}
 }

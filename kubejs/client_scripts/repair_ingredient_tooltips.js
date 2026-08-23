@@ -34,11 +34,11 @@ ItemEvents.tooltip(event => {
     'minecraft:carrot_on_a_stick': 'item.minecraft.carrot',
     'minecraft:warped_fungus_on_a_stick': 'item.minecraft.warped_fungus',
     'minecraft:trident': 'item.minecraft.prismarine_shard, item.upgrade_aquatic.thrasher_tooth',
-    'another_furniture:furniture_hammer': 'item.minecraft.copper_ingot, item.create.copper_sheet',
-    'minecraft:brush': 'item.minecraft.feather',
+    'another_furniture:furniture_hammer': 'item.oreganized.lead_ingot, item.kubejs.lead_sheet',
+    'kubejs:copper_brush': 'item.minecraft.feather',
     'kubejs:copper_brush_wax': 'item.minecraft.honeycomb',
     'create:super_glue': 'item.minecraft.slime_ball',
-    'naturalist:bug_net': 'block.minecraft.bamboo, block.quark.bamboo_planks',
+    'naturalist:bug_net': 'rf.repair.planks',
     'supplementaries:flute': 'block.minecraft.bamboo, block.quark.bamboo_planks',
     'vc_gliders:paraglider_wood': 'block.create.white_sail, item.minecraft.phantom_membrane',
     'create:potato_cannon': 'item.minecraft.copper_ingot, item.create.copper_sheet',
@@ -109,10 +109,10 @@ ItemEvents.tooltip(event => {
     'minecraft:golden_leggings': 'item.minecraft.gold_ingot, item.create.golden_sheet',
     'minecraft:golden_boots': 'item.minecraft.gold_ingot, item.create.golden_sheet',
 	
-    'minecraft:copper_helmet': 'item.minecraft.copper_ingot, item.create.copper_sheet',
-    'minecraft:copper_chestplate': 'item.minecraft.copper_ingot, item.create.copper_sheet',
-    'minecraft:copper_leggings': 'item.minecraft.copper_ingot, item.create.copper_sheet',
-    'minecraft:copper_boots': 'item.minecraft.copper_ingot, item.create.copper_sheet',
+    'copperized:copper_helmet': 'item.minecraft.copper_ingot, item.create.copper_sheet',
+    'copperized:copper_chestplate': 'item.minecraft.copper_ingot, item.create.copper_sheet',
+    'copperized:copper_leggings': 'item.minecraft.copper_ingot, item.create.copper_sheet',
+    'copperized:copper_boots': 'item.minecraft.copper_ingot, item.create.copper_sheet',
     'create:copper_diving_boots': 'item.minecraft.copper_ingot, item.create.copper_sheet',
     'create:copper_diving_helmet': 'item.minecraft.copper_ingot, item.create.copper_sheet',
     'shieldexp:golden_shield': 'item.minecraft.copper_ingot, item.create.copper_sheet',
@@ -221,7 +221,7 @@ ItemEvents.tooltip(event => {
 	
     'autumnity:snail_shell_chestplate': 'item.autumnity.snail_shell_piece',
     'environmental:yak_pants': 'item.environmental.yak_hair',
-    'windswept:snow_boots': 'item.minecraft.iron_ingot, item.create.iron_sheet, item.oreganized.lead_ingot',
+    'windswept:snow_boots': 'item.minecraft.iron_ingot, item.create.iron_sheet, item.oreganized.lead_ingot, item.kubejs.lead_sheet',
 	
     'clash:spear': 'item.oreganized.electrum_ingot, item.modestmining.diamond_plating',
     'clash:swept_axe': 'item.minecraft.netherite_ingot, item.modestmining.diamond_plating',
@@ -229,7 +229,7 @@ ItemEvents.tooltip(event => {
     'kubejs:rose_gold_rapier': 'item.additionaladditions.rose_gold_alloy',
     'mace_backport:mace': 'item.alloyed.steel_ingot, item.alloyed.steel_sheet',
 	
-    'additionaladditions:gilded_netherite_sword': 'item.kubejs.withered_bone_pile'
+    'additionaladditions:gilded_netherite_sword': 'block.kubejs.withered_bone_pile'
     }
 
     Object.keys(repairableItems).forEach(itemID => {

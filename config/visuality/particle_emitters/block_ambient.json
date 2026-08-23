@@ -8,7 +8,10 @@
         "minecraft:diamond_ore",
         "minecraft:deepslate_diamond_ore",
         "spelunkery:rough_diamond_block",
-        "quark:blue_corundum_cluster"
+        "quark:blue_corundum_cluster",
+        "kubejs:diamond_plating_block",
+        "kubejs:diamond_plating_stairs",
+        "kubejs:diamond_plating_slab"
       ],
       "particle": {
         "type": "visuality:sparkle",

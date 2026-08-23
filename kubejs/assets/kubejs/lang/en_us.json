@@ -149,8 +149,8 @@
   "item.kubejs.music_disc_origin.desc": "raspmary - origin",
   "item.kubejs.music_disc_savour.desc": "raspmary - savour",
   "item.kubejs.music_disc_raveyard.desc": "raspmary - Raveyard",
-  "item.kubejs.music_disc_fruitiger.desc": "nöelle - fruitiger",
-  "item.kubejs.music_disc_artisan.desc": "Kayla_the_Bee - artisan",
+  "item.kubejs.music_disc_fruitiger.desc": "nikohalfkino - fruitiger",
+  "item.kubejs.music_disc_artisan.desc": "Baileybun - artisan",
   
   "item.kubejs.music_disc_eleven.desc": "C418 - eleven",
   "item.kubejs.music_disc_dog.desc": "C418 - dog",
@@ -359,6 +359,7 @@
   "rf.jei.aloe": "Aloe is found on Beaches, Deserts and Dunes. Its pups need to be planted on Sand.",
   "rf.jei.prickly_pears": "Prickly Pears will sprout on any fully grown Cacti, including ones that are hand-planted, but excluding Barrel Cacti. They need to be stripped on a Cutting Board using a Knife to be safe to eat on their own. Cacti needs to be planted on Sand.",
   "rf.jei.roses": "Red and Yellow Roses can be found in Taiga biomes, while White, Pink and Blue Roses can be found in snowy biomes. Withered Roses drop from mobs killed by the Wither. All Roses can be grown into Rose Bushes using Fertilizer.",
+  "rf.jei.colonies": "When specific Mushrooms are planted on Rich Soil, they will begin to form into Colonies that can be harvested for more Mushrooms. The Colonies themselves can be picked up using Shears. A single Mushroom can be harvested off of Colonies by right-clicking on them with Shears.",
   
   "rf.jei.coal": "Coal can be found commonly at high altitudes.",
   "rf.jei.iron": "Iron can be found near the Deepslate layer or at high altitudes. Large veins of Iron interspersed with Tuff can rarely be found below the Deepslate layer.",
@@ -375,6 +376,7 @@
   "rf.jei.magnetite": "Magnetite can be found near large Iron veins deep underground. Deepslate Iron Ore will occasionally drop Magnetite Nuggets, and small Magnetite Geodes covered with Obsidian will generate around the Nether. These Geodes will sometimes contain a few chunks of Infernal Debris. Finding Magnetite and Infernal Debris can be made easier by carrying a Magnetic Compass.",
   "rf.jei.quartz": "Quartz is found very commonly all around the Nether. Large Quartz geodes encrusted with Blackstone and Basalt can rarely be found at any altitude in the Nether.",
   "rf.jei.salt": "Rock Salt can be found in mountainous biomes, Dripstone Caves and Blossom biomes. It can be crushed into Salt, which is used as a cooking ingredient and will prevent undead mobs from walking over it when placed in a line. Placing Dripstone below Pointed Dripstone with Rock Salt and water above it will eventually turn the Dripstone into Rock Salt.",
+  "rf.jei.pulse_crystal": "Pulse Shards can rarely be found in caves or very rarely drop from Mimes. They can be used to create Pulse Crystals, which when used, will permanently extend the user's maximum health by 2.",
   "rf.jei.blast_proof_ores": "All ores are immune to explosions, meaning they can be blown up with TNT and not get destroyed.",
   
   "rf.jei.campfires": "Campfire Kindling can be lit by sneaking and right-clicking on one while holding Twigs in both hands, or by using a Fire Striker. Standing in close proximity of a lit campfire will grant the Comfort effect.",
@@ -396,10 +398,10 @@
   "rf.jei.exowatcher": "Emits a Redstone signal whenever a player is looking at it. The signal becomes stronger the closer to its middle a player is looking.",
   
   "rf.jei.leather_scraps": "Leather can be cut into Leather Scraps with Shears on a Cutting Board. Leather Scraps can substitute for whole pieces of Leather in all recipes, making things more efficient with a bit of leatherworking.",
-  "rf.jei.polishing": "Sandpaper and Grindstones will allow polishing gems like Rough Cinnabar, Diamonds or Quartz. Sandpaper can be used by looking at rough gems on the floor or by holding them in the off-hand and holding right-click, while Grindstones can simply be right-clicked with a rough gem in hand.",
+  "rf.jei.polishing": "Sandpaper and Grindstones will allow polishing gems like Rough Cinnabar, Diamonds or Quartz. Sandpaper can be used by looking at rough gems on the floor or by holding them in the off-hand and holding right-click, while Grindstones can simply be right-clicked with a rough gem in hand. Grindstones can also bulk-polish items by sneak-right-clicking on them with more than one item in hand.",
   "rf.jei.onion_cry": "Cutting Onions will make nearby players and mobs cry, dealing a small amount of damage. This can be prevented by donning some particular pieces of headwear.",
-  "rf.jei.sap": "Sap can be gathered from Sappy Maple logs using Bottles. Some Maple Logs will turn into Sappy Maple Logs when stripped. Sap is used to make Syrup.",
-  "rf.jei.latex": "Latex can be gathered from Latex Jungle or Rosewood Logs using Bottles. Some Jungle or Rosewood logs will turn into Latex Jungle or Rosewood Logs when stripped. Latex is used to make Rubber and Balloons.",
+  "rf.jei.sap": "Sap can be gathered from Sappy Maple logs using Bottles. Some Maple Logs will turn into Sappy Maple Logs when stripped.",
+  "rf.jei.latex": "Latex can be gathered from Latex Jungle or Rosewood Logs using Bottles. Some Jungle or Rosewood logs will turn into Latex Jungle or Rosewood Logs when stripped. Small amounts of Latex can also be squeezed out of Dandelions, Inkcap Mushrooms and Vines.",
   "rf.jei.rubber": "Rubber is used in making various movement-related components, and blocks made of Rubber are bouncy not only for players and mobs, but for projectiles as well. In certain recipes, Rubber can be substituted with Dried Kelp as a cheaper but less efficient alternative.",
   "rf.jei.cutting_board_sheets": "Copper and Gold Ingots can be pressed into Sheets using a Hammer on a Cutting Board. Other Ingots require a Mechanical Press to be processed into Sheets.",
   "rf.jei.yak_bear_fur": "Brown Bears and Yaks can be sheared for their fur or hair, though beware, as this will make them hostile towards the one who sheared them.",
@@ -408,6 +410,9 @@
   "rf.jei.piglin_curing": "Splashing a Zombified Piglin or Zoglin with the Weakness effect and feeding it a Golden Apple will cure it from its zombification. Piglins and Hoglins can also be made immune to zombification by being fed Golden Apples while they haven't become zombified yet.",
   "rf.jei.falling_bales": "All types of Bales will absorb most fall damage.",
   "rf.jei.falling_feathers": "Will cause entities to slightly sink into it and absorb all fall damage.",
+  "rf.jei.turtles": "Breeding Turtles with Seagrass allows them to make Turtle Eggs on Sand. These eggs can be protected with a Sandcastle, and will eventually hatch into some baby Turtles. Once the baby Turtles grow into adults, they'll drop some Turtle Scutes. Alternatively, Turtles can be brushed for their scutes, with a long cooldown between each time they're brushed.",
+  "rf.jei.snails": "Snails can be bred with Mushroom Stew, at which point they'll make a baby Snail. Once the baby Snail grows into an adult, it'll drop some Snail Shell Pieces. Alternatively, Snails can be brushed for their shell pieces, with a long cooldown between each time they're brushed.",
+  "rf.jei.worm_searching": "Feeding Corn Kernels to Chickens, Ducks or Turkeys will send them searching for Buried Bugs, which will drop Worms and Grubs when dug up.",
   
   "rf.jei.hoglin_hide": "Some thick hide skinned off of a Hoglin. Need something lighter than a Sword to get one.",
   "rf.jei.item_magnet": "When activated with a right-click, an Item Magnet will attract all items nearby towards the holder.",
@@ -424,6 +429,7 @@
   "rf.jei.creeper_spores": "Drops from Creepers. Used in various recipes, or can be thrown to create a small spore cloud that spawns friendly Creepies.",
   "rf.jei.glow_goop": "Drops from Fireflies and can also be obtained by crushing Glow Berries. Up to three Glow Goop can be placed in one spot, which will provide an invisible light source. Holding Glow Goop in hand will make all nearby Glow Goop visible.",
   "rf.jei.silverfish_eggs": "Will drop from Silverfish upon their death. Can be used on other living entities to inflict them with the Infested effect. Can convert various rocks into their infested variants when used on them.",
+  "rf.jei.abacus": "Allows for measuring the distance between two points, up to 48 blocks.",
   
   "rf.jei.compass": "Points towards the world's spawn point. If used on a Lodestone, points towards the specific Lodestone to which it was assigned. Right-clicking with it in hand will briefly display the holder's latitude and longitude.",
   "rf.jei.recovery_compass": "Points towards the holder's last death point and will not be lost upon death.",
@@ -481,7 +487,7 @@
   "rf.jei.firefly": "Fireflies can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Fireflies can be caught using a Capture Net or found in Cans of Bait.",
   "rf.jei.minnow": "Minnows can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Minnows can be found underwater in various biomes and caught with a Fishing Rod or a Capture Net. They can also be found in Cans of Bait.",
   "rf.jei.caterpillar": "Caterpillars can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. Caterpillars can be obtained by breeding Butterflies with flowers, then catching the resulting Caterpillar with a Capture Net. They can also be found in Cans of Bait.",
-  "rf.jei.slimeball": "Slimeballs can be inserted into the bait slot of a Reinforced Fishing Rod in a Tackle Box, but they'll have no effect if the rod isn't equipped with a Grappling Hook. With one equipped, the Slimeball will allow the Grappling Hook to stick to any surface.",
+  "rf.jei.slimeball": "Slimeballs can be inserted into the bait slot of a Reinforced Fishing Rod in a Tackle Box, but they'll have no effect if the rod isn't equipped with a Grappling Hook. With one equipped, it will allow the Grappling Hook to stick to any surface, but the hook will detach as soon as the wielder is reeled in enough.",
   
   "rf.jei.glare_food_tier_1": "Feeding these to Glares will grant the feeder between 30 seconds to 1 minute of the Night Vision effect.",
   "rf.jei.glare_food_tier_2": "Feeding these to Glares will grant the feeder between 1 and a half to 2 minutes of the Night Vision effect.",
@@ -591,6 +597,9 @@
   "rf.tooltip.deprecated_3": "be removed. However, it can be placed",
   "rf.tooltip.deprecated_4": "into a crafting grid for compensation.",
   "rf.tooltip.work_in_progress": "Work in Progress",
+  "rf.tooltip.alt_atlas_1": "Alternate Atlas",
+  "rf.tooltip.alt_atlas_2": "Intended to be used in tandem with",
+  "rf.tooltip.alt_atlas_3": "Xaero's Minimap / Xaero's World Map.",
   "rf.tooltip.durability": "§7Durability: ",
   "rf.tooltip.soulstice_sake_1": "Tipsy (5:00)",
   "rf.tooltip.soulstice_sake_2": "Slow Falling (2:45)",

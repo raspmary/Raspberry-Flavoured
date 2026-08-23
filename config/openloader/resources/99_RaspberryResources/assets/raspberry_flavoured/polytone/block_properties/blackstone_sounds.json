@@ -45,7 +45,8 @@
    "kubejs:cobbled_blackstone_slab",
    "kubejs:cobbled_blackstone_stairs",
    "kubejs:sturdy_blackstone",
-   "kubejs:blackstone_deposit"
+   "kubejs:blackstone_deposit",
+   "hnh:calcite_column"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.blackstone.break",

@@ -1,21 +1,9 @@
 {
   "parent": "raspberry_flavoured:main/pickaxe",
   "criteria": {
-    "Place down Furnace": {
+    "0": {
       "conditions": {
         "block": "minecraft:furnace"
-      },
-      "trigger": "minecraft:placed_block"
-    },
-	"Place down Blackstone Furnace": {
-      "conditions": {
-        "block": "quark:blackstone_furnace"
-      },
-      "trigger": "minecraft:placed_block"
-    },
-	"Place down Deepslate Furnace": {
-      "conditions": {
-        "block": "quark:deepslate_furnace"
       },
       "trigger": "minecraft:placed_block"
     }
@@ -41,9 +29,7 @@
     },
   "requirements": [
     [
-      "Place down Furnace",
-	  "Place down Blackstone Furnace",
-	  "Place down Deepslate Furnace"
+      "0"
     ]
   ]
 }

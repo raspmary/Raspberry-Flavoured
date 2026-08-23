@@ -201,6 +201,7 @@ BlockEvents.modification(event => {
 	breakFast('quark:paper_wall', 0.3)
 	breakFast('quark:paper_wall_big', 0.3)
 	breakFast('quark:paper_wall_sakura', 0.3)
+	breakFast('hnh:calcite_column', 1.5)
 	
 	breakFast('minecraft:obsidian', 15)
 	breakFast('minecraft:crying_obsidian', 15)
@@ -375,6 +376,7 @@ BlockEvents.modification(event => {
 	howExplode('quark:paper_wall', 0.3)
 	howExplode('quark:paper_wall_big', 0.3)
 	howExplode('quark:paper_wall_sakura', 0.3)
+	howExplode('hnh:calcite_column', 6)
 	
 // Set exolite blocks' destroy speed
 	event.modify([
@@ -468,6 +470,7 @@ BlockEvents.modification(event => {
 	'minecraft:gold_ore',
 	'minecraft:redstone_ore',
 	'minecraft:diamond_ore',
+	'minecraft:emerald_ore',
 	'create:zinc_ore',
 	'oreganized:silver_ore',
 	'oreganized:deepslate_silver_ore',

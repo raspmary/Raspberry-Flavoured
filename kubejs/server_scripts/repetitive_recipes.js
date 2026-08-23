@@ -131,6 +131,10 @@ ServerEvents.recipes(event => {
 	pillar('oreganized:polished_glance','kubejs:glance_pillar')
 	pillar('smooth_basalt','basalt')
 	pillar('paletteblocks:polished_basalt','polished_basalt')
+	pillar('stone','hnh:stone_column')
+	pillar('blackstone','hnh:calcite_column')
+	pillar('quartz_block','hnh:quartz_column')
+	
 	pillar('sandstone','kubejs:sandstone_pillar')
 	pillar('red_sandstone','kubejs:red_sandstone_pillar')
 	pillar('quark:soul_sandstone','kubejs:soul_sandstone_pillar')
