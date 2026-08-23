@@ -36,6 +36,11 @@ ServerEvents.tags('item', event => {
 		.add('create:iron_sheet')
 		.add('kubejs:stardust')
 		
+	event.get('raspberry_flavoured:lead_repair_materials')
+		.add('oreganized:lead_ingot')
+		.add('kubejs:lead_sheet')
+		.add('kubejs:stardust')
+		
 	event.get('raspberry_flavoured:skillet_repair_materials')
 		.add('minecraft:copper_ingot')
 		.add('create:copper_sheet')

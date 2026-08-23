@@ -79,13 +79,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 36.0,
-                "min": 12.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:amethyst_shard",
+          "name": "spelunkery:rough_emerald",
           "weight": 3
         },
         {

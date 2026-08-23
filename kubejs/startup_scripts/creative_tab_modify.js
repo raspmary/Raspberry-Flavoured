@@ -6203,7 +6203,6 @@ ItemEvents.modification(event => {
 	"create_central_kitchen:aloe_gel_bucket",
 	"create_central_kitchen:mulberry_jam_bucket",
 	"spelunkery:portal_fluid_bucket",
-	"oreganized:molten_lead_bucket",
 	"quark:slime_in_a_bucket",
 	"aquaculture:blackfish_bucket",
 	"aquaculture:atlantic_herring_bucket",

@@ -130,7 +130,6 @@ ServerEvents.recipes(event => {
 	event.shapeless('kubejs:latex_rosewood_log', ['kubejs:latex_bottle', 'atmospheric:stripped_rosewood_log'])
 	event.shapeless('kubejs:latex_rosewood', ['kubejs:latex_bottle', 'atmospheric:stripped_rosewood'])
 	event.shapeless('culturaldelights:corn_kernels', ['culturaldelights:corn_cob'])
-	event.shapeless('3x kubejs:cobbled_blackstone', ['3x create:scorchia', 'black_dye'])
 	event.shapeless('kubejs:cave_burger', ['#forge:bread/wheat', 'miners_delight:baked_tentacles', 'miners_delight:smoked_bat_wing', '#raspberry_flavoured:cave_scrap_ingredients'])
 	event.shapeless('kubejs:preserved_skewer', ['brewinandchewin:kippers', 'brewinandchewin:jerky', '2x brewinandchewin:kimchi', 'stick'])
 	event.shapeless('aquaculture:double_hook', ['aquaculture:light_hook', 'aquaculture:heavy_hook']).id('aquaculture:double_hook')
@@ -249,6 +248,8 @@ ServerEvents.recipes(event => {
 	event.shapeless('8x supplementaries:bomb', ['string', 'gunpowder', '#forge:ingots/iron']).id('supplementaries:bomb')
 	event.shapeless('8x supplementaries:bomb_spiky', ['string', 'gunpowder', '2x #forge:ingots/lead']).id('supplementaries:spiky_bomb')
 	event.shapeless('8x raspberry:rose_gold_bomb', ['string', 'gunpowder', '#forge:ingots/rose_gold'])
+	
+	event.shapeless('raspberry:atlas', ['map_atlases:atlas', 'farmersdelight:canvas'])
 	
 	event.shapeless('farmersdelight:vegetable_soup', ['beetroot_soup'])
 	event.shapeless('brewinandchewin:flaxen_cheese_wedge', ['brewinandchewin:scarlet_cheese_wedge'])
@@ -544,6 +545,7 @@ ServerEvents.recipes(event => {
 	threeByThree('kubejs:golden_worm', 'kubejs:golden_worm_crate', 1)
 	threeByThree('kubejs:grub', 'kubejs:grub_crate', 1)
 	threeByThree('modestmining:coke', 'modestmining:coke_block', 1)
+	threeByThree('#forge:nuggets/copper', 'copper_ingot', 1)
 	
 	event.shaped('minecraft:white_bed', ['CCC', 'AAA', 'BBB'], {A: ['minecraft:white_wool', 'kubejs:cloth_scrap_block', 'kubejs:white_cloth_scrap_block', 'supplementaries:feather_block'], B: '#minecraft:planks', C: 'kubejs:cloth_scrap'}).id('minecraft:white_bed')
     event.shaped('3x minecraft:white_banner', ['AAA', 'AAA', ' B '], {A: ['minecraft:white_wool', 'kubejs:cloth_scrap_block', 'kubejs:white_cloth_scrap_block', 'supplementaries:feather_block'], B: 'stick'}).id('minecraft:white_banner')
@@ -683,7 +685,7 @@ ServerEvents.recipes(event => {
 	event.shaped('8x supplementaries:crystal_display', ['AB', 'AB', 'AB'], {A: '#raspberry_flavoured:deepslate', B: '#forge:gems/amethyst'}).id('supplementaries:crystal_display')
 	event.shaped('4x twigs:cut_amethyst', ['AB', 'BA'], {A: 'sullysmod:polished_jade_block', B: '#forge:gems/amethyst'}).id('twigs:cut_amethyst')
 	event.shaped('beacon', ['AAA', 'BCB', 'DDD'], {A: '#quark:framed_glasses', B: '#forge:gems/diamond', C: 'nether_star', D: '#raspberry_flavoured:obsidian'}).id('minecraft:beacon')
-	event.shaped('composter', ['A A', 'ABA', 'AAA'], {A: '#minecraft:wooden_slabs', B: ['aquaculture:worm', 'kubejs:grub']}).id('minecraft:composter')
+	event.shaped('composter', ['A A', 'ABA', 'AAA'], {A: '#minecraft:wooden_slabs', B: ['aquaculture:worm', 'kubejs:grub', 'kubejs:golden_worm']}).id('minecraft:composter')
 	event.shaped('furnace', ['AAA', 'ABA', 'AAA'], {A: '#forge:cobblestone', B: '#minecraft:coals'}).id('minecraft:furnace')
 	event.shaped('crafting_table', ['AA', 'BB'], {A: '#minecraft:wooden_slabs', B: '#minecraft:planks'}).id('minecraft:crafting_table')
 	event.shaped('4x farmersdelight:tatami', ['AB', 'BA'], {A: 'farmersdelight:canvas', B: 'farmersdelight:straw'}).id('farmersdelight:tatami')
@@ -806,6 +808,11 @@ ServerEvents.recipes(event => {
 	event.shaped('golden_leggings', ['AAA', 'A A', 'A A'], {A: '#forge:plates/gold'})
 	event.shaped('golden_boots', ['A A', 'A A'], {A: '#forge:plates/gold'})
 	event.shaped('clock', [' A ', 'ABA', ' A '], {A: '#forge:ingots/gold', B: 'spelunkery:cinnabar'})
+	
+	event.shaped('chainmail_helmet', ['AAA', 'A A'], {A: 'chain'})
+	event.shaped('chainmail_chestplate', ['A A', 'AAA', 'AAA'], {A: 'chain'})
+	event.shaped('chainmail_leggings', ['AAA', 'A A', 'A A'], {A: 'chain'})
+	event.shaped('chainmail_boots', ['A A', 'A A'], {A: 'chain'})
 	
 	event.shaped('aquaculture:gold_hook', [' A', ' B', 'BB'], {A: 'spelunkery:magnetite_chunk', B: 'spelunkery:raw_magnetite_nugget'}).id('aquaculture:gold_hook')
 	event.shaped('aquaculture:light_hook', [' A', ' B', 'BB'], {A: '#forge:ingots/rose_gold', B: '#forge:nuggets/rose_gold'}).id('aquaculture:light_hook')
@@ -1022,7 +1029,6 @@ ServerEvents.recipes(event => {
 	event.smelting('kubejs:exolite', 'kubejs:cobbled_exolite').cookingTime(200)
 	event.smelting('oreganized:lead_ingot', 'kubejs:nether_lead_ore').cookingTime(200)
 	event.smelting('blackstone', 'kubejs:cobbled_blackstone').cookingTime(200)
-	event.smelting('create:scorchia', 'create:scoria').cookingTime(200).id('create:crafting/palettes/scorchia')
 	event.smelting('green_dye', 'aquaculture:algae').cookingTime(200)
 	event.smelting('cyan_dye', 'additionaladditions:copper_patina').cookingTime(200)
 	event.smelting('stone_bricks', 'paletteblocks:cobblestone_bricks').cookingTime(200).id('minecraft:stone_bricks')
@@ -1098,9 +1104,6 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [{item: 'minecraft:wet_sponge'}, {item: 'minecraft:wet_sponge'}, {item: 'minecraft:wet_sponge'}], 
 	result: {item: 'minecraft:sponge', count: 3}})
-	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [{item: 'create:scoria'}, {item: 'create:scoria'}, {item: 'create:scoria'}], 
-	result: {item: 'create:scorchia', count: 3}})
 	
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [{item: 'minecraft:netherrack'}, {item: 'minecraft:netherrack'}, {tag: 'raspberry_flavoured:blackstone'}], 
@@ -1563,8 +1566,12 @@ ServerEvents.recipes(event => {
 	], result: {item: 'create:scoria', count: 3}}).id('create:crafting/palettes/scoria')
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
-	{item: 'minecraft:ender_pearl'}, {tag: 'raspberry_flavoured:scoria'}, {tag: 'raspberry_flavoured:scoria'}, {tag: 'raspberry_flavoured:scoria'}, {tag: 'raspberry_flavoured:scoria'}
+	{item: 'minecraft:ender_pearl'}, {tag: 'raspberry_flavoured:scoria'}, {tag: 'raspberry_flavoured:scoria'}, 
+	{tag: 'raspberry_flavoured:scoria'}, {tag: 'raspberry_flavoured:scoria'}
 	], result: {item: 'kubejs:cobbled_exolite', count: 4}})
+	event.custom({type: 'modestmining:forging', cooktime: 200, 
+	ingredients: [{tag: 'raspberry_flavoured:scoria'}, {tag: 'raspberry_flavoured:blackstone'}
+	], result: {item: 'create:scorchia', count: 2}}).id('create:crafting/palettes/scorchia')
 	
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
@@ -1681,7 +1688,7 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
 	pattern: [' A ', 'ABA', ' A '], 
 	key: {A: {item: 'minecraft:sculk_vein'}, B: {tag: 'forge:ingots/bronze'}}, 
-	result: {item: 'copycats:copycat_block', count: 4}})
+	result: {item: 'copycats:copycat_block', count: 8}})
 	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
 	pattern: ['AB', 'BA'], 
 	key: {A: {tag: 'raspberry_flavoured:deepslate'}, B: {tag: 'raspberry_flavoured:basalt'}}, 
@@ -2907,6 +2914,21 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.create.compacting(['2x brewinandchewin:ham_and_cheese_sandwich'], ['2x #forge:bread/wheat', 'farmersdelight:ham', 'brewinandchewin:flaxen_cheese_wedge', 'kubejs:butter']).heated()
 	event.recipes.create.compacting(['2x brewinandchewin:ham_and_cheese_sandwich'], ['2x #forge:bread/wheat', 'farmersdelight:ham', 'brewinandchewin:flaxen_cheese_wedge', Fluid.of('kubejs:butter',250)]).heated()
+	
+	// Molten metals
+	event.recipes.create.compacting(['copper_ingot'], [Fluid.of('raspberry:molten_copper',250)]).heated()
+	event.recipes.create.compacting(['create:zinc_ingot'], [Fluid.of('raspberry:molten_zinc',250)]).heated()
+	event.recipes.create.compacting(['oreganized:lead_ingot'], [Fluid.of('raspberry:molten_lead',250)]).heated()
+	event.recipes.create.compacting(['iron_ingot'], [Fluid.of('raspberry:molten_iron',250)]).heated()
+	event.recipes.create.compacting(['gold_ingot'], [Fluid.of('raspberry:molten_gold',250)]).heated()
+	event.recipes.create.compacting(['oreganized:silver_ingot'], [Fluid.of('raspberry:molten_silver',250)]).heated()
+	event.recipes.create.compacting(['additionaladditions:rose_gold_alloy'], [Fluid.of('raspberry:molten_rose_gold',250)]).heated()
+	event.recipes.create.compacting(['alloyed:bronze_ingot'], [Fluid.of('raspberry:molten_bronze',250)]).heated()
+	event.recipes.create.compacting(['create:brass_ingot'], [Fluid.of('raspberry:molten_brass',250)]).heated()
+	event.recipes.create.compacting(['alloyed:steel_ingot'], [Fluid.of('raspberry:molten_steel',250)]).heated()
+	event.recipes.create.compacting(['oreganized:electrum_ingot'], [Fluid.of('raspberry:molten_electrum',250)]).heated()
+	event.recipes.create.compacting(['caverns_and_chasms:necromium_ingot'], [Fluid.of('raspberry:molten_necromium',250)]).heated()
+	event.recipes.create.compacting(['netherite_ingot'], [Fluid.of('raspberry:molten_netherite',250)]).heated()
 
 // Mixing
 	noWhiteAllColours.forEach(colour => {
@@ -2952,7 +2974,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(['4x design_decor:industrial_plating_block'], ['2x #forge:ingots/gold', '2x create:andesite_alloy']).heated()
 	event.recipes.create.mixing(['4x design_decor:zinc_checker_tiles'], ['2x #forge:ingots/silver', '2x create:andesite_alloy']).heated()
 	
-	event.recipes.create.mixing(['4x copycats:copycat_block'], ['#forge:ingots/bronze', '4x sculk_vein']).heated()
+	event.recipes.create.mixing(['8x copycats:copycat_block'], ['#forge:ingots/bronze', '4x sculk_vein']).heated()
 	
 	event.recipes.create.mixing('8x raspberry:fine_wood', ['honeycomb', '8x #minecraft:logs'])
 	event.recipes.create.mixing('4x raspberry:fine_wood', [Fluid.of('create_central_kitchen:sap',250), '4x #minecraft:logs'])
@@ -2977,42 +2999,11 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('6x kubejs:blank_tablet', ['#forge:ingots/rose_gold', '2x #forge:gems/amethyst']).heated()
 	event.recipes.create.mixing('6x quark:blank_rune', ['#forge:stone', '#forge:gems/quartz', 'architects_palette:withered_bone']).heated()
 	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_copper',250), ['#forge:ingots/copper']).superheated()
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_copper',375), [['raw_copper', 'create:crushed_raw_copper']]).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_zinc',250), ['#forge:ingots/zinc']).superheated()
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_zinc',375), [['create:raw_zinc', 'create:crushed_raw_zinc']]).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_lead',250), ['#forge:ingots/lead']).superheated()
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_lead',375), [['oreganized:raw_lead', 'create:crushed_raw_lead']]).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_iron',250), ['#forge:ingots/iron']).superheated()
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_iron',375), [['raw_iron', 'create:crushed_raw_iron']]).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_gold',250), ['#forge:ingots/gold']).superheated()
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_gold',375), [['raw_gold', 'create:crushed_raw_gold']]).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_silver',250), ['#forge:ingots/silver']).superheated()
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_silver',375), [['oreganized:raw_silver', 'create:crushed_raw_silver']]).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_rose_gold',250), ['#forge:ingots/rose_gold']).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_bronze',250), ['#forge:ingots/bronze']).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_brass',250), ['#forge:ingots/brass']).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_steel',250), ['#forge:ingots/steel']).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_electrum',250), ['#forge:ingots/electrum']).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_necromium',250), ['#forge:ingots/necromium']).superheated()
-	
-	event.recipes.create.mixing(Fluid.of('raspberry:molten_netherite',250), ['#forge:ingots/netherite']).superheated()
-	
 	event.recipes.create.mixing('3x andesite', ['2x #raspberry_flavoured:stone', '#raspberry_flavoured:feldspar']).heated()
 	event.recipes.create.mixing('3x diorite', ['2x #raspberry_flavoured:andesite', '#raspberry_flavoured:feldspar']).heated()
 	event.recipes.create.mixing('3x granite', ['2x #raspberry_flavoured:diorite', '#raspberry_flavoured:feldspar']).heated()
 	
+	event.recipes.create.mixing('2x create:scorchia', ['#raspberry_flavoured:scoria', '#raspberry_flavoured:blackstone']).heated()
 	event.recipes.create.mixing('2x dripstone_block', ['#raspberry_flavoured:limestone', '#raspberry_flavoured:terracotta']).heated()
 	event.recipes.create.mixing('calcite', ['#raspberry_flavoured:stone', 'kubejs:bone_powder']).heated()
 	event.recipes.create.mixing('2x tuff', ['#raspberry_flavoured:stone', '#raspberry_flavoured:basalt']).heated().id('caverns_and_chasms:tuff')
@@ -3104,6 +3095,39 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('2x slime_ball', [Fluid.of('create_central_kitchen:mulberry_jam',250), 'lime_dye', 'create:wheat_flour'])
 	event.recipes.create.mixing('2x slime_ball', [Fluid.of('kubejs:latex',250), 'lime_dye', 'create:wheat_flour'])
 	event.recipes.create.mixing('2x slime_ball', [Fluid.of('create_central_kitchen:aloe_gel',250), 'create:wheat_flour'])
+	
+	// Molten metals
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_copper',250), ['#forge:ingots/copper', 'fire_charge']).superheated()
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_copper',375), [['raw_copper', 'create:crushed_raw_copper'], 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_zinc',250), ['#forge:ingots/zinc', 'fire_charge']).superheated()
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_zinc',375), [['create:raw_zinc', 'create:crushed_raw_zinc'], 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_lead',250), ['#forge:ingots/lead', 'fire_charge']).superheated()
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_lead',375), [['oreganized:raw_lead', 'create:crushed_raw_lead'], 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_iron',250), ['#forge:ingots/iron', 'fire_charge']).superheated()
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_iron',375), [['raw_iron', 'create:crushed_raw_iron'], 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_gold',250), ['#forge:ingots/gold', 'fire_charge']).superheated()
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_gold',375), [['raw_gold', 'create:crushed_raw_gold'], 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_silver',250), ['#forge:ingots/silver', 'fire_charge']).superheated()
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_silver',375), [['oreganized:raw_silver', 'create:crushed_raw_silver'], 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_rose_gold',250), ['#forge:ingots/rose_gold', 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_bronze',250), ['#forge:ingots/bronze', 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_brass',250), ['#forge:ingots/brass', 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_steel',250), ['#forge:ingots/steel', 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_electrum',250), ['#forge:ingots/electrum', 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_necromium',250), ['#forge:ingots/necromium', 'fire_charge']).superheated()
+	
+	event.recipes.create.mixing(Fluid.of('raspberry:molten_netherite',250), ['#forge:ingots/netherite', 'fire_charge']).superheated()
 	
 // Milling
 	event.recipes.create.milling(['2x farmersrespite:coffee_beans', 'minecraft:red_dye'], 'farmersrespite:coffee_berries').id('create_central_kitchen:milling/coffee_berries')
@@ -3233,6 +3257,9 @@ ServerEvents.recipes(event => {
 	event.recipes.create.crushing(['create:crushed_raw_gold', Item.of('create:crushed_raw_gold').withChance(0.5), Item.of('netherrack').withChance(0.125)], 'nether_gold_ore').id('create:crushing/nether_gold_ore')
 	event.recipes.create.crushing(['create:crushed_raw_lead', Item.of('create:crushed_raw_lead').withChance(0.5), Item.of('netherrack').withChance(0.125)], 'kubejs:nether_lead_ore')
 	event.recipes.create.crushing(['2x create:crushed_raw_gold', Item.of('create:crushed_raw_gold').withChance(0.5), Item.of('kubejs:cobbled_blackstone').withChance(0.125)], 'gilded_blackstone')
+	event.recipes.create.crushing(['spelunkery:rough_emerald', Item.of('spelunkery:rough_emerald').withChance(0.75), Item.of('twigs:pebble',4).withChance(0.12)], 'emerald_ore')
+	event.recipes.create.crushing(['2x spelunkery:rough_emerald', Item.of('spelunkery:rough_emerald').withChance(0.25), Item.of('cobbled_deepslate').withChance(0.12)], 'deepslate_emerald_ore')
+	
 	event.recipes.create.crushing(['gravel', Item.of('twigs:pebble',2).withChance(0.5)], 'cobblestone')
 	event.recipes.create.crushing(['spelunkery:raw_gold_nugget', Item.of('minecraft:sandstone').withChance(0.5)], 'architects_palette:gilded_sandstone')
 	event.recipes.create.crushing(['spelunkery:raw_gold_nugget', Item.of('minecraft:sandstone').withChance(0.5)], 'architects_palette:gilded_sandstone_stairs')

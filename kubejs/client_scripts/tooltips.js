@@ -4155,6 +4155,13 @@ ItemEvents.tooltip(tooltip => {
   'minecraft:enchanting_table',
   'woodworks:sawmill'
   ], Text.translate("rf.tooltip.legacy_item"))
+  tooltip.addAdvanced([
+  'raspberry:atlas'
+  ], (item, advanced, text) => {
+      text.add(1, [Text.translate("rf.tooltip.alt_atlas_1").gray().bold()])
+      text.add(2, [Text.translate("rf.tooltip.alt_atlas_2").gray()])
+      text.add(3, [Text.translate("rf.tooltip.alt_atlas_3").gray()])
+  })
   
   // remove 1 line
   tooltip.addAdvanced([

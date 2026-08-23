@@ -1,12 +1,12 @@
 {
-  "parent": "raspberry_flavoured:main/crafting_table",
+  "parent": "raspberry_flavoured:main/root",
   "criteria": {
     "0": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:wooden_pickaxe"
+              "minecraft:crafting_table"
             ]
           }
         ]
@@ -16,15 +16,14 @@
   },
   "display": {
     "title": {
-      "translate": "advancements.rf.main.pickaxe.title"
+      "translate": "advancements.rf.main.crafting_table.title"
     },
     "description": {
       "color": "#ED3D69",
-      "translate": "advancements.rf.main.pickaxe.description"
+      "translate": "advancements.rf.main.crafting_table.description"
     },
     "icon": {
-      "item": "minecraft:wooden_pickaxe",
-      "nbt": "{Damage:0}"
+      "item": "minecraft:crafting_table"
     },
     "frame": "task",
     "hidden": false,

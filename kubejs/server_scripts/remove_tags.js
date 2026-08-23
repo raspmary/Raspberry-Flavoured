@@ -2454,7 +2454,8 @@ ServerEvents.tags('item', event => {
     "design_decor:pig_iron_large_chain",
     "design_decor:knightslime_large_chain",
     "design_decor:queen_slime_large_chain",
-    "minecraft:quartz_pillar"
+    "minecraft:quartz_pillar",
+	"modestmining:copper_nugget"
 	])
 	
 	event.removeAll('createaddition:plant_foods')

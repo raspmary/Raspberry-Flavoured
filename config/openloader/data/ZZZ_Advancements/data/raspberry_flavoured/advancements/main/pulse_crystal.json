@@ -1,12 +1,12 @@
 {
-  "parent": "raspberry_flavoured:main/crafting_table",
+  "parent": "raspberry_flavoured:main/altar",
   "criteria": {
     "0": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:wooden_pickaxe"
+              "heart_crystals:heart_crystal"
             ]
           }
         ]
@@ -16,23 +16,22 @@
   },
   "display": {
     "title": {
-      "translate": "advancements.rf.main.pickaxe.title"
+      "translate": "advancements.rf.main.pulse_crystal.title"
     },
     "description": {
       "color": "#ED3D69",
-      "translate": "advancements.rf.main.pickaxe.description"
+      "translate": "advancements.rf.main.pulse_crystal.description"
     },
     "icon": {
-      "item": "minecraft:wooden_pickaxe",
-      "nbt": "{Damage:0}"
+      "item": "heart_crystals:heart_crystal"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "announce_to_chat": true,
     "show_toast": true
   },
   "rewards": {
-      "function": "raspberry_flavoured:sound_regular"
+      "function": "raspberry_flavoured:sound_goal"
     },
   "requirements": [
     [

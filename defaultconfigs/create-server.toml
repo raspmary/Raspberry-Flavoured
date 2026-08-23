@@ -282,7 +282,7 @@
 				clutch = 0.0
 				encased_fan = 8.0
 				rope_pulley = 4.0
-				rotation_speed_controller = 0.0
+				rotation_speed_controller = 4.0
 				netherite_backtank = 4.0
 				brass_encased_large_cogwheel = 0.0
 				mysterious_cuckoo_clock = 1.0

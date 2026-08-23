@@ -376,6 +376,7 @@
   "rf.jei.magnetite": "Magnetite can be found near large Iron veins deep underground. Deepslate Iron Ore will occasionally drop Magnetite Nuggets, and small Magnetite Geodes covered with Obsidian will generate around the Nether. These Geodes will sometimes contain a few chunks of Infernal Debris. Finding Magnetite and Infernal Debris can be made easier by carrying a Magnetic Compass.",
   "rf.jei.quartz": "Quartz is found very commonly all around the Nether. Large Quartz geodes encrusted with Blackstone and Basalt can rarely be found at any altitude in the Nether.",
   "rf.jei.salt": "Rock Salt can be found in mountainous biomes, Dripstone Caves and Blossom biomes. It can be crushed into Salt, which is used as a cooking ingredient and will prevent undead mobs from walking over it when placed in a line. Placing Dripstone below Pointed Dripstone with Rock Salt and water above it will eventually turn the Dripstone into Rock Salt.",
+  "rf.jei.pulse_crystal": "Pulse Shards can rarely be found in caves or very rarely drop from Mimes. They can be used to create Pulse Crystals, which when used, will permanently extend the user's maximum health by 2.",
   "rf.jei.blast_proof_ores": "All ores are immune to explosions, meaning they can be blown up with TNT and not get destroyed.",
   
   "rf.jei.campfires": "Campfire Kindling can be lit by sneaking and right-clicking on one while holding Twigs in both hands, or by using a Fire Striker. Standing in close proximity of a lit campfire will grant the Comfort effect.",
@@ -411,6 +412,7 @@
   "rf.jei.falling_feathers": "Will cause entities to slightly sink into it and absorb all fall damage.",
   "rf.jei.turtles": "Breeding Turtles with Seagrass allows them to make Turtle Eggs on Sand. These eggs can be protected with a Sandcastle, and will eventually hatch into some baby Turtles. Once the baby Turtles grow into adults, they'll drop some Turtle Scutes. Alternatively, Turtles can be brushed for their scutes, with a long cooldown between each time they're brushed.",
   "rf.jei.snails": "Snails can be bred with Mushroom Stew, at which point they'll make a baby Snail. Once the baby Snail grows into an adult, it'll drop some Snail Shell Pieces. Alternatively, Snails can be brushed for their shell pieces, with a long cooldown between each time they're brushed.",
+  "rf.jei.worm_searching": "Feeding Corn Kernels to Chickens, Ducks or Turkeys will send them searching for Buried Bugs, which will drop Worms and Grubs when dug up.",
   
   "rf.jei.hoglin_hide": "Some thick hide skinned off of a Hoglin. Need something lighter than a Sword to get one.",
   "rf.jei.item_magnet": "When activated with a right-click, an Item Magnet will attract all items nearby towards the holder.",
@@ -485,7 +487,7 @@
   "rf.jei.firefly": "Fireflies can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Fireflies can be caught using a Capture Net or found in Cans of Bait.",
   "rf.jei.minnow": "Minnows can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Minnows can be found underwater in various biomes and caught with a Fishing Rod or a Capture Net. They can also be found in Cans of Bait.",
   "rf.jei.caterpillar": "Caterpillars can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. Caterpillars can be obtained by breeding Butterflies with flowers, then catching the resulting Caterpillar with a Capture Net. They can also be found in Cans of Bait.",
-  "rf.jei.slimeball": "Slimeballs can be inserted into the bait slot of a Reinforced Fishing Rod in a Tackle Box, but they'll have no effect if the rod isn't equipped with a Grappling Hook. With one equipped, the Slimeball will allow the Grappling Hook to stick to any surface.",
+  "rf.jei.slimeball": "Slimeballs can be inserted into the bait slot of a Reinforced Fishing Rod in a Tackle Box, but they'll have no effect if the rod isn't equipped with a Grappling Hook. With one equipped, it will allow the Grappling Hook to stick to any surface, but the hook will detach as soon as the wielder is reeled in enough.",
   
   "rf.jei.glare_food_tier_1": "Feeding these to Glares will grant the feeder between 30 seconds to 1 minute of the Night Vision effect.",
   "rf.jei.glare_food_tier_2": "Feeding these to Glares will grant the feeder between 1 and a half to 2 minutes of the Night Vision effect.",
@@ -595,6 +597,9 @@
   "rf.tooltip.deprecated_3": "be removed. However, it can be placed",
   "rf.tooltip.deprecated_4": "into a crafting grid for compensation.",
   "rf.tooltip.work_in_progress": "Work in Progress",
+  "rf.tooltip.alt_atlas_1": "Alternate Atlas",
+  "rf.tooltip.alt_atlas_2": "Intended to be used in tandem with",
+  "rf.tooltip.alt_atlas_3": "Xaero's Minimap / Xaero's World Map.",
   "rf.tooltip.durability": "§7Durability: ",
   "rf.tooltip.soulstice_sake_1": "Tipsy (5:00)",
   "rf.tooltip.soulstice_sake_2": "Slow Falling (2:45)",

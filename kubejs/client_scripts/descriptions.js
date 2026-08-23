@@ -92,6 +92,7 @@ const keysToItems = {
     'rf.jei.magnetite': ['spelunkery:magnetite', 'spelunkery:magnetite_chunk', 'spelunkery:raw_magnetite_nugget', 'spelunkery:magnetic_compass', 'minecraft:ancient_debris'],
     'rf.jei.quartz': ['minecraft:quartz', 'minecraft:nether_quartz_ore', 'spelunkery:rough_quartz_block', 'create:polished_rose_quartz', 'create:rose_quartz_tiles', 'kubejs:rough_quartz_shard', 'kubejs:quartz_shard', 'quark:white_corundum_cluster'],
     'rf.jei.salt': ['spelunkery:salt', 'spelunkery:salt_block', 'spelunkery:rock_salt', 'spelunkery:rock_salt_block'],
+    'rf.jei.pulse_crystal': ['heart_crystals:heart_crystal', 'heart_crystals:heart_crystal_shard'],
     'rf.jei.blast_proof_ores': '#forge:ores_in_ground',
 	
     'rf.jei.campfires': '#raspberry_flavoured:campfires',
@@ -127,6 +128,7 @@ const keysToItems = {
     'rf.jei.falling_feathers': 'supplementaries:feather_block',
     'rf.jei.turtles': ['minecraft:scute', 'minecraft:turtle_egg'],
     'rf.jei.snails': 'autumnity:snail_shell_piece',
+    'rf.jei.worm_searching': ['culturaldelights:corn_kernels', 'minecraft:chicken_spawn_egg', 'environmental:duck_spawn_egg', 'autumnity:turkey_spawn_egg', 'raspberry:wormy_dirt'],
 	
     'rf.jei.hoglin_hide': 'nethersdelight:hoglin_hide',
     'rf.jei.item_magnet': 'spelunkery:item_magnet',

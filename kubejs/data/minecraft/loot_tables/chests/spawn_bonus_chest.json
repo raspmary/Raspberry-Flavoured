@@ -319,7 +319,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "create_confectionery:marshmallow",
+          "name": "raspberry:marshmallow",
           "weight": 3
         },
         {
