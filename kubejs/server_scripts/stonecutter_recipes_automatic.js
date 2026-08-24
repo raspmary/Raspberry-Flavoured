@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
 	'ecologics:azalea_planks', 
 	'architects_palette:twisted_planks', 
 	'environmental:willow_planks', 
-	'environmental:cherry_planks', 
+	'minecraft:cherry_planks', 
 	'environmental:wisteria_planks', 
 	'upgrade_aquatic:driftwood_planks', 
 	'autumnity:maple_planks', 
@@ -95,10 +95,6 @@ ServerEvents.recipes(event => {
 		if (woodType == 'driftwood' || woodType == 'grimwood' || woodType == 'rosewood'){
 			unstrippedWoodId = `${originMod}:${woodType}`
 		}
-
-		console.log(unstrippedLogId)
-		console.log(unstrippedWoodId)
-		console.log(woodTag)
 		
 		// add one-to-one conversions between unstripped logs and unstripped wood
 		if (woodType != 'bamboo' && woodType != 'powdery'){

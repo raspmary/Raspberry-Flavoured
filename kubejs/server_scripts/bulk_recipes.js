@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
 		output: "#minecraft:buttons",
 		not: {input: "#minecraft:buttons"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(8)
@@ -15,7 +16,7 @@ ServerEvents.recipes(event => {
 	})
 	event.shapeless('8x quark:iron_button', ['#forge:ingots/iron', 'redstone']).id('quark:automation/crafting/iron_button')
 	event.shapeless('8x quark:gold_button', ['#forge:ingots/gold', 'redstone']).id('quark:automation/crafting/gold_button')
-	event.shapeless('8x caverns_and_chasms:silver_button', ['#forge:ingots/silver', 'redstone']).id('caverns_and_chasms:silver_button')
+	// event.shapeless('8x caverns_and_chasms:silver_button', ['#forge:ingots/silver', 'redstone']).id('caverns_and_chasms:silver_button')
 	event.shapeless('8x caverns_and_chasms:copper_button', ['#forge:ingots/copper', 'redstone']).id('caverns_and_chasms:copper_button')
 	
 	// add redstone to pressure plates
@@ -24,6 +25,7 @@ ServerEvents.recipes(event => {
 		output: "#minecraft:pressure_plates",
 		not: {input: "#minecraft:pressure_plates"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(8)
@@ -36,6 +38,7 @@ ServerEvents.recipes(event => {
 		output: "#raspberry_flavoured:chiseled_blocks",
 		not: {input: "#raspberry_flavoured:chiseled_blocks"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(2)
@@ -48,6 +51,7 @@ ServerEvents.recipes(event => {
 		output: "#minecraft:stairs",
 		not: {input: "#minecraft:stairs"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(3)
@@ -60,6 +64,7 @@ ServerEvents.recipes(event => {
 		output: "#minecraft:slabs",
 		not: {input: "#minecraft:slabs"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(4)
@@ -73,6 +78,7 @@ ServerEvents.recipes(event => {
 		output: "#minecraft:walls",
 		not: {input: "#minecraft:walls"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(6)
@@ -86,6 +92,7 @@ ServerEvents.recipes(event => {
 		output: "#minecraft:walls",
 		not: {input: "#minecraft:walls"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(2)
@@ -98,6 +105,7 @@ ServerEvents.recipes(event => {
 		output: "#forge:bookshelves",
 		not: {input: "#forge:bookshelves"}
 	}, recipe => {
+		if (recipe == null) return;
 		recipe.remove()
 		let ingredients = recipe.originalRecipeIngredients
 		let output = recipe.originalRecipeResult.withCount(3)

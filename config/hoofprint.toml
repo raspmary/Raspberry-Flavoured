@@ -1,0 +1,90 @@
+# Default scale / zoom level for terrain.
+# 0 to use GUI scale, -1 to use half.
+# range: -1 - 10
+# default: -1
+defaultScale = -1
+
+# Options to change the visuals of the map to be more or less vanilla-style.
+[style]
+	# Whether to color the water based on biome.
+	# Disable for a vanilla style.
+	# default: false
+	biomeWater = false
+	# Whether to color grass and foliage blocks based on biome.
+	# Disable for a vanilla style.
+	# default: false
+	biomeFoliage = false
+	# How large of an area to blend biome colors for water and foliage.
+	# Set to 0 for no blending. Higher is more performance intensive.
+	# range: 0 - 16
+	# default: 9
+	blendRadius = 9
+	# Whether to override the base color of odd-colored blocks like stone, ice, and leaf variants.
+	# Disable for a vanilla style.
+	# default: false
+	accurateColors = false
+	# Whether to render water as transparent, becoming more opaque in deep waters.
+	# Disable for a vanilla style.
+	# default: false
+	transparentWater = false
+	# Whether to consider sky and block lighting when coloring map pixels.
+	# Disable for a vanilla style.
+	# default: false
+	lighting = false
+	# What level of skylight to use when in cave mode.
+	# range: 0 - 15
+	# default: 8
+	ambientLight = 8
+	# Whether to shade the map based on relative elevation and water depth.
+	# Enable for a vanilla style. Disable for a very flat map.
+	# default: true
+	topography = true
+	# Whether to draw stacks tinted black underneath themselves to create an outline.
+	# Noticeable performance cost with many stacks on screen.
+	# default: true
+	itemOutlines = true
+	# Whether to show disconnected players and offline group members on the map.
+	# default: true
+	offlinePlayers = true
+	# Whether to render the map-textured background to help show valid pan areas.
+	# default: true
+	mapBackground = true
+
+# Options to adjust map behaviour for custom or modified dimensions.
+[dimensions]
+	# Which lightmap to use for dimensions not specified below.
+	# This changes the color tone of the lighting, when lighting is enabled.
+	# options: DAY, NIGHT, NETHER, END
+	# default: DAY
+	defaultLightmap = "DAY"
+
+	# Cycle order and coordinate scales of each dimension.
+	# If not 0, the relative position of the player will be shown.
+	[dimensions.scales]
+		"minecraft:overworld" = 8
+		"minecraft:the_nether" = 1
+		"minecraft:the_end" = 0
+
+	# Which lightmap to use for each dimension.
+	# This changes the color tone of the lighting, when lighting is enabled.
+	[dimensions.lightmaps]
+		"minecraft:the_nether" = "NETHER"
+		"minecraft:the_end" = "END"
+
+	# What Y co-ordinate to start the map at, in non-cave mode.
+	[dimensions.ceilings]
+		"minecraft:the_nether" = 126
+
+# Options for debugging issues with hoofprint.
+[debug]
+	# Whether to log every time map area baking is started.
+	# default: false
+	logBaking = false
+	# How many ticks to wait between baking regions.
+	# range: 1 - 200
+	# default: 20
+	ticksPerBake = 20
+	# I wonder what this could be?
+	# options: TRY, MIDDLE, CLICKING, THE, MAP
+	# default: TRY
+	redHerring = "TRY"

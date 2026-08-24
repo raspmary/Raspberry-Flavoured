@@ -31,10 +31,10 @@ ServerEvents.recipes(event => {
     })
 	
 	// Turn shoji into panes
-	Ingredient.of('#raspberry_flavoured:shoji_panes').itemIds.forEach(id => {
-		event.stonecutting('3x ' + id, 'hnh:shoji')
-		event.stonecutting(id, '#raspberry_flavoured:shoji_panes')
-    })
+	// Ingredient.of('#raspberry_flavoured:shoji_panes').itemIds.forEach(id => {
+	// 	event.stonecutting('3x ' + id, 'hnh:shoji')
+	// 	event.stonecutting(id, '#raspberry_flavoured:shoji_panes')
+    // })
 	
 	// Ice into panes
 	event.stonecutting('3x windswept:ice_sheet', '#raspberry_flavoured:ice')

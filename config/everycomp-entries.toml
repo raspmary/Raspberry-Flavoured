@@ -169,22 +169,6 @@
 
 	[entries.wood_type]
 
-		[entries.wood_type.modestmining]
-			tile_stairs = true
-			carved_plank_slab = true
-			boards = true
-			carved_plank_wall = true
-			board_slab = true
-			board_stairs = true
-			carved_planks = true
-			board_wall = true
-			tile_wall = true
-			tiles = true
-			tile_slab = true
-			carved_plank_stairs = true
-			chiseled_planks = true
-			pillar = true
-
 		[entries.wood_type.boatload]
 			large_boat = true
 			furnace_boat = true
@@ -246,6 +230,29 @@
 
 		[entries.wood_type.twigs]
 			table = true
+
+		[entries.wood_type.modestmasonry]
+			carved_plank_slab = true
+			boards = true
+			tile_wall = true
+			carved_plank_stairs = true
+			tiles = true
+			tile_stairs = true
+			pillar = true
+			carved_planks = true
+			board_stairs = true
+			tile_slab = true
+			board_wall = true
+			carved_plank_wall = true
+			chiseled_planks = true
+			board_slab = true
+
+		[entries.wood_type.hearth_and_home]
+			sanded_wood = true
+			lattice = true
+			parquet = true
+			vertical_trim = true
+			trim = true
 
 	[entries.leaves_type]
 

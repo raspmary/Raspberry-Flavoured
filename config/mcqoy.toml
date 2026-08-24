@@ -1,0 +1,57 @@
+# Height (in metres)
+# range: 1.0 - 3.0
+# default: 1.8
+height = 1.8
+# (Aside from a touch of arthritis)
+# default: I think, pretty good!
+medicalStatus = "I think, pretty good!"
+# Jim. In this galaxy, there's a mathematical probability of three million Earth-type planets.
+# And in all of the universe, three million million galaxies like this.
+# And in all of that, and perhaps more, only one of each of us.
+# Don't destroy the one named Kirk.
+# default: 3000000000000
+galaxiesLikeThis = 3000000000000
+
+[uniform]
+	# Damned blinking lights.
+	# matches r'#[0-9A-Fa-f]{8}'
+	# default: #AAF75866
+	communicator = "#AAF75866"
+	# Hands off, I got that one at the academy!
+	# all(matches r'#[0-9A-Fa-f]{6}')
+	closet = ["#003366", "#ffffff", "#4B9ECF"]
+
+	# Circa '2265
+	# all(matches r'#[0-9A-Fa-f]{6}')
+	[uniform.divisionUniforms]
+		Command = "#CAA354"
+		Operations = "#B20000"
+		Sciences = "#003366"
+		Medical = "#4B9ECF"
+
+# "Damn it, man!"
+[professions]
+	doctor = true
+	"moon shuttle conductor" = false
+	"flesh peddler" = false
+	bricklayer = false
+	surgeon = true
+	psychiatrist = false
+	scientist = false
+	physicist = false
+	escalator = false
+	mechanic = false
+	engineer = false
+	magician = false
+	"old country doctor" = true
+	"coal miner" = false
+	"torpedo technician" = false
+
+# F-
+[curses]
+	# I’d give real money if he’d shut up.
+	# range: 1 - 99
+	# default: 50
+	realMoney = 50
+	# These are from an old Southern recipe.
+	dismissals = ["Not this time.", "Shut up, we're rescuing you!", "When an Earth girl says “it’s me, not you” it’s definitely you.", "I don't doubt it.", "That green blooded son of a bitch"]

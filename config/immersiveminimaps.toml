@@ -1,0 +1,74 @@
+# Whether to show a minimap.
+# default: true
+minimap_enable = true
+# When right aligned, status effects move the minimap down
+# default: true
+moved_by_effects = true
+# Hide the minimap when the F3 menu is open.
+# default: true
+hide_from_debug = true
+# Default scale to open the minimap to.
+# default: -1
+default_scale = -1
+# Whether to apply Immersive Minimaps and Immersive Overlays requirements to Hoofprint's screen.
+# default: true
+apply_requirements_to_hoofprint = true
+# When present, Immersive Overlays can be used to gain a large amount of mod compatibility with third-party backpacks and accessory mods, and its requirements will be used rather than the configs set in Immersive Minimaps.
+# default: true
+immersive_overlays_bridge = true
+# When you right-click on a block with an item in the list of map items, place a landmark.
+# default: true
+items_place_landmarks = true
+# When you right-click in the air with an item in the list of map items, open the world map.
+# default: true
+items_open_world_map = true
+
+# Options to change the visuals of the map to be more or less vanilla-style.
+[requirements]
+	# Require an item to activate the minimap. This is the intended way to use the mod.
+	# default: true
+	require_item = true
+	# Require the item in hand.
+	# default: false
+	require_item_in_hand = false
+	# As an example, allows for a compass inside a bundle or Shulker Box to count.
+	# default: true
+	search_containers = true
+	# As an example, allows for a compass inside a bundle inside a Shulker Box to count.
+	# default: true
+	search_containers_for_containers = true
+	# When the following items are in the inventory, show the minimap.
+	items = ["minecraft:map", "minecraft:filled_map"]
+
+# Options to change the visuals of the map to be more or less vanilla-style.
+[style]
+	# How large to render the minimap.
+	# range: 0 - 500
+	# default: 80
+	size = 80
+	# Anchor the minimap to the left edge of the screen. Disable to anchor it to the right edge of the screen.
+	# default: true
+	left_align = true
+	# Horizontal offset from the edge of the screen.
+	# range: 0 - 500
+	# default: 5
+	xOffset = 5
+	# Vertical offset from the edge of the screen.
+	# range: 0 - 500
+	# default: 5
+	yOffset = 5
+	# Whether to render a background behind the map.
+	# default: true
+	draw_background = true
+	# Whether to render landmarks on the map.
+	# default: true
+	draw_landmarks = true
+	# Whether to render nearby players on the map.
+	# default: true
+	draw_players = true
+	# Whether to render far-off players on the map.
+	# default: false
+	draw_offscreen_players = false
+	# Whether to render all players with their locator bar colours, or to just default to green.
+	# default: true
+	draw_players_with_locator_bar_colours = true

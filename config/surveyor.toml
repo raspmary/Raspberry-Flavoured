@@ -1,0 +1,103 @@
+# Terrain system - records layers of blocks and biomes for maps to render
+# DISABLED prevents loading, FROZEN loads but prevents updates, DYNAMIC loads with addons or on servers, ENABLED always loads
+# options: DISABLED, FROZEN, DYNAMIC, ENABLED
+# default: DYNAMIC
+terrain = "DYNAMIC"
+# Structure system - records structure identifiers and piece data for specialized maps and utilities to render
+# DISABLED prevents loading, FROZEN loads but prevents updates, DYNAMIC loads with addons or on servers, ENABLED always loads
+# options: DISABLED, FROZEN, DYNAMIC, ENABLED
+# default: DYNAMIC
+structures = "DYNAMIC"
+# Landmark system - a generic record of both player-owned waypoints and server-owned POIs, accessible via API
+# DISABLED prevents loading, FROZEN loads but prevents updates, DYNAMIC loads with addons or on servers, ENABLED always loads
+# options: DISABLED, FROZEN, DYNAMIC, ENABLED
+# default: DYNAMIC
+landmarks = "DYNAMIC"
+# Logs structure discovery to the action bar.
+# E.g. 'Discovered Village Plains at [91, 63, -54]'
+# default: false
+discoveryMessages = false
+# Force-enables the following commands.
+# waypoints/landmarks raw | prints the raw SNBT of a landmark
+# default: false
+debugCommands = false
+# Ignores chunk changes that don't affect the amount of air in the chunk
+# Saves on performance, a little inaccurate sometimes.
+# default: true
+lazyClientUpdating = true
+# Ignores known landmarks when syncing landmarks to the client
+# A temporary fix until landmarks have some kind of revision counter
+# default: true
+forceUpdateLandmarks = true
+
+[networking]
+	# [Server] Whether to place every player in a single share group
+	# Disables /surveyor share and /surveyor unshare
+	# default: true
+	globalSharing = true
+	# How much terrain data to send to clients
+	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
+	# options: NONE, SOLO, GROUP, SERVER
+	# default: GROUP
+	terrain = "GROUP"
+	# How much structure data to send to clients
+	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
+	# When NONE, clients will never see structures
+	# options: NONE, SOLO, GROUP, SERVER
+	# default: GROUP
+	structures = "GROUP"
+	# Which landmarks to sync between client and server
+	# SERVER sync server-known landmarks, GROUP sends group-known landmarks, SOLO sends player-known landmarks, NONE sends no landmarks
+	# options: NONE, SOLO, GROUP, SERVER
+	# default: GROUP
+	landmarks = "GROUP"
+	# Which waypoints (player-created landmarks) to sync between client and server
+	# When SERVER, players can see (but not edit) all waypoints, including potentially offensive names
+	# When GROUP, players can see (but not edit) waypoints created by players in their share group
+	# When SOLO, player-created waypoints will be stored on the server as a backup
+	# When NONE, waypoint data will never be synced (e.g. for privacy)
+	# options: NONE, SOLO, GROUP, SERVER
+	# default: GROUP
+	waypoints = "GROUP"
+	# [Server] How much player position data to send to clients
+	# SERVER sends all players positions, GROUP sends just group players, SOLO sends nothing, NONE sends nothing
+	# Players will only see the offline positions of their group members, or players who disconnected while they were online.
+	# options: NONE, SOLO, GROUP, SERVER
+	# default: SERVER
+	positions = "SERVER"
+	# [Server] Ticks per terrain region load for batch update - lower is more frequent
+	# range: 1 - 200
+	# default: 20
+	terrainTicks = 20
+	# [Server] Ticks per position update - lower is more frequent
+	# range: 1 - 200
+	# default: 1
+	positionTicks = 1
+
+[builtins]
+	# Which block entities to preserve data for when creating block landmarks.
+	allowedBlockEntities = ["minecraft:banner"]
+	# Which points of interest to automatically add block landmarks for.
+	poiLandmarks = ["minecraft:lodestone"]
+	# Whether to automatically add specialised nether portal POI landmarks.
+	# Creates one landmark for each nether portal, instead of one per portal block.
+	# default: true
+	netherPortalLandmarks = true
+	# Whether to automatically add player death waypoints
+	# default: true
+	playerDeathWaypoints = true
+	# Allows recording terrain and waypoints from map items by sneak+using them at a cartography table.
+	# Viable blocks configured via #surveyor:record_from_map
+	# default: true
+	recordFromMapItems = true
+	# Allows recording terrain to map items by sneak+using them at a cartography table.
+	# Viable blocks configured via #surveyor:record_to_map
+	# options: NONE, EXPLORER, COLOR
+	# default: EXPLORER
+	recordToMapItems = "EXPLORER"
+
+	[builtins.recordIcons]
+		PLAYER = false
+		PLAYER_OFF_MAP = false
+		PLAYER_OFF_LIMITS = false
+		FRAME = false

@@ -92,7 +92,7 @@ KeyBindEvents.modify(event => {
 	event.modifyCategory('key.scholar.export_book', 'key.categories.gameplay');
 	event.modifyCategory('treeliable.key.toggle_chopping', 'key.categories.gameplay');
 	
-	event.modifyCategory('create.keyinfo.ponder', 'key.categories.inventory');
+	event.modifyCategory('key.ponder.ponder', 'key.categories.inventory');
 	event.modifyCategory('quark.keybind.sort_player', 'key.categories.inventory');
 	event.modifyCategory('quark.keybind.sort_container', 'key.categories.inventory');
 	event.modifyCategory('quark.keybind.transfer_insert', 'key.categories.inventory');
@@ -103,9 +103,6 @@ KeyBindEvents.modify(event => {
 	event.modifyCategory('key.naming_unconvention.reroll', 'key.categories.misc');
 	event.modifyCategory('quark.keybind.camera_mode', 'key.categories.misc');
 	event.modifyCategory('quark.keybind.back', 'key.categories.misc');
-	event.modifyCategory('key.raised.hud.down', 'key.categories.misc');
-	event.modifyCategory('key.raised.hud.up', 'key.categories.misc');
-	event.modifyCategory('key.raised.chat.down', 'key.categories.misc');
-	event.modifyCategory('key.raised.chat.up', 'key.categories.misc');
+	event.modifyCategory('key.raised.options', 'key.categories.misc');
 	event.modifyCategory('key.immersiveoverlays.settings', 'key.categories.misc');
 })

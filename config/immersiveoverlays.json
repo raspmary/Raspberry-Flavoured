@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "enabled": true,
   "avoid_overlapping": true,
   "moved_by_effects": true,
@@ -7,6 +7,8 @@
   "require_item_in_hand": false,
   "search_containers": true,
   "search_containers_for_containers": true,
+  "allow_blocks": true,
+  "allow_blocks_distance": 3,
   "render_background": true,
   "render_endcap": true,
   "hide_from_debug": true,
@@ -14,6 +16,7 @@
   "compass_vertical_position": 170,
   "compass_horizontal_position_left": false,
   "compass_direction": false,
+  "compass_single_line": false,
   "compass_direction_text_colour": 16755200,
   "compass_text_colour": 14737632,
   "compass_x_colour": 16733525,
@@ -31,11 +34,20 @@
     "caverns_and_chasms:depth_gauge",
     "additionaladditions:depth_meter",
     "supplementaries:altimeter",
-    "depthmeter:depthmeter"
+    "depthmeter:depthmeter",
+    "reduced_world_infos:altimeter"
   ],
   "compass_z_items": [
     "firmaciv:sextant"
   ],
+  "compass_anchor_items": [
+    "minecraft:compass",
+    "minecraft:recovery_compass"
+  ],
+  "compass_relative_pos": true,
+  "compass_x_blocks": [],
+  "compass_y_blocks": [],
+  "compass_z_blocks": [],
   "clock_enable": true,
   "clock_current_time": true,
   "clock_day_count": false,
@@ -51,6 +63,14 @@
     "caverns_and_chasms:barometer",
     "firmaciv:barometer"
   ],
+  "clock_day_count_items": [
+    "reduced_world_infos:attuned_clock"
+  ],
+  "clock_blocks": [
+    "supplementaries:clock_block"
+  ],
+  "clock_weather_blocks": [],
+  "clock_day_count_blocks": [],
   "temperature_enable": true,
   "temperature_icons": true,
   "temperature_hot_colour": 16759694,
@@ -64,6 +84,8 @@
     "legendarysurvivaloverhaul:thermometer",
     "cold_sweat:thermometer"
   ],
+  "temperature_blocks": [],
+  "compat_playerlocatorplus": true,
   "compat_xaeros": true,
   "compat_antique_atlas": true,
   "compat_oreganized_temperature": true,
@@ -88,10 +110,14 @@
     "antiqueatlas:antique_atlas",
     "raspberry:atlas"
   ],
+  "biome_blocks": [],
   "season_items": [
     "sereneseasons:calendar",
     "seasonsextras:season_calendar",
     "eclipticseasons:calendar"
+  ],
+  "season_blocks": [
+    "seasonsextras:season_calendar"
   ],
   "speed_enable": true,
   "speed_vertical_position": 137,
@@ -101,13 +127,17 @@
     "oreganized:speedometer",
     "speedometer:speedometer"
   ],
+  "speed_blocks": [],
   "compat_oreganized_speed": true,
   "compat_jade": true,
   "compat_waila_items": [
     "minecraft:spyglass"
   ],
+  "compat_waila_blocks": [],
   "compat_map_atlases": false,
   "compat_serene_seasons": true,
+  "compat_fabric_seasons": true,
+  "compat_simple_seasons": true,
   "compat_tfc_seasons": true,
   "compat_ecliptic_seasons": true,
   "wind_enable": true,
@@ -118,5 +148,26 @@
   "compat_breezy": true,
   "wind_items": [
     "breezy:gust_gauge"
+  ],
+  "wind_blocks": [],
+  "compat_dead_reckoning": true,
+  "compass_lodestone_colour": -1500560,
+  "compass_recovery_colour": -7405585,
+  "moon_enable": true,
+  "moon_horizontal_position_left": false,
+  "moon_text_colour": -1507334,
+  "moon_text_colour_from_events": true,
+  "moon_vertical_position": 62,
+  "moon_reduced_info": true,
+  "moon_only_at_night": true,
+  "moon_items": [
+    "urkazmoontools:moonclock_item",
+    "tide:lunar_calendar",
+    "twilightforest:moon_dial",
+    "spectrum:crescent_clock"
+  ],
+  "moon_blocks": [
+    "tide:lunar_calendar",
+    "urkazmoontools:moonsensor_blockitem"
   ]
 }

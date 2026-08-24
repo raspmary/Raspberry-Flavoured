@@ -1,7 +1,0 @@
-{
-  "type": "forge:remove_spawns",
-  "biomes": [
-    "minecraft:the_end"
-  ],
-  "entity_types": "modestmining:clam"
-}

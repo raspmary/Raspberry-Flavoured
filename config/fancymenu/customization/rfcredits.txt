@@ -1,97 +1,210 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = rfcredits
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1787524837269
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:1447f492-1d89-4e74-a20e-51fbd9889734-1787524837269] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  path = config/fancymenu/fancymenu_assets/backgroundshadows2.png
-  orientation = mid-centered
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  source = [source:local]config/fancymenu/fancymenu_assets/backgroundshadows2.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = 735cc7a4-b72b-4015-9893-63cc022879581707263062173
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
   x = -269
-  width = 538
-  action = addtexture
-  actionid = 735cc7a4-b72b-4015-9893-63cc022879581707263062173
   y = -156
+  width = 538
   height = 304
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b7ba6409-0816-4d7b-8d58-0bc233b829f8-1787524837286
+  [loading_requirement_container_meta:b7ba6409-0816-4d7b-8d58-0bc233b829f8-1787524837286] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
-customization {
-  orientation = mid-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = Microsoft & Mojang Studios are the current owners, maintainers and %n%developers of Minecraft. I bare no intent to%n%infringe on their copyrighted material, brand or work%n%with Raspberry Flavoured.%n%%n%&c&nRF CONTRIBUTOR CREDITS%n%%n%&6raspmary&f - Project lead%n%&6Baisylia&f - Co-lead, programming, %n%Discord, GitHub & Wiki management, creator %n%of various useful mods in RF%n%&6cassiancc&f - Creator and main developer %n%of Raspberry Core, server pack %n%maintainer, Discord & GitHub management%n%&6evanbones&f - Major programming work,%n%Raspberry Core contributor%n%&6Kobber&f - Major programming and texture work,%n%Raspberry Core contributor%n%&6DavigJ&f - Major work on Raspberry Core, %n%creator of various useful mods in RF%n%&6nikohalfkino&f - Major texture work & music%n%&6Baileybun&f - Major texture work, music, Discord management%n%&6ProbablyEkho&f - Major texture work%n%&6asof&f - Major programming and texture work%n%&6Derb&f - Major texture work%n%&6Crabbarition&f - Programming, music, Discord management%n%&6Quoraal&f - Major texture/model work%n%&6QinomeD&f - Programming, creator of KubeJS Delight%n%&6Nive&f - Major texture work%n%&6ChadVAFN&f - Ideas, Discord management%n%&aKiroto&f - First public RF SMP server owner%n%&aDoltHHaven&f - Mod configurations, %n%creator of some useful mods in RF%n%&aMythrilBagels&f - Texture work, %n%creator of some resource packs in RF%n%&aCW&f - Texture work%n%&anoodleman&f - Texture work%n%&alurkywho&f - Texture work%n%&ajaybees&f - Texture work%n%&acrunchylungs&f - Texture work%n%&agraygravity&f - Texture work%n%&aJamiscus&f - Texture work%n%&abeb&f - Texture work%n%&aJameslice&f - Texture work%n%&aoniflora&f - Music%n%&amintynoura&f - Programming, %n%Modest Modding contributor%n%&anoodleblitz&f - Programming%n%&aSarahIsWeird&f - Programming, %n%Raspberry Core contributor%n%&aGrom PE&f - Programming%n%&aWaterOre&f - Ideas, programming%n%&aAkhillLikesMinecraft&f - Programming%n%&aculling&f - Programming%n%&aKelpiesaurus&f - Ideas, mod configurations%n%&adb3k&f - Inspiration for built-in resource packs%n%&aVazkii&f - Mod configurations%n%&aFreshah&f - Previously assisted with programming%n%&amurao.kun&f - Previously inspired inventory layout%n%%n%&c&nRESOURCE PACK CREDITS%n%%n%&aTeam Vanilla Tweaks&f - Vanilla Tweaks resource pack%n%&ahatsondogs&f - Peeves resource pack%n%&avectorwing&f - Detail Brush & Refined Armor resource packs%n%&a8shadowscrow8&f - SHC Enhanced Fire resource pack%n%&adb3k&f - Create Reoxidized resource pack%n%&aspydnel&f - Created & Updated resource pack%n%&awedge1453&f - Create Style Modded Compats resource pack%n%&aBaileybun&f - Better Create Palettes resource pack%n%&aScutoel&f - Bat Backport resource pack%n%&aFarcr&f - Farcr's Re-Crafted & Better Dirt resource packs%n%&aParadiscal&f - Up to Scratch resource pack%n%&aFeranogame&f - Quark Vanilla Resource Overrides resource pack%n%&ajoosh_7889&f - Better Mob Models resource pack%n%&aMythrilBagels&f - Bagels' Animal & Texture Tweaks resource packs%n%&aDiegoxDios&f - Warm Polar Bear & Remodeled Rabbit resource packs%n%&abebebea_loste&f - Banner Pattern Clarity resource pack%n%&aFinneganso&f - Vintage Photography resource pack%n%&aliahim85&f - Authentic Shadows resource pack%n%&aomaypaty&f - Aquaculture FishedUP resource pack%n%&aLuna&f - Re-Imagine-Tom-Simple-Storage resource pack%n%&aartemisSystem&f - Deepslate Ore Fix resource pack%n%&aemihead&f - Emihead's Bookshelves resource pack%n%&azanderest&f - Crude Glass resource pack%n%&aSr_Paulo&f - Golden Crit resource pack%n%&aCerealConJugo&f - Brush & Juice resource pack%n%&aIcedmi&f - Reincarnation resource pack%n%&amaple_exists&f - Brush Up resource pack%n%&aPlanity&f - Farcr's Better Dirt Modded Compats resource pack%n%&aDerp_gamer22&f - Derp's Compat for Every Compat resource pack%n%&aFutureazoo&f - Mob Crates resource pack%n%&acareeoki&f - Adjacent, Fantastic Flora & Carrie's Dyes resource packs
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -193
-  width = 387
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 561e0002-8488-49b8-942e-67ee2e818b221690065456718
-  y = -94
-  alignment = centered
-  height = 167
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
+element {
+  button_element_executable_block_identifier = c86d0980-bde7-4f1a-a5d2-6f99067ea6d0-1787524837291
+  [executable_action_instance:ba026909-f27f-4278-8126-a111b5c48d79-1787524837291][action_type:closegui] = 
+  [executable_block:c86d0980-bde7-4f1a-a5d2-6f99067ea6d0-1787524837291][type:generic] = [executables:ba026909-f27f-4278-8126-a111b5c48d79-1787524837291;]
   restartbackgroundanimations = true
-  buttonaction = closegui%btnaction_splitter_fm%
-  x = -102
-  width = 204
-  action = addbutton
-  actionid = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
-  y = 78
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Done
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 9e3d301c-bc63-4b81-be2a-9c3af7320db2-1787524837290
+  [loading_requirement_container_meta:9e3d301c-bc63-4b81-be2a-9c3af7320db2-1787524837290] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -102
+  y = 78
+  width = 204
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 409d044e-e886-49f2-98c2-6792d81d6d76-1787524837292
+  [loading_requirement_container_meta:409d044e-e886-49f2-98c2-6792d81d6d76-1787524837292] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
-customization {
-  orientation = mid-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.5
-  source = &o&nCREDITS & ATTRIBUTIONS
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -192
-  width = 385
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = e8333dda-cfe3-485b-bf83-f31925b66e851701372444687
-  y = -111
-  alignment = centered
-  base_color = E8587C
-  height = 20
-}
-
-customization {
-  orientation = element
+element {
+  button_element_executable_block_identifier = 7f4fafa3-7a56-46d6-ab50-fd2b3ee2dff2-1787524837292
+  [executable_action_instance:a3d6fc15-21b5-44da-bf7b-c1022bfb0e6e-1787524837292][action_type:openlink] = https://discord.gg/jxNe26WNYh
+  [executable_block:7f4fafa3-7a56-46d6-ab50-fd2b3ee2dff2-1787524837292][type:generic] = [executables:a3d6fc15-21b5-44da-bf7b-c1022bfb0e6e-1787524837292;]
+  backgroundnormal = [source:local]config/fancymenu/fancymenu_assets/discordbutton.png
+  backgroundhovered = [source:local]config/fancymenu/fancymenu_assets/discordbuttonhover.png
   restartbackgroundanimations = true
-  buttonaction = openlink;https://discord.gg/jxNe26WNYh%btnaction_splitter_fm%
-  backgroundhovered = config/fancymenu/fancymenu_assets/discordbuttonhover.png
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   description = Join the RF%n%Discord server!
   label = 
-  loopbackgroundanimations = true
-  orientation_element = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 56df24ac-6889-4bd7-a430-e2fd1c6dce71-1787524837292
+  [loading_requirement_container_meta:56df24ac-6889-4bd7-a430-e2fd1c6dce71-1787524837292] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 3f5f58d5-3a58-4288-bdcd-9cf638c01eba1714672157312
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
   x = 282
-  width = 20
-  action = addbutton
-  actionid = 3f5f58d5-3a58-4288-bdcd-9cf638c01eba1714672157312
   y = 0
-  backgroundnormal = config/fancymenu/fancymenu_assets/discordbutton.png
+  width = 20
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = a13cc0e5-df9e-4ef1-aac9-6edab673e0ac-1787524837292
+  [loading_requirement_container_meta:a13cc0e5-df9e-4ef1-aac9-6edab673e0ac-1787524837292] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 

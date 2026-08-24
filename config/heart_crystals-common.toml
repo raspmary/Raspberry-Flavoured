@@ -15,5 +15,5 @@
 [world-gen]
 	#Max Y Level that Heart Crystals can spawn at; default: 30
 	#Range: -60 ~ 60
-	"Maximum Hearts" = -60
+	"Max Y Level" = 30
 
