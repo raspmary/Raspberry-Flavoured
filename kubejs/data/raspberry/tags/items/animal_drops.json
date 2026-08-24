@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:scute",
+	"minecraft:feather",
+	"minecraft:leather",
+	"minecraft:ink_sac",
+	"minecraft:glow_ink_sac",
+	"naturalist:bear_fur",
+	"naturalist:butterfly",
+	"naturalist:caterpillar",
+	"environmental:duck_egg",
+	"environmental:yak_hair",
+	"upgrade_aquatic:thrasher_tooth",
+	"autumnity:snail_goo",
+	"autumnity:turkey_egg",
+	"raspberry:firefly"
+	
+  ]
+}

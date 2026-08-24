@@ -1,0 +1,48 @@
+{
+	"replace": false,
+	"values":[
+		"minecraft:crafting_table",
+		"#raspberry_flavoured:furnaces",
+		"#raspberry_flavoured:campfires",
+		"raspberry:ash_stove",
+		"raspberry:silt_stove",
+		"farmersdelight:stove",
+		"mynethersdelight:nether_bricks_soul_stove",
+		"farmersdelight:skillet",
+		"cookscollection:oven",
+		"farmersdelight:cutting_board",
+		"farmersdelight:cooking_pot",
+		"brewinandchewin:keg",
+		"modestmining:forge",
+		"minecraft:stonecutter",
+		"minecraft:composter",
+		"minecraft:grindstone",
+		"minecraft:smithing_table",
+		"minecraft:loom",
+		"minecraft:cartography_table",
+		"minecraft:anvil",
+		"minecraft:chipped_anvil",
+		"minecraft:damaged_anvil",
+		"exposure:lightroom",
+		"create:mechanical_press",
+		"create:millstone",
+		"create:crushing_wheel",
+		"create:mechanical_mixer",
+		"create:basin",
+		"create:spout",
+		"create:item_drain",
+		"create:encased_fan",
+		"create:deployer",
+		"create:mechanical_crafter",
+		"create:mechanical_saw",
+		"create:schematic_table"
+		
+		
+		
+		
+		
+		
+	
+	]
+}
+	

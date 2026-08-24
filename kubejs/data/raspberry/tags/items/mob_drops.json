@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:gunpowder",
+	"minecraft:string",
+	"minecraft:slime_ball",
+	"savage_and_ravage:creeper_spores",
+	"minecraft:bone",
+	"minecraft:ghast_tear",
+	"minecraft:blaze_rod",
+	"minecraft:ender_pearl",
+	"minecraft:nether_star",
+	"minecraft:prismarine_shard",
+	"minecraft:prismarine_crystals",
+	"minecraft:rabbit_hide",
+	"minecraft:phantom_membrane",
+	"architects_palette:withered_bone",
+	"kubejs:dwarf_geode",
+	"kubejs:deepslate_dwarf_geode",
+	"kubejs:blackstone_dwarf_geode",
+	"nethersdelight:hoglin_hide"
+	
+	
+	
+	
+  ]
+}
