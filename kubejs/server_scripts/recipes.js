@@ -1786,6 +1786,7 @@ ServerEvents.recipes(event => {
 	event.smithing('minecraft:recovery_compass', 'minecraft:compass', 'quark:soul_bead').id('minecraft:recovery_compass')
 	event.smithing('kubejs:rose_gold_horse_armor', 'minecraft:iron_horse_armor', 'additionaladditions:rose_gold_alloy')
 	event.smithing('kubejs:steel_horse_armor', 'minecraft:iron_horse_armor', 'alloyed:steel_ingot')
+	event.smithing('minecraft:diamond_horse_armor', 'minecraft:iron_horse_armor', 'modestmining:diamond_plating')
 	event.smithing('kubejs:electrum_horse_armor', 'minecraft:diamond_horse_armor', 'oreganized:electrum_ingot')
 	event.smithing('kubejs:necromium_horse_armor', 'minecraft:diamond_horse_armor', 'caverns_and_chasms:necromium_ingot')
 	event.smithing('kubejs:netherite_horse_armor', 'minecraft:diamond_horse_armor', 'minecraft:netherite_ingot')
