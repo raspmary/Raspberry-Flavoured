@@ -53,7 +53,7 @@ customization {
   action = addbutton
   actionid = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361
   y = 78
-  label = Done
+  label = {"placeholder":"local","values":{"key":"rf.menu.global.done"}}
   height = 20
 }
 
@@ -82,7 +82,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/jxNe26WNYh%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/fancymenu_assets/discordbuttonhover.png
-  description = Join the RF%n%Discord server!
+  description = {"placeholder":"local","values":{"key":"rf.menu.global.discord"}}
   label = 
   loopbackgroundanimations = true
   orientation_element = fcdd0c96-2b8a-4f54-99f0-65fbbd387af81690067384361

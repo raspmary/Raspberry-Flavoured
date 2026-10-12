@@ -28,7 +28,7 @@ customization {
   action = addbutton
   actionid = 73554841-bf43-44c2-ae40-50cbe3ce39741726770779316
   y = -28
-  label = Cancel
+  label = {"placeholder":"local","values":{"key":"rf.menu.global.cancle"}}
   height = 20
 }
 

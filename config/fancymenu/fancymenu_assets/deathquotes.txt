@@ -1,176 +1,176 @@
-IT APPEARS YOU HAVE REACHED AN END.
-WILL YOU TRY AGAIN?
-WILL YOU PERSIST?
-VERY INTERESTING.
-YOUR LOSS HERE IS ALL BUT GUARANTEED.
-AND YET YOU PERSIST...
-IF YOU ARE SO DETERMINED TO TRY ONCE MORE...
-THEN... SHALL WE HASTEN?
-AND SO, YOU MEET WITH THE SAME FATE.
-SHALL YOU TRY ONCE MORE?
-YOU ARE MISSING SOMETHING IMPORTANT.
-YOU WON'T WIN LIKE THIS.
-STILL... WILL YOU PERSIST?
-A LITTLE FURTHER.
-BUT IT... IS STILL WAITING.
-HOW MUCH LONGER NOW?
-YOU FAILED TO ACHIEVE ANY MARKS.
-WHAT ARE YOU?
-I VERY MUCH LOOK FORWARD TO THE NEXT.
-I imagine death so much, it feels more like a memory!
-You cannot give up just yet... 
-Stay determined...
-Sayonara!
-Come on, you can do better than that!
-Try harder... more harder!
-Skill issue!
-Well, it seems that your journey has ended. 
-Very sorry about that.
-Respawn yourself, NOW!
-gg no re
-You're a deathkisser!
-let's just get to the point.
-Next time, be prepared!
-Does death hurt?
-That one really knocked your socks off!
-So long, gay Bowser!
-SURPRISE!
-WASTED
-Perhaps I treated you too harshly.
-Do better next time... if there is one.
-Get off Minecraft for the day, you need it.
-It looks like you got your head handed to you. 
-So, how about giving it another shot?
-Thank you for choosing... exotic butters
-TOO BAD.
-Oh no! ... anyway
-Oops, you have to put the CD in your computer!
-PRESS 'R' TO TRY AGAIN
-In this world, it's kill or be killed!
-YOU ARE DEAD. NOT BIG SURPRISE.
-It's joever
-YOU'RE FINISHED!
-... and that's all she wrote!
-That's all, folks!
-Mamma mia, a-here I go again!
-Snake? Snake!? SNAAAAAKE!!
-The end is never the end!
-MAMAAAAAAAAA, I DON'T WANNA DIE
-FISSION MAILED
-One more time?
-You're right, terrible - let's try that again!
-Maybe try peaceful mode?
-This is NOT epic!
-This is not your fate...!
-Please, don't give up!
-Come on, that all you got!?
-You beefed it!
-Better luck next time, boss!
-Breathe in... breathe out...
-Check your pulse!
-You blacked out!
-GOD DAMN IT
-We all fail, we all make mistakes, it's what makes us human.
-Oof!
-geeettttttt dunked on!!!
-if we're really friends... you won't come back.
-Just be glad you're not on Bedrock Edition.
-Hope you weren't playing on Hardcore Mode!
-This is all just a bad dream... and you're NEVER waking up!
-Close your eyes, you'll be here soon
-[Die Now] AND I'LL THROW IN [50] [Bullets] FOR FREE!
-I'M SO [Proud] OF YOU, I COULD [Killed] YOU!
-[InsertPlayerName]'S [Hyperlink] WAS [Blocked]!!
-I'LL CHASE YOU TO THE ENDS OF THE EARTH!
-You never cease to surprise me.
-Well, what can I say? I die hard!
-[EXTREMELY LOUD INCORRECT BUZZER]
-This is your final frontier!
-Womp womp!
-Don't worry, your stuff won't despawn!
-No, the journey doesn't end here.
-I am... inevitable.
-Reincarnation in progress...
-Death is just another path, one that we all must take.
-It's past your bedtime!
-You've made a grave mistake!
-lol
-lmao, even
-There is no escape.
-There is an image of death in every birth.
-But still just OK...
-I don't feel so good...
-git gud
-The Past still haunts you.
-[LIFE SUPPORT: OFFLINE]
-Body desecrated. You lost 0 Cells.
-What, were you playing with a steering wheel?
-Say pal, you don't look so good.
-HIGHWAY TO HELL!
-This is how you died.
-sentenced to forever broccoli no candy
-hrngh soup
-But it refused.
-The Phantoms have put you in a deep sleep.
-Not with a bang, but a whimper.
-Roll it again.
-How abnormal...
-... and so he vanished, another number among the missing.
-But when the world needed him most, he vanished.
-Don't try this at home!
-Now it's time for another vendetta!
-I always come back!
-I DON'T WANT TO DIE.
-Fear is the mind-killer.
-VILLAGERS ARE DEAD THE NETHER IS FULL LAVA IS FUEL
-All those moments will be lost in time, like tears in rain.
-It's over, isn't it?
-In the Exodus, no one can hear you scream.
-The Exodus consumes all.
-28 STAB WOUNDS!
-New life will be born beneath the blood-stained sand!
-Did you have lead in your hotbar again?
-... and you get to tend the rabbits.
-This truly was a Raspberry Flavoured!
-Okay campers, rise and shine!
-The only true death is to never live.
-That's rough, buddy.
-Gamers don't die, they respawn!
-You missed that one, try another!
-Insert MineCoin to Continue
-[Give Up]   [Call Luigi]
-He was so ugly that everyone died. The End.
-One day you will mine your last block
-You must DIE!
-Ruh roh!
-They dug too greedily and too deep.
-The game was over and the player woke up from the dream.
-He was destroyed!
-The broom closet ending was my favorite!
-Maybe Go Fish is more our speed...
-We folded like a cheap suit!
-Time for us to shuffle off and try again!
-You know what they say, the house always wins!
-Looks like we found out who the real Joker is!
-Oh no, were you bluffing too?
-Looks like the joke's on us!
-If I had hands I would have covered my eyes!
-I'm literally a fool, what's your excuse?
-What a flop!
-Shoot like a star or fold like a quitter!
-Are you feeling alive?
-Are you feeling down?
-Have you lost control?
-Is your life a mess?
-Do your friends despise you?
-When did you start being yourself?
-...
-THERE IS NO ESCAPE
-IS THERE NO ESCAPE?
-TAKEN BY THE STYX
-TIME CANNOT BE STOPPED
-CAN TIME NOT BE STOPPED?
-Return to shadow, now!
-Special delivery: PAIN!
-No, my only weakness - dying!
-We ain't!
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.1"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.2"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.3"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.4"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.5"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.6"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.7"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.8"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.9"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.10"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.11"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.12"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.13"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.14"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.15"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.16"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.17"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.18"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.19"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.20"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.21"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.22"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.23"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.24"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.25"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.26"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.27"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.28"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.29"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.30"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.31"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.32"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.33"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.34"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.35"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.36"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.37"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.38"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.39"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.40"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.41"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.42"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.43"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.44"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.45"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.46"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.47"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.48"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.49"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.50"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.51"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.52"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.53"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.54"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.55"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.56"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.57"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.58"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.59"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.60"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.61"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.62"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.63"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.64"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.65"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.66"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.67"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.68"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.69"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.70"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.71"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.72"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.73"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.74"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.75"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.76"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.77"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.78"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.79"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.80"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.81"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.82"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.83"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.84"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.85"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.86"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.87"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.88"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.89"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.90"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.91"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.92"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.93"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.94"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.95"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.96"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.97"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.98"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.99"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.100"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.101"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.102"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.103"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.104"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.105"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.106"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.107"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.108"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.109"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.110"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.111"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.112"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.113"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.114"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.115"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.116"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.117"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.118"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.119"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.120"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.121"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.122"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.123"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.124"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.125"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.126"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.127"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.128"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.129"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.130"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.131"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.132"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.133"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.134"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.135"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.136"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.137"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.138"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.139"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.140"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.141"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.142"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.143"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.144"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.145"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.146"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.147"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.148"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.149"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.150"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.151"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.152"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.153"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.154"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.155"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.156"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.157"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.158"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.159"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.160"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.161"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.162"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.163"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.164"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.165"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.166"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.167"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.168"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.169"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.170"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.171"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.172"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.173"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.174"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.175"}}
+{"placeholder":"local","values":{"key":"rf.menu.deathquote.176"}}

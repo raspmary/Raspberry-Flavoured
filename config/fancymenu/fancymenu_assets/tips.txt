@@ -1,165 +1,165 @@
-Found an issue? Talk about it in the RF Discord!
-Got a suggestion? Talk about it in the RF Discord!
-Wanna chat with other RF players? Join the RF Discord!
-Sleeping won't skip nights instantly.
-Sleeping speeds up various processes.
-Zombies drop Cloth Scraps, used for making Beds... but you know that already.
-Having an Atlas in your hotbar will display a minimap.
-Bellows make fires last longer and speed up Furnaces, Ovens and Forges.
-Bombs damage mobs, but not blocks.
-Campfires grant Comfort when lit and stood near.
-Crushing Cinnabar yields Redstone Dust.
-Cooking Pots make meals and drinks that grant helpful effects.
-Ovens cook meals and pastries that grant helpful effects.
-Blaze Burners with Cooking Guides can cook automatically.
-There are no Stone tools - only Copper tools.
-Chainmail armor, Horse armor, Saddles and Name Tags are craftable in RF.
-Creeper Spores spawn a horde of friendly Creepies when thrown.
-Creepers won't damage terrain, but they will spawn Creepies.
-The crosshair indicates your tool's effectiveness on the block in front of you.
-Use a Pickaxe on Crying Obsidian to extract a Lachryte Tear.
-Lachryte Tears can be melted down into Liquefied Lachryte.
-Liquefied Lachryte is required to create a Nether Portal.
-Upon death, a totem will appear at your death point which holds your items.
-Discs can be smashed into fragments, which can be crafted into other discs.
-A Diving Helmet and Backtanks will let you traverse underwater more easily.
-Dunes are lush, two-toned deserts with Yucca trees and various other flora.
-Leather armor protects against fall damage.
-Chainmail armor damages attackers.
-Copper armor has a unique effect when struck by lightning.
-Golden tools increase drops from certain blocks and mobs.
-Golden armor lightly protects against fire.
-Iron armor provides light knockback resistance.
-Rose Gold tools dig quickly and cause blocks to drop in their purest form.
-Rose Gold armor protects against magic.
-Steel tools dig slowly, but are durable and knock targets further away.
-Steel armor provides good knockback resistance.
-Diamond equipment is obtained by upgrading Iron equipment with Diamond Plating.
-Diamond armor protects against projectile damage.
-Electrum tools dig very quickly and deal extra damage when sprinting.
-Electrum armor grants a movement speed boost.
-Netherite tools light targets on fire and smelt mined blocks.
-Netherite armor protects against fire and getting knocked back.
-Necromium tools restore health when mining blocks & slow down targets.
-Necromium armor weakens attackers.
-Various enchantments you may be used to no longer exist in RF.
-Etching Tables allow you to make your own music discs.
-Animals can eat out of Feeding Troughs and breed by themselves.
-Banners can be applied to Beds.
-Flags can be placed on Sticks and then moved up and down.
-Don't leave trees floating!
-Item Vaults combine into bigger Vaults when placed next to each other.
-Fluid Tanks combine into bigger Tanks when placed next to each other.
-Item Drawers store up to 80 stacks of a single type of item.
-Flutes can be assigned to tamed mobs and call them from far away.
-Some fungi planted on Rich Soil will grow into colonies.
-Furnace Boats can be fueled with Coal to go faster.
-Furnace Minecarts will load chunks when fueled.
-Lighting Copper-related blocks on fire will create green Cupric fire.
-Hollow Logs let you crawl inside them by sneaking next to them.
-Ice drops Ice Cubes when mined with a Pickaxe. They're crunchy.
-Killing various mobs with Knives may cause them to drop extra items.
-Days and nights are longer in RF.
-Stripping Maple Logs sometimes reveals Sap that you can bottle.
-Stripping Jungle Logs sometimes reveals Latex that you can bottle.
-Stripping Rosewood Logs sometimes reveals Latex that you can bottle.
-Stressometers visualise the stress level of your machines.
-Speedometers visualise the speed of your machines.
-Minecart Couplings allow you to link Minecarts together.
-Watermelons cause you to spit seeds when consumed.
-Wildfires drop Infernal Scrap.
-Piglin Brutes drop Infernal Scrap.
-Piglins and Hoglins can be made immune to zombification with a Golden Apple.
-Zombified Piglins and Zoglins can be cured with Weakness and a Golden Apple.
-Pikes come in various sizes and colors.
-Rough gems can be polished with Sand Paper or a Grindstone.
-Potato Cannons use various foods as ammo.
-Presents allow you to gift a stack of items to a player.
-Trapped Presents instantly release their contents when opened.
-Redstone Links transmit Redstone signals wirelessly.
-Rerack your trees!
-Bundles, Sacks, Backpacks and Terrabins let you carry more items.
-Bundles, Sacks, Backpacks and Terrabins can all be dyed.
-Terrabins can be opened from inside the inventory by right-clicking on them.
-Schematicannons can build for you when provided with blueprints and materials.
-Skillets can be held or placed over fire to cook food on the go.
-Skillets, Cooking Pots and Ovens always drop items or containers to their right.
-All hail the Slabfish.
-Baby Snails drop Snail Shell Pieces when they grow into adults.
-Mountain Boots allow you to move faster over snowy blocks.
-Soap can clean dye off blocks.
-Stoves are like Campfires, except they have 6 spaces instead of 4.
-Too many machines attached to a single power source may cause overstress.
-Suspicious Stews can only be obtained from loot and Shiitake Mooshrooms.
-You can find Wild Tea in Swamps and Wild Coffee in Basalt Deltas.
-You can find Wild Eggplants in Jungles and Rainforests.
-Thrashers roam Deep Frozen Oceans and attack if they locate you.
-Torch Arrows place Torches where they land or light mobs they hit on fire.
-Rose Gold Arrows fly far and knock mobs away.
-Steel Arrows are heavy and deal more damage.
-Lachryte Arrows swap you and your target's places.
-Trains allow for mass item transport and highly stylish travel.
-The wood type of Water Wheels can be changed by right-clicking with Planks.
-There are numerous wood types in RF. Which one's your favorite?
-Shearing Yaks yields Yak Hair, but it'll also make them angry at you.
-Shearing Bears yields Bear Fur, but it'll also make them angry at you.
-Shearing Mooblooms yields a few Buttercups and turn them into regular Cows.
-Awoken Exopearls fly towards ruined structures.
-Spirited Exopearls fly towards structures with spawners.
-Hand a Binding Exopearl to another player to easily locate them.
-Using Scaffolding can make building easier.
-Lead can be used as an alternative to Iron in some recipes.
-Compasses, Depth Gauges, Atlases and Spyglasses are helpful to bring along.
-Paragliders allow for slower descension.
-Smoke from fires boost you up when using a Paraglider.
-Koi fish reduce hostile mob spawns in an area.
-Large Obsidian spikes in the Nether are easy sources of Blazes.
-Blaze Spawners fill empty Blaze Burners when right-clicked.
-Cages allow you to capture smaller mobs.
-The Nether is a lot taller and denser than normal.
-Bronze has musical properties.
-Use Display Boards to display specific information about your machinery.
-Steam Engines provide large amounts of stress capacity.
-Lava oceans in the Nether are big enough to pump out an infinite amount of lava.
-Trains go through Nether Portals if there's a track on the other side.
-Unstable Spawners spawn a horde of mobs which will drop extra goodies.
-Craft Lightning Rods to redirect lightning, or create a cute buddy.
-Large Boats carry higher amounts of passengers or larger ones.
-Crawling through tight spaces can be useful in sticky situations.
-Various recipes leave behind byproducts.
-Sculk Shriekers give you three warnings before releasing the beast.
-Ancient Cities contain high amounts of loot.
-Deep in underwater caves, you may find groups of Nautili swimming around.
-Hostile mobs become neutral on Easy difficulty.
-Mimes copy your held item - and worn armor, if they hit you.
-Deepers explode and destroy terrain, but are only found underground.
-While Creepers don't destroy blocks, Deepers do.
-Peepers only move when you're not looking.
-Cameras allow you to capture precious moments.
-Leather can be cut into scraps and used more efficiently.
-Glow Ink Sacs can heal Dead Coral.
-Cattails grow best on Mud.
-Brushes allow you to brush some animals for drops.
-Glue Brushes can glue blocks together.
-Wax Brushes can wax loads of blocks at once.
-Pressing Shift + T while hovering over an item will share it in chat.
-Feeding a Golden Carrot to a Pig will make it find Truffles.
-Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find Buried Bugs.
-Worms shorten the time it takes to catch a fish.
-Spider Legs shorten the time it takes to catch a fish.
-Grubs decently shorten the time it takes to catch a fish.
-Minnows decently shorten the time it takes to catch a fish.
-Fireflies decently shorten the time it takes to catch a fish.
-Caterpillars significantly shorten the time it takes to catch a fish.
-Golden Worms significantly shorten the time it takes to catch a fish.
-Tackle Boxes can customise Reinforced Fishing Rods.
-Different Hooks have a different impact on the fishing experience.
-Grappling Hooks will make Reinforced Fishing Rods act like grapnels.
-Holding a Bucket of Water in the off-hand will make caught fish go in it.
-Copper and Gold can be hammered into Sheets, with a chance of breaking.
-Copper Golems are created with a Carved Pumpkin and a Lightning Rod.
-Tuff Golems are created with a Carved Pumpkin, any Wool and a Tuff block.
-Crops can be harvested by right-clicking them.
-Ores cannot be destroyed by explosions.
-Some Mechanical Crafting recipes require Slot Covers for empty slots.
-Some Mechanical Crafting recipes require a Redstone pulse to activate.
+{"placeholder":"local","values":{"key":"rf.menu.tip.1"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.2"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.3"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.4"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.5"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.6"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.7"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.8"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.9"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.10"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.11"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.12"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.13"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.14"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.15"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.16"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.17"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.18"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.19"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.20"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.21"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.22"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.23"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.24"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.25"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.26"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.27"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.28"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.29"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.30"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.31"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.32"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.33"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.34"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.35"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.36"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.37"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.38"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.39"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.40"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.41"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.42"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.43"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.44"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.45"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.46"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.47"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.48"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.49"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.50"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.51"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.52"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.53"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.54"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.55"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.56"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.57"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.58"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.59"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.60"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.61"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.62"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.63"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.64"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.65"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.66"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.67"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.68"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.69"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.70"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.71"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.72"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.73"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.74"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.75"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.76"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.77"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.78"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.79"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.80"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.81"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.82"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.83"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.84"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.85"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.86"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.87"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.88"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.89"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.90"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.91"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.92"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.93"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.94"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.95"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.96"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.97"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.98"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.99"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.100"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.101"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.102"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.103"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.104"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.105"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.106"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.107"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.108"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.109"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.110"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.111"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.112"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.113"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.114"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.115"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.116"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.117"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.118"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.119"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.120"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.121"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.122"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.123"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.124"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.125"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.126"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.127"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.128"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.129"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.130"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.131"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.132"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.133"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.134"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.135"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.136"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.137"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.138"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.139"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.140"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.141"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.142"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.143"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.144"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.145"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.146"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.147"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.148"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.149"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.150"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.151"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.152"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.153"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.154"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.155"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.156"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.157"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.158"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.159"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.160"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.161"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.162"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.163"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.164"}}
+{"placeholder":"local","values":{"key":"rf.menu.tip.165"}}

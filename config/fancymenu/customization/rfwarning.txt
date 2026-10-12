@@ -34,7 +34,7 @@ customization {
   action = addbutton
   actionid = 4acdb80e-1497-4370-a50f-ac7f8b06e1c21707075409220
   y = 83
-  label = Got it - let's play!
+  label = {"placeholder":"local","values":{"key":"rf.menu.warning.done"}}
   height = 20
 }
 

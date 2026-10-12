@@ -61,7 +61,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = &nGood night, {"placeholder":"playername"}! Here's a tip:
+  source = &n{"placeholder":"local","values":{"key":"rf.menu.sleepscreen.tips1"}}{"placeholder":"playername"}{"placeholder":"local","values":{"key":"rf.menu.sleepscreen.tips2"}}
   text_border = 0
   case_mode = normal
   source_mode = direct

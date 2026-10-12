@@ -23,7 +23,7 @@ customization {
   action = addbutton
   actionid = ea123a62-9be7-47c2-9d88-3338ef0cc6261726770270850
   y = 44
-  label = Singleplayer
+  label = {"placeholder":"local","values":{"key":"rf.menu.playerselectionmenu.singleplayer"}}
   height = 20
 }
 
@@ -38,7 +38,7 @@ customization {
   action = addbutton
   actionid = 733fac14-0438-4ac9-b47a-bb58d4a4670a1726770300128
   y = 0
-  label = Multiplayer
+  label = {"placeholder":"local","values":{"key":"rf.menu.playerselectionmenu.multiplayer"}}
   height = 20
 }
 
@@ -53,7 +53,7 @@ customization {
   action = addbutton
   actionid = 34fd7c46-0c3c-4a29-ac7a-3f463eedd6661726770548148
   y = 23
-  label = Cancel
+  label = {"placeholder":"local","values":{"key":"rf.menu.global.cancle"}}
   height = 20
 }
 

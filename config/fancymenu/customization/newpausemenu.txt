@@ -46,7 +46,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
   action = setbuttonlabel
-  value = Mods & Configs
+  value = {"placeholder":"local","values":{"key":"rf.menu.global.mods"}}
 }
 
 customization {
@@ -102,7 +102,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
   action = setbuttondescription
-  description = Advancements
+  description = {"placeholder":"local","values":{"key":"rf.menu.newpausemenu.advancements"}}
 }
 
 customization {
@@ -133,7 +133,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
   action = setbuttonlabel
-  value = Save & Quit
+  value = {"placeholder":"local","values":{"key":"rf.menu.newpausemenu.saveandquit"}}
 }
 
 customization {
@@ -170,7 +170,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
   action = setbuttondescription
-  description = Statistics
+  description = {"placeholder":"local","values":{"key":"rf.menu.newpausemenu.statistics"}}
 }
 
 customization {
@@ -207,7 +207,7 @@ customization {
 customization {
   identifier = %id=504330%
   action = setbuttondescription
-  description = Open to LAN / Player Reporting
+  description = {"placeholder":"local","values":{"key":"rf.menu.newpausemenu.opentolan"}}
 }
 
 customization {

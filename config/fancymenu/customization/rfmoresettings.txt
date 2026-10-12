@@ -23,7 +23,7 @@ customization {
   action = addbutton
   actionid = af6a7f33-711e-464a-bd47-6905541308051713556219345
   y = -75
-  label = Chat Settings...
+  label = {"placeholder":"local","values":{"key":"rf.menu.moresettings.chatsettings"}}
   height = 20
 }
 
@@ -38,7 +38,7 @@ customization {
   action = addbutton
   actionid = de8102da-cd75-4ef3-bb70-f0f3019bad6d1713556331462
   y = 52
-  label = Accessibility Settings...
+  label = {"placeholder":"local","values":{"key":"rf.menu.moresettings.accessibilitysettings"}}
   height = 20
 }
 
@@ -53,7 +53,7 @@ customization {
   action = addbutton
   actionid = 5cfa813c-3997-4600-979f-5b724cd219b11713556434330
   y = 26
-  label = Skin Settings...
+  label = {"placeholder":"local","values":{"key":"rf.menu.moresettings.skinsettings"}}
   height = 20
 }
 
@@ -68,7 +68,7 @@ customization {
   action = addbutton
   actionid = d7202fbc-0bd1-4279-85c4-c486ac93cdd31713556577820
   y = 78
-  label = Mods & Configurations...
+  label = {"placeholder":"local","values":{"key":"rf.menu.global.mods"}}
   height = 20
 }
 
@@ -77,7 +77,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = More Settings
+  source = {"placeholder":"local","values":{"key":"rf.menu.moresettings.moresettings"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -101,7 +101,7 @@ customization {
   action = addbutton
   actionid = 07b337d8-07f5-441f-a77d-ad87077384191713556845194
   y = 81
-  label = Done
+  label = {"placeholder":"local","values":{"key":"rf.menu.global.done"}}
   height = 20
 }
 
@@ -116,7 +116,7 @@ customization {
   action = addbutton
   actionid = 3902f191-b670-46a0-9bff-2957c177c14c1713557093963
   y = 115
-  label = Frequently Asked Questions...
+  label = {"placeholder":"local","values":{"key":"rf.menu.moresettings.moreinfo"}}
   height = 20
 }
 

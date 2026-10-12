@@ -28,7 +28,7 @@ customization {
   action = addbutton
   actionid = 742983b5-b7fa-4a7a-9843-9cc6ab0070c91713553835914
   y = -27
-  label = Back
+  label = {"placeholder":"local","values":{"key":"rf.menu.global.back"}}
   height = 20
 }
 

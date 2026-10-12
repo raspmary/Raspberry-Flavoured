@@ -120,7 +120,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
-  value = Mods & Configs
+  value = {"placeholder":"local","values":{"key":"rf.menu.global.mods"}}
 }
 
 customization {
@@ -235,7 +235,7 @@ customization {
   action = addbutton
   actionid = ad42939d-ae19-4080-a71b-3afa21bf2b151713554368206
   y = 16
-  label = Read before you play!
+  label = {"placeholder":"local","values":{"key":"rf.menu.newtitle.warning"}}
   height = 20
 }
 
@@ -244,7 +244,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = opengui;rfchangelog%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/fancymenu_assets/changelogbuttonhover.png
-  description = Changelog
+  description = {"placeholder":"local","values":{"key":"rf.menu.newtitle.changelog"}}
   label = 
   loopbackgroundanimations = true
   orientation_element = e72ff7e0-6b52-49ef-a5ac-8e6f9203fd3c1714670605984
@@ -262,7 +262,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = opengui;rfcredits%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/fancymenu_assets/creditsbuttonhover.png
-  description = Credits
+  description = {"placeholder":"local","values":{"key":"rf.menu.newtitle.credits"}}
   label = 
   loopbackgroundanimations = true
   hoverlabel = 
@@ -298,7 +298,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = join_last_world%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/fancymenu_assets/lastworldbuttonhover.png
-  description = Play Last World
+  description = {"placeholder":"local","values":{"key":"rf.menu.newtitle.playlastworld"}}
   label = 
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button

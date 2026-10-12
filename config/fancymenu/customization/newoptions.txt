@@ -160,7 +160,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = Settings Menu
+  source = {"placeholder":"local","values":{"key":"rf.menu.newoptions.settingsmenu"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -179,7 +179,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Settings
+  source = {"placeholder":"local","values":{"key":"rf.menu.newoptions.settings"}}
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -204,7 +204,7 @@ customization {
   action = addbutton
   actionid = 2853c624-0646-474f-8cf9-b2fbfdbd41e61713556086922
   y = -45
-  label = More Settings...
+  label = {"placeholder":"local","values":{"key":"rf.menu.newoptions.moresettings"}}
   height = 20
 }
 
