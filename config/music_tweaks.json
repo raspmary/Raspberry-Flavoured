@@ -1,0 +1,37 @@
+{
+  "enabled": false,
+  "min_pursuit_entities": 3,
+  "decay_time": 3,
+  "sounds": [
+    "minecraft:music_disc.pigstep",
+    "minecraft:music_disc.mellohi"
+  ],
+  "ignored_damage_sources": [
+    "anvil",
+    "badRespawnPoint",
+    "cactus",
+    "cramming",
+    "drown",
+    "dryout",
+    "fall",
+    "fallingBlock",
+    "fallingStalactite",
+    "flyIntoWall",
+    "freeze",
+    "hotFloor",
+    "inFire",
+    "inWall",
+    "lava",
+    "lightningBolt",
+    "onFire",
+    "outOfWorld",
+    "stalagmite",
+    "starve",
+    "sweetBerryBush"
+  ],
+  "music_frequency": "DEFAULT",
+  "show_music_toast": true,
+  "better_jukeboxes": true,
+  "jukebox_fade_out": true,
+  "jukebox_distance": 64.0
+}

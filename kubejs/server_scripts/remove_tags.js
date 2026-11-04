@@ -2007,6 +2007,22 @@ ServerEvents.tags('item', event => {
     "modestmining:bronze_hammer",
     "modestmining:steel_hammer",
     "modestmining:valkyrium_hammer",
+	"modestmining:prismarite_sword",
+	"modestmining:prismarite_axe",
+	"modestmining:prismarite_shovel",
+	"modestmining:prismarite_pickaxe",
+	"modestmining:prismarite_hoe",
+	"modestmining:prismarite_helmet",
+	"modestmining:prismarite_chestplate",
+	"modestmining:prismarite_leggings",
+	"modestmining:prismarite_boots",
+	"modestmining:wooden_hammer",
+	"modestmining:stone_hammer",
+	"modestmining:iron_hammer",
+	"modestmining:golden_hammer",
+	"modestmining:diamond_hammer",
+	"modestmining:netherite_hammer",
+	"modestmining:prismarite_hammer",
     "modestmining:aluminium_block",
     "modestmining:raw_aluminium_block",
     "modestmining:aluminium_ore",
@@ -2455,7 +2471,8 @@ ServerEvents.tags('item', event => {
     "design_decor:knightslime_large_chain",
     "design_decor:queen_slime_large_chain",
     "minecraft:quartz_pillar",
-	"modestmining:copper_nugget"
+	"modestmining:copper_nugget",
+	"quark:pickarang"
 	])
 	
 	event.removeAll('createaddition:plant_foods')

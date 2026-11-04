@@ -6,31 +6,41 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "name": "quark:forgotten_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:evoker_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:witch_spawn_egg"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "dungeons_mobs:icy_creeper_spawn_egg"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "dungeons_mobs:frozen_zombie_spawn_egg"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "dungeons_mobs:mossy_skeleton_spawn_egg"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 3,
           "name": "caverns_and_chasms:mime_spawn_egg"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 3,
           "name": "minecraft:cave_spider_spawn_egg"
         },
         {
@@ -40,7 +50,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 5,
           "name": "minecraft:creeper_spawn_egg"
         },
         {
@@ -52,6 +62,11 @@
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "minecraft:skeleton_spawn_egg"
         },
         {
           "type": "minecraft:item",

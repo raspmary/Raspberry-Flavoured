@@ -41,10 +41,27 @@ ServerEvents.recipes(event => {
 
 		let woodIds = Ingredient.of([woodTag, '#raspberry_flavoured:' + woodType]).itemIds
 		let barkedIds = Ingredient.of('#raspberry_flavoured:barked_logs').itemIds
+		let latexIds = [
+			'kubejs:latex_jungle_wood', 'kubejs:latex_jungle_log', 
+			'kubejs:latex_rosewood', 'kubejs:latex_rosewood_log'
+		]
+		let sappyIds = ['autumnity:sappy_maple_wood', 'autumnity:sappy_maple_log']
 		
-		// do not add recipes that output unstripped logs/wood
+		// do not add recipes that output unstripped logs/wood or latex logs
 		outer: for (let id of woodIds) {
 			for (let testId of barkedIds) {
+				if (id == testId)
+				{
+					continue outer
+				}
+			}
+			for (let testId of latexIds) {
+				if (id == testId)
+				{
+					continue outer
+				}
+			}
+			for (let testId of sappyIds) {
 				if (id == testId)
 				{
 					continue outer
@@ -63,7 +80,6 @@ ServerEvents.recipes(event => {
 		Ingredient.of([quarterTag, quarterTag + '_output']).itemIds.forEach(id => {
 			event.stonecutting('4x ' + id, woodTag)
 			event.stonecutting('2x ' + id, halfTag)
-			event.stonecutting('1x ' + id, quarterTag)
 			event.stonecutting('1x ' + id, quarterTag)
 		})
 
@@ -95,10 +111,6 @@ ServerEvents.recipes(event => {
 		if (woodType == 'driftwood' || woodType == 'grimwood' || woodType == 'rosewood'){
 			unstrippedWoodId = `${originMod}:${woodType}`
 		}
-
-		console.log(unstrippedLogId)
-		console.log(unstrippedWoodId)
-		console.log(woodTag)
 		
 		// add one-to-one conversions between unstripped logs and unstripped wood
 		if (woodType != 'bamboo' && woodType != 'powdery'){
@@ -107,6 +119,14 @@ ServerEvents.recipes(event => {
 		}
 		addWoodRecipes(woodType, woodTag)
 	})
+
+	// add log <-> wood conversions back for sap and latex
+	event.stonecutting('1x ' + 'kubejs:latex_jungle_log', 'kubejs:latex_jungle_wood')
+	event.stonecutting('1x ' + 'kubejs:latex_jungle_wood', 'kubejs:latex_jungle_log')
+	event.stonecutting('1x ' + 'kubejs:latex_rosewood_log', 'kubejs:latex_rosewood')
+	event.stonecutting('1x ' + 'kubejs:latex_rosewood', 'kubejs:latex_rosewood_log')
+	event.stonecutting('1x ' + 'autumnity:sappy_maple_log', 'autumnity:sappy_maple_wood')
+	event.stonecutting('1x ' + 'autumnity:sappy_maple_wood', 'autumnity:sappy_maple_log')
 
 	const removedRecipes = [
 	'atmospheric:ivory_travertine',

@@ -3811,7 +3811,9 @@ ServerEvents.recipes(event => {
 	"hnh:stone_column",
 	"hnh:calcite_column",
 	"hnh:quartz_column",
-	"minecraft:quartz_pillar"
+	"minecraft:quartz_pillar",
+	"create:crafting/materials/copper_ingot",
+	"copycats:crafting/copycat_block_from_slabs"
 	]
     
     removedIds.forEach(removedId => {

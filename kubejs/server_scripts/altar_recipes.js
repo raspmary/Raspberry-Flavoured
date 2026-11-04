@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'kubejs:cyclic_tablet'}})
 	// Enduring
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
-	{tag: 'raspberry_flavoured:golden_healers'}, {item: 'environmental:truffle'}, {item: 'heart_crystals:heart_crystal_shard'}
+	{tag: 'raspberry_flavoured:golden_healers'}, {item: 'environmental:truffle'}, {item: 'heart_crystals:heart_crystal_shard'}, {item: 'heart_crystals:heart_crystal_shard'}
 	], result: {item: 'kubejs:enduring_tablet'}})
 	// Everlasting
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
@@ -154,6 +154,11 @@ ServerEvents.recipes(event => {
 	{item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, 
 	{item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}, {item: 'minecraft:magma_cream'}
 	], consume_base: false, durability_taken: 100, result_entity: 'minecraft:magma_cube', entity_nbt: {Size: 1}})
+	// Summon allay
+	event.custom({type: 'modestmagic:summoning', base: {item: 'savage_and_ravage:conch_of_conjuring'}, ingredients: [
+	{item: 'minecraft:prismarine_shard'}, {item: 'minecraft:prismarine_shard'}, {item: 'minecraft:prismarine_shard'}, 
+	{item: 'minecraft:prismarine_shard'}, {item: 'minecraft:prismarine_shard'}, {item: 'minecraft:prismarine_shard'}
+	], consume_base: false, durability_taken: 100, result_entity: 'minecraft:allay'})
 	
 	// Summon item
 	// event.custom({type: 'modestmagic:summoning', base: {item: 'savage_and_ravage:conch_of_conjuring'}, ingredients: [

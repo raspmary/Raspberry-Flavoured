@@ -1,0 +1,5 @@
+
+["Configs for dixta's Armory"]
+	#Should all weapon damage be rounded to the nearest whole number?
+	"Round weapon damage" = false
+

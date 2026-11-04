@@ -25,6 +25,7 @@ ServerEvents.recipes(event => {
 	stairs('kubejs:polished_feldspar','kubejs:polished_feldspar_stairs')
 	stairs('kubejs:feldspar_bricks','kubejs:feldspar_brick_stairs')
 	stairs('kubejs:diamond_plating_block','kubejs:diamond_plating_stairs')
+	stairs('copycats:copycat_block','copycats:copycat_stairs')
 
 	stairs('sandstone','sandstone_stairs')
 	stairs('quark:sandstone_bricks','quark:sandstone_bricks_stairs')
@@ -63,6 +64,7 @@ ServerEvents.recipes(event => {
 	slab('kubejs:polished_feldspar','kubejs:polished_feldspar_slab')
 	slab('kubejs:feldspar_bricks','kubejs:feldspar_brick_slab')
 	slab('kubejs:diamond_plating_block','kubejs:diamond_plating_slab')
+	slab('copycats:copycat_block','copycats:copycat_slab')
 
 	slab('sandstone','sandstone_slab')
 	slab('cut_sandstone','cut_sandstone_slab')

@@ -249,11 +249,6 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "oreganized:molten_lead_bucket",
-          "weight": 6
-        },
-		{
-          "type": "minecraft:item",
           "name": "sullysmod:cave_chum_bucket",
           "weight": 10
         },
@@ -264,13 +259,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "kubejs:sporedough",
+          "name": "raspberry:marshmallow",
           "weight": 10
         },
 		{
@@ -440,8 +435,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
@@ -500,7 +495,7 @@
             }
           ],
           "name": "quark:blank_rune",
-          "weight": 10
+          "weight": 15
         },
 		{
           "type": "minecraft:item",
@@ -541,7 +536,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 24.0,
+                "max": 16.0,
                 "min": 8.0
               },
               "function": "minecraft:set_count"
@@ -681,17 +676,22 @@
 		{
           "type": "minecraft:item",
           "name": "minecraft:compass",
-          "weight": 25
+          "weight": 20
         },
 		{
           "type": "minecraft:item",
           "name": "caverns_and_chasms:depth_gauge",
-          "weight": 25
+          "weight": 20
         },
 		{
           "type": "minecraft:item",
           "name": "minecraft:spyglass",
-          "weight": 25
+          "weight": 20
+        },
+		{
+          "type": "minecraft:item",
+          "name": "kubejs:herb_bag",
+          "weight": 20
         },
 		{
           "type": "minecraft:item",
@@ -700,6 +700,17 @@
         },
 		{
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "brewinandchewin:glittering_grenadine",
           "weight": 6
         },

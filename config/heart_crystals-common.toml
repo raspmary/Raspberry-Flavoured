@@ -9,7 +9,7 @@
 	"Maximum Hearts" = 20
 	#The range in blocks that heart lanterns can give the regeneration effect; default: 2
 	#Range: 1 ~ 10
-	"Heart Lantern Regen Range" = 3
+	"Heart Lantern Regen Range" = 10
 
 #Heart Crystals World Gen
 [world-gen]

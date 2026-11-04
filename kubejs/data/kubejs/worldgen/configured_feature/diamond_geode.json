@@ -12,13 +12,13 @@
         "type": "minecraft:weighted_state_provider",
         "entries": [
           {
-            "weight": 20,
+            "weight": 40,
             "data": {
               "Name": "minecraft:deepslate"
             }
           },
           {
-            "weight": 4,
+            "weight": 8,
             "data": {
               "Name": "minecraft:deepslate_diamond_ore"
             }
@@ -35,13 +35,13 @@
         "type": "minecraft:weighted_state_provider",
         "entries": [
           {
-            "weight": 20,
+            "weight": 40,
             "data": {
               "Name": "minecraft:deepslate"
             }
           },
           {
-            "weight": 4,
+            "weight": 8,
             "data": {
               "Name": "minecraft:deepslate_diamond_ore"
             }
@@ -79,10 +79,10 @@
       "invalid_blocks": "#minecraft:geode_invalid_blocks"
     },
     "layers": {
-      "filling": 1.7,
-      "inner_layer": 2.2,
-      "middle_layer": 3.2,
-      "outer_layer": 4.2
+      "filling": 0.6,
+      "inner_layer": 1.1,
+      "middle_layer": 2.1,
+      "outer_layer": 3.1
     },
     "crack": {
       "generate_crack_chance": 0.7,

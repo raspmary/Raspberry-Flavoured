@@ -330,7 +330,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['4x alloyed:bronze_nugget'], 'caverns_and_chasms:tuning_fork')
 	event.recipes.create.milling(['4x alloyed:bronze_nugget', Item.of('echo_shard').withChance(0.1)], 'spelunkery:echo_fork')
 	event.recipes.create.milling(['10x spelunkery:raw_magnetite_nugget', '9x oreganized:lead_nugget', '9x spelunkery:cinnabar_shard'], 'spelunkery:item_magnet')
-	event.recipes.create.milling(['2x create:powdered_obsidian', Item.of('echo_shard').withChance(0.5), Item.of('quark:soul_bead').withChance(0.25)], 'quark:echorang')
+	event.recipes.create.milling(['16x create:powdered_obsidian', Item.of('echo_shard').withChance(0.5), Item.of('quark:soul_bead').withChance(0.25)], 'quark:echorang')
 	event.recipes.create.milling(['4x kubejs:rose_gold_nugget', Item.of('stick').withChance(0.5)], 'quark:trowel')
 	event.recipes.create.milling(['2x iron_nugget', '8x stick'], 'quark:abacus')
 	event.recipes.create.milling(['4x iron_nugget'], 'supplementaries:bubble_blower')

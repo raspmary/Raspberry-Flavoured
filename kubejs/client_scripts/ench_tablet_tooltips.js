@@ -54,7 +54,7 @@ ItemEvents.tooltip(event => {
         tablet_tooltip(event, text, [
             ["ensorcellation:cavalier", 3, ["rf.ench.melee_weapons", "rf.ench.utility"], 2],
             ["miningmaster:knight_jump", 3, ["rf.ench.leggings"], 3],
-            ["domesticationinnovation:intimidation", 1, ["item.domesticationinnovation.collar_tag"], 2]
+            ["domesticationinnovation:intimidation", 1, ["item.domesticationinnovation.collar_tag"], 1]
         ])
 	})
 	

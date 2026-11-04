@@ -161,7 +161,7 @@ ServerEvents.tags('item', event => {
 
   
   		[1,"WOOD_drawer",["another_furniture:","everycomp:af/MOD/"]],
-  		[2,"WOOD_table",["another_furniture:","everycomp:af/MOD/"]],
+  		[4,"WOOD_table",["another_furniture:","everycomp:af/MOD/"]],
   		[4,"WOOD_shutter",["another_furniture:","everycomp:af/MOD/"]],
   		[4,"WOOD_shelf",["another_furniture:","everycomp:af/MOD/"]],
   		[4,"WOOD_chair",["another_furniture:","everycomp:af/MOD/"]],
